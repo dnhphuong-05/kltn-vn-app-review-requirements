@@ -1,0 +1,17 @@
+# FROZEN trước final Hold-out. Không sửa sau khi mở Hold-out.
+seed: 42
+learning_curve_seeds: [42, 1337, 2024]
+tier1:
+  positive_class: ACTIONABLE
+  threshold: 0.5          # tune trên Validation: Recall_ACTIONABLE >= 0.90 rồi max Macro-F1 (protocol v1.1)
+tier2:
+  classes: [BUG, FEATURE, UX]
+strategy_b_visobert:
+  model_name: uitnlp/visobert
+  max_len: 256
+  lr: 2.0e-5
+  epochs: 4
+strategy_c_llm:
+  provider: openai
+  model: gpt-4o-mini-2024-07-18   # snapshot pin (protocol v1.1)
+  temperature: 0.0

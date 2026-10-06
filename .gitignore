@@ -1,0 +1,22 @@
+# Dữ liệu thô & nhạy cảm (không commit)
+01_data/raw/
+01_data/interim/
+01_data/processed/
+01_data/gold/annotations/
+*.pii.*
+# Kết quả nặng / checkpoint
+05_experiments/**/checkpoints/
+*.pt
+*.bin
+*.safetensors
+*.pbix
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+env/
+# OS
+.DS_Store
+# Secret (API key) — chỉ commit .env.example
+.env

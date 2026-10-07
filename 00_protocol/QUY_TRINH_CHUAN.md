@@ -34,9 +34,11 @@ seeds, model/version của LLM. Sau mốc này, mọi thay đổi vào `protocol
 ## GĐ1 — Thu thập (notebook 01)
 INPUT: Google Play (Shopee main, Lazada external).
 LÀM: crawl review + metadata (date, app version, rating) — CHẠY LOCAL (Kaggle tắt
-internet mặc định), logic ở `src/collect/google_play.py`. Sort NEWEST, dừng theo NGÀY
+internet mặc định), logic ở `src/collect/google_play.py`. Sort NEWEST (Shopee tách theo
+`filter_score_with` = 1..5 rồi gộp + khử trùng theo review_id — amendment v1.4), dừng theo NGÀY
 khi lô vượt cutoff 2025-10-06 (T0 = 2026-10-06 − 12 tháng, amendment v1.3), trần an toàn 120.000/app (amendment v1.2).
-Hash userName, không lưu userImage. Lưu JSONL vào `01_data/raw/{shopee,lazada}/`.
+Hash userName, không lưu userImage, scrub PII ([NAME]/[PHONE]/[EMAIL]) trong text + reply_content
+ngay khi ghi. Lưu JSONL vào `01_data/raw/{shopee,lazada}/`.
 KHÔNG sửa file raw về sau. Xong upload raw lên Kaggle làm Dataset.
 OUTPUT: raw snapshot + manifest (T0, version thư viện, package id, lang/country, sort,
 số review, min/max review_date, checksum) vào `01_data/manifests/`.

@@ -1,0 +1,250 @@
+{
+  "stage": "GĐ1 data collection",
+  "T0": "2026-10-06",
+  "cutoff": "2025-10-06T00:00:00+07:00",
+  "library": "google-play-scraper==1.2.7",
+  "python": "3.13.1",
+  "lang": "vi",
+  "country": "vn",
+  "sort": "NEWEST",
+  "review_date_tz": "UTC (converted from library local-time `at`)",
+  "pii": "userName -> sha256[:12]; userImage not stored; text/reply_content scrubbed ([NAME] after greetings, [PHONE], [EMAIL]) — amendment v1.4",
+  "t0_filter": "reviews with review_date > 2026-10-06T23:59:59+07:00 (end of T0 day) skipped at crawl time so a run after T0 still snapshots the corpus as of T0; counts in n_excluded_after_t0 (no amendment: mechanism to enforce T0)",
+  "runs": [
+    {
+      "app": "shopee",
+      "package_id": "com.shopee.vn",
+      "mode": "stratified_by_rating",
+      "strata": [
+        {
+          "app_id": "com.shopee.vn",
+          "filter_score_with": 1,
+          "out_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\raw\\shopee\\shopee_stratified_T0_2026-10-06_score1.jsonl",
+          "n_reviews": 22600,
+          "n_batches": 113,
+          "n_pii_replacements": 128,
+          "n_excluded_after_t0": 0,
+          "t0_end": "2026-10-06T23:59:59+07:00",
+          "stop_reason": "reached_cutoff",
+          "started_utc": "2026-10-07T00:33:10.290008+00:00",
+          "finished_utc": "2026-10-07T00:35:59.814366+00:00",
+          "cutoff": "2025-10-06T00:00:00+07:00",
+          "cap": 120000,
+          "batch": 200,
+          "min_review_date": "2025-10-02T09:30:05+00:00",
+          "max_review_date": "2026-10-05T23:26:39+00:00",
+          "rating_counts": {
+            "1": 22600
+          },
+          "app_version_null_rate": 0.307,
+          "sha256": "fc5b04e9a1f0e418f71a4341ca6406fb86bde909943644853358e70f8fc9f11a",
+          "resumed": false,
+          "hit_cap": false,
+          "accepted": true
+        },
+        {
+          "app_id": "com.shopee.vn",
+          "filter_score_with": 2,
+          "out_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\raw\\shopee\\shopee_stratified_T0_2026-10-06_score2.jsonl",
+          "n_reviews": 2000,
+          "n_batches": 10,
+          "n_pii_replacements": 10,
+          "n_excluded_after_t0": 0,
+          "t0_end": "2026-10-06T23:59:59+07:00",
+          "stop_reason": "reached_cutoff",
+          "started_utc": "2026-10-07T00:37:00.003839+00:00",
+          "finished_utc": "2026-10-07T00:37:13.980452+00:00",
+          "cutoff": "2025-10-06T00:00:00+07:00",
+          "cap": 120000,
+          "batch": 200,
+          "min_review_date": "2025-09-16T07:38:29+00:00",
+          "max_review_date": "2026-10-06T00:18:03+00:00",
+          "rating_counts": {
+            "2": 2000
+          },
+          "app_version_null_rate": 0.2855,
+          "sha256": "47a1e76463286312e01d1fe1eebe41b4dc1be62505a57ed7d7bbb0e26b72a079",
+          "resumed": false,
+          "hit_cap": false,
+          "accepted": true
+        },
+        {
+          "app_id": "com.shopee.vn",
+          "filter_score_with": 3,
+          "out_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\raw\\shopee\\shopee_stratified_T0_2026-10-06_score3.jsonl",
+          "n_reviews": 2000,
+          "n_batches": 10,
+          "n_pii_replacements": 19,
+          "n_excluded_after_t0": 0,
+          "t0_end": "2026-10-06T23:59:59+07:00",
+          "stop_reason": "reached_cutoff",
+          "started_utc": "2026-10-07T00:38:14.005632+00:00",
+          "finished_utc": "2026-10-07T00:38:27.638798+00:00",
+          "cutoff": "2025-10-06T00:00:00+07:00",
+          "cap": 120000,
+          "batch": 200,
+          "min_review_date": "2025-09-12T01:41:21+00:00",
+          "max_review_date": "2026-10-05T14:32:44+00:00",
+          "rating_counts": {
+            "3": 2000
+          },
+          "app_version_null_rate": 0.2645,
+          "sha256": "033643232172aa867ad1a8d51cbc552e10db6d3278a7e48096b3ebaa9ad12de4",
+          "resumed": false,
+          "hit_cap": false,
+          "accepted": true
+        },
+        {
+          "app_id": "com.shopee.vn",
+          "filter_score_with": 4,
+          "out_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\raw\\shopee\\shopee_stratified_T0_2026-10-06_score4.jsonl",
+          "n_reviews": 3000,
+          "n_batches": 15,
+          "n_pii_replacements": 18,
+          "n_excluded_after_t0": 0,
+          "t0_end": "2026-10-06T23:59:59+07:00",
+          "stop_reason": "reached_cutoff",
+          "started_utc": "2026-10-07T00:39:27.685792+00:00",
+          "finished_utc": "2026-10-07T00:39:48.566530+00:00",
+          "cutoff": "2025-10-06T00:00:00+07:00",
+          "cap": 120000,
+          "batch": 200,
+          "min_review_date": "2025-09-14T16:25:27+00:00",
+          "max_review_date": "2026-10-05T18:31:36+00:00",
+          "rating_counts": {
+            "4": 3000
+          },
+          "app_version_null_rate": 0.2547,
+          "sha256": "a0f893285cd00cfb1b149e1a649739843095728060cfd20daa1b4c1162d2f4bc",
+          "resumed": false,
+          "hit_cap": false,
+          "accepted": true
+        },
+        {
+          "app_id": "com.shopee.vn",
+          "filter_score_with": 5,
+          "out_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\raw\\shopee\\shopee_stratified_T0_2026-10-06_score5.jsonl",
+          "n_reviews": 27600,
+          "n_batches": 138,
+          "n_pii_replacements": 60,
+          "n_excluded_after_t0": 0,
+          "t0_end": "2026-10-06T23:59:59+07:00",
+          "stop_reason": "reached_cutoff",
+          "started_utc": "2026-10-07T00:40:48.597104+00:00",
+          "finished_utc": "2026-10-07T00:44:17.190030+00:00",
+          "cutoff": "2025-10-06T00:00:00+07:00",
+          "cap": 120000,
+          "batch": 200,
+          "min_review_date": "2025-10-03T06:27:25+00:00",
+          "max_review_date": "2026-10-05T23:09:08+00:00",
+          "rating_counts": {
+            "5": 27600
+          },
+          "app_version_null_rate": 0.2254,
+          "sha256": "ff40eee35d90dd9081fa1f25b7446e025c92594b072eb1486cec546c7381781e",
+          "resumed": false,
+          "hit_cap": false,
+          "accepted": true
+        }
+      ],
+      "merge": {
+        "merged_from": [
+          "shopee_stratified_T0_2026-10-06_score1.jsonl",
+          "shopee_stratified_T0_2026-10-06_score2.jsonl",
+          "shopee_stratified_T0_2026-10-06_score3.jsonl",
+          "shopee_stratified_T0_2026-10-06_score4.jsonl",
+          "shopee_stratified_T0_2026-10-06_score5.jsonl"
+        ],
+        "n_in": 57200,
+        "n_out": 57200,
+        "n_duplicates": 0,
+        "out_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\raw\\shopee\\shopee_reviews_stratified_T0_2026-10-06.jsonl"
+      },
+      "n_reviews": 57200,
+      "min_review_date": "2025-09-12T01:41:21+00:00",
+      "max_review_date": "2026-10-06T00:18:03+00:00",
+      "rating_counts": {
+        "1": 22600,
+        "2": 2000,
+        "3": 2000,
+        "4": 3000,
+        "5": 27600
+      },
+      "app_version_null_rate": 0.2626,
+      "sha256": "d8115c1fd7d93812bc8c4d480889ff14e143b2ff63f9717d307bc76149657a72",
+      "n_excluded_after_t0": 0,
+      "hit_cap": false,
+      "accepted": true
+    },
+    {
+      "app": "lazada",
+      "package_id": "com.lazada.android",
+      "mode": "newest",
+      "app_id": "com.lazada.android",
+      "filter_score_with": null,
+      "out_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\raw\\lazada\\lazada_reviews_T0_2026-10-06_r2.jsonl",
+      "n_reviews": 3600,
+      "n_batches": 18,
+      "n_pii_replacements": 1940,
+      "n_excluded_after_t0": 0,
+      "t0_end": "2026-10-06T23:59:59+07:00",
+      "stop_reason": "reached_cutoff",
+      "started_utc": "2026-10-07T00:54:18.471129+00:00",
+      "finished_utc": "2026-10-07T00:54:45.724678+00:00",
+      "cutoff": "2025-10-06T00:00:00+07:00",
+      "cap": 120000,
+      "batch": 200,
+      "min_review_date": "2025-09-26T06:06:47+00:00",
+      "max_review_date": "2026-10-05T22:45:41+00:00",
+      "rating_counts": {
+        "1": 2165,
+        "2": 125,
+        "3": 141,
+        "4": 134,
+        "5": 1035
+      },
+      "app_version_null_rate": 0.3419,
+      "sha256": "c7c882890de91be22b1e5789f0b619dedbe04316cae4f2e776ddecf7afddef85",
+      "hit_cap": false,
+      "accepted": true
+    },
+    {
+      "post_process_scrub": [
+        {
+          "in_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\raw\\shopee\\shopee_reviews_T0_2026-10-06.jsonl",
+          "out_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\raw\\shopee\\shopee_reviews_T0_2026-10-06_scrubbed.jsonl",
+          "n_reviews": 40000,
+          "n_pii_replacements": 155,
+          "min_review_date": "2026-01-12T09:37:48+00:00",
+          "max_review_date": "2026-10-05T14:36:52+00:00",
+          "rating_counts": {
+            "1": 16156,
+            "2": 1359,
+            "3": 1317,
+            "4": 2017,
+            "5": 19151
+          },
+          "app_version_null_rate": 0.2666,
+          "sha256": "4a1ba30eb8ecba5c867b936171bbf73db0589100d3dbe905615ea4fb57b1681b"
+        },
+        {
+          "in_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\raw\\lazada\\lazada_reviews_T0_2026-10-06.jsonl",
+          "out_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\raw\\lazada\\lazada_reviews_T0_2026-10-06_scrubbed.jsonl",
+          "n_reviews": 200,
+          "n_pii_replacements": 103,
+          "min_review_date": "2026-09-07T08:56:22+00:00",
+          "max_review_date": "2026-10-05T13:57:30+00:00",
+          "rating_counts": {
+            "1": 93,
+            "2": 11,
+            "3": 8,
+            "4": 9,
+            "5": 79
+          },
+          "app_version_null_rate": 0.35,
+          "sha256": "a11b536ae28fb276d3105a3a2f028c553f4bd6f20791f1e53c9ce67d9d6b239c"
+        }
+      ]
+    }
+  ]
+}

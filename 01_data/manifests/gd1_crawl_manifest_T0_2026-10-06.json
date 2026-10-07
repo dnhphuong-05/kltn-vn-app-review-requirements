@@ -1,0 +1,52 @@
+{
+  "stage": "GĐ1 data collection",
+  "T0": "2026-10-06",
+  "cutoff": "2025-10-06T00:00:00+07:00",
+  "library": "google-play-scraper==1.2.7",
+  "python": "3.13.1",
+  "lang": "vi",
+  "country": "vn",
+  "sort": "NEWEST",
+  "review_date_tz": "UTC (converted from library local-time `at`)",
+  "pii": "userName -> sha256[:12]; userImage not stored",
+  "runs": [
+    {
+      "app": "shopee",
+      "package_id": "com.shopee.vn",
+      "app_id": "com.shopee.vn",
+      "out_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\raw\\shopee\\shopee_reviews_T0_2026-10-06.jsonl",
+      "n_reviews": 40000,
+      "n_batches": 201,
+      "stop_reason": "empty_batch",
+      "started_utc": "2026-10-06T14:46:42.194939+00:00",
+      "finished_utc": "2026-10-06T14:52:53.658526+00:00",
+      "cutoff": "2025-10-06T00:00:00+07:00",
+      "cap": 120000,
+      "batch": 200,
+      "min_review_date": "2026-01-12T09:37:48+00:00",
+      "max_review_date": "2026-10-05T14:36:52+00:00",
+      "sha256": "b556fc70fbd8ba7caf3dd92ccc2b6f323c296fd274f111be7e7df8b6d69e4b3d",
+      "hit_cap": false,
+      "accepted": false
+    },
+    {
+      "app": "lazada",
+      "package_id": "com.lazada.android",
+      "app_id": "com.lazada.android",
+      "out_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\raw\\lazada\\lazada_reviews_T0_2026-10-06.jsonl",
+      "n_reviews": 200,
+      "n_batches": 2,
+      "stop_reason": "empty_batch",
+      "started_utc": "2026-10-06T14:52:53.892845+00:00",
+      "finished_utc": "2026-10-06T14:53:05.650542+00:00",
+      "cutoff": "2025-10-06T00:00:00+07:00",
+      "cap": 120000,
+      "batch": 200,
+      "min_review_date": "2026-09-07T08:56:22+00:00",
+      "max_review_date": "2026-10-05T13:57:30+00:00",
+      "sha256": "94b648bfa9e55986a3c66b1146dc63fa8d4f17b71e450b998fc578f281a3d098",
+      "hit_cap": false,
+      "accepted": false
+    }
+  ]
+}

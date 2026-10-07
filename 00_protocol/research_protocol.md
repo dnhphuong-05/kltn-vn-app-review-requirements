@@ -5,6 +5,8 @@
 > **Trạng thái: FROZEN v1.1 — 06/10/2026.** Q1–Q19 đã chốt (xem `protocol_amendments.md` v1.1).
 > Đã áp amendment **v1.2 (06/10/2026)**: quy tắc cụm mixed (Q14), trần crawl 120.000, thêm trường reply.
 > Đã áp amendment **v1.3 (06/10/2026)**: T0 = 2026-10-06 (ngày crawl thực tế), cutoff 2025-10-06, 3 cửa sổ temporal theo T0 mới.
+> Đã áp amendment **v1.4 (06/10/2026)**: Shopee crawl stratified theo rating; Hold-out giữ phân bố đã gom; scrub PII khi ghi raw.
+> Đã áp amendment **v1.5 (07/10/2026)**: corpus Shopee gộp theo mức sao được xác nhận near-natural (xấp xỉ toàn bộ review của cửa sổ 12 tháng).
 > Chỗ còn "pre-register sau EDA" (ngưỡng temporal) là nội dung đề cương yêu cầu chốt sau EDA
 > trên non-test data — sẽ ghi bằng amendment, không phải chỗ trống.
 >
@@ -89,15 +91,26 @@
 ## Dữ liệu (ĐC §5, §7.2.2, §7.2.3)
 - Nguồn: Google Play. Main: Shopee (~41.7k) ; External test: Lazada (~3.0k). Số chính xác ghi ở
   `01_data/manifests/` sau GĐ1. **T0 = 2026-10-06** (ngày crawl thực tế, Q18; amendment v1.3). Độ phủ dữ liệu ≥ 12 tháng:
-  crawl sort NEWEST, dừng theo NGÀY khi vượt cutoff **2025-10-06**; nghiệm thu GĐ1 khi
-  min(review_date) ≤ 2025-10-06 cho CẢ HAI app (không ép hai app cùng số lượng).
+  dừng theo NGÀY khi vượt cutoff **2025-10-06**; nghiệm thu GĐ1 khi min(review_date) ≤ 2025-10-06 cho CẢ HAI app
+  (không ép hai app cùng số lượng).
+  - **Shopee (amendment v1.4):** crawl `Sort.NEWEST` tách theo `filter_score_with` = 1..5 (Google Play giới hạn
+    phân trang ~40.000/lượt), mỗi mức sao dừng theo cutoff, rồi gộp + khử trùng theo `review_id`. Manifest ghi
+    min/max review_date và lý do dừng của TỪNG mức sao.
+  - **Lazada:** `Sort.NEWEST`, không lọc sao.
+  - **PII:** scrub ngay khi ghi raw — tên sau lời chào/cảm ơn → `[NAME]`, số điện thoại → `[PHONE]`, email →
+    `[EMAIL]`, áp cho `text` và `reply_content`; `userName` → sha256[:12]; không lưu `userImage`.
+- **Thiết lập phân bố (amendment v1.4, cập nhật v1.5):** corpus Shopee được thu thập theo từng mức sao rồi gộp.
+  Vì không mức sao nào bị chặn phân trang trước cutoff, corpus gộp xấp xỉ TOÀN BỘ review của cửa sổ 12 tháng
+  và có phân bố **gần tự nhiên (near-natural)** — bằng chứng ở mục Hạn chế. Pilot, Hold-out, Validation, Train
+  đều rút từ corpus đã gộp nên CÙNG phân bố; KHÔNG tái cân bằng bằng trọng số. "Random thuần" của Hold-out
+  (CLAUDE.md §4) hiểu là random thuần TRÊN corpus đã gộp.
 - Làm sạch tối thiểu (giữ phủ định, emoji, dấu câu, viết tắt); loại review hoàn toàn không phải tiếng Việt.
 
 | Tập | Kích thước | Cách tạo | Gán nhãn |
 |---|---|---|---|
-| Random pilot (ước prevalence) | 300–500 | Random thuần từ clean corpus Shopee, gán bằng guideline ĐÃ CHỐT | Double-label; **nằm trong Hold-out** (Q9) |
+| Random pilot (ước prevalence) | 300–500 | Random thuần từ clean corpus Shopee (corpus gộp theo mức sao, near-natural — v1.5), gán bằng guideline ĐÃ CHỐT. Prevalence dùng tính kích thước Hold-out; đồng thời (cập nhật v1.5) vì corpus near-natural, prevalence này XẤP XỈ tỷ lệ actionable trong review Google Play 12 tháng của app và được báo cáo như ước lượng KÈM khoảng tin cậy 95%. Ranh giới: đây là tỷ lệ trong REVIEW (self-selection bias — người gặp vấn đề có xu hướng viết review nhiều hơn), KHÔNG phải tỷ lệ trong toàn bộ người dùng; không suy ra "X% người dùng gặp vấn đề" | Double-label; **nằm trong Hold-out** (Q9) |
 | Calibration | 100–150 (2 batch × 50–75) | Random, rời với pilot/Hold-out | 2 annotator độc lập; **không vào Hold-out**, adjudicate xong đưa vào **Train** (Q9) |
-| Shopee Internal Hold-out | N ≈ m / p_rare với **m = 80**, **trần 1.000** (Q8); gồm cả pilot | Random thuần, lấy TRƯỚC mọi model-assisted sampling, không dựa nhãn AI | Double-label toàn bộ; đo agreement trước adjudication |
+| Shopee Internal Hold-out | N ≈ m / p_rare với **m = 80**, **trần 1.000** (Q8); gồm cả pilot | Random thuần trên corpus đã gộp, giữ nguyên phân bố của corpus (near-natural, v1.5), KHÔNG tái cân bằng (Q9, v1.4); lấy TRƯỚC mọi model-assisted sampling, không dựa nhãn AI | Double-label toàn bộ; đo agreement trước adjudication |
 | Shopee Validation | 300–400, cố định sớm, không đổi theo mốc learning curve | Từ phần còn lại; **stratified theo 4 lớp** (Q8), ghi sampling rule ở `sampling_manifest.md` | ≥15–20% double-label audit |
 | Shopee Train | Khởi đầu ~1.200; mở rộng theo batch 400 tới ~2.000–3.000 nếu curve còn tăng | Random + keyword-assisted enrichment cho lớp hiếm (phần lớn vẫn random); ghi `sampling_source` | 1 annotator chính + ≥15–20% double-label audit |
 | Lazada External Test | **500** (Q8) | Random độc lập | Double-label toàn bộ; không train/tune |
@@ -166,6 +179,31 @@
 - Human sample 30–50 requirement, stratify theo BUG/FEATURE/UX và topic size; thang 1–5 cho fidelity,
   actionability, AC testability; hallucination binary hoặc 1–5; chấm dựa trên review nguồn tiếng Việt.
   2 rater → weighted kappa; 1 rater → gọi là expert validation exploratory. Không sửa output trước khi đánh giá tự động.
+
+## Hạn chế đã biết từ thu thập dữ liệu (amendment v1.4, cập nhật v1.5)
+- **Phân bố corpus Shopee — near-natural (v1.5, thay cho mô tả "stratified-by-rating, không phải phân bố tự
+  nhiên" của v1.4):** corpus thu thập theo từng mức sao (`filter_score_with` 1..5) rồi gộp. Bằng chứng phân bố
+  gần tự nhiên: (i) cả 5 mức sao đều dừng do đi qua cutoff (`reached_cutoff`), không mức nào bị chặn phân trang
+  hay chạm trần; (ii) trên cùng khoảng 2026-01-12..2026-10-05, corpus gộp khớp 39.991/39.991 review với mẻ
+  `Sort.NEWEST` 40.000 không lọc sao (9 review chỉ có ở mẻ NEWEST, khả năng bị xóa/sửa giữa hai lần crawl);
+  (iii) phân bố rating trùng: 1★ 40,4% / 2★ 3,4% / 3★ 3,3% / 4★ 5,0% / 5★ 47,9%. Kết luận: corpus xấp xỉ TOÀN BỘ
+  review của cửa sổ 12 tháng; mọi metric RQ1 (Tier 1, Tier 2, end-to-end, hybrid, CI) được diễn giải trên phân bố
+  gần tự nhiên của Shopee trên Google Play trong cửa sổ này. Giới hạn còn lại: chỉ những review Google Play hiển
+  thị tại thời điểm crawl (review đã xóa/ẩn không có mặt).
+- **Lazada:** thu thập `Sort.NEWEST` không lọc sao (phân bố tự nhiên). Vì Shopee cũng near-natural, chênh lệch
+  phân bố do cách thu thập không đáng kể; khác biệt rating giữa hai app (Lazada 1★ ~60%, Shopee 1★ ~40%) là đặc
+  điểm thật của dữ liệu và cần lưu ý khi diễn giải kết quả cross-app.
+- **app_version thiếu:** Shopee 26,3%, Lazada 34,2% (mẻ crawl 07/10, `_r2`) → temporal validation dựa chủ yếu vào
+  `review_date`; app_version chỉ là bằng chứng phụ khi có.
+- **Scrub PII bằng luật:** bắt tên sau lời chào/cảm ơn, số điện thoại, email; có thể sót tên ở vị trí khác →
+  QA mẫu ở GĐ2 (ĐC §7.1).
+
+### Ghi nhận chuyển sang GĐ2 (v1.5 — chưa xử lý ở GĐ1)
+- Cắt corpus về đúng cửa sổ [2025-10-06 00:00, 2026-10-06 23:59:59] (+07:00): lô cuối mỗi mức sao vượt cutoff nên
+  raw có review cũ hơn cutoff (Shopee 831). File raw giữ nguyên, cắt ở `interim/`.
+- Ngày 06/10/2026 chỉ có một phần (review mới nhất 06/10 07:18 giờ VN) do Google Play hiển thị trễ ~1 ngày →
+  ảnh hưởng nhẹ cửa sổ last_30; ghi vào báo cáo temporal.
+- QA mẫu kết quả scrub PII, đặc biệt Lazada (1.940 chỗ thay trong mẻ `_r2`).
 
 ## Kiểm soát leakage & tái lập (ĐC §11, Phụ lục A)
 - Annotator không thấy prediction model. Hold-out không vào few-shot / prompt-development log.

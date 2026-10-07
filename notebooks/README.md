@@ -5,8 +5,11 @@ Mỗi notebook = một Kaggle kernel chạy độc lập. Thứ tự số = th�
 ## Quy ước Kaggle
 - **Đọc** dữ liệu: `/kaggle/input/<dataset>` (read-only). Dùng `input_dir('<dataset>')` từ `src.utils.kaggle_paths`.
 - **Ghi** kết quả: `/kaggle/working/` → tải về, bỏ vào `05_experiments/` tương ứng.
-- **Import `src/`**: đóng gói repo thành một Kaggle Dataset (vd `kltn-src`) rồi
-  `sys.path.append('/kaggle/input/kltn-src')`, hoặc `pip install git+<repo>`. Chạy local thì `sys.path.append('..')` là đủ.
+- **Import `src/`**: đóng gói RIÊNG thư mục `02_src/` thành một Kaggle Dataset (vd `kltn-src`) rồi
+  `sys.path.append('/kaggle/input/kltn-src')`, hoặc `pip install git+<repo>`. Chạy local thì `sys.path.append('../02_src')`.
+  KHÔNG đóng gói cả thư mục repo trên máy: bản local có `01_data/raw/` (chỉ bị gitignore, vẫn nằm trên đĩa).
+- **Dữ liệu trên Kaggle**: chỉ upload bản interim đã scrub `01_data/interim/{shopee,lazada}_clean_T0_2026-10-06.jsonl`
+  (+ manifest). TUYỆT ĐỐI KHÔNG upload `01_data/raw/` — raw còn ~1.100 tên người dùng sót (ghi chú thực thi GĐ2).
 - **GPU**: bật accelerator cho 05/06/07 (ViSoBERT, Bi-LSTM). Mỗi notebook tách riêng để vừa giới hạn thời gian.
 - **Seed**: luôn `set_seed(42)` ở cell đầu. Learning curve lặp 3 seeds.
 - **Hold-out**: notebook nào mở Hold-out phải tuân `01_data/HOLDOUT_LOCK.md`.

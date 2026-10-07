@@ -39,7 +39,9 @@ internet mặc định), logic ở `src/collect/google_play.py`. Sort NEWEST (Sh
 khi lô vượt cutoff 2025-10-06 (T0 = 2026-10-06 − 12 tháng, amendment v1.3), trần an toàn 120.000/app (amendment v1.2).
 Hash userName, không lưu userImage, scrub PII ([NAME]/[PHONE]/[EMAIL]) trong text + reply_content
 ngay khi ghi. Lưu JSONL vào `01_data/raw/{shopee,lazada}/`.
-KHÔNG sửa file raw về sau. Xong upload raw lên Kaggle làm Dataset.
+KHÔNG sửa file raw về sau. TUYỆT ĐỐI KHÔNG upload `01_data/raw/` lên Kaggle (raw còn ~1.100 tên sót —
+xem ghi chú thực thi GĐ2 trong `protocol_amendments.md`); dữ liệu đưa lên Kaggle là bản interim đã scrub
+(`01_data/interim/{shopee,lazada}_clean_T0_2026-10-06.jsonl`, tạo ở GĐ2).
 OUTPUT: raw snapshot + manifest (T0, version thư viện, package id, lang/country, sort,
 số review, min/max review_date, checksum) vào `01_data/manifests/`.
 GATE (nghiệm thu): min(review_date) ≤ 2025-10-06 cho CẢ HAI app.

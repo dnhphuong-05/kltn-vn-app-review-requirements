@@ -1,0 +1,82 @@
+{
+  "stage": "GĐ2 cleaning + metadata",
+  "window": [
+    "2025-10-06T00:00:00+07:00",
+    "2026-10-06T23:59:59+07:00"
+  ],
+  "cleaning": "NFC; drop Cc/Cf except ZWJ; collapse whitespace; no lowercasing / emoji removal / spelling fixes; PII scrub re-applied with current rules",
+  "filters": "drop empty and no-letter (emoji/symbol/digit-only) text_clean; dropped rows kept in *_dropped.jsonl",
+  "flags": "near_duplicate (identical text_clean, other review_id), non_vi / lang_und (rule-based); never deleted",
+  "runs": [
+    {
+      "app": "shopee",
+      "raw_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\raw\\shopee\\shopee_reviews_stratified_T0_2026-10-06.jsonl",
+      "raw_sha256": "d8115c1fd7d93812bc8c4d480889ff14e143b2ff63f9717d307bc76149657a72",
+      "out_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\interim\\shopee_clean_T0_2026-10-06.jsonl",
+      "out_sha256": "42d1e4811fc5aeebd1e8ab0e8fb5149031d85075bc5d5241112293f7e1843417",
+      "dropped_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\interim\\shopee_dropped_T0_2026-10-06.jsonl",
+      "window": [
+        "2025-10-06T00:00:00+07:00",
+        "2026-10-06T23:59:59+07:00"
+      ],
+      "steps": {
+        "raw": 57200,
+        "duplicate_review_id": 0,
+        "outside_window_before": 831,
+        "outside_window_after": 0,
+        "after_window": 56369,
+        "drop_empty": 0,
+        "drop_no_letters": 319,
+        "after_filter": 56050,
+        "pii_replacements_at_interim": 5
+      },
+      "min_review_date": "2025-10-05T17:03:56+00:00",
+      "max_review_date": "2026-10-06T00:18:03+00:00",
+      "flag_counts": {
+        "near_duplicate": 16889,
+        "lang_und": 4930,
+        "non_vi": 196
+      },
+      "lang_counts": {
+        "vi": 50924,
+        "und": 4930,
+        "non_vi": 196
+      }
+    },
+    {
+      "app": "lazada",
+      "raw_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\raw\\lazada\\lazada_reviews_T0_2026-10-06_r2.jsonl",
+      "raw_sha256": "c7c882890de91be22b1e5789f0b619dedbe04316cae4f2e776ddecf7afddef85",
+      "out_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\interim\\lazada_clean_T0_2026-10-06.jsonl",
+      "out_sha256": "1cd44b596fff2b549bad7ca2b0ee9f551fb8660912c269adae917cd16a53ed88",
+      "dropped_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\interim\\lazada_dropped_T0_2026-10-06.jsonl",
+      "window": [
+        "2025-10-06T00:00:00+07:00",
+        "2026-10-06T23:59:59+07:00"
+      ],
+      "steps": {
+        "raw": 3600,
+        "duplicate_review_id": 0,
+        "outside_window_before": 94,
+        "outside_window_after": 0,
+        "after_window": 3506,
+        "drop_empty": 0,
+        "drop_no_letters": 12,
+        "after_filter": 3494,
+        "pii_replacements_at_interim": 1105
+      },
+      "min_review_date": "2025-10-05T23:09:42+00:00",
+      "max_review_date": "2026-10-05T22:45:41+00:00",
+      "flag_counts": {
+        "near_duplicate": 540,
+        "lang_und": 254,
+        "non_vi": 14
+      },
+      "lang_counts": {
+        "und": 254,
+        "vi": 3226,
+        "non_vi": 14
+      }
+    }
+  ]
+}

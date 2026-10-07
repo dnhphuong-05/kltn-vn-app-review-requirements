@@ -33,7 +33,7 @@ SCORES = (1, 2, 3, 4, 5)
 # ---------------------------------------------------------------- PII scrub (v1.4)
 # Name = 1–5 tokens right after a greeting/thanks, each Capitalized (or a lowercase
 # Vietnamese middle-name particle), ending at punctuation / end / a typical follow-up word.
-_GREET = r'\b(?:cảm ơn|cám ơn|xin chào|chào|kính gửi|thân gửi|gửi|dear|hi|hello)\b'
+_GREET = r'\b(?:cảm ơn|cám ơn|xin chào|chào|kính gửi|thân gửi|gửi|dear|hi|hello|hei)\b'
 _HONOR = r'(?:bạn|anh|chị|em|quý khách|khách hàng)\b'
 _NAME_END = r'(?=\s*(?:[,!.?;:]|$)|\s+(?:đã|vì|ạ|nhé|nha|rất|nhiều)\b)'
 # Title-case name anywhere; in review `text` the honorific is required (brand typos
@@ -49,6 +49,12 @@ _GREETING_HONOR = re.compile(
 _REPLY_OPENING = re.compile(
     rf'^(?P<g>\s*{_GREET}(?:\s+{_HONOR})?(?:\s*,\s*|\s+))'
     r'(?P<name>[^,!?\n]{1,60}?)(?=\s*[,!?]|\s+đã\b)', re.IGNORECASE)
+# Some seller replies (Lazada) open with the display name itself: "<name>, cảm ơn bạn …",
+# "<name>, chúng tôi …", "<name>, mình …", "<name>, we appreciate …" (optionally after a
+# mistyped "Cho" for "Chào").
+_REPLY_NAME_FIRST = re.compile(
+    r'^(?P<g>\s*(?:cho\s+)?)(?P<name>[^,!?\n]{1,60}?)'
+    r'(?=\s*,\s*(?:cảm ơn|cám ơn|chúng tôi|mình|we|thank|thanks|rất|xin|hy vọng)\b)', re.IGNORECASE)
 _PARTICLES = {'van', 'văn', 'thi', 'thị', 'thanh', 'ngoc', 'ngọc', 'hoang', 'hoàng'}
 _NOT_NAMES = {  # capitalized words that commonly follow a greeting but are not people
     'shopee', 'shoppee', 'shope', 'lazada', 'lazmall', 'shopeepay', 'shopeefood', 'lazpay',
@@ -80,9 +86,24 @@ def _replace_name(m: re.Match) -> str:
     return m.group('g') + '[NAME]'
 
 
+# In a reply opening the slot right after the greeting is the display name, so words that can
+# be part of a name ("Anh", "Em", "Vui", "Nha") are allowed; only brands, greetings and
+# sentence-starting function words mean "this is not a name".
+_OPENING_NOT_NAMES = (_NOT_NAMES - {'anh', 'chị', 'em', 'vui', 'nha', 'mình'}) | {
+    # interjections / sentence openers seen before a comma in seller replies
+    'dạ', 'vâng', 'ồ', 'ôi', 'tiếc', 'đáng', 'chúc', 'ok', 'oke', 'hiện', 'hiện tại', 'tuy', 'nếu',
+    'để', 'mong', 'hy', 'hi vọng', 'thật', 'lazada', 'shopee'}
+_GREET_WORDS = {'chào', 'xin', 'cảm', 'cám', 'kính', 'thân', 'gửi', 'dear', 'hi', 'hello', 'hei'}
+
+
 def _replace_opening(m: re.Match) -> str:
-    first = m.group('name').split()[0].lower()
-    if first in _NOT_NAMES or first in ('[name]', '[phone]', '[email]'):
+    name = m.group('name')
+    first = name.split()[0].lower() if name.split() else ''
+    if not first or first in _OPENING_NOT_NAMES or first in _GREET_WORDS or '[' in name:
+        return m.group(0)
+    if name.strip().lower() in ('anh', 'chị', 'em'):   # a bare pronoun, not a name
+        return m.group(0)
+    if len(name.split()) > 8:                          # a clause, not a display name
         return m.group(0)
     return m.group('g') + '[NAME]'
 
@@ -97,6 +118,7 @@ def scrub_pii(s, field: str = 'text'):
     before = out.count('[NAME]')
     if field == 'reply':
         out = _REPLY_OPENING.sub(_replace_opening, out, count=1)
+        out = _REPLY_NAME_FIRST.sub(_replace_opening, out, count=1)
         out = _GREETING.sub(_replace_name, out)
     else:
         out = _GREETING_HONOR.sub(_replace_name, out)

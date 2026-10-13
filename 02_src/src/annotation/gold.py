@@ -19,7 +19,7 @@ from .calibration import LABELS
 
 PROVENANCE_COLUMNS = [   # Phụ lục B + traceability of the adjudication
     'review_id', 'app', 'content', 'raw_text_hash', 'rating', 'review_date', 'app_version',
-    'sampling_source', 'calibration_set', 'split', 'label_a', 'label_b', 'agreement_flag',
+    'sampling_source', 'annotation_set', 'split', 'label_a', 'label_b', 'agreement_flag',
     'gold_label', 'ambiguous_flag', 'guideline_version', 'annotated_with_guideline',
     'labeled_by', 'resolution', 'label_date',
 ]
@@ -73,7 +73,7 @@ def build_calibration_gold(sets: dict, finalized: dict, interim_by_id: dict, gui
                 'review_id': rid, 'app': src['source_app'], 'content': src['text'],
                 'raw_text_hash': hashlib.sha256(src['text'].encode('utf-8')).hexdigest(),
                 'rating': src['rating'], 'review_date': src['review_date'], 'app_version': src['app_version'] or '',
-                'sampling_source': sampling_source, 'calibration_set': name, 'split': 'train',
+                'sampling_source': sampling_source, 'annotation_set': name, 'split': 'train',
                 'label_a': r['label_a'], 'label_b': r['label_b'], 'agreement_flag': int(r['label_a'] == r['label_b']),
                 'gold_label': gold, 'ambiguous_flag': amb, 'guideline_version': guideline_version,
                 'annotated_with_guideline': annotated_with, 'labeled_by': 'A+B', 'resolution': resolution,
@@ -88,6 +88,41 @@ def build_calibration_gold(sets: dict, finalized: dict, interim_by_id: dict, gui
     return rows, stats
 
 
+def build_double_label_gold(name: str, path_a: str, path_b: str, finalize_path: str, interim_by_id: dict,
+                            sampling_source: str, split: str, annotated_with: str, guideline_version: str,
+                            label_date: str) -> tuple:
+    """Gold rows for any double-labelled set (pilot, Hold-out, Validation, …): consensus where A = B,
+    agreed_label from `finalize_path` where they differ. Every disagreement must be finalised."""
+    finalized = load_finalized(finalize_path) if os.path.exists(finalize_path) else {}
+    rows, stats = [], {'from_finalize': 0, 'consensus': 0, 'ambiguous_one_sided': []}
+    for r in merge(path_a, path_b)['df'].to_dict('records'):
+        rid = r['review_id']
+        if r['label_a'] != r['label_b']:
+            if rid not in finalized:
+                raise ValueError(f'{rid}: A≠B nhưng chưa có agreed_label')
+            gold, amb = finalized[rid]
+            resolution = 'adjudicated'
+            stats['from_finalize'] += 1
+        else:
+            gold, resolution = r['label_a'], 'consensus'
+            amb = int(r['ambiguous_a'] and r['ambiguous_b'])
+            if r['ambiguous_a'] != r['ambiguous_b']:
+                stats['ambiguous_one_sided'].append(rid)
+            stats['consensus'] += 1
+        src = interim_by_id[rid]
+        rows.append({
+            'review_id': rid, 'app': src['source_app'], 'content': src['text'],
+            'raw_text_hash': hashlib.sha256(src['text'].encode('utf-8')).hexdigest(),
+            'rating': src['rating'], 'review_date': src['review_date'], 'app_version': src['app_version'] or '',
+            'sampling_source': sampling_source, 'annotation_set': name, 'split': split,
+            'label_a': r['label_a'], 'label_b': r['label_b'], 'agreement_flag': int(r['label_a'] == r['label_b']),
+            'gold_label': gold, 'ambiguous_flag': amb, 'guideline_version': guideline_version,
+            'annotated_with_guideline': annotated_with, 'labeled_by': 'A+B', 'resolution': resolution,
+            'label_date': label_date,
+        })
+    return rows, stats
+
+
 def write_provenance(rows, path: str) -> str:
     """Creates provenance.csv with the full column set. A file holding only a header (the old stub)
     is replaced; a file that already holds data is appended to, refusing duplicate review_ids."""
@@ -95,6 +130,9 @@ def write_provenance(rows, path: str) -> str:
     if os.path.exists(path):
         with open(path, encoding='utf-8-sig', newline='') as f:
             existing = list(csv.DictReader(f))
+    for r in existing:   # column renamed calibration_set → annotation_set when pilot/Hold-out were added
+        if 'annotation_set' not in r and 'calibration_set' in r:
+            r['annotation_set'] = r.pop('calibration_set')
     if existing:
         have = {r['review_id'] for r in existing}
         dup = [r['review_id'] for r in rows if r['review_id'] in have]
@@ -130,7 +168,7 @@ def write_holdout_exclusion(rows, path: str) -> dict:
         'reason': 'calibration reviews (incl. keyword-enriched FEATURE–UX set) were seen by annotators; '
                   'Q9: calibration never enters Hold-out, goes to Train after adjudication',
         'n': len(rows),
-        'by_set': {s: sum(r['calibration_set'] == s for r in rows) for s in SET_INFO},
+        'by_set': {s: sum(r['annotation_set'] == s for r in rows) for s in SET_INFO},
         'review_ids': [r['review_id'] for r in rows],
     }
     os.makedirs(os.path.dirname(path), exist_ok=True)

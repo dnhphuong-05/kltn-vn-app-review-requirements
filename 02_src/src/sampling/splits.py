@@ -12,6 +12,7 @@ Draw order (seed 42, one generator, no review in two sets):
 Lazada external test 500 — pure random from Lazada interim                     double-label, LOCKED
 Keyword matches are only a sampling device — they are never labels.
 """
+import csv
 import hashlib
 import json
 import os
@@ -113,6 +114,60 @@ def build_splits(shopee, lazada, calib_ids, pilot_ids, sizes: dict, seed: int = 
         if len(s['rows']) != s['meta']['size']:
             raise ValueError(f'{name}: số dòng không khớp')
     return out
+
+
+def rebalance_validation(prov, target: dict, protected_ids, seed: int = 42) -> dict:
+    """Amendment v1.8 — top up rare classes in Validation by swapping with Train (both unlocked).
+    For each class in `target` ({'FEATURE': 22}): move k = target − current reviews of that class
+    Train → Validation and k Validation OTHER reviews → Train, so both sizes stay fixed.
+    Train candidates exclude `protected_ids` (calibration + audit stay in Train) and prefer
+    randomly sampled reviews over keyword-enriched ones (keeps Validation close to natural).
+    prov: DataFrame of provenance. Returns {'to_validation': [...], 'to_train': [...], 'detail': {...}}."""
+    rng = random.Random(seed)
+    protected = set(protected_ids)
+    tr = prov[prov['split'] == 'train']
+    va = prov[prov['split'] == 'validation']
+    to_val, to_train, detail = [], [], {}
+    for cls, want in target.items():
+        k = want - int((va['gold_label'] == cls).sum())
+        if k <= 0:
+            detail[cls] = 'đã đủ'
+            continue
+        cand = tr[(tr['gold_label'] == cls) & ~tr['review_id'].isin(protected) & ~tr['review_id'].isin(to_val)]
+        rand = sorted(cand[cand['sampling_source'] == 'random']['review_id'])
+        enr = sorted(cand[cand['sampling_source'] != 'random']['review_id'])
+        pick = rng.sample(rand, min(k, len(rand)))
+        pick += rng.sample(enr, min(k - len(pick), len(enr)))
+        if len(pick) < k:
+            raise ValueError(f'Không đủ {cls} trong Train để chuyển ({len(pick)}/{k})')
+        back_pool = sorted(va[(va['gold_label'] == 'OTHER') & ~va['review_id'].isin(to_train)]['review_id'])
+        back = rng.sample(back_pool, k)
+        to_val += pick
+        to_train += back
+        detail[cls] = {'moved_to_validation': k, 'from_random': min(k, len(rand)), 'from_enriched': k - min(k, len(rand)),
+                       'other_moved_to_train': k}
+    return {'to_validation': to_val, 'to_train': to_train, 'detail': detail}
+
+
+def apply_split_moves(prov_path: str, moves: dict) -> int:
+    """Rewrite provenance.csv changing only `split` for the moved review_ids (Train ↔ Validation)."""
+    with open(prov_path, encoding='utf-8-sig', newline='') as f:
+        reader = csv.DictReader(f)
+        cols, rows = reader.fieldnames, list(reader)
+    to_val, to_tr = set(moves['to_validation']), set(moves['to_train'])
+    changed = 0
+    for r in rows:
+        if r['review_id'] in to_val:
+            assert r['split'] == 'train', r['review_id']
+            r['split'], changed = 'validation', changed + 1
+        elif r['review_id'] in to_tr:
+            assert r['split'] == 'validation', r['review_id']
+            r['split'], changed = 'train', changed + 1
+    with open(prov_path, 'w', encoding='utf-8-sig', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=cols)
+        w.writeheader()
+        w.writerows(rows)
+    return changed
 
 
 def overlap_matrix(splits: dict, extra_sets: dict) -> dict:

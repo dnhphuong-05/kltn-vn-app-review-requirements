@@ -123,6 +123,67 @@ def build_double_label_gold(name: str, path_a: str, path_b: str, finalize_path: 
     return rows, stats
 
 
+def build_single_label_gold(name: str, main_path: str, audit_path: str, interim_by_id: dict,
+                            sampling_source_by_id: dict, split: str, guideline_version: str,
+                            label_date: str) -> tuple:
+    """Train (amendment v1.7): gold = the main annotator's label. The audit annotator's label is kept
+    in label_b for the audited 15% only (traceability / quality measure) — it never overrides gold."""
+    with open(main_path, encoding='utf-8-sig', newline='') as f:
+        main = {r['review_id']: r for r in csv.DictReader(f)}
+    with open(audit_path, encoding='utf-8-sig', newline='') as f:
+        audit = {r['review_id']: r for r in csv.DictReader(f)}
+    rows, stats = [], {'n': 0, 'audited': 0, 'audit_agree': 0}
+    for rid, r in main.items():
+        lab = r['label'].strip().upper()
+        if lab not in LABELS:
+            raise ValueError(f'{rid}: nhãn Train không hợp lệ: {lab!r}')
+        b = audit.get(rid)
+        lab_b = b['label'].strip().upper() if b else ''
+        stats['n'] += 1
+        stats['audited'] += bool(b)
+        stats['audit_agree'] += bool(b) and lab_b == lab
+        src = interim_by_id[rid]
+        rows.append({
+            'review_id': rid, 'app': src['source_app'], 'content': src['text'],
+            'raw_text_hash': hashlib.sha256(src['text'].encode('utf-8')).hexdigest(),
+            'rating': src['rating'], 'review_date': src['review_date'], 'app_version': src['app_version'] or '',
+            'sampling_source': sampling_source_by_id[rid], 'annotation_set': name, 'split': split,
+            'label_a': lab, 'label_b': lab_b, 'agreement_flag': int(lab_b == lab) if b else '',
+            'gold_label': lab, 'ambiguous_flag': int((r.get('ambiguous') or '0').strip() == '1'),
+            'guideline_version': guideline_version, 'annotated_with_guideline': guideline_version,
+            'labeled_by': 'A (+B audit)' if b else 'A', 'resolution': 'single' if not b else 'single+audit',
+            'label_date': label_date,
+        })
+    return rows, stats
+
+
+PROCESSED_COLUMNS = ['review_id', 'text', 'gold_label', 'ambiguous_flag', 'split']
+METADATA_COLUMNS = ['review_id', 'app', 'split', 'rating', 'review_date', 'app_version']
+
+
+def write_processed(prov_rows, interim_by_id: dict, path: str) -> str:
+    """Modelling file: review_id, text (= text_clean, the minimally normalised input), gold_label,
+    ambiguous_flag, split. No rating/date/version (Q17; ĐC: text is the only model input)."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, 'w', encoding='utf-8-sig', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=PROCESSED_COLUMNS)
+        w.writeheader()
+        for r in prov_rows:
+            w.writerow({'review_id': r['review_id'], 'text': interim_by_id[r['review_id']]['text_clean'],
+                        'gold_label': r['gold_label'], 'ambiguous_flag': r['ambiguous_flag'], 'split': r['split']})
+    return path
+
+
+def write_metadata(prov_rows, path: str) -> str:
+    """Separate metadata (rating, review_date, app_version) for the temporal analysis later."""
+    with open(path, 'w', encoding='utf-8-sig', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=METADATA_COLUMNS)
+        w.writeheader()
+        for r in prov_rows:
+            w.writerow({k: r.get(k, '') for k in METADATA_COLUMNS})
+    return path
+
+
 def write_provenance(rows, path: str) -> str:
     """Creates provenance.csv with the full column set. A file holding only a header (the old stub)
     is replaced; a file that already holds data is appended to, refusing duplicate review_ids."""

@@ -1,0 +1,76 @@
+{
+  "to_validation": [
+    "a68defa4-a978-4a95-81c3-20013b965a86",
+    "1250a53f-5829-431f-b4de-e43dc0510444",
+    "0489bd68-f28a-464f-9b16-6138267220ab",
+    "4109d1bd-4968-4ab9-b381-ef72da92d4af",
+    "32540f31-ce5f-4373-ae82-109a9b63f5aa",
+    "887cb9cf-dac3-46b3-8e68-89c645579051",
+    "d4cffab7-1900-4f98-abb1-951b0149fa76",
+    "423c4f21-c5d5-4b1e-8159-5b3ce40f0b49",
+    "f53842da-beb7-478d-a3a2-5d1708cbd11c",
+    "a0b6ef5e-a70f-424f-ae74-b2eb97a97485",
+    "25963dc5-a15b-4c29-8695-62f4d30a7015",
+    "55349b0a-d643-4bd5-8cbe-c5aa926c8e98",
+    "70c9ef0f-620a-45d5-9a92-ea2b013089bc",
+    "0d3d9a46-2cf0-430d-b591-2f6139d7794a",
+    "33647126-3b20-4888-8172-2c3177beb88c"
+  ],
+  "to_train": [
+    "5940e0c3-27ea-427d-b9a6-76ac98962d2a",
+    "608ab9d9-a156-4375-a841-03b2da1064c4",
+    "e055151c-ef6a-4449-a83e-bcbdf8bc25b1",
+    "0cb9adc8-13db-46d6-9f91-5105d701599a",
+    "fb9248fb-86dd-41ff-89e0-f4064fd2a703",
+    "50a87368-277d-4a7b-b59f-e44197e820b7",
+    "f1115fb8-8d1b-47f3-922a-921b00fb5b49",
+    "bdc0332d-5519-405e-8d5b-5f12be8c20bd",
+    "59948e08-11de-4f1a-b967-1070dedc7aa0",
+    "c984c9ab-39b3-4b88-8681-42b880a74d68",
+    "7294dc9d-1f10-48d2-98eb-91639d179743",
+    "03b24ba2-e325-4e04-871a-2ce9d0edf213",
+    "40220af3-182b-4a18-9629-a29df869085e",
+    "bf397e72-68e6-4734-a404-0920f64e1756",
+    "9436886c-43e9-4f0f-8439-b787ef031923"
+  ],
+  "detail": {
+    "FEATURE": {
+      "moved_to_validation": 15,
+      "from_random": 13,
+      "from_enriched": 2,
+      "other_moved_to_train": 15
+    }
+  },
+  "stage": "amendment v1.8 — Validation rebalance (Train ↔ Validation swap)",
+  "seed": 42,
+  "protected": "calibration (180) + Train audit (153) stay in Train",
+  "before": {
+    "train": {
+      "BUG": 75,
+      "FEATURE": 144,
+      "UX": 132,
+      "OTHER": 849
+    },
+    "validation": {
+      "BUG": 27,
+      "FEATURE": 7,
+      "UX": 22,
+      "OTHER": 294
+    }
+  },
+  "n_rows_changed": 30,
+  "after": {
+    "train": {
+      "BUG": 75,
+      "FEATURE": 129,
+      "UX": 132,
+      "OTHER": 864
+    },
+    "validation": {
+      "BUG": 27,
+      "FEATURE": 22,
+      "UX": 22,
+      "OTHER": 279
+    }
+  }
+}

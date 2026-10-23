@@ -1,6 +1,7 @@
 # FROZEN trước final Hold-out. Không sửa sau khi mở Hold-out.
 seed: 42
 learning_curve_seeds: [42, 1337, 2024]
+learning_curve_sizes: [400, 800, 1200]   # Train hiện có 1.200 (v1.7/v1.8); subset lồng nhau, stratify theo lớp
 tier1:
   positive_class: ACTIONABLE
   threshold: 0.5          # tune trên Validation: Recall_ACTIONABLE >= 0.90 rồi max Macro-F1 (protocol v1.1)
@@ -11,6 +12,22 @@ strategy_b_visobert:
   max_len: 256
   lr: 2.0e-5
   epochs: 4
+  batch_size: 16
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  class_weight: balanced  # weighted CE, trọng số tính từ Train (ĐC §7.3.1–7.3.2)
+strategy_a_bilstm:        # Bi-LSTM + pretrained fastText tiếng Việt (static, CLAUDE.md §3)
+  fasttext_url: https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.vi.300.vec.gz
+  embedding_dim: 300
+  freeze_embedding: true
+  hidden_size: 128
+  num_layers: 1
+  dropout: 0.3
+  max_len: 128
+  lr: 1.0e-3
+  epochs: 10
+  batch_size: 32
+  class_weight: balanced
 strategy_c_llm:
   provider: openai
   model: gpt-4o-mini-2024-07-18   # snapshot pin (protocol v1.1)

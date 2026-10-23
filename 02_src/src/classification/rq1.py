@@ -5,8 +5,12 @@ A *runner* wraps one strategy behind two calls so grid search, multi-seed runs a
 strategy-agnostic:
     runner.train(df, n_classes, label_names, seed, overrides) -> model
     runner.predict_proba(model, texts) -> (probs [n × k], seconds)
+and, to evaluate the locked sets later (GĐ10) with exactly the models reported on Validation:
+    runner.save(model, path) / runner.load(path) -> model
 """
 import json
+import os
+import shutil
 import time
 
 import numpy as np
@@ -62,6 +66,24 @@ class VisobertRunner:
         _, probs, seconds = predict_visobert(model, self._tok, texts, self._max_len)
         return np.asarray(probs), seconds
 
+    def save(self, model, path):
+        """HF checkpoint (fp32, unchanged weights) + the sentencepiece model, so VisobertTokenizer(path) works."""
+        os.makedirs(path, exist_ok=True)
+        model.save_pretrained(path)
+        shutil.copy(self._tok.spm_path, os.path.join(path, os.path.basename(self._tok.spm_path)))
+        with open(os.path.join(path, 'runner.json'), 'w', encoding='utf-8') as f:
+            json.dump({'max_len': int(self._max_len)}, f)
+
+    def load(self, path, device=None):
+        import torch
+        from transformers import AutoModelForSequenceClassification
+        from src.classification.strategy_visobert.tokenizer import VisobertTokenizer, self_check
+        device = device or torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        self._tok = VisobertTokenizer(path)
+        self_check(self._tok)
+        self._max_len = json.load(open(os.path.join(path, 'runner.json'), encoding='utf-8'))['max_len']
+        return AutoModelForSequenceClassification.from_pretrained(path).to(device).eval()
+
 
 class BilstmRunner:
     def __init__(self, base_config: dict, vocab: dict, emb_matrix):
@@ -73,7 +95,7 @@ class BilstmRunner:
     def train(self, df, n_classes, names, seed, overrides=None):
         from src.classification.strategy_bilstm_fasttext.train import train_bilstm
         cfg = self.config(overrides)
-        self._max_len = int(cfg['max_len'])
+        self._max_len, self._cfg, self._n = int(cfg['max_len']), cfg, n_classes
         return train_bilstm(df, n_classes, names, cfg, seed, self.vocab, self.emb)[0]
 
     def predict_proba(self, model, texts):
@@ -81,9 +103,29 @@ class BilstmRunner:
         _, probs, seconds = predict_bilstm(model, texts, self.vocab, self._max_len)
         return np.asarray(probs), seconds
 
+    def save(self, model, path):
+        """state_dict (includes the frozen fastText matrix) + config + vocab in one file."""
+        import torch
+        os.makedirs(path, exist_ok=True)
+        torch.save({'state_dict': model.state_dict(), 'config': self._cfg, 'n_classes': self._n, 'vocab': self.vocab},
+                   os.path.join(path, 'bilstm.pt'))
 
-def run_one(runner, train_df, val_df, n_classes, names, seed, overrides=None):
-    """Train once, predict Validation. Returns probs + cost (train s, inference s, s/1000 reviews, peak GPU GB)."""
+    def load(self, path, device=None):
+        import torch
+        from src.classification.strategy_bilstm_fasttext.train import _model
+        device = device or torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        ck = torch.load(os.path.join(path, 'bilstm.pt'), map_location='cpu', weights_only=False)
+        self.vocab, self._cfg, self._n = ck['vocab'], ck['config'], ck['n_classes']
+        self._max_len = int(self._cfg['max_len'])
+        emb = ck['state_dict']['emb.weight'].numpy()
+        model = _model(emb, self._n, self._cfg)
+        model.load_state_dict(ck['state_dict'])
+        return model.to(device).eval()
+
+
+def run_one(runner, train_df, val_df, n_classes, names, seed, overrides=None, save_dir=None):
+    """Train once, predict Validation. Returns probs + cost (train s, inference s, s/1000 reviews, peak GPU GB).
+    With `save_dir`, the trained model is kept at <save_dir>/seed<seed> (runner.save)."""
     _peak_reset()
     t0 = time.time()
     model = runner.train(train_df, n_classes, names, seed, overrides)
@@ -92,6 +134,9 @@ def run_one(runner, train_df, val_df, n_classes, names, seed, overrides=None):
     out = {'seed': seed, 'overrides': overrides or {}, 'probs': probs, 'train_seconds': train_s,
            'infer_seconds': infer_s, 'infer_seconds_per_1000': infer_s / len(val_df) * 1000,
            'peak_gpu_gb': _peak_gb(), 'n_train': len(train_df)}
+    if save_dir:
+        out['checkpoint'] = os.path.join(save_dir, f'seed{seed}')
+        runner.save(model, out['checkpoint'])
     del model
     _free()
     return out
@@ -114,11 +159,11 @@ def grid_search(runner, grid, train_df, val_df, n_classes, names, metric_fn, sel
     return res, json.loads(res.loc[0, 'config'])
 
 
-def run_seeds(runner, overrides, seeds, train_df, val_df, n_classes, names, log=print, strategy=''):
+def run_seeds(runner, overrides, seeds, train_df, val_df, n_classes, names, log=print, strategy='', save_dir=None):
     """Winning configuration re-run with every seed. Returns list of run_one results."""
     out = []
     for s in seeds:
-        r = run_one(runner, train_df, val_df, n_classes, names, s, overrides)
+        r = run_one(runner, train_df, val_df, n_classes, names, s, overrides, save_dir=save_dir)
         log(f'[{strategy}] seed={s}: train {r["train_seconds"]:.0f}s, inference {r["infer_seconds_per_1000"]:.2f}s/1000')
         out.append(r)
     return out

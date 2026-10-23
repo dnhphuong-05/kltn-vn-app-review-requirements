@@ -38,6 +38,7 @@ class VisobertTokenizer:
         else:
             from huggingface_hub import hf_hub_download
             path = hf_hub_download(model_name, SPM_FILE)
+        self.spm_path = path                   # copied next to saved checkpoints
         self.sp = spm.SentencePieceProcessor(model_file=path)
         cfg = AutoConfig.from_pretrained(model_name)
         # special ids from the model config; must agree with the fairseq layout the embedding was trained with

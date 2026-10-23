@@ -1,0 +1,29 @@
+# Tier 2 — cấu hình thắng trên Validation-actionable (Macro-F1 3 lớp). DEV, chưa frozen.
+# Checkpoint 3 seed để GĐ10 đánh giá Hold-out + focused set (khóa) một lần.
+tier2:
+  rule:
+    select: macro_f1 (3 lớp) trên Validation-actionable, argmax
+    train: actionable, bỏ ambiguous
+    eval: Validation-actionable, giữ ambiguous
+    seeds:
+    - 42
+    - 1337
+    - 2024
+  visobert:
+    overrides:
+      epochs: 8
+      lr: 3.0e-05
+    checkpoints:
+    - checkpoints/visobert/seed42
+    - checkpoints/visobert/seed1337
+    - checkpoints/visobert/seed2024
+  bilstm:
+    overrides:
+      dropout: 0.5
+      epochs: 20
+      hidden_size: 128
+      lr: 0.002
+    checkpoints:
+    - checkpoints/bilstm/seed42
+    - checkpoints/bilstm/seed1337
+    - checkpoints/bilstm/seed2024

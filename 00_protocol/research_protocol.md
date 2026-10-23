@@ -211,6 +211,16 @@
   ảnh hưởng nhẹ cửa sổ last_30; ghi vào báo cáo temporal.
 - QA mẫu kết quả scrub PII, đặc biệt Lazada (1.940 chỗ thay trong mẻ `_r2`).
 
+## Hạn chế ghi nhận khi tuning RQ1 (GĐ6–GĐ7, 23/10/2026)
+- **Số trên Validation lạc quan:** cùng Validation dùng để chọn cấu hình, chọn ngưỡng (tầng 1) và báo kết quả;
+  số khách quan là Hold-out (GĐ10).
+- **Cấu hình thắng ở mép lưới, không mở rộng lưới:** tầng 2 — ViSoBERT 8 epoch / lr 3e-5, Bi-LSTM 20 epoch /
+  lr 2e-3 đều là giá trị lớn nhất đã thử. Không mở rộng để tránh lạc quan hóa trên Validation nhỏ (71 review
+  actionable); kết quả có thể cải thiện chút với lưới rộng hơn. Mục tiêu RQ1 là so sánh các chiến lược theo cùng
+  quy trình (lưới 1 seed → chọn theo Macro-F1 → 3 seed), không tối đa F1 từng model.
+- **Cỡ lưới khác nhau:** Bi-LSTM dò nhiều cấu hình hơn ViSoBERT (tầng 1: 12 so với 9; tầng 2: 24 so với 9) vì huấn
+  luyện rẻ hơn; lạc quan do dò nhiều (nếu có) nghiêng về Bi-LSTM.
+
 ## Kiểm soát leakage & tái lập (ĐC §11, Phụ lục A)
 - Annotator không thấy prediction model. Hold-out không vào few-shot / prompt-development log.
 - Manifest checksum + số dòng từng split. Mọi bảng kết quả sinh từ code.

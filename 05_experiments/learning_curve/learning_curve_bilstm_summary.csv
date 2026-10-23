@@ -1,0 +1,17 @@
+strategy,size,tier,metric,mean,std,n_seeds
+bilstm,400,tier1,f1_actionable,0.5666666666666667,0.0,1
+bilstm,400,tier1,macro_f1,0.7385057471264368,0.0,1
+bilstm,400,tier1,precision_actionable,0.6938775510204082,0.0,1
+bilstm,400,tier1,recall_actionable,0.4788732394366197,0.0,1
+bilstm,400,tier2,f1_BUG,0.6274509803921569,0.0,1
+bilstm,400,tier2,f1_FEATURE,0.6046511627906976,0.0,1
+bilstm,400,tier2,f1_UX,0.8333333333333334,0.0,1
+bilstm,400,tier2,macro_f1,0.6884784921720626,0.0,1
+bilstm,1200,tier1,f1_actionable,0.6615384615384615,0.0,1
+bilstm,1200,tier1,macro_f1,0.7921727395411606,0.0,1
+bilstm,1200,tier1,precision_actionable,0.7288135593220338,0.0,1
+bilstm,1200,tier1,recall_actionable,0.6056338028169014,0.0,1
+bilstm,1200,tier2,f1_BUG,0.625,0.0,1
+bilstm,1200,tier2,f1_FEATURE,0.6829268292682927,0.0,1
+bilstm,1200,tier2,f1_UX,0.7924528301886793,0.0,1
+bilstm,1200,tier2,macro_f1,0.700126553152324,0.0,1

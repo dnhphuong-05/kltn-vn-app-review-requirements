@@ -9,6 +9,7 @@
 > Đã áp amendment **v1.5 (07/10/2026)**: corpus Shopee gộp theo mức sao được xác nhận near-natural (xấp xỉ toàn bộ review của cửa sổ 12 tháng).
 > Đã áp amendment **v1.7 (13/10/2026)**: Hold-out 1.000 (400 pilot + 600), focused FEATURE/UX set ~150 (khóa, báo cáo riêng), Validation ~350, Train ~1.200 single-label + audit 15%, Lazada 500.
 > Đã áp amendment **v1.8 (23/10/2026)**: Validation cân lại bằng hoán đổi 15 FEATURE ↔ 15 OTHER với Train (Validation 22 FEATURE, Train 129).
+> Đã áp amendment **v1.9 (25/10/2026)**: kết luận learning curve — dừng Train ở 1.200 (tầng 1 gần bão hòa; tầng 2 chưa bão hòa nhưng pool FEATURE cạn); F1 FEATURE đo bổ sung trên focused set.
 > Chỗ còn "pre-register sau EDA" (ngưỡng temporal) là nội dung đề cương yêu cầu chốt sau EDA
 > trên non-test data — sẽ ghi bằng amendment, không phải chỗ trống.
 >

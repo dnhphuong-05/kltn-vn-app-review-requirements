@@ -1,0 +1,65 @@
+{
+ "tier": 1,
+ "version": "v1",
+ "seed": 42,
+ "source": "shopee_train.csv",
+ "rule": "Train only; non-ambiguous; 15 <= len(text) <= 250 chars; per gold class, rows sorted by review_id then permuted with numpy default_rng(seed); taken in PLAN order.",
+ "exemplars": [
+  {
+   "order": 1,
+   "review_id": "7c053141-dbcd-4e44-a4e5-8946f922172a",
+   "gold_label": "BUG",
+   "label": "ACTIONABLE",
+   "text_sha256": "d721efc3a5f72babd40750db331e8a5609c1461ddeb3120e5877e9ec192164c2"
+  },
+  {
+   "order": 2,
+   "review_id": "3a326cc8-1403-470c-a41b-5509206b8483",
+   "gold_label": "OTHER",
+   "label": "NOT_ACTIONABLE",
+   "text_sha256": "082a2e055cd4ecfcc1ecaff5b5a3516fd7a42156644741e71614a0bf6bc6df9e"
+  },
+  {
+   "order": 3,
+   "review_id": "dae15441-8b28-438c-b5fe-d41f6c52eb2b",
+   "gold_label": "FEATURE",
+   "label": "ACTIONABLE",
+   "text_sha256": "625b7914466e9aff35113e83ed6990e5dcbd5f50610103b47ed4048f6fb602ce"
+  },
+  {
+   "order": 4,
+   "review_id": "6a2f7d7f-3974-4e48-a215-1854b94cec50",
+   "gold_label": "OTHER",
+   "label": "NOT_ACTIONABLE",
+   "text_sha256": "6d30a3500e4eda81600c32c1f7f42d3371d282980119d5761fdf837e3f20a54e"
+  },
+  {
+   "order": 5,
+   "review_id": "3ac66493-5715-4cbe-98df-1f40a35386e6",
+   "gold_label": "UX",
+   "label": "ACTIONABLE",
+   "text_sha256": "79cf73347166fbb7b0e13c103f59bcd2a541b035f06c7f92272376d5fa0bf2e4"
+  },
+  {
+   "order": 6,
+   "review_id": "c65db128-608f-4ea3-bae1-0c470c16d99c",
+   "gold_label": "OTHER",
+   "label": "NOT_ACTIONABLE",
+   "text_sha256": "2ff4564e029421c58b325f9c33bb954e39c51d5756f405231fd1c9246f399fc5"
+  },
+  {
+   "order": 7,
+   "review_id": "ef399852-44a1-44df-af63-5661c8063e29",
+   "gold_label": "BUG",
+   "label": "ACTIONABLE",
+   "text_sha256": "c074235d1a54f88769cf268e4c6a87797debd21373fe294f00365f37e3ffe525"
+  },
+  {
+   "order": 8,
+   "review_id": "65ed329a-055c-44c6-8ab5-95186bb06988",
+   "gold_label": "OTHER",
+   "label": "NOT_ACTIONABLE",
+   "text_sha256": "733883c834a35576803d4089a6244c4b2c6d75d24b7664be5327afe386b111c0"
+  }
+ ]
+}

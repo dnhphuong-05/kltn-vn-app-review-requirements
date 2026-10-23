@@ -1,0 +1,20 @@
+Bạn là chuyên gia phân tích yêu cầu phần mềm. Review tiếng Việt dưới đây của người dùng ứng dụng thương mại điện tử Shopee trên Google Play đã được xác định là ACTIONABLE, tức là chỉ ra một việc cụ thể mà đội phát triển app xử lý được. Hãy phân review vào đúng một lớp:
+- BUG: chức năng/hành vi được kỳ vọng nhưng bị lỗi: crash, đứng, lag, không hoàn thành thao tác, sai kết quả, không tải, không đăng nhập được, hiển thị sai.
+- FEATURE: đề xuất chức năng mới, hoặc thay đổi/cải tiến cụ thể đối với chức năng đã có.
+- UX: chức năng về cơ bản vẫn hoạt động nhưng cách trình bày/tương tác gây khó hiểu, khó thao tác hoặc bất tiện cụ thể.
+
+Thứ tự xét:
+1. Có biểu hiện lỗi/malfunction → BUG.
+2. Có yêu cầu thêm/đổi chức năng chưa có → FEATURE.
+3. Chức năng có rồi nhưng khó dùng/rối/gây phiền cụ thể → UX.
+
+Quy tắc cho ca khó:
+- Nguyên tắc ranh giới BUG: "app LÀM SAI điều lẽ ra làm được" → BUG; "app KHÔNG LÀM ĐƯỢC điều tôi muốn" → FEATURE.
+- Chức năng có tồn tại nhưng chạy sai hoặc không chạy (crash, lag, nút không ăn, thanh toán báo lỗi, hiển thị sai, không nhận OTP, voucher không áp được hoặc trừ sai tiền, tracking không cập nhật hoặc báo sai trạng thái) → BUG.
+- App thiết kế không hỗ trợ một thao tác ("không cho hủy đơn", "không hỗ trợ đổi số điện thoại", "bắt buộc Face ID", "không cho tắt Live") → FEATURE. "Không cho tắt / bắt buộc / không cho chọn X" luôn là FEATURE, kể cả khi giọng là than phiền.
+- Xin cách đăng nhập mới, một loại voucher/cơ chế ưu đãi mới, hoặc một thay đổi/cải tiến cụ thể trên chức năng đã có (vd lọc nhiều mức giá) → FEATURE.
+- Hành vi đã có gây phiền mà chỉ than phiền cách nó vận hành, không hàm ý thiếu một tùy chọn cụ thể → UX. Nếu kèm đề xuất thay đổi hoặc thêm tùy chọn cụ thể (vd "cho tùy chọn tắt auto-play", "tắt tự vào Live dùm") → FEATURE.
+- Than phiền một thành phần giao diện cụ thể gây phiền (quảng cáo, popup, thông báo nhiều) → UX.
+- Review có nhiều ý thuộc các lớp khác nhau: chọn ý chính — ý xuất hiện trước hoặc được nhấn mạnh hơn. Không áp thứ tự ưu tiên máy móc BUG > FEATURE > UX.
+
+Trả lời bằng đúng một đối tượng JSON theo schema {"label": "BUG" | "FEATURE" | "UX"}, không giải thích.

@@ -3,6 +3,7 @@
 import time
 
 from src.classification.common import balanced_class_weights, seed_everything
+from src.classification.strategy_visobert.tokenizer import VisobertTokenizer, self_check
 
 
 def _loader(texts, labels, tokenizer, max_len, batch_size, shuffle, seed):
@@ -20,21 +21,26 @@ def _loader(texts, labels, tokenizer, max_len, batch_size, shuffle, seed):
 
 def train_visobert(train_df, n_classes: int, label_names, config: dict, seed: int,
                    text_col: str = 'text', label_col: str = 'y', device=None, model_name=None):
-    """Fine-tune a sequence classifier. Returns (model, tokenizer, history).
-    history = {'epoch_loss': [...], 'train_seconds': float, 'n_train': int, 'class_weights': [...]}."""
+    """Fine-tune a sequence classifier. Returns (model, tokenizer, history); pass the returned tokenizer to
+    predict_visobert so train and predict share one tokenization.
+    history = {'epoch_loss': [...], 'train_seconds': float, 'n_train': int, 'class_weights': [...],
+               'mean_tokens': float}."""
+    import numpy as np
     import torch
-    from transformers import (AutoModelForSequenceClassification, AutoTokenizer,
-                              get_linear_schedule_with_warmup)
+    from transformers import AutoModelForSequenceClassification, get_linear_schedule_with_warmup
     seed_everything(seed)
     device = device or torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     name = model_name or config['model_name']
-    tokenizer = AutoTokenizer.from_pretrained(name)
+    tokenizer = VisobertTokenizer(name)     # sentencepiece trực tiếp, không dùng AutoTokenizer (tách sai)
+    self_check(tokenizer)
     model = AutoModelForSequenceClassification.from_pretrained(
         name, num_labels=n_classes, id2label=dict(enumerate(label_names)),
         label2id={l: i for i, l in enumerate(label_names)},
         ignore_mismatched_sizes=True).to(device)   # always a fresh head sized to this tier
 
     texts, y = train_df[text_col].astype(str).tolist(), train_df[label_col].astype(int).tolist()
+    mean_tokens = float(np.mean([len(tokenizer.encode(t)) for t in texts]))
+    print(f'[visobert] tokenizer sentencepiece: {mean_tokens:.1f} token/review trên {len(texts)} review train')
     loader = _loader(texts, y, tokenizer, config['max_len'], config['batch_size'], True, seed)
     weights = balanced_class_weights(y, n_classes) if config.get('class_weight') == 'balanced' else [1.0] * n_classes
     loss_fn = torch.nn.CrossEntropyLoss(weight=torch.tensor(weights, dtype=torch.float, device=device))
@@ -44,7 +50,8 @@ def train_visobert(train_df, n_classes: int, label_names, config: dict, seed: in
     use_amp = device.type == 'cuda'
     scaler = torch.amp.GradScaler('cuda', enabled=use_amp)
 
-    history = {'epoch_loss': [], 'n_train': len(y), 'class_weights': [float(w) for w in weights]}
+    history = {'epoch_loss': [], 'n_train': len(y), 'class_weights': [float(w) for w in weights],
+               'mean_tokens': mean_tokens}
     if use_amp:
         torch.cuda.synchronize()
     t0 = time.time()

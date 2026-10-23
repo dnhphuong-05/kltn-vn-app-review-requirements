@@ -3,8 +3,11 @@ import time
 
 
 def predict_visobert(model, tokenizer, texts, max_len: int, batch_size: int = 64, device=None):
-    """Returns (pred_ids, probs [n × k], seconds)."""
+    """Returns (pred_ids, probs [n × k], seconds). `tokenizer` = the one returned by train_visobert."""
     import torch
+    from src.classification.strategy_visobert.tokenizer import VisobertTokenizer
+    if not isinstance(tokenizer, VisobertTokenizer):
+        raise TypeError('predict_visobert cần VisobertTokenizer (sentencepiece) — cùng tokenizer với lúc train.')
     device = device or next(model.parameters()).device
     model.eval()
     preds, probs = [], []

@@ -10,8 +10,10 @@ underthesea>=6.7
 # Chiến lược A
 gensim>=4.3            # hoặc fasttext cho static embeddings
 torch>=2.1
-# Chiến lược B
-transformers>=4.40
+# Chiến lược B — pin theo môi trường Kaggle đã chạy GĐ6. ViSoBERT mã hóa bằng sentencepiece trực tiếp
+# (transformers 5.x tách sai sentencepiece.bpe.model của uitnlp/visobert — xem strategy_visobert/tokenizer.py)
+transformers==5.16.1
+sentencepiece          # TODO pin == bản Kaggle (notebook 05/06 in version ở cell setup)
 # Chiến lược C (LLM few-shot qua API) + sinh requirement — OpenAI
 openai>=1.40
 python-dotenv>=1.0

@@ -4,7 +4,7 @@ learning_curve_seeds: [42, 1337, 2024]
 learning_curve_sizes: [400, 800, 1200]   # Train hiện có 1.200 (v1.7/v1.8); subset lồng nhau, stratify theo lớp
 tier1:
   positive_class: ACTIONABLE
-  threshold: 0.5          # tune trên Validation: Recall_ACTIONABLE >= 0.90 rồi max Macro-F1 (protocol v1.1)
+  threshold: 0.5          # tune trên Validation: Recall_ACTIONABLE >= 0.80 (quét 0.01–0.90) rồi max Macro-F1 (amendment v2.0)
 tier2:
   classes: [BUG, FEATURE, UX]
 strategy_b_visobert:

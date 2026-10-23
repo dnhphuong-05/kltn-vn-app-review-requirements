@@ -1,0 +1,16 @@
+# Tier 1 — cấu hình thắng + ngưỡng chọn trên Validation (seed 42, Q5/Q6). DEV, chưa frozen.
+# Chép vào 03_configs/dev/ ; đóng băng trước GĐ10.
+tier1:
+  visobert:
+    overrides:
+      epochs: 4
+      lr: 3.0e-05
+    threshold: 0.15
+    recall_constraint_met: false
+  bilstm:
+    overrides:
+      dropout: 0.5
+      hidden_size: 256
+      lr: 0.001
+    threshold: 0.11
+    recall_constraint_met: false

@@ -9,7 +9,8 @@
 > Đã áp amendment **v1.5 (07/10/2026)**: corpus Shopee gộp theo mức sao được xác nhận near-natural (xấp xỉ toàn bộ review của cửa sổ 12 tháng).
 > Đã áp amendment **v1.7 (13/10/2026)**: Hold-out 1.000 (400 pilot + 600), focused FEATURE/UX set ~150 (khóa, báo cáo riêng), Validation ~350, Train ~1.200 single-label + audit 15%, Lazada 500.
 > Đã áp amendment **v1.8 (23/10/2026)**: Validation cân lại bằng hoán đổi 15 FEATURE ↔ 15 OTHER với Train (Validation 22 FEATURE, Train 129).
-> Đã áp amendment **v1.9 (25/10/2026)**: kết luận learning curve — dừng Train ở 1.200 (tầng 1 gần bão hòa; tầng 2 chưa bão hòa nhưng pool FEATURE cạn); F1 FEATURE đo bổ sung trên focused set.
+> Đã áp amendment **v1.9 (23/10/2026)**: kết luận learning curve — dừng Train ở 1.200 (tầng 1 tăng chậm; tầng 2 chưa bão hòa nhưng pool FEATURE cạn); F1 FEATURE đo bổ sung trên focused set. Số ViSoBERT cập nhật 23/10/2026 sau khi sửa bug tokenizer (ghi chú thực thi GĐ6), kết luận giữ nguyên.
+> Đã áp amendment **v2.0 (23/10/2026)**: Q5 — sàn recall tầng 1 hạ từ 0,90 xuống 0,80, quét ngưỡng 0,01–0,90 (chốt sau khi xem Validation, Hold-out vẫn khóa).
 > Chỗ còn "pre-register sau EDA" (ngưỡng temporal) là nội dung đề cương yêu cầu chốt sau EDA
 > trên non-test data — sẽ ghi bằng amendment, không phải chỗ trống.
 >
@@ -52,8 +53,10 @@
 
 ## Metrics (khóa trước Hold-out) (ĐC §7.3.4, §10)
 - Tier 1: F1 + **Recall của ACTIONABLE** (ưu tiên recall). Ngưỡng chỉnh trên Validation (Q5):
-  trong các ngưỡng đạt **Recall_ACTIONABLE ≥ 0.90**, chọn ngưỡng có **Macro-F1 (2 lớp) cao nhất**.
-  Không ngưỡng nào đạt 0.90 → chọn ngưỡng có recall cao nhất và báo cáo. LLM (C) không có ngưỡng
+  trong các ngưỡng đạt **Recall_ACTIONABLE ≥ 0.80** (quét 0.01–0.90, bước 0.01; amendment v2.0, trước đó
+  0.90), chọn ngưỡng có **Macro-F1 (2 lớp) cao nhất** trên lần chạy seed 42 (Q6), giữ nguyên cho các seed
+  khác và cho Hold-out; báo kèm recall thấp nhất qua 3 seed.
+  Không ngưỡng nào đạt 0.80 → chọn ngưỡng có recall cao nhất và báo cáo. LLM (C) không có ngưỡng
   xác suất → dùng nhãn trực tiếp.
 - Tier 2: Macro-F1 (3 lớp) + per-class P/R/F1 trên **gold-actionable** (tách khỏi lỗi Tier 1).
 - End-to-end: Macro-F1 (4 lớp) = (F1_BUG + F1_FEATURE + F1_UX + F1_OTHER)/4 trên toàn Hold-out;

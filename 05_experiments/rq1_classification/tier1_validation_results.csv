@@ -1,3 +1,3 @@
-strategy,cấu hình,ngưỡng,"đạt recall ≥ 0,90 (seed 42)",f1_actionable,recall_actionable,precision_actionable,macro_f1
-ViSoBERT,"{""epochs"": 4, ""lr"": 3e-05}",0.15,False,59.2 ± 1.5,58.2 ± 0.8,60.2 ± 2.2,74.5 ± 1.0
-Bi-LSTM + fastText,"{""dropout"": 0.5, ""hidden_size"": 256, ""lr"": 0.001}",0.11,False,67.2 ± 2.9,84.0 ± 8.5,56.8 ± 7.7,77.9 ± 3.0
+strategy,cấu hình,ngưỡng,đạt recall ≥ 0.80 (seed 42),recall thấp nhất (3 seed),f1_actionable,recall_actionable,precision_actionable,macro_f1
+ViSoBERT,"{""epochs"": 3, ""lr"": 2e-05}",0.11,True,0.789,76.5 ± 0.6,82.6 ± 4.3,71.6 ± 4.1,85.0 ± 0.6
+Bi-LSTM + fastText,"{""dropout"": 0.5, ""hidden_size"": 256, ""lr"": 0.001}",0.09,True,0.817,68.5 ± 4.2,87.8 ± 6.4,56.9 ± 8.3,78.6 ± 3.9

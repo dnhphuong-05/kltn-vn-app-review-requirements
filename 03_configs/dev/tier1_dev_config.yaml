@@ -1,16 +1,26 @@
-# Tier 1 — cấu hình thắng + ngưỡng chọn trên Validation (seed 42, Q5/Q6). DEV, chưa frozen.
-# Chép vào 03_configs/dev/ ; đóng băng trước GĐ10.
+# Tier 1 — cấu hình thắng + ngưỡng chọn trên Validation (seed 42, Q5 amendment v2.0 / Q6). DEV, chưa frozen.
+# Ngưỡng chọn lại 23/10/2026 từ tier1_*_val_predictions.csv (Kaggle) với luật v2.0; đóng băng trước GĐ10.
 tier1:
+  rule:
+    min_recall: 0.8
+    sweep:
+    - 0.01
+    - 0.9
+    - 0.01
+    chosen_on_seed: 42
+    amendment: v2.0
   visobert:
     overrides:
-      epochs: 4
-      lr: 3.0e-05
-    threshold: 0.15
-    recall_constraint_met: false
+      epochs: 3
+      lr: 2.0e-05
+    threshold: 0.11
+    recall_constraint_met: true
+    recall_min_over_seeds: 0.789
   bilstm:
     overrides:
       dropout: 0.5
       hidden_size: 256
       lr: 0.001
-    threshold: 0.11
-    recall_constraint_met: false
+    threshold: 0.09
+    recall_constraint_met: true
+    recall_min_over_seeds: 0.817

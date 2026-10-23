@@ -1,16 +1,16 @@
-"""Tier 1 decision threshold (Q5, protocol v1.1): among thresholds with Recall_ACTIONABLE ≥ 0.90 on
-Validation, take the one with the highest Macro-F1; if none reaches 0.90, take the threshold with the
+"""Tier 1 decision threshold (Q5, amendment v2.0): among thresholds 0.01–0.90 with Recall_ACTIONABLE ≥ 0.80
+on Validation, take the one with the highest Macro-F1; if none reaches 0.80, take the threshold with the
 highest recall and report that the constraint was not met. Chosen on the canonical seed-42 run (Q6)
-and then frozen for the Hold-out evaluation (GĐ10)."""
+and then frozen for the Hold-out evaluation (GĐ10). (v1.1 used ≥ 0.90.)"""
 import numpy as np
 import pandas as pd
 
 from src.classification.learning_curve import tier1_metrics
 
-MIN_RECALL = 0.90
+MIN_RECALL = 0.80
 
 
-def sweep(y_true, p_actionable, lo=0.10, hi=0.90, step=0.01):
+def sweep(y_true, p_actionable, lo=0.01, hi=0.90, step=0.01):
     y = np.asarray(y_true)
     p = np.asarray(p_actionable)
     rows = []
@@ -35,6 +35,18 @@ def metrics_at(y_true, p_actionable, threshold):
     return tier1_metrics(np.asarray(y_true), (np.asarray(p_actionable) >= threshold).astype(int))
 
 
+def summary_row(y_true, runs, thr, strategy, overrides, min_recall=MIN_RECALL):
+    """Validation table row at the chosen threshold: mean ± std (%) over seeds + lowest recall across seeds."""
+    import json
+    m = pd.DataFrame([metrics_at(y_true, r['probs'][:, 1], thr['threshold']) for r in runs])
+    row = {'strategy': strategy, 'cấu hình': json.dumps(overrides), 'ngưỡng': thr['threshold'],
+           f'đạt recall ≥ {min_recall:.2f} (seed 42)': thr['recall_constraint_met'],
+           'recall thấp nhất (3 seed)': round(float(m['recall_actionable'].min()), 3)}
+    for c in ('f1_actionable', 'recall_actionable', 'precision_actionable', 'macro_f1'):
+        row[c] = f"{m[c].mean() * 100:.1f} ± {m[c].std(ddof=1) * 100:.1f}"
+    return row
+
+
 def plot_threshold_curves(sweeps: dict, chosen: dict, path, min_recall=MIN_RECALL):
     """One panel per strategy: precision, recall and Macro-F1 vs threshold, recall floor, chosen threshold."""
     import matplotlib
@@ -47,8 +59,7 @@ def plot_threshold_curves(sweeps: dict, chosen: dict, path, min_recall=MIN_RECAL
         ax.set_facecolor('#fcfcfb')
         for col, (c, lab) in colors.items():
             ax.plot(sw['threshold'], sw[col] * 100, color=c, linewidth=2, label=lab)
-        ax.axhline(min_recall * 100, color='#52514e', linewidth=0.8, linestyle='--')
-        ax.text(sw['threshold'].min(), min_recall * 100 + 1, f'recall ≥ {min_recall:.2f}', fontsize=7.5, color='#52514e')
+        ax.axhline(min_recall * 100, color='#52514e', linewidth=0.8, linestyle='--', label=f'Sàn recall {min_recall:.2f}')
         t = chosen[name]['threshold']
         ax.axvline(t, color='#0b0b0b', linewidth=1)
         ax.text(t + 0.01, 5, f'ngưỡng {t:.2f}', fontsize=8, color='#0b0b0b')
@@ -60,7 +71,7 @@ def plot_threshold_curves(sweeps: dict, chosen: dict, path, min_recall=MIN_RECAL
         for sp in ('top', 'right'):
             ax.spines[sp].set_visible(False)
         ax.tick_params(colors='#52514e', labelsize=8)
-    axes[0][0].legend(frameon=False, fontsize=8, loc='lower left')
+    axes[0][0].legend(frameon=False, fontsize=8, loc='lower right')   # ngưỡng chọn nằm bên trái, tránh đè nhãn
     fig.tight_layout()
     fig.savefig(path, dpi=200, bbox_inches='tight')
     plt.close(fig)

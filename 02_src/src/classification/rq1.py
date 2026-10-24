@@ -123,6 +123,24 @@ class BilstmRunner:
         return model.to(device).eval()
 
 
+def find_checkpoints(strategy, seeds, root='/kaggle/input', contains=''):
+    """Paths <...>/checkpoints/<strategy>/seed<s> in the given seed order, e.g. a previous notebook's output
+    attached as input. `contains` narrows the search (e.g. 'rq1_tier2') when several outputs are attached."""
+    found = {}
+    for dirpath, _, _ in os.walk(root):
+        if (os.path.basename(dirpath) == strategy and os.path.basename(os.path.dirname(dirpath)) == 'checkpoints'
+                and contains in dirpath):
+            for s in seeds:
+                p = os.path.join(dirpath, f'seed{s}')
+                if os.path.isdir(p):
+                    found.setdefault(s, p)
+    missing = [s for s in seeds if s not in found]
+    if missing:
+        raise FileNotFoundError(f'Không tìm thấy checkpoints/{strategy}/seed{missing} (lọc "{contains}") trong {root} — '
+                                'cần gắn output của notebook đã lưu checkpoint làm input.')
+    return [found[s] for s in seeds]
+
+
 def run_one(runner, train_df, val_df, n_classes, names, seed, overrides=None, save_dir=None):
     """Train once, predict Validation. Returns probs + cost (train s, inference s, s/1000 reviews, peak GPU GB).
     With `save_dir`, the trained model is kept at <save_dir>/seed<seed> (runner.save)."""

@@ -123,6 +123,25 @@ class BilstmRunner:
         return model.to(device).eval()
 
 
+RELOAD_PROB_TOL = 1e-2
+
+
+def verify_reload(new_probs, saved_probs, name='', prob_tol=RELOAD_PROB_TOL):
+    """Check a reloaded checkpoint against the probabilities saved when it was trained. On another GPU / library
+    version probabilities drift by float noise (seen: 3.35e-3 between GĐ7 and GĐ9); what drives every metric is the
+    predicted label. Passes iff argmax labels agree 100% AND max |Δp| < prob_tol (a broken checkpoint drifts far more)."""
+    new, old = np.asarray(new_probs), np.asarray(saved_probs)
+    if new.shape != old.shape:
+        raise AssertionError(f'{name}: kích thước xác suất khác nhau {new.shape} vs {old.shape}')
+    diff = float(np.abs(new - old).max())
+    same = new.argmax(1) == old.argmax(1)
+    msg = (f'{name}: nhãn khớp {same.mean():.1%} ({int(same.sum())}/{len(same)}) | '
+           f'chênh xác suất lớn nhất {diff:.2e} (ngưỡng {prob_tol:.0e})')
+    if not same.all() or diff >= prob_tol:
+        raise AssertionError('Checkpoint nạp lại không khớp — ' + msg)
+    return {'label_agreement': float(same.mean()), 'max_prob_diff': diff, 'n': int(len(same)), 'message': msg}
+
+
 def find_checkpoints(strategy, seeds, root='/kaggle/input', contains=''):
     """Paths <...>/checkpoints/<strategy>/seed<s> in the given seed order, e.g. a previous notebook's output
     attached as input. `contains` narrows the search (e.g. 'rq1_tier2') when several outputs are attached."""

@@ -1,0 +1,2 @@
+strategy,n_train,train_seconds_mean,train_seconds_std,infer_seconds_per_1000_mean,infer_seconds_per_1000_std,peak_gpu_gb_mean,peak_gpu_gb_std
+Baseline phẳng ViSoBERT,1200,40.73651258150736,0.06768379941890497,1.3794290451776412,0.0014250616357373983,2.5020000000000002,0.0020000000000000018

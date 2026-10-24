@@ -1,0 +1,4 @@
+tập,strategy,cấu hình,n,n_BUG,n_FEATURE,n_UX,n_OTHER,macro_f1,f1_BUG,f1_FEATURE,f1_UX,f1_OTHER
+Validation,Baseline phẳng ViSoBERT,"{""epochs"": 5, ""lr"": 2e-05}",350.0,27.0,22.0,22.0,279.0,69.1 ± 2.0,50.7 ± 2.5,58.9 ± 7.0,72.7 ± 3.2,94.0 ± 0.5
+Validation,Cascade ViSoBERT,tầng 1 ngưỡng 0.11 + tầng 2,350.0,27.0,22.0,22.0,279.0,68.8 ± 0.8,52.9 ± 3.3,56.3 ± 1.6,72.5 ± 4.2,93.4 ± 0.7
+,"Chênh (cascade − baseline), điểm %",,,,,,,-0.3,+2.2,-2.6,-0.2,-0.6

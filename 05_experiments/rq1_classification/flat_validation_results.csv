@@ -1,0 +1,2 @@
+tập,strategy,cấu hình,n,n_BUG,n_FEATURE,n_UX,n_OTHER,macro_f1,f1_BUG,f1_FEATURE,f1_UX,f1_OTHER
+Validation,Baseline phẳng ViSoBERT,"{""epochs"": 5, ""lr"": 2e-05}",350,27,22,22,279,69.1 ± 2.0,50.7 ± 2.5,58.9 ± 7.0,72.7 ± 3.2,94.0 ± 0.5

@@ -1,0 +1,12 @@
+# Baseline phẳng 4 lớp (reference only) — cấu hình thắng trên Validation. DEV, chưa frozen.
+# Checkpoint 3 seed để GĐ10 so cascade với baseline trên Hold-out.
+flat:
+  visobert:
+    overrides:
+      epochs: 5
+      lr: 2.0e-05
+    select: macro_f1 (4 lớp) trên Validation, argmax
+    checkpoints:
+    - checkpoints/visobert/seed42
+    - checkpoints/visobert/seed1337
+    - checkpoints/visobert/seed2024

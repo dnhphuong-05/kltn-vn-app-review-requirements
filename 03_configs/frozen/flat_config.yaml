@@ -1,0 +1,22 @@
+# FROZEN — khóa ngày 25/10/2026, amendment v2.1. Không sửa sau mốc này; mọi thay đổi phải có amendment mới.
+# Nguồn: 03_configs/dev/flat_dev_config.yaml (giữ làm lịch sử) + 03_configs/frozen/classification.yaml.
+# Cấu hình hiệu lực đầy đủ (giá trị gốc + overrides) để GĐ10 train lại trong một phiên, không tune lại.
+flat:
+  seeds:
+  - 42
+  - 1337
+  - 2024
+  canonical_seed: 42
+  role: baseline phẳng 4 lớp — reference only, không vào downstream
+  decision: argmax (không có ngưỡng)
+  visobert:
+    config:
+      model_name: uitnlp/visobert
+      max_len: 256
+      lr: 2.0e-05
+      epochs: 5
+      batch_size: 16
+      warmup_ratio: 0.1
+      weight_decay: 0.01
+      class_weight: balanced
+  data: Train 1.200, nhãn 4 lớp, gồm ambiguous

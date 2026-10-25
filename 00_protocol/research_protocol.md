@@ -11,6 +11,7 @@
 > Đã áp amendment **v1.8 (23/10/2026)**: Validation cân lại bằng hoán đổi 15 FEATURE ↔ 15 OTHER với Train (Validation 22 FEATURE, Train 129).
 > Đã áp amendment **v1.9 (23/10/2026)**: kết luận learning curve — dừng Train ở 1.200 (tầng 1 tăng chậm; tầng 2 chưa bão hòa nhưng pool FEATURE cạn); F1 FEATURE đo bổ sung trên focused set. Số ViSoBERT cập nhật 23/10/2026 sau khi sửa bug tokenizer (ghi chú thực thi GĐ6), kết luận giữ nguyên.
 > Đã áp amendment **v2.0 (23/10/2026)**: Q5 — sàn recall tầng 1 hạ từ 0,90 xuống 0,80, quét ngưỡng 0,01–0,90 (chốt sau khi xem Validation, Hold-out vẫn khóa).
+> Đã áp amendment **v2.1 (25/10/2026)**: đóng băng toàn bộ config RQ1 (cấu hình, ngưỡng, prompt hash) vào `03_configs/frozen/` trước khi mở Hold-out; GĐ10 train lại từ config này, không tune lại.
 > Chỗ còn "pre-register sau EDA" (ngưỡng temporal) là nội dung đề cương yêu cầu chốt sau EDA
 > trên non-test data — sẽ ghi bằng amendment, không phải chỗ trống.
 >

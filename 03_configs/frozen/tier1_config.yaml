@@ -1,0 +1,58 @@
+# FROZEN — khóa ngày 25/10/2026, amendment v2.1. Không sửa sau mốc này; mọi thay đổi phải có amendment mới.
+# Nguồn: 03_configs/dev/tier1_dev_config.yaml (giữ làm lịch sử) + 03_configs/frozen/classification.yaml.
+# Cấu hình hiệu lực đầy đủ (giá trị gốc + overrides) để GĐ10 train lại trong một phiên, không tune lại.
+tier1:
+  seeds:
+  - 42
+  - 1337
+  - 2024
+  canonical_seed: 42
+  threshold_rule:
+    min_recall: 0.8
+    sweep:
+    - 0.01
+    - 0.9
+    - 0.01
+    chosen_on_seed: 42
+    amendment: v2.0
+  visobert:
+    config:
+      model_name: uitnlp/visobert
+      max_len: 256
+      lr: 2.0e-05
+      epochs: 3
+      batch_size: 16
+      warmup_ratio: 0.1
+      weight_decay: 0.01
+      class_weight: balanced
+    threshold: 0.11
+    recall_min_over_seeds_validation: 0.789
+  bilstm:
+    config:
+      fasttext_url: https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.vi.300.vec.gz
+      embedding_dim: 300
+      freeze_embedding: true
+      hidden_size: 256
+      num_layers: 1
+      dropout: 0.5
+      max_len: 128
+      lr: 0.001
+      epochs: 10
+      batch_size: 32
+      class_weight: balanced
+    note: vocab dựng từ text Train + Validation; vector fastText cố định; tách theo
+      âm tiết
+    threshold: 0.09
+    recall_min_over_seeds_validation: 0.817
+  llm:
+    model: gpt-4o-mini-2024-07-18
+    provider: openai
+    temperature: 0.0
+    api_seed: 42
+    prompt_version: v1
+    prompt_hash: 9730222c472ff4a7867336e658e0d4e752f44addcc95c20822c29e63911eef22
+    system_prompt: 04_prompts/classification_fewshot/tier1_system_v1.txt
+    exemplars: 04_prompts/classification_fewshot/tier1_exemplars_v1.json
+    run: không train; GĐ10 gọi API với prompt v1 đã khóa (hash phải khớp registry
+      trước khi chạy)
+  data: Train 1.200 (gồm ambiguous); nhãn ACTIONABLE = BUG ∪ FEATURE ∪ UX

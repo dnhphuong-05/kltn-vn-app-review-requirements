@@ -1,0 +1,48 @@
+# FROZEN — khóa ngày 25/10/2026, amendment v2.1. Không sửa sau mốc này; mọi thay đổi phải có amendment mới.
+# Nguồn: 03_configs/dev/tier2_dev_config.yaml (giữ làm lịch sử) + 03_configs/frozen/classification.yaml.
+# Cấu hình hiệu lực đầy đủ (giá trị gốc + overrides) để GĐ10 train lại trong một phiên, không tune lại.
+tier2:
+  seeds:
+  - 42
+  - 1337
+  - 2024
+  canonical_seed: 42
+  decision: argmax (không có ngưỡng)
+  visobert:
+    config:
+      model_name: uitnlp/visobert
+      max_len: 256
+      lr: 3.0e-05
+      epochs: 8
+      batch_size: 16
+      warmup_ratio: 0.1
+      weight_decay: 0.01
+      class_weight: balanced
+  bilstm:
+    config:
+      fasttext_url: https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.vi.300.vec.gz
+      embedding_dim: 300
+      freeze_embedding: true
+      hidden_size: 128
+      num_layers: 1
+      dropout: 0.5
+      max_len: 128
+      lr: 0.002
+      epochs: 20
+      batch_size: 32
+      class_weight: balanced
+    note: vocab dựng từ text Train + Validation; vector fastText cố định; tách theo
+      âm tiết
+  llm:
+    model: gpt-4o-mini-2024-07-18
+    provider: openai
+    temperature: 0.0
+    api_seed: 42
+    prompt_version: v1
+    prompt_hash: 973a305b8e73efbb0288586cce39a61c2c98d2a922a559d0eef29b5b8596aa3f
+    system_prompt: 04_prompts/classification_fewshot/tier2_system_v1.txt
+    exemplars: 04_prompts/classification_fewshot/tier2_exemplars_v1.json
+    run: không train; GĐ10 gọi API với prompt v1 đã khóa (hash phải khớp registry
+      trước khi chạy)
+  data: Train actionable (BUG/FEATURE/UX), bỏ review ambiguous khi train; đánh giá
+    giữ ambiguous

@@ -106,3 +106,8 @@ Review → TẦNG 1: ACTIONABLE / NOT_ACTIONABLE     (so 3 chiến lược — R
 - KHÔNG chạy API tốn phí trên toàn bộ dữ liệu khi chưa test mẫu nhỏ + người dùng xác nhận.
 - Lỗi: DÁN NGUYÊN lỗi + giải thích tiếng Việt trước khi thử cách khác.
 - Mọi thay đổi quyết định nghiên cứu phải ghi vào `00_protocol/protocol_amendments.md` (có version).
+
+## 14. Luận văn — định dạng & cấu trúc
+- Khi viết/chỉnh nội dung luận văn, BẮT BUỘC tuân theo yêu cầu định dạng + cấu trúc trong
+  `09_thesis/guidelines/` (bản tóm tắt: `09_thesis/guidelines/yeu_cau_tom_tat.md`). Kiểm tra lại quy định này
+  trước khi viết mỗi chương.

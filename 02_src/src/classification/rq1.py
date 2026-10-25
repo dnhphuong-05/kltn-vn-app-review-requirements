@@ -179,6 +179,26 @@ def run_one(runner, train_df, val_df, n_classes, names, seed, overrides=None, sa
     return out
 
 
+def run_multi(runner, train_df, sets: dict, n_classes, names, seed, overrides=None, timing_set='validation'):
+    """Train once, predict several sets (GĐ10: Validation + locked sets, text only). Returns
+    {'seed', 'probs': {set: [n × k]}, train_seconds, infer_seconds_per_1000 (on `timing_set`), peak_gpu_gb, n_train}."""
+    _peak_reset()
+    t0 = time.time()
+    model = runner.train(train_df, n_classes, names, seed, overrides)
+    train_s = time.time() - t0
+    probs, per1000 = {}, None
+    for name, df in sets.items():
+        p, secs = runner.predict_proba(model, df['text'].astype(str).tolist())
+        probs[name] = p
+        if name == timing_set:
+            per1000 = secs / len(df) * 1000
+    out = {'seed': seed, 'probs': probs, 'train_seconds': train_s, 'infer_seconds_per_1000': per1000,
+           'peak_gpu_gb': _peak_gb(), 'n_train': len(train_df)}
+    del model
+    _free()
+    return out
+
+
 def grid_search(runner, grid, train_df, val_df, n_classes, names, metric_fn, select='macro_f1', seed=42,
                 log=print, strategy=''):
     """One seed per configuration (fast tuning). metric_fn(y_true, probs) -> dict.

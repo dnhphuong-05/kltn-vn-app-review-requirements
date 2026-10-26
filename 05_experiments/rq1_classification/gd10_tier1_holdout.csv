@@ -1,0 +1,4 @@
+chiến lược,F1 ACT,Recall ACT,Precision ACT,Macro-F1 (2 lớp),số lần chạy
+ViSoBERT,65.9 ± 0.9,69.8 ± 4.0,62.7 ± 2.9,78.9 ± 0.6,3
+Bi-LSTM + fastText,59.7 ± 4.7,84.0 ± 7.4,47.0 ± 7.5,72.6 ± 5.0,3
+LLM few-shot,81.7,86.9,77.2,88.7,1

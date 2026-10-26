@@ -1,0 +1,5 @@
+chiến lược,nhãn cần,"huấn luyện / seed (giây, tầng 1 + tầng 2)",suy luận / 1.000 review (giây),GPU tối đa (GB),USD API / 1.000 review,phụ thuộc nhà cung cấp,giờ gán nhãn
+ViSoBERT,Train 1.200 + Validation 350,42.7,1.55,2.509,0.0,Không (chạy cục bộ),{...}
+Bi-LSTM + fastText,Train 1.200 + Validation 350,6.4,0.11,0.624,0.0,Không (chạy cục bộ),{...}
+LLM few-shot,17 ví dụ (Train) + Validation 350,0.0,1103.5,0.0,0.2064,"Có (OpenAI, snapshot cố định)",{...}
+Baseline phẳng ViSoBERT,Train 1.200 + Validation 350,39.7,1.39,2.504,0.0,Không (chạy cục bộ),{...}

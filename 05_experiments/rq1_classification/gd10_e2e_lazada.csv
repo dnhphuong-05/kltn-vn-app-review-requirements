@@ -1,0 +1,4 @@
+cấu hình,Macro-F1 (4 lớp),F1 BUG,F1 FEATURE,F1 UX,F1 OTHER,số lần chạy
+Cascade ViSoBERT,56.0 ± 0.4,42.4 ± 1.6,33.8 ± 2.1,59.0 ± 2.4,88.8 ± 1.3,3
+Cascade Bi-LSTM + fastText,47.1 ± 6.4,31.9 ± 5.5,21.3 ± 6.7,55.3 ± 5.9,80.0 ± 8.3,3
+Cascade LLM few-shot,60.5,48.1,37.5,66.7,89.8,1

@@ -1,0 +1,3 @@
+model,recall ACTIONABLE seed 42,"đạt sàn 0,80"
+Tầng 1 – ViSoBERT,0.817,True
+Tầng 1 – Bi-LSTM + fastText,0.873,True

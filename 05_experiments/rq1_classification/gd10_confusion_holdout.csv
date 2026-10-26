@@ -1,0 +1,17 @@
+,đoán BUG,đoán FEATURE,đoán UX,đoán OTHER,cấu_hình
+gold BUG,40,2,2,45,Cascade ViSoBERT
+gold FEATURE,4,13,2,5,Cascade ViSoBERT
+gold UX,3,4,54,9,Cascade ViSoBERT
+gold OTHER,32,24,19,742,Cascade ViSoBERT
+gold BUG,50,7,10,22,Cascade Bi-LSTM + fastText
+gold FEATURE,6,8,5,5,Cascade Bi-LSTM + fastText
+gold UX,7,2,57,4,Cascade Bi-LSTM + fastText
+gold OTHER,83,45,26,663,Cascade Bi-LSTM + fastText
+gold BUG,73,0,1,15,Cascade LLM few-shot
+gold FEATURE,3,19,0,2,Cascade LLM few-shot
+gold UX,2,3,58,7,Cascade LLM few-shot
+gold OTHER,36,9,2,770,Cascade LLM few-shot
+gold BUG,33,1,4,51,Baseline phẳng ViSoBERT
+gold FEATURE,3,10,1,10,Baseline phẳng ViSoBERT
+gold UX,3,2,53,12,Baseline phẳng ViSoBERT
+gold OTHER,13,7,4,793,Baseline phẳng ViSoBERT

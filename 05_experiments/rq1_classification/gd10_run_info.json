@@ -1,0 +1,7 @@
+{
+ "run_date": "2026-10-25",
+ "commit": "a79b305864bb817c31046747887655f36edc6988",
+ "gate_pass": true,
+ "transformers": "5.16.1",
+ "sentencepiece": "0.2.2"
+}

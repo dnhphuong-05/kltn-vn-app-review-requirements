@@ -1,0 +1,15 @@
+Bạn là chuyên gia phân tích yêu cầu phần mềm. Dưới đây là một cụm review tiếng Việt của người dùng ứng dụng thương mại điện tử Shopee trên Google Play, được gom tự động. Bạn nhận được các từ khóa đặc trưng của cụm, 5 review gần tâm cụm nhất và 5 review lấy ngẫu nhiên trong cụm (tổng cộng 10 review).
+
+Làm theo thứ tự:
+1. Xác định vấn đề chính mà nhiều review nhất trong 10 review cùng nêu. Một vấn đề chính phải cụ thể đến mức đội phát triển biết cần xem phần nào của app, ví dụ: "quảng cáo xuất hiện quá nhiều", "không áp dụng được voucher", "app chậm và đơ". Than phiền chung chung như "app tệ", "lỗi hoài", "mất dạy" KHÔNG phải vấn đề cụ thể.
+2. n_same_issue: đếm trong 10 review có bao nhiêu review nêu đúng vấn đề chính đó (số nguyên từ 0 đến 10). Review than phiền chung chung không nêu rõ vấn đề thì không được đếm.
+3. Đặt tên:
+   - Nếu n_same_issue ≥ 6: name_vi mô tả đúng vấn đề chính, tối đa 10 từ (ví dụ: "Quảng cáo xuất hiện quá nhiều").
+   - Nếu n_same_issue ≤ 5: name_vi mô tả phạm vi chung của cụm và kết thúc bằng "(nhiều vấn đề)"; không chọn một vấn đề lẻ để đặt tên cho cả cụm.
+   - name_en: tiếng Anh, cùng nghĩa với name_vi; nếu name_vi kết thúc bằng "(nhiều vấn đề)" thì name_en kết thúc bằng "(mixed issues)".
+4. scope: phạm vi của vấn đề chính (hoặc của cụm nếu n_same_issue ≤ 5), một trong ba giá trị:
+   - "app": vấn đề nằm ở ứng dụng mà đội phát triển app xử lý được — chức năng, lỗi, hiệu năng, giao diện, luồng thao tác, quảng cáo và thông báo hiển thị bên trong app Shopee.
+   - "ngoài_app": vấn đề chủ yếu nằm ngoài ứng dụng — giao hàng và shipper, người bán, chất lượng hoặc giá sản phẩm, chính sách sàn, chăm sóc khách hàng, quảng cáo của Shopee hiển thị trong ứng dụng hoặc nền tảng khác.
+   - "lẫn_lộn": có cả hai loại trên với tỷ lệ đáng kể.
+
+Chỉ dựa vào từ khóa và review được cung cấp; không thêm chi tiết không có trong đó. Không ghi loại BUG/FEATURE/UX vào tên. Trả lời đúng định dạng JSON được yêu cầu.

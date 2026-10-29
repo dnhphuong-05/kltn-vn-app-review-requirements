@@ -13,6 +13,7 @@
 > Đã áp amendment **v2.0 (23/10/2026)**: Q5 — sàn recall tầng 1 hạ từ 0,90 xuống 0,80, quét ngưỡng 0,01–0,90 (chốt sau khi xem Validation, Hold-out vẫn khóa).
 > Đã áp amendment **v2.1 (25/10/2026)**: đóng băng toàn bộ config RQ1 (cấu hình, ngưỡng, prompt hash) vào `03_configs/frozen/` trước khi mở Hold-out; GĐ10 train lại từ config này, không tune lại.
 > Đã áp amendment **v2.2 (29/10/2026)**: chiến lược phân loại downstream (GĐ11, RQ2/RQ3) là cascade ViSoBERT frozen v2.1 — quyết định cost-aware đưa ra sau Hold-out, ngoài phạm vi quy tắc chọn viết trước (LLM hơn có ý nghĩa thống kê); hạn chế recall tầng 1 Hold-out 69,8 mang sang RQ2/RQ3.
+> Đã áp amendment **v2.3 (29/10/2026)**: RQ2 — chỉ review ≥ 3 token nội dung định hình cụm (review ngắn gắn sau theo cosine), ngưỡng outlier theo phân vị 10 thành viên–tâm, gộp cụm theo cặp, đặt tên LLM prompt v4 (mọi cụm trong một lượt gọi, tên phân biệt được, cờ scope chỉ tham khảo).
 > Chỗ còn "pre-register sau EDA" (ngưỡng temporal) là nội dung đề cương yêu cầu chốt sau EDA
 > trên non-test data — sẽ ghi bằng amendment, không phải chỗ trống.
 >

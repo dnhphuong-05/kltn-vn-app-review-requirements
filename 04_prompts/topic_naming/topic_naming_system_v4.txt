@@ -1,0 +1,16 @@
+Bạn là chuyên gia phân tích yêu cầu phần mềm. Dưới đây là TOÀN BỘ các cụm review tiếng Việt của người dùng ứng dụng thương mại điện tử Shopee trên Google Play, được gom tự động. Với mỗi cụm, bạn nhận được id, số review, các từ khóa đặc trưng, 5 review gần tâm cụm nhất và 5 review lấy ngẫu nhiên trong cụm.
+
+Với MỖI cụm, trả về:
+- topic_id: đúng id của cụm.
+- name_vi: tên ngắn tiếng Việt, tối đa 10 từ, mô tả vấn đề mà nhiều review của cụm cùng nêu, cụ thể đến mức đội phát triển biết cần xem phần nào của app (ví dụ: "Không áp dụng được voucher khi thanh toán").
+- name_en: tên tiếng Anh cùng nghĩa với name_vi, tối đa 10 từ.
+- scope: phạm vi của vấn đề, một trong ba giá trị:
+  - "app": vấn đề nằm ở ứng dụng mà đội phát triển app xử lý được — chức năng, lỗi, hiệu năng, giao diện, luồng thao tác, quảng cáo và thông báo hiển thị bên trong app Shopee.
+  - "ngoài_app": vấn đề chủ yếu nằm ngoài ứng dụng — giao hàng và shipper, người bán, chất lượng hoặc giá sản phẩm, chính sách sàn, chăm sóc khách hàng, quảng cáo của Shopee hiển thị trong ứng dụng hoặc nền tảng khác.
+  - "lẫn_lộn": có cả hai loại trên với tỷ lệ đáng kể.
+
+Quy tắc đặt tên:
+- Các tên phải phân biệt được với nhau. Khi nhiều cụm cùng một chủ đề (ví dụ quảng cáo), so sánh các cụm đó và đặt tên nêu rõ điểm khác nhau giữa chúng (ví dụ: nơi quảng cáo xuất hiện, cách quảng cáo gây phiền).
+- Nếu phần lớn review của cụm chỉ là than phiền chung chung không nêu rõ vấn đề, đặt tên dạng "Than phiền chung về …" và kết thúc bằng "(nhiều vấn đề)" ở name_vi, "(mixed issues)" ở name_en.
+- Chỉ dựa vào từ khóa và review được cung cấp; không thêm chi tiết không có trong đó. Không ghi loại BUG/FEATURE/UX vào tên.
+- Trả về đúng một mục cho mỗi cụm, theo đúng định dạng JSON được yêu cầu.

@@ -1,0 +1,18 @@
+topic_id,name_vi,name_en,scope,prompt_tokens,completion_tokens,seconds,parsed,attempts,model,system_fingerprint
+0,Dịch vụ giao hàng kém chất lượng,Poor delivery service,ngoài_app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921
+1,Lỗi tài khoản và thanh toán,Account and payment errors,app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921
+2,Quảng cáo gây phiền phức,Annoying advertisements,app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921
+3,Quảng cáo xuất hiện liên tục,Continuous advertisement display,app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921
+4,Video tự phát âm thanh phiền phức,Annoying autoplay videos,app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921
+5,Quảng cáo rác và khó chịu,Annoying junk advertisements,app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921
+6,Ứng dụng lag và chậm,Laggy and slow app,app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921
+7,Lỗi trong giỏ hàng và mua sắm,Errors in cart and shopping,app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921
+8,Chất lượng sản phẩm và giao hàng,Product quality and delivery,ngoài_app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921
+9,Quảng cáo nhảy vào ứng dụng,Ads jumping into the app,app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921
+10,Quảng cáo trong game gây phiền,Ads in games are annoying,app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921
+11,Lỗi khi áp dụng voucher,Errors applying vouchers,app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921
+12,Lỗi xác minh số điện thoại,Phone number verification errors,app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921
+13,Lỗi nhập mã giảm giá,Discount code entry errors,app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921
+14,Lỗi trong trò chơi và game,Errors in games,app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921
+15,Quảng cáo phiền phức trên mọi nền tảng,Annoying ads on all platforms,app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921
+16,Lỗi địa chỉ giao hàng,Delivery address errors,ngoài_app,388.4705882352941,29.705882352941178,0.44294100649216595,True,1,gpt-4o-mini-2024-07-18,fp_c5012d6921

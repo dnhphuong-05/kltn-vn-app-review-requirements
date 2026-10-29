@@ -36,6 +36,12 @@ def segment(texts):
     return [word_tokenize(str(t).lower(), format='text') for t in texts]
 
 
+def informative_mask(tokens, min_content_tokens):
+    """Reviews with at least min_content_tokens tokens left after stopword filtering. Only these shape the topics
+    (BERTopic fit); shorter reviews are attached afterwards by embedding similarity (amendment v2.3)."""
+    return np.array([len(t) >= min_content_tokens for t in tokens])
+
+
 def tokens_for_topics(segmented, stopwords, min_chars=2):
     """Token lists used by BOTH the c-TF-IDF vectorizer and the coherence model: drop stopwords, tokens without a
     letter (numbers, punctuation, emoji) and tokens shorter than min_chars."""
@@ -214,6 +220,31 @@ def merge_duplicates(model, docs, topics, embeddings, cfg):
     if pairs:
         model.merge_topics(docs, [[a, b] for a, b, _ in pairs])
     return np.asarray(model.topics_), pairs
+
+
+def attach_by_similarity(embeddings, fit_topics, fit_mask, threshold):
+    """Topics for EVERY review: fitted reviews keep their topic; each other review joins the nearest topic centroid
+    (centroids from fitted reviews only) if cosine ≥ threshold, otherwise −1. Returns (topics, attached mask)."""
+    ids, c = centroids(embeddings[fit_mask], fit_topics)
+    out = np.full(len(embeddings), -1)
+    out[fit_mask] = fit_topics
+    rest = np.where(~fit_mask)[0]
+    attached = np.zeros(len(embeddings), dtype=bool)
+    if len(rest):
+        s = embeddings[rest] @ c.T
+        best = s.argmax(1)
+        ok = s[np.arange(len(rest)), best] >= threshold
+        out[rest[ok]] = np.asarray(ids)[best[ok]]
+        attached[rest[ok]] = True
+    return out, attached
+
+
+def random_members(topics, k, seed=42):
+    """{topic: k random member indices} (non-outlier topics), to show the BA / the LLM more than the most typical reviews."""
+    rng = np.random.default_rng(seed)
+    t = np.asarray(topics)
+    return {int(i): rng.choice(np.where(t == i)[0], size=min(k, int((t == i).sum())), replace=False).tolist()
+            for i in sorted(set(t)) if i != -1}
 
 
 # ---------------------------------------------------------------- dominant type

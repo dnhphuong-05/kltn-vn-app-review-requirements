@@ -1,0 +1,3 @@
+embedding,n review,min_topic_size,C_v,số topic,tỷ lệ outlier,topic lớn nhất (% review đã gom),kích thước trung vị,kích thước nhỏ nhất,suy biến
+mpnet (chính),9048,30,0.4891195463457188,26,0.3024977895667551,0.14466803993028046,126.5,47,False
+vietnamese-sbert,9048,30,0.6072348236747751,2,0.004420866489832007,0.9953374777975134,4504.0,42,True

@@ -1,0 +1,32 @@
+{
+ "run_date": "2026-10-29",
+ "commit": "b4652370ca55bb0881cae33b75e57cea9a829ffe",
+ "versions": {
+  "bertopic": "0.17.4",
+  "sentence_transformers": "6.2.0",
+  "umap": "0.5.12",
+  "gensim": "4.4.0",
+  "underthesea": "9.5.0",
+  "hdbscan": "0.8.44"
+ },
+ "n_actionable": 10897,
+ "min_topic_size": 75,
+ "n_topics": 17,
+ "n_outliers": 1298,
+ "c_v": 0.5447977431235134,
+ "type_purity_weighted": 0.6859047817480988,
+ "embedding": {
+  "model_name": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+  "revision": "4328cf26390c98c5e3c738b4460a05b95f4911f5",
+  "input": "text",
+  "batch_size": 64,
+  "normalize": true
+ },
+ "outlier_threshold": 0.6206917762756348,
+ "n_merged_pairs": 0,
+ "n_informative": 9328,
+ "n_attached": 1320,
+ "n_outlier_low_info": 249,
+ "naming_prompt": "v4",
+ "llm_names": true
+}

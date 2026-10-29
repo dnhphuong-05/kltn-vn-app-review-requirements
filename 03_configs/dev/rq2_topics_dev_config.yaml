@@ -33,7 +33,10 @@ rq2_topics:
   # Gộp CẶP cụm có tâm gần trùng (cosine ≥ 0,90), không gộp dây chuyền: chạy khô với gộp dây chuyền dồn 8 cụm làm một.
   merge: {topic_similarity: 0.90}
   dominant_type: {threshold: 0.60, mixed_origin_min_reviews: 3, mixed_origin_min_share: 0.10}   # CLAUDE.md §7, Q14
-  naming: {n_keywords: 4, n_docs: 5}
+  # Amendment v2.3 — chỉ review có ≥ 3 token nội dung (sau khi lọc từ dừng) định hình cụm; review ngắn hơn được gắn
+  # vào cụm gần nhất bằng cùng ngưỡng cosine với outlier, không đủ gần thì là outlier "ít thông tin".
+  informative: {min_content_tokens: 3}
+  naming: {n_keywords: 4, n_docs: 5, n_random: 5, prompt_version: v4}
   # Từ dừng (dạng đã tách từ). Tên app có trong gần như mọi review nên không mang nghĩa phân biệt cụm.
   stopwords: [shopee, shoppe, shope, shopy, shopi, sp, app, ứng_dụng, apps,
     và, là, của, có, cho, thì, mà, được, bị, không, ko, k, kh, hok, đc, dc, cũng, vẫn, đã, đang, sẽ, rồi, nữa,

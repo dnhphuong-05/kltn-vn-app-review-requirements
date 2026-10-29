@@ -1,0 +1,27 @@
+{
+ "run_date": "2026-10-29",
+ "commit": "84dac17a73d0c5f4534d011f37ffba5321779555",
+ "seed": 42,
+ "threshold": 0.11,
+ "n_corpus": 56050,
+ "n_actionable": 10897,
+ "actionable_rate": 0.1944157002676182,
+ "expected_rate": 0.22821371610845295,
+ "pilot_prevalence": 0.205,
+ "train_seconds": {
+  "tier1": 25.009634733200073,
+  "tier2": 19.00303888320923
+ },
+ "infer_seconds_per_1000_corpus": {
+  "tier1": 1.0465262980465375,
+  "tier2": 1.1316508379076125
+ },
+ "peak_gpu_gb": {
+  "tier1": 2.501,
+  "tier2": 2.5
+ },
+ "gpu": "Tesla T4",
+ "transformers": "5.16.1",
+ "sentencepiece": "0.2.2",
+ "torch": "2.11.0+cu128"
+}

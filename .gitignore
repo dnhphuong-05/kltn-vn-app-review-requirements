@@ -28,3 +28,7 @@ env/
 01_data/gold/adjudicated/*.csv
 # Pilot (thuộc Hold-out) chứa text review — không commit. README vẫn commit được.
 07_human_eval/pilot/*.csv
+# RQ2 (GĐ11–GĐ12): file có văn bản review và embedding đệm — không commit. topics.csv, review_topic_map.csv, gd1x_* vẫn commit được.
+05_experiments/rq2_topics/actionable_reviews.csv
+05_experiments/rq2_topics/gd12_topic_examples.csv
+05_experiments/rq2_topics/cache/

@@ -1,0 +1,44 @@
+# DEV — cấu hình BERTopic cho RQ2 (GĐ12). Chưa khóa: min_topic_size chọn theo C_v trên lưới bên dưới (Q12),
+# sau đó cấu hình thắng được chép sang 03_configs/frozen/ trước GĐ13.
+rq2_topics:
+  seed: 42
+  embedding:                       # Q13 — mô hình chính, revision pin khi tải lần đầu (29/10/2026)
+    model_name: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+    revision: 4328cf26390c98c5e3c738b4460a05b95f4911f5
+    input: text                    # văn bản gốc (text_clean), không tách từ
+    batch_size: 64
+    normalize: true
+  embedding_candidate:             # Q13 — Vietnamese SBERT chỉ để so nhanh trên non-test; đổi mô hình cần amendment
+    model_name: keepitreal/vietnamese-sbert
+    revision: a9467ef2ef47caa6448edeabfd8e5e5ce0fa2a23
+    input: segmented               # PhoBERT cần văn bản đã tách từ (underthesea, nối bằng "_")
+    batch_size: 64
+    normalize: true
+    compare_min_topic_size: 30
+  umap: {n_neighbors: 15, n_components: 5, min_dist: 0.0, metric: cosine, random_state: 42}
+  hdbscan: {metric: euclidean, cluster_selection_method: eom, prediction_data: true}
+  min_topic_size_grid: [15, 20, 30, 50, 75]
+  selection:                       # Q12 — tiêu chí chính C_v; tín hiệu phụ dùng để loại cấu hình suy biến
+    coherence: c_v
+    top_n_words: 10
+    max_topic_share: 0.30          # một cụm chiếm > 30% review đã gom → "cụm khổng lồ"
+    max_topics: 100                # > 100 cụm → quá vụn để BA rà
+  vectorizer:                      # c-TF-IDF và coherence dùng cùng token: tách từ underthesea, chữ thường
+    ngram_range: [1, 1]
+    min_token_chars: 2
+    reduce_frequent_words: true
+  # Gán lại outlier cho cụm gần nhất chỉ khi cosine tới tâm cụm ≥ phân vị 10 của cosine thành viên–tâm cụm
+  # (gần tâm ít nhất bằng 10% thành viên xa nhất). Ngưỡng cố định 0,5 bị bỏ: chạy khô gán lại 97% outlier.
+  outliers: {strategy: embeddings, threshold: auto, member_percentile: 10}
+  # Gộp CẶP cụm có tâm gần trùng (cosine ≥ 0,90), không gộp dây chuyền: chạy khô với gộp dây chuyền dồn 8 cụm làm một.
+  merge: {topic_similarity: 0.90}
+  dominant_type: {threshold: 0.60, mixed_origin_min_reviews: 3, mixed_origin_min_share: 0.10}   # CLAUDE.md §7, Q14
+  naming: {n_keywords: 4, n_docs: 5}
+  # Từ dừng (dạng đã tách từ). Tên app có trong gần như mọi review nên không mang nghĩa phân biệt cụm.
+  stopwords: [shopee, shoppe, shope, shopy, shopi, sp, app, ứng_dụng, apps,
+    và, là, của, có, cho, thì, mà, được, bị, không, ko, k, kh, hok, đc, dc, cũng, vẫn, đã, đang, sẽ, rồi, nữa,
+    này, đó, kia, nào, gì, ai, đâu, sao, vậy, thế, như, nhưng, nên, vì, nếu, khi, lúc, để, với, từ, ra, vào,
+    lên, xuống, đi, đến, tới, lại, mới, chỉ, còn, cả, các, những, mọi, một, hai, nhiều, ít, rất, quá, lắm,
+    hơn, nhất, thật, luôn, hết, đều, cứ, thôi, nha, nhé, ạ, ơi, ạh, á, à, ah, hả, hở, nhỉ, vậy_mà, thì_là,
+    tôi, mình, em, anh, chị, bạn, mọi_người, họ, chúng_tôi, ta, t, m, mn, ad, admin,
+    thấy, làm, biết, muốn, cần, phải, bao_giờ, lần, cái, việc, điều, người, gì_cả, hay, hoặc, ok, oke]

@@ -1,0 +1,13 @@
+{
+ "run_date": "2026-11-02",
+ "commit": "78b1838b7c59c4a0dec8ea8a70dce31529f2552f",
+ "rows": {
+  "reviews": 56050,
+  "topics": 18,
+  "requirements": 16,
+  "requirement_evidence": 93,
+  "model_comparison": 10
+ },
+ "human_eval_included": false,
+ "keys_ok": true
+}

@@ -1,0 +1,17 @@
+requirement_id,role,means,ends,well_formed,atomic,minimal,explicit_dependencies,uniform,unique,n_defects
+REQ-03-1,shopper,fewer ads,I can use the app without interruptions,False,False,False,False,False,False,0
+REQ-01-1,buyer,to access my account without it being locked,I can complete my purchases,False,False,False,False,False,False,0
+REQ-05-1,shopper,fewer intrusive ads,I can use the app without interruptions,False,False,False,False,False,False,0
+REQ-06-1,shopper,the app to run smoothly,I can browse products without interruptions,False,False,False,False,False,False,0
+REQ-15-1,shopper,fewer ads from Shopee on other platforms,I can enjoy my browsing experience without interruptions,False,False,False,False,False,False,0
+REQ-07-BUG-1,shopper,to be able to load and place orders in the app,I can purchase items without issues,False,True,False,False,False,False,1
+REQ-11-1,shopper,to apply discount vouchers without errors,I can complete my purchases successfully,False,False,False,False,False,False,0
+REQ-10-1,gamer,to avoid being interrupted by ads,I can enjoy my gaming experience,False,False,False,False,False,False,0
+REQ-00-FEATURE-1,buyer,to see the shipper's phone number,I can contact them directly about my delivery,False,False,False,False,False,False,0
+REQ-12-1,shopper,to verify my phone number successfully,I can place orders without issues,False,False,False,False,False,False,0
+REQ-08-1,buyer,to see the product before payment,I can ensure its quality,False,False,False,False,False,False,0
+REQ-07-UX-1,shopper,to avoid being redirected to Shopee while using other apps,I can continue my activities without interruption,False,False,False,False,False,False,0
+REQ-00-BUG-1,buyer,accurate delivery status updates,I know when to expect my orders,False,False,False,False,False,False,0
+REQ-16-1,buyer,to enter my delivery address correctly,my orders are delivered to the right location,False,False,False,False,False,False,0
+REQ-07-FEATURE-1,shopper,to have the option for home delivery,I can receive my orders conveniently,False,False,False,False,False,False,0
+REQ-14-1,gamer,to avoid interruptions from notifications while playing games,I can enjoy my gaming experience without disruptions,False,False,False,False,False,False,0

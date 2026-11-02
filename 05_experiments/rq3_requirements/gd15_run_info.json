@@ -1,0 +1,104 @@
+{
+ "run_date": "2026-11-02",
+ "commit": "78b1838b7c59c4a0dec8ea8a70dce31529f2552f",
+ "n_requirements": 16,
+ "n_evidence_links": 93,
+ "generation_prompt_hash": "a02bf1796f2246e93567a801ad6cece8a7fa5ce6b7f090d9ffb9c66304db8bd1",
+ "auto": [
+  {
+   "chỉ số": "AC đúng dạng Given/When/Then",
+   "đạt": 47,
+   "tổng": 47,
+   "tỷ lệ": 1.0
+  },
+  {
+   "chỉ số": "requirement có 2–3 AC",
+   "đạt": 16,
+   "tổng": 16,
+   "tỷ lệ": 1.0
+  },
+  {
+   "chỉ số": "valid generation — lần gọi đầu",
+   "đạt": 15,
+   "tổng": 16,
+   "tỷ lệ": 0.9375
+  },
+  {
+   "chỉ số": "valid generation — sau một lần gọi lại",
+   "đạt": 16,
+   "tổng": 16,
+   "tỷ lệ": 1.0
+  },
+  {
+   "chỉ số": "liên kết evidence hợp lệ (cả 4 kiểm tra)",
+   "đạt": 93,
+   "tổng": 93,
+   "tỷ lệ": 1.0
+  },
+  {
+   "chỉ số": "requirement có ≥ 1 evidence hợp lệ",
+   "đạt": 16,
+   "tổng": 16,
+   "tỷ lệ": 1.0
+  },
+  {
+   "chỉ số": "unit đủ điều kiện có requirement",
+   "đạt": 16,
+   "tổng": 16,
+   "tỷ lệ": 1.0
+  },
+  {
+   "chỉ số": "User Story không có lỗi QUS",
+   "đạt": 15,
+   "tổng": 16,
+   "tỷ lệ": 0.9375
+  }
+ ],
+ "qus": [
+  {
+   "rule": "well_formed",
+   "n_defect": 0,
+   "n_story": 16,
+   "defect_rate": 0.0
+  },
+  {
+   "rule": "atomic",
+   "n_defect": 1,
+   "n_story": 16,
+   "defect_rate": 0.0625
+  },
+  {
+   "rule": "minimal",
+   "n_defect": 0,
+   "n_story": 16,
+   "defect_rate": 0.0
+  },
+  {
+   "rule": "explicit_dependencies",
+   "n_defect": 0,
+   "n_story": 16,
+   "defect_rate": 0.0
+  },
+  {
+   "rule": "uniform",
+   "n_defect": 0,
+   "n_story": 16,
+   "defect_rate": 0.0
+  },
+  {
+   "rule": "unique",
+   "n_defect": 0,
+   "n_story": 16,
+   "defect_rate": 0.0
+  },
+  {
+   "rule": "any",
+   "n_defect": 1,
+   "n_story": 16,
+   "defect_rate": 0.0625
+  }
+ ],
+ "near_duplicate_pairs": 4,
+ "raters": [],
+ "human_eval_done": false
+}

@@ -370,3 +370,32 @@ def fig_val_vs_holdout(rows, path):
                Line2D([], [], marker='o', ls='none', color=INK_2, ms=7, label='Hold-out')]
     fig.legend(handles=handles, loc='outside lower center', ncols=2, frameon=False)
     return save(fig, path)
+
+
+# ---------------------------------------------------------------- GĐ14: Candidate Requirement priority
+def fig_requirement_priority(reqs, path):
+    """Horizontal bars of issue frequency per Candidate Requirement (sorted), colour = requirement type, hatched =
+    mixed-origin unit (filtered or split cluster); label = number of cited evidence reviews."""
+    import matplotlib.pyplot as plt
+    from src.clustering.figures import TYPE_COLOR, _type_handles
+    from matplotlib.patches import Patch
+    style()
+    d = reqs.sort_values('issue_frequency', ascending=True).reset_index(drop=True)
+    fig, ax = plt.subplots(figsize=(8.8, 0.36 * len(d) + 1.2), constrained_layout=True)
+    y = np.arange(len(d))
+    bars = ax.barh(y, d['issue_frequency'], color=[TYPE_COLOR[t] for t in d['type']], height=0.68)
+    for b, flag in zip(bars, d['mixed_origin_flag']):
+        if flag:
+            b.set_hatch('////'); b.set_edgecolor('white')
+    for yi, (_, r) in zip(y, d.iterrows()):
+        ax.text(r['issue_frequency'] + 0.002, yi, f"{pct(r['issue_frequency'], 1)} · {int(r['n_evidence_cited'])} evidence",
+                va='center', fontsize=8.5, color=INK_2)
+    ax.set_yticks(y, [f"{r['requirement_id']}  {r['title_vi']}" for _, r in d.iterrows()])
+    ax.set_xlim(0, d['issue_frequency'].max() * 1.35)
+    ax.set_xlabel('Issue frequency (số review của unit / 10.897 review actionable)')
+    vn_axes(ax, 'x', percent=True)
+    grid_lines(ax, 'x')
+    ax.tick_params(axis='y', length=0)
+    h = _type_handles()[:3] + [Patch(facecolor=GREY, hatch='////', edgecolor='white', label='mixed-origin (cụm đã lọc/tách)')]
+    ax.legend(handles=h, frameon=False, loc='lower right')
+    return save(fig, path)

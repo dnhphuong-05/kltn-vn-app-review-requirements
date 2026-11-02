@@ -36,3 +36,7 @@ env/
 07_human_eval/topic_purity/*.csv
 # Phiếu QA sàng lọc phạm vi (GĐ14) có văn bản review — không commit.
 07_human_eval/scope_screening/*.csv
+# Phiếu chấm Candidate Requirement (GĐ15) có văn bản review — không commit.
+07_human_eval/rq3_requirements/*.csv
+# D6: bảng reviews có văn bản review — không commit (tạo lại bằng notebook 16).
+06_output_data_model/reviews.csv

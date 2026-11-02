@@ -19,6 +19,7 @@
 > Đã áp amendment **v2.6 (01/11/2026, cập nhật 02/11/2026)**: GĐ14 — chuyển BA cụm purity < 0,25 (9, 2, 13, 4); cụm 0 và 8 không loại mà chỉ sinh từ review nêu chức năng app; lọc evidence theo loại cho cụm 0,25–0,60 (11, 12, 14; cụm mixed 7 theo Q14); sinh bình thường 7 cụm còn lại.
 > Đã áp amendment **v2.7 (02/11/2026)**: GĐ14 — sàng lọc cụm 0 và 8 bằng LLM prompt khóa v2 (QA 40 review: đồng ý 87,5%, κ = 0,75; recall app_actionable cụm 0 ước tính 0,64 — giới hạn); cụm 0 tách theo loại sau lọc, temporal tính lại theo unit; 2–3 Acceptance Criteria Given/When/Then.
 > Đã áp amendment **v2.8 (02/11/2026)**: GĐ14 — prompt sinh requirement v3 là bản cuối (config frozen); không thêm bước LLM kiểm evidence; fidelity và hallucination đo bằng human sample ở GĐ15; output là Candidate Requirement cần BA duyệt.
+> Đã áp amendment **v2.9 (02/11/2026)**: GĐ15 — chấm tay toàn bộ 16 requirement (thay mẫu 30–50 vì chỉ có 16) + chấm 93 review trích dẫn (evidence precision); luật QUS cài đặt lại theo AQUSA; thang chấm chốt trước khi chấm.
 > Chỗ còn "pre-register sau EDA" (ngưỡng temporal) là nội dung đề cương yêu cầu chốt sau EDA
 > trên non-test data — sẽ ghi bằng amendment, không phải chỗ trống.
 >

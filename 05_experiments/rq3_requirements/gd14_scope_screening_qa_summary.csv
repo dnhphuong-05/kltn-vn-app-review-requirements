@@ -1,0 +1,4 @@
+topic_id,n_qa,agree,agreement,cohen_kappa,precision_app_actionable,precision_out_of_scope,N_app,N_oos,est_accuracy,est_recall_app_actionable,est_true_app_actionable
+0,20,17,0.85,0.7,0.9,0.8,348,884,0.8282467532467533,0.6391836734693878,489.99999999999994
+8,20,18,0.9,0.8,0.8,1.0,163,284,0.927069351230425,1.0,130.4
+all,40,35,0.875,0.75,0.85,0.9,511,1168,0.8847826086956522,0.7880794701986754,551.15

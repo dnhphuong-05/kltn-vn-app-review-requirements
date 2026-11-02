@@ -1,0 +1,102 @@
+[
+ {
+  "unit_id":"1",
+  "answer":{
+   "requirements":[
+    {
+     "title_vi":"Sửa lỗi tài khoản bị khóa không lý do",
+     "user_story":"As a user, I want to access my account without it being locked unexpectedly, so that I can use the app without interruptions.",
+     "acceptance_criteria":[
+      "Given a user has an active account, when they attempt to log in, then they should be able to access their account without being locked out.",
+      "Given a user has created a new account, when they try to make a purchase, then they should not encounter an error that locks their account.",
+      "Given a user is trying to link their bank account, when they perform the action, then they should not receive an error that prevents the linking process."
+     ],
+     "evidence_ids":[
+      "E1",
+      "E5",
+      "E10",
+      "E15",
+      "E17"
+     ]
+    }
+   ]
+  },
+  "issues":[
+
+  ],
+  "attempts":1,
+  "prompt_tokens":1188,
+  "completion_tokens":162,
+  "seconds":2.5397775173,
+  "model":"gpt-4o-mini-2024-07-18",
+  "prompt_version":"v1",
+  "prompt_hash":"91a0dea7366c9993c3f57573b74b827ab2f983246b67ec4563bfac5a1cd19d78"
+ },
+ {
+  "unit_id":"7-UX",
+  "answer":{
+   "requirements":[
+    {
+     "title_vi":"Cải thiện trải nghiệm quảng cáo",
+     "user_story":"As a shopper, I want to avoid being redirected to Shopee while using the app, so that I can enjoy a smoother shopping experience.",
+     "acceptance_criteria":[
+      "Given I am using the app, when I interact with the interface, then I should not be redirected to Shopee unexpectedly.",
+      "Given I am browsing products, when I click on items, then I should remain in the app without being taken to Shopee.",
+      "Given I am playing a game or using another feature, when I receive notifications, then they should not disrupt my current activity by redirecting me to Shopee."
+     ],
+     "evidence_ids":[
+      "E1",
+      "E5",
+      "E11",
+      "E12",
+      "E14",
+      "E20"
+     ]
+    }
+   ]
+  },
+  "issues":[
+
+  ],
+  "attempts":1,
+  "prompt_tokens":1097,
+  "completion_tokens":159,
+  "seconds":2.8187794685,
+  "model":"gpt-4o-mini-2024-07-18",
+  "prompt_version":"v1",
+  "prompt_hash":"91a0dea7366c9993c3f57573b74b827ab2f983246b67ec4563bfac5a1cd19d78"
+ },
+ {
+  "unit_id":"8",
+  "answer":{
+   "requirements":[
+    {
+     "title_vi":"Bổ sung tính năng chọn đơn vị giao hàng",
+     "user_story":"As a shopper, I want to choose the delivery service, so that I can track my order more effectively.",
+     "acceptance_criteria":[
+      "Given I am on the checkout page, when I select a delivery option, then I should see the available delivery services listed.",
+      "Given I have selected a delivery service, when I confirm my order, then the selected delivery service should be used for my order.",
+      "Given I have an order in progress, when I check the delivery status, then I should see the delivery service I selected. "
+     ],
+     "evidence_ids":[
+      "E1",
+      "E4",
+      "E6",
+      "E8",
+      "E14"
+     ]
+    }
+   ]
+  },
+  "issues":[
+
+  ],
+  "attempts":1,
+  "prompt_tokens":1828,
+  "completion_tokens":147,
+  "seconds":2.3438811302,
+  "model":"gpt-4o-mini-2024-07-18",
+  "prompt_version":"v1",
+  "prompt_hash":"91a0dea7366c9993c3f57573b74b827ab2f983246b67ec4563bfac5a1cd19d78"
+ }
+]

@@ -1,0 +1,9 @@
+{
+ "n_review": 170,
+ "n_topic": 17,
+ "purity_macro": 0.5558823529411764,
+ "purity_weighted": 0.5818626940306282,
+ "agreement": 0.9470588235294117,
+ "cohen_kappa": 0.8930817610062893,
+ "n_topic_flagged": 9
+}

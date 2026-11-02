@@ -1,0 +1,172 @@
+[
+ {
+  "unit_id":"0-FEATURE",
+  "answer":{
+   "requirements":[
+    {
+     "evidence_ids":[
+      "E1",
+      "E3",
+      "E10",
+      "E15",
+      "E19"
+     ],
+     "problem_vi":"Người dùng mong muốn có tính năng hiển thị số điện thoại của shipper để dễ dàng liên lạc.",
+     "title_vi":"Bổ sung tính năng hiển thị số điện thoại của shipper",
+     "user_story":"As a buyer, I want to see the shipper's phone number, so that I can contact them directly about my delivery.",
+     "acceptance_criteria":[
+      "Given a delivery order, when I check the order details, then I can see the shipper's phone number displayed in the app.",
+      "Given a delivery order, when the shipper is assigned, then the shipper's phone number is available for the buyer to contact.",
+      "Given a delivery order, when the delivery is delayed, then I can call the shipper to inquire about the status."
+     ]
+    }
+   ]
+  },
+  "issues":[
+
+  ],
+  "attempts":1,
+  "prompt_tokens":2283,
+  "completion_tokens":184,
+  "seconds":4.0455019474,
+  "model":"gpt-4o-mini-2024-07-18",
+  "prompt_version":"v3",
+  "prompt_hash":"a02bf1796f2246e93567a801ad6cece8a7fa5ce6b7f090d9ffb9c66304db8bd1"
+ },
+ {
+  "unit_id":"1",
+  "answer":{
+   "requirements":[
+    {
+     "evidence_ids":[
+      "E1",
+      "E3",
+      "E5",
+      "E10",
+      "E17"
+     ],
+     "problem_vi":"Tài khoản thường xuyên bị khóa hoặc không đăng nhập được.",
+     "title_vi":"Sửa lỗi tài khoản bị khóa hoặc không đăng nhập được",
+     "user_story":"As a user, I want to access my account without it being locked, so that I can use the app normally.",
+     "acceptance_criteria":[
+      "Given a user account, when the user attempts to log in, then the login should succeed without locking the account.",
+      "Given a user account that has been locked, when the user requests support, then the account should be reviewed and unlocked if appropriate.",
+      "Given a user account, when the user tries to link a bank account, then the linking process should complete without errors."
+     ]
+    }
+   ]
+  },
+  "issues":[
+
+  ],
+  "attempts":1,
+  "prompt_tokens":1506,
+  "completion_tokens":164,
+  "seconds":3.0357999802,
+  "model":"gpt-4o-mini-2024-07-18",
+  "prompt_version":"v3",
+  "prompt_hash":"a02bf1796f2246e93567a801ad6cece8a7fa5ce6b7f090d9ffb9c66304db8bd1"
+ },
+ {
+  "unit_id":"3",
+  "answer":{
+   "requirements":[
+    {
+     "evidence_ids":[
+      "E3",
+      "E4",
+      "E6",
+      "E9",
+      "E11"
+     ],
+     "problem_vi":"Quảng cáo xuất hiện quá nhiều gây phiền phức cho người dùng.",
+     "title_vi":"Cải thiện trải nghiệm quảng cáo",
+     "user_story":"As a user, I want fewer ads, so that I can use the app without interruptions.",
+     "acceptance_criteria":[
+      "Given the app is open, when I navigate through the app, then the number of ads displayed is reduced.",
+      "Given the app is open, when I perform actions within the app, then I experience fewer interruptions from ads.",
+      "Given the app is open, when I view product listings, then the ads do not overwhelm the content."
+     ]
+    }
+   ]
+  },
+  "issues":[
+
+  ],
+  "attempts":1,
+  "prompt_tokens":1253,
+  "completion_tokens":149,
+  "seconds":2.7210178375,
+  "model":"gpt-4o-mini-2024-07-18",
+  "prompt_version":"v3",
+  "prompt_hash":"a02bf1796f2246e93567a801ad6cece8a7fa5ce6b7f090d9ffb9c66304db8bd1"
+ },
+ {
+  "unit_id":"7-UX",
+  "answer":{
+   "requirements":[
+    {
+     "evidence_ids":[
+      "E1",
+      "E2",
+      "E10",
+      "E12",
+      "E14",
+      "E20"
+     ],
+     "problem_vi":"Người dùng thường bị chuyển hướng đến Shopee khi đang sử dụng ứng dụng khác.",
+     "title_vi":"Cải thiện trải nghiệm quảng cáo",
+     "user_story":"As a shopper, I want to avoid being redirected to Shopee while using other apps, so that I can continue my activities without interruption.",
+     "acceptance_criteria":[
+      "Given the user is using another app, when they interact with an ad, then they should not be redirected to the Shopee app.",
+      "Given the user is playing a game, when an ad appears, then the ad should not cause the Shopee app to open unexpectedly.",
+      "Given the user is scrolling through social media, when they encounter an ad, then they should be able to dismiss the ad without being redirected."
+     ]
+    }
+   ]
+  },
+  "issues":[
+
+  ],
+  "attempts":1,
+  "prompt_tokens":1415,
+  "completion_tokens":180,
+  "seconds":3.0783736706,
+  "model":"gpt-4o-mini-2024-07-18",
+  "prompt_version":"v3",
+  "prompt_hash":"a02bf1796f2246e93567a801ad6cece8a7fa5ce6b7f090d9ffb9c66304db8bd1"
+ },
+ {
+  "unit_id":"8",
+  "answer":{
+   "requirements":[
+    {
+     "evidence_ids":[
+      "E1",
+      "E4",
+      "E8",
+      "E15"
+     ],
+     "problem_vi":"Người dùng mong muốn có tính năng cho phép xem hàng trước khi thanh toán.",
+     "title_vi":"Bổ sung tính năng xem hàng trước khi thanh toán",
+     "user_story":"As a buyer, I want to see the product before payment, so that I can ensure its quality.",
+     "acceptance_criteria":[
+      "Given a product in the cart, when I choose to view the product, then I can see the product details before making the payment.",
+      "Given a product listing, when I select the option to view the product, then I can see the actual product image and description.",
+      "Given a product, when I attempt to make a payment, then I must have the option to view the product first."
+     ]
+    }
+   ]
+  },
+  "issues":[
+
+  ],
+  "attempts":1,
+  "prompt_tokens":2146,
+  "completion_tokens":165,
+  "seconds":2.7493703365,
+  "model":"gpt-4o-mini-2024-07-18",
+  "prompt_version":"v3",
+  "prompt_hash":"a02bf1796f2246e93567a801ad6cece8a7fa5ce6b7f090d9ffb9c66304db8bd1"
+ }
+]

@@ -1,0 +1,47 @@
+﻿loại,giai đoạn,tên,file
+Bảng,GĐ1–GĐ2 — Thu thập và làm sạch dữ liệu,Thống kê thu thập và làm sạch review Google Play của Shopee và Lazada,tables/Bang_ket_qua_GD1-GD12.docx
+Hình,GĐ1–GĐ2 — Thu thập và làm sạch dữ liệu,Phân bố số sao của review Shopee và Lazada sau làm sạch,figures\fig_gd01_rating.png
+Hình,GĐ1–GĐ2 — Thu thập và làm sạch dữ liệu,Số review mỗi tháng trong cửa sổ 12 tháng,figures\fig_gd01_monthly.png
+Hình,GĐ1–GĐ2 — Thu thập và làm sạch dữ liệu,Phân bố độ dài review (số từ) của Shopee và Lazada,figures\fig_gd01_length.png
+Bảng,GĐ1–GĐ2 — Thu thập và làm sạch dữ liệu,Thống kê độ dài review sau làm sạch,tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,"GĐ3–GĐ4 — Chia tập, gán nhãn và độ đồng thuận",Các tập dữ liệu có nhãn và vai trò trong nghiên cứu,tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,"GĐ3–GĐ4 — Chia tập, gán nhãn và độ đồng thuận","Phân bố nhãn bốn lớp trên Train, Validation và Hold-out",tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,"GĐ3–GĐ4 — Chia tập, gán nhãn và độ đồng thuận",Độ đồng thuận giữa hai người gán nhãn (Cohen κ),tables/Bang_ket_qua_GD1-GD12.docx
+Hình,GĐ5 — Learning curve,Learning curve theo số review Train trên Validation (dải màu: ± 1 độ lệch chuẩn qua ba seed),figures\fig_gd05_learning_curve.png
+Bảng,GĐ5 — Learning curve,Kết quả learning curve trên Validation theo số review Train,tables/Bang_ket_qua_GD1-GD12.docx
+Hình,GĐ6–GĐ9 — Kết quả trên Validation,"Precision, recall và Macro-F1 tầng 1 theo ngưỡng trên Validation (seed 42) và ngưỡng được chọn",figures\fig_gd06_threshold.png
+Bảng,GĐ6–GĐ9 — Kết quả trên Validation,Kết quả tầng 1 (ACTIONABLE / NOT_ACTIONABLE) trên Validation,tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,GĐ6–GĐ9 — Kết quả trên Validation,Kết quả tầng 2 (BUG / FEATURE / UX) trên phần actionable của Validation (n = 71),tables/Bang_ket_qua_GD1-GD12.docx
+Hình,GĐ6–GĐ9 — Kết quả trên Validation,Ma trận nhầm lẫn tầng 2 trên Validation-actionable (seed 42; số review và tỷ lệ theo hàng),figures\fig_gd07_confusion_val.png
+Bảng,GĐ6–GĐ9 — Kết quả trên Validation,"Kết quả LLM few-shot (gpt-4o-mini, prompt v1) trên Validation",tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,GĐ6–GĐ9 — Kết quả trên Validation,Chi phí thực tế của LLM few-shot trên Validation,tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,GĐ6–GĐ9 — Kết quả trên Validation,Cascade ViSoBERT so với baseline phẳng bốn lớp trên Validation,tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,"GĐ10 — Đánh giá cuối trên Hold-out, focused set và Lazada",Kết quả tầng 1 trên Hold-out (n = 1.000),tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,"GĐ10 — Đánh giá cuối trên Hold-out, focused set và Lazada",Kết quả tầng 2 trên phần gold-actionable của Hold-out (n = 183),tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,"GĐ10 — Đánh giá cuối trên Hold-out, focused set và Lazada",Kết quả end-to-end bốn lớp trên Hold-out: ba cascade và baseline phẳng,tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,"GĐ10 — Đánh giá cuối trên Hold-out, focused set và Lazada",Chênh lệch Macro-F1 bốn lớp giữa các cấu hình trên Hold-out (bootstrap ghép cặp),tables/Bang_ket_qua_GD1-GD12.docx
+Hình,"GĐ10 — Đánh giá cuối trên Hold-out, focused set và Lazada",Macro-F1 bốn lớp và khoảng tin cậy 95% trên Hold-out Shopee và Lazada (seed 42 / LLM),figures\fig_gd10_forest.png
+Hình,"GĐ10 — Đánh giá cuối trên Hold-out, focused set và Lazada",Ma trận nhầm lẫn end-to-end bốn lớp trên Hold-out (seed 42 / LLM; số review và tỷ lệ theo hàng),figures\fig_gd10_confusion_holdout.png
+Bảng,"GĐ10 — Đánh giá cuối trên Hold-out, focused set và Lazada","Kết quả tầng 2 trên focused FEATURE/UX set (tập làm giàu, n = 91 gold-actionable)",tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,"GĐ10 — Đánh giá cuối trên Hold-out, focused set và Lazada",Kết quả end-to-end trên Lazada external test (n = 500),tables/Bang_ket_qua_GD1-GD12.docx
+Hình,"GĐ10 — Đánh giá cuối trên Hold-out, focused set và Lazada",Macro-F1 bốn lớp trên Hold-out của chín tổ hợp tầng 1 × tầng 2 (đường chéo: cascade thuần; trong ngoặc: CI 95%),figures\fig_gd10_hybrid.png
+Hình,"GĐ10 — Đánh giá cuối trên Hold-out, focused set và Lazada",Đánh đổi giữa Macro-F1 trên Hold-out và thời gian suy luận của chín tổ hợp tầng 1 × tầng 2,figures\fig_gd10_cost_performance.png
+Bảng,"GĐ10 — Đánh giá cuối trên Hold-out, focused set và Lazada",Hybrid 3 × 3 trên Hold-out: hiệu năng và chi phí suy luận,tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,"GĐ10 — Đánh giá cuối trên Hold-out, focused set và Lazada",Chi phí và mức tự chủ của các chiến lược (GPU Tesla T4),tables/Bang_ket_qua_GD1-GD12.docx
+Hình,"GĐ10 — Đánh giá cuối trên Hold-out, focused set và Lazada",So sánh kết quả trên Validation và Hold-out (%; neural: trung bình ba seed),figures\fig_gd10_val_vs_holdout.png
+Bảng,"GĐ10 — Đánh giá cuối trên Hold-out, focused set và Lazada",Số liệu Validation và Hold-out của từng chiến lược,tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,GĐ11 — Phân loại toàn corpus bằng cascade ViSoBERT,Đối chiếu mô hình train lại ở GĐ11 với seed 42 của GĐ10 trên Validation,tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,GĐ11 — Phân loại toàn corpus bằng cascade ViSoBERT,"Kết quả phân loại toàn corpus Shopee bằng cascade ViSoBERT (seed 42, ngưỡng 0,11)",tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,GĐ12 — Gom cụm review actionable và loại chủ đạo,So sánh hai mô hình sentence embedding trên phần non-test (min_topic_size = 30),tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,GĐ12 — Gom cụm review actionable và loại chủ đạo,Chọn min_topic_size theo coherence C_v,tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,GĐ12 — Gom cụm review actionable và loại chủ đạo,Các cụm issue của review actionable Shopee,tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,GĐ12 — Gom cụm review actionable và loại chủ đạo,"Manual topic purity của 17 cụm (10 review ngẫu nhiên mỗi cụm, hai người chấm độc lập)",tables/Bang_ket_qua_GD1-GD12.docx
+Hình,GĐ12 — Gom cụm review actionable và loại chủ đạo,Manual topic purity theo cụm (thanh: trung bình hai người chấm; vạch: từng người chấm),figures\fig_gd12_6_manual_purity.png
+Hình,GĐ12 — Gom cụm review actionable và loại chủ đạo,"C_v, số cụm và tỷ lệ outlier theo min_topic_size",figures\fig_gd12_1_grid.png
+Hình,GĐ12 — Gom cụm review actionable và loại chủ đạo,"Bản đồ review actionable (UMAP 2 chiều), tô màu theo loại chủ đạo của cụm",figures\fig_gd12_2_doc_map.png
+Hình,GĐ12 — Gom cụm review actionable và loại chủ đạo,Số review và thành phần BUG / FEATURE / UX của từng cụm,figures\fig_gd12_3_composition.png
+Hình,GĐ12 — Gom cụm review actionable và loại chủ đạo,Tám từ khóa c-TF-IDF đầu của mỗi cụm,figures\fig_gd12_4_keywords.png
+Hình,GĐ12 — Gom cụm review actionable và loại chủ đạo,Cây phân cấp các cụm theo khoảng cách cosine giữa tâm cụm,figures\fig_gd12_5_hierarchy.png
+Bảng,GĐ13 — Temporal Issue Validation,Bằng chứng thời gian và trạng thái temporal của 17 cụm và 15 nhóm con của cụm mixed,tables/Bang_ket_qua_GD1-GD12.docx
+Bảng,GĐ13 — Temporal Issue Validation,Độ nhạy của trạng thái temporal khi đổi từng tham số,tables/Bang_ket_qua_GD1-GD12.docx
+Hình,GĐ13 — Temporal Issue Validation,Số review của mỗi cụm theo 12 cửa sổ 30 ngày trước T0 và trạng thái temporal,figures\fig_gd13_temporal_heatmap.png

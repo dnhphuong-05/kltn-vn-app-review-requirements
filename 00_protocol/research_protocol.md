@@ -14,6 +14,11 @@
 > Đã áp amendment **v2.1 (25/10/2026)**: đóng băng toàn bộ config RQ1 (cấu hình, ngưỡng, prompt hash) vào `03_configs/frozen/` trước khi mở Hold-out; GĐ10 train lại từ config này, không tune lại.
 > Đã áp amendment **v2.2 (29/10/2026)**: chiến lược phân loại downstream (GĐ11, RQ2/RQ3) là cascade ViSoBERT frozen v2.1 — quyết định cost-aware đưa ra sau Hold-out, ngoài phạm vi quy tắc chọn viết trước (LLM hơn có ý nghĩa thống kê); hạn chế recall tầng 1 Hold-out 69,8 mang sang RQ2/RQ3.
 > Đã áp amendment **v2.3 (29/10/2026)**: RQ2 — chỉ review ≥ 3 token nội dung định hình cụm (review ngắn gắn sau theo cosine), ngưỡng outlier theo phân vị 10 thành viên–tâm, gộp cụm theo cặp, đặt tên LLM prompt v4 (mọi cụm trong một lượt gọi, tên phân biệt được, cờ scope chỉ tham khảo).
+> Đã áp amendment **v2.4 (01/11/2026)**: khóa cấu hình và kết quả RQ2 (17 cụm, khóa theo sha256 file) và chốt thủ tục manual topic purity (10 review/cụm, 2 người chấm, cờ BA < 0,60) trước khi chấm.
+> Đã áp amendment **v2.5 (01/11/2026)**: pre-register luật Temporal Issue Validation (N ≥ 20; c30 ≥ 5 và R90 ≥ 0,5 → RECURRING nếu ≥ 6/12 cửa sổ 30 ngày, ngược lại ACTIVE; R90 < 0,5 → POSSIBLY_RESOLVED) trước khi tính trạng thái của cụm.
+> Đã áp amendment **v2.6 (01/11/2026, cập nhật 02/11/2026)**: GĐ14 — chuyển BA cụm purity < 0,25 (9, 2, 13, 4); cụm 0 và 8 không loại mà chỉ sinh từ review nêu chức năng app; lọc evidence theo loại cho cụm 0,25–0,60 (11, 12, 14; cụm mixed 7 theo Q14); sinh bình thường 7 cụm còn lại.
+> Đã áp amendment **v2.7 (02/11/2026)**: GĐ14 — sàng lọc cụm 0 và 8 bằng LLM prompt khóa v2 (QA 40 review: đồng ý 87,5%, κ = 0,75; recall app_actionable cụm 0 ước tính 0,64 — giới hạn); cụm 0 tách theo loại sau lọc, temporal tính lại theo unit; 2–3 Acceptance Criteria Given/When/Then.
+> Đã áp amendment **v2.8 (02/11/2026)**: GĐ14 — prompt sinh requirement v3 là bản cuối (config frozen); không thêm bước LLM kiểm evidence; fidelity và hallucination đo bằng human sample ở GĐ15; output là Candidate Requirement cần BA duyệt.
 > Chỗ còn "pre-register sau EDA" (ngưỡng temporal) là nội dung đề cương yêu cầu chốt sau EDA
 > trên non-test data — sẽ ghi bằng amendment, không phải chỗ trống.
 >
@@ -223,6 +228,15 @@
   quy trình (lưới 1 seed → chọn theo Macro-F1 → 3 seed), không tối đa F1 từng model.
 - **Cỡ lưới khác nhau:** Bi-LSTM dò nhiều cấu hình hơn ViSoBERT (tầng 1: 12 so với 9; tầng 2: 24 so với 9) vì huấn
   luyện rẻ hơn; lạc quan do dò nhiều (nếu có) nghiêng về Bi-LSTM.
+
+## Hạn chế ghi nhận ở RQ2 (GĐ12–GĐ14, 02/11/2026)
+- **Purity không đồng đều giữa các cụm:** manual topic purity từ 0,05 đến 1,00 (trung bình 0,556; 9/17 cụm < 0,60). Gom cụm theo
+  embedding tạo cụm theo chủ đề bề mặt (quảng cáo, giao hàng, mã) nên một cụm có thể lẫn than phiền chung chung và lẫn review trong lẫn
+  ngoài phạm vi app; vì vậy sinh requirement không dùng nguyên cụm mà phải lọc review trong cụm (amendment v2.6).
+- **Coherence tự động không thay thế người chấm:** Spearman giữa manual purity và C_v của cụm chỉ 0,17 (với type purity 0,49).
+- **Chọn min_topic_size ở mép lưới:** C_v tăng đều theo min_topic_size, giá trị chọn (75) là lớn nhất đã thử; lưới chốt trước nên không mở rộng.
+- **Một phần purity thấp do tên cụm:** tên do LLM đặt có thể hẹp hoặc mơ hồ hơn nội dung cụm (cụm 4, 13, 14); purity đo cả cụm lẫn tên.
+- **Temporal không phân biệt:** với các cụm lớn và lượng review đều theo thời gian, cả 17 cụm đều RECURRING (amendment v2.5).
 
 ## Kiểm soát leakage & tái lập (ĐC §11, Phụ lục A)
 - Annotator không thấy prediction model. Hold-out không vào few-shot / prompt-development log.

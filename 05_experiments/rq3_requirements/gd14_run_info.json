@@ -1,0 +1,145 @@
+{
+ "run_date": "2026-11-02",
+ "commit": "421f3cc13ad1e4880ebffa5d2818ca7b5dadbd5e",
+ "model": "gpt-4o-mini-2024-07-18",
+ "temperature": 0.0,
+ "seed": 42,
+ "response_models": [
+  "gpt-4o-mini-2024-07-18"
+ ],
+ "screening_prompt": {
+  "version": "v2",
+  "hash": "0a3bfd97e4392fd727c57fc37cfee9549f806983f6cf1676e85f6466cdd62ed7"
+ },
+ "generation_prompt": {
+  "version": "v3",
+  "hash": "a02bf1796f2246e93567a801ad6cece8a7fa5ce6b7f090d9ffb9c66304db8bd1"
+ },
+ "config": "03_configs/frozen/rq3_generation_config.yaml",
+ "prices_per_1M": {
+  "input": 0.15,
+  "output": 0.6,
+  "source": "env"
+ },
+ "n_units_generated": 16,
+ "n_requirements": 16,
+ "n_evidence_links": 93,
+ "evidence_check_ok": true,
+ "retries": 1,
+ "units_with_violations": 0,
+ "screening_qa": [
+  {
+   "topic_id": 0,
+   "n_qa": 20,
+   "agree": 17,
+   "agreement": 0.85,
+   "cohen_kappa": 0.7,
+   "precision_app_actionable": 0.9,
+   "precision_out_of_scope": 0.8,
+   "N_app": 348,
+   "N_oos": 884,
+   "est_accuracy": 0.8282467532467533,
+   "est_recall_app_actionable": 0.6391836734693878,
+   "est_true_app_actionable": 489.99999999999994
+  },
+  {
+   "topic_id": 8,
+   "n_qa": 20,
+   "agree": 18,
+   "agreement": 0.9,
+   "cohen_kappa": 0.8,
+   "precision_app_actionable": 0.8,
+   "precision_out_of_scope": 1.0,
+   "N_app": 163,
+   "N_oos": 284,
+   "est_accuracy": 0.927069351230425,
+   "est_recall_app_actionable": 1.0,
+   "est_true_app_actionable": 130.4
+  },
+  {
+   "topic_id": "all",
+   "n_qa": 40,
+   "agree": 35,
+   "agreement": 0.875,
+   "cohen_kappa": 0.75,
+   "precision_app_actionable": 0.85,
+   "precision_out_of_scope": 0.9,
+   "N_app": 511,
+   "N_oos": 1168,
+   "est_accuracy": 0.8847826086956522,
+   "est_recall_app_actionable": 0.7880794701986754,
+   "est_true_app_actionable": 551.15
+  }
+ ],
+ "cost": [
+  {
+   "bước": "sàng lọc chạy thử v1",
+   "số lượt": 20.0,
+   "token vào": 13472.0,
+   "token ra": 510.0,
+   "chi phí (USD)": 0.0023268000000000004,
+   "thời gian (giây)": 22.520026683807373
+  },
+  {
+   "bước": "sàng lọc chạy thử v2",
+   "số lượt": 20.0,
+   "token vào": 15932.0,
+   "token ra": 472.0,
+   "chi phí (USD)": 0.0026729999999999996,
+   "thời gian (giây)": 21.29450535774231
+  },
+  {
+   "bước": "sàng lọc toàn bộ (v2)",
+   "số lượt": 1679.0,
+   "token vào": 1348004.0,
+   "token ra": 39766.0,
+   "chi phí (USD)": 0.22606020000000002,
+   "thời gian (giây)": 1610.6051366329193
+  },
+  {
+   "bước": "sinh requirement chạy thử v1",
+   "số lượt": 3.0,
+   "token vào": 4113.0,
+   "token ra": 468.0,
+   "chi phí (USD)": 0.00089775,
+   "thời gian (giây)": 7.702438116
+  },
+  {
+   "bước": "sinh requirement chạy thử v2",
+   "số lượt": 3.0,
+   "token vào": 4527.0,
+   "token ra": 522.0,
+   "chi phí (USD)": 0.00099225,
+   "thời gian (giây)": 11.7753963471
+  },
+  {
+   "bước": "sinh requirement chạy thử v3",
+   "số lượt": 5.0,
+   "token vào": 8603.0,
+   "token ra": 842.0,
+   "chi phí (USD)": 0.0017956500000000002,
+   "thời gian (giây)": 15.6300637722
+  },
+  {
+   "bước": "sinh requirement toàn bộ (v3)",
+   "số lượt": 16.0,
+   "token vào": 27950.0,
+   "token ra": 2932.0,
+   "chi phí (USD)": 0.0059517,
+   "thời gian (giây)": 57.3600206373
+  },
+  {
+   "bước": "tổng",
+   "số lượt": 1746.0,
+   "token vào": 1422601.0,
+   "token ra": 45512.0,
+   "chi phí (USD)": 0.24069735000000003,
+   "thời gian (giây)": 1746.887587547069
+  }
+ ],
+ "versions": {
+  "openai": "1.74.0",
+  "pandas": "2.2.3",
+  "numpy": "2.2.4"
+ }
+}

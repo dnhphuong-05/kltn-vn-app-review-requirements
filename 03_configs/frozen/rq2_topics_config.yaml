@@ -1,0 +1,235 @@
+# FROZEN — khóa ngày 01/11/2026, amendment v2.4. Không sửa sau mốc này; mọi thay đổi phải có amendment mới.
+# Nguồn: 03_configs/dev/rq2_topics_dev_config.yaml (giữ làm lịch sử) + lựa chọn của lần chạy notebook 12 ngày 29/10/2026.
+# Cấu hình hiệu lực đầy đủ của RQ2 (GĐ12) cùng kết quả gom cụm đã khóa theo sha256 và thủ tục manual topic purity.
+rq2_topics:
+  seed: 42
+  embedding:
+    model_name: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+    revision: 4328cf26390c98c5e3c738b4460a05b95f4911f5
+    input: text
+    batch_size: 64
+    normalize: true
+  embedding_candidate:
+    model_name: keepitreal/vietnamese-sbert
+    revision: a9467ef2ef47caa6448edeabfd8e5e5ce0fa2a23
+    input: segmented
+    batch_size: 64
+    normalize: true
+    compare_min_topic_size: 30
+  umap:
+    n_neighbors: 15
+    n_components: 5
+    min_dist: 0.0
+    metric: cosine
+    random_state: 42
+  hdbscan:
+    metric: euclidean
+    cluster_selection_method: eom
+    prediction_data: true
+  min_topic_size_grid:
+  - 15
+  - 20
+  - 30
+  - 50
+  - 75
+  selection:
+    coherence: c_v
+    top_n_words: 10
+    max_topic_share: 0.3
+    max_topics: 100
+  vectorizer:
+    ngram_range:
+    - 1
+    - 1
+    min_token_chars: 2
+    reduce_frequent_words: true
+  outliers:
+    strategy: embeddings
+    threshold: auto
+    member_percentile: 10
+  merge:
+    topic_similarity: 0.9
+  dominant_type:
+    threshold: 0.6
+    mixed_origin_min_reviews: 3
+    mixed_origin_min_share: 0.1
+  informative:
+    min_content_tokens: 3
+  naming:
+    n_keywords: 4
+    n_docs: 5
+    n_random: 5
+    prompt_version: v4
+    prompt_hash: e54b8fe1a512d485339bbc733b38d9c66e96655607348c609c9c798b42a33d43
+  stopwords:
+  - shopee
+  - shoppe
+  - shope
+  - shopy
+  - shopi
+  - sp
+  - app
+  - ứng_dụng
+  - apps
+  - và
+  - là
+  - của
+  - có
+  - cho
+  - thì
+  - mà
+  - được
+  - bị
+  - không
+  - ko
+  - k
+  - kh
+  - hok
+  - đc
+  - dc
+  - cũng
+  - vẫn
+  - đã
+  - đang
+  - sẽ
+  - rồi
+  - nữa
+  - này
+  - đó
+  - kia
+  - nào
+  - gì
+  - ai
+  - đâu
+  - sao
+  - vậy
+  - thế
+  - như
+  - nhưng
+  - nên
+  - vì
+  - nếu
+  - khi
+  - lúc
+  - để
+  - với
+  - từ
+  - ra
+  - vào
+  - lên
+  - xuống
+  - đi
+  - đến
+  - tới
+  - lại
+  - mới
+  - chỉ
+  - còn
+  - cả
+  - các
+  - những
+  - mọi
+  - một
+  - hai
+  - nhiều
+  - ít
+  - rất
+  - quá
+  - lắm
+  - hơn
+  - nhất
+  - thật
+  - luôn
+  - hết
+  - đều
+  - cứ
+  - thôi
+  - nha
+  - nhé
+  - ạ
+  - ơi
+  - ạh
+  - á
+  - à
+  - ah
+  - hả
+  - hở
+  - nhỉ
+  - vậy_mà
+  - thì_là
+  - tôi
+  - mình
+  - em
+  - anh
+  - chị
+  - bạn
+  - mọi_người
+  - họ
+  - chúng_tôi
+  - ta
+  - t
+  - m
+  - mn
+  - ad
+  - admin
+  - thấy
+  - làm
+  - biết
+  - muốn
+  - cần
+  - phải
+  - bao_giờ
+  - lần
+  - cái
+  - việc
+  - điều
+  - người
+  - gì_cả
+  - hay
+  - hoặc
+  - ok
+  - oke
+  chosen:
+    min_topic_size: 75
+    outlier_threshold_value: 0.620692
+    note: min_topic_size chọn theo C_v trên lưới Q12 (mép lưới, C_v tăng đều); ngưỡng outlier tính theo luật auto (phân vị
+      10)
+  locked_result:
+    run:
+      notebook: notebooks/12_rq2_bertopic_dominant_type.ipynb
+      date: 29/10/2026
+      commit: b4652370ca55bb0881cae33b75e57cea9a829ffe
+      environment: máy local (CPU), embedding lưu đệm
+      versions:
+        bertopic: 0.17.4
+        sentence_transformers: 6.2.0
+        umap: 0.5.12
+        gensim: 4.4.0
+        underthesea: 9.5.0
+        hdbscan: 0.8.44
+    summary:
+      n_actionable: 10897
+      n_informative: 9328
+      n_attached: 1320
+      n_topics: 17
+      n_outliers: 1298
+      n_outlier_low_info: 249
+      c_v: 0.5448
+      type_purity_weighted: 0.6859
+    files_sha256:
+      topics.csv: 4e683f7c45df62432600949d2c13622f9a3cce8e46ce5441118444c6ecf47610
+      review_topic_map.csv: ce580527a5abf02e4fd3317a61b15fb7f263de00d934ad1d519eada6d617cd28
+      gd12_topic_names_llm.csv: 50b84e309eaf97c965f7c236b2bcc11bc9f91eeadd454297c341e4a4abb31aab
+      gd12_topic_keywords.csv: d8b2825e4b0468c375f78f610c8820aae9023437e3ad4afb291f186a312e9523
+    note: 'Kết quả gom cụm được khóa theo FILE (sha256), không chỉ theo tham số: UMAP/HDBSCAN có thể cho kết quả lệch nhẹ
+      trên máy hoặc phiên bản thư viện khác. GĐ13–GĐ14 đọc đúng các file này.'
+  manual_purity:
+    k_per_topic: 10
+    seed: 42
+    exclude_outliers: true
+    raters: 2
+    judgement: relevant 1/0
+    purity: tỷ lệ phù hợp, theo từng người chấm rồi lấy trung bình hai người
+    agreement: '% đồng thuận + Cohen kappa trên phán đoán 1/0'
+    flag_below: 0.6
+    rule: đánh giá kết quả đã khóa — không chỉnh lại gom cụm theo kết quả chấm

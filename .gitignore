@@ -32,3 +32,7 @@ env/
 05_experiments/rq2_topics/actionable_reviews.csv
 05_experiments/rq2_topics/gd12_topic_examples.csv
 05_experiments/rq2_topics/cache/
+# Phiếu chấm manual topic purity (RQ2) có văn bản review — không commit. README.md vẫn commit được.
+07_human_eval/topic_purity/*.csv
+# Phiếu QA sàng lọc phạm vi (GĐ14) có văn bản review — không commit.
+07_human_eval/scope_screening/*.csv

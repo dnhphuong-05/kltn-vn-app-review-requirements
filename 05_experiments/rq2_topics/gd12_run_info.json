@@ -1,6 +1,6 @@
 {
- "run_date": "2026-10-29",
- "commit": "b4652370ca55bb0881cae33b75e57cea9a829ffe",
+ "run_date": "2026-11-01",
+ "commit": "421f3cc13ad1e4880ebffa5d2818ca7b5dadbd5e",
  "versions": {
   "bertopic": "0.17.4",
   "sentence_transformers": "6.2.0",

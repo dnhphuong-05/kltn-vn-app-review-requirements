@@ -1,0 +1,34 @@
+# DEV — sinh Candidate Requirement (GĐ14, RQ3). Quy tắc chọn cụm và lọc evidence theo amendment v2.6, phương pháp sàng lọc
+# cụm 0 và 8 theo amendment v2.7. Chép sang 03_configs/frozen/ sau khi chạy thử được người nghiên cứu xác nhận, trước khi chạy toàn bộ.
+rq3_generation:
+  seed: 42
+  selection:                         # amendment v2.6, áp theo thứ tự, sau điều kiện temporal (v2.5)
+    ba_manual: [9, 2, 13, 4]         # (1) manual purity < 0,25: không sinh, liệt kê cho BA kèm review_id
+    scope_filter: [0, 8]             # (2) chỉ review app_actionable của bước sàng lọc làm evidence
+    type_filter: [11, 12, 14]        # (3) 0,25 ≤ purity < 0,60: chỉ review đúng loại chủ đạo
+    q14_split: [7]                   # (3) cụm mixed: tách theo loại (Q14)
+    normal: [1, 3, 5, 6, 10, 15, 16] # (4) sinh bình thường
+  screening:                         # amendment v2.7
+    prompt_version: v2
+    results: 05_experiments/rq3_requirements/gd14_scope_screening.csv
+  dominant_type:                     # cùng luật của GĐ12 (frozen rq2_topics_config), áp lại trên tập đã lọc của cụm 0 và 8
+    threshold: 0.6
+    mixed_origin_min_reviews: 3
+    mixed_origin_min_share: 0.1
+  temporal: frozen_v2.5              # tính lại trên đúng tập evidence của từng unit; chỉ ACTIVE/RECURRING được sinh
+  evidence:
+    k_shown: 20                      # số review gần tâm tập evidence (cosine, mpnet GĐ12) đưa vào prompt, nhãn E1..E20
+    max_chars: 400                   # cắt văn bản review khi đưa vào prompt
+    cite_min: 2                      # v3: 3 → 2 (chỉ trích review nói đúng vấn đề, thiếu thì trích ít)
+    cite_max: 10
+  output:
+    requirements_per_unit: [1, 2]
+    acceptance_criteria: [2, 3]      # giao giữa spec GĐ14 (2–4) và protocol RQ3 (1–3, Given/When/Then) — quyết định 02/11/2026
+    title_prefix:
+      BUG: ['Sửa lỗi']
+      FEATURE: ['Bổ sung', 'Cho phép']
+      UX: ['Cải thiện trải nghiệm']
+  duplicate_theme:                   # cụm cùng chủ đề quảng cáo: requirement có thể trùng, ghi chú cho BA (không gộp tự động)
+    ads: [2, 3, 5, 9, 10, 15]
+  prompt_version: v3               # v1 → v2 → v3 sau chạy thử (02/11/2026): evidence không cùng vấn đề, AC thêm ngữ cảnh; v3 thêm luật chống bịa
+  max_tokens: 1000

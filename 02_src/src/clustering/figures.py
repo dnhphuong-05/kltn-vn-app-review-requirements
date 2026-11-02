@@ -10,53 +10,11 @@ import textwrap
 import numpy as np
 import pandas as pd
 
-TYPE_COLOR = {'BUG': '#2a78d6', 'FEATURE': '#eb6834', 'UX': '#1baf7a', 'mixed': '#8f8e89', 'outlier': '#d9d8d3'}
+from src.reporting.style import GREY, GREY_LIGHT, GRID, INK, INK_2, SLOT
+from src.reporting.style import num as _num, save as _save, style as _style, vn as _vn, vn_axes as _vn_axes
+
+TYPE_COLOR = {'BUG': SLOT[0], 'FEATURE': SLOT[1], 'UX': SLOT[2], 'mixed': GREY, 'outlier': GREY_LIGHT}
 TYPE_LABEL = {'BUG': 'BUG', 'FEATURE': 'FEATURE', 'UX': 'UX', 'mixed': 'mixed', 'outlier': 'outlier'}
-INK, INK_2, GRID = '#0b0b0b', '#52514e', '#e4e3df'
-
-
-def _style():
-    import matplotlib as mpl
-    from matplotlib import font_manager
-    fonts = {f.name for f in font_manager.fontManager.ttflist}
-    # Times New Roman (thesis font) locally; on Kaggle/Linux the metric-compatible Liberation Serif, else DejaVu Serif —
-    # all three carry the Vietnamese diacritics
-    family = next(f for f in ('Times New Roman', 'Liberation Serif', 'DejaVu Serif') if f in fonts or f == 'DejaVu Serif')
-    mpl.rcParams.update({
-        'font.family': family,
-        'font.size': 10, 'axes.titlesize': 10, 'axes.labelsize': 10, 'xtick.labelsize': 9, 'ytick.labelsize': 9,
-        'legend.fontsize': 9, 'axes.edgecolor': INK_2, 'axes.labelcolor': INK, 'text.color': INK,
-        'xtick.color': INK_2, 'ytick.color': INK_2, 'axes.spines.top': False, 'axes.spines.right': False,
-        'axes.grid': False, 'figure.dpi': 110, 'savefig.dpi': 300, 'savefig.bbox': 'tight',
-        'savefig.facecolor': 'white'})
-
-
-def _num(x):
-    return f'{int(x):,}'.replace(',', '.')
-
-
-def _vn(x, decimals=None):
-    """Vietnamese number format: '.' for thousands, ',' for decimals."""
-    if decimals is None:
-        decimals = 0 if float(x).is_integer() else len(f'{x:.6g}'.split('.')[-1]) if '.' in f'{x:.6g}' else 0
-    s = f'{x:,.{decimals}f}'
-    return s.replace(',', '\0').replace('.', ',').replace('\0', '.')
-
-
-def _vn_axes(ax, which='both'):
-    from matplotlib.ticker import FuncFormatter
-    f = FuncFormatter(lambda v, _: _vn(round(v, 6)))
-    if which in ('both', 'x'):
-        ax.xaxis.set_major_formatter(f)
-    if which in ('both', 'y'):
-        ax.yaxis.set_major_formatter(f)
-
-
-def _save(fig, path):
-    fig.savefig(path)
-    import matplotlib.pyplot as plt
-    plt.close(fig)
-    return path
 
 
 def _type_handles(counts=None):

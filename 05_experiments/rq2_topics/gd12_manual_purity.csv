@@ -1,0 +1,18 @@
+﻿topic_id,n,purity_A,purity_B,purity,agreement,size,flag_ba,name_vi,dominant_type,type_purity
+0,10,0.9,0.9,0.9,1.0,1232,False,Dịch vụ giao hàng kém chất lượng,mixed,0.5633116883116883
+1,10,1.0,1.0,1.0,1.0,1098,False,Lỗi tài khoản và thanh toán,BUG,0.7932604735883424
+2,10,0.2,0.2,0.2,1.0,1322,True,Quảng cáo gây phiền phức,mixed,0.46671709531013617
+3,10,0.7,0.7,0.7,1.0,1287,False,Quảng cáo xuất hiện liên tục,UX,0.9821289821289821
+4,10,0.2,0.2,0.2,1.0,573,True,Video tự phát âm thanh phiền phức,mixed,0.4956369982547993
+5,10,0.6,0.8,0.7,0.8,635,False,Quảng cáo rác và khó chịu,UX,0.6992125984251969
+6,10,0.6,0.6,0.6,1.0,435,False,Ứng dụng lag và chậm,BUG,0.7908045977011494
+7,10,0.5,0.5,0.5,1.0,517,True,Lỗi trong giỏ hàng và mua sắm,mixed,0.4700193423597679
+8,10,0.5,0.6,0.55,0.9,447,True,Chất lượng sản phẩm và giao hàng,FEATURE,0.7807606263982103
+9,10,0.0,0.1,0.05,0.9,420,True,Quảng cáo nhảy vào ứng dụng,mixed,0.42142857142857143
+10,10,0.7,0.7,0.7,1.0,195,False,Quảng cáo trong game gây phiền,UX,0.8666666666666667
+11,10,0.5,0.5,0.5,1.0,294,True,Lỗi khi áp dụng voucher,BUG,0.7551020408163265
+12,10,0.5,0.5,0.5,1.0,238,True,Lỗi xác minh số điện thoại,BUG,0.7857142857142857
+13,10,0.1,0.3,0.2,0.8,352,True,Lỗi nhập mã giảm giá,BUG,0.8835227272727273
+14,10,0.3,0.4,0.35,0.9,163,True,Lỗi trong trò chơi và game,UX,0.6012269938650306
+15,10,0.7,0.9,0.8,0.8,266,False,Quảng cáo phiền phức trên mọi nền tảng,UX,0.7744360902255639
+16,10,1.0,1.0,1.0,1.0,125,False,Lỗi địa chỉ giao hàng,BUG,0.832

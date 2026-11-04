@@ -40,3 +40,7 @@ env/
 07_human_eval/rq3_requirements/*.csv
 # D6: bảng reviews có văn bản review — không commit (tạo lại bằng notebook 16).
 06_output_data_model/reviews.csv
+# Bài báo tham khảo (PDF của nhà xuất bản/tác giả) — bản quyền bên thứ ba, không commit. tong_quan_tai_lieu.md vẫn commit được.
+09_thesis/references/*.pdf
+# Tài liệu hướng dẫn của Khoa + khóa luận mẫu (bản quyền bên thứ ba) — không commit.
+09_thesis/guidelines/

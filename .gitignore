@@ -44,3 +44,7 @@ env/
 09_thesis/references/*.pdf
 # Tài liệu hướng dẫn của Khoa + khóa luận mẫu (bản quyền bên thứ ba) — không commit.
 09_thesis/guidelines/
+# Bản thảo và dàn ý khóa luận (Word/Markdown) — giữ trên máy, không commit.
+09_thesis/chapters/
+# Bảng kết quả Word do notebook 17 sinh — tạo lại được, không commit.
+09_thesis/tables/

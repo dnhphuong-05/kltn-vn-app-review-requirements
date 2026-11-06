@@ -42,12 +42,19 @@ requirements,n_evidence_pool,int64,số review trong tập evidence của unit
 requirements,n_evidence_cited,int64,số review được trích
 requirements,qus_defects,int64,số lỗi QUS (GĐ15)
 requirements,status,object,candidate = chờ BA duyệt
+requirements,eval_fidelity,float64,điểm chấm tay 1–5
+requirements,eval_actionability,float64,điểm chấm tay 1–5
+requirements,eval_ac_testability,float64,điểm chấm tay 1–5
+requirements,eval_hallucination,float64,tỷ lệ người chấm thấy chi tiết bịa
+requirements,eval_type_correct,float64,tỷ lệ người chấm thấy đúng loại
+requirements,eval_evidence_precision,float64,tỷ lệ review trích nêu đúng vấn đề
 requirement_evidence,requirement_id,object,khóa ngoài → requirements
 requirement_evidence,review_id,object,khóa ngoài → reviews
 requirement_evidence,evidence_label,object,nhãn E# trong prompt
 requirement_evidence,centroid_rank,int64,thứ hạng gần tâm tập evidence (1 = gần nhất)
 requirement_evidence,source_app,object,ứng dụng nguồn
 requirement_evidence,review_date,object,thời điểm review
+requirement_evidence,eval_supports,float64,tỷ lệ người chấm thấy review nêu đúng vấn đề
 model_comparison,strategy,object,chiến lược
 model_comparison,tier,object,tier1 / tier2 / end_to_end / flat_baseline_reference
 model_comparison,metric,object,tên chỉ số chính

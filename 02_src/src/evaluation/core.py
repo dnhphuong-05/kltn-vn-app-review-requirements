@@ -185,3 +185,23 @@ def score(sheets, reqs):
                      'exact_agreement': float((A[1]['supports'] == B[1]['supports']).mean()), 'n': len(A[1])})
         agree = pd.DataFrame(rows)
     return summary, per, agree
+
+
+def rater_comparison(sheets):
+    """Descriptive comparison of the two raters (supplementary, not pre-registered): per 1–5 scale the mean of each
+    rater, the mean difference, how often A scores below / equal / above B and the Spearman rank correlation; per 0/1
+    judgement the rate of each rater, the rate flagged by both (lower bound) and by at least one (upper bound)."""
+    from scipy.stats import spearmanr
+    a, b = list(sheets)[:2]
+    A, B = sheets[a][0], sheets[b][0]
+    rows = []
+    for c in REQ_SCALES:
+        d = A[c] - B[c]
+        rho, p = spearmanr(A[c], B[c])
+        rows.append({'criterion': c, f'mean_{a}': A[c].mean(), f'mean_{b}': B[c].mean(), 'mean_diff': d.mean(),
+                     f'{a}<{b}': int((d < 0).sum()), f'{a}={b}': int((d == 0).sum()), f'{a}>{b}': int((d > 0).sum()),
+                     'spearman': rho, 'spearman_p': p})
+    for c, (x, y) in [*((c, (A[c], B[c])) for c in REQ_BINARY), ('supports', (sheets[a][1]['supports'], sheets[b][1]['supports']))]:
+        rows.append({'criterion': c, f'mean_{a}': x.mean(), f'mean_{b}': y.mean(), 'mean_diff': (x - y).mean(),
+                     'both_1': float(((x == 1) & (y == 1)).mean()), 'either_1': float(((x == 1) | (y == 1)).mean())})
+    return pd.DataFrame(rows)

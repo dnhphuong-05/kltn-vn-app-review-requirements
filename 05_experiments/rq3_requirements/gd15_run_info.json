@@ -1,6 +1,6 @@
 {
- "run_date": "2026-11-02",
- "commit": "78b1838b7c59c4a0dec8ea8a70dce31529f2552f",
+ "run_date": "2026-11-03",
+ "commit": "57f9591c2b78d28bd201364a7d283daf10ec459f",
  "n_requirements": 16,
  "n_evidence_links": 93,
  "generation_prompt_hash": "a02bf1796f2246e93567a801ad6cece8a7fa5ce6b7f090d9ffb9c66304db8bd1",
@@ -99,6 +99,9 @@
   }
  ],
  "near_duplicate_pairs": 4,
- "raters": [],
- "human_eval_done": false
+ "raters": [
+  "A",
+  "B"
+ ],
+ "human_eval_done": true
 }

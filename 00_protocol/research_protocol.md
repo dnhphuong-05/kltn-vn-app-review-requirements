@@ -239,6 +239,23 @@
 - **Một phần purity thấp do tên cụm:** tên do LLM đặt có thể hẹp hoặc mơ hồ hơn nội dung cụm (cụm 4, 13, 14); purity đo cả cụm lẫn tên.
 - **Temporal không phân biệt:** với các cụm lớn và lượng review đều theo thời gian, cả 17 cụm đều RECURRING (amendment v2.5).
 
+## Hạn chế ghi nhận ở RQ3 (GĐ14–GĐ15, 03/11/2026)
+- **Tổng thể nhỏ:** chỉ 16 Candidate Requirement (16 unit, mỗi unit 1 requirement); chấm toàn bộ thay cho mẫu 30–50 (amendment v2.9);
+  so sánh theo loại hay theo nguồn unit chỉ có 3–7 requirement mỗi nhóm, không kiểm định thống kê.
+- **Đồng thuận thấp ở thang mức requirement:** weighted κ 0,28 (fidelity), 0,05 (actionability), 0,25 (AC testability); hallucination
+  κ 0,19. Người chấm A khắt khe hơn B một cách hệ thống (fidelity thấp hơn ở 14/16 requirement), thứ hạng fidelity tương quan vừa
+  (Spearman 0,61); các điểm này báo kèm từng người chấm. Phán đoán mức review trích dẫn đồng thuận cao (κ 0,78) — evidence precision 0,78
+  là số đo đáng tin nhất.
+- **Hallucination không loại được bằng prompt:** 5/16 requirement bị cả hai người chấm xác định có chi tiết bịa, 13/16 bị ít nhất một
+  người xác định (thêm màn hình hay bước, đổi bối cảnh, diễn giải lệch nghĩa, thêm cam kết ngoài phạm vi app); một model cố định cho mọi
+  bước (gpt-4o-mini, temperature 0), không dùng LLM kiểm LLM (amendment v2.8).
+- **Chất lượng phụ thuộc độ thuần của cụm nguồn:** evidence precision 0,96 ở unit từ cụm bình thường so với 0,39–0,53 ở unit lọc chức năng
+  app hoặc tách loại (cụm 0, 7, 8); ba requirement FEATURE đều thuộc nhóm này nên điểm theo loại bị lẫn với nguồn gốc unit.
+- **Sàng lọc phạm vi bỏ sót:** recall app_actionable của cụm 0 ước tính 0,64 (QA 40 review), nên tần suất issue của cụm 0 bị đếm thấp
+  (amendment v2.7).
+- **Structural quality cao không bảo đảm đúng nội dung:** 15/16 User Story không lỗi QUS và 47/47 AC đúng dạng Given/When/Then, nhưng
+  nhiều AC dùng từ định tính thiếu ngưỡng; output là Candidate, BA duyệt trước khi dùng.
+
 ## Kiểm soát leakage & tái lập (ĐC §11, Phụ lục A)
 - Annotator không thấy prediction model. Hold-out không vào few-shot / prompt-development log.
 - Manifest checksum + số dòng từng split. Mọi bảng kết quả sinh từ code.

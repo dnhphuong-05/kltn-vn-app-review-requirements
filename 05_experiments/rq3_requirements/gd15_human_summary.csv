@@ -1,0 +1,7 @@
+﻿criterion,scale,mean,median,share_≥4
+fidelity,1–5,3.96875,4.0,0.625
+actionability,1–5,3.8125,4.0,0.5625
+ac_testability,1–5,4.21875,4.5,0.6875
+hallucination (tỷ lệ = 1),0/1,0.5625,,
+type_correct (tỷ lệ = 1),0/1,1.0,,
+evidence precision (review trích nêu đúng vấn đề),0/1 mỗi review,0.7795698924731183,,

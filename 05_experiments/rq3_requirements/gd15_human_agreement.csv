@@ -1,0 +1,7 @@
+criterion,kappa,value,exact_agreement,n
+fidelity,weighted (quadratic),0.28125,0.125,16
+actionability,weighted (quadratic),0.052631578947368474,0.0625,16
+ac_testability,weighted (quadratic),0.24731182795698925,0.375,16
+hallucination,Cohen,0.189873417721519,0.5,16
+type_correct,Cohen,,1.0,16
+supports,Cohen,0.7813234800134363,0.9247311827956989,93

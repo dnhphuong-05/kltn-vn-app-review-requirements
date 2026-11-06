@@ -55,4 +55,14 @@ Bảng,GĐ14 — Sinh Candidate Requirement,Chi phí thật của GĐ14 (usage c
 Bảng,GĐ15 — Đánh giá Candidate Requirement,"Đánh giá tự động: cấu trúc, sinh hợp lệ và truy vết",tables/Bang_ket_qua_GD1-GD16.docx
 Bảng,GĐ15 — Đánh giá Candidate Requirement,Lỗi chất lượng User Story theo luật QUS (cài đặt lại theo các loại lỗi AQUSA),tables/Bang_ket_qua_GD1-GD16.docx
 Bảng,GĐ15 — Đánh giá Candidate Requirement,"Cặp User Story gần trùng (cosine ≥ 0,85, embedding mpnet)",tables/Bang_ket_qua_GD1-GD16.docx
+Bảng,GĐ15 — Đánh giá Candidate Requirement,Kết quả chấm tay 16 Candidate Requirement và 93 review được trích dẫn (hai người chấm độc lập),tables/Bang_ket_qua_GD1-GD16.docx
+Bảng,GĐ15 — Đánh giá Candidate Requirement,Điểm chấm tay theo cách lấy evidence của unit (trung bình hai người chấm),tables/Bang_ket_qua_GD1-GD16.docx
 Bảng,GĐ16 — Artifact D6 (structured output),Năm bảng quan hệ của artifact D6,tables/Bang_ket_qua_GD1-GD16.docx
+Sơ đồ,Phương pháp,Quy trình Design Science Research áp dụng trong khóa luận,figures\so_do_0_dsr.png
+Sơ đồ,Phương pháp,Khung nghiên cứu tổng thể: sáu giai đoạn từ review Google Play đến Candidate Requirement,figures\so_do_1_khung_nghien_cuu.png
+Sơ đồ,Phương pháp,Quy trình thu thập và làm sạch review của Shopee và Lazada,figures\so_do_2_du_lieu.png
+Sơ đồ,Phương pháp,"Quy trình xây dựng guideline, gán nhãn và chia tập dữ liệu",figures\so_do_3_gan_nhan_chia_tap.png
+Sơ đồ,Phương pháp,"Kiến trúc cascade hai tầng, ba chiến lược phân loại và cách đánh giá RQ1",figures\so_do_4_cascade_rq1.png
+Sơ đồ,Phương pháp,"Quy trình gom cụm issue, gắn loại chủ đạo và kiểm tra tính hợp lệ thời gian (RQ2)",figures\so_do_5_rq2_gom_cum_temporal.png
+Sơ đồ,Phương pháp,"Quy trình chọn evidence, sinh và đánh giá Candidate Requirement (RQ3)",figures\so_do_6_rq3_sinh_danh_gia.png
+Sơ đồ,Phương pháp,Mô hình dữ liệu quan hệ của artifact D6,figures\so_do_7_mo_hinh_du_lieu_d6.png

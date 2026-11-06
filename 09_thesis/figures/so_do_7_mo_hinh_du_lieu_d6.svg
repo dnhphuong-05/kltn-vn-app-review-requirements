@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="662.4pt" height="446.4pt" viewBox="0 0 662.4 446.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-04T12:56:49.617944</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 446.4 
+L 662.4 446.4 
+L 662.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 156.24 203.22 
+L 190.8 203.22 
+" clip-path="url(#p71a9f24be9)" style="fill: none; stroke: #2a78d6; stroke-width: 0.95; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 363.6 70.38 
+L 329.04 70.38 
+" clip-path="url(#p71a9f24be9)" style="fill: none; stroke: #2a78d6; stroke-width: 0.95; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 329.04 312.3 
+L 432.72 312.3 
+L 432.72 301.32 
+" clip-path="url(#p71a9f24be9)" style="fill: none; stroke: #2a78d6; stroke-width: 0.95; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 190.8 327.06 
+L 87.12 327.06 
+L 87.12 257.04 
+" clip-path="url(#p71a9f24be9)" style="fill: none; stroke: #2a78d6; stroke-width: 0.95; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 21.6 257.04 
+L 152.64 257.04 
+Q 156.24 257.04 156.24 253.44 
+L 156.24 25.2 
+Q 156.24 21.6 152.64 21.6 
+L 21.6 21.6 
+Q 18 21.6 18 25.2 
+L 18 253.44 
+Q 18 257.04 21.6 257.04 
+z
+" clip-path="url(#p71a9f24be9)" style="fill: #ffffff; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 194.4 242.28 
+L 325.44 242.28 
+Q 329.04 242.28 329.04 238.68 
+L 329.04 25.2 
+Q 329.04 21.6 325.44 21.6 
+L 194.4 21.6 
+Q 190.8 21.6 190.8 25.2 
+L 190.8 238.68 
+Q 190.8 242.28 194.4 242.28 
+z
+" clip-path="url(#p71a9f24be9)" style="fill: #ffffff; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 194.4 410.4 
+L 325.44 410.4 
+Q 329.04 410.4 329.04 406.8 
+L 329.04 281.88 
+Q 329.04 278.28 325.44 278.28 
+L 194.4 278.28 
+Q 190.8 278.28 190.8 281.88 
+L 190.8 406.8 
+Q 190.8 410.4 194.4 410.4 
+z
+" clip-path="url(#p71a9f24be9)" style="fill: #ffffff; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 367.2 301.32 
+L 498.24 301.32 
+Q 501.84 301.32 501.84 297.72 
+L 501.84 25.2 
+Q 501.84 21.6 498.24 21.6 
+L 367.2 21.6 
+Q 363.6 21.6 363.6 25.2 
+L 363.6 297.72 
+Q 363.6 301.32 367.2 301.32 
+z
+" clip-path="url(#p71a9f24be9)" style="fill: #ffffff; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 511.2 257.04 
+L 642.24 257.04 
+Q 645.84 257.04 645.84 253.44 
+L 645.84 25.2 
+Q 645.84 21.6 642.24 21.6 
+L 511.2 21.6 
+Q 507.6 21.6 507.6 25.2 
+L 507.6 253.44 
+Q 507.6 257.04 511.2 257.04 
+z
+" clip-path="url(#p71a9f24be9)" style="fill: #ffffff; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #8f8e89; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #2a78d6" x="437.76" y="311.439328" transform="rotate(-0 437.76 311.439328)">1</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #2a78d6" x="92.16" y="267.159328" transform="rotate(-0 92.16 267.159328)">1</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; fill: #52514e" transform="translate(549.776531 273.203385)">bảng độc lập (RQ1),</text>
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; fill: #52514e" transform="translate(549.133547 280.035334)">không có khóa ngoài</text>
+   </g>
+   <g id="text_4">
+    <text style="font-style: italic; font-size: 6.8px; font-family: 'Times New Roman'; text-anchor: start; fill: #52514e" x="18" y="427.096062" transform="rotate(-0 18 427.096062)">PK: khóa chính · FK: khóa ngoài · N / 1: quan hệ nhiều – một. reviews.text có văn bản review nên không phân phối công khai.</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 21.6 46.08 
+L 152.64 46.08 
+Q 156.24 46.08 156.24 42.48 
+L 156.24 25.2 
+Q 156.24 21.6 152.64 21.6 
+L 21.6 21.6 
+Q 18 21.6 18 25.2 
+L 18 42.48 
+Q 18 46.08 21.6 46.08 
+z
+" clip-path="url(#p71a9f24be9)" style="fill: #8fb3e3; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 194.4 46.08 
+L 325.44 46.08 
+Q 329.04 46.08 329.04 42.48 
+L 329.04 25.2 
+Q 329.04 21.6 325.44 21.6 
+L 194.4 21.6 
+Q 190.8 21.6 190.8 25.2 
+L 190.8 42.48 
+Q 190.8 46.08 194.4 46.08 
+z
+" clip-path="url(#p71a9f24be9)" style="fill: #8fb3e3; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 194.4 302.76 
+L 325.44 302.76 
+Q 329.04 302.76 329.04 299.16 
+L 329.04 281.88 
+Q 329.04 278.28 325.44 278.28 
+L 194.4 278.28 
+Q 190.8 278.28 190.8 281.88 
+L 190.8 299.16 
+Q 190.8 302.76 194.4 302.76 
+z
+" clip-path="url(#p71a9f24be9)" style="fill: #8fb3e3; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 367.2 46.08 
+L 498.24 46.08 
+Q 501.84 46.08 501.84 42.48 
+L 501.84 25.2 
+Q 501.84 21.6 498.24 21.6 
+L 367.2 21.6 
+Q 363.6 21.6 363.6 25.2 
+L 363.6 42.48 
+Q 363.6 46.08 367.2 46.08 
+z
+" clip-path="url(#p71a9f24be9)" style="fill: #8fb3e3; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 511.2 46.08 
+L 642.24 46.08 
+Q 645.84 46.08 645.84 42.48 
+L 645.84 25.2 
+Q 645.84 21.6 642.24 21.6 
+L 511.2 21.6 
+Q 507.6 21.6 507.6 25.2 
+L 507.6 42.48 
+Q 507.6 46.08 511.2 46.08 
+z
+" clip-path="url(#p71a9f24be9)" style="fill: #8f8e89; stroke: #8f8e89; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 18.72 46.08 
+L 155.52 46.08 
+L 155.52 33.84 
+L 18.72 33.84 
+z
+" clip-path="url(#p71a9f24be9)" style="fill: #8fb3e3"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 191.52 46.08 
+L 328.32 46.08 
+L 328.32 33.84 
+L 191.52 33.84 
+z
+" clip-path="url(#p71a9f24be9)" style="fill: #8fb3e3"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 191.52 302.76 
+L 328.32 302.76 
+L 328.32 290.52 
+L 191.52 290.52 
+z
+" clip-path="url(#p71a9f24be9)" style="fill: #8fb3e3"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 364.32 46.08 
+L 501.12 46.08 
+L 501.12 33.84 
+L 364.32 33.84 
+z
+" clip-path="url(#p71a9f24be9)" style="fill: #8fb3e3"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 508.32 46.08 
+L 645.12 46.08 
+L 645.12 33.84 
+L 508.32 33.84 
+z
+" clip-path="url(#p71a9f24be9)" style="fill: #8f8e89"/>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="87.12" y="35.588297" transform="rotate(-0 87.12 35.588297)">reviews</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="23.76" y="57.144703" transform="rotate(-0 23.76 57.144703)">review_id</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Times New Roman'; text-anchor: end; fill: #52514e" x="150.48" y="56.964844" transform="rotate(-0 150.48 56.964844)">PK</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="23.76" y="71.953172" transform="rotate(-0 23.76 71.953172)">source_app</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="23.76" y="86.719359" transform="rotate(-0 23.76 86.719359)">review_date</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="23.76" y="101.479359" transform="rotate(-0 23.76 101.479359)">app_version</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="23.76" y="116.239359" transform="rotate(-0 23.76 116.239359)">rating</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="23.76" y="131.005547" transform="rotate(-0 23.76 131.005547)">text</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="23.76" y="145.765547" transform="rotate(-0 23.76 145.765547)">split</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="23.76" y="160.513172" transform="rotate(-0 23.76 160.513172)">p_ACTIONABLE</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="23.76" y="175.279359" transform="rotate(-0 23.76 175.279359)">tier1_label</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="23.76" y="190.039359" transform="rotate(-0 23.76 190.039359)">tier2_label</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="23.76" y="204.799359" transform="rotate(-0 23.76 204.799359)">topic_id</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Times New Roman'; text-anchor: end; fill: #2a78d6" x="150.48" y="204.564844" transform="rotate(-0 150.48 204.564844)">FK</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="23.76" y="219.559359" transform="rotate(-0 23.76 219.559359)">unit_id</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="23.76" y="234.319359" transform="rotate(-0 23.76 234.319359)">evidence_status</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="23.76" y="249.079359" transform="rotate(-0 23.76 249.079359)">temporal_status</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="259.92" y="35.649234" transform="rotate(-0 259.92 35.649234)">topics</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="57.144703" transform="rotate(-0 196.56 57.144703)">topic_id</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Times New Roman'; text-anchor: end; fill: #52514e" x="323.28" y="56.964844" transform="rotate(-0 323.28 56.964844)">PK</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="71.965547" transform="rotate(-0 196.56 71.965547)">label</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="86.719359" transform="rotate(-0 196.56 86.719359)">label_en</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="101.479359" transform="rotate(-0 196.56 101.479359)">dominant_type</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="116.239359" transform="rotate(-0 196.56 116.239359)">type_purity</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="130.999359" transform="rotate(-0 196.56 130.999359)">manual_purity</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="145.765547" transform="rotate(-0 196.56 145.765547)">size</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="160.516266" transform="rotate(-0 196.56 160.516266)">frequency</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="175.279359" transform="rotate(-0 196.56 175.279359)">top_keywords</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="190.045547" transform="rotate(-0 196.56 190.045547)">scope</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="204.799359" transform="rotate(-0 196.56 204.799359)">temporal_status</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="219.559359" transform="rotate(-0 196.56 219.559359)">generation_step</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="234.319359" transform="rotate(-0 196.56 234.319359)">flag_ba</text>
+   </g>
+   <g id="text_37">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="259.92" y="292.321922" transform="rotate(-0 259.92 292.321922)">requirement_evidence</text>
+   </g>
+   <g id="text_38">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="313.824703" transform="rotate(-0 196.56 313.824703)">requirement_id</text>
+   </g>
+   <g id="text_39">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Times New Roman'; text-anchor: end; fill: #2a78d6" x="323.28" y="313.644844" transform="rotate(-0 323.28 313.644844)">PK, FK</text>
+   </g>
+   <g id="text_40">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="328.584703" transform="rotate(-0 196.56 328.584703)">review_id</text>
+   </g>
+   <g id="text_41">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Times New Roman'; text-anchor: end; fill: #2a78d6" x="323.28" y="328.404844" transform="rotate(-0 323.28 328.404844)">PK, FK</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="343.399359" transform="rotate(-0 196.56 343.399359)">evidence_label</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="358.159359" transform="rotate(-0 196.56 358.159359)">centroid_rank</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="372.913172" transform="rotate(-0 196.56 372.913172)">source_app</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="387.679359" transform="rotate(-0 196.56 387.679359)">review_date</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="196.56" y="402.439359" transform="rotate(-0 196.56 402.439359)">eval_supports</text>
+   </g>
+   <g id="text_47">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="432.72" y="35.649234" transform="rotate(-0 432.72 35.649234)">requirements</text>
+   </g>
+   <g id="text_48">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="57.144703" transform="rotate(-0 369.36 57.144703)">requirement_id</text>
+   </g>
+   <g id="text_49">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Times New Roman'; text-anchor: end; fill: #52514e" x="496.08" y="56.964844" transform="rotate(-0 496.08 56.964844)">PK</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="71.959359" transform="rotate(-0 369.36 71.959359)">topic_id</text>
+   </g>
+   <g id="text_51">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Times New Roman'; text-anchor: end; fill: #2a78d6" x="496.08" y="71.724844" transform="rotate(-0 496.08 71.724844)">FK</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="86.719359" transform="rotate(-0 369.36 86.719359)">unit_id</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="101.473172" transform="rotate(-0 369.36 101.473172)">type</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="116.239359" transform="rotate(-0 369.36 116.239359)">title_vi</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="130.999359" transform="rotate(-0 369.36 130.999359)">problem_vi</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="145.753172" transform="rotate(-0 369.36 145.753172)">user_story</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="160.519359" transform="rotate(-0 369.36 160.519359)">acceptance_criteria</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="175.279359" transform="rotate(-0 369.36 175.279359)">temporal_status</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="190.039359" transform="rotate(-0 369.36 190.039359)">issue_frequency</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="204.799359" transform="rotate(-0 369.36 204.799359)">mixed_origin_flag</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="219.553172" transform="rotate(-0 369.36 219.553172)">scope_note</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="234.319359" transform="rotate(-0 369.36 234.319359)">n_evidence_pool</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="249.079359" transform="rotate(-0 369.36 249.079359)">n_evidence_cited</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="263.839359" transform="rotate(-0 369.36 263.839359)">qus_defects</text>
+   </g>
+   <g id="text_65">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="278.605547" transform="rotate(-0 369.36 278.605547)">status</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="369.36" y="294.008531" transform="rotate(-0 369.36 294.008531)">eval_* (6 cột chấm tay)</text>
+   </g>
+   <g id="text_67">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Times New Roman'; text-anchor: middle; fill: #ffffff" x="576.72" y="35.641922" transform="rotate(-0 576.72 35.641922)">model_comparison</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="513.36" y="57.193172" transform="rotate(-0 513.36 57.193172)">strategy</text>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="513.36" y="71.965547" transform="rotate(-0 513.36 71.965547)">tier</text>
+   </g>
+   <g id="text_70">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="513.36" y="86.725547" transform="rotate(-0 513.36 86.725547)">metric</text>
+   </g>
+   <g id="text_71">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="513.36" y="101.476266" transform="rotate(-0 513.36 101.476266)">macro_f1</text>
+   </g>
+   <g id="text_72">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="513.36" y="116.239359" transform="rotate(-0 513.36 116.239359)">macro_f1_sd</text>
+   </g>
+   <g id="text_73">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="513.36" y="130.999359" transform="rotate(-0 513.36 130.999359)">per_class_f1</text>
+   </g>
+   <g id="text_74">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="513.36" y="145.759359" transform="rotate(-0 513.36 145.759359)">actionable_recall</text>
+   </g>
+   <g id="text_75">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="513.36" y="160.519359" transform="rotate(-0 513.36 160.519359)">actionable_f1</text>
+   </g>
+   <g id="text_76">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="513.36" y="175.279359" transform="rotate(-0 513.36 175.279359)">time_per_1k</text>
+   </g>
+   <g id="text_77">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="513.36" y="190.039359" transform="rotate(-0 513.36 190.039359)">api_cost</text>
+   </g>
+   <g id="text_78">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="513.36" y="204.799359" transform="rotate(-0 513.36 204.799359)">train_time</text>
+   </g>
+   <g id="text_79">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="513.36" y="219.565547" transform="rotate(-0 513.36 219.565547)">hardware</text>
+   </g>
+   <g id="text_80">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="513.36" y="234.319359" transform="rotate(-0 513.36 234.319359)">external_test_f1</text>
+   </g>
+   <g id="text_81">
+    <text style="font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #0b0b0b" x="513.36" y="249.073172" transform="rotate(-0 513.36 249.073172)">n_runs</text>
+   </g>
+   <g id="text_82">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #2a78d6" x="160.56" y="198.579328" transform="rotate(-0 160.56 198.579328)">N</text>
+   </g>
+   <g id="text_83">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: end; fill: #2a78d6" x="186.48" y="198.579328" transform="rotate(-0 186.48 198.579328)">1</text>
+   </g>
+   <g id="text_84">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: end; fill: #2a78d6" x="359.28" y="65.739328" transform="rotate(-0 359.28 65.739328)">N</text>
+   </g>
+   <g id="text_85">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #2a78d6" x="333.36" y="65.739328" transform="rotate(-0 333.36 65.739328)">1</text>
+   </g>
+   <g id="text_86">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: start; fill: #2a78d6" x="333.36" y="307.659328" transform="rotate(-0 333.36 307.659328)">N</text>
+   </g>
+   <g id="text_87">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'Times New Roman'; text-anchor: end; fill: #2a78d6" x="186.48" y="322.419328" transform="rotate(-0 186.48 322.419328)">N</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p71a9f24be9">
+   <rect x="7.2" y="7.2" width="648" height="432"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,41 @@
+﻿cấu hình,gold,đoán BUG,đoán FEATURE,đoán UX,đoán OTHER
+Cascade ViSoBERT,gold BUG,40,2,2,45
+Cascade ViSoBERT,gold FEATURE,4,13,2,5
+Cascade ViSoBERT,gold UX,3,4,54,9
+Cascade ViSoBERT,gold OTHER,32,24,19,742
+Cascade Bi-LSTM + fastText,gold BUG,50,7,10,22
+Cascade Bi-LSTM + fastText,gold FEATURE,6,8,5,5
+Cascade Bi-LSTM + fastText,gold UX,7,2,57,4
+Cascade Bi-LSTM + fastText,gold OTHER,83,45,26,663
+Cascade LLM few-shot,gold BUG,73,0,1,15
+Cascade LLM few-shot,gold FEATURE,3,19,0,2
+Cascade LLM few-shot,gold UX,2,3,58,7
+Cascade LLM few-shot,gold OTHER,36,9,2,770
+Baseline phẳng ViSoBERT,gold BUG,33,1,4,51
+Baseline phẳng ViSoBERT,gold FEATURE,3,10,1,10
+Baseline phẳng ViSoBERT,gold UX,3,2,53,12
+Baseline phẳng ViSoBERT,gold OTHER,13,7,4,793
+ViSoBERT → Bi-LSTM + fastText,gold BUG,34,3,7,45
+ViSoBERT → Bi-LSTM + fastText,gold FEATURE,4,10,5,5
+ViSoBERT → Bi-LSTM + fastText,gold UX,5,2,54,9
+ViSoBERT → Bi-LSTM + fastText,gold OTHER,36,28,11,742
+ViSoBERT → LLM few-shot,gold BUG,42,0,2,45
+ViSoBERT → LLM few-shot,gold FEATURE,2,17,0,5
+ViSoBERT → LLM few-shot,gold UX,3,3,55,9
+ViSoBERT → LLM few-shot,gold OTHER,41,6,28,742
+Bi-LSTM + fastText → ViSoBERT,gold BUG,60,4,3,22
+Bi-LSTM + fastText → ViSoBERT,gold FEATURE,5,12,2,5
+Bi-LSTM + fastText → ViSoBERT,gold UX,5,4,57,4
+Bi-LSTM + fastText → ViSoBERT,gold OTHER,84,35,35,663
+Bi-LSTM + fastText → LLM few-shot,gold BUG,66,0,1,22
+Bi-LSTM + fastText → LLM few-shot,gold FEATURE,2,17,0,5
+Bi-LSTM + fastText → LLM few-shot,gold UX,4,3,59,4
+Bi-LSTM + fastText → LLM few-shot,gold OTHER,77,15,62,663
+LLM few-shot → ViSoBERT,gold BUG,67,5,2,15
+LLM few-shot → ViSoBERT,gold FEATURE,6,14,2,2
+LLM few-shot → ViSoBERT,gold UX,5,5,53,7
+LLM few-shot → ViSoBERT,gold OTHER,36,8,3,770
+LLM few-shot → Bi-LSTM + fastText,gold BUG,62,5,7,15
+LLM few-shot → Bi-LSTM + fastText,gold FEATURE,6,11,5,2
+LLM few-shot → Bi-LSTM + fastText,gold UX,7,2,54,7
+LLM few-shot → Bi-LSTM + fastText,gold OTHER,32,13,2,770

@@ -78,7 +78,8 @@ Review → TẦNG 1: ACTIONABLE / NOT_ACTIONABLE     (so 3 chiến lược — R
   giá trị lõi, backend phải kiểm tra được.
 
 ## 11. Chi phí / GPU / thời gian — đo thực tế
-- Không hardcode. Đo giờ gán nhãn, train/inference time, chi phí API/token thực.
+- Không hardcode. Đo train/inference time, chi phí API/token thực. Chi phí gán nhãn thể hiện bằng
+  SỐ NHÃN mỗi chiến lược cần (giờ gán nhãn không được ghi nhận — amendment v3.0).
 - Chi phí là tiêu chí HẠNG NHẤT ngang hiệu năng. GPU khuyến nghị, không bắt buộc.
 
 ## 12. Cấu trúc thư mục — không tự tạo thư mục lạ

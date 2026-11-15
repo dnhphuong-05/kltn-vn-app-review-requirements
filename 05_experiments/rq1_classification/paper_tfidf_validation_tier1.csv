@@ -1,0 +1,2 @@
+﻿strategy,cấu hình,ngưỡng,đạt recall ≥ 0.80 (seed 42),recall thấp nhất (3 seed),f1_actionable,recall_actionable,precision_actionable,macro_f1
+TF-IDF,"{""features"": ""word"", ""classifier"": ""logreg"", ""C"": 1.0}",0.45,True,0.803,69.5 ± 0.0,80.3 ± 0.0,61.3 ± 0.0,80.1 ± 0.0

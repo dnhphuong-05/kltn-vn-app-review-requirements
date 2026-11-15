@@ -1,0 +1,41 @@
+﻿cấu hình,lớp,support,precision,recall,F1
+Cascade ViSoBERT,BUG,89,51.0 ± 3.2,46.8 ± 6.4,48.5 ± 2.0
+Cascade ViSoBERT,FEATURE,24,28.1 ± 2.3,45.8 ± 7.2,34.8 ± 3.6
+Cascade ViSoBERT,UX,70,67.6 ± 2.3,80.0 ± 2.9,73.2 ± 0.4
+Cascade ViSoBERT,OTHER,817,93.1 ± 0.7,90.6 ± 1.7,91.8 ± 0.5
+Cascade Bi-LSTM + fastText,BUG,89,31.2 ± 3.6,58.1 ± 9.7,40.2 ± 2.1
+Cascade Bi-LSTM + fastText,FEATURE,24,15.4 ± 6.6,43.1 ± 8.7,22.2 ± 7.3
+Cascade Bi-LSTM + fastText,UX,70,58.2 ± 5.2,76.7 ± 4.1,66.1 ± 3.6
+Cascade Bi-LSTM + fastText,OTHER,817,95.7 ± 1.5,77.6 ± 9.2,85.5 ± 5.2
+Cascade LLM few-shot,BUG,89,64.0,82.0,71.9
+Cascade LLM few-shot,FEATURE,24,61.3,79.2,69.1
+Cascade LLM few-shot,UX,70,95.1,82.9,88.5
+Cascade LLM few-shot,OTHER,817,97.0,94.2,95.6
+Baseline phẳng ViSoBERT,BUG,89,66.9 ± 6.5,36.3 ± 0.6,47.0 ± 1.4
+Baseline phẳng ViSoBERT,FEATURE,24,54.2 ± 7.2,40.3 ± 2.4,46.1 ± 3.6
+Baseline phẳng ViSoBERT,UX,70,84.1 ± 1.2,75.7 ± 1.4,79.7 ± 0.8
+Baseline phẳng ViSoBERT,OTHER,817,91.5 ± 0.1,97.5 ± 0.6,94.4 ± 0.3
+ViSoBERT → Bi-LSTM + fastText,BUG,89,43.0,38.2,40.5
+ViSoBERT → Bi-LSTM + fastText,FEATURE,24,23.3,41.7,29.9
+ViSoBERT → Bi-LSTM + fastText,UX,70,70.1,77.1,73.5
+ViSoBERT → Bi-LSTM + fastText,OTHER,817,92.6,90.8,91.7
+ViSoBERT → LLM few-shot,BUG,89,47.7,47.2,47.5
+ViSoBERT → LLM few-shot,FEATURE,24,65.4,70.8,68.0
+ViSoBERT → LLM few-shot,UX,70,64.7,78.6,71.0
+ViSoBERT → LLM few-shot,OTHER,817,92.6,90.8,91.7
+Bi-LSTM + fastText → ViSoBERT,BUG,89,39.0,67.4,49.4
+Bi-LSTM + fastText → ViSoBERT,FEATURE,24,21.8,50.0,30.4
+Bi-LSTM + fastText → ViSoBERT,UX,70,58.8,81.4,68.3
+Bi-LSTM + fastText → ViSoBERT,OTHER,817,95.5,81.2,87.8
+Bi-LSTM + fastText → LLM few-shot,BUG,89,44.3,74.2,55.5
+Bi-LSTM + fastText → LLM few-shot,FEATURE,24,48.6,70.8,57.6
+Bi-LSTM + fastText → LLM few-shot,UX,70,48.4,84.3,61.5
+Bi-LSTM + fastText → LLM few-shot,OTHER,817,95.5,81.2,87.8
+LLM few-shot → ViSoBERT,BUG,89,58.8,75.3,66.0
+LLM few-shot → ViSoBERT,FEATURE,24,43.8,58.3,50.0
+LLM few-shot → ViSoBERT,UX,70,88.3,75.7,81.5
+LLM few-shot → ViSoBERT,OTHER,817,97.0,94.2,95.6
+LLM few-shot → Bi-LSTM + fastText,BUG,89,57.9,69.7,63.3
+LLM few-shot → Bi-LSTM + fastText,FEATURE,24,35.5,45.8,40.0
+LLM few-shot → Bi-LSTM + fastText,UX,70,79.4,77.1,78.3
+LLM few-shot → Bi-LSTM + fastText,OTHER,817,97.0,94.2,95.6

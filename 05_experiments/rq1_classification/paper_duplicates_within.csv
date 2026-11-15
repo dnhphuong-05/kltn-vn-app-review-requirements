@@ -1,0 +1,6 @@
+﻿tập,n,dòng thuộc nhóm trùng,văn bản lặp,dòng thừa
+Train,1200,207,27,180
+Validation,350,78,13,65
+Hold-out,1000,213,31,182
+Focused,150,0,0,0
+Lazada,500,63,9,54

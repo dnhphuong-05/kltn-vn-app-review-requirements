@@ -20,6 +20,23 @@ Mọi bài mới ở mục 2 đã được đối chiếu tên, tác giả, nơi
 
 ★ = nên đọc toàn văn trước khi viết Chương 1. RQ1/RQ2/RQ3 = câu hỏi nghiên cứu mà bài hỗ trợ.
 
+**Cập nhật 07/11/2026: dọn `references/` theo "Template for manuscript" của giảng viên**
+
+Template cấm trích MDPI, Frontiers, Hindawi và yêu cầu tránh nhà xuất bản trong danh sách Beall (beallslist.net). Bốn bài dưới đây bị loại, đã xóa PDF và cần gỡ khỏi khóa luận. Các mục viết về chúng ở phần dưới chỉ còn giá trị lịch sử.
+
+- Mihany et al. (2025), *Applied Sciences* — MDPI.
+- Sarhan & Alhoshan (2026), *Applied Sciences* — MDPI.
+- Hemmat et al. (2025), *Frontiers in Computer Science* — Frontiers, đồng thời có trong danh sách nhà xuất bản của Beall.
+- Arambepola et al. (2025), *Interdisciplinary Journal of Information, Knowledge, and Management* — nhà xuất bản Informing Science Institute nằm trong mục "Update" của danh sách Beall.
+
+Sáu bài không được khóa luận trích cũng đã được xóa PDF: Jha & Mahmoud (2019), Wang et al. (2022, SIRA), Ronanki et al. (2023), Motger et al. (2024, T-FREX), Obaidi et al. (2025), Bagies et al. (2026). Tệp `references.bib` (chỉ có 4/58 tài liệu, không được dùng ở đâu) cũng bị xóa. Hiện `references/` còn 29 PDF, mỗi PDF ứng với một tài liệu trong danh mục tham khảo của khóa luận. Ngày 07/11/2026 thêm `Landis_Koch_1977_observer_agreement.pdf` (bản quét JSTOR lấy từ jjcurtin.github.io, dùng để chụp thang kappa ở trang 165 cho Chương 2), nâng lên 30 PDF.
+
+**Bổ sung 07/11/2026 — tải các tài liệu được trích còn thiếu (42 PDF)**
+
+Tải từ nguồn mở hợp lệ và đã kiểm tra tiêu đề trang đầu: Brown et al. (2020), Vaswani et al. (2017), Grootendorst (2022), McInnes et al. (2018) từ arXiv; Devlin et al. (2019), Grave et al. (2018), Kudo & Richardson (2018), Reimers & Gurevych (2019, 2020) từ ACL Anthology; Maalej et al. (2025) là bản preprint của chính tác giả trên arXiv (2407.15519), không phải bản Springer. Hai bài báo điện tử VietNamNet (2025) và Khôi Ngô (2026) được lưu thành PDF bằng Chrome, ngày truy cập 07/11/2026.
+
+Chưa có bản mở, cần tải qua thư viện trường: Campello et al. (2013), Cohen (1960), Cohen (1968), Dalpiaz & Brinkkemper (2025), Grace et al. (2023), Schuster & Paliwal (1997), Wilson (1927), Wohlin et al. (2012), IIBA (2015). Không tải được do máy chủ: Hochreiter & Schmidhuber (1997) (chứng chỉ trang tác giả hết hạn), Röder et al. (2015) (máy chủ AKSW không kết nối), Efron (1979) (Project Euclid chặn truy cập tự động).
+
 ---
 
 ## 1. Đánh giá 16 tài liệu hiện có trong `references/`

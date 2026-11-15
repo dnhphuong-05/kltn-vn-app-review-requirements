@@ -1,0 +1,9 @@
+﻿tập tham chiếu,tập kiểm tra,n tập kiểm tra,văn bản chung,dòng trùng,tỷ lệ dòng trùng,dòng trùng actionable,số chữ tối đa,nhãn khớp tập tham chiếu
+Train,Validation,350,21,83,0.23714285714285716,0,4,1.0
+Train,Hold-out,1000,40,213,0.213,1,4,1.0
+Validation,Hold-out,1000,22,180,0.18,1,4,1.0
+Train ∪ Validation,Hold-out,1000,44,217,0.217,2,4,1.0
+Train ∪ Validation,Focused,150,1,1,0.006666666666666667,0,2,0.0
+Train,Lazada,500,21,72,0.144,1,4,1.0
+Train ∪ Validation,Lazada,500,25,79,0.158,1,4,1.0
+Hold-out,Lazada,500,22,73,0.146,1,4,1.0

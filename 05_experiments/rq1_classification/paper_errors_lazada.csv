@@ -1,0 +1,11 @@
+﻿cấu hình,n,tổng lỗi,bỏ sót actionable,giữ nhầm OTHER,sai loại,% bỏ sót actionable,% giữ nhầm OTHER,% sai loại
+Cascade ViSoBERT,500,103.7,15.3,72.0,16.3,14.8,69.5,15.8
+Cascade Bi-LSTM + fastText,500,165.7,6.7,132.7,26.3,4.0,80.1,15.9
+Cascade LLM few-shot,500,92.0,17.0,64.0,11.0,18.5,69.6,12.0
+Baseline phẳng ViSoBERT,500,63.3,27.3,28.0,8.0,43.2,44.2,12.6
+ViSoBERT → Bi-LSTM + fastText,500,109.0,15.0,71.0,23.0,13.8,65.1,21.1
+ViSoBERT → LLM few-shot,500,100.0,15.0,71.0,14.0,15.0,71.0,14.0
+Bi-LSTM + fastText → ViSoBERT,500,139.0,7.0,110.0,22.0,5.0,79.1,15.8
+Bi-LSTM + fastText → LLM few-shot,500,132.0,7.0,110.0,15.0,5.3,83.3,11.4
+LLM few-shot → ViSoBERT,500,99.0,17.0,64.0,18.0,17.2,64.6,18.2
+LLM few-shot → Bi-LSTM + fastText,500,100.0,17.0,64.0,19.0,17.0,64.0,19.0

@@ -1,0 +1,60 @@
+# FROZEN — khóa ngày 15/11/2026, amendment v3.2. Không sửa sau mốc này; mọi thay đổi phải có amendment mới.
+tfidf:
+  seeds:
+  - 42
+  - 1337
+  - 2024
+  canonical_seed: 42
+  amendment: v3.2
+  preprocessing: Unicode NFC + chữ thường
+  features:
+    word: TfidfVectorizer(analyzer='word', ngram_range=(1, 2), token_pattern=r'(?u)\b\w+\b',
+      sublinear_tf=True)
+    char: TfidfVectorizer(analyzer='char_wb', ngram_range=(2, 5), min_df=2, sublinear_tf=True)
+  grid:
+    features:
+    - word
+    - char
+    - word+char
+    classifier:
+    - logreg
+    - linearsvc
+    C:
+    - 0.1
+    - 1.0
+    - 10.0
+    class_weight: balanced
+    linearsvc: CalibratedClassifierCV(method=sigmoid, cv=5)
+  tier1:
+    config:
+      features: word
+      classifier: logreg
+      C: 1.0
+    threshold: 0.45
+    threshold_rule:
+      min_recall: 0.8
+      sweep:
+      - 0.01
+      - 0.9
+      - 0.01
+      chosen_on_seed: 42
+      amendment: v2.0
+    recall_constraint_met: true
+    recall_min_over_seeds_validation: 0.803
+    data: Train 1.200 (gồm ambiguous); ACTIONABLE = BUG ∪ FEATURE ∪ UX
+  tier2:
+    config:
+      features: word+char
+      classifier: logreg
+      C: 0.1
+    decision: argmax
+    data: Train actionable, bỏ ambiguous khi train
+  flat:
+    config:
+      features: word+char
+      classifier: logreg
+      C: 1.0
+    decision: argmax
+    data: Train 1.200, nhãn 4 lớp, gồm ambiguous
+  library: scikit-learn 1.9.1
+  python: 3.13.1

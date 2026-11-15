@@ -34,3 +34,8 @@ Mỗi notebook = một Kaggle kernel chạy độc lập. Thứ tự số = th�
 | 14 | rq3_generation | API | RQ3 |
 | 15 | rq3_evaluation | | RQ3 |
 | 16 | build_output_data_model | | D6 |
+| 17 | report_figures_tables | | - |
+| 18 | paper_reanalysis (bài báo, bước 1; amendment v3.1) | | RQ1 |
+| 19 | paper_tfidf (bài báo, bước 2a — chiến lược D, CPU; amendment v3.2) | | RQ1 |
+| 20 | paper_flat_llm (bài báo, bước 2b — flat LLM; amendment v3.3) | API | RQ1 |
+| 21 | paper_phobert_flat_bilstm (bài báo, bước 2c — PhoBERT + flat Bi-LSTM, Kaggle; amendment v3.4) | ✓ | RQ1 |

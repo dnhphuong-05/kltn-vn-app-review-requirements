@@ -29,6 +29,12 @@ Ghi lại ngày mở và commit hash tại đây:
 - Khi chấm điểm, `gd10_open_info.json` ghi `uncommitted_changes: true`. Các thay đổi chưa commit lúc đó chỉ là output của notebook
   10 và 10b; `02_src/` và `03_configs/frozen/` trùng commit trên.
 
+**Lần đọc lại nhãn sau GĐ10 (chấm lại, không tuning)**
+
+| ngày | notebook | commit | mục đích |
+|---|---|---|---|
+| 15/11/2026 | `18_paper_reanalysis.ipynb` | 2927f88af499d702a5bd8145977e8f06411aca57 (có thay đổi chưa commit) | Amendment v3.1: đọc `gold_label` của Hold-out, focused và Lazada để chấm lại các dự đoán đã khóa `gd10_*` trên tập khử trùng, chấm baseline phẳng trên Lazada, kiểm định McNemar, phân tích lỗi và biên Pareto. Không train lại, không gọi API, không đổi config, prompt hay ngưỡng, không chọn lại cấu hình. Trước khi phân tích, notebook tái tạo khớp từng ô các bảng GĐ10. |
+
 ## Sự cố ghi nhận
 
 | ngày | mô tả |

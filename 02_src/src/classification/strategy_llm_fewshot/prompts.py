@@ -17,7 +17,8 @@ from src.utils.kaggle_paths import _repo_root
 
 PROMPT_DIR = os.path.join(_repo_root(), '04_prompts', 'classification_fewshot')
 REGISTRY = os.path.join(_repo_root(), '04_prompts', 'prompts_registry.md')
-LABELS = {1: ['NOT_ACTIONABLE', 'ACTIONABLE'], 2: ['BUG', 'FEATURE', 'UX']}
+LABELS = {1: ['NOT_ACTIONABLE', 'ACTIONABLE'], 2: ['BUG', 'FEATURE', 'UX'],
+          'flat': ['BUG', 'FEATURE', 'UX', 'OTHER']}         # 'flat': paper, amendment v3.3
 # Thứ tự ví dụ trong prompt (xen kẽ lớp). Tầng 1: 4 ACTIONABLE (BUG, FEATURE, UX, BUG — BUG phổ biến nhất
 # trong actionable theo pilot) + 4 NOT_ACTIONABLE (OTHER). Tầng 2: 3 ví dụ mỗi lớp.
 PLAN = {1: ['BUG', 'OTHER', 'FEATURE', 'OTHER', 'UX', 'OTHER', 'BUG', 'OTHER'],
@@ -53,17 +54,22 @@ def select_exemplars(train_df, tier, seed=42, min_chars=15, max_chars=250):
     return pd.DataFrame(rows)
 
 
+def _stem(tier):
+    """File/schema stem: 'tier1', 'tier2' (unchanged since v1.1) or 'flat'."""
+    return 'flat' if tier == 'flat' else f'tier{tier}'
+
+
 def manifest_path(tier, version):
-    return os.path.join(PROMPT_DIR, f'tier{tier}_exemplars_{version}.json')
+    return os.path.join(PROMPT_DIR, f'{_stem(tier)}_exemplars_{version}.json')
 
 
 def system_path(tier, version):
-    return os.path.join(PROMPT_DIR, f'tier{tier}_system_{version}.txt')
+    return os.path.join(PROMPT_DIR, f'{_stem(tier)}_system_{version}.txt')
 
 
-def write_manifest(ex, tier, version, seed=42):
+def write_manifest(ex, tier, version, seed=42, rule=SELECTION_RULE):
     """Exemplar ids + labels + text hashes (no text). Refuses to overwrite a different existing manifest."""
-    content = {'tier': tier, 'version': version, 'seed': seed, 'source': 'shopee_train.csv', 'rule': SELECTION_RULE,
+    content = {'tier': tier, 'version': version, 'seed': seed, 'source': 'shopee_train.csv', 'rule': rule,
                'exemplars': ex.drop(columns=['text']).to_dict('records')}
     path = manifest_path(tier, version)
     if os.path.exists(path):
@@ -78,7 +84,7 @@ def write_manifest(ex, tier, version, seed=42):
 
 def schema(tier):
     return {'type': 'json_schema',
-            'json_schema': {'name': f'tier{tier}_label', 'strict': True,
+            'json_schema': {'name': f'{_stem(tier)}_label', 'strict': True,
                             'schema': {'type': 'object', 'additionalProperties': False, 'required': ['label'],
                                        'properties': {'label': {'type': 'string', 'enum': LABELS[tier]}}}}}
 
@@ -119,8 +125,8 @@ def load_prompt(tier, version, train_df):
 def register(prompt, settings, date):
     """Lock: add the hash to prompts_registry.md, or verify it equals the locked one. Returns (hash, status)."""
     h = prompt.hash(settings)
-    key = (f'classification_fewshot/tier{prompt.tier}_system_{prompt.version}.txt + '
-           f'tier{prompt.tier}_exemplars_{prompt.version}.json')
+    key = (f'classification_fewshot/{_stem(prompt.tier)}_system_{prompt.version}.txt + '
+           f'{_stem(prompt.tier)}_exemplars_{prompt.version}.json')
     lines = open(REGISTRY, encoding='utf-8').read().splitlines()
     for line in lines:
         cells = [c.strip() for c in line.strip('|').split('|')]
@@ -132,3 +138,67 @@ def register(prompt, settings, date):
     with open(REGISTRY, 'a', encoding='utf-8') as f:
         f.write(f'| {key} | {prompt.version} | {h} | {date} |\n')
     return h, 'đã đăng ký (khóa)'
+
+
+# ---------------------------------------------------------------- flat 4-class prompt (paper, amendment v3.3)
+FLAT_CLASS_ORDER = ['BUG', 'FEATURE', 'UX', 'OTHER']
+FLAT_RULE = ('Union of the locked tier1_exemplars_v1 and tier2_exemplars_v1 (Train only, no new draw); label = 4-class '
+             'gold; classes interleaved BUG, FEATURE, UX, OTHER, each class in order of first appearance (tier 1 then tier 2).')
+_HARD_CASES = 'Quy tắc cho ca khó:'
+_ANSWER = 'Trả lời bằng đúng một đối tượng JSON'
+
+
+def _block(text, start, end):
+    i, j = text.index(start) + len(start), text.index(end)
+    return text[i:j].strip()
+
+
+def build_flat_system(tier1_system, tier2_system):
+    """Mechanical merge of the two locked tier prompts (amendment v3.3). Class definitions and both hard-case
+    blocks are copied verbatim, except NOT_ACTIONABLE → OTHER and ACTIONABLE → BUG/FEATURE/UX in the Tier 1 block."""
+    defs = _block(tier2_system, 'Hãy phân review vào đúng một lớp:', 'Thứ tự xét:')
+    other = _block(tier1_system, 'NOT_ACTIONABLE:', 'Cây quyết định')
+    actionable = _block(tier1_system, 'ACTIONABLE:', 'thuộc một trong ba loại:').rstrip(',').strip()
+    intro = tier1_system.split(' và quyết định review đó')[0].strip()
+    t1_rules = _block(tier1_system, _HARD_CASES, _ANSWER).replace('NOT_ACTIONABLE', 'OTHER').replace('ACTIONABLE', 'BUG/FEATURE/UX')
+    t2_rules = _block(tier2_system, _HARD_CASES, _ANSWER)
+    return '\n'.join([
+        f'{intro} và phân review vào đúng một trong bốn lớp:',
+        defs,
+        f'- OTHER: {other}',
+        f'BUG, FEATURE và UX chỉ dùng khi {actionable}.',
+        '',
+        'Cây quyết định (đi theo thứ tự):',
+        '1. Review có nói về chính app/phần mềm không? Không → OTHER.',
+        '2. Review có chỉ ra điều cụ thể mà đội phát triển xử lý được không? Không → OTHER.',
+        '3. Có biểu hiện lỗi/malfunction → BUG.',
+        '4. Có yêu cầu thêm/đổi chức năng chưa có → FEATURE.',
+        '5. Chức năng có rồi nhưng khó dùng/rối/gây phiền cụ thể → UX.',
+        '6. Còn lại → OTHER.',
+        '',
+        'Quy tắc cho ca khó giữa OTHER và BUG/FEATURE/UX:',
+        t1_rules,
+        '',
+        'Quy tắc cho ca khó giữa BUG, FEATURE và UX:',
+        t2_rules,
+        '',
+        f'{_ANSWER} theo schema {{"label": "BUG" | "FEATURE" | "UX" | "OTHER"}}, không giải thích.'])
+
+
+def flat_exemplars(train_df, version='v1'):
+    """Exemplar rows for the flat prompt from the two locked manifests (texts checked against their hashes)."""
+    seen, by_class = set(), {c: [] for c in FLAT_CLASS_ORDER}
+    for tier in (1, 2):
+        for e in load_prompt(tier, version, train_df).exemplars:
+            if e['review_id'] not in seen:
+                seen.add(e['review_id'])
+                by_class[e['gold_label']].append(e)
+    rows, k = [], 0
+    while any(by_class.values()):
+        for c in FLAT_CLASS_ORDER:
+            if by_class[c]:
+                e = by_class[c].pop(0)
+                k += 1
+                rows.append({'order': k, 'review_id': e['review_id'], 'gold_label': e['gold_label'],
+                             'label': e['gold_label'], 'text': e['text'], 'text_sha256': e['text_sha256']})
+    return pd.DataFrame(rows)

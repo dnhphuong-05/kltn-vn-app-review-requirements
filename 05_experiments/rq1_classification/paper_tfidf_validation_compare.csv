@@ -1,0 +1,6 @@
+﻿chỉ số,TF-IDF,Bi-LSTM + fastText,ViSoBERT,LLM few-shot
+"Tầng 1 Macro-F1 (2 lớp, ở ngưỡng)",80.1 ± 0.0,78.6 ± 3.9,85.0 ± 0.6,89.0
+Tầng 1 Recall ACTIONABLE,80.3 ± 0.0,,,87.3
+Tầng 2 Macro-F1 (3 lớp),80.9 ± 0.0,72.0 ± 3.2,75.6 ± 2.2,79.9
+End-to-end cascade Macro-F1 (4 lớp),67.2 ± 0.0,,68.8 ± 0.8,
+End-to-end phẳng Macro-F1 (4 lớp),66.5 ± 0.0,,69.1 ± 2.0,

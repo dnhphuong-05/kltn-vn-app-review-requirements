@@ -1,0 +1,12 @@
+{
+ "run_date": "15/11/2026",
+ "commit": "2927f88af499d702a5bd8145977e8f06411aca57",
+ "python": "3.13.1",
+ "amendment": "v3.1",
+ "n_boot": 10000,
+ "bootstrap_seed": 42,
+ "skipped_hybrids": {
+  "holdout": [],
+  "lazada": []
+ }
+}

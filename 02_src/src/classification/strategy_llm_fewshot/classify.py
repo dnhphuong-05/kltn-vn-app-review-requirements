@@ -17,8 +17,8 @@ API_SEED = 42                     # OpenAI best-effort determinism; LLM is not t
 MAX_TOKENS = 20
 ALIASES = {1: {'NOT': 'NOT_ACTIONABLE', 'NOT ACTIONABLE': 'NOT_ACTIONABLE', 'NON_ACTIONABLE': 'NOT_ACTIONABLE',
                'OTHER': 'NOT_ACTIONABLE', 'BUG': 'ACTIONABLE', 'FEATURE': 'ACTIONABLE', 'UX': 'ACTIONABLE'},
-           2: {}}
-FALLBACK = {1: 'NOT_ACTIONABLE', 2: 'UNPARSED'}
+           2: {}, 'flat': {}}
+FALLBACK = {1: 'NOT_ACTIONABLE', 2: 'UNPARSED', 'flat': 'OTHER'}   # 'flat': paper, amendment v3.3
 
 
 def parse(content, tier):

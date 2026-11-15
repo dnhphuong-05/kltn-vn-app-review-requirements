@@ -1,0 +1,13 @@
+{
+ "run_date": "15/11/2026",
+ "commit": "2927f88af499d702a5bd8145977e8f06411aca57",
+ "python": "3.13.1",
+ "sklearn": "1.9.1",
+ "cpu": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+ "amendment": "v3.2",
+ "seed_identical_predictions": {
+  "tier1": true,
+  "tier2": true,
+  "flat": true
+ }
+}

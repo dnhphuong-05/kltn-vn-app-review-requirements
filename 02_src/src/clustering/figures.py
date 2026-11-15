@@ -10,8 +10,8 @@ import textwrap
 import numpy as np
 import pandas as pd
 
-from src.reporting.style import GREY, GREY_LIGHT, GRID, INK, INK_2, SLOT
-from src.reporting.style import num as _num, save as _save, style as _style, vn as _vn, vn_axes as _vn_axes
+from src.utils.plot_style import GREY, GREY_LIGHT, GRID, INK, INK_2, SLOT
+from src.utils.plot_style import num as _num, save as _save, style as _style, vn as _vn, vn_axes as _vn_axes
 
 TYPE_COLOR = {'BUG': SLOT[0], 'FEATURE': SLOT[1], 'UX': SLOT[2], 'mixed': GREY, 'outlier': GREY_LIGHT}
 TYPE_LABEL = {'BUG': 'BUG', 'FEATURE': 'FEATURE', 'UX': 'UX', 'mixed': 'mixed', 'outlier': 'outlier'}

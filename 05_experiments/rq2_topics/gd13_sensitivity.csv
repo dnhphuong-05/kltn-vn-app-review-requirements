@@ -1,8 +1,0 @@
-tham số,giá trị,ACTIVE,RECURRING,POSSIBLY_RESOLVED,INSUFFICIENT_EVIDENCE,số group đổi trạng thái
-luật chính,,0,31,0,1,0
-min_c30,3,0,32,0,0,1
-min_c30,10,0,26,0,6,5
-min_r90,0.4,0,31,0,1,0
-min_r90,0.6,0,31,0,1,0
-recurring_min_windows,4,0,31,0,1,0
-recurring_min_windows,8,0,31,0,1,0

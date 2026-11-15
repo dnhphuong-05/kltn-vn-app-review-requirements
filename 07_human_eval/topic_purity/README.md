@@ -5,7 +5,7 @@ Mẫu: 17 cụm × 10 review = **170 review**, rút ngẫu nhiên (seed 42) tron
 
 | File | Nội dung |
 |---|---|
-| `topic_purity_blank.csv` | Phiếu gốc (notebook 12 tạo, không ghi đè) |
+| `topic_purity_blank.csv` | Phiếu gốc (notebook 22 tạo, không ghi đè) |
 | `topic_purity_A.csv`, `topic_purity_B.csv` | Hai bản đã chấm, tải về từ Google Sheets dạng CSV |
 
 Các cột: `item_no` (số thứ tự), `topic_id`, `topic_name` (tên cụm), `keywords` (6 từ khóa đặc trưng của cụm), `review_id`,
@@ -34,7 +34,7 @@ người này cho người kia.
    chọn *Reject input*.
 4. Có thể ẩn cột `review_id` khi chấm nhưng **không xóa, không sắp xếp lại, không sửa** `item_no`, `topic_id`, `review_id`, `text`.
 5. Chấm xong: **File → Download → CSV**, đặt tên `topic_purity_A.csv` / `topic_purity_B.csv` và chép vào thư mục này, rồi chạy
-   lại hai cell cuối của notebook 12 (mục "Kết quả manual purity").
+   lại hai cell cuối của notebook 22 (mục "Kết quả manual purity").
 
 ## Cách tính
 Purity của một cụm = tỷ lệ dòng `relevant = 1`, tính riêng cho từng người rồi lấy trung bình hai người. Độ đồng thuận: % trùng

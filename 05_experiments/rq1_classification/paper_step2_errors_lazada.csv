@@ -1,0 +1,29 @@
+﻿cấu hình,n,tổng lỗi,bỏ sót actionable,giữ nhầm OTHER,sai loại,% bỏ sót actionable,% giữ nhầm OTHER,% sai loại
+Cascade TF-IDF,500,127.0,9.0,100.0,18.0,7.1,78.7,14.2
+Cascade Bi-LSTM + fastText,500,165.7,6.7,132.7,26.3,4.0,80.1,15.9
+Cascade ViSoBERT,500,103.7,15.3,72.0,16.3,14.8,69.5,15.8
+Cascade PhoBERT,500,149.0,9.0,122.3,17.7,6.0,82.1,11.9
+Cascade LLM few-shot,500,92.0,17.0,64.0,11.0,18.5,69.6,12.0
+Phẳng TF-IDF,500,95.0,24.0,57.0,14.0,25.3,60.0,14.7
+Phẳng Bi-LSTM + fastText,500,138.3,11.7,105.7,21.0,8.4,76.4,15.2
+Phẳng ViSoBERT,500,63.3,27.3,28.0,8.0,43.2,44.2,12.6
+Phẳng PhoBERT,500,67.3,20.3,36.7,10.3,30.2,54.5,15.3
+Phẳng LLM few-shot,500,106.0,15.0,81.0,10.0,14.2,76.4,9.4
+TF-IDF → Bi-LSTM + fastText,500,137.0,9.0,100.0,28.0,6.6,73.0,20.4
+TF-IDF → ViSoBERT,500,131.0,9.0,100.0,22.0,6.9,76.3,16.8
+TF-IDF → PhoBERT,500,126.0,9.0,100.0,17.0,7.1,79.4,13.5
+Bi-LSTM + fastText → TF-IDF,500,135.0,7.0,110.0,18.0,5.2,81.5,13.3
+Bi-LSTM + fastText → ViSoBERT,500,139.0,7.0,110.0,22.0,5.0,79.1,15.8
+Bi-LSTM + fastText → PhoBERT,500,134.0,7.0,110.0,17.0,5.2,82.1,12.7
+Bi-LSTM + fastText → LLM few-shot,500,132.0,7.0,110.0,15.0,5.3,83.3,11.4
+ViSoBERT → TF-IDF,500,102.0,15.0,71.0,16.0,14.7,69.6,15.7
+ViSoBERT → Bi-LSTM + fastText,500,109.0,15.0,71.0,23.0,13.8,65.1,21.1
+ViSoBERT → PhoBERT,500,102.0,15.0,71.0,16.0,14.7,69.6,15.7
+ViSoBERT → LLM few-shot,500,100.0,15.0,71.0,14.0,15.0,71.0,14.0
+PhoBERT → TF-IDF,500,122.0,11.0,95.0,16.0,9.0,77.9,13.1
+PhoBERT → Bi-LSTM + fastText,500,131.0,11.0,95.0,25.0,8.4,72.5,19.1
+PhoBERT → ViSoBERT,500,126.0,11.0,95.0,20.0,8.7,75.4,15.9
+LLM few-shot → TF-IDF,500,93.0,17.0,64.0,12.0,18.3,68.8,12.9
+LLM few-shot → Bi-LSTM + fastText,500,100.0,17.0,64.0,19.0,17.0,64.0,19.0
+LLM few-shot → ViSoBERT,500,99.0,17.0,64.0,18.0,17.2,64.6,18.2
+LLM few-shot → PhoBERT,500,97.0,17.0,64.0,16.0,17.5,66.0,16.5

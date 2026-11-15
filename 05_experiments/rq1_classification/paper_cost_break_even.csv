@@ -1,0 +1,241 @@
+﻿triển khai,giá GPU / giờ,có huấn luyện,gọi API,chi phí một nhãn,hòa vốn (review / tháng)
+batch,0.35,Phẳng TF-IDF,Cascade LLM few-shot,0.02,11916.036734507014
+batch,0.35,Phẳng TF-IDF,Cascade LLM few-shot,0.05,29877.485475815152
+batch,0.35,Phẳng TF-IDF,Cascade LLM few-shot,0.1,59813.23337799537
+batch,0.35,Phẳng TF-IDF,Cascade LLM few-shot,0.2,119684.72918235585
+batch,0.35,Phẳng TF-IDF,Cascade LLM few-shot,0.5,299299.21659543714
+batch,0.35,Phẳng TF-IDF,Phẳng LLM few-shot,0.02,9230.631060275064
+batch,0.35,Phẳng TF-IDF,Phẳng LLM few-shot,0.05,23163.99514292738
+batch,0.35,Phẳng TF-IDF,Phẳng LLM few-shot,0.1,46386.26861401456
+batch,0.35,Phẳng TF-IDF,Phẳng LLM few-shot,0.2,92830.81555618897
+batch,0.35,Phẳng TF-IDF,Phẳng LLM few-shot,0.5,232164.4563827121
+batch,0.35,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.02,0.0
+batch,0.35,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.05,0.0
+batch,0.35,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.1,0.0
+batch,0.35,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.2,0.0
+batch,0.35,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.5,0.0
+batch,0.35,Phẳng ViSoBERT,Cascade LLM few-shot,0.02,11940.871254605989
+batch,0.35,Phẳng ViSoBERT,Cascade LLM few-shot,0.05,29913.976460471607
+batch,0.35,Phẳng ViSoBERT,Cascade LLM few-shot,0.1,59869.15180358096
+batch,0.35,Phẳng ViSoBERT,Cascade LLM few-shot,0.2,119779.50248979969
+batch,0.35,Phẳng ViSoBERT,Cascade LLM few-shot,0.5,299510.55454845587
+batch,0.35,Phẳng ViSoBERT,Phẳng LLM few-shot,0.02,9248.541597899084
+batch,0.35,Phẳng ViSoBERT,Phẳng LLM few-shot,0.05,23188.9191496748
+batch,0.35,Phẳng ViSoBERT,Phẳng LLM few-shot,0.1,46422.88173596767
+batch,0.35,Phẳng ViSoBERT,Phẳng LLM few-shot,0.2,92890.80690855341
+batch,0.35,Phẳng ViSoBERT,Phẳng LLM few-shot,0.5,232294.58242631063
+batch,0.35,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.02,0.0
+batch,0.35,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.05,0.0
+batch,0.35,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.1,0.0
+batch,0.35,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.2,0.0
+batch,0.35,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.5,0.0
+batch,0.35,Phẳng PhoBERT,Cascade LLM few-shot,0.02,11946.427088773766
+batch,0.35,Phẳng PhoBERT,Cascade LLM few-shot,0.05,29924.828961280018
+batch,0.35,Phẳng PhoBERT,Cascade LLM few-shot,0.1,59888.83208212376
+batch,0.35,Phẳng PhoBERT,Cascade LLM few-shot,0.2,119816.83832381126
+batch,0.35,Phẳng PhoBERT,Cascade LLM few-shot,0.5,299600.85704887373
+batch,0.35,Phẳng PhoBERT,Phẳng LLM few-shot,0.02,9252.235191389344
+batch,0.35,Phẳng PhoBERT,Phẳng LLM few-shot,0.05,23195.7989705315
+batch,0.35,Phẳng PhoBERT,Phẳng LLM few-shot,0.1,46435.07193576844
+batch,0.35,Phẳng PhoBERT,Phẳng LLM few-shot,0.2,92913.6178662423
+batch,0.35,Phẳng PhoBERT,Phẳng LLM few-shot,0.5,232349.25565766392
+batch,0.35,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.02,0.0
+batch,0.35,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.05,0.0
+batch,0.35,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.1,0.0
+batch,0.35,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.2,0.0
+batch,0.35,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.5,0.0
+batch,0.35,Cascade PhoBERT,Cascade LLM few-shot,0.02,11949.09152503805
+batch,0.35,Cascade PhoBERT,Cascade LLM few-shot,0.05,29930.324366040008
+batch,0.35,Cascade PhoBERT,Cascade LLM few-shot,0.1,59899.04576770994
+batch,0.35,Cascade PhoBERT,Cascade LLM few-shot,0.2,119836.48857104982
+batch,0.35,Cascade PhoBERT,Cascade LLM few-shot,0.5,299648.8169810694
+batch,0.35,Cascade PhoBERT,Phẳng LLM few-shot,0.02,9253.97256516206
+batch,0.35,Cascade PhoBERT,Phẳng LLM few-shot,0.05,23199.239150006888
+batch,0.35,Cascade PhoBERT,Phẳng LLM few-shot,0.1,46441.35012474827
+batch,0.35,Cascade PhoBERT,Phẳng LLM few-shot,0.2,92925.57207423104
+batch,0.35,Cascade PhoBERT,Phẳng LLM few-shot,0.5,232378.2379226793
+batch,0.35,Cascade PhoBERT,LLM few-shot → PhoBERT,0.02,0.0
+batch,0.35,Cascade PhoBERT,LLM few-shot → PhoBERT,0.05,0.0
+batch,0.35,Cascade PhoBERT,LLM few-shot → PhoBERT,0.1,0.0
+batch,0.35,Cascade PhoBERT,LLM few-shot → PhoBERT,0.2,0.0
+batch,0.35,Cascade PhoBERT,LLM few-shot → PhoBERT,0.5,0.0
+batch,1.0,Phẳng TF-IDF,Cascade LLM few-shot,0.02,11916.036734507014
+batch,1.0,Phẳng TF-IDF,Cascade LLM few-shot,0.05,29877.485475815152
+batch,1.0,Phẳng TF-IDF,Cascade LLM few-shot,0.1,59813.23337799537
+batch,1.0,Phẳng TF-IDF,Cascade LLM few-shot,0.2,119684.72918235585
+batch,1.0,Phẳng TF-IDF,Cascade LLM few-shot,0.5,299299.21659543714
+batch,1.0,Phẳng TF-IDF,Phẳng LLM few-shot,0.02,9230.631060275064
+batch,1.0,Phẳng TF-IDF,Phẳng LLM few-shot,0.05,23163.99514292738
+batch,1.0,Phẳng TF-IDF,Phẳng LLM few-shot,0.1,46386.26861401456
+batch,1.0,Phẳng TF-IDF,Phẳng LLM few-shot,0.2,92830.81555618897
+batch,1.0,Phẳng TF-IDF,Phẳng LLM few-shot,0.5,232164.4563827121
+batch,1.0,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.02,0.0
+batch,1.0,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.05,0.0
+batch,1.0,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.1,0.0
+batch,1.0,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.2,0.0
+batch,1.0,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.5,0.0
+batch,1.0,Phẳng ViSoBERT,Cascade LLM few-shot,0.02,11987.380576702328
+batch,1.0,Phẳng ViSoBERT,Cascade LLM few-shot,0.05,29982.42842977178
+batch,1.0,Phẳng ViSoBERT,Cascade LLM few-shot,0.1,59974.17485155419
+batch,1.0,Phẳng ViSoBERT,Cascade LLM few-shot,0.2,119957.66769511905
+batch,1.0,Phẳng ViSoBERT,Cascade LLM few-shot,0.5,299908.1462258136
+batch,1.0,Phẳng ViSoBERT,Phẳng LLM few-shot,0.02,9282.056734022523
+batch,1.0,Phẳng ViSoBERT,Phẳng LLM few-shot,0.05,23235.631215678597
+batch,1.0,Phẳng ViSoBERT,Phẳng LLM few-shot,0.1,46491.58868510538
+batch,1.0,Phẳng ViSoBERT,Phẳng LLM few-shot,0.2,93003.50362395895
+batch,1.0,Phẳng ViSoBERT,Phẳng LLM few-shot,0.5,232539.2484405197
+batch,1.0,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.02,0.0
+batch,1.0,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.05,0.0
+batch,1.0,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.1,0.0
+batch,1.0,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.2,0.0
+batch,1.0,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.5,0.0
+batch,1.0,Phẳng PhoBERT,Cascade LLM few-shot,0.02,12003.321717879064
+batch,1.0,Phẳng PhoBERT,Cascade LLM few-shot,0.05,30013.548200985082
+batch,1.0,Phẳng PhoBERT,Cascade LLM few-shot,0.1,60030.59233949512
+batch,1.0,Phẳng PhoBERT,Cascade LLM few-shot,0.2,120064.68061651521
+batch,1.0,Phẳng PhoBERT,Cascade LLM few-shot,0.5,300166.9454475755
+batch,1.0,Phẳng PhoBERT,Phẳng LLM few-shot,0.02,9292.646257249473
+batch,1.0,Phẳng PhoBERT,Phẳng LLM few-shot,0.05,23255.3453686264
+batch,1.0,Phẳng PhoBERT,Phẳng LLM few-shot,0.1,46526.510554254615
+batch,1.0,Phẳng PhoBERT,Phẳng LLM few-shot,0.2,93068.84092551105
+batch,1.0,Phẳng PhoBERT,Phẳng LLM few-shot,0.5,232695.83203928036
+batch,1.0,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.02,0.0
+batch,1.0,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.05,0.0
+batch,1.0,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.1,0.0
+batch,1.0,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.2,0.0
+batch,1.0,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.5,0.0
+batch,1.0,Cascade PhoBERT,Cascade LLM few-shot,0.02,12010.97575515969
+batch,1.0,Cascade PhoBERT,Cascade LLM few-shot,0.05,30029.321761704672
+batch,1.0,Cascade PhoBERT,Cascade LLM few-shot,0.1,60059.898439279634
+batch,1.0,Cascade PhoBERT,Cascade LLM few-shot,0.2,120121.05179442959
+batch,1.0,Cascade PhoBERT,Cascade LLM few-shot,0.5,300304.51185987936
+batch,1.0,Cascade PhoBERT,Phẳng LLM few-shot,0.02,9297.632247203252
+batch,1.0,Cascade PhoBERT,Phẳng LLM few-shot,0.05,23265.210989233998
+batch,1.0,Cascade PhoBERT,Phẳng LLM few-shot,0.1,46544.508892618585
+batch,1.0,Cascade PhoBERT,Phẳng LLM few-shot,0.2,93103.10469938774
+batch,1.0,Cascade PhoBERT,Phẳng LLM few-shot,0.5,232778.89211969523
+batch,1.0,Cascade PhoBERT,LLM few-shot → PhoBERT,0.02,0.0
+batch,1.0,Cascade PhoBERT,LLM few-shot → PhoBERT,0.05,0.0
+batch,1.0,Cascade PhoBERT,LLM few-shot → PhoBERT,0.1,0.0
+batch,1.0,Cascade PhoBERT,LLM few-shot → PhoBERT,0.2,0.0
+batch,1.0,Cascade PhoBERT,LLM few-shot → PhoBERT,0.5,0.0
+endpoint,0.35,Phẳng TF-IDF,Cascade LLM few-shot,0.02,188743.42849841248
+endpoint,0.35,Phẳng TF-IDF,Cascade LLM few-shot,0.05,206704.74058309328
+endpoint,0.35,Phẳng TF-IDF,Cascade LLM few-shot,0.1,236640.26072422808
+endpoint,0.35,Phẳng TF-IDF,Cascade LLM few-shot,0.2,296511.30100649747
+endpoint,0.35,Phẳng TF-IDF,Cascade LLM few-shot,0.5,476124.4218533057
+endpoint,0.35,Phẳng TF-IDF,Phẳng LLM few-shot,0.02,146402.46799287738
+endpoint,0.35,Phẳng TF-IDF,Phẳng LLM few-shot,0.05,160335.74983977477
+endpoint,0.35,Phẳng TF-IDF,Phẳng LLM few-shot,0.1,183557.8862512704
+endpoint,0.35,Phẳng TF-IDF,Phẳng LLM few-shot,0.2,230002.15907426167
+endpoint,0.35,Phẳng TF-IDF,Phẳng LLM few-shot,0.5,369334.97754323547
+endpoint,0.35,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.02,0.0
+endpoint,0.35,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.05,0.0
+endpoint,0.35,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.1,0.0
+endpoint,0.35,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.2,0.0
+endpoint,0.35,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.5,0.0
+endpoint,0.35,Phẳng ViSoBERT,Cascade LLM few-shot,0.02,1249725.4131819268
+endpoint,0.35,Phẳng ViSoBERT,Cascade LLM few-shot,0.05,1267686.7252666077
+endpoint,0.35,Phẳng ViSoBERT,Cascade LLM few-shot,0.1,1297622.2454077422
+endpoint,0.35,Phẳng ViSoBERT,Cascade LLM few-shot,0.2,1357493.2856900117
+endpoint,0.35,Phẳng ViSoBERT,Cascade LLM few-shot,0.5,1537106.40653682
+endpoint,0.35,Phẳng ViSoBERT,Phẳng LLM few-shot,0.02,969447.0739425911
+endpoint,0.35,Phẳng ViSoBERT,Phẳng LLM few-shot,0.05,983380.3557894883
+endpoint,0.35,Phẳng ViSoBERT,Phẳng LLM few-shot,0.1,1006602.492200984
+endpoint,0.35,Phẳng ViSoBERT,Phẳng LLM few-shot,0.2,1053046.7650239754
+endpoint,0.35,Phẳng ViSoBERT,Phẳng LLM few-shot,0.5,1192379.5834929491
+endpoint,0.35,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.02,0.0
+endpoint,0.35,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.05,0.0
+endpoint,0.35,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.1,0.0
+endpoint,0.35,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.2,0.0
+endpoint,0.35,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.5,0.0
+endpoint,0.35,Phẳng PhoBERT,Cascade LLM few-shot,0.02,1249727.4481101057
+endpoint,0.35,Phẳng PhoBERT,Cascade LLM few-shot,0.05,1267688.7601947866
+endpoint,0.35,Phẳng PhoBERT,Cascade LLM few-shot,0.1,1297624.2803359213
+endpoint,0.35,Phẳng PhoBERT,Cascade LLM few-shot,0.2,1357495.3206181906
+endpoint,0.35,Phẳng PhoBERT,Cascade LLM few-shot,0.5,1537108.4414649988
+endpoint,0.35,Phẳng PhoBERT,Phẳng LLM few-shot,0.02,969448.6525147868
+endpoint,0.35,Phẳng PhoBERT,Phẳng LLM few-shot,0.05,983381.9343616841
+endpoint,0.35,Phẳng PhoBERT,Phẳng LLM few-shot,0.1,1006604.0707731798
+endpoint,0.35,Phẳng PhoBERT,Phẳng LLM few-shot,0.2,1053048.343596171
+endpoint,0.35,Phẳng PhoBERT,Phẳng LLM few-shot,0.5,1192381.1620651446
+endpoint,0.35,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.02,0.0
+endpoint,0.35,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.05,0.0
+endpoint,0.35,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.1,0.0
+endpoint,0.35,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.2,0.0
+endpoint,0.35,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.5,0.0
+endpoint,0.35,Cascade PhoBERT,Cascade LLM few-shot,0.02,1249728.230534816
+endpoint,0.35,Cascade PhoBERT,Cascade LLM few-shot,0.05,1267689.5426194968
+endpoint,0.35,Cascade PhoBERT,Cascade LLM few-shot,0.1,1297625.0627606316
+endpoint,0.35,Cascade PhoBERT,Cascade LLM few-shot,0.2,1357496.1030429008
+endpoint,0.35,Cascade PhoBERT,Cascade LLM few-shot,0.5,1537109.2238897092
+endpoint,0.35,Cascade PhoBERT,Phẳng LLM few-shot,0.02,969449.259471782
+endpoint,0.35,Cascade PhoBERT,Phẳng LLM few-shot,0.05,983382.5413186792
+endpoint,0.35,Cascade PhoBERT,Phẳng LLM few-shot,0.1,1006604.6777301749
+endpoint,0.35,Cascade PhoBERT,Phẳng LLM few-shot,0.2,1053048.950553166
+endpoint,0.35,Cascade PhoBERT,Phẳng LLM few-shot,0.5,1192381.76902214
+endpoint,0.35,Cascade PhoBERT,LLM few-shot → PhoBERT,0.02,0.0
+endpoint,0.35,Cascade PhoBERT,LLM few-shot → PhoBERT,0.05,0.0
+endpoint,0.35,Cascade PhoBERT,LLM few-shot → PhoBERT,0.1,0.0
+endpoint,0.35,Cascade PhoBERT,LLM few-shot → PhoBERT,0.2,0.0
+endpoint,0.35,Cascade PhoBERT,LLM few-shot → PhoBERT,0.5,0.0
+endpoint,1.0,Phẳng TF-IDF,Cascade LLM few-shot,0.02,188743.42849841248
+endpoint,1.0,Phẳng TF-IDF,Cascade LLM few-shot,0.05,206704.74058309328
+endpoint,1.0,Phẳng TF-IDF,Cascade LLM few-shot,0.1,236640.26072422808
+endpoint,1.0,Phẳng TF-IDF,Cascade LLM few-shot,0.2,296511.30100649747
+endpoint,1.0,Phẳng TF-IDF,Cascade LLM few-shot,0.5,476124.4218533057
+endpoint,1.0,Phẳng TF-IDF,Phẳng LLM few-shot,0.02,146402.46799287738
+endpoint,1.0,Phẳng TF-IDF,Phẳng LLM few-shot,0.05,160335.74983977477
+endpoint,1.0,Phẳng TF-IDF,Phẳng LLM few-shot,0.1,183557.8862512704
+endpoint,1.0,Phẳng TF-IDF,Phẳng LLM few-shot,0.2,230002.15907426167
+endpoint,1.0,Phẳng TF-IDF,Phẳng LLM few-shot,0.5,369334.97754323547
+endpoint,1.0,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.02,0.0
+endpoint,1.0,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.05,0.0
+endpoint,1.0,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.1,0.0
+endpoint,1.0,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.2,0.0
+endpoint,1.0,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.5,0.0
+endpoint,1.0,Phẳng ViSoBERT,Cascade LLM few-shot,0.02,3548514.556033995
+endpoint,1.0,Phẳng ViSoBERT,Cascade LLM few-shot,0.05,3566475.8681186754
+endpoint,1.0,Phẳng ViSoBERT,Cascade LLM few-shot,0.1,3596411.38825981
+endpoint,1.0,Phẳng ViSoBERT,Cascade LLM few-shot,0.2,3656282.42854208
+endpoint,1.0,Phẳng ViSoBERT,Cascade LLM few-shot,0.5,3835895.549388888
+endpoint,1.0,Phẳng ViSoBERT,Phẳng LLM few-shot,0.02,2752706.386120768
+endpoint,1.0,Phẳng ViSoBERT,Phẳng LLM few-shot,0.05,2766639.6679676655
+endpoint,1.0,Phẳng ViSoBERT,Phẳng LLM few-shot,0.1,2789861.804379161
+endpoint,1.0,Phẳng ViSoBERT,Phẳng LLM few-shot,0.2,2836306.077202152
+endpoint,1.0,Phẳng ViSoBERT,Phẳng LLM few-shot,0.5,2975638.8956711255
+endpoint,1.0,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.02,0.0
+endpoint,1.0,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.05,0.0
+endpoint,1.0,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.1,0.0
+endpoint,1.0,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.2,0.0
+endpoint,1.0,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.5,0.0
+endpoint,1.0,Phẳng PhoBERT,Cascade LLM few-shot,0.02,3548520.3701145058
+endpoint,1.0,Phẳng PhoBERT,Cascade LLM few-shot,0.05,3566481.682199187
+endpoint,1.0,Phẳng PhoBERT,Cascade LLM few-shot,0.1,3596417.2023403216
+endpoint,1.0,Phẳng PhoBERT,Cascade LLM few-shot,0.2,3656288.242622591
+endpoint,1.0,Phẳng PhoBERT,Cascade LLM few-shot,0.5,3835901.3634693995
+endpoint,1.0,Phẳng PhoBERT,Phẳng LLM few-shot,0.02,2752710.8963270406
+endpoint,1.0,Phẳng PhoBERT,Phẳng LLM few-shot,0.05,2766644.1781739388
+endpoint,1.0,Phẳng PhoBERT,Phẳng LLM few-shot,0.1,2789866.3145854343
+endpoint,1.0,Phẳng PhoBERT,Phẳng LLM few-shot,0.2,2836310.5874084253
+endpoint,1.0,Phẳng PhoBERT,Phẳng LLM few-shot,0.5,2975643.405877399
+endpoint,1.0,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.02,0.0
+endpoint,1.0,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.05,0.0
+endpoint,1.0,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.1,0.0
+endpoint,1.0,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.2,0.0
+endpoint,1.0,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.5,0.0
+endpoint,1.0,Cascade PhoBERT,Cascade LLM few-shot,0.02,3548522.6056136787
+endpoint,1.0,Cascade PhoBERT,Cascade LLM few-shot,0.05,3566483.917698359
+endpoint,1.0,Cascade PhoBERT,Cascade LLM few-shot,0.1,3596419.4378394936
+endpoint,1.0,Cascade PhoBERT,Cascade LLM few-shot,0.2,3656290.4781217636
+endpoint,1.0,Cascade PhoBERT,Cascade LLM few-shot,0.5,3835903.5989685715
+endpoint,1.0,Cascade PhoBERT,Phẳng LLM few-shot,0.02,2752712.6304898844
+endpoint,1.0,Cascade PhoBERT,Phẳng LLM few-shot,0.05,2766645.9123367826
+endpoint,1.0,Cascade PhoBERT,Phẳng LLM few-shot,0.1,2789868.048748278
+endpoint,1.0,Cascade PhoBERT,Phẳng LLM few-shot,0.2,2836312.3215712686
+endpoint,1.0,Cascade PhoBERT,Phẳng LLM few-shot,0.5,2975645.1400402426
+endpoint,1.0,Cascade PhoBERT,LLM few-shot → PhoBERT,0.02,0.0
+endpoint,1.0,Cascade PhoBERT,LLM few-shot → PhoBERT,0.05,0.0
+endpoint,1.0,Cascade PhoBERT,LLM few-shot → PhoBERT,0.1,0.0
+endpoint,1.0,Cascade PhoBERT,LLM few-shot → PhoBERT,0.2,0.0
+endpoint,1.0,Cascade PhoBERT,LLM few-shot → PhoBERT,0.5,0.0

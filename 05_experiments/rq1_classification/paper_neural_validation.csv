@@ -1,0 +1,5 @@
+﻿tập,strategy,cấu hình,n,n_BUG,n_FEATURE,n_UX,macro_f1,f1_BUG,f1_FEATURE,f1_UX,n_OTHER,f1_OTHER
+Validation (gold-actionable),PhoBERT,"{""epochs"": 4, ""lr"": 3e-05}",71,27,22,22,70.8 ± 1.5,70.9 ± 4.9,61.1 ± 6.5,80.5 ± 6.0,,
+Validation,Cascade PhoBERT,tầng 1 ngưỡng 0.01 + tầng 2,350,27,22,22,36.9 ± 17.1,31.5 ± 4.3,29.5 ± 5.7,41.1 ± 19.4,279.0,45.5 ± 41.0
+Validation,Phẳng PhoBERT,"{""epochs"": 5, ""lr"": 3e-05}",350,27,22,22,66.8 ± 0.2,51.0 ± 1.9,46.8 ± 2.2,74.8 ± 1.5,279.0,94.7 ± 0.4
+Validation,Phẳng Bi-LSTM + fastText,"{""dropout"": 0.5, ""hidden_size"": 128, ""lr"": 0.002}",350,27,22,22,63.7 ± 4.5,44.5 ± 3.4,45.0 ± 12.3,74.4 ± 7.7,279.0,91.0 ± 2.1

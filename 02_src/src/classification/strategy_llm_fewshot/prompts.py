@@ -202,3 +202,35 @@ def flat_exemplars(train_df, version='v1'):
                 rows.append({'order': k, 'review_id': e['review_id'], 'gold_label': e['gold_label'],
                              'label': e['gold_label'], 'text': e['text'], 'text_sha256': e['text_sha256']})
     return pd.DataFrame(rows)
+
+
+# ---------------------------------------------------------------- app-neutral variant (paper, amendment v3.6)
+APP_PHRASE = 'ứng dụng thương mại điện tử Shopee trên Google Play'
+NEUTRAL_PHRASE = 'ứng dụng thương mại điện tử trên Google Play'
+
+
+def neutral_system(text):
+    """The one pre-registered change: drop the app name from the opening sentence; nothing else changes."""
+    if text.count(APP_PHRASE) != 1:
+        raise RuntimeError(f'Cụm "{APP_PHRASE}" phải xuất hiện đúng một lần trong system prompt')
+    out = text.replace(APP_PHRASE, NEUTRAL_PHRASE)
+    if 'Shopee' in out:
+        raise RuntimeError('System prompt trung tính vẫn còn chữ Shopee')
+    return out
+
+
+def write_neutral(train_df, tier, source_version='v1', version='v1n'):
+    """System prompt + exemplar manifest of the neutral variant from the locked source version (same exemplars,
+    same selection rule and seed). Refuses to overwrite different existing files. Returns the loaded prompt."""
+    src = load_prompt(tier, source_version, train_df)
+    text = neutral_system(src.system)
+    path = system_path(tier, version)
+    if os.path.exists(path):
+        if open(path, encoding='utf-8').read().strip() != text.strip():
+            raise RuntimeError(f'{path} đã tồn tại với nội dung khác')
+    else:
+        with open(path, 'w', encoding='utf-8') as f:
+            f.write(text + '\n')
+    man = json.load(open(manifest_path(tier, source_version), encoding='utf-8'))
+    write_manifest(pd.DataFrame(src.exemplars), tier, version, seed=man['seed'], rule=man['rule'])
+    return load_prompt(tier, version, train_df)

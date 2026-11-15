@@ -1,0 +1,88 @@
+# FROZEN — khóa ngày 15/11/2026, amendment v3.4 (chọn trên Validation trong notebook 21, Kaggle). Không sửa sau mốc này; mọi thay đổi phải có amendment mới.
+# Sửa theo amendment v3.5 ngày 15/11/2026: ngưỡng PhoBERT tầng 1 0,01 → 0,02 (chặn điểm biên); giá trị cũ ở threshold_v34_rule_output.
+paper_neural:
+  amendment: v3.4
+  seeds:
+  - 42
+  - 1337
+  - 2024
+  canonical_seed: 42
+  phobert:
+    model_name: vinai/phobert-base-v2
+    segmenter: vncorenlp-rdrsegmenter
+    segmenter_errors: []
+    segment_failures: 0
+    tokenizer_check:
+      unk_rate: 0.00719
+      mean_tokens: 18.89
+      mlm_top1: 0.377
+    tier1:
+      config:
+        model_name: vinai/phobert-base-v2
+        max_len: 256
+        lr: 3.0e-05
+        epochs: 4
+        batch_size: 16
+        warmup_ratio: 0.1
+        weight_decay: 0.01
+        class_weight: balanced
+      threshold: 0.02
+      threshold_rule:
+        min_recall: 0.8
+        sweep:
+        - 0.01
+        - 0.9
+        - 0.01
+        chosen_on_seed: 42
+        amendment: v2.0
+      recall_constraint_met: false
+      recall_min_over_seeds_validation: 0.775
+      threshold_v34_rule_output: 0.01
+      threshold_guard: 'amendment v3.5: điểm biên dưới 0,01 bị loại; fallback v2.0
+        (recall cao nhất) trên 0,02–0,90'
+      sensitivity_thresholds:
+      - 0.01
+      - 0.5
+    tier2:
+      config:
+        model_name: vinai/phobert-base-v2
+        max_len: 256
+        lr: 3.0e-05
+        epochs: 4
+        batch_size: 16
+        warmup_ratio: 0.1
+        weight_decay: 0.01
+        class_weight: balanced
+      decision: argmax
+    flat:
+      config:
+        model_name: vinai/phobert-base-v2
+        max_len: 256
+        lr: 3.0e-05
+        epochs: 5
+        batch_size: 16
+        warmup_ratio: 0.1
+        weight_decay: 0.01
+        class_weight: balanced
+      decision: argmax
+  bilstm_flat:
+    config:
+      fasttext_url: https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.vi.300.vec.gz
+      embedding_dim: 300
+      freeze_embedding: true
+      hidden_size: 128
+      num_layers: 1
+      dropout: 0.5
+      max_len: 128
+      lr: 0.002
+      epochs: 10
+      batch_size: 32
+      class_weight: balanced
+    decision: argmax
+    fasttext_coverage: 0.9514
+  environment:
+    commit: 9e19ef75c14d7dd0ebc9aa95cda542a8238a303d
+    gpu: Tesla T4
+    transformers: 5.20.2
+    torch: 2.11.0+cu130
+    java: openjdk version "21.0.12.1" 2026-08-18

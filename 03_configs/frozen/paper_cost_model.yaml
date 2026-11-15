@@ -1,0 +1,21 @@
+# FROZEN — khóa ngày 15/11/2026, amendment v3.8. Không sửa sau mốc này; mọi thay đổi phải có amendment mới.
+# Tham số GIẢ ĐỊNH của mô hình tổng chi phí (bước 3b). Đây là lưới phân tích độ nhạy, không phải số đo; mọi đại lượng đo
+# (số nhãn, thời gian train và suy luận, token và USD API) lấy từ file kết quả của bước 2.
+cost_model:
+  amendment: v3.8
+  label_cost_usd: [0.02, 0.05, 0.10, 0.20, 0.50]       # chi phí một nhãn (công gán nhãn và rà soát) — giả định
+  gpu_usd_per_hour: [0.35, 1.0]                         # GPU cỡ T4 thuê theo giờ — giả định
+  cpu_usd_per_hour: 0.05                                # CPU cho TF-IDF — giả định
+  monthly_volume: [1000, 10000, 100000, 1000000]       # review cần phân loại mỗi tháng
+  horizon_months: 12
+  deployment: [batch, endpoint]                         # batch: trả theo giờ máy thực dùng; endpoint: máy bật 730 giờ/tháng
+  endpoint_hours_per_month: 730
+  drift:
+    check_every_months: 6                               # mỗi lần kiểm tra trôi dữ liệu (không tính lần đầu)
+    validation_labels_per_check: 350                    # mọi chiến lược: gán lại một tập Validation mới để kiểm hiệu năng
+    extra_train_labels_per_check: 300                   # chiến lược có huấn luyện: thêm nhãn Train và train lại
+  labels_initial:
+    trained: 1550                                       # Train 1.200 + Validation 350 (amendment v3.0)
+    llm_only: 367                                       # Validation 350 + 17 ví dụ few-shot lấy từ Train
+  quality_thresholds: [60, 70, 80]                      # Macro-F1 end-to-end trên Hold-out (lần chạy chuẩn)
+  base_scenario: {label_cost_usd: 0.10, gpu_usd_per_hour: 0.35}

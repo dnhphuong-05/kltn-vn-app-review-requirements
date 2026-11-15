@@ -1,9 +1,0 @@
-﻿chỉ số,đạt,tổng,tỷ lệ
-AC đúng dạng Given/When/Then,47,47,1.0
-requirement có 2–3 AC,16,16,1.0
-valid generation — lần gọi đầu,15,16,0.9375
-valid generation — sau một lần gọi lại,16,16,1.0
-liên kết evidence hợp lệ (cả 4 kiểm tra),93,93,1.0
-requirement có ≥ 1 evidence hợp lệ,16,16,1.0
-unit đủ điều kiện có requirement,16,16,1.0
-User Story không có lỗi QUS,15,16,0.9375

@@ -1,0 +1,162 @@
+﻿mã dòng,review_id,gold_label,cascade gọi ACTIONABLE,flat gọi ACTIONABLE,nhãn flat,tập,bị gọi ACTIONABLE bởi,nhóm gợi ý (từ khóa),nhắc app hoặc lỗi
+R001,6e02299b-fc1d-4e63-87d9-7e2704e4b58c,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng, chăm sóc khách hàng",True
+R002,70831149-8827-40b4-bf8d-94634f9e06d0,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng",True
+R003,d308e156-f6bf-4e8b-93e0-38bb33122a3e,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,True
+R004,aeb83775-9786-435d-b9f8-3e1de6126e62,OTHER,False,True,BUG,Hold-out,flat,"chính sách, tài khoản, đơn hàng",False
+R005,4275f50b-6380-40c1-acbb-78fa42bffbd9,OTHER,False,True,BUG,Lazada,flat,"chính sách, tài khoản, đơn hàng",False
+R006,2c883d0a-9caf-4054-9c99-b0cbbbf0ec89,OTHER,False,True,BUG,Hold-out,flat,"người bán, sản phẩm",False
+R007,5fa52602-486d-4e68-8f9b-4bcbd549e36f,OTHER,False,True,BUG,Lazada,flat,không nhóm nào,True
+R008,983debe7-eee9-46a6-8ed0-e8e3671cfeea,OTHER,True,True,BUG,Hold-out,cả hai,không nhóm nào,False
+R009,5611594c-ca56-4bc9-8f26-287f42cc96aa,OTHER,True,True,BUG,Lazada,cả hai,"giá, phí, voucher, chăm sóc khách hàng",False
+R010,d63090b5-b826-4175-b895-356a63328699,OTHER,False,True,FEATURE,Lazada,flat,"chính sách, tài khoản, đơn hàng",False
+R011,f3519209-ebf8-4642-8c49-f009d7ca20e3,OTHER,True,True,BUG,Hold-out,cả hai,không nhóm nào,False
+R012,2291d7e6-4c08-42df-b0e8-e323a179ff80,OTHER,True,True,BUG,Lazada,cả hai,"giá, phí, voucher",False
+R013,ac248540-8215-4313-83f9-9a9259013442,OTHER,True,False,OTHER,Hold-out,cascade,chăm sóc khách hàng,False
+R014,e033edbd-da25-416e-b3b9-4f109f0634b5,OTHER,True,True,FEATURE,Hold-out,cả hai,"người bán, sản phẩm, giá, phí, voucher",False
+R015,171efc03-07f5-4e05-9d6b-7973e590f01e,OTHER,False,True,BUG,Hold-out,flat,không nhóm nào,True
+R016,2ef482f6-e61b-441f-9d44-2e5a2904de32,OTHER,False,True,BUG,Hold-out,flat,không nhóm nào,False
+R017,a8897119-1283-4167-925f-964c7e469ed9,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,True
+R018,e2faeb8e-d09d-45c0-b247-c33b7f5a6f68,OTHER,True,True,FEATURE,Lazada,cả hai,"giá, phí, voucher",False
+R019,549d4d9e-6028-4e74-9a45-a60b27f6a29d,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,False
+R020,c5996d9f-2f7a-4619-a0e1-9c8f864557ba,OTHER,True,True,BUG,Hold-out,cả hai,"giá, phí, voucher, chính sách, tài khoản, đơn hàng",False
+R021,01b3d666-6417-411d-80f3-11fe44618d4c,OTHER,False,True,BUG,Lazada,flat,"giá, phí, voucher",False
+R022,dd964e6b-68fb-4bcb-b6a6-a45a4e6c284f,OTHER,True,True,BUG,Hold-out,cả hai,"người bán, sản phẩm, chính sách, tài khoản, đơn hàng",True
+R023,919d8edc-8741-46c1-9a24-ce12a086cdca,OTHER,True,True,BUG,Hold-out,cả hai,"giá, phí, voucher",False
+R024,655c5d91-f0bf-401e-8c65-0397e8bfc74c,OTHER,True,True,BUG,Hold-out,cả hai,"chính sách, tài khoản, đơn hàng",True
+R025,316803ed-2714-431e-bef1-f22e17acf19f,OTHER,True,True,BUG,Hold-out,cả hai,không nhóm nào,False
+R026,ebe31d39-cea4-4444-9caf-28d518b03c3d,OTHER,False,True,BUG,Lazada,flat,không nhóm nào,False
+R027,544bc2b3-4a17-43fa-bc5a-77927ef94cf6,OTHER,False,True,BUG,Lazada,flat,"giao hàng, giá, phí, voucher",False
+R028,b026be5e-8e07-453f-8a77-e96036aca3ba,OTHER,True,False,OTHER,Hold-out,cascade,"người bán, sản phẩm, giá, phí, voucher",True
+R029,b24ba834-db0c-43fc-b6fe-7f5b26831e01,OTHER,True,True,FEATURE,Lazada,cả hai,không nhóm nào,False
+R030,6a952092-61e3-47c8-850f-fe4a8bf38918,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng",True
+R031,c417630b-5e80-496f-abb0-1877b9c0568b,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng",True
+R032,0d6942e7-fd3b-4ee2-b4c6-184891f1d434,OTHER,True,True,FEATURE,Lazada,cả hai,"giao hàng, giá, phí, voucher",True
+R033,c0d7fe47-e93f-49e0-ad0b-ffa5fcbc97c0,OTHER,True,True,BUG,Hold-out,cả hai,"giá, phí, voucher",False
+R034,7fcf345a-be00-414a-9bb0-156f178b0b38,OTHER,True,True,BUG,Lazada,cả hai,"giá, phí, voucher",True
+R035,1948dbb0-cf57-434c-bf89-51ad098a87c9,OTHER,False,True,BUG,Hold-out,flat,"chính sách, tài khoản, đơn hàng",False
+R036,9a24db75-295a-447e-b204-0e2a12f48a6c,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng",False
+R037,7c7ce159-4c0e-46c2-9ac0-b4d0d8700c01,OTHER,False,True,FEATURE,Hold-out,flat,"người bán, sản phẩm, giá, phí, voucher",False
+R038,61229734-cbdf-45d0-9e3f-49830540ed6f,OTHER,True,True,FEATURE,Hold-out,cả hai,không nhóm nào,False
+R039,e71958c4-0748-4d22-8214-97a6ef2af686,OTHER,True,True,BUG,Hold-out,cả hai,"giá, phí, voucher",False
+R040,34bd6f49-6216-4534-8071-f446e23bf0b0,OTHER,True,True,FEATURE,Lazada,cả hai,không nhóm nào,False
+R041,28fb7da8-fb86-4878-97f4-f2a59101a7af,OTHER,True,True,BUG,Hold-out,cả hai,không nhóm nào,False
+R042,c83d9138-b286-462f-bb2f-aeed971239bd,OTHER,True,True,BUG,Lazada,cả hai,"giá, phí, voucher, chính sách, tài khoản, đơn hàng",False
+R043,2049257b-c80c-4ead-bc05-3bc904edd003,OTHER,False,True,BUG,Lazada,flat,"chính sách, tài khoản, đơn hàng",False
+R044,5263a3aa-72c9-4199-9b3a-a0ff7e1cc254,OTHER,True,False,OTHER,Lazada,cascade,"giá, phí, voucher, chính sách, tài khoản, đơn hàng, chăm sóc khách hàng",True
+R045,a937a056-4c1b-4d3b-91b5-0b55de10f7c6,OTHER,True,True,UX,Lazada,cả hai,không nhóm nào,False
+R046,50332d4a-f9a4-4eb1-ac2a-a2650cbf0416,OTHER,False,True,BUG,Hold-out,flat,không nhóm nào,True
+R047,1f3c854d-6b0c-4dc0-aad4-39f80a3d0bdd,OTHER,True,True,BUG,Lazada,cả hai,"giá, phí, voucher",True
+R048,13425107-e0df-4834-a624-1a4c055cdf71,OTHER,False,True,FEATURE,Hold-out,flat,"người bán, sản phẩm, giá, phí, voucher, chính sách, tài khoản, đơn hàng",False
+R049,d89e4084-a680-4af3-b444-34d1707e2a19,OTHER,False,True,BUG,Lazada,flat,không nhóm nào,True
+R050,e1c63080-8bc0-460c-b675-9b407f0fa690,OTHER,False,True,BUG,Hold-out,flat,"chính sách, tài khoản, đơn hàng",False
+R051,7f399216-183b-4767-8ca3-67de6a4331ed,OTHER,True,True,BUG,Lazada,cả hai,"giá, phí, voucher",True
+R052,8fac008e-1770-4a74-90d4-8209052187dd,OTHER,False,True,BUG,Hold-out,flat,không nhóm nào,True
+R053,e01ccab1-cd64-4170-bd84-500ca794c246,OTHER,True,True,BUG,Hold-out,cả hai,không nhóm nào,False
+R054,286c6a9e-c5ed-4337-b40a-880e4d84ce19,OTHER,False,True,BUG,Lazada,flat,"chính sách, tài khoản, đơn hàng",False
+R055,4047e086-9862-495f-a75c-9e664b9f5b82,OTHER,True,False,OTHER,Hold-out,cascade,không nhóm nào,False
+R056,2942b174-b688-4de7-8d73-e398fc8a2d1b,OTHER,True,True,BUG,Hold-out,cả hai,"chính sách, tài khoản, đơn hàng",False
+R057,04ed785b-c5ae-4c2b-abf5-59a1be0529c3,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,False
+R058,c9bac349-f662-4ba4-b4d3-6ef2817a2d14,OTHER,True,False,OTHER,Lazada,cascade,"giá, phí, voucher",False
+R059,a3a27156-d893-4aab-b440-308776ed7425,OTHER,True,True,BUG,Lazada,cả hai,"giá, phí, voucher, chính sách, tài khoản, đơn hàng",False
+R060,5e51e469-3e4e-4419-ad59-5d7fbca54161,OTHER,True,True,BUG,Hold-out,cả hai,"chính sách, tài khoản, đơn hàng",True
+R061,35a7a159-aba6-4a58-932b-b2d79a48bacb,OTHER,False,True,BUG,Hold-out,flat,"chính sách, tài khoản, đơn hàng",False
+R062,ba46151c-a779-4163-b90c-59740c273647,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,True
+R063,3a1187d6-3577-44fe-989e-db7a4f1d8a68,OTHER,False,True,BUG,Hold-out,flat,"giá, phí, voucher, chính sách, tài khoản, đơn hàng",False
+R064,a696158f-eed8-404b-b8f8-0c9bfb8c53df,OTHER,True,True,BUG,Lazada,cả hai,"giá, phí, voucher",False
+R065,b4126d82-fe80-426d-b10f-67067f75a4c5,OTHER,False,True,BUG,Lazada,flat,"giá, phí, voucher, chính sách, tài khoản, đơn hàng",False
+R066,e6ee7c21-0322-441b-bb76-6e381bc0492a,OTHER,True,True,BUG,Hold-out,cả hai,"giá, phí, voucher",False
+R067,69b74f07-1982-4a88-808c-2be84df45002,OTHER,True,True,BUG,Hold-out,cả hai,"giá, phí, voucher, chính sách, tài khoản, đơn hàng",False
+R068,437805d2-6824-4b03-b628-a16d895c5182,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng",True
+R069,729917c5-3f9e-424b-aa4d-81afe38b0435,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,True
+R070,07f2721d-44b1-4815-b9b4-7e28d1f20f67,OTHER,True,True,FEATURE,Hold-out,cả hai,giao hàng,False
+R071,8f4fcf62-0094-4a6d-b589-1a0073bc9ee7,OTHER,False,True,BUG,Lazada,flat,"chính sách, tài khoản, đơn hàng",False
+R072,748e8543-64cf-421d-928b-3320eb124af0,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,True
+R073,dcb8adc4-ad50-4635-8e86-63c116e5e81b,OTHER,False,True,BUG,Hold-out,flat,"giá, phí, voucher, chính sách, tài khoản, đơn hàng",True
+R074,6e895ca8-ba59-4255-a10f-20e6fe1b5890,OTHER,True,True,BUG,Hold-out,cả hai,"giá, phí, voucher",False
+R075,29da42fa-5273-4416-9a95-3c82f9a31258,OTHER,True,True,BUG,Lazada,cả hai,"giá, phí, voucher, chính sách, tài khoản, đơn hàng",True
+R076,2bf3745a-9958-4106-9ca9-060eb636eb00,OTHER,True,True,FEATURE,Hold-out,cả hai,giao hàng,False
+R077,5946928c-ac2b-46fe-ad3c-b6711f00b0e3,OTHER,False,True,BUG,Hold-out,flat,không nhóm nào,True
+R078,79ab696f-972c-40f0-938c-014a80696082,OTHER,True,True,BUG,Lazada,cả hai,chăm sóc khách hàng,False
+R079,2689c7da-9f05-4c19-a215-242c3e9bc9b8,OTHER,False,True,FEATURE,Hold-out,flat,không nhóm nào,False
+R080,14f2f2b1-1340-4d93-b704-9023ae21f89a,OTHER,False,True,BUG,Hold-out,flat,không nhóm nào,False
+R081,805b4f72-0cfc-4f0f-9ad8-54f74a135a6c,OTHER,True,False,OTHER,Lazada,cascade,"giá, phí, voucher",True
+R082,122c03c1-ca9e-42c1-a9bf-0cbad2be0791,OTHER,True,True,FEATURE,Lazada,cả hai,không nhóm nào,False
+R083,53972c41-dab7-485f-9e63-e6fed1edcc29,OTHER,False,True,BUG,Hold-out,flat,không nhóm nào,False
+R084,3fa2cee4-199c-429f-8291-148e5619de33,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng",True
+R085,f6417e88-951f-4f72-bdb8-e8cb24011bbd,OTHER,False,True,BUG,Lazada,flat,"giá, phí, voucher, chính sách, tài khoản, đơn hàng",False
+R086,f52298fb-ec37-452c-9713-cca95159f931,OTHER,True,False,OTHER,Lazada,cascade,"giá, phí, voucher",False
+R087,b98c0467-1765-475b-b2e6-8238e494300f,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,True
+R088,89103bd4-bad8-4680-b551-cefa6c8abead,OTHER,True,True,BUG,Hold-out,cả hai,"giá, phí, voucher",False
+R089,ee0d2070-8111-42d3-827c-c253b80d1c37,OTHER,True,True,BUG,Lazada,cả hai,"giá, phí, voucher, chăm sóc khách hàng",True
+R090,c532f9bf-cb21-419a-b7cb-e60f5f8198f9,OTHER,False,True,BUG,Hold-out,flat,"chính sách, tài khoản, đơn hàng",False
+R091,f904b38f-f1da-46ba-b886-51b695ce923c,OTHER,True,True,FEATURE,Hold-out,cả hai,"người bán, sản phẩm",False
+R092,48bafe85-46c1-4848-a00a-957bf2992694,OTHER,True,True,BUG,Hold-out,cả hai,không nhóm nào,False
+R093,90d7adec-4ab0-4644-b03e-6b7292e67c60,OTHER,False,True,BUG,Lazada,flat,"chính sách, tài khoản, đơn hàng",True
+R094,80d2997e-bebc-40b7-8b82-9dc6b0b0ffed,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng",True
+R095,a0811855-7434-4ac3-a7b0-cf0e4ec60dfd,OTHER,True,True,BUG,Lazada,cả hai,"giá, phí, voucher",True
+R096,c8d2305b-a14b-4534-bfd3-6e61cfc0e1b4,OTHER,True,False,OTHER,Hold-out,cascade,"chính sách, tài khoản, đơn hàng",False
+R097,fe6ff667-e50b-4afb-8066-28c910484927,OTHER,False,True,BUG,Lazada,flat,không nhóm nào,False
+R098,e31612c8-98fc-4283-9405-a00b133387ab,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,True
+R099,eed12813-5614-4271-a481-6f931c699db6,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,True
+R100,aa3667dc-229c-4d39-8d72-1314c908a667,OTHER,True,False,OTHER,Hold-out,cascade,"giá, phí, voucher",False
+R101,3ca423d3-a508-4fb5-af3e-e7a27d2fe105,OTHER,False,True,BUG,Hold-out,flat,không nhóm nào,True
+R102,e72969a1-ba5e-421e-acba-cf62aa71d402,OTHER,True,True,UX,Lazada,cả hai,không nhóm nào,False
+R103,9d9976c2-8d7d-42bc-9d9d-e2f9abd68c60,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,False
+R104,91027ef9-3e8f-4dc5-9b73-fc20bb018627,OTHER,True,True,BUG,Hold-out,cả hai,"chính sách, tài khoản, đơn hàng",True
+R105,4ecda50f-c57e-4a07-a0e9-62ba05fcccc9,OTHER,True,True,BUG,Hold-out,cả hai,"giá, phí, voucher, chăm sóc khách hàng",True
+R106,19608984-9e89-44b6-af12-20adac6250c8,OTHER,True,True,BUG,Lazada,cả hai,"giao hàng, người bán, sản phẩm",True
+R107,0cd6678c-51e9-471b-bd0a-8aa31015d00b,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng",True
+R108,4ae5f8f1-2efe-4329-95fc-f58f10c80f50,OTHER,True,True,BUG,Hold-out,cả hai,"giá, phí, voucher",False
+R109,87147e0c-8a53-4d94-88be-5b4dcad6d3da,OTHER,False,True,BUG,Hold-out,flat,không nhóm nào,True
+R110,44f7c027-8649-4b46-ae47-1cd4735f702f,OTHER,False,True,BUG,Hold-out,flat,"giá, phí, voucher, chính sách, tài khoản, đơn hàng",True
+R111,690ddec8-c0e0-4786-aaaf-a602d2d149a4,OTHER,False,True,BUG,Hold-out,flat,giao hàng,False
+R112,f23b7c98-371b-4c8a-a0cd-832cc7a737d6,OTHER,False,True,BUG,Hold-out,flat,không nhóm nào,True
+R113,990cc27b-df2d-41e5-a143-dd21ebc108be,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng",True
+R114,73ae12bf-955d-4aee-9fb1-ad093bc63af8,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,False
+R115,369b417f-b513-4b01-b7f5-8320c8baabb6,OTHER,True,True,BUG,Lazada,cả hai,"giá, phí, voucher",True
+R116,22543a6d-8002-4987-866a-c3454c452dbb,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,True
+R117,d8da24a1-3eb1-4949-8474-839d00e024cc,OTHER,False,True,BUG,Lazada,flat,không nhóm nào,True
+R118,dbc1751c-8eff-4706-b243-bc33f6228c89,OTHER,True,False,OTHER,Lazada,cascade,"giao hàng, giá, phí, voucher",False
+R119,3260de5a-11e8-4c85-b086-6d640bf5396f,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng",True
+R120,4bc4fbed-9004-4844-8ec0-3df986c195ab,OTHER,True,True,BUG,Hold-out,cả hai,"giá, phí, voucher",False
+R121,7ca38c00-230d-4415-b50a-ec9701403530,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng",True
+R122,9217f05d-c20e-44dd-bd5d-c366ad3118d7,OTHER,True,True,BUG,Hold-out,cả hai,không nhóm nào,False
+R123,bd28286a-7e31-405e-a434-9aa5b77395f2,OTHER,True,True,BUG,Hold-out,cả hai,"chính sách, tài khoản, đơn hàng",True
+R124,c59cd963-c15d-4992-b932-06de995aeaeb,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng",True
+R125,1de73772-3b03-4003-932a-a89e49e033aa,OTHER,False,True,BUG,Hold-out,flat,"giá, phí, voucher, chính sách, tài khoản, đơn hàng",False
+R126,db35cd11-0682-4bc4-b471-198cc564f91e,OTHER,True,True,FEATURE,Hold-out,cả hai,"giá, phí, voucher",False
+R127,5329df69-6bd7-44a4-8148-79b7b1157973,OTHER,True,True,BUG,Hold-out,cả hai,"chính sách, tài khoản, đơn hàng",False
+R128,f871c559-0a34-4796-89ee-2427ff396414,OTHER,False,True,BUG,Hold-out,flat,không nhóm nào,False
+R129,cb529077-347f-4b77-899e-915822e484a7,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng, chăm sóc khách hàng",True
+R130,b48aa9ed-d2e2-410a-b54f-b10cb39f5cef,OTHER,False,True,BUG,Lazada,flat,không nhóm nào,False
+R131,dcc661b2-a511-4714-802d-562d023fde61,OTHER,False,True,BUG,Lazada,flat,không nhóm nào,False
+R132,d1e3f30e-a0bc-4fd9-b021-db2a08092d25,OTHER,True,True,BUG,Hold-out,cả hai,"giá, phí, voucher",False
+R133,abc39fdb-3b36-4381-85c0-097c9062a536,OTHER,True,True,BUG,Hold-out,cả hai,"chính sách, tài khoản, đơn hàng",True
+R134,6f8d1363-0cdc-4292-ac00-b9e45f9d2e7e,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,False
+R135,93949bcd-8116-47c6-91ac-922d2147ec71,OTHER,True,True,BUG,Hold-out,cả hai,"giá, phí, voucher, chính sách, tài khoản, đơn hàng",True
+R136,fd1f905c-8495-43a0-8c29-636bcc695a7f,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng",True
+R137,ba48ecd9-aaf1-4257-a526-ee2c00c48ebb,OTHER,True,True,BUG,Hold-out,cả hai,không nhóm nào,False
+R138,8b94ae71-9c5f-45eb-a47a-7309244e999e,OTHER,True,True,BUG,Hold-out,cả hai,không nhóm nào,True
+R139,2f53dba0-f288-4185-969f-00529d88c7c2,OTHER,False,True,BUG,Lazada,flat,không nhóm nào,False
+R140,016f1c5e-1a75-4355-bd20-fc3f7094234f,OTHER,True,True,BUG,Hold-out,cả hai,"giá, phí, voucher",False
+R141,b6c54cd5-16f9-4d9c-888d-87cc2f0f94f4,OTHER,False,True,BUG,Hold-out,flat,"giá, phí, voucher",False
+R142,ef83d898-58c2-4975-b75d-d7c8be33e570,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,True
+R143,a9085e9f-3493-4ae2-89bc-e8a5cddbe497,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,True
+R144,512f87bd-89e8-43d7-adb0-2c1a997ec59e,OTHER,True,True,BUG,Hold-out,cả hai,"chính sách, tài khoản, đơn hàng",False
+R145,eb0af6fa-f114-4200-86c8-adb81d85d68d,OTHER,True,True,BUG,Lazada,cả hai,"giá, phí, voucher, chính sách, tài khoản, đơn hàng",False
+R146,0f0367e8-09dc-4766-bef0-72d779d9bb17,OTHER,True,True,BUG,Hold-out,cả hai,không nhóm nào,False
+R147,9911c25b-0368-4c99-a6a1-df0b5da46625,OTHER,False,True,BUG,Hold-out,flat,"giao hàng, giá, phí, voucher",False
+R148,a9136481-4c33-4ed8-b68c-eeac32027897,OTHER,False,True,BUG,Lazada,flat,"giá, phí, voucher, chính sách, tài khoản, đơn hàng",False
+R149,64b652d1-36b4-4637-a768-e1bf093cc46e,OTHER,True,True,FEATURE,Lazada,cả hai,"người bán, sản phẩm, chính sách, tài khoản, đơn hàng",True
+R150,54eccfd4-2842-4287-80b7-ca421978db85,OTHER,False,True,BUG,Lazada,flat,"giá, phí, voucher",False
+R151,80054b44-ee9b-41bf-b0ad-98467f661aa2,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,True
+R152,2baa460a-74df-4b32-bc3b-b0c0bff908f0,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,True
+R153,fd898f9b-3743-4575-8444-d61ce548bcbf,OTHER,False,True,BUG,Hold-out,flat,không nhóm nào,False
+R154,94cdcdfe-74e3-4a26-bd1e-0fc31b7fc6a9,OTHER,True,True,BUG,Lazada,cả hai,không nhóm nào,True
+R155,fef25e36-01d5-433d-b146-d1f4ca8da725,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng",True
+R156,f4ce981f-3862-450e-8e0f-442021faeeac,OTHER,True,True,BUG,Hold-out,cả hai,"giá, phí, voucher",False
+R157,f4e6cfda-8dbe-45a5-a1e2-feda3b3f8df7,OTHER,True,True,BUG,Hold-out,cả hai,không nhóm nào,True
+R158,6e77eec7-1ff3-4bf4-b3b2-1a2bd79854d8,OTHER,False,True,BUG,Lazada,flat,không nhóm nào,False
+R159,9e2af9d4-3a58-4185-be6e-0e478a555cd3,OTHER,True,True,FEATURE,Hold-out,cả hai,không nhóm nào,False
+R160,370528f4-9c5b-45ec-91be-f9babad903d5,OTHER,False,True,BUG,Lazada,flat,"người bán, sản phẩm, chính sách, tài khoản, đơn hàng",False
+R161,61e99c1b-98c4-4127-8ff9-be3e92e45720,OTHER,True,True,BUG,Lazada,cả hai,"chính sách, tài khoản, đơn hàng",True

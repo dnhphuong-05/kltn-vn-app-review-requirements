@@ -1,1 +1,0 @@
-# Prompt few-shot phân loại (khóa trước test). Ghi prompt_hash vào prompts_registry.md.

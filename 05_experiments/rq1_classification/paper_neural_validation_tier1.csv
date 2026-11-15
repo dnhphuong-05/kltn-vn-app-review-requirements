@@ -1,0 +1,2 @@
+﻿strategy,cấu hình,ngưỡng,đạt recall ≥ 0.80 (seed 42),recall thấp nhất (3 seed),f1_actionable,recall_actionable,precision_actionable,macro_f1
+PhoBERT,"{""epochs"": 4, ""lr"": 3e-05}",0.01,True,1.0,46.5 ± 13.1,100.0 ± 0.0,30.9 ± 11.3,46.0 ± 26.8

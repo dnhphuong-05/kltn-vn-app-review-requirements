@@ -31,6 +31,17 @@ def choose(sw, min_recall=MIN_RECALL):
             **{k: float(best[k]) for k in ('recall_actionable', 'precision_actionable', 'f1_actionable', 'macro_f1')}}
 
 
+def choose_guarded(sw, min_recall=MIN_RECALL):
+    """Rule v2.0 with the boundary guard of amendment v3.5: the lowest threshold of the sweep is never accepted,
+    because a model whose probabilities pile up at the floor (seen with PhoBERT) meets the recall floor there only
+    by calling almost every review ACTIONABLE, and that operating point swings from seed to seed. On the remaining
+    thresholds v2.0 applies unchanged, including its fallback (highest recall) when none reaches `min_recall`.
+    Gives the same thresholds as `choose` for every strategy whose choice is not at the boundary."""
+    out = choose(sw[sw['threshold'] > sw['threshold'].min()].reset_index(drop=True), min_recall)
+    out['boundary_excluded'] = float(sw['threshold'].min())
+    return out
+
+
 def metrics_at(y_true, p_actionable, threshold):
     return tier1_metrics(np.asarray(y_true), (np.asarray(p_actionable) >= threshold).astype(int))
 

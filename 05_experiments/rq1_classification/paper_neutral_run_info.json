@@ -1,0 +1,13 @@
+{
+ "run_date": "15/11/2026",
+ "commit": "9e19ef75c14d7dd0ebc9aa95cda542a8238a303d",
+ "amendment": "v3.6",
+ "scored_sets": [
+  "lazada"
+ ],
+ "v1n_hashes": {
+  "tier1": "c1ef3bfc6bbb2a55a87701edce588229562d6943993eb9d4e6c16ed01cd84e59",
+  "tier2": "36ccc00e9c7664be7ca39a9a3a987cbd9bbd9e959158a84dea3765a893c2d0cb",
+  "flat": "354b64cbf1647ab300833bb4d831056602bab5fa3573e6703958baef3ce8dbcc"
+ }
+}

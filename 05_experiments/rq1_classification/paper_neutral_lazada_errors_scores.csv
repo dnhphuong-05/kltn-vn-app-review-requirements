@@ -1,0 +1,5 @@
+﻿cấu hình,n,tổng lỗi,bỏ sót actionable,giữ nhầm OTHER,sai loại,% bỏ sót actionable,% giữ nhầm OTHER,% sai loại
+Cascade LLM – v1,500,92.0,17.0,64.0,11.0,18.5,69.6,12.0
+Phẳng LLM – v1,500,106.0,15.0,81.0,10.0,14.2,76.4,9.4
+Cascade LLM – v1n,500,102.0,10.0,81.0,11.0,9.8,79.4,10.8
+Phẳng LLM – v1n,500,103.0,10.0,83.0,10.0,9.7,80.6,9.7

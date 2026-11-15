@@ -1,0 +1,777 @@
+﻿họ so sánh,A,B,tỷ lệ đúng A,tỷ lệ đúng B,"A đúng, B sai","A sai, B đúng",p (exact),p (Holm),"khác biệt (α = 0,05)"
+tầng 1 – Hold-out,TF-IDF,Bi-LSTM + fastText,0.865,0.815,102,52,6.865233358189444e-05,0.00041191400149136664,True
+tầng 1 – Hold-out,TF-IDF,ViSoBERT,0.865,0.866,46,47,1.0,1.0,False
+tầng 1 – Hold-out,TF-IDF,PhoBERT,0.865,0.851,55,41,0.1842858728803648,0.45155419167068855,False
+tầng 1 – Hold-out,TF-IDF,LLM few-shot,0.865,0.929,45,109,2.615376985325889e-07,1.8307638897281223e-06,True
+tầng 1 – Hold-out,Bi-LSTM + fastText,ViSoBERT,0.815,0.866,56,107,7.94570761973693e-05,0.00041191400149136664,True
+tầng 1 – Hold-out,Bi-LSTM + fastText,PhoBERT,0.815,0.851,68,104,0.0074338651130488355,0.029735460452195342,True
+tầng 1 – Hold-out,Bi-LSTM + fastText,LLM few-shot,0.815,0.929,35,149,6.0047633250703954e-18,6.004763325070395e-17,True
+tầng 1 – Hold-out,ViSoBERT,PhoBERT,0.866,0.851,55,40,0.1505180638902295,0.45155419167068855,False
+tầng 1 – Hold-out,ViSoBERT,LLM few-shot,0.866,0.929,41,104,1.696776681986933e-07,1.3574213455895463e-06,True
+tầng 1 – Hold-out,PhoBERT,LLM few-shot,0.851,0.929,43,121,8.801743685614567e-10,7.92156931705311e-09,True
+tầng 2 – Hold-out,TF-IDF,Bi-LSTM + fastText,0.8142076502732241,0.7650273224043715,21,12,0.16275565745308995,0.6510226298123598,False
+tầng 2 – Hold-out,TF-IDF,ViSoBERT,0.8142076502732241,0.825136612021858,10,12,0.8318119049072266,1.0,False
+tầng 2 – Hold-out,TF-IDF,PhoBERT,0.8142076502732241,0.8360655737704918,11,15,0.557197093963623,1.0,False
+tầng 2 – Hold-out,TF-IDF,LLM few-shot,0.8142076502732241,0.9180327868852459,6,25,0.0008779102936387062,0.007901192642748356,True
+tầng 2 – Hold-out,Bi-LSTM + fastText,ViSoBERT,0.7650273224043715,0.825136612021858,13,24,0.09887174959294498,0.4943587479647249,False
+tầng 2 – Hold-out,Bi-LSTM + fastText,PhoBERT,0.7650273224043715,0.8360655737704918,11,24,0.040959591511636986,0.24575754906982192,False
+tầng 2 – Hold-out,Bi-LSTM + fastText,LLM few-shot,0.7650273224043715,0.9180327868852459,9,37,4.0560361327379724e-05,0.00040560361327379724,True
+tầng 2 – Hold-out,ViSoBERT,PhoBERT,0.825136612021858,0.8360655737704918,11,13,0.8388197422027588,1.0,False
+tầng 2 – Hold-out,ViSoBERT,LLM few-shot,0.825136612021858,0.9180327868852459,5,22,0.0015137195587158203,0.012109756469726562,True
+tầng 2 – Hold-out,PhoBERT,LLM few-shot,0.8360655737704918,0.9180327868852459,9,24,0.013530986849218607,0.09471690794453025,False
+end-to-end – Hold-out,Cascade TF-IDF,Cascade Bi-LSTM + fastText,0.837,0.778,116,57,8.566023283234516e-06,0.0019873174017104077,True
+end-to-end – Hold-out,Cascade TF-IDF,Cascade ViSoBERT,0.837,0.849,42,54,0.26146943628638764,1.0,False
+end-to-end – Hold-out,Cascade TF-IDF,Cascade PhoBERT,0.837,0.827,61,51,0.39519335735782335,1.0,False
+end-to-end – Hold-out,Cascade TF-IDF,Cascade LLM few-shot,0.837,0.92,42,125,9.048109104935016e-11,2.9496835682088153e-08,True
+end-to-end – Hold-out,Cascade TF-IDF,Phẳng TF-IDF,0.837,0.866,32,61,0.0034618534914423785,0.5262017306992416,False
+end-to-end – Hold-out,Cascade TF-IDF,Phẳng Bi-LSTM + fastText,0.837,0.872,45,80,0.002226488347320253,0.35178515887659995,False
+end-to-end – Hold-out,Cascade TF-IDF,Phẳng ViSoBERT,0.837,0.889,38,90,4.9228475594375145e-06,0.001176560566705566,True
+end-to-end – Hold-out,Cascade TF-IDF,Phẳng PhoBERT,0.837,0.889,36,88,3.3919214577622724e-06,0.000834412678609519,True
+end-to-end – Hold-out,Cascade TF-IDF,Phẳng LLM few-shot,0.837,0.903,55,121,7.204849058592154e-07,0.00018948753024097364,True
+end-to-end – Hold-out,Cascade TF-IDF,TF-IDF → Bi-LSTM + fastText,0.837,0.832,16,11,0.44206833839416504,1.0,False
+end-to-end – Hold-out,Cascade TF-IDF,TF-IDF → ViSoBERT,0.837,0.845,4,12,0.076812744140625,1.0,False
+end-to-end – Hold-out,Cascade TF-IDF,TF-IDF → PhoBERT,0.837,0.843,9,15,0.30745625495910645,1.0,False
+end-to-end – Hold-out,Cascade TF-IDF,Bi-LSTM + fastText → TF-IDF,0.837,0.786,101,50,4.037220022306478e-05,0.008518534247066669,True
+end-to-end – Hold-out,Cascade TF-IDF,Bi-LSTM + fastText → ViSoBERT,0.837,0.792,105,60,0.0005722115632375066,0.10185365825627618,False
+end-to-end – Hold-out,Cascade TF-IDF,Bi-LSTM + fastText → PhoBERT,0.837,0.791,110,64,0.0006052447871282043,0.10712832732169217,False
+end-to-end – Hold-out,Cascade TF-IDF,Bi-LSTM + fastText → LLM few-shot,0.837,0.805,104,72,0.01919621113983527,1.0,False
+end-to-end – Hold-out,Cascade TF-IDF,ViSoBERT → TF-IDF,0.837,0.844,40,47,0.5202915935750728,1.0,False
+end-to-end – Hold-out,Cascade TF-IDF,ViSoBERT → Bi-LSTM + fastText,0.837,0.84,51,54,0.8453703188825519,1.0,False
+end-to-end – Hold-out,Cascade TF-IDF,ViSoBERT → PhoBERT,0.837,0.849,46,58,0.2806903290341794,1.0,False
+end-to-end – Hold-out,Cascade TF-IDF,ViSoBERT → LLM few-shot,0.837,0.856,44,63,0.08135304820596598,1.0,False
+end-to-end – Hold-out,Cascade TF-IDF,PhoBERT → TF-IDF,0.837,0.822,53,38,0.14179337454474714,1.0,False
+end-to-end – Hold-out,Cascade TF-IDF,PhoBERT → Bi-LSTM + fastText,0.837,0.816,68,47,0.06170860823922408,1.0,False
+end-to-end – Hold-out,Cascade TF-IDF,PhoBERT → ViSoBERT,0.837,0.828,56,47,0.4306890663081309,1.0,False
+end-to-end – Hold-out,Cascade TF-IDF,LLM few-shot → TF-IDF,0.837,0.903,39,105,3.5313070929244723e-08,1.024079056948097e-05,True
+end-to-end – Hold-out,Cascade TF-IDF,LLM few-shot → Bi-LSTM + fastText,0.837,0.897,52,112,3.210891954648186e-06,0.0007963012047527501,True
+end-to-end – Hold-out,Cascade TF-IDF,LLM few-shot → ViSoBERT,0.837,0.904,42,109,4.7647323562432825e-08,1.3722429185980655e-05,True
+end-to-end – Hold-out,Cascade TF-IDF,LLM few-shot → PhoBERT,0.837,0.907,46,116,3.669804141711145e-08,1.0605733969545209e-05,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,Cascade ViSoBERT,0.778,0.849,50,121,5.636664667131665e-08,1.612086094799656e-05,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,Cascade PhoBERT,0.778,0.827,73,122,0.0005531676870034182,0.09901701597361184,False
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,Cascade LLM few-shot,0.778,0.92,34,176,2.719551957070474e-24,1.0279906397726393e-21,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,Phẳng TF-IDF,0.778,0.866,39,127,4.478359908358954e-12,1.5047289292086086e-09,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,Phẳng Bi-LSTM + fastText,0.778,0.872,29,123,5.562319435603261e-15,1.9634987607679512e-12,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,Phẳng ViSoBERT,0.778,0.889,36,147,4.049294693717663e-17,1.465844679125794e-14,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,Phẳng PhoBERT,0.778,0.889,36,147,4.049294693717663e-17,1.465844679125794e-14,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,Phẳng LLM few-shot,0.778,0.903,47,172,6.1071030950598296e-18,2.222985526601778e-15,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,TF-IDF → Bi-LSTM + fastText,0.778,0.832,47,101,1.0683059075368201e-05,0.002457103587334686,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,TF-IDF → ViSoBERT,0.778,0.845,54,121,4.440351869519168e-07,0.00011944546529006562,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,TF-IDF → PhoBERT,0.778,0.843,57,122,1.3332849321178453e-06,0.00033598780289369705,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,Bi-LSTM + fastText → TF-IDF,0.778,0.786,10,18,0.1849333420395851,1.0,False
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,Bi-LSTM + fastText → ViSoBERT,0.778,0.792,8,22,0.016124801710247997,1.0,False
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,Bi-LSTM + fastText → PhoBERT,0.778,0.791,10,23,0.03508203336969018,1.0,False
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,Bi-LSTM + fastText → LLM few-shot,0.778,0.805,6,33,1.429926123819314e-05,0.00318873525611707,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,ViSoBERT → TF-IDF,0.778,0.844,53,119,5.277501979327408e-07,0.00014038155265010908,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,ViSoBERT → Bi-LSTM + fastText,0.778,0.84,44,106,4.399452761880553e-07,0.00011878522457077494,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,ViSoBERT → PhoBERT,0.778,0.849,52,123,8.14781785489015e-08,2.3139802707888026e-05,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,ViSoBERT → LLM few-shot,0.778,0.856,50,128,4.48517899619176e-09,1.3769499518308702e-06,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,PhoBERT → TF-IDF,0.778,0.822,74,118,0.0018388607962488857,0.2978954489923195,False
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,PhoBERT → Bi-LSTM + fastText,0.778,0.816,64,102,0.003946689209713903,0.5920033814570854,False
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,PhoBERT → ViSoBERT,0.778,0.828,71,121,0.00037890547623999814,0.06885838289526172,False
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,LLM few-shot → TF-IDF,0.778,0.903,36,161,4.5250753202768045e-20,1.6788029438226944e-17,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,LLM few-shot → Bi-LSTM + fastText,0.778,0.897,29,148,2.0044148326443045e-20,7.476467325763256e-18,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,LLM few-shot → ViSoBERT,0.778,0.904,36,162,2.7606065907154314e-20,1.0269456517461405e-17,True
+end-to-end – Hold-out,Cascade Bi-LSTM + fastText,LLM few-shot → PhoBERT,0.778,0.907,37,166,1.0455998402174962e-20,3.910543402413436e-18,True
+end-to-end – Hold-out,Cascade ViSoBERT,Cascade PhoBERT,0.849,0.827,64,42,0.0408719706077549,1.0,False
+end-to-end – Hold-out,Cascade ViSoBERT,Cascade LLM few-shot,0.849,0.92,44,115,1.6530481609841425e-08,4.909553038122903e-06,True
+end-to-end – Hold-out,Cascade ViSoBERT,Phẳng TF-IDF,0.849,0.866,43,60,0.11446824201255797,1.0,False
+end-to-end – Hold-out,Cascade ViSoBERT,Phẳng Bi-LSTM + fastText,0.849,0.872,43,66,0.03461537053818671,1.0,False
+end-to-end – Hold-out,Cascade ViSoBERT,Phẳng ViSoBERT,0.849,0.889,17,57,3.3971668169915183e-06,0.000834412678609519,True
+end-to-end – Hold-out,Cascade ViSoBERT,Phẳng PhoBERT,0.849,0.889,28,68,5.459154357711447e-05,0.01135504106403981,True
+end-to-end – Hold-out,Cascade ViSoBERT,Phẳng LLM few-shot,0.849,0.903,59,113,4.65489376895322e-05,0.00972872797711223,True
+end-to-end – Hold-out,Cascade ViSoBERT,TF-IDF → Bi-LSTM + fastText,0.849,0.832,59,42,0.11091834966064006,1.0,False
+end-to-end – Hold-out,Cascade ViSoBERT,TF-IDF → ViSoBERT,0.849,0.845,44,40,0.7436441861052039,1.0,False
+end-to-end – Hold-out,Cascade ViSoBERT,TF-IDF → PhoBERT,0.849,0.843,53,47,0.6172994135892524,1.0,False
+end-to-end – Hold-out,Cascade ViSoBERT,Bi-LSTM + fastText → TF-IDF,0.849,0.786,116,53,1.4138510751828575e-06,0.00035487661987089724,True
+end-to-end – Hold-out,Cascade ViSoBERT,Bi-LSTM + fastText → ViSoBERT,0.849,0.792,106,49,5.444474437808374e-06,0.001295784916198393,True
+end-to-end – Hold-out,Cascade ViSoBERT,Bi-LSTM + fastText → PhoBERT,0.849,0.791,115,57,1.1573926946530593e-05,0.0026272814168624447,True
+end-to-end – Hold-out,Cascade ViSoBERT,Bi-LSTM + fastText → LLM few-shot,0.849,0.805,110,66,0.0011293179113721359,0.18972540911051883,False
+end-to-end – Hold-out,Cascade ViSoBERT,ViSoBERT → TF-IDF,0.849,0.844,10,5,0.30175781249999994,1.0,False
+end-to-end – Hold-out,Cascade ViSoBERT,ViSoBERT → Bi-LSTM + fastText,0.849,0.84,16,7,0.0931396484375,1.0,False
+end-to-end – Hold-out,Cascade ViSoBERT,ViSoBERT → PhoBERT,0.849,0.849,9,9,1.0,1.0,False
+end-to-end – Hold-out,Cascade ViSoBERT,ViSoBERT → LLM few-shot,0.849,0.856,5,12,0.143463134765625,1.0,False
+end-to-end – Hold-out,Cascade ViSoBERT,PhoBERT → TF-IDF,0.849,0.822,65,38,0.010063333265586338,1.0,False
+end-to-end – Hold-out,Cascade ViSoBERT,PhoBERT → Bi-LSTM + fastText,0.849,0.816,70,37,0.0018401240468733455,0.2978954489923195,False
+end-to-end – Hold-out,Cascade ViSoBERT,PhoBERT → ViSoBERT,0.849,0.828,55,34,0.03341672160209761,1.0,False
+end-to-end – Hold-out,Cascade ViSoBERT,LLM few-shot → TF-IDF,0.849,0.903,49,103,1.4119459050488046e-05,0.0031627588273093225,True
+end-to-end – Hold-out,Cascade ViSoBERT,LLM few-shot → Bi-LSTM + fastText,0.849,0.897,56,104,0.0001830964945136508,0.035154526946620954,True
+end-to-end – Hold-out,Cascade ViSoBERT,LLM few-shot → ViSoBERT,0.849,0.904,41,96,2.954895419097392e-06,0.0007357689593552507,True
+end-to-end – Hold-out,Cascade ViSoBERT,LLM few-shot → PhoBERT,0.849,0.907,49,107,3.940596212087979e-06,0.0009575648795373789,True
+end-to-end – Hold-out,Cascade PhoBERT,Cascade LLM few-shot,0.827,0.92,44,137,2.5978547665788375e-12,8.780749111036471e-10,True
+end-to-end – Hold-out,Cascade PhoBERT,Phẳng TF-IDF,0.827,0.866,46,85,0.0008320420945381633,0.14477532444964042,False
+end-to-end – Hold-out,Cascade PhoBERT,Phẳng Bi-LSTM + fastText,0.827,0.872,48,93,0.00018818083935730526,0.035754359477888,True
+end-to-end – Hold-out,Cascade PhoBERT,Phẳng ViSoBERT,0.827,0.889,38,100,1.288481661903929e-07,3.594863836711962e-05,True
+end-to-end – Hold-out,Cascade PhoBERT,Phẳng PhoBERT,0.827,0.889,28,90,8.91404529441691e-09,2.692041678913907e-06,True
+end-to-end – Hold-out,Cascade PhoBERT,Phẳng LLM few-shot,0.827,0.903,56,132,2.9487792919982617e-08,8.639923325554907e-06,True
+end-to-end – Hold-out,Cascade PhoBERT,TF-IDF → Bi-LSTM + fastText,0.827,0.832,57,62,0.7140263124847863,1.0,False
+end-to-end – Hold-out,Cascade PhoBERT,TF-IDF → ViSoBERT,0.827,0.845,44,62,0.09824250442243816,1.0,False
+end-to-end – Hold-out,Cascade PhoBERT,TF-IDF → PhoBERT,0.827,0.843,38,54,0.11737015883134433,1.0,False
+end-to-end – Hold-out,Cascade PhoBERT,Bi-LSTM + fastText → TF-IDF,0.827,0.786,115,74,0.003508139931872323,0.5297291297127208,False
+end-to-end – Hold-out,Cascade PhoBERT,Bi-LSTM + fastText → ViSoBERT,0.827,0.792,110,75,0.01222063657146653,1.0,False
+end-to-end – Hold-out,Cascade PhoBERT,Bi-LSTM + fastText → PhoBERT,0.827,0.791,102,66,0.0067513691632054736,0.9654457903383827,False
+end-to-end – Hold-out,Cascade PhoBERT,Bi-LSTM + fastText → LLM few-shot,0.827,0.805,108,86,0.13141731350102198,1.0,False
+end-to-end – Hold-out,Cascade PhoBERT,ViSoBERT → TF-IDF,0.827,0.844,44,61,0.11799998150585828,1.0,False
+end-to-end – Hold-out,Cascade PhoBERT,ViSoBERT → Bi-LSTM + fastText,0.827,0.84,49,62,0.2546051230937938,1.0,False
+end-to-end – Hold-out,Cascade PhoBERT,ViSoBERT → PhoBERT,0.827,0.849,33,55,0.024622831581791033,1.0,False
+end-to-end – Hold-out,Cascade PhoBERT,ViSoBERT → LLM few-shot,0.827,0.856,41,70,0.0075848117754316186,1.0,False
+end-to-end – Hold-out,Cascade PhoBERT,PhoBERT → TF-IDF,0.827,0.822,13,8,0.38331031799316406,1.0,False
+end-to-end – Hold-out,Cascade PhoBERT,PhoBERT → Bi-LSTM + fastText,0.827,0.816,21,10,0.07075554598122835,1.0,False
+end-to-end – Hold-out,Cascade PhoBERT,PhoBERT → ViSoBERT,0.827,0.828,9,10,1.0,1.0,False
+end-to-end – Hold-out,Cascade PhoBERT,LLM few-shot → TF-IDF,0.827,0.903,48,124,6.127842029861934e-09,1.86899181910789e-06,True
+end-to-end – Hold-out,Cascade PhoBERT,LLM few-shot → Bi-LSTM + fastText,0.827,0.897,56,126,2.2566926168910223e-07,6.228471622619222e-05,True
+end-to-end – Hold-out,Cascade PhoBERT,LLM few-shot → ViSoBERT,0.827,0.904,47,124,3.378075009363188e-09,1.040447102883862e-06,True
+end-to-end – Hold-out,Cascade PhoBERT,LLM few-shot → PhoBERT,0.827,0.907,38,118,9.738534504771362e-11,3.1650237140506925e-08,True
+end-to-end – Hold-out,Cascade LLM few-shot,Phẳng TF-IDF,0.92,0.866,97,43,5.815464798668522e-06,0.001372116174680853,True
+end-to-end – Hold-out,Cascade LLM few-shot,Phẳng Bi-LSTM + fastText,0.92,0.872,88,40,2.6629957497431377e-05,0.005778700776942609,True
+end-to-end – Hold-out,Cascade LLM few-shot,Phẳng ViSoBERT,0.92,0.889,81,50,0.008511369817291866,1.0,False
+end-to-end – Hold-out,Cascade LLM few-shot,Phẳng PhoBERT,0.92,0.889,77,46,0.006591004048877892,0.9491045830384165,False
+end-to-end – Hold-out,Cascade LLM few-shot,Phẳng LLM few-shot,0.92,0.903,35,18,0.027008317653722358,1.0,False
+end-to-end – Hold-out,Cascade LLM few-shot,TF-IDF → Bi-LSTM + fastText,0.92,0.832,132,44,2.0630091377688624e-11,6.849190337392623e-09,True
+end-to-end – Hold-out,Cascade LLM few-shot,TF-IDF → ViSoBERT,0.92,0.845,120,45,4.569295209452768e-09,1.3982043340925469e-06,True
+end-to-end – Hold-out,Cascade LLM few-shot,TF-IDF → PhoBERT,0.92,0.843,123,46,2.687937404218366e-09,8.305726579034752e-07,True
+end-to-end – Hold-out,Cascade LLM few-shot,Bi-LSTM + fastText → TF-IDF,0.92,0.786,166,32,5.14050212845931e-23,1.9379693024291598e-20,True
+end-to-end – Hold-out,Cascade LLM few-shot,Bi-LSTM + fastText → ViSoBERT,0.92,0.792,163,35,6.040336990293093e-21,2.271166708350203e-18,True
+end-to-end – Hold-out,Cascade LLM few-shot,Bi-LSTM + fastText → PhoBERT,0.92,0.791,165,36,6.2275002818055846e-21,2.335312605677094e-18,True
+end-to-end – Hold-out,Cascade LLM few-shot,Bi-LSTM + fastText → LLM few-shot,0.92,0.805,148,33,1.3690660276896367e-18,5.01078166134407e-16,True
+end-to-end – Hold-out,Cascade LLM few-shot,ViSoBERT → TF-IDF,0.92,0.844,119,43,1.928925315805293e-09,6.018246985312515e-07,True
+end-to-end – Hold-out,Cascade LLM few-shot,ViSoBERT → Bi-LSTM + fastText,0.92,0.84,126,46,8.489989677999222e-10,2.682836738247754e-07,True
+end-to-end – Hold-out,Cascade LLM few-shot,ViSoBERT → PhoBERT,0.92,0.849,117,46,2.5432025248912547e-08,7.5024474484292015e-06,True
+end-to-end – Hold-out,Cascade LLM few-shot,ViSoBERT → LLM few-shot,0.92,0.856,103,39,7.570125632548754e-08,2.1574858052763946e-05,True
+end-to-end – Hold-out,Cascade LLM few-shot,PhoBERT → TF-IDF,0.92,0.822,139,41,1.1466990092675576e-13,3.979045562158425e-11,True
+end-to-end – Hold-out,Cascade LLM few-shot,PhoBERT → Bi-LSTM + fastText,0.92,0.816,147,43,1.6584652325034702e-14,5.8046283137621455e-12,True
+end-to-end – Hold-out,Cascade LLM few-shot,PhoBERT → ViSoBERT,0.92,0.828,135,43,2.910235422099417e-12,9.807493372475035e-10,True
+end-to-end – Hold-out,Cascade LLM few-shot,LLM few-shot → TF-IDF,0.92,0.903,21,4,0.0009105205535888672,0.15660953521728516,False
+end-to-end – Hold-out,Cascade LLM few-shot,LLM few-shot → Bi-LSTM + fastText,0.92,0.897,29,6,0.0001168418675661087,0.02266732230782509,True
+end-to-end – Hold-out,Cascade LLM few-shot,LLM few-shot → ViSoBERT,0.92,0.904,19,3,0.0008554458618164062,0.14799213409423828,False
+end-to-end – Hold-out,Cascade LLM few-shot,LLM few-shot → PhoBERT,0.92,0.907,19,6,0.01463329792022705,1.0,False
+end-to-end – Hold-out,Phẳng TF-IDF,Phẳng Bi-LSTM + fastText,0.866,0.872,43,49,0.6024122776961507,1.0,False
+end-to-end – Hold-out,Phẳng TF-IDF,Phẳng ViSoBERT,0.866,0.889,32,55,0.017827552929735955,1.0,False
+end-to-end – Hold-out,Phẳng TF-IDF,Phẳng PhoBERT,0.866,0.889,33,56,0.01918660866014698,1.0,False
+end-to-end – Hold-out,Phẳng TF-IDF,Phẳng LLM few-shot,0.866,0.903,61,98,0.0041584730647820384,0.6196124866525238,False
+end-to-end – Hold-out,Phẳng TF-IDF,TF-IDF → Bi-LSTM + fastText,0.866,0.832,68,34,0.000986536808184603,0.16809787300869866,False
+end-to-end – Hold-out,Phẳng TF-IDF,TF-IDF → ViSoBERT,0.866,0.845,62,41,0.048233652170997086,1.0,False
+end-to-end – Hold-out,Phẳng TF-IDF,TF-IDF → PhoBERT,0.866,0.843,64,41,0.031301784575540004,1.0,False
+end-to-end – Hold-out,Phẳng TF-IDF,Bi-LSTM + fastText → TF-IDF,0.866,0.786,121,41,2.3218681058697947e-10,7.47641530090074e-08,True
+end-to-end – Hold-out,Phẳng TF-IDF,Bi-LSTM + fastText → ViSoBERT,0.866,0.792,122,48,1.2833414237744779e-08,3.837190857085689e-06,True
+end-to-end – Hold-out,Phẳng TF-IDF,Bi-LSTM + fastText → PhoBERT,0.866,0.791,124,49,1.0953963739308647e-08,3.297143085531903e-06,True
+end-to-end – Hold-out,Phẳng TF-IDF,Bi-LSTM + fastText → LLM few-shot,0.866,0.805,122,61,7.655797273791237e-06,0.0017914565620671496,True
+end-to-end – Hold-out,Phẳng TF-IDF,ViSoBERT → TF-IDF,0.866,0.844,60,38,0.03336002889694201,1.0,False
+end-to-end – Hold-out,Phẳng TF-IDF,ViSoBERT → Bi-LSTM + fastText,0.866,0.84,66,40,0.01477941051703841,1.0,False
+end-to-end – Hold-out,Phẳng TF-IDF,ViSoBERT → PhoBERT,0.866,0.849,62,45,0.12151242187624432,1.0,False
+end-to-end – Hold-out,Phẳng TF-IDF,ViSoBERT → LLM few-shot,0.866,0.856,61,51,0.39519335735782335,1.0,False
+end-to-end – Hold-out,Phẳng TF-IDF,PhoBERT → TF-IDF,0.866,0.822,82,38,7.291502428713535e-05,0.014655919881714205,True
+end-to-end – Hold-out,Phẳng TF-IDF,PhoBERT → Bi-LSTM + fastText,0.866,0.816,89,39,1.1653734361916332e-05,0.0026272814168624447,True
+end-to-end – Hold-out,Phẳng TF-IDF,PhoBERT → ViSoBERT,0.866,0.828,83,45,0.0009959968742712633,0.1683234717518435,False
+end-to-end – Hold-out,Phẳng TF-IDF,LLM few-shot → TF-IDF,0.866,0.903,42,79,0.0009830284971268928,0.16809787300869866,False
+end-to-end – Hold-out,Phẳng TF-IDF,LLM few-shot → Bi-LSTM + fastText,0.866,0.897,49,80,0.008007673208090864,1.0,False
+end-to-end – Hold-out,Phẳng TF-IDF,LLM few-shot → ViSoBERT,0.866,0.904,43,81,0.0008202604148752635,0.14354557260317113,False
+end-to-end – Hold-out,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.866,0.907,45,86,0.0004305357384844261,0.0774964329271967,False
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,Phẳng ViSoBERT,0.872,0.889,31,48,0.07116340869529121,1.0,False
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,Phẳng PhoBERT,0.872,0.889,30,47,0.06754925145902677,1.0,False
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,Phẳng LLM few-shot,0.872,0.903,59,90,0.013712033079849199,1.0,False
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,TF-IDF → Bi-LSTM + fastText,0.872,0.832,78,38,0.00025826102405589305,0.048294811498452,True
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,TF-IDF → ViSoBERT,0.872,0.845,76,49,0.019677394492866023,1.0,False
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,TF-IDF → PhoBERT,0.872,0.843,78,49,0.012660684520477253,1.0,False
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,Bi-LSTM + fastText → TF-IDF,0.872,0.786,125,39,1.0535726728912257e-11,3.5189327274566938e-09,True
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,Bi-LSTM + fastText → ViSoBERT,0.872,0.792,121,41,2.3218681058697947e-10,7.47641530090074e-08,True
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,Bi-LSTM + fastText → PhoBERT,0.872,0.791,123,42,2.039271801417328e-10,6.586847918577969e-08,True
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,Bi-LSTM + fastText → LLM few-shot,0.872,0.805,122,55,5.194305648357304e-07,0.00013868796081114004,True
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,ViSoBERT → TF-IDF,0.872,0.844,69,41,0.00972219403941885,1.0,False
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,ViSoBERT → Bi-LSTM + fastText,0.872,0.84,68,36,0.0022094328919877613,0.35129982982605407,False
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,ViSoBERT → PhoBERT,0.872,0.849,68,45,0.03801864558279637,1.0,False
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,ViSoBERT → LLM few-shot,0.872,0.856,67,51,0.16705111417380156,1.0,False
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,PhoBERT → TF-IDF,0.872,0.822,95,45,2.8775745476269804e-05,0.006215561022874278,True
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,PhoBERT → Bi-LSTM + fastText,0.872,0.816,93,37,9.701935109114767e-07,0.00025030992581516096,True
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,PhoBERT → ViSoBERT,0.872,0.828,91,47,0.0002253002213731785,0.042356441618157555,True
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,LLM few-shot → TF-IDF,0.872,0.903,41,72,0.004553556466032558,0.6739263569728187,False
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,LLM few-shot → Bi-LSTM + fastText,0.872,0.897,41,66,0.019900380254468726,1.0,False
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,LLM few-shot → ViSoBERT,0.872,0.904,39,71,0.002943638859345205,0.45332038433916155,False
+end-to-end – Hold-out,Phẳng Bi-LSTM + fastText,LLM few-shot → PhoBERT,0.872,0.907,40,75,0.001412957498607674,0.23313798727026622,False
+end-to-end – Hold-out,Phẳng ViSoBERT,Phẳng PhoBERT,0.889,0.889,35,35,1.0,1.0,False
+end-to-end – Hold-out,Phẳng ViSoBERT,Phẳng LLM few-shot,0.889,0.903,69,83,0.2916544513344343,1.0,False
+end-to-end – Hold-out,Phẳng ViSoBERT,TF-IDF → Bi-LSTM + fastText,0.889,0.832,92,35,4.3609050114827153e-07,0.00011818052581118158,True
+end-to-end – Hold-out,Phẳng ViSoBERT,TF-IDF → ViSoBERT,0.889,0.845,83,39,8.407391840775641e-05,0.01664663584473577,True
+end-to-end – Hold-out,Phẳng ViSoBERT,TF-IDF → PhoBERT,0.889,0.843,87,41,5.877404617853744e-05,0.012048679466600175,True
+end-to-end – Hold-out,Phẳng ViSoBERT,Bi-LSTM + fastText → TF-IDF,0.889,0.786,144,41,1.2566577633860153e-14,4.4108687494849135e-12,True
+end-to-end – Hold-out,Phẳng ViSoBERT,Bi-LSTM + fastText → ViSoBERT,0.889,0.792,137,40,1.252700324341673e-13,4.3218161189787724e-11,True
+end-to-end – Hold-out,Phẳng ViSoBERT,Bi-LSTM + fastText → PhoBERT,0.889,0.791,141,43,2.261095507579769e-13,7.778168546074405e-11,True
+end-to-end – Hold-out,Phẳng ViSoBERT,Bi-LSTM + fastText → LLM few-shot,0.889,0.805,138,54,1.1470962400513951e-09,3.5904112313608666e-07,True
+end-to-end – Hold-out,Phẳng ViSoBERT,ViSoBERT → TF-IDF,0.889,0.844,64,19,7.391531707333846e-07,0.00019365813073214677,True
+end-to-end – Hold-out,Phẳng ViSoBERT,ViSoBERT → Bi-LSTM + fastText,0.889,0.84,67,18,8.412315212060281e-08,2.3806852050130597e-05,True
+end-to-end – Hold-out,Phẳng ViSoBERT,ViSoBERT → PhoBERT,0.889,0.849,61,21,1.1296023055413025e-05,0.00257549325663417,True
+end-to-end – Hold-out,Phẳng ViSoBERT,ViSoBERT → LLM few-shot,0.889,0.856,58,25,0.0003783427631607787,0.06885838289526172,False
+end-to-end – Hold-out,Phẳng ViSoBERT,PhoBERT → TF-IDF,0.889,0.822,103,36,1.1346454434190287e-08,3.403936330257086e-06,True
+end-to-end – Hold-out,Phẳng ViSoBERT,PhoBERT → Bi-LSTM + fastText,0.889,0.816,105,32,2.876303627501573e-10,9.175408571730017e-08,True
+end-to-end – Hold-out,Phẳng ViSoBERT,PhoBERT → ViSoBERT,0.889,0.828,96,35,9.39531721168893e-08,2.6494794536962784e-05,True
+end-to-end – Hold-out,Phẳng ViSoBERT,LLM few-shot → TF-IDF,0.889,0.903,55,69,0.24292283198051137,1.0,False
+end-to-end – Hold-out,Phẳng ViSoBERT,LLM few-shot → Bi-LSTM + fastText,0.889,0.897,60,68,0.5362687140711067,1.0,False
+end-to-end – Hold-out,Phẳng ViSoBERT,LLM few-shot → ViSoBERT,0.889,0.904,50,65,0.19149593512028115,1.0,False
+end-to-end – Hold-out,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.889,0.907,53,71,0.12651005632185555,1.0,False
+end-to-end – Hold-out,Phẳng PhoBERT,Phẳng LLM few-shot,0.889,0.903,59,73,0.2577610878432543,1.0,False
+end-to-end – Hold-out,Phẳng PhoBERT,TF-IDF → Bi-LSTM + fastText,0.889,0.832,91,34,3.4738008828470623e-07,9.552952427829421e-05,True
+end-to-end – Hold-out,Phẳng PhoBERT,TF-IDF → ViSoBERT,0.889,0.845,84,40,9.647810477888551e-05,0.019006186641440447,True
+end-to-end – Hold-out,Phẳng PhoBERT,TF-IDF → PhoBERT,0.889,0.843,84,38,3.7918806329133446e-05,0.00803878694177629,True
+end-to-end – Hold-out,Phẳng PhoBERT,Bi-LSTM + fastText → TF-IDF,0.889,0.786,143,40,8.659329081936302e-15,3.0480838368415782e-12,True
+end-to-end – Hold-out,Phẳng PhoBERT,Bi-LSTM + fastText → ViSoBERT,0.889,0.792,140,43,3.4756768662801853e-13,1.1921571651341036e-10,True
+end-to-end – Hold-out,Phẳng PhoBERT,Bi-LSTM + fastText → PhoBERT,0.889,0.791,139,41,1.1466990092675576e-13,3.979045562158425e-11,True
+end-to-end – Hold-out,Phẳng PhoBERT,Bi-LSTM + fastText → LLM few-shot,0.889,0.805,137,53,9.258720231217143e-10,2.907238152602183e-07,True
+end-to-end – Hold-out,Phẳng PhoBERT,ViSoBERT → TF-IDF,0.889,0.844,71,26,5.458552817605789e-06,0.001295784916198393,True
+end-to-end – Hold-out,Phẳng PhoBERT,ViSoBERT → Bi-LSTM + fastText,0.889,0.84,73,24,6.404732398670512e-07,0.0001690849353249015,True
+end-to-end – Hold-out,Phẳng PhoBERT,ViSoBERT → PhoBERT,0.889,0.849,66,26,3.6700459237994134e-05,0.007853898276930744,True
+end-to-end – Hold-out,Phẳng PhoBERT,ViSoBERT → LLM few-shot,0.889,0.856,66,33,0.0011852314254676957,0.19793364805310518,False
+end-to-end – Hold-out,Phẳng PhoBERT,PhoBERT → TF-IDF,0.889,0.822,94,27,7.135074175145182e-10,2.2618185135210227e-07,True
+end-to-end – Hold-out,Phẳng PhoBERT,PhoBERT → Bi-LSTM + fastText,0.889,0.816,97,24,1.3442945758766515e-11,4.47650093766925e-09,True
+end-to-end – Hold-out,Phẳng PhoBERT,PhoBERT → ViSoBERT,0.889,0.828,92,31,3.3173529174399884e-08,9.653496989750366e-06,True
+end-to-end – Hold-out,Phẳng PhoBERT,LLM few-shot → TF-IDF,0.889,0.903,52,66,0.23126568219748722,1.0,False
+end-to-end – Hold-out,Phẳng PhoBERT,LLM few-shot → Bi-LSTM + fastText,0.889,0.897,56,64,0.5229909838899941,1.0,False
+end-to-end – Hold-out,Phẳng PhoBERT,LLM few-shot → ViSoBERT,0.889,0.904,50,65,0.19149593512028115,1.0,False
+end-to-end – Hold-out,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.889,0.907,48,66,0.11093931188461242,1.0,False
+end-to-end – Hold-out,Phẳng LLM few-shot,TF-IDF → Bi-LSTM + fastText,0.903,0.832,127,56,1.6165937834100117e-07,4.4779647800457325e-05,True
+end-to-end – Hold-out,Phẳng LLM few-shot,TF-IDF → ViSoBERT,0.903,0.845,115,57,1.1573926946530593e-05,0.0026272814168624447,True
+end-to-end – Hold-out,Phẳng LLM few-shot,TF-IDF → PhoBERT,0.903,0.843,119,59,8.10958379660117e-06,0.0018895330246080724,True
+end-to-end – Hold-out,Phẳng LLM few-shot,Bi-LSTM + fastText → TF-IDF,0.903,0.786,162,45,1.0542698300415469e-16,3.7848286898491534e-14,True
+end-to-end – Hold-out,Phẳng LLM few-shot,Bi-LSTM + fastText → ViSoBERT,0.903,0.792,158,47,3.1171162689852085e-15,1.106576275489749e-12,True
+end-to-end – Hold-out,Phẳng LLM few-shot,Bi-LSTM + fastText → PhoBERT,0.903,0.791,161,49,3.9745446887987384e-15,1.4069888198347534e-12,True
+end-to-end – Hold-out,Phẳng LLM few-shot,Bi-LSTM + fastText → LLM few-shot,0.903,0.805,147,49,1.4303853572223642e-12,4.863310214556038e-10,True
+end-to-end – Hold-out,Phẳng LLM few-shot,ViSoBERT → TF-IDF,0.903,0.844,118,59,1.0924253348452066e-05,0.002501654016795523,True
+end-to-end – Hold-out,Phẳng LLM few-shot,ViSoBERT → Bi-LSTM + fastText,0.903,0.84,123,60,3.7142246405723524e-06,0.000906270812299654,True
+end-to-end – Hold-out,Phẳng LLM few-shot,ViSoBERT → PhoBERT,0.903,0.849,116,62,6.309452312515485e-05,0.01287128271753159,True
+end-to-end – Hold-out,Phẳng LLM few-shot,ViSoBERT → LLM few-shot,0.903,0.856,106,59,0.0003144409965485084,0.05785714336492555,False
+end-to-end – Hold-out,Phẳng LLM few-shot,PhoBERT → TF-IDF,0.903,0.822,133,52,2.2675375242635667e-09,7.029366325217057e-07,True
+end-to-end – Hold-out,Phẳng LLM few-shot,PhoBERT → Bi-LSTM + fastText,0.903,0.816,140,53,3.012267287131611e-10,9.579009973078522e-08,True
+end-to-end – Hold-out,Phẳng LLM few-shot,PhoBERT → ViSoBERT,0.903,0.828,129,54,2.9071977252339297e-08,8.547161312187754e-06,True
+end-to-end – Hold-out,Phẳng LLM few-shot,LLM few-shot → TF-IDF,0.903,0.903,33,33,1.0,1.0,False
+end-to-end – Hold-out,Phẳng LLM few-shot,LLM few-shot → Bi-LSTM + fastText,0.903,0.897,41,35,0.566573442398685,1.0,False
+end-to-end – Hold-out,Phẳng LLM few-shot,LLM few-shot → ViSoBERT,0.903,0.904,32,33,1.0,1.0,False
+end-to-end – Hold-out,Phẳng LLM few-shot,LLM few-shot → PhoBERT,0.903,0.907,32,36,0.716300760154337,1.0,False
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,TF-IDF → ViSoBERT,0.832,0.845,8,21,0.0241195447742939,1.0,False
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,TF-IDF → PhoBERT,0.832,0.843,10,21,0.07075554598122835,1.0,False
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,Bi-LSTM + fastText → TF-IDF,0.832,0.786,111,65,0.0006513359088043828,0.11463511994957137,False
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,Bi-LSTM + fastText → ViSoBERT,0.832,0.792,108,68,0.0031719670751109417,0.4853109624919741,False
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,Bi-LSTM + fastText → PhoBERT,0.832,0.791,111,70,0.0028441556290590055,0.44084412250414584,False
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,Bi-LSTM + fastText → LLM few-shot,0.832,0.805,107,80,0.05697078139259504,1.0,False
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,ViSoBERT → TF-IDF,0.832,0.844,46,58,0.2806903290341794,1.0,False
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,ViSoBERT → Bi-LSTM + fastText,0.832,0.84,37,45,0.439705429185822,1.0,False
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,ViSoBERT → PhoBERT,0.832,0.849,45,62,0.12151242187624432,1.0,False
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,ViSoBERT → LLM few-shot,0.832,0.856,44,68,0.02930222297163282,1.0,False
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,PhoBERT → TF-IDF,0.832,0.822,63,53,0.40346969965531143,1.0,False
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,PhoBERT → Bi-LSTM + fastText,0.832,0.816,53,37,0.11334435404342058,1.0,False
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,PhoBERT → ViSoBERT,0.832,0.828,59,55,0.7788760920027009,1.0,False
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,LLM few-shot → TF-IDF,0.832,0.903,47,118,3.1276053457639224e-08,9.132607609630653e-06,True
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,LLM few-shot → Bi-LSTM + fastText,0.832,0.897,39,104,5.1767516831417665e-08,1.485727733061687e-05,True
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,LLM few-shot → ViSoBERT,0.832,0.904,46,118,1.758433022576498e-08,5.204961746826434e-06,True
+end-to-end – Hold-out,TF-IDF → Bi-LSTM + fastText,LLM few-shot → PhoBERT,0.832,0.907,47,122,7.155670321734665e-09,2.175323777807338e-06,True
+end-to-end – Hold-out,TF-IDF → ViSoBERT,TF-IDF → PhoBERT,0.845,0.843,10,8,0.8145294189453125,1.0,False
+end-to-end – Hold-out,TF-IDF → ViSoBERT,Bi-LSTM + fastText → TF-IDF,0.845,0.786,113,54,5.814051587630733e-06,0.001372116174680853,True
+end-to-end – Hold-out,TF-IDF → ViSoBERT,Bi-LSTM + fastText → ViSoBERT,0.845,0.792,101,48,1.686698220496267e-05,0.0037276030672967505,True
+end-to-end – Hold-out,TF-IDF → ViSoBERT,Bi-LSTM + fastText → PhoBERT,0.845,0.791,111,57,3.753839935862718e-05,0.007995679063387589,True
+end-to-end – Hold-out,TF-IDF → ViSoBERT,Bi-LSTM + fastText → LLM few-shot,0.845,0.805,105,65,0.0026729841386087133,0.41698552562295926,False
+end-to-end – Hold-out,TF-IDF → ViSoBERT,ViSoBERT → TF-IDF,0.845,0.844,50,49,1.0,1.0,False
+end-to-end – Hold-out,TF-IDF → ViSoBERT,ViSoBERT → Bi-LSTM + fastText,0.845,0.84,55,50,0.6964676629916763,1.0,False
+end-to-end – Hold-out,TF-IDF → ViSoBERT,ViSoBERT → PhoBERT,0.845,0.849,49,53,0.7666042612518518,1.0,False
+end-to-end – Hold-out,TF-IDF → ViSoBERT,ViSoBERT → LLM few-shot,0.845,0.856,45,56,0.31972732070026566,1.0,False
+end-to-end – Hold-out,TF-IDF → ViSoBERT,PhoBERT → TF-IDF,0.845,0.822,64,41,0.031301784575540004,1.0,False
+end-to-end – Hold-out,TF-IDF → ViSoBERT,PhoBERT → Bi-LSTM + fastText,0.845,0.816,72,43,0.008735108684333172,1.0,False
+end-to-end – Hold-out,TF-IDF → ViSoBERT,PhoBERT → ViSoBERT,0.845,0.828,52,35,0.08568897435916664,1.0,False
+end-to-end – Hold-out,TF-IDF → ViSoBERT,LLM few-shot → TF-IDF,0.845,0.903,50,108,4.565478697279807e-06,0.0010957148873471537,True
+end-to-end – Hold-out,TF-IDF → ViSoBERT,LLM few-shot → Bi-LSTM + fastText,0.845,0.897,59,111,8.152473202823977e-05,0.016304946405647953,True
+end-to-end – Hold-out,TF-IDF → ViSoBERT,LLM few-shot → ViSoBERT,0.845,0.904,42,101,8.743063477348701e-07,0.00022731965041106623,True
+end-to-end – Hold-out,TF-IDF → ViSoBERT,LLM few-shot → PhoBERT,0.845,0.907,50,112,1.2360602836017048e-06,0.000313959312034833,True
+end-to-end – Hold-out,TF-IDF → PhoBERT,Bi-LSTM + fastText → TF-IDF,0.843,0.786,116,59,1.9666787562534974e-05,0.004307026476195159,True
+end-to-end – Hold-out,TF-IDF → PhoBERT,Bi-LSTM + fastText → ViSoBERT,0.843,0.792,109,58,9.739104814301322e-05,0.01908864543603059,True
+end-to-end – Hold-out,TF-IDF → PhoBERT,Bi-LSTM + fastText → PhoBERT,0.843,0.791,102,50,2.9829760854549535e-05,0.00641339858372815,True
+end-to-end – Hold-out,TF-IDF → PhoBERT,Bi-LSTM + fastText → LLM few-shot,0.843,0.805,108,70,0.005401032973247592,0.7885508140941484,False
+end-to-end – Hold-out,TF-IDF → PhoBERT,ViSoBERT → TF-IDF,0.843,0.844,52,53,1.0,1.0,False
+end-to-end – Hold-out,TF-IDF → PhoBERT,ViSoBERT → Bi-LSTM + fastText,0.843,0.84,56,53,0.8481947835965664,1.0,False
+end-to-end – Hold-out,TF-IDF → PhoBERT,ViSoBERT → PhoBERT,0.843,0.849,41,47,0.5942882951469399,1.0,False
+end-to-end – Hold-out,TF-IDF → PhoBERT,ViSoBERT → LLM few-shot,0.843,0.856,48,61,0.2502820046919219,1.0,False
+end-to-end – Hold-out,TF-IDF → PhoBERT,PhoBERT → TF-IDF,0.843,0.822,67,46,0.05943072721456748,1.0,False
+end-to-end – Hold-out,TF-IDF → PhoBERT,PhoBERT → Bi-LSTM + fastText,0.843,0.816,73,46,0.01678632911847821,1.0,False
+end-to-end – Hold-out,TF-IDF → PhoBERT,PhoBERT → ViSoBERT,0.843,0.828,60,45,0.1715646971542421,1.0,False
+end-to-end – Hold-out,TF-IDF → PhoBERT,LLM few-shot → TF-IDF,0.843,0.903,52,112,3.210891954648186e-06,0.0007963012047527501,True
+end-to-end – Hold-out,TF-IDF → PhoBERT,LLM few-shot → Bi-LSTM + fastText,0.843,0.897,58,112,4.185598300611105e-05,0.00878975643128332,True
+end-to-end – Hold-out,TF-IDF → PhoBERT,LLM few-shot → ViSoBERT,0.843,0.904,48,109,1.2506374957811932e-06,0.0003164112864326419,True
+end-to-end – Hold-out,TF-IDF → PhoBERT,LLM few-shot → PhoBERT,0.843,0.907,41,105,1.1730437087592558e-07,3.2845223845259163e-05,True
+end-to-end – Hold-out,Bi-LSTM + fastText → TF-IDF,Bi-LSTM + fastText → ViSoBERT,0.786,0.792,6,12,0.237884521484375,1.0,False
+end-to-end – Hold-out,Bi-LSTM + fastText → TF-IDF,Bi-LSTM + fastText → PhoBERT,0.786,0.791,9,14,0.4048728942871094,1.0,False
+end-to-end – Hold-out,Bi-LSTM + fastText → TF-IDF,Bi-LSTM + fastText → LLM few-shot,0.786,0.805,3,22,0.00015652179718017578,0.030208706855773926,True
+end-to-end – Hold-out,Bi-LSTM + fastText → TF-IDF,ViSoBERT → TF-IDF,0.786,0.844,49,107,3.940596212087979e-06,0.0009575648795373789,True
+end-to-end – Hold-out,Bi-LSTM + fastText → TF-IDF,ViSoBERT → Bi-LSTM + fastText,0.786,0.84,61,115,5.714635683054479e-05,0.011829295863922772,True
+end-to-end – Hold-out,Bi-LSTM + fastText → TF-IDF,ViSoBERT → PhoBERT,0.786,0.849,55,118,1.8946472095137548e-06,0.0004736618023784387,True
+end-to-end – Hold-out,Bi-LSTM + fastText → TF-IDF,ViSoBERT → LLM few-shot,0.786,0.856,52,122,1.1516772913492057e-07,3.236213188691268e-05,True
+end-to-end – Hold-out,Bi-LSTM + fastText → TF-IDF,PhoBERT → TF-IDF,0.786,0.822,66,102,0.0067513691632054736,0.9654457903383827,False
+end-to-end – Hold-out,Bi-LSTM + fastText → TF-IDF,PhoBERT → Bi-LSTM + fastText,0.786,0.816,82,112,0.03706191404782612,1.0,False
+end-to-end – Hold-out,Bi-LSTM + fastText → TF-IDF,PhoBERT → ViSoBERT,0.786,0.828,71,113,0.002414157684001138,0.37902275638817867,False
+end-to-end – Hold-out,Bi-LSTM + fastText → TF-IDF,LLM few-shot → TF-IDF,0.786,0.903,29,146,5.617395061721305e-20,2.078436172836883e-17,True
+end-to-end – Hold-out,Bi-LSTM + fastText → TF-IDF,LLM few-shot → Bi-LSTM + fastText,0.786,0.897,44,155,1.0692982222738554e-15,3.806701671294925e-13,True
+end-to-end – Hold-out,Bi-LSTM + fastText → TF-IDF,LLM few-shot → ViSoBERT,0.786,0.904,34,152,5.178012545775744e-19,1.900330604299698e-16,True
+end-to-end – Hold-out,Bi-LSTM + fastText → TF-IDF,LLM few-shot → PhoBERT,0.786,0.907,36,157,3.2304174172360887e-19,1.1887936095428806e-16,True
+end-to-end – Hold-out,Bi-LSTM + fastText → ViSoBERT,Bi-LSTM + fastText → PhoBERT,0.792,0.791,10,9,1.0,1.0,False
+end-to-end – Hold-out,Bi-LSTM + fastText → ViSoBERT,Bi-LSTM + fastText → LLM few-shot,0.792,0.805,4,17,0.007197380065917969,1.0,False
+end-to-end – Hold-out,Bi-LSTM + fastText → ViSoBERT,ViSoBERT → TF-IDF,0.792,0.844,59,111,8.152473202823977e-05,0.016304946405647953,True
+end-to-end – Hold-out,Bi-LSTM + fastText → ViSoBERT,ViSoBERT → Bi-LSTM + fastText,0.792,0.84,64,112,0.00036713039376409914,0.06718486205883015,False
+end-to-end – Hold-out,Bi-LSTM + fastText → ViSoBERT,ViSoBERT → PhoBERT,0.792,0.849,58,115,1.7537873865134898e-05,0.0038583322503296775,True
+end-to-end – Hold-out,Bi-LSTM + fastText → ViSoBERT,ViSoBERT → LLM few-shot,0.792,0.856,53,117,1.0205349303337031e-06,0.000261256942165428,True
+end-to-end – Hold-out,Bi-LSTM + fastText → ViSoBERT,PhoBERT → TF-IDF,0.792,0.822,77,107,0.03224242343593865,1.0,False
+end-to-end – Hold-out,Bi-LSTM + fastText → ViSoBERT,PhoBERT → Bi-LSTM + fastText,0.792,0.816,85,109,0.0984263883280864,1.0,False
+end-to-end – Hold-out,Bi-LSTM + fastText → ViSoBERT,PhoBERT → ViSoBERT,0.792,0.828,65,101,0.006423062145238226,0.9313440110595428,False
+end-to-end – Hold-out,Bi-LSTM + fastText → ViSoBERT,LLM few-shot → TF-IDF,0.792,0.903,40,151,2.2628543764037026e-16,8.078390123761218e-14,True
+end-to-end – Hold-out,Bi-LSTM + fastText → ViSoBERT,LLM few-shot → Bi-LSTM + fastText,0.792,0.897,50,155,1.0623155763595258e-13,3.69685820573115e-11,True
+end-to-end – Hold-out,Bi-LSTM + fastText → ViSoBERT,LLM few-shot → ViSoBERT,0.792,0.904,32,144,3.620151058555655e-18,1.3213551363728141e-15,True
+end-to-end – Hold-out,Bi-LSTM + fastText → ViSoBERT,LLM few-shot → PhoBERT,0.792,0.907,40,155,3.5400078195509945e-17,1.285022838497011e-14,True
+end-to-end – Hold-out,Bi-LSTM + fastText → PhoBERT,Bi-LSTM + fastText → LLM few-shot,0.791,0.805,6,20,0.009355306625366211,1.0,False
+end-to-end – Hold-out,Bi-LSTM + fastText → PhoBERT,ViSoBERT → TF-IDF,0.791,0.844,60,113,6.825163944248766e-05,0.013786831167382507,True
+end-to-end – Hold-out,Bi-LSTM + fastText → PhoBERT,ViSoBERT → Bi-LSTM + fastText,0.791,0.84,65,114,0.00030850851504944513,0.057074075284147346,False
+end-to-end – Hold-out,Bi-LSTM + fastText → PhoBERT,ViSoBERT → PhoBERT,0.791,0.849,49,107,3.940596212087979e-06,0.0009575648795373789,True
+end-to-end – Hold-out,Bi-LSTM + fastText → PhoBERT,ViSoBERT → LLM few-shot,0.791,0.856,55,120,9.969346247665245e-07,0.0002562121985649968,True
+end-to-end – Hold-out,Bi-LSTM + fastText → PhoBERT,PhoBERT → TF-IDF,0.791,0.822,79,110,0.02882825031214214,1.0,False
+end-to-end – Hold-out,Bi-LSTM + fastText → PhoBERT,PhoBERT → Bi-LSTM + fastText,0.791,0.816,86,111,0.08702126865820908,1.0,False
+end-to-end – Hold-out,Bi-LSTM + fastText → PhoBERT,PhoBERT → ViSoBERT,0.791,0.828,74,111,0.007953726816147708,1.0,False
+end-to-end – Hold-out,Bi-LSTM + fastText → PhoBERT,LLM few-shot → TF-IDF,0.791,0.903,41,153,2.1414541242474437e-16,7.666405764805848e-14,True
+end-to-end – Hold-out,Bi-LSTM + fastText → PhoBERT,LLM few-shot → Bi-LSTM + fastText,0.791,0.897,50,156,6.993759784692382e-14,2.440822164857641e-11,True
+end-to-end – Hold-out,Bi-LSTM + fastText → PhoBERT,LLM few-shot → ViSoBERT,0.791,0.904,39,152,5.890349705675986e-17,2.120525894043355e-14,True
+end-to-end – Hold-out,Bi-LSTM + fastText → PhoBERT,LLM few-shot → PhoBERT,0.791,0.907,31,147,2.8912760817667444e-19,1.0668808741719286e-16,True
+end-to-end – Hold-out,Bi-LSTM + fastText → LLM few-shot,ViSoBERT → TF-IDF,0.805,0.844,71,110,0.0046007429790825595,0.6763092179251362,False
+end-to-end – Hold-out,Bi-LSTM + fastText → LLM few-shot,ViSoBERT → Bi-LSTM + fastText,0.805,0.84,77,112,0.013183368381607339,1.0,False
+end-to-end – Hold-out,Bi-LSTM + fastText → LLM few-shot,ViSoBERT → PhoBERT,0.805,0.849,69,113,0.001369453073380437,0.22732921018115254,False
+end-to-end – Hold-out,Bi-LSTM + fastText → LLM few-shot,ViSoBERT → LLM few-shot,0.805,0.856,54,105,6.41487541495824e-05,0.013022197092365228,True
+end-to-end – Hold-out,Bi-LSTM + fastText → LLM few-shot,PhoBERT → TF-IDF,0.805,0.822,88,105,0.24937669004363633,1.0,False
+end-to-end – Hold-out,Bi-LSTM + fastText → LLM few-shot,PhoBERT → Bi-LSTM + fastText,0.805,0.816,97,108,0.48500031468220833,1.0,False
+end-to-end – Hold-out,Bi-LSTM + fastText → LLM few-shot,PhoBERT → ViSoBERT,0.805,0.828,82,105,0.1074110874341368,1.0,False
+end-to-end – Hold-out,Bi-LSTM + fastText → LLM few-shot,LLM few-shot → TF-IDF,0.805,0.903,51,149,2.5006948050908607e-12,8.477355389258017e-10,True
+end-to-end – Hold-out,Bi-LSTM + fastText → LLM few-shot,LLM few-shot → Bi-LSTM + fastText,0.805,0.897,61,153,2.6407292304364434e-10,8.450333537396618e-08,True
+end-to-end – Hold-out,Bi-LSTM + fastText → LLM few-shot,LLM few-shot → ViSoBERT,0.805,0.904,48,147,7.082356753582226e-13,2.415083652971539e-10,True
+end-to-end – Hold-out,Bi-LSTM + fastText → LLM few-shot,LLM few-shot → PhoBERT,0.805,0.907,50,152,3.688858912822603e-13,1.26158974818533e-10,True
+end-to-end – Hold-out,ViSoBERT → TF-IDF,ViSoBERT → Bi-LSTM + fastText,0.844,0.84,13,9,0.5234670639038086,1.0,False
+end-to-end – Hold-out,ViSoBERT → TF-IDF,ViSoBERT → PhoBERT,0.844,0.849,6,11,0.332305908203125,1.0,False
+end-to-end – Hold-out,ViSoBERT → TF-IDF,ViSoBERT → LLM few-shot,0.844,0.856,5,17,0.01690053939819336,1.0,False
+end-to-end – Hold-out,ViSoBERT → TF-IDF,PhoBERT → TF-IDF,0.844,0.822,55,33,0.024622831581791033,1.0,False
+end-to-end – Hold-out,ViSoBERT → TF-IDF,PhoBERT → Bi-LSTM + fastText,0.844,0.816,67,39,0.008416993570533986,1.0,False
+end-to-end – Hold-out,ViSoBERT → TF-IDF,PhoBERT → ViSoBERT,0.844,0.828,60,44,0.14095628821230785,1.0,False
+end-to-end – Hold-out,ViSoBERT → TF-IDF,LLM few-shot → TF-IDF,0.844,0.903,39,98,4.870586356414979e-07,0.00013053171435192145,True
+end-to-end – Hold-out,ViSoBERT → TF-IDF,LLM few-shot → Bi-LSTM + fastText,0.844,0.897,51,104,2.4948890391151907e-05,0.005438858105271116,True
+end-to-end – Hold-out,ViSoBERT → TF-IDF,LLM few-shot → ViSoBERT,0.844,0.904,44,104,8.873046763703883e-07,0.00022981191117993057,True
+end-to-end – Hold-out,ViSoBERT → TF-IDF,LLM few-shot → PhoBERT,0.844,0.907,45,108,3.724311032121349e-07,0.00010167369117691282,True
+end-to-end – Hold-out,ViSoBERT → Bi-LSTM + fastText,ViSoBERT → PhoBERT,0.84,0.849,8,17,0.10775214433670044,1.0,False
+end-to-end – Hold-out,ViSoBERT → Bi-LSTM + fastText,ViSoBERT → LLM few-shot,0.84,0.856,8,24,0.0070003666914999485,0.9870517035014927,False
+end-to-end – Hold-out,ViSoBERT → Bi-LSTM + fastText,PhoBERT → TF-IDF,0.84,0.822,63,45,0.10143273504110503,1.0,False
+end-to-end – Hold-out,ViSoBERT → Bi-LSTM + fastText,PhoBERT → Bi-LSTM + fastText,0.84,0.816,54,30,0.011634454119925825,1.0,False
+end-to-end – Hold-out,ViSoBERT → Bi-LSTM + fastText,PhoBERT → ViSoBERT,0.84,0.828,61,49,0.2942337084442921,1.0,False
+end-to-end – Hold-out,ViSoBERT → Bi-LSTM + fastText,LLM few-shot → TF-IDF,0.84,0.903,47,110,5.342153941870035e-07,0.00014156707945955593,True
+end-to-end – Hold-out,ViSoBERT → Bi-LSTM + fastText,LLM few-shot → Bi-LSTM + fastText,0.84,0.897,40,97,1.2202565205812878e-06,0.0003111654127482284,True
+end-to-end – Hold-out,ViSoBERT → Bi-LSTM + fastText,LLM few-shot → ViSoBERT,0.84,0.904,47,111,3.7790511747554594e-07,0.00010279019195334849,True
+end-to-end – Hold-out,ViSoBERT → Bi-LSTM + fastText,LLM few-shot → PhoBERT,0.84,0.907,47,114,1.3178594042330496e-07,3.663649143767878e-05,True
+end-to-end – Hold-out,ViSoBERT → PhoBERT,ViSoBERT → LLM few-shot,0.849,0.856,8,15,0.21003961563110352,1.0,False
+end-to-end – Hold-out,ViSoBERT → PhoBERT,PhoBERT → TF-IDF,0.849,0.822,66,39,0.010817905625818625,1.0,False
+end-to-end – Hold-out,ViSoBERT → PhoBERT,PhoBERT → Bi-LSTM + fastText,0.849,0.816,71,38,0.002033169531309131,0.3253071250094609,False
+end-to-end – Hold-out,ViSoBERT → PhoBERT,PhoBERT → ViSoBERT,0.849,0.828,64,43,0.05266778129862431,1.0,False
+end-to-end – Hold-out,ViSoBERT → PhoBERT,LLM few-shot → TF-IDF,0.849,0.903,50,104,1.6140444476738646e-05,0.0035831786738359794,True
+end-to-end – Hold-out,ViSoBERT → PhoBERT,LLM few-shot → Bi-LSTM + fastText,0.849,0.897,56,104,0.0001830964945136508,0.035154526946620954,True
+end-to-end – Hold-out,ViSoBERT → PhoBERT,LLM few-shot → ViSoBERT,0.849,0.904,49,104,1.030627900095857e-05,0.0023807504492214296,True
+end-to-end – Hold-out,ViSoBERT → PhoBERT,LLM few-shot → PhoBERT,0.849,0.907,40,98,8.536575781113884e-07,0.00022280462788707236,True
+end-to-end – Hold-out,ViSoBERT → LLM few-shot,PhoBERT → TF-IDF,0.856,0.822,72,38,0.001533052576472405,0.2514206225414744,False
+end-to-end – Hold-out,ViSoBERT → LLM few-shot,PhoBERT → Bi-LSTM + fastText,0.856,0.816,78,38,0.00025826102405589305,0.048294811498452,True
+end-to-end – Hold-out,ViSoBERT → LLM few-shot,PhoBERT → ViSoBERT,0.856,0.828,67,39,0.008416993570533986,1.0,False
+end-to-end – Hold-out,ViSoBERT → LLM few-shot,LLM few-shot → TF-IDF,0.856,0.903,55,102,0.0002187649988710087,0.04134658478662064,True
+end-to-end – Hold-out,ViSoBERT → LLM few-shot,LLM few-shot → Bi-LSTM + fastText,0.856,0.897,62,103,0.0017601917264816252,0.2869112514165049,False
+end-to-end – Hold-out,ViSoBERT → LLM few-shot,LLM few-shot → ViSoBERT,0.856,0.904,51,99,0.00010978172637063558,0.021407436642273937,True
+end-to-end – Hold-out,ViSoBERT → LLM few-shot,LLM few-shot → PhoBERT,0.856,0.907,53,104,5.7397274696696e-05,0.011829295863922772,True
+end-to-end – Hold-out,PhoBERT → TF-IDF,PhoBERT → Bi-LSTM + fastText,0.822,0.816,17,11,0.34492845088243484,1.0,False
+end-to-end – Hold-out,PhoBERT → TF-IDF,PhoBERT → ViSoBERT,0.822,0.828,6,12,0.237884521484375,1.0,False
+end-to-end – Hold-out,PhoBERT → TF-IDF,LLM few-shot → TF-IDF,0.822,0.903,37,118,4.688383481085752e-11,1.5424781652772125e-08,True
+end-to-end – Hold-out,PhoBERT → TF-IDF,LLM few-shot → Bi-LSTM + fastText,0.822,0.897,51,126,1.642014869575487e-08,4.893204311334951e-06,True
+end-to-end – Hold-out,PhoBERT → TF-IDF,LLM few-shot → ViSoBERT,0.822,0.904,42,124,1.359691364342196e-10,4.405400020468715e-08,True
+end-to-end – Hold-out,PhoBERT → TF-IDF,LLM few-shot → PhoBERT,0.822,0.907,43,128,5.3002595578101185e-11,1.7331848754039086e-08,True
+end-to-end – Hold-out,PhoBERT → Bi-LSTM + fastText,PhoBERT → ViSoBERT,0.816,0.828,9,21,0.042773945257067694,1.0,False
+end-to-end – Hold-out,PhoBERT → Bi-LSTM + fastText,LLM few-shot → TF-IDF,0.816,0.903,45,132,4.1019145103947815e-11,1.3536317884302779e-08,True
+end-to-end – Hold-out,PhoBERT → Bi-LSTM + fastText,LLM few-shot → Bi-LSTM + fastText,0.816,0.897,37,118,4.688383481085752e-11,1.5424781652772125e-08,True
+end-to-end – Hold-out,PhoBERT → Bi-LSTM + fastText,LLM few-shot → ViSoBERT,0.816,0.904,45,133,2.7349211355660662e-11,9.052588958723679e-09,True
+end-to-end – Hold-out,PhoBERT → Bi-LSTM + fastText,LLM few-shot → PhoBERT,0.816,0.907,45,136,8.018755065567288e-12,2.6862829469650413e-09,True
+end-to-end – Hold-out,PhoBERT → ViSoBERT,LLM few-shot → TF-IDF,0.828,0.903,48,123,8.87760905036072e-09,2.6899155422592985e-06,True
+end-to-end – Hold-out,PhoBERT → ViSoBERT,LLM few-shot → Bi-LSTM + fastText,0.828,0.897,57,126,3.671647933006925e-07,0.00010060315336438975,True
+end-to-end – Hold-out,PhoBERT → ViSoBERT,LLM few-shot → ViSoBERT,0.828,0.904,40,116,8.902590557663587e-10,2.8043160256640296e-07,True
+end-to-end – Hold-out,PhoBERT → ViSoBERT,LLM few-shot → PhoBERT,0.828,0.907,48,127,1.98980592048402e-09,6.188296412705302e-07,True
+end-to-end – Hold-out,LLM few-shot → TF-IDF,LLM few-shot → Bi-LSTM + fastText,0.903,0.897,15,9,0.30745625495910645,1.0,False
+end-to-end – Hold-out,LLM few-shot → TF-IDF,LLM few-shot → ViSoBERT,0.903,0.904,7,8,1.0,1.0,False
+end-to-end – Hold-out,LLM few-shot → TF-IDF,LLM few-shot → PhoBERT,0.903,0.907,7,11,0.480682373046875,1.0,False
+end-to-end – Hold-out,LLM few-shot → Bi-LSTM + fastText,LLM few-shot → ViSoBERT,0.897,0.904,11,18,0.26493089646101,1.0,False
+end-to-end – Hold-out,LLM few-shot → Bi-LSTM + fastText,LLM few-shot → PhoBERT,0.897,0.907,9,19,0.08715855330228806,1.0,False
+end-to-end – Hold-out,LLM few-shot → ViSoBERT,LLM few-shot → PhoBERT,0.904,0.907,8,11,0.6476058959960938,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,Cascade Bi-LSTM + fastText,0.746,0.714,46,30,0.08464609267083598,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,Cascade ViSoBERT,0.746,0.792,33,56,0.01918660866014698,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,Cascade PhoBERT,0.746,0.756,47,52,0.687885343579692,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,Cascade LLM few-shot,0.746,0.816,39,74,0.0012776253514487762,0.3283497153223355,False
+end-to-end – Lazada,Cascade TF-IDF,Phẳng TF-IDF,0.746,0.81,19,51,0.00016604182060301758,0.04898233707789019,True
+end-to-end – Lazada,Cascade TF-IDF,Phẳng Bi-LSTM + fastText,0.746,0.816,30,65,0.0004247927288947456,0.11894196409052878,False
+end-to-end – Lazada,Cascade TF-IDF,Phẳng ViSoBERT,0.746,0.866,19,79,7.127385901074282e-10,2.5658589243867415e-07,True
+end-to-end – Lazada,Cascade TF-IDF,Phẳng PhoBERT,0.746,0.87,15,77,3.262400923439497e-11,1.1940387379788559e-08,True
+end-to-end – Lazada,Cascade TF-IDF,Phẳng LLM few-shot,0.746,0.788,49,70,0.06629133125279574,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,TF-IDF → Bi-LSTM + fastText,0.746,0.726,12,2,0.012939453125,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,TF-IDF → ViSoBERT,0.746,0.738,8,4,0.3876953125,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,TF-IDF → PhoBERT,0.746,0.748,6,7,1.0,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,Bi-LSTM + fastText → TF-IDF,0.746,0.73,36,28,0.3817327947933377,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,Bi-LSTM + fastText → ViSoBERT,0.746,0.722,42,30,0.1945051658673991,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,Bi-LSTM + fastText → PhoBERT,0.746,0.732,41,34,0.48868297090314317,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,Bi-LSTM + fastText → LLM few-shot,0.746,0.736,45,40,0.6646454904132133,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,ViSoBERT → TF-IDF,0.746,0.796,28,53,0.007275502036308492,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,ViSoBERT → Bi-LSTM + fastText,0.746,0.782,37,55,0.07576023576406513,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,ViSoBERT → PhoBERT,0.746,0.796,33,58,0.011456340539425666,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,ViSoBERT → LLM few-shot,0.746,0.8,36,63,0.008633586943417947,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,PhoBERT → TF-IDF,0.746,0.756,42,47,0.6718086491746109,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,PhoBERT → Bi-LSTM + fastText,0.746,0.738,53,49,0.7666042612518518,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,PhoBERT → ViSoBERT,0.746,0.748,48,49,1.0,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,LLM few-shot → TF-IDF,0.746,0.814,32,66,0.0007698826407272644,0.2070984303556341,False
+end-to-end – Lazada,Cascade TF-IDF,LLM few-shot → Bi-LSTM + fastText,0.746,0.8,41,68,0.01240363724332997,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,LLM few-shot → ViSoBERT,0.746,0.802,38,66,0.0077996161848893665,1.0,False
+end-to-end – Lazada,Cascade TF-IDF,LLM few-shot → PhoBERT,0.746,0.806,38,68,0.0046185356920239295,1.0,False
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,Cascade ViSoBERT,0.714,0.792,25,64,4.321520924983878e-05,0.013742436541448733,True
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,Cascade PhoBERT,0.714,0.756,42,63,0.05044215663996969,1.0,False
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,Cascade LLM few-shot,0.714,0.816,31,82,1.7300043785001778e-06,0.0005882014886900604,True
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,Phẳng TF-IDF,0.714,0.81,27,75,2.1476915287407434e-06,0.0007259197367143713,True
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,Phẳng Bi-LSTM + fastText,0.714,0.816,14,65,5.194941262584353e-09,1.839009206954861e-06,True
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,Phẳng ViSoBERT,0.714,0.866,19,95,2.421352244602046e-13,9.055857394811652e-11,True
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,Phẳng PhoBERT,0.714,0.87,14,92,3.0602379412652384e-15,1.1567699417982602e-12,True
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,Phẳng LLM few-shot,0.714,0.788,41,78,0.0008881371170898861,0.23446819891172993,False
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,TF-IDF → Bi-LSTM + fastText,0.714,0.726,28,34,0.52577336017565,1.0,False
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,TF-IDF → ViSoBERT,0.714,0.738,32,44,0.20673684180839247,1.0,False
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,TF-IDF → PhoBERT,0.714,0.748,31,48,0.07116340869529121,1.0,False
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,Bi-LSTM + fastText → TF-IDF,0.714,0.73,2,10,0.03857421875,1.0,False
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,Bi-LSTM + fastText → ViSoBERT,0.714,0.722,4,8,0.3876953125,1.0,False
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,Bi-LSTM + fastText → PhoBERT,0.714,0.732,3,12,0.03515625,1.0,False
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,Bi-LSTM + fastText → LLM few-shot,0.714,0.736,7,18,0.043285250663757324,1.0,False
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,ViSoBERT → TF-IDF,0.714,0.796,25,66,2.0283289208145556e-05,0.006652918860271743,True
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,ViSoBERT → Bi-LSTM + fastText,0.714,0.782,23,57,0.0001831165641297511,0.05365315329001707,False
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,ViSoBERT → PhoBERT,0.714,0.796,26,67,2.5258189217190576e-05,0.008183653306369746,True
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,ViSoBERT → LLM few-shot,0.714,0.8,30,73,2.717641312570182e-05,0.008750805026475985,True
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,PhoBERT → TF-IDF,0.714,0.756,41,62,0.048233652170997086,1.0,False
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,PhoBERT → Bi-LSTM + fastText,0.714,0.738,39,51,0.24610644971627832,1.0,False
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,PhoBERT → ViSoBERT,0.714,0.748,42,59,0.11091834966064006,1.0,False
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,LLM few-shot → TF-IDF,0.714,0.814,29,79,1.596947064385474e-06,0.0005445589489554467,True
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,LLM few-shot → Bi-LSTM + fastText,0.714,0.8,27,70,1.4766951457590834e-05,0.004887860932462566,True
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,LLM few-shot → ViSoBERT,0.714,0.802,30,74,1.8940835677418383e-05,0.006231534937870648,True
+end-to-end – Lazada,Cascade Bi-LSTM + fastText,LLM few-shot → PhoBERT,0.714,0.806,30,76,9.102659374333861e-06,0.0030402882310275096,True
+end-to-end – Lazada,Cascade ViSoBERT,Cascade PhoBERT,0.792,0.756,57,39,0.08219306855694346,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,Cascade LLM few-shot,0.792,0.816,39,51,0.24610644971627832,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,Phẳng TF-IDF,0.792,0.81,32,41,0.34918183817058834,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,Phẳng Bi-LSTM + fastText,0.792,0.816,30,42,0.1945051658673991,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,Phẳng ViSoBERT,0.792,0.866,6,43,5.7277652842913085e-08,1.9989900842176667e-05,True
+end-to-end – Lazada,Cascade ViSoBERT,Phẳng PhoBERT,0.792,0.87,9,48,1.5201952291432616e-07,5.275077445127118e-05,True
+end-to-end – Lazada,Cascade ViSoBERT,Phẳng LLM few-shot,0.792,0.788,50,48,0.9196068309220428,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,TF-IDF → Bi-LSTM + fastText,0.792,0.726,60,27,0.0005243546737950249,0.14262447127224676,False
+end-to-end – Lazada,Cascade ViSoBERT,TF-IDF → ViSoBERT,0.792,0.738,53,26,0.003183010628835073,0.7448244871474071,False
+end-to-end – Lazada,Cascade ViSoBERT,TF-IDF → PhoBERT,0.792,0.748,55,33,0.024622831581791033,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,Bi-LSTM + fastText → TF-IDF,0.792,0.73,60,29,0.0013352623656219375,0.3404919032335941,False
+end-to-end – Lazada,Cascade ViSoBERT,Bi-LSTM + fastText → ViSoBERT,0.792,0.722,58,23,0.0001266111519644753,0.03823656789327154,True
+end-to-end – Lazada,Cascade ViSoBERT,Bi-LSTM + fastText → PhoBERT,0.792,0.732,60,30,0.0020602656809630745,0.5068253575169164,False
+end-to-end – Lazada,Cascade ViSoBERT,Bi-LSTM + fastText → LLM few-shot,0.792,0.736,66,38,0.0077996161848893665,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,ViSoBERT → TF-IDF,0.792,0.796,3,5,0.7265625,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,ViSoBERT → Bi-LSTM + fastText,0.792,0.782,7,2,0.1796875,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,ViSoBERT → PhoBERT,0.792,0.796,2,4,0.6875,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,ViSoBERT → LLM few-shot,0.792,0.8,8,12,0.5034446716308594,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,PhoBERT → TF-IDF,0.792,0.756,57,39,0.08219306855694346,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,PhoBERT → Bi-LSTM + fastText,0.792,0.738,61,34,0.007313123139453615,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,PhoBERT → ViSoBERT,0.792,0.748,55,33,0.024622831581791033,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,LLM few-shot → TF-IDF,0.792,0.814,34,45,0.2604255258972435,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,LLM few-shot → Bi-LSTM + fastText,0.792,0.8,38,42,0.7375543089843226,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,LLM few-shot → ViSoBERT,0.792,0.802,34,39,0.6399729317539425,1.0,False
+end-to-end – Lazada,Cascade ViSoBERT,LLM few-shot → PhoBERT,0.792,0.806,36,43,0.499896876860327,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,Cascade LLM few-shot,0.756,0.816,47,77,0.008933408183144214,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,Phẳng TF-IDF,0.756,0.81,33,60,0.006695018134217244,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,Phẳng Bi-LSTM + fastText,0.756,0.816,34,64,0.0031886785048038917,0.7448244871474071,False
+end-to-end – Lazada,Cascade PhoBERT,Phẳng ViSoBERT,0.756,0.866,23,78,3.552056811614334e-08,1.2467719408766311e-05,True
+end-to-end – Lazada,Cascade PhoBERT,Phẳng PhoBERT,0.756,0.87,16,73,7.237363065075456e-10,2.5982133403620883e-07,True
+end-to-end – Lazada,Cascade PhoBERT,Phẳng LLM few-shot,0.756,0.788,55,71,0.18122406088142354,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,TF-IDF → Bi-LSTM + fastText,0.756,0.726,59,44,0.16744433441205897,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,TF-IDF → ViSoBERT,0.756,0.738,53,44,0.41677484108909885,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,TF-IDF → PhoBERT,0.756,0.748,47,43,0.7520332015985951,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,Bi-LSTM + fastText → TF-IDF,0.756,0.73,57,44,0.23230046428473797,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,Bi-LSTM + fastText → ViSoBERT,0.756,0.722,57,40,0.10376938287271767,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,Bi-LSTM + fastText → PhoBERT,0.756,0.732,52,40,0.2513221034748542,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,Bi-LSTM + fastText → LLM few-shot,0.756,0.736,60,50,0.390927456699505,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,ViSoBERT → TF-IDF,0.756,0.796,39,59,0.05439055827708829,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,ViSoBERT → Bi-LSTM + fastText,0.756,0.782,44,57,0.23230046428473797,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,ViSoBERT → PhoBERT,0.756,0.796,35,55,0.04459752462791592,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,ViSoBERT → LLM few-shot,0.756,0.8,43,65,0.04280722079922557,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,PhoBERT → TF-IDF,0.756,0.756,5,5,1.0,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,PhoBERT → Bi-LSTM + fastText,0.756,0.738,12,3,0.03515625,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,PhoBERT → ViSoBERT,0.756,0.748,6,2,0.2890625,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,LLM few-shot → TF-IDF,0.756,0.814,44,73,0.009340760589436566,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,LLM few-shot → Bi-LSTM + fastText,0.756,0.8,48,70,0.0527483496773917,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,LLM few-shot → ViSoBERT,0.756,0.802,46,69,0.039750505126542435,1.0,False
+end-to-end – Lazada,Cascade PhoBERT,LLM few-shot → PhoBERT,0.756,0.806,43,68,0.022297954801947985,1.0,False
+end-to-end – Lazada,Cascade LLM few-shot,Phẳng TF-IDF,0.816,0.81,50,47,0.8392136618440832,1.0,False
+end-to-end – Lazada,Cascade LLM few-shot,Phẳng Bi-LSTM + fastText,0.816,0.816,41,41,1.0,1.0,False
+end-to-end – Lazada,Cascade LLM few-shot,Phẳng ViSoBERT,0.816,0.866,27,52,0.006553297670283778,1.0,False
+end-to-end – Lazada,Cascade LLM few-shot,Phẳng PhoBERT,0.816,0.87,26,53,0.003183010628835073,0.7448244871474071,False
+end-to-end – Lazada,Cascade LLM few-shot,Phẳng LLM few-shot,0.816,0.788,24,10,0.024306510109454393,1.0,False
+end-to-end – Lazada,Cascade LLM few-shot,TF-IDF → Bi-LSTM + fastText,0.816,0.726,78,33,2.32626705010725e-05,0.007583630583349634,True
+end-to-end – Lazada,Cascade LLM few-shot,TF-IDF → ViSoBERT,0.816,0.738,78,39,0.0003961778187923065,0.11132596708063813,False
+end-to-end – Lazada,Cascade LLM few-shot,TF-IDF → PhoBERT,0.816,0.748,76,42,0.002242665051735885,0.5439180094518392,False
+end-to-end – Lazada,Cascade LLM few-shot,Bi-LSTM + fastText → TF-IDF,0.816,0.73,80,37,8.717436729426461e-05,0.02702405386122203,True
+end-to-end – Lazada,Cascade LLM few-shot,Bi-LSTM + fastText → ViSoBERT,0.816,0.722,82,35,1.6504133479434384e-05,0.005446364048213347,True
+end-to-end – Lazada,Cascade LLM few-shot,Bi-LSTM + fastText → PhoBERT,0.816,0.732,80,38,0.00013823849699097512,0.04119507210331059,True
+end-to-end – Lazada,Cascade LLM few-shot,Bi-LSTM + fastText → LLM few-shot,0.816,0.736,72,32,0.00010959860355569963,0.03331797548093269,True
+end-to-end – Lazada,Cascade LLM few-shot,ViSoBERT → TF-IDF,0.816,0.796,48,38,0.3318343545999156,1.0,False
+end-to-end – Lazada,Cascade LLM few-shot,ViSoBERT → Bi-LSTM + fastText,0.816,0.782,52,35,0.08568897435916664,1.0,False
+end-to-end – Lazada,Cascade LLM few-shot,ViSoBERT → PhoBERT,0.816,0.796,50,40,0.3428331194207882,1.0,False
+end-to-end – Lazada,Cascade LLM few-shot,ViSoBERT → LLM few-shot,0.816,0.8,41,33,0.4159851975073046,1.0,False
+end-to-end – Lazada,Cascade LLM few-shot,PhoBERT → TF-IDF,0.816,0.756,76,46,0.008381134037666778,1.0,False
+end-to-end – Lazada,Cascade LLM few-shot,PhoBERT → Bi-LSTM + fastText,0.816,0.738,79,40,0.000445310676917158,0.12334877811335558,False
+end-to-end – Lazada,Cascade LLM few-shot,PhoBERT → ViSoBERT,0.816,0.748,79,45,0.002888242668470819,0.6902899977645258,False
+end-to-end – Lazada,Cascade LLM few-shot,LLM few-shot → TF-IDF,0.816,0.814,8,7,1.0,1.0,False
+end-to-end – Lazada,Cascade LLM few-shot,LLM few-shot → Bi-LSTM + fastText,0.816,0.8,12,4,0.076812744140625,1.0,False
+end-to-end – Lazada,Cascade LLM few-shot,LLM few-shot → ViSoBERT,0.816,0.802,12,5,0.143463134765625,1.0,False
+end-to-end – Lazada,Cascade LLM few-shot,LLM few-shot → PhoBERT,0.816,0.806,9,4,0.266845703125,1.0,False
+end-to-end – Lazada,Phẳng TF-IDF,Phẳng Bi-LSTM + fastText,0.81,0.816,32,35,0.8071946913670247,1.0,False
+end-to-end – Lazada,Phẳng TF-IDF,Phẳng ViSoBERT,0.81,0.866,12,40,0.0001275387838557407,0.03838917394057795,True
+end-to-end – Lazada,Phẳng TF-IDF,Phẳng PhoBERT,0.81,0.87,15,45,0.00013451408092849532,0.0402197101976201,True
+end-to-end – Lazada,Phẳng TF-IDF,Phẳng LLM few-shot,0.81,0.788,60,49,0.33818541219666143,1.0,False
+end-to-end – Lazada,Phẳng TF-IDF,TF-IDF → Bi-LSTM + fastText,0.81,0.726,58,16,9.674891137601897e-07,0.00033281625513350524,True
+end-to-end – Lazada,Phẳng TF-IDF,TF-IDF → ViSoBERT,0.81,0.738,52,16,1.4074155775977473e-05,0.004672619717624521,True
+end-to-end – Lazada,Phẳng TF-IDF,TF-IDF → PhoBERT,0.81,0.748,51,20,0.000303163413558493,0.086704736277729,False
+end-to-end – Lazada,Phẳng TF-IDF,Bi-LSTM + fastText → TF-IDF,0.81,0.73,68,28,5.459154357711447e-05,0.017196336226791058,True
+end-to-end – Lazada,Phẳng TF-IDF,Bi-LSTM + fastText → ViSoBERT,0.81,0.722,69,25,6.339264707376482e-06,0.0021236536769711216,True
+end-to-end – Lazada,Phẳng TF-IDF,Bi-LSTM + fastText → PhoBERT,0.81,0.732,68,29,9.340687100229208e-05,0.028675909397703668,True
+end-to-end – Lazada,Phẳng TF-IDF,Bi-LSTM + fastText → LLM few-shot,0.81,0.736,72,35,0.0004453024480626555,0.12334877811335558,False
+end-to-end – Lazada,Phẳng TF-IDF,ViSoBERT → TF-IDF,0.81,0.796,41,34,0.48868297090314317,1.0,False
+end-to-end – Lazada,Phẳng TF-IDF,ViSoBERT → Bi-LSTM + fastText,0.81,0.782,46,32,0.14053828626952242,1.0,False
+end-to-end – Lazada,Phẳng TF-IDF,ViSoBERT → PhoBERT,0.81,0.796,41,34,0.48868297090314317,1.0,False
+end-to-end – Lazada,Phẳng TF-IDF,ViSoBERT → LLM few-shot,0.81,0.8,45,40,0.6646454904132133,1.0,False
+end-to-end – Lazada,Phẳng TF-IDF,PhoBERT → TF-IDF,0.81,0.756,60,33,0.006695018134217244,1.0,False
+end-to-end – Lazada,Phẳng TF-IDF,PhoBERT → Bi-LSTM + fastText,0.81,0.738,67,31,0.00035453385598683347,0.10033308124427387,False
+end-to-end – Lazada,Phẳng TF-IDF,PhoBERT → ViSoBERT,0.81,0.748,61,30,0.0015165131944572209,0.38367783819767687,False
+end-to-end – Lazada,Phẳng TF-IDF,LLM few-shot → TF-IDF,0.81,0.814,43,45,0.9151865048428764,1.0,False
+end-to-end – Lazada,Phẳng TF-IDF,LLM few-shot → Bi-LSTM + fastText,0.81,0.8,47,42,0.6718086491746109,1.0,False
+end-to-end – Lazada,Phẳng TF-IDF,LLM few-shot → ViSoBERT,0.81,0.802,44,40,0.7436441861052039,1.0,False
+end-to-end – Lazada,Phẳng TF-IDF,LLM few-shot → PhoBERT,0.81,0.806,44,42,0.91421163708245,1.0,False
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,Phẳng ViSoBERT,0.816,0.866,17,42,0.0015471669302425245,0.3898860664211162,False
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,Phẳng PhoBERT,0.816,0.87,18,45,0.0008980471786680215,0.23618640798968965,False
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,Phẳng LLM few-shot,0.816,0.788,54,40,0.17966501480803032,1.0,False
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,TF-IDF → Bi-LSTM + fastText,0.816,0.726,66,21,1.4100783873147612e-06,0.0004822468084616483,True
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,TF-IDF → ViSoBERT,0.816,0.738,65,26,5.311762926784264e-05,0.016838288477906117,True
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,TF-IDF → PhoBERT,0.816,0.748,62,28,0.0004379221966341338,0.12218029286092334,False
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,Bi-LSTM + fastText → TF-IDF,0.816,0.73,64,21,3.276470353441135e-06,0.0011008940387562214,True
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,Bi-LSTM + fastText → ViSoBERT,0.816,0.722,64,17,1.4266367729635823e-07,4.964695969913266e-05,True
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,Bi-LSTM + fastText → PhoBERT,0.816,0.732,61,19,2.7318699228822653e-06,0.0009206401640113234,True
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,Bi-LSTM + fastText → LLM few-shot,0.816,0.736,64,24,2.3726590787439646e-05,0.007711142005917885,True
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,ViSoBERT → TF-IDF,0.816,0.796,44,34,0.3081682319436807,1.0,False
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,ViSoBERT → Bi-LSTM + fastText,0.816,0.782,45,28,0.060370037339928545,1.0,False
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,ViSoBERT → PhoBERT,0.816,0.796,41,31,0.2887842804141049,1.0,False
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,ViSoBERT → LLM few-shot,0.816,0.8,44,36,0.43404225534547874,1.0,False
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,PhoBERT → TF-IDF,0.816,0.756,67,37,0.004232546845609295,0.9592574902219869,False
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,PhoBERT → Bi-LSTM + fastText,0.816,0.738,68,29,9.340687100229208e-05,0.028675909397703668,True
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,PhoBERT → ViSoBERT,0.816,0.748,66,32,0.0007698826407272644,0.2070984303556341,False
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,LLM few-shot → TF-IDF,0.816,0.814,41,40,1.0,1.0,False
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,LLM few-shot → Bi-LSTM + fastText,0.816,0.8,42,34,0.42219110499231566,1.0,False
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,LLM few-shot → ViSoBERT,0.816,0.802,42,35,0.49438227369550003,1.0,False
+end-to-end – Lazada,Phẳng Bi-LSTM + fastText,LLM few-shot → PhoBERT,0.816,0.806,40,35,0.6444639138942256,1.0,False
+end-to-end – Lazada,Phẳng ViSoBERT,Phẳng PhoBERT,0.866,0.87,15,17,0.860050065908581,1.0,False
+end-to-end – Lazada,Phẳng ViSoBERT,Phẳng LLM few-shot,0.866,0.788,65,26,5.311762926784264e-05,0.016838288477906117,True
+end-to-end – Lazada,Phẳng ViSoBERT,TF-IDF → Bi-LSTM + fastText,0.866,0.726,83,13,1.202072479759671e-13,4.507771799098766e-11,True
+end-to-end – Lazada,Phẳng ViSoBERT,TF-IDF → ViSoBERT,0.866,0.738,77,13,3.175275355987434e-12,1.1685013310033756e-09,True
+end-to-end – Lazada,Phẳng ViSoBERT,TF-IDF → PhoBERT,0.866,0.748,78,19,1.1534228506927429e-09,4.1061853484661645e-07,True
+end-to-end – Lazada,Phẳng ViSoBERT,Bi-LSTM + fastText → TF-IDF,0.866,0.73,91,23,9.29097217602857e-11,3.391204844250428e-08,True
+end-to-end – Lazada,Phẳng ViSoBERT,Bi-LSTM + fastText → ViSoBERT,0.866,0.722,89,17,5.912079008704511e-13,2.2052054702467828e-10,True
+end-to-end – Lazada,Phẳng ViSoBERT,Bi-LSTM + fastText → PhoBERT,0.866,0.732,90,23,1.4884906475803411e-10,5.388336144240835e-08,True
+end-to-end – Lazada,Phẳng ViSoBERT,Bi-LSTM + fastText → LLM few-shot,0.866,0.736,94,29,3.3927095067658785e-09,1.204411874901887e-06,True
+end-to-end – Lazada,Phẳng ViSoBERT,ViSoBERT → TF-IDF,0.866,0.796,45,10,2.0572645155203517e-06,0.0006974126707613992,True
+end-to-end – Lazada,Phẳng ViSoBERT,ViSoBERT → Bi-LSTM + fastText,0.866,0.782,49,7,7.455210310203242e-09,2.624234029191541e-06,True
+end-to-end – Lazada,Phẳng ViSoBERT,ViSoBERT → PhoBERT,0.866,0.796,44,9,1.220851017613711e-06,0.0004187518990415029,True
+end-to-end – Lazada,Phẳng ViSoBERT,ViSoBERT → LLM few-shot,0.866,0.8,48,15,3.7606121325417525e-05,0.012033958824133608,True
+end-to-end – Lazada,Phẳng ViSoBERT,PhoBERT → TF-IDF,0.866,0.756,79,24,4.980762968257179e-08,1.7432670388900126e-05,True
+end-to-end – Lazada,Phẳng ViSoBERT,PhoBERT → Bi-LSTM + fastText,0.866,0.738,83,19,1.0158259578897715e-10,3.6874482271398705e-08,True
+end-to-end – Lazada,Phẳng ViSoBERT,PhoBERT → ViSoBERT,0.866,0.748,77,18,7.252322160518573e-10,2.5982133403620883e-07,True
+end-to-end – Lazada,Phẳng ViSoBERT,LLM few-shot → TF-IDF,0.866,0.814,49,23,0.002942760530124976,0.6968945450859297,False
+end-to-end – Lazada,Phẳng ViSoBERT,LLM few-shot → Bi-LSTM + fastText,0.866,0.8,53,20,0.00014163707253552724,0.04206621054305159,True
+end-to-end – Lazada,Phẳng ViSoBERT,LLM few-shot → ViSoBERT,0.866,0.802,49,17,0.0001014771231679886,0.030950522566236524,True
+end-to-end – Lazada,Phẳng ViSoBERT,LLM few-shot → PhoBERT,0.866,0.806,50,20,0.00044028500651396835,0.1223992318108832,False
+end-to-end – Lazada,Phẳng PhoBERT,Phẳng LLM few-shot,0.87,0.788,67,26,2.5258189217190576e-05,0.008183653306369746,True
+end-to-end – Lazada,Phẳng PhoBERT,TF-IDF → Bi-LSTM + fastText,0.87,0.726,83,11,8.004192428935576e-15,3.017580545708712e-12,True
+end-to-end – Lazada,Phẳng PhoBERT,TF-IDF → ViSoBERT,0.87,0.738,79,13,1.0733747410748014e-12,3.982220289387513e-10,True
+end-to-end – Lazada,Phẳng PhoBERT,TF-IDF → PhoBERT,0.87,0.748,77,16,9.629776957272856e-11,3.50523881244732e-08,True
+end-to-end – Lazada,Phẳng PhoBERT,Bi-LSTM + fastText → TF-IDF,0.87,0.73,86,16,9.13466159541085e-13,3.398094113492836e-10,True
+end-to-end – Lazada,Phẳng PhoBERT,Bi-LSTM + fastText → ViSoBERT,0.87,0.722,88,14,2.7753876825225043e-14,1.0435457686284617e-11,True
+end-to-end – Lazada,Phẳng PhoBERT,Bi-LSTM + fastText → PhoBERT,0.87,0.732,86,17,2.8057846344925604e-12,1.0353345301277548e-09,True
+end-to-end – Lazada,Phẳng PhoBERT,Bi-LSTM + fastText → LLM few-shot,0.87,0.736,91,24,2.2576566137993826e-10,8.150140375815771e-08,True
+end-to-end – Lazada,Phẳng PhoBERT,ViSoBERT → TF-IDF,0.87,0.796,47,10,7.513043097095994e-07,0.00025995129115952137,True
+end-to-end – Lazada,Phẳng PhoBERT,ViSoBERT → Bi-LSTM + fastText,0.87,0.782,52,8,5.205691473372798e-09,1.839009206954861e-06,True
+end-to-end – Lazada,Phẳng PhoBERT,ViSoBERT → PhoBERT,0.87,0.796,47,10,7.513043097095994e-07,0.00025995129115952137,True
+end-to-end – Lazada,Phẳng PhoBERT,ViSoBERT → LLM few-shot,0.87,0.8,52,17,2.9304321745456655e-05,0.009406687280291587,True
+end-to-end – Lazada,Phẳng PhoBERT,PhoBERT → TF-IDF,0.87,0.756,73,16,7.237363065075456e-10,2.5982133403620883e-07,True
+end-to-end – Lazada,Phẳng PhoBERT,PhoBERT → Bi-LSTM + fastText,0.87,0.738,79,13,1.0733747410748014e-12,3.982220289387513e-10,True
+end-to-end – Lazada,Phẳng PhoBERT,PhoBERT → ViSoBERT,0.87,0.748,75,14,3.0109103586376684e-11,1.1050041016200242e-08,True
+end-to-end – Lazada,Phẳng PhoBERT,LLM few-shot → TF-IDF,0.87,0.814,50,22,0.0012935849626762883,0.3311577504451298,False
+end-to-end – Lazada,Phẳng PhoBERT,LLM few-shot → Bi-LSTM + fastText,0.87,0.8,55,20,6.494900196551852e-05,0.020264088613241776,True
+end-to-end – Lazada,Phẳng PhoBERT,LLM few-shot → ViSoBERT,0.87,0.802,52,18,5.849547318695842e-05,0.018309083107517984,True
+end-to-end – Lazada,Phẳng PhoBERT,LLM few-shot → PhoBERT,0.87,0.806,51,19,0.00016604182060301758,0.04898233707789019,True
+end-to-end – Lazada,Phẳng LLM few-shot,TF-IDF → Bi-LSTM + fastText,0.788,0.726,76,45,0.0061508081499953545,1.0,False
+end-to-end – Lazada,Phẳng LLM few-shot,TF-IDF → ViSoBERT,0.788,0.738,74,49,0.03004691483554494,1.0,False
+end-to-end – Lazada,Phẳng LLM few-shot,TF-IDF → PhoBERT,0.788,0.748,71,51,0.0849806458268532,1.0,False
+end-to-end – Lazada,Phẳng LLM few-shot,Bi-LSTM + fastText → TF-IDF,0.788,0.73,74,45,0.009966324337995335,1.0,False
+end-to-end – Lazada,Phẳng LLM few-shot,Bi-LSTM + fastText → ViSoBERT,0.788,0.722,76,43,0.0031831844482176595,0.7448244871474071,False
+end-to-end – Lazada,Phẳng LLM few-shot,Bi-LSTM + fastText → PhoBERT,0.788,0.732,73,45,0.01260262870692145,1.0,False
+end-to-end – Lazada,Phẳng LLM few-shot,Bi-LSTM + fastText → LLM few-shot,0.788,0.736,68,42,0.01674502147823378,1.0,False
+end-to-end – Lazada,Phẳng LLM few-shot,ViSoBERT → TF-IDF,0.788,0.796,45,49,0.7571890741424058,1.0,False
+end-to-end – Lazada,Phẳng LLM few-shot,ViSoBERT → Bi-LSTM + fastText,0.788,0.782,50,47,0.8392136618440832,1.0,False
+end-to-end – Lazada,Phẳng LLM few-shot,ViSoBERT → PhoBERT,0.788,0.796,46,50,0.7596492883236299,1.0,False
+end-to-end – Lazada,Phẳng LLM few-shot,ViSoBERT → LLM few-shot,0.788,0.8,40,46,0.5900356111485566,1.0,False
+end-to-end – Lazada,Phẳng LLM few-shot,PhoBERT → TF-IDF,0.788,0.756,71,55,0.18122406088142354,1.0,False
+end-to-end – Lazada,Phẳng LLM few-shot,PhoBERT → Bi-LSTM + fastText,0.788,0.738,76,51,0.032789561693033514,1.0,False
+end-to-end – Lazada,Phẳng LLM few-shot,PhoBERT → ViSoBERT,0.788,0.748,74,54,0.09269003089837798,1.0,False
+end-to-end – Lazada,Phẳng LLM few-shot,LLM few-shot → TF-IDF,0.788,0.814,15,28,0.0659940344557981,1.0,False
+end-to-end – Lazada,Phẳng LLM few-shot,LLM few-shot → Bi-LSTM + fastText,0.788,0.8,19,25,0.4513808323961257,1.0,False
+end-to-end – Lazada,Phẳng LLM few-shot,LLM few-shot → ViSoBERT,0.788,0.802,19,26,0.3712980344710104,1.0,False
+end-to-end – Lazada,Phẳng LLM few-shot,LLM few-shot → PhoBERT,0.788,0.806,16,25,0.21102359760880063,1.0,False
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,TF-IDF → ViSoBERT,0.726,0.738,4,10,0.1795654296875,1.0,False
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,TF-IDF → PhoBERT,0.726,0.748,3,14,0.012725830078125,1.0,False
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,Bi-LSTM + fastText → TF-IDF,0.726,0.73,36,38,0.9075606176124984,1.0,False
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,Bi-LSTM + fastText → ViSoBERT,0.726,0.722,38,36,0.9075606176124984,1.0,False
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,Bi-LSTM + fastText → PhoBERT,0.726,0.732,37,40,0.8198929037490488,1.0,False
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,Bi-LSTM + fastText → LLM few-shot,0.726,0.736,40,45,0.6646454904132133,1.0,False
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,ViSoBERT → TF-IDF,0.726,0.796,27,62,0.00026558534298746995,0.07648857878039135,False
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,ViSoBERT → Bi-LSTM + fastText,0.726,0.782,25,53,0.00203114037416273,0.5016916724181943,False
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,ViSoBERT → PhoBERT,0.726,0.796,28,63,0.0003128389964067163,0.08915911397591415,False
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,ViSoBERT → LLM few-shot,0.726,0.8,31,68,0.00025534608649658137,0.07379501899751202,False
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,PhoBERT → TF-IDF,0.726,0.756,43,58,0.16327926185142785,1.0,False
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,PhoBERT → Bi-LSTM + fastText,0.726,0.738,41,47,0.5942882951469399,1.0,False
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,PhoBERT → ViSoBERT,0.726,0.748,44,55,0.3148798910376228,1.0,False
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,LLM few-shot → TF-IDF,0.726,0.814,31,75,2.2954512916817195e-05,0.007506125723799223,True
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,LLM few-shot → Bi-LSTM + fastText,0.726,0.8,29,66,0.00018640192629177998,0.054429362477199754,False
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,LLM few-shot → ViSoBERT,0.726,0.802,32,70,0.0002133912534118648,0.06188346348944079,False
+end-to-end – Lazada,TF-IDF → Bi-LSTM + fastText,LLM few-shot → PhoBERT,0.726,0.806,32,72,0.00010959860355569963,0.03331797548093269,True
+end-to-end – Lazada,TF-IDF → ViSoBERT,TF-IDF → PhoBERT,0.738,0.748,2,7,0.1796875,1.0,False
+end-to-end – Lazada,TF-IDF → ViSoBERT,Bi-LSTM + fastText → TF-IDF,0.738,0.73,38,34,0.7239481457469141,1.0,False
+end-to-end – Lazada,TF-IDF → ViSoBERT,Bi-LSTM + fastText → ViSoBERT,0.738,0.722,36,28,0.3817327947933377,1.0,False
+end-to-end – Lazada,TF-IDF → ViSoBERT,Bi-LSTM + fastText → PhoBERT,0.738,0.732,38,35,0.8151212352249976,1.0,False
+end-to-end – Lazada,TF-IDF → ViSoBERT,Bi-LSTM + fastText → LLM few-shot,0.738,0.736,43,42,1.0,1.0,False
+end-to-end – Lazada,TF-IDF → ViSoBERT,ViSoBERT → TF-IDF,0.738,0.796,29,58,0.002479419793816073,0.5950607505158575,False
+end-to-end – Lazada,TF-IDF → ViSoBERT,ViSoBERT → Bi-LSTM + fastText,0.738,0.782,33,55,0.024622831581791033,1.0,False
+end-to-end – Lazada,TF-IDF → ViSoBERT,ViSoBERT → PhoBERT,0.738,0.796,28,57,0.0021949089077805926,0.5355577734984646,False
+end-to-end – Lazada,TF-IDF → ViSoBERT,ViSoBERT → LLM few-shot,0.738,0.8,33,64,0.002151553087925026,0.5271305065416313,False
+end-to-end – Lazada,TF-IDF → ViSoBERT,PhoBERT → TF-IDF,0.738,0.756,44,53,0.41677484108909885,1.0,False
+end-to-end – Lazada,TF-IDF → ViSoBERT,PhoBERT → Bi-LSTM + fastText,0.738,0.738,50,50,1.0,1.0,False
+end-to-end – Lazada,TF-IDF → ViSoBERT,PhoBERT → ViSoBERT,0.738,0.748,42,47,0.6718086491746109,1.0,False
+end-to-end – Lazada,TF-IDF → ViSoBERT,LLM few-shot → TF-IDF,0.738,0.814,34,72,0.00028452861891625184,0.08165971362896428,False
+end-to-end – Lazada,TF-IDF → ViSoBERT,LLM few-shot → Bi-LSTM + fastText,0.738,0.8,38,69,0.003529272035686486,0.8117325682078917,False
+end-to-end – Lazada,TF-IDF → ViSoBERT,LLM few-shot → ViSoBERT,0.738,0.802,34,66,0.0017899303914868528,0.44569266748022635,False
+end-to-end – Lazada,TF-IDF → ViSoBERT,LLM few-shot → PhoBERT,0.738,0.806,36,70,0.0012402397143976502,0.3212220860289914,False
+end-to-end – Lazada,TF-IDF → PhoBERT,Bi-LSTM + fastText → TF-IDF,0.748,0.73,42,33,0.3556992390814873,1.0,False
+end-to-end – Lazada,TF-IDF → PhoBERT,Bi-LSTM + fastText → ViSoBERT,0.748,0.722,43,30,0.15971168311801956,1.0,False
+end-to-end – Lazada,TF-IDF → PhoBERT,Bi-LSTM + fastText → PhoBERT,0.748,0.732,37,29,0.3890524605477928,1.0,False
+end-to-end – Lazada,TF-IDF → PhoBERT,Bi-LSTM + fastText → LLM few-shot,0.748,0.736,44,38,0.581114454176647,1.0,False
+end-to-end – Lazada,TF-IDF → PhoBERT,ViSoBERT → TF-IDF,0.748,0.796,34,58,0.01602027478889998,1.0,False
+end-to-end – Lazada,TF-IDF → PhoBERT,ViSoBERT → Bi-LSTM + fastText,0.748,0.782,39,56,0.10017333048675559,1.0,False
+end-to-end – Lazada,TF-IDF → PhoBERT,ViSoBERT → PhoBERT,0.748,0.796,29,53,0.010637487878147722,1.0,False
+end-to-end – Lazada,TF-IDF → PhoBERT,ViSoBERT → LLM few-shot,0.748,0.8,36,62,0.011174544214771171,1.0,False
+end-to-end – Lazada,TF-IDF → PhoBERT,PhoBERT → TF-IDF,0.748,0.756,48,52,0.7643534344026676,1.0,False
+end-to-end – Lazada,TF-IDF → PhoBERT,PhoBERT → Bi-LSTM + fastText,0.748,0.738,55,50,0.6964676629916763,1.0,False
+end-to-end – Lazada,TF-IDF → PhoBERT,PhoBERT → ViSoBERT,0.748,0.748,49,49,1.0,1.0,False
+end-to-end – Lazada,TF-IDF → PhoBERT,LLM few-shot → TF-IDF,0.748,0.814,39,72,0.0022383457179088032,0.5439180094518392,False
+end-to-end – Lazada,TF-IDF → PhoBERT,LLM few-shot → Bi-LSTM + fastText,0.748,0.8,43,69,0.017765781280387187,1.0,False
+end-to-end – Lazada,TF-IDF → PhoBERT,LLM few-shot → ViSoBERT,0.748,0.802,41,68,0.01240363724332997,1.0,False
+end-to-end – Lazada,TF-IDF → PhoBERT,LLM few-shot → PhoBERT,0.748,0.806,38,67,0.0060160815152493306,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → TF-IDF,Bi-LSTM + fastText → ViSoBERT,0.73,0.722,6,2,0.2890625,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → TF-IDF,Bi-LSTM + fastText → PhoBERT,0.73,0.732,5,6,1.0,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → TF-IDF,Bi-LSTM + fastText → LLM few-shot,0.73,0.736,10,13,0.6776394844055176,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → TF-IDF,ViSoBERT → TF-IDF,0.73,0.796,26,59,0.0004471991792769285,0.12334877811335558,False
+end-to-end – Lazada,Bi-LSTM + fastText → TF-IDF,ViSoBERT → Bi-LSTM + fastText,0.73,0.782,33,59,0.008780930806975229,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → TF-IDF,ViSoBERT → PhoBERT,0.73,0.796,30,63,0.0008100087738623599,0.21627234262125009,False
+end-to-end – Lazada,Bi-LSTM + fastText → TF-IDF,ViSoBERT → LLM few-shot,0.73,0.8,35,70,0.0008214525388957499,0.2185063753462695,False
+end-to-end – Lazada,Bi-LSTM + fastText → TF-IDF,PhoBERT → TF-IDF,0.73,0.756,39,52,0.20817442238117578,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → TF-IDF,PhoBERT → Bi-LSTM + fastText,0.73,0.738,49,53,0.7666042612518518,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → TF-IDF,PhoBERT → ViSoBERT,0.73,0.748,44,53,0.41677484108909885,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → TF-IDF,LLM few-shot → TF-IDF,0.73,0.814,30,72,3.885014426598705e-05,0.012393196020849869,True
+end-to-end – Lazada,Bi-LSTM + fastText → TF-IDF,LLM few-shot → Bi-LSTM + fastText,0.73,0.8,37,72,0.0010329356216356765,0.27062913286854723,False
+end-to-end – Lazada,Bi-LSTM + fastText → TF-IDF,LLM few-shot → ViSoBERT,0.73,0.802,34,70,0.0005342841899801615,0.14479101548462375,False
+end-to-end – Lazada,Bi-LSTM + fastText → TF-IDF,LLM few-shot → PhoBERT,0.73,0.806,35,73,0.00032583856112748064,0.0925381513602045,False
+end-to-end – Lazada,Bi-LSTM + fastText → ViSoBERT,Bi-LSTM + fastText → PhoBERT,0.722,0.732,2,7,0.1796875,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → ViSoBERT,Bi-LSTM + fastText → LLM few-shot,0.722,0.736,8,15,0.21003961563110352,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → ViSoBERT,ViSoBERT → TF-IDF,0.722,0.796,25,62,9.06079859652185e-05,0.027997867663252515,True
+end-to-end – Lazada,Bi-LSTM + fastText → ViSoBERT,ViSoBERT → Bi-LSTM + fastText,0.722,0.782,29,59,0.0018240286456271994,0.4523591041155455,False
+end-to-end – Lazada,Bi-LSTM + fastText → ViSoBERT,ViSoBERT → PhoBERT,0.722,0.796,25,62,9.06079859652185e-05,0.027997867663252515,True
+end-to-end – Lazada,Bi-LSTM + fastText → ViSoBERT,ViSoBERT → LLM few-shot,0.722,0.8,31,70,0.0001308223106691452,0.03924669320074356,True
+end-to-end – Lazada,Bi-LSTM + fastText → ViSoBERT,PhoBERT → TF-IDF,0.722,0.756,40,57,0.10376938287271767,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → ViSoBERT,PhoBERT → Bi-LSTM + fastText,0.722,0.738,46,54,0.48411841360729146,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → ViSoBERT,PhoBERT → ViSoBERT,0.722,0.748,38,51,0.20311681873649565,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → ViSoBERT,LLM few-shot → TF-IDF,0.722,0.814,30,76,9.102659374333861e-06,0.0030402882310275096,True
+end-to-end – Lazada,Bi-LSTM + fastText → ViSoBERT,LLM few-shot → Bi-LSTM + fastText,0.722,0.8,34,73,0.00020637467419230582,0.060055030189960994,False
+end-to-end – Lazada,Bi-LSTM + fastText → ViSoBERT,LLM few-shot → ViSoBERT,0.722,0.802,30,70,7.85013964559367e-05,0.024413934297796314,True
+end-to-end – Lazada,Bi-LSTM + fastText → ViSoBERT,LLM few-shot → PhoBERT,0.722,0.806,32,74,5.541979465701251e-05,0.01740181552230193,True
+end-to-end – Lazada,Bi-LSTM + fastText → PhoBERT,Bi-LSTM + fastText → LLM few-shot,0.732,0.736,8,10,0.8145294189453125,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → PhoBERT,ViSoBERT → TF-IDF,0.732,0.796,31,63,0.001261386598131299,0.32543774231787514,False
+end-to-end – Lazada,Bi-LSTM + fastText → PhoBERT,ViSoBERT → Bi-LSTM + fastText,0.732,0.782,35,60,0.013378703026003939,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → PhoBERT,ViSoBERT → PhoBERT,0.732,0.796,27,59,0.0007317100653124087,0.19756171763435035,False
+end-to-end – Lazada,Bi-LSTM + fastText → PhoBERT,ViSoBERT → LLM few-shot,0.732,0.8,35,69,0.0011086208878113386,0.28824143083094805,False
+end-to-end – Lazada,Bi-LSTM + fastText → PhoBERT,PhoBERT → TF-IDF,0.732,0.756,45,57,0.2760138924925017,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → PhoBERT,PhoBERT → Bi-LSTM + fastText,0.732,0.738,51,54,0.8453703188825519,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → PhoBERT,PhoBERT → ViSoBERT,0.732,0.748,45,53,0.4796924995674873,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → PhoBERT,LLM few-shot → TF-IDF,0.732,0.814,36,77,0.00014401960112955247,0.04262980193434753,True
+end-to-end – Lazada,Bi-LSTM + fastText → PhoBERT,LLM few-shot → Bi-LSTM + fastText,0.732,0.8,39,73,0.0016946822547182353,0.42536524593427705,False
+end-to-end – Lazada,Bi-LSTM + fastText → PhoBERT,LLM few-shot → ViSoBERT,0.732,0.802,37,72,0.0010329356216356765,0.27062913286854723,False
+end-to-end – Lazada,Bi-LSTM + fastText → PhoBERT,LLM few-shot → PhoBERT,0.732,0.806,34,71,0.00039070001552236726,0.11017740437730757,False
+end-to-end – Lazada,Bi-LSTM + fastText → LLM few-shot,ViSoBERT → TF-IDF,0.736,0.796,38,68,0.0046185356920239295,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → LLM few-shot,ViSoBERT → Bi-LSTM + fastText,0.736,0.782,41,64,0.031301784575540004,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → LLM few-shot,ViSoBERT → PhoBERT,0.736,0.796,37,67,0.004232546845609295,0.9592574902219869,False
+end-to-end – Lazada,Bi-LSTM + fastText → LLM few-shot,ViSoBERT → LLM few-shot,0.736,0.8,28,60,0.000846496085616675,0.22432146268841888,False
+end-to-end – Lazada,Bi-LSTM + fastText → LLM few-shot,PhoBERT → TF-IDF,0.736,0.756,52,62,0.39937318688053774,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → LLM few-shot,PhoBERT → Bi-LSTM + fastText,0.736,0.738,57,58,1.0,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → LLM few-shot,PhoBERT → ViSoBERT,0.736,0.748,53,59,0.6367997716142327,1.0,False
+end-to-end – Lazada,Bi-LSTM + fastText → LLM few-shot,LLM few-shot → TF-IDF,0.736,0.814,40,79,0.000445310676917158,0.12334877811335558,False
+end-to-end – Lazada,Bi-LSTM + fastText → LLM few-shot,LLM few-shot → Bi-LSTM + fastText,0.736,0.8,42,74,0.0038069274291090776,0.8717863812659787,False
+end-to-end – Lazada,Bi-LSTM + fastText → LLM few-shot,LLM few-shot → ViSoBERT,0.736,0.802,42,75,0.002928128340697184,0.6968945450859297,False
+end-to-end – Lazada,Bi-LSTM + fastText → LLM few-shot,LLM few-shot → PhoBERT,0.736,0.806,40,75,0.001412957498607674,0.3588912046463492,False
+end-to-end – Lazada,ViSoBERT → TF-IDF,ViSoBERT → Bi-LSTM + fastText,0.796,0.782,9,2,0.0654296875,1.0,False
+end-to-end – Lazada,ViSoBERT → TF-IDF,ViSoBERT → PhoBERT,0.796,0.796,5,5,1.0,1.0,False
+end-to-end – Lazada,ViSoBERT → TF-IDF,ViSoBERT → LLM few-shot,0.796,0.8,9,11,0.8238029479980469,1.0,False
+end-to-end – Lazada,ViSoBERT → TF-IDF,PhoBERT → TF-IDF,0.796,0.756,55,35,0.04459752462791592,1.0,False
+end-to-end – Lazada,ViSoBERT → TF-IDF,PhoBERT → Bi-LSTM + fastText,0.796,0.738,63,34,0.0042258039216827616,0.9592574902219869,False
+end-to-end – Lazada,ViSoBERT → TF-IDF,PhoBERT → ViSoBERT,0.796,0.748,59,35,0.017209595585930455,1.0,False
+end-to-end – Lazada,ViSoBERT → TF-IDF,LLM few-shot → TF-IDF,0.796,0.814,32,41,0.34918183817058834,1.0,False
+end-to-end – Lazada,ViSoBERT → TF-IDF,LLM few-shot → Bi-LSTM + fastText,0.796,0.8,40,42,0.9121566075526029,1.0,False
+end-to-end – Lazada,ViSoBERT → TF-IDF,LLM few-shot → ViSoBERT,0.796,0.802,36,39,0.8175538505509841,1.0,False
+end-to-end – Lazada,ViSoBERT → TF-IDF,LLM few-shot → PhoBERT,0.796,0.806,37,42,0.6529643755164601,1.0,False
+end-to-end – Lazada,ViSoBERT → Bi-LSTM + fastText,ViSoBERT → PhoBERT,0.782,0.796,3,10,0.09228515625,1.0,False
+end-to-end – Lazada,ViSoBERT → Bi-LSTM + fastText,ViSoBERT → LLM few-shot,0.782,0.8,7,16,0.0931396484375,1.0,False
+end-to-end – Lazada,ViSoBERT → Bi-LSTM + fastText,PhoBERT → TF-IDF,0.782,0.756,56,43,0.22762615711004686,1.0,False
+end-to-end – Lazada,ViSoBERT → Bi-LSTM + fastText,PhoBERT → Bi-LSTM + fastText,0.782,0.738,54,32,0.02298259190715704,1.0,False
+end-to-end – Lazada,ViSoBERT → Bi-LSTM + fastText,PhoBERT → ViSoBERT,0.782,0.748,56,39,0.10017333048675559,1.0,False
+end-to-end – Lazada,ViSoBERT → Bi-LSTM + fastText,LLM few-shot → TF-IDF,0.782,0.814,33,49,0.09703091129729907,1.0,False
+end-to-end – Lazada,ViSoBERT → Bi-LSTM + fastText,LLM few-shot → Bi-LSTM + fastText,0.782,0.8,31,40,0.34247099841986794,1.0,False
+end-to-end – Lazada,ViSoBERT → Bi-LSTM + fastText,LLM few-shot → ViSoBERT,0.782,0.802,33,43,0.3018724904870079,1.0,False
+end-to-end – Lazada,ViSoBERT → Bi-LSTM + fastText,LLM few-shot → PhoBERT,0.782,0.806,34,46,0.21851803947870374,1.0,False
+end-to-end – Lazada,ViSoBERT → PhoBERT,ViSoBERT → LLM few-shot,0.796,0.8,8,10,0.8145294189453125,1.0,False
+end-to-end – Lazada,ViSoBERT → PhoBERT,PhoBERT → TF-IDF,0.796,0.756,59,39,0.05439055827708829,1.0,False
+end-to-end – Lazada,ViSoBERT → PhoBERT,PhoBERT → Bi-LSTM + fastText,0.796,0.738,64,35,0.004640654088434308,1.0,False
+end-to-end – Lazada,ViSoBERT → PhoBERT,PhoBERT → ViSoBERT,0.796,0.748,59,35,0.017209595585930455,1.0,False
+end-to-end – Lazada,ViSoBERT → PhoBERT,LLM few-shot → TF-IDF,0.796,0.814,37,46,0.37999939641191804,1.0,False
+end-to-end – Lazada,ViSoBERT → PhoBERT,LLM few-shot → Bi-LSTM + fastText,0.796,0.8,41,43,0.913202362224597,1.0,False
+end-to-end – Lazada,ViSoBERT → PhoBERT,LLM few-shot → ViSoBERT,0.796,0.802,38,41,0.8221442424521863,1.0,False
+end-to-end – Lazada,ViSoBERT → PhoBERT,LLM few-shot → PhoBERT,0.796,0.806,36,41,0.6487911623106449,1.0,False
+end-to-end – Lazada,ViSoBERT → LLM few-shot,PhoBERT → TF-IDF,0.8,0.756,66,44,0.044762094156973464,1.0,False
+end-to-end – Lazada,ViSoBERT → LLM few-shot,PhoBERT → Bi-LSTM + fastText,0.8,0.738,70,39,0.003854108187381312,0.8787366667229392,False
+end-to-end – Lazada,ViSoBERT → LLM few-shot,PhoBERT → ViSoBERT,0.8,0.748,67,41,0.01574929114912747,1.0,False
+end-to-end – Lazada,ViSoBERT → LLM few-shot,LLM few-shot → TF-IDF,0.8,0.814,40,47,0.5202915935750728,1.0,False
+end-to-end – Lazada,ViSoBERT → LLM few-shot,LLM few-shot → Bi-LSTM + fastText,0.8,0.8,44,44,1.0,1.0,False
+end-to-end – Lazada,ViSoBERT → LLM few-shot,LLM few-shot → ViSoBERT,0.8,0.802,43,44,1.0,1.0,False
+end-to-end – Lazada,ViSoBERT → LLM few-shot,LLM few-shot → PhoBERT,0.8,0.806,42,45,0.830373009685754,1.0,False
+end-to-end – Lazada,PhoBERT → TF-IDF,PhoBERT → Bi-LSTM + fastText,0.756,0.738,11,2,0.0224609375,1.0,False
+end-to-end – Lazada,PhoBERT → TF-IDF,PhoBERT → ViSoBERT,0.756,0.748,6,2,0.2890625,1.0,False
+end-to-end – Lazada,PhoBERT → TF-IDF,LLM few-shot → TF-IDF,0.756,0.814,39,68,0.006517764631278951,1.0,False
+end-to-end – Lazada,PhoBERT → TF-IDF,LLM few-shot → Bi-LSTM + fastText,0.756,0.8,47,69,0.05072955668288323,1.0,False
+end-to-end – Lazada,PhoBERT → TF-IDF,LLM few-shot → ViSoBERT,0.756,0.802,44,67,0.03630649114131781,1.0,False
+end-to-end – Lazada,PhoBERT → TF-IDF,LLM few-shot → PhoBERT,0.756,0.806,44,69,0.023534002126010006,1.0,False
+end-to-end – Lazada,PhoBERT → Bi-LSTM + fastText,PhoBERT → ViSoBERT,0.738,0.748,3,8,0.2265625,1.0,False
+end-to-end – Lazada,PhoBERT → Bi-LSTM + fastText,LLM few-shot → TF-IDF,0.738,0.814,38,76,0.00047518532594190946,0.12972559398214129,False
+end-to-end – Lazada,PhoBERT → Bi-LSTM + fastText,LLM few-shot → Bi-LSTM + fastText,0.738,0.8,36,67,0.0029291945870261924,0.6968945450859297,False
+end-to-end – Lazada,PhoBERT → Bi-LSTM + fastText,LLM few-shot → ViSoBERT,0.738,0.802,39,71,0.002943638859345205,0.6968945450859297,False
+end-to-end – Lazada,PhoBERT → Bi-LSTM + fastText,LLM few-shot → PhoBERT,0.738,0.806,39,73,0.0016946822547182353,0.42536524593427705,False
+end-to-end – Lazada,PhoBERT → ViSoBERT,LLM few-shot → TF-IDF,0.748,0.814,40,73,0.0024558111031850564,0.5918504758675986,False
+end-to-end – Lazada,PhoBERT → ViSoBERT,LLM few-shot → Bi-LSTM + fastText,0.748,0.8,44,70,0.018810748824884115,1.0,False
+end-to-end – Lazada,PhoBERT → ViSoBERT,LLM few-shot → ViSoBERT,0.748,0.802,40,67,0.011598202043786154,1.0,False
+end-to-end – Lazada,PhoBERT → ViSoBERT,LLM few-shot → PhoBERT,0.748,0.806,42,71,0.008149691373771186,1.0,False
+end-to-end – Lazada,LLM few-shot → TF-IDF,LLM few-shot → Bi-LSTM + fastText,0.814,0.8,9,2,0.0654296875,1.0,False
+end-to-end – Lazada,LLM few-shot → TF-IDF,LLM few-shot → ViSoBERT,0.814,0.802,6,0,0.03125,1.0,False
+end-to-end – Lazada,LLM few-shot → TF-IDF,LLM few-shot → PhoBERT,0.814,0.806,6,2,0.2890625,1.0,False
+end-to-end – Lazada,LLM few-shot → Bi-LSTM + fastText,LLM few-shot → ViSoBERT,0.8,0.802,3,4,1.0,1.0,False
+end-to-end – Lazada,LLM few-shot → Bi-LSTM + fastText,LLM few-shot → PhoBERT,0.8,0.806,3,6,0.5078125,1.0,False
+end-to-end – Lazada,LLM few-shot → ViSoBERT,LLM few-shot → PhoBERT,0.802,0.806,2,4,0.6875,1.0,False

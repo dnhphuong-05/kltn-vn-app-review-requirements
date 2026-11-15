@@ -1,0 +1,7 @@
+﻿họ so sánh,A,B,tỷ lệ đúng A,tỷ lệ đúng B,"A đúng, B sai","A sai, B đúng",p (exact),p (Holm),"khác biệt (α = 0,05)"
+end-to-end – lazada,Cascade LLM – v1,Phẳng LLM – v1,0.816,0.788,24,10,0.024306510109454393,0.14583906065672636,False
+end-to-end – lazada,Cascade LLM – v1,Cascade LLM – v1n,0.816,0.796,18,8,0.07551869750022888,0.3775934875011444,False
+end-to-end – lazada,Cascade LLM – v1,Phẳng LLM – v1n,0.816,0.794,27,16,0.12628947438543037,0.5051578975417215,False
+end-to-end – lazada,Phẳng LLM – v1,Cascade LLM – v1n,0.788,0.796,20,24,0.651587827208914,1.0,False
+end-to-end – lazada,Phẳng LLM – v1,Phẳng LLM – v1n,0.788,0.794,6,9,0.6072387695312499,1.0,False
+end-to-end – lazada,Cascade LLM – v1n,Phẳng LLM – v1n,0.796,0.794,17,16,1.0,1.0,False

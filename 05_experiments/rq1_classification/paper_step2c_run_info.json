@@ -1,0 +1,6 @@
+{
+ "run_date": "2026-11-15",
+ "commit": "9e19ef75c14d7dd0ebc9aa95cda542a8238a303d",
+ "gpu": "Tesla T4",
+ "segmenter": "vncorenlp-rdrsegmenter"
+}

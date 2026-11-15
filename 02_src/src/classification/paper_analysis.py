@@ -26,7 +26,9 @@ NEURAL = {'ViSoBERT': 'visobert', 'Bi-LSTM + fastText': 'bilstm'}
 LLM = 'LLM few-shot'
 STRATEGIES = list(NEURAL) + [LLM]
 FLAT = 'Baseline phẳng ViSoBERT'
-SHORT = {'ViSoBERT': 'V', 'Bi-LSTM + fastText': 'B', LLM: 'L'}
+SHORT = {'ViSoBERT': 'V', 'Bi-LSTM + fastText': 'B', LLM: 'L', 'TF-IDF': 'T', 'PhoBERT': 'P'}
+FLAT_PREFIX = 'Phẳng '
+ORDER = ['TF-IDF', 'Bi-LSTM + fastText', 'ViSoBERT', 'PhoBERT', LLM]       # step 2: traditional → LLM
 
 
 # ---------------------------------------------------------------- duplicates
@@ -108,7 +110,7 @@ def canonical(runs):
 
 
 def saved_predictions(res_dir, set_name, ids, frozen):
-    """(tier1, tier2, flat) of a locked set rebuilt from the GĐ10 files as in notebook 10: neural Tier 1 =
+    """(tier1, tier2, flat) of a locked set rebuilt from the GĐ10 files as in notebook 12: neural Tier 1 =
     P(ACTIONABLE) ≥ frozen threshold per seed, Tier 2 / flat = argmax, LLM = saved labels (Tier 2: −1 where the LLM
     was not called). tier1/tier2: {strategy: {run: array}}; flat: {seed: array} or {} when not saved."""
     pred = pd.read_csv(os.path.join(res_dir, f'gd10_pred_{set_name}.csv'))
@@ -176,9 +178,12 @@ def configurations(t1, t2, flat, hybrids=True):
 
 
 def short_label(name, flat='V phẳng'):
-    """V→L style code of a configuration (V = ViSoBERT, B = Bi-LSTM + fastText, L = LLM)."""
+    """V→L style code of a configuration (V = ViSoBERT, B = Bi-LSTM + fastText, L = LLM, T = TF-IDF, P = PhoBERT).
+    Flat configurations read '<code> <word>' with the last word of `flat` ('phẳng' or 'flat')."""
     if name == FLAT:
         return flat
+    if name.startswith(FLAT_PREFIX):
+        return f'{SHORT[name[len(FLAT_PREFIX):]]} {flat.split()[-1]}'
     if name.startswith('Cascade '):
         s = SHORT[name[len('Cascade '):]]
         return f'{s}→{s}'
@@ -353,13 +358,17 @@ MARKER = {'cascade': 'o', 'phẳng': 's', 'hybrid': '^'}
 
 
 def architecture(name):
-    return 'phẳng' if name == FLAT else ('cascade' if name.startswith('Cascade ') else 'hybrid')
+    if name == FLAT or name.startswith(FLAT_PREFIX):
+        return 'phẳng'
+    return 'cascade' if name.startswith('Cascade ') else 'hybrid'
 
 
-def pareto_figure(df, path, panels, text):
+def pareto_figure(df, path, panels, text, label_col=None):
     """Two panels sharing the Macro-F1 axis, one per cost measure; 95% CI bars on the Pareto points. df: one row per configuration with columns
     'cấu hình', 'Macro-F1', 'CI 2,5%', 'CI 97,5%' (fractions) and the cost columns named in panels.
-    panels: [(cost column, x-axis title, log scale?, Pareto column)]. text: legend and y-axis strings."""
+    panels: [(cost column, x-axis title, log scale?, Pareto column)]. text: legend and y-axis strings.
+    label_col: None labels every point; a column name (or one per panel) labels the Pareto points plus the rows
+    where that column is True. Labels of Pareto points alternate above and below the front to avoid overlaps."""
     import matplotlib
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
@@ -367,7 +376,8 @@ def pareto_figure(df, path, panels, text):
 
     plt.rcParams.update({'font.family': 'DejaVu Sans', 'font.size': 9})
     fig, axes = plt.subplots(1, len(panels), figsize=(5.2 * len(panels), 4.3), sharey=True)
-    for ax, (col, xtitle, log, pcol) in zip(np.atleast_1d(axes), panels):
+    label_cols = label_col if isinstance(label_col, (list, tuple)) else [label_col] * len(panels)
+    for ax, (col, xtitle, log, pcol), label_col in zip(np.atleast_1d(axes), panels, label_cols):
         d = df.copy()
         d['x'] = d[col].astype(float)
         if log:
@@ -384,11 +394,15 @@ def pareto_figure(df, path, panels, text):
                             ecolor=color, elinewidth=1, alpha=0.55, zorder=1)
             ax.scatter(r['x'], y, s=46 if on else 34, marker=MARKER[architecture(r['cấu hình'])], color=color,
                        edgecolors='white', linewidths=1.2, zorder=3)
+            if label_col is not None and not (on or bool(r[label_col])):
+                continue                 # unlabeled dominated point (crowded charts)
             key = (round(r['x'], 4), round(y, 1))
             labels.setdefault(key, []).append((short_label(r['cấu hình'], text.get('flat_code', 'V phẳng')), on))
+        rank = {(round(x, 4), round(f * 100, 1)): i for i, (x, f) in enumerate(zip(front['x'], front['Macro-F1']))}
         for (x, y), items in labels.items():
             on = any(o for _, o in items)
-            ax.annotate(' / '.join(s for s, _ in items), (x, y), xytext=(6, 3), textcoords='offset points',
+            dy = -11 if on and label_col is not None and rank.get((x, y), 0) % 2 else 3
+            ax.annotate(' / '.join(s for s, _ in items), (x, y), xytext=(6, dy), textcoords='offset points',
                         fontsize=8.5, color=INK if on else INK2, fontweight='bold' if on else 'normal')
         ax.set_xlabel(xtitle, color=INK2)
         ax.grid(axis='y', color=GRID, lw=0.6)
@@ -407,3 +421,198 @@ def pareto_figure(df, path, panels, text):
     fig.savefig(path, dpi=200, bbox_inches='tight', facecolor='white')
     plt.close(fig)
     return path
+
+
+# ---------------------------------------------------------------- step 2: five strategies (amendments v3.2–v3.5)
+def _tier_runs(pred, ids, tier, model, seeds, threshold=None):
+    probs = neural_probs(pred, ids, tier, model, seeds)
+    if tier == 'tier1':
+        return {s: p[:, 1] >= threshold for s, p in probs.items()}
+    return {s: p.argmax(1) for s, p in probs.items()}
+
+
+def step2_predictions(res_dir, set_name, ids, frozen, tfidf_cfg, neural_cfg, phobert_threshold=None):
+    """(tier1, tier2, flats) of the five strategies in ORDER. tier1: {strategy: {run: bool}}; tier2 and flats:
+    {strategy: {run: class ids}} (flats in the 4-class space). Sources: gd10_* (ViSoBERT, Bi-LSTM, LLM, flat
+    ViSoBERT), paper_pred_tfidf_* (TF-IDF, threshold from its frozen config), paper_pred_neural_* (PhoBERT with its
+    frozen threshold unless `phobert_threshold` is given; flat Bi-LSTM) and paper_flat_llm_* (flat LLM labels)."""
+    t1, t2, flat_v = saved_predictions(res_dir, set_name, ids, frozen)
+    seeds = frozen['tier1']['seeds']
+    flats = {'ViSoBERT': flat_v} if flat_v else {}
+    f = os.path.join(res_dir, f'paper_pred_tfidf_{set_name}.csv')
+    if os.path.exists(f):
+        pt = pd.read_csv(f)
+        t1['TF-IDF'] = _tier_runs(pt, ids, 'tier1', 'tfidf', seeds, tfidf_cfg['tier1']['threshold'])
+        t2['TF-IDF'] = _tier_runs(pt, ids, 'tier2', 'tfidf', seeds)
+        flats['TF-IDF'] = _tier_runs(pt, ids, 'flat', 'tfidf', seeds)
+    f = os.path.join(res_dir, f'paper_pred_neural_{set_name}.csv')
+    if os.path.exists(f):
+        pn = pd.read_csv(f)
+        thr = neural_cfg['phobert']['tier1']['threshold'] if phobert_threshold is None else phobert_threshold
+        t1['PhoBERT'] = _tier_runs(pn, ids, 'tier1', 'phobert', seeds, thr)
+        t2['PhoBERT'] = _tier_runs(pn, ids, 'tier2', 'phobert', seeds)
+        flats['PhoBERT'] = _tier_runs(pn, ids, 'flat', 'phobert', seeds)
+        flats['Bi-LSTM + fastText'] = _tier_runs(pn, ids, 'flat', 'bilstm', seeds)
+    f = os.path.join(res_dir, f'paper_flat_llm_{set_name}.csv')
+    if os.path.exists(f):
+        d = pd.read_csv(f)
+        m, lab = dict(zip(d['review_id'], d['pred_label'])), {l: i for i, l in enumerate(FOUR_CLASSES)}
+        a = np.array([lab.get(m.get(r), -1) for r in ids])
+        if (a < 0).any():
+            raise RuntimeError(f'{set_name}: flat LLM thiếu hoặc sai nhãn ở {(a < 0).sum()} review')
+        flats[LLM] = {'llm': a}
+    order = lambda dct: {k: dct[k] for k in ORDER if k in dct}
+    return order(t1), order(t2), order(flats)
+
+
+def configurations_step2(t1, t2, flats, hybrids=True):
+    """Pure cascades and flats (every run), then hybrids X → Y (X ≠ Y, canonical runs), all in ORDER. A Tier 2 gap
+    on a review kept by Tier 1 raises for a pure cascade and skips (and lists) a hybrid. Returns (configs, skipped)."""
+    out, skipped = {}, []
+    for x in ORDER:
+        if x in t1 and x in t2:
+            runs = {}
+            for k, act in t1[x].items():
+                p, gap = _cascade(act, t2[x][k])
+                if gap:
+                    raise RuntimeError(f'Cascade {x}/{k}: tầng 2 thiếu {gap} dự đoán cho review tầng 1 giữ lại')
+                runs[k] = p
+            out[hybrid_name(x, x)] = runs
+    for x in ORDER:
+        if x in flats:
+            out[FLAT_PREFIX + x] = dict(flats[x])
+    if hybrids:
+        for x in ORDER:
+            for y in ORDER:
+                if x == y or x not in t1 or y not in t2:
+                    continue
+                p, gap = _cascade(canonical(t1[x]), canonical(t2[y]))
+                if gap:
+                    skipped.append({'tầng 1': x, 'tầng 2': y, 'review thiếu tầng 2': gap})
+                else:
+                    out[hybrid_name(x, y)] = {'canon': p}
+    return out, skipped
+
+
+def actionable_scores(y, configs, mask=None):
+    """Recall, precision and F1 of ACTIONABLE (BUG ∪ FEATURE ∪ UX collapsed) of every configuration, mean over runs."""
+    m = _mask(len(y), mask)
+    g = np.asarray(y)[m] != OTHER_ID
+    rows = []
+    for name, runs in configs.items():
+        r = []
+        for p in runs.values():
+            a = np.asarray(p)[m] != OTHER_ID
+            tp = (a & g).sum()
+            rec, prec = tp / max(g.sum(), 1), tp / max(a.sum(), 1)
+            r.append((rec, prec, 2 * rec * prec / max(rec + prec, 1e-12)))
+        r = np.asarray(r, dtype=float).mean(axis=0)
+        rows.append({'cấu hình': name, 'Recall ACT': r[0], 'Precision ACT': r[1], 'F1 ACT': r[2]})
+    return pd.DataFrame(rows)
+
+
+def _pair(df, a, b):
+    """Row of a pairwise table for the unordered pair {a, b} and the sign that orients it as a − b."""
+    r = df[((df['A'] == a) & (df['B'] == b)) | ((df['A'] == b) & (df['B'] == a))].iloc[0]
+    return r, (1 if r['A'] == a else -1)
+
+
+def architecture_contrast(tab, diff, mc, act):
+    """Cascade X against flat X for every strategy that has both (RQ2): mean Macro-F1 of each, paired bootstrap
+    difference of the canonical runs with 95% CI, McNemar p (Holm within `mc`'s family) and recall ACTIONABLE."""
+    t, a = tab.set_index('cấu hình'), act.set_index('cấu hình')
+    rows = []
+    for x in ORDER:
+        c, f = hybrid_name(x, x), FLAT_PREFIX + x
+        if c not in t.index or f not in t.index:
+            continue
+        d, sg = _pair(diff, c, f)
+        lo, hi = sorted([sg * d['CI 2,5%'], sg * d['CI 97,5%']])
+        m, _ = _pair(mc, c, f)
+        rows.append({'họ mô hình': x, 'Macro-F1 cascade': t.loc[c, 'Macro-F1 (trung bình)'] * 100,
+                     'Macro-F1 phẳng': t.loc[f, 'Macro-F1 (trung bình)'] * 100,
+                     'chênh cascade − phẳng (lần chạy chuẩn)': sg * d['chênh (A − B)'] * 100, 'CI 2,5%': lo * 100,
+                     'CI 97,5%': hi * 100, 'McNemar p (Holm)': m['p (Holm)'],
+                     'Recall ACT cascade': a.loc[c, 'Recall ACT'] * 100, 'Recall ACT phẳng': a.loc[f, 'Recall ACT'] * 100})
+    return pd.DataFrame(rows)
+
+
+def config_cost(name, keep, sec, usd, train, seg=None):
+    """(inference seconds, API USD, training seconds) of a configuration. sec/usd/train: {(position, strategy): value},
+    position 'tier1' | 'tier2' | 'flat', sec and usd per 1,000 reviews, train per run; keep: Tier 1 keep rate per
+    strategy; seg: segmentation seconds per 1,000 reviews (PhoBERT), counted once for every review the strategy reads."""
+    seg = seg or {}
+    if name == FLAT or name.startswith(FLAT_PREFIX):
+        x = 'ViSoBERT' if name == FLAT else name[len(FLAT_PREFIX):]
+        return sec[('flat', x)] + seg.get(x, 0.0), usd[('flat', x)], train[('flat', x)]
+    x, y = (name[len('Cascade '):],) * 2 if name.startswith('Cascade ') else name.split(' → ')
+    s = sec[('tier1', x)] + seg.get(x, 0.0) + keep[x] * (sec[('tier2', y)] + (0.0 if y == x else seg.get(y, 0.0)))
+    return s, usd[('tier1', x)] + keep[x] * usd[('tier2', y)], train[('tier1', x)] + train[('tier2', y)]
+
+
+# ---------------------------------------------------------------- step 3a: prompt variants of the LLM (amendment v3.6)
+def llm_variant(ids, t1_df, t2_df, flat_df, tag):
+    """Cascade and flat 4-class predictions of one prompt variant from saved per-review LLM results (column `pred`).
+    Returns (configs {'Cascade LLM – tag', 'Phẳng LLM – tag'}, tier1 bool, tier2 ids with −1 where not called)."""
+    t1, t2, fl = llm_ids(ids, t1_df), llm_ids(ids, t2_df), llm_ids(ids, flat_df)
+    if (t1 < 0).any() or (fl < 0).any():
+        raise RuntimeError(f'{tag}: tầng 1 hoặc phẳng thiếu dự đoán')
+    cas, gap = _cascade(t1 == 1, t2)
+    if gap:
+        raise RuntimeError(f'{tag}: tầng 2 thiếu {gap} dự đoán cho review tầng 1 giữ lại')
+    return {f'Cascade LLM – {tag}': {'llm': cas}, f'Phẳng LLM – {tag}': {'llm': fl}}, t1 == 1, t2
+
+
+def variant_differences(diff, mc, pairs):
+    """Paired bootstrap difference (a − b, %) with 95% CI and McNemar p (Holm) for each (a, b) in pairs."""
+    rows = []
+    for a, b in pairs:
+        d, sg = _pair(diff, a, b)
+        m, _ = _pair(mc, a, b)
+        lo, hi = sorted([sg * d['CI 2,5%'], sg * d['CI 97,5%']])
+        rows.append({'so sánh': f'{a} − {b}', 'chênh Macro-F1': sg * d['chênh (A − B)'] * 100, 'CI 2,5%': lo * 100,
+                     'CI 97,5%': hi * 100, 'CI chứa 0': bool(lo <= 0 <= hi), 'McNemar p (Holm)': m['p (Holm)']})
+    return pd.DataFrame(rows)
+
+
+# ---------------------------------------------------------------- step 3a': kept-OTHER error analysis (amendment v3.7)
+# Cue groups taken from the OTHER definition and edge cases of annotation_guideline_v1 (logistics, seller/product,
+# price/fee/voucher value, policy/account/order outcome, customer service), plus a flag for app vocabulary. Fixed
+# before looking at the misclassified reviews; matched on NFC lower-case text, with common unaccented spellings.
+OTHER_CUES = {
+    'giao hàng': r'giao hàng|giao hang|giao trễ|giao tre|giao chậm|giao cham|giao lâu|giao lau|giao nhầm|giao sai|giao thiếu|shipper|\bship\b|'
+                 r'vận chuyển|van chuyen|nhận hàng|nhan hang|nhận được hàng|bưu cục|buu cuc|\bghn\b|\bghtk\b|j&t|\blex\b|express|\bspx\b',
+    'người bán, sản phẩm': r'người bán|nguoi ban|\bshop\b|cửa hàng|sản phẩm|san pham|\bsp\b|hàng giả|hang gia|\bfake\b|hàng lỗi|hang loi|'
+                           r'chất lượng|chat luong|đóng gói|dong goi|hàng nhái|giống hình|khác hình|sai mẫu|thiếu hàng',
+    'giá, phí, voucher': r'giá cả|giá rẻ|giá cao|giá tiền|\bgiá\b|\bđắt\b|\bphí\b|phí ship|freeship|free ship|voucher|vocher|mã giảm|ma giam|'
+                         r'khuyến mãi|khuyen mai|ưu đãi|uu dai|\bxu\b|\bcoin|lazcoin|giảm giá|giam gia|flash sale|\bsale\b',
+    'chính sách, tài khoản, đơn hàng': r'khóa tài khoản|khoá tài khoản|khoa tai khoan|bị khóa|bị khoá|bất thường|bat thuong|hủy đơn|huỷ đơn|'
+                                       r'huy don|tự hủy|tự huỷ|hoàn tiền|hoan tien|trả hàng|tra hang|đổi trả|doi tra|hoàn hàng|chính sách|'
+                                       r'chinh sach|tài khoản|tai khoan|bảo hành',
+    'chăm sóc khách hàng': r'chăm sóc khách hàng|cham soc khach hang|\bcskh\b|tổng đài|tong dai|nhân viên|nhan vien|hỗ trợ|ho tro|liên hệ|'
+                           r'lien he|phản hồi|chatbot|chat bot',
+}
+APP_CUE = (r'\bapp\b|ứng dụng|ung dung|phần mềm|cập nhật|cap nhat|update|\blỗi\b|\bloi\b|\blag\b|\bđơ\b|văng|crash|đăng nhập|dang nhap|'
+           r'\btải\b|\bload')
+
+
+def cue_flags(texts):
+    """Boolean frame: one column per OTHER cue group, 'không nhóm nào' (none of them) and 'nhắc app hoặc lỗi'."""
+    t = pd.Series(list(texts)).map(lambda s: unicodedata.normalize('NFC', str(s)).lower())
+    out = pd.DataFrame({k: t.str.contains(v, regex=True) for k, v in OTHER_CUES.items()})
+    out['không nhóm nào'] = ~out[list(OTHER_CUES)].any(axis=1)
+    out['nhắc app hoặc lỗi'] = t.str.contains(APP_CUE, regex=True)
+    return out
+
+
+def kept_other_table(flags, gold_other, flagged):
+    """Per cue group among gold-OTHER reviews: count, share of OTHER, false ACTIONABLE (`flagged`) count and rate."""
+    f, g, a = flags[np.asarray(gold_other)], np.asarray(gold_other), np.asarray(flagged)
+    fp = a[g]
+    rows = [{'nhóm': 'tất cả OTHER', 'n OTHER': int(g.sum()), '% OTHER': 100.0, 'n giữ nhầm': int(fp.sum()),
+             'tỷ lệ giữ nhầm (%)': 100 * fp.mean()}]
+    for c in f.columns:
+        m = f[c].to_numpy()
+        rows.append({'nhóm': c, 'n OTHER': int(m.sum()), '% OTHER': 100 * m.mean(), 'n giữ nhầm': int((m & fp).sum()),
+                     'tỷ lệ giữ nhầm (%)': 100 * (m & fp).sum() / max(m.sum(), 1)})
+    return pd.DataFrame(rows)

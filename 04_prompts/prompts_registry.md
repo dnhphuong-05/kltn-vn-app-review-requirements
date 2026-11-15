@@ -14,3 +14,8 @@
 | requirement_generation/requirement_generation_system_v2.txt + schema (requirements[]: evidence_ids[] enum E1..E20, problem_vi, title_vi, user_story, acceptance_criteria[]) — evidence và vấn đề chung trước, AC chỉ theo review được trích, sau chạy thử v1 | v2 | 4d1ff33ee2b939ff515f10d64ce9ff65b1fd1733fefad3a9c35178411b7c7c50 | 02/11/2026 |
 | requirement_generation/requirement_generation_system_v3.txt + schema như v2 — tối thiểu 2 evidence, quảng cáo/link hiện trong app khác, luật chống bịa (US/AC chỉ dùng thông tin trong review trích), sau chạy thử v2 | v3 | a02bf1796f2246e93567a801ad6cece8a7fa5ce6b7f090d9ffb9c66304db8bd1 | 02/11/2026 |
 | classification_fewshot/flat_system_v1.txt + flat_exemplars_v1.json | v1 | 62baaf4f076a88ad2e9da5230d3bfb650dccfc1e4005f4b76272ac58b68fb1aa | 15/11/2026 |
+| classification_fewshot/tier1_system_v1n.txt + tier1_exemplars_v1n.json | v1n | c1ef3bfc6bbb2a55a87701edce588229562d6943993eb9d4e6c16ed01cd84e59 | 15/11/2026 |
+| classification_fewshot/tier2_system_v1n.txt + tier2_exemplars_v1n.json | v1n | 36ccc00e9c7664be7ca39a9a3a987cbd9bbd9e959158a84dea3765a893c2d0cb | 15/11/2026 |
+| classification_fewshot/flat_system_v1n.txt + flat_exemplars_v1n.json | v1n | 354b64cbf1647ab300833bb4d831056602bab5fa3573e6703958baef3ce8dbcc | 15/11/2026 |
+
+Các prompt `requirement_generation/*` ở trên thuộc các bước sau gom cụm (lọc phạm vi, sinh Candidate Requirement), đã gỡ khỏi repo theo amendment v4.0. Hash được giữ để truy vết; file còn trong lịch sử git (commit `9e19ef7`) và trong bản lưu trữ ngoài repo.

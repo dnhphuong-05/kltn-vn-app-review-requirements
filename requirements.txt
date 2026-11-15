@@ -14,7 +14,7 @@ torch>=2.1
 # (transformers 5.x tách sai sentencepiece.bpe.model của uitnlp/visobert — xem strategy_visobert/tokenizer.py)
 transformers==5.16.1
 sentencepiece==0.2.2   # bản Kaggle của lần chạy GĐ10 (gd10_run_info.json)
-# Chiến lược C (LLM few-shot qua API) + sinh requirement — OpenAI
+# Chiến lược C (LLM few-shot qua API) + đặt tên cụm trong ví dụ gom cụm — OpenAI
 openai>=1.40
 python-dotenv>=1.0
 # Clustering

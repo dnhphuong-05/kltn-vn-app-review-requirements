@@ -1,8 +1,0 @@
-rule,n_defect,n_story,defect_rate
-well_formed,0,16,0.0
-atomic,1,16,0.0625
-minimal,0,16,0.0
-explicit_dependencies,0,16,0.0
-uniform,0,16,0.0
-unique,0,16,0.0
-any,1,16,0.0625

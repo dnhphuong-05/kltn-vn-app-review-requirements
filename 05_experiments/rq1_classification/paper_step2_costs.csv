@@ -1,0 +1,29 @@
+﻿cấu hình,mã,kiến trúc,giây / 1.000 review,USD API / 1.000 review,giây train / lần chạy,nhãn cần,gọi API
+Cascade TF-IDF,T→T,cascade,0.058888321334573675,0.0,0.3753851999936159,Train 1.200 + Validation 350,False
+Cascade Bi-LSTM + fastText,B→B,cascade,0.10903747059050053,0.0,6.372796456019084,Train 1.200 + Validation 350,False
+Cascade ViSoBERT,V→V,cascade,1.547209737868536,0.0,42.670231103897095,Train 1.200 + Validation 350,False
+Cascade PhoBERT,P→P,cascade,2.3521440505981444,0.0,46.273921807607024,Train 1.200 + Validation 350,False
+Cascade LLM few-shot,L→L,cascade,1103.4548460655112,0.20641587777777776,0.0,14–17 ví dụ Train + Validation 350,True
+Phẳng TF-IDF,T phẳng,phẳng,0.1130745666547833,0.0,0.6362419999980679,Train 1.200 + Validation 350,False
+Phẳng Bi-LSTM + fastText,B phẳng,phẳng,0.0532815569923037,0.0,2.373484452565511,Train 1.200 + Validation 350,False
+Phẳng ViSoBERT,V phẳng,phẳng,1.3931029183523995,0.0,39.7485183874766,Train 1.200 + Validation 350,False
+Phẳng PhoBERT,P phẳng,phẳng,2.0181950841631204,0.0,44.46171116828919,Train 1.200 + Validation 350,False
+Phẳng LLM few-shot,L phẳng,phẳng,791.4832146167755,0.2660895,0.0,14–17 ví dụ Train + Validation 350,True
+TF-IDF → Bi-LSTM + fastText,T→B,hybrid,0.038084694510602896,0.0,1.4106176327137898,Train 1.200 + Validation 350,False
+TF-IDF → ViSoBERT,T→V,hybrid,0.3562925170378072,0.0,19.181347571856655,Train 1.200 + Validation 350,False
+TF-IDF → PhoBERT,T→P,hybrid,0.511154942705706,0.0,10.810252629763758,Train 1.200 + Validation 350,False
+Bi-LSTM + fastText → TF-IDF,B→T,hybrid,0.1355620947910633,0.0,5.33756402329891,Train 1.200 + Validation 350,False
+Bi-LSTM + fastText → ViSoBERT,B→V,hybrid,0.514752444312686,0.0,24.14352639516195,Train 1.200 + Validation 350,False
+Bi-LSTM + fastText → PhoBERT,B→P,hybrid,0.7122020370392571,0.0,15.772431453069052,Train 1.200 + Validation 350,False
+Bi-LSTM + fastText → LLM few-shot,B→L,hybrid,282.87177569525585,0.049242199999999986,5.084925889968872,14–17 ví dụ Train + Validation 350 ; Train 1.200 + Validation 350,True
+ViSoBERT → TF-IDF,V→T,hybrid,1.300612092264605,0.0,23.86426873203406,Train 1.200 + Validation 350,False
+ViSoBERT → Bi-LSTM + fastText,V→B,hybrid,1.2833624183563959,0.0,24.899501164754234,Train 1.200 + Validation 350,False
+ViSoBERT → PhoBERT,V→P,hybrid,1.6756164991515023,0.0,34.2991361618042,Train 1.200 + Validation 350,False
+ViSoBERT → LLM few-shot,V→L,hybrid,185.17154838799172,0.03202352222222222,23.61163059870402,14–17 ví dụ Train + Validation 350 ; Train 1.200 + Validation 350,True
+PhoBERT → TF-IDF,P→T,hybrid,2.061813862791634,0.0,35.83905437783688,Train 1.200 + Validation 350,False
+PhoBERT → Bi-LSTM + fastText,P→B,hybrid,2.039970054626465,0.0,36.87428681055705,Train 1.200 + Validation 350,False
+PhoBERT → ViSoBERT,P→V,hybrid,2.3740882682800293,0.0,54.64501674969992,Train 1.200 + Validation 350,False
+LLM few-shot → TF-IDF,L→T,hybrid,913.1160878900349,0.1732659,0.2526381333300378,14–17 ví dụ Train + Validation 350 ; Train 1.200 + Validation 350,True
+LLM few-shot → Bi-LSTM + fastText,L→B,hybrid,913.0982314436776,0.1732659,1.2878705660502117,14–17 ví dụ Train + Validation 350 ; Train 1.200 + Validation 350,True
+LLM few-shot → ViSoBERT,L→V,hybrid,913.3713598246801,0.1732659,19.058600505193077,14–17 ví dụ Train + Validation 350 ; Train 1.200 + Validation 350,True
+LLM few-shot → PhoBERT,L→P,hybrid,913.5042834067118,0.1732659,10.68750556310018,14–17 ví dụ Train + Validation 350 ; Train 1.200 + Validation 350,True

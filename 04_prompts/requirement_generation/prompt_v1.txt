@@ -1,1 +1,0 @@
-# Prompt sinh User Story + AC + Evidence IDs theo loại chủ đạo của cụm.

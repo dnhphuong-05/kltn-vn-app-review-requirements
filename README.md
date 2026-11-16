@@ -35,3 +35,8 @@ hướng phát triển (notebook 21–22). Phạm vi theo amendment v4.0; tên �
 - Final Hold-out **khóa** cho tới khi mọi tuning xong — xem `01_data/HOLDOUT_LOCK.md`.
 - Config/prompt **đóng băng** ở `03_configs/frozen/` và `04_prompts/` (kèm hash) trước test.
 - `05_experiments/` chỉ chứa thứ do notebook sinh ra (tái lập được).
+
+## Giấy phép
+- Mã nguồn (`02_src/`, `notebooks/`), config, protocol và kết quả trong `05_experiments/` phát hành theo giấy phép MIT, xem `LICENSE`.
+- Văn bản đánh giá trong các file ví dụ few-shot (`04_prompts/classification_fewshot/*_exemplars_*.json`) thuộc về người dùng Google Play đã viết chúng, chỉ được giữ lại để tái lập kết quả và không nằm trong phạm vi giấy phép MIT.
+- Dữ liệu thô và bộ gold có văn bản đánh giá không được phân phối trong repo này.

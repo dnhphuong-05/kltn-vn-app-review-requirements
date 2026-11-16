@@ -39,7 +39,7 @@ Mỗi notebook là một bước chạy độc lập (máy local hoặc Kaggle k
 | 11 | `11_final_llm` — LLM few-shot trên các tập khóa | local, API | 10b |
 | 12 | `12_holdout_scoring` — chấm Hold-out, focused set, Lazada (một lần) | local | 10 |
 
-**Phân loại, giai đoạn 2 (bài báo; amendment v3.1–v3.8)**
+**Phân loại, giai đoạn 2 (bài báo; amendment v3.1–v3.8, v4.1)**
 
 | # | Notebook | Chạy ở | Số cũ |
 |---|---|---|---|
@@ -51,6 +51,7 @@ Mỗi notebook là một bước chạy độc lập (máy local hoặc Kaggle k
 | 18 | `18_neutral_prompt` — prompt LLM trung tính về ứng dụng trên Lazada (v3.6) | local, API | 23 |
 | 19 | `19_lazada_error_analysis` — lỗi giữ nhầm OTHER, phiếu mã hóa thủ công (v3.7) | local | 24 |
 | 20 | `20_cost_model` — mô hình tổng chi phí, hòa vốn, cấu hình rẻ nhất theo ngưỡng (v3.8) | local | 25 |
+| 23 | `23_paper_routing_calibration` — định tuyến theo độ tin cậy, hiệu chỉnh xác suất tầng 1, chỉ dùng dự đoán đã lưu (v4.1) | local | — |
 
 **Ví dụ hướng phát triển (ngoài phạm vi nghiên cứu phân loại)**
 

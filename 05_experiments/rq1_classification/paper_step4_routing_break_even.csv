@@ -1,0 +1,361 @@
+﻿triển khai,giá GPU / giờ,chi phí một nhãn,có huấn luyện,gọi API,hòa vốn (review / tháng)
+batch,0.35,0.02,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,14999.688077628627
+batch,0.35,0.02,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,10988.990588670376
+batch,0.35,0.02,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+batch,0.35,0.02,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,14513.539050778461
+batch,0.35,0.02,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,10725.136033994291
+batch,0.35,0.02,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+batch,0.35,0.02,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,16773.023041936678
+batch,0.35,0.02,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,11909.517329257542
+batch,0.35,0.02,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),10.281753347207937
+batch,0.35,0.02,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,15428.935789326342
+batch,0.35,0.02,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,11213.952846175409
+batch,0.35,0.02,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),28.403450391123666
+batch,0.35,0.02,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,16860.913716304214
+batch,0.35,0.02,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,11957.93186993271
+batch,0.35,0.02,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+batch,0.35,0.02,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,14447.359370178287
+batch,0.35,0.02,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,10688.392755927714
+batch,0.35,0.02,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+batch,0.35,0.05,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,37555.661644086
+batch,0.35,0.05,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,27537.19035304362
+batch,0.35,0.05,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+batch,0.35,0.05,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,36340.65844051318
+batch,0.35,0.05,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,26877.62948932
+batch,0.35,0.05,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+batch,0.35,0.05,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,42021.31643165052
+batch,0.35,0.05,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,29862.18840556753
+batch,0.35,0.05,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),10.28175334721791
+batch,0.35,0.05,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,38660.72050807853
+batch,0.35,0.05,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,28123.023369613187
+batch,0.35,0.05,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),28.403450391123666
+batch,0.35,0.05,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,42211.58941750207
+batch,0.35,0.05,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,29962.30531597868
+batch,0.35,0.05,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+batch,0.35,0.05,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,36178.92660402493
+batch,0.35,0.05,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,26788.499474441942
+batch,0.35,0.05,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+batch,0.35,0.1,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,75148.95092151496
+batch,0.35,0.1,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,55117.52329366567
+batch,0.35,0.1,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+batch,0.35,0.1,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,72719.1907567377
+batch,0.35,0.1,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,53798.45191486284
+batch,0.35,0.1,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+batch,0.35,0.1,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,84101.80541450692
+batch,0.35,0.1,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,59783.30686608417
+batch,0.35,0.1,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),10.28175334721791
+batch,0.35,0.1,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,77380.36170599883
+batch,0.35,0.1,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,56304.8075753428
+batch,0.35,0.1,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),28.403450391123666
+batch,0.35,0.1,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,84462.71558616517
+batch,0.35,0.1,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,59969.594392721956
+batch,0.35,0.1,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+batch,0.35,0.1,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,72398.20532710267
+batch,0.35,0.1,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,53622.01067196566
+batch,0.35,0.1,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+batch,0.35,0.2,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,150335.52947637287
+batch,0.35,0.2,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,110278.1891749098
+batch,0.35,0.2,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+batch,0.35,0.2,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,145476.25538918676
+batch,0.35,0.2,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,107640.09676594853
+batch,0.35,0.2,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+batch,0.35,0.2,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,168262.78338021974
+batch,0.35,0.2,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,119625.54378711747
+batch,0.35,0.2,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),10.281753347178022
+batch,0.35,0.2,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,154819.64410183945
+batch,0.35,0.2,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,112668.37598680204
+batch,0.35,0.2,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),28.403450391123666
+batch,0.35,0.2,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,168964.9679234914
+batch,0.35,0.2,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,119984.17254620855
+batch,0.35,0.2,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+batch,0.35,0.2,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,144836.76277325815
+batch,0.35,0.2,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,107289.03306701312
+batch,0.35,0.2,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+batch,0.35,0.5,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,375895.26514094655
+batch,0.35,0.5,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,275760.1868186422
+batch,0.35,0.5,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+batch,0.35,0.5,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,363747.4492865339
+batch,0.35,0.5,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,269165.0313192056
+batch,0.35,0.5,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+batch,0.35,0.5,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,420745.71727735805
+batch,0.35,0.5,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,299152.2545502173
+batch,0.35,0.5,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),10.281753347257798
+batch,0.35,0.5,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,387137.4912893612
+batch,0.35,0.5,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,281759.08122117975
+batch,0.35,0.5,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),28.403450391123666
+batch,0.35,0.5,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,422471.7249354701
+batch,0.35,0.5,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,300027.9070066683
+batch,0.35,0.5,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+batch,0.35,0.5,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,362152.4351117246
+batch,0.35,0.5,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,268290.10025215545
+batch,0.35,0.5,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+batch,1.0,0.02,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,16871.412995386956
+batch,1.0,0.02,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,11973.031410111658
+batch,1.0,0.02,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+batch,1.0,0.02,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,16019.905858859807
+batch,1.0,0.02,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,11536.89978751611
+batch,1.0,0.02,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+batch,1.0,0.02,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,16773.023041936678
+batch,1.0,0.02,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,11909.517329257542
+batch,1.0,0.02,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),135.04221570660175
+batch,1.0,0.02,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,15428.935789326342
+batch,1.0,0.02,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,11213.952846175409
+batch,1.0,0.02,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),187.67541342998888
+batch,1.0,0.02,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,20435.545572520274
+batch,1.0,0.02,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,13666.30753348119
+batch,1.0,0.02,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+batch,1.0,0.02,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,15893.966206555255
+batch,1.0,0.02,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,11469.755650381636
+batch,1.0,0.02,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+batch,1.0,0.05,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,42166.517605937195
+batch,1.0,0.05,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,29949.356860236203
+batch,1.0,0.05,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+batch,1.0,0.05,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,40040.76860321711
+batch,1.0,0.05,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,28860.15888046396
+batch,1.0,0.05,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+batch,1.0,0.05,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,42021.31643165052
+batch,1.0,0.05,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,29862.18840556753
+batch,1.0,0.05,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),135.0422157065917
+batch,1.0,0.05,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,38660.72050807853
+batch,1.0,0.05,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,28123.023369613187
+batch,1.0,0.05,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),187.6754134299633
+batch,1.0,0.05,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,51078.98833749067
+batch,1.0,0.05,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,34188.05692041049
+batch,1.0,0.05,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+batch,1.0,0.05,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,39737.86263538019
+batch,1.0,0.05,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,28700.786139914253
+batch,1.0,0.05,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+batch,1.0,0.1,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,84325.02529018762
+batch,1.0,0.1,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,59909.899277110446
+batch,1.0,0.1,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+batch,1.0,0.1,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,80075.53984381261
+batch,1.0,0.1,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,57732.25736871036
+batch,1.0,0.1,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+batch,1.0,0.1,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,84101.80541450692
+batch,1.0,0.1,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,59783.30686608417
+batch,1.0,0.1,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),135.04221570661176
+batch,1.0,0.1,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,77380.36170599883
+batch,1.0,0.1,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,56304.8075753428
+batch,1.0,0.1,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),187.67541342998888
+batch,1.0,0.1,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,102151.3929457747
+batch,1.0,0.1,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,68390.97256529267
+batch,1.0,0.1,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+batch,1.0,0.1,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,79477.69001675508
+batch,1.0,0.1,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,57419.170289135276
+batch,1.0,0.1,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+batch,1.0,0.2,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,168642.0406586885
+batch,1.0,0.2,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,119830.98411085895
+batch,1.0,0.2,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+batch,1.0,0.2,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,160145.08232500363
+batch,1.0,0.2,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,115476.4543452032
+batch,1.0,0.2,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+batch,1.0,0.2,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,168262.78338021974
+batch,1.0,0.2,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,119625.54378711747
+batch,1.0,0.2,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),135.04221570657162
+batch,1.0,0.2,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,154819.64410183945
+batch,1.0,0.2,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,112668.37598680204
+batch,1.0,0.2,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),187.67541342998888
+batch,1.0,0.2,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,204296.20216234276
+batch,1.0,0.2,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,136796.80385505705
+batch,1.0,0.2,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+batch,1.0,0.2,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,158957.34477950484
+batch,1.0,0.2,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,114855.93858757733
+batch,1.0,0.2,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+batch,1.0,0.5,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,421593.08676419104
+batch,1.0,0.5,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,299594.2386121045
+batch,1.0,0.5,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+batch,1.0,0.5,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,400353.7097685767
+batch,1.0,0.5,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,288709.0452746817
+batch,1.0,0.5,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+batch,1.0,0.5,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,420745.71727735805
+batch,1.0,0.5,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,299152.2545502173
+batch,1.0,0.5,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),135.0422157068927
+batch,1.0,0.5,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,387137.4912893612
+batch,1.0,0.5,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,281759.08122117975
+batch,1.0,0.5,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),187.675413430296
+batch,1.0,0.5,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,510730.6298120469
+batch,1.0,0.5,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,342014.2977243502
+batch,1.0,0.5,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+batch,1.0,0.5,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,397396.30906775413
+batch,1.0,0.5,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,287166.2434829035
+batch,1.0,0.5,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+endpoint,0.35,0.02,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,1482961.16184242
+endpoint,0.35,0.02,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,1104163.7462208066
+endpoint,0.35,0.02,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+endpoint,0.35,0.02,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,1447531.9445682094
+endpoint,0.35,0.02,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,1084401.3823809032
+endpoint,0.35,0.02,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+endpoint,0.35,0.02,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,261134.34969954612
+endpoint,0.35,0.02,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,186515.93587211994
+endpoint,0.35,0.02,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),3828063.4551406633
+endpoint,0.35,0.02,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,241331.97551262382
+endpoint,0.35,0.02,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,176188.11832283626
+endpoint,0.35,0.02,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),4870037.433068497
+endpoint,0.35,0.02,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,1613797.5418131545
+endpoint,0.35,0.02,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,1175099.7360925646
+endpoint,0.35,0.02,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+endpoint,0.35,0.02,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,1443219.6132139703
+endpoint,0.35,0.02,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,1081978.951573286
+endpoint,0.35,0.02,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+endpoint,0.35,0.05,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,1504274.395178899
+endpoint,0.35,0.05,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,1120033.087732086
+endpoint,0.35,0.05,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+endpoint,0.35,0.05,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,1468336.0064628087
+endpoint,0.35,0.05,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,1099986.7088315778
+endpoint,0.35,0.05,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+endpoint,0.35,0.05,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,285982.4403565044
+endpoint,0.35,0.05,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,204265.33949874932
+endpoint,0.35,0.05,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),3828063.4551406633
+endpoint,0.35,0.05,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,264296.2033319784
+endpoint,0.35,0.05,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,192955.0038185086
+endpoint,0.35,0.05,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),4870037.433068497
+endpoint,0.35,0.05,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,1636991.129595061
+endpoint,0.35,0.05,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,1191988.56257366
+endpoint,0.35,0.05,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+endpoint,0.35,0.05,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,1463961.7341570172
+endpoint,0.35,0.05,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,1097529.4893488477
+endpoint,0.35,0.05,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+endpoint,0.35,0.1,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,1539796.4507396969
+endpoint,0.35,0.1,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,1146481.990250885
+endpoint,0.35,0.1,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+endpoint,0.35,0.1,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,1503009.4429538075
+endpoint,0.35,0.1,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,1125962.252916036
+endpoint,0.35,0.1,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+endpoint,0.35,0.1,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,327395.9247847682
+endpoint,0.35,0.1,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,233847.67887646487
+endpoint,0.35,0.1,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),3828063.4551406633
+endpoint,0.35,0.1,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,302569.9163642359
+endpoint,0.35,0.1,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,220899.81297796234
+endpoint,0.35,0.1,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),4870037.433068497
+endpoint,0.35,0.1,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,1675647.1092315724
+endpoint,0.35,0.1,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,1220136.606708819
+endpoint,0.35,0.1,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+endpoint,0.35,0.1,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,1498531.9357287616
+endpoint,0.35,0.1,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,1123447.0523081168
+endpoint,0.35,0.1,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+endpoint,0.35,0.2,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,1610840.5618612927
+endpoint,0.35,0.2,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,1199379.7952884834
+endpoint,0.35,0.2,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+endpoint,0.35,0.2,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,1572356.3159358052
+endpoint,0.35,0.2,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,1177913.3410849518
+endpoint,0.35,0.2,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+endpoint,0.35,0.2,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,410222.8936412958
+endpoint,0.35,0.2,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,293012.3576318961
+endpoint,0.35,0.2,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),3828063.4551406633
+endpoint,0.35,0.2,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,379117.3424287511
+endpoint,0.35,0.2,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,276789.43129687
+endpoint,0.35,0.2,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),4870037.433068497
+endpoint,0.35,0.2,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,1752959.068504594
+endpoint,0.35,0.2,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,1276432.6949791373
+endpoint,0.35,0.2,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+endpoint,0.35,0.2,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,1567672.3388722502
+endpoint,0.35,0.2,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,1175282.1782266558
+endpoint,0.35,0.2,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+endpoint,0.35,0.5,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,1823972.895226081
+endpoint,0.35,0.5,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,1358073.2104012775
+endpoint,0.35,0.5,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+endpoint,0.35,0.5,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,1780396.9348817982
+endpoint,0.35,0.5,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,1333766.6055916992
+endpoint,0.35,0.5,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+endpoint,0.35,0.5,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,658703.8002108786
+endpoint,0.35,0.5,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,470506.3938981897
+endpoint,0.35,0.5,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),3828063.4551406633
+endpoint,0.35,0.5,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,608759.6206222965
+endpoint,0.35,0.5,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,444458.286253593
+endpoint,0.35,0.5,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),4870037.433068496
+endpoint,0.35,0.5,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,1984894.9463236602
+endpoint,0.35,0.5,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,1445320.9597900917
+endpoint,0.35,0.5,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+endpoint,0.35,0.5,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,1775093.5483027163
+endpoint,0.35,0.5,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,1330787.5559822721
+endpoint,0.35,0.5,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+endpoint,1.0,0.02,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,4210752.411609369
+endpoint,1.0,0.02,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,3135214.1378073874
+endpoint,1.0,0.02,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+endpoint,1.0,0.02,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,4110156.479277761
+endpoint,1.0,0.02,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,3079101.8788160305
+endpoint,1.0,0.02,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+endpoint,1.0,0.02,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,261134.34969954612
+endpoint,1.0,0.02,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,186515.93587211994
+endpoint,1.0,0.02,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),12122306.449616263
+endpoint,1.0,0.02,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,241331.97551262382
+endpoint,1.0,0.02,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,176188.11832283626
+endpoint,1.0,0.02,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),15421885.029590713
+endpoint,1.0,0.02,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,4582242.582212367
+endpoint,1.0,0.02,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,3336626.175097399
+endpoint,1.0,0.02,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+endpoint,1.0,0.02,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,4097912.2213485246
+endpoint,1.0,0.02,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,3072223.719630121
+endpoint,1.0,0.02,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+endpoint,1.0,0.05,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,4232065.644945848
+endpoint,1.0,0.05,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,3151083.479318667
+endpoint,1.0,0.05,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+endpoint,1.0,0.05,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,4130960.5411723605
+endpoint,1.0,0.05,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,3094687.205266706
+endpoint,1.0,0.05,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+endpoint,1.0,0.05,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,285982.4403565044
+endpoint,1.0,0.05,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,204265.33949874932
+endpoint,1.0,0.05,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),12122306.449616263
+endpoint,1.0,0.05,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,264296.2033319784
+endpoint,1.0,0.05,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,192955.0038185086
+endpoint,1.0,0.05,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),15421885.029590713
+endpoint,1.0,0.05,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,4605436.169994273
+endpoint,1.0,0.05,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,3353515.0015784954
+endpoint,1.0,0.05,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+endpoint,1.0,0.05,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,4118654.342291571
+endpoint,1.0,0.05,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,3087774.2574056834
+endpoint,1.0,0.05,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+endpoint,1.0,0.1,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,4267587.700506645
+endpoint,1.0,0.1,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,3177532.3818374663
+endpoint,1.0,0.1,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+endpoint,1.0,0.1,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,4165633.977663359
+endpoint,1.0,0.1,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,3120662.749351164
+endpoint,1.0,0.1,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+endpoint,1.0,0.1,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,327395.9247847682
+endpoint,1.0,0.1,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,233847.67887646487
+endpoint,1.0,0.1,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),12122306.449616263
+endpoint,1.0,0.1,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,302569.9163642359
+endpoint,1.0,0.1,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,220899.81297796234
+endpoint,1.0,0.1,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),15421885.029590713
+endpoint,1.0,0.1,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,4644092.149630784
+endpoint,1.0,0.1,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,3381663.0457136543
+endpoint,1.0,0.1,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+endpoint,1.0,0.1,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,4153224.543863315
+endpoint,1.0,0.1,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,3113691.8203649526
+endpoint,1.0,0.1,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+endpoint,1.0,0.2,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,4338631.811628242
+endpoint,1.0,0.2,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,3230430.186875064
+endpoint,1.0,0.2,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+endpoint,1.0,0.2,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,4234980.850645357
+endpoint,1.0,0.2,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,3172613.837520079
+endpoint,1.0,0.2,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+endpoint,1.0,0.2,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,410222.8936412958
+endpoint,1.0,0.2,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,293012.3576318961
+endpoint,1.0,0.2,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),12122306.449616263
+endpoint,1.0,0.2,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,379117.3424287511
+endpoint,1.0,0.2,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,276789.43129687
+endpoint,1.0,0.2,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),15421885.029590713
+endpoint,1.0,0.2,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,4721404.108903806
+endpoint,1.0,0.2,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,3437959.133983972
+endpoint,1.0,0.2,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+endpoint,1.0,0.2,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,4222364.947006804
+endpoint,1.0,0.2,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,3165526.9462834913
+endpoint,1.0,0.2,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0
+endpoint,1.0,0.5,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,4551764.1449930305
+endpoint,1.0,0.5,PhoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,3389123.601987858
+endpoint,1.0,0.5,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0
+endpoint,1.0,0.5,PhoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,4443021.46959135
+endpoint,1.0,0.5,PhoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,3328467.1020268262
+endpoint,1.0,0.5,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_98),0.0
+endpoint,1.0,0.5,TF-IDF ⇢ LLM (θ_max),Cascade LLM few-shot,658703.8002108786
+endpoint,1.0,0.5,TF-IDF ⇢ LLM (θ_max),Phẳng LLM few-shot,470506.3938981897
+endpoint,1.0,0.5,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_max),12122306.449616263
+endpoint,1.0,0.5,TF-IDF ⇢ LLM (θ_98),Cascade LLM few-shot,608759.6206222965
+endpoint,1.0,0.5,TF-IDF ⇢ LLM (θ_98),Phẳng LLM few-shot,444458.286253593
+endpoint,1.0,0.5,Phẳng PhoBERT,TF-IDF ⇢ LLM (θ_98),15421885.029590713
+endpoint,1.0,0.5,ViSoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,4953339.986722873
+endpoint,1.0,0.5,ViSoBERT ⇢ LLM (θ_max),Phẳng LLM few-shot,3606847.3987949262
+endpoint,1.0,0.5,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_max),0.0
+endpoint,1.0,0.5,ViSoBERT ⇢ LLM (θ_98),Cascade LLM few-shot,4429786.15643727
+endpoint,1.0,0.5,ViSoBERT ⇢ LLM (θ_98),Phẳng LLM few-shot,3321032.324039107
+endpoint,1.0,0.5,Phẳng PhoBERT,ViSoBERT ⇢ LLM (θ_98),0.0

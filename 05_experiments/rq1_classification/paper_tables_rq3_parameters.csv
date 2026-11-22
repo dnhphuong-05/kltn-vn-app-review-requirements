@@ -1,0 +1,16 @@
+﻿Symbol,Quantity,Unit,Value,Status (measured or assumed),Source or note
+c_L,Cost of one label,USD per label,"0.02, 0.05, 0.10 (base), 0.20, 0.50",assumed,"Labelling time was not recorded; the unit price stands for single annotation. Double annotation, adjudication and audit are not costed separately."
+L_trained,"Initial labels, trained models",labels,"1,550 = 1,200 Train + 350 Validation",measured,Split sizes.
+L_LLM,"Initial labels, LLM-only configurations",labels,367 = 350 Validation + 8 tier-1 + 9 tier-2 exemplars,measured,"Counted per prompt. The 17 exemplar slots hold 14 distinct Train reviews (3 appear in both tier prompts; the 14 flat-prompt exemplars are their union), so the distinct count is 364; the difference of 3 labels is USD 0.30 at the base price and the frozen value is kept. Exemplars were drawn by a fixed seeded rule, so selection needs no further labelling effort."
+k,Drift checks over the horizon,checks,1,assumed,One check every 6 months over 12 months.
+L_check,Labels per drift check,labels,350 Validation (+ 300 Train for trained models),assumed,"New labelled sample to re-check quality and, for trained models, to retrain."
+p_GPU,GPU price,USD per hour,"0.35, 1.00",assumed,Cloud GPU list prices; 0.35 is the base.
+p_CPU,CPU price,USD per hour,0.05,assumed,TF-IDF training and serving.
+τ,Training seconds per run,seconds,per configuration,measured,Kaggle P100 GPU (neural) or local CPU (TF-IDF); grid-search runs counted.
+t,Inference seconds per review,seconds,per configuration,measured,Hardware-dependent; PhoBERT includes word segmentation.
+u,API USD per review,USD,"flat LLM 0.266 and LLM cascade 0.206 per 1,000 hold-out reviews",measured,"Tokens returned by the API × GPT-4o-mini price (USD 0.15 input, 0.60 output per million tokens); cached input billed at the full price (upper bound)."
+r,LLM share of a routing policy,share of reviews,"θmax: hold-out 12.2%, Lazada 19.2% (canonical run)",measured,Taken per test set; varies by seed (see the routing table).
+e,Always-on endpoint,hours per month,730,assumed,Batch deployment pays inference time only; endpoint deployment pays the host every hour.
+V,Monthly review volume,reviews per month,"1,000, 10,000, 100,000, 1,000,000",assumed,"Observed collection scale: 57,200 reviews per year."
+H,Horizon,months,12,assumed,
+—,Not included,,"specialist labour, cost of missed actionable reviews, separate double annotation",limitation,Scope limited to labelling and computation.

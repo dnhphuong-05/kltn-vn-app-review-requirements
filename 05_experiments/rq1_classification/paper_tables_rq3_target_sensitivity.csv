@@ -1,0 +1,25 @@
+﻿Deployment,Reviews per month,Macro-F1 target (%),API allowed,"Cheapest, canonical-run Macro-F1","Cheapest, three-seed mean Macro-F1",Choice differs
+batch,1000,78,True,Cascade LLM,Cascade LLM,False
+batch,1000,79,True,Cascade LLM,Cascade LLM,False
+batch,1000,80,True,Cascade LLM,Cascade LLM,False
+batch,10000,78,True,Cascade LLM,Cascade LLM,False
+batch,10000,79,True,Cascade LLM,Cascade LLM,False
+batch,10000,80,True,Cascade LLM,Cascade LLM,False
+batch,100000,78,True,PhoBERT ⇢ LLM (θmax),PhoBERT ⇢ LLM (θmax),False
+batch,100000,79,True,PhoBERT ⇢ LLM (θmax),PhoBERT ⇢ LLM (θmax),False
+batch,100000,80,True,Cascade LLM,PhoBERT ⇢ LLM (θmax),True
+batch,1000000,78,True,PhoBERT ⇢ LLM (θ98),PhoBERT ⇢ LLM (θ98),False
+batch,1000000,79,True,PhoBERT ⇢ LLM (θ98),PhoBERT ⇢ LLM (θ98),False
+batch,1000000,80,True,Cascade LLM,PhoBERT ⇢ LLM (θmax),True
+endpoint,1000,78,True,Cascade LLM,Cascade LLM,False
+endpoint,1000,79,True,Cascade LLM,Cascade LLM,False
+endpoint,1000,80,True,Cascade LLM,Cascade LLM,False
+endpoint,10000,78,True,Cascade LLM,Cascade LLM,False
+endpoint,10000,79,True,Cascade LLM,Cascade LLM,False
+endpoint,10000,80,True,Cascade LLM,Cascade LLM,False
+endpoint,100000,78,True,Cascade LLM,Cascade LLM,False
+endpoint,100000,79,True,Cascade LLM,Cascade LLM,False
+endpoint,100000,80,True,Cascade LLM,Cascade LLM,False
+endpoint,1000000,78,True,Cascade LLM,Cascade LLM,False
+endpoint,1000000,79,True,Cascade LLM,Cascade LLM,False
+endpoint,1000000,80,True,Cascade LLM,Cascade LLM,False

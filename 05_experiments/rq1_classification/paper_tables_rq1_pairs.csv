@@ -1,0 +1,19 @@
+﻿Family,A,B,Δ Macro-F1 (A − B),CI low,CI high,CI contains 0,"A right, B wrong","A wrong, B right",p (exact),p (Holm),Holm family size
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,Flat PhoBERT,9.2,3.8,14.8,False,73,59,0.2578,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,Flat LLM,1.3,-2.0,4.6,True,35,18,0.027,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,Flat PhoBERT,10.5,4.4,16.8,False,77,46,0.0066,0.9491,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,Flat ViSoBERT,4.1,-1.2,9.5,True,35,35,1.0,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,Flat TF-IDF,8.1,2.2,13.8,False,56,33,0.0192,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,Flat Bi-LSTM,7.9,1.9,14.2,False,47,30,0.0675,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,Flat TF-IDF,3.9,-2.1,9.9,True,55,32,0.0178,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,Flat Bi-LSTM,-0.2,-6.8,6.8,True,43,49,0.6024,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,Cascade ViSoBERT,-0.2,-5.1,4.7,True,60,43,0.1145,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,Flat PhoBERT,-7.7,-17.5,2.3,True,26,67,0.0,0.0082,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,Flat LLM,1.0,-3.4,6.0,True,24,10,0.0243,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,Flat PhoBERT,-6.7,-16.0,2.9,True,26,53,0.0032,0.7448,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,Flat ViSoBERT,1.5,-4.0,7.3,True,17,15,0.8601,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,Flat TF-IDF,11.0,4.6,17.3,False,45,15,0.0001,0.0402,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,Flat Bi-LSTM,12.6,4.8,20.3,False,45,18,0.0009,0.2362,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,Flat TF-IDF,9.5,4.0,15.2,False,40,12,0.0001,0.0384,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,Flat Bi-LSTM,1.5,-4.2,7.5,True,32,35,0.8072,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,Cascade ViSoBERT,0.2,-5.5,5.6,True,41,32,0.3492,1.0,378

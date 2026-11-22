@@ -1,0 +1,14 @@
+﻿ký hiệu,đại lượng,đơn vị,giá trị,nguồn,trạng thái
+c_L,chi phí một nhãn,USD/nhãn,"0.02, 0.05, 0.1, 0.2, 0.5",paper_cost_model.yaml,giả định
+L (có huấn luyện),nhãn ban đầu,nhãn,1.550 = 1.200 Train + 350 Validation,kích thước tập,đo được
+L (chỉ LLM),nhãn ban đầu,nhãn,367 = 350 Validation + 17 ví dụ few-shot độc nhất (8 tầng 1 + 9 tầng 2; prompt phẳng dùng lại 14 trong số đó),manifest prompt,đo được
+nhãn mỗi lần kiểm tra lại,Validation mới (+ Train với mô hình có huấn luyện),nhãn,350 (+ 300),paper_cost_model.yaml,giả định
+k,số lần kiểm tra lại,lần,1,"mỗi 6 tháng, chân trời 12 tháng",giả định
+p (GPU),giá GPU,USD/giờ,"0.35, 1.0",paper_cost_model.yaml,giả định
+p (CPU),giá CPU,USD/giờ,0.05,paper_cost_model.yaml,giả định
+τ,giây huấn luyện một lần chạy,giây,theo cấu hình,paper_cost_components.csv,đo được
+t,giây suy luận một review,giây,theo cấu hình,paper_cost_components.csv,đo được (khác phần cứng)
+u,USD API một review,USD,cascade LLM 0.206/1.000; LLM phẳng 0.266/1.000,"token API trả về × giá 0,15/0,60 USD mỗi triệu token",đo được
+e,máy chủ bật liên tục,0/1,"0 theo lô, 1 bật liên tục (730 giờ/tháng)",paper_cost_model.yaml,giả định
+V,khối lượng mỗi tháng,review/tháng,"1000, 10000, 100000, 1000000",paper_cost_model.yaml,giả định
+chưa tính,"gán đôi, phân xử, kiểm toán, công chuyên viên, hậu quả bỏ sót",,nằm trong đơn giá nhãn giả định hoặc ngoài phạm vi,,giới hạn

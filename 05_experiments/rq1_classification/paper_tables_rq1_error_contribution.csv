@@ -1,0 +1,10 @@
+﻿Main category,"Cascade LLM, hold-out (% of OTHER reviews)","Cascade LLM, Lazada (% of OTHER reviews)","Cascade LLM, Lazada − hold-out (points of OTHER reviews)","Flat LLM, hold-out (% of OTHER reviews)","Flat LLM, Lazada (% of OTHER reviews)","Flat LLM, Lazada − hold-out (points of OTHER reviews)"
+Delivery,0.0,0.24,0.24,0.0,0.95,0.95
+"Seller, product",0.61,0.0,-0.61,0.98,0.48,-0.5
+"Price, fees, vouchers",1.35,2.15,0.8,1.47,1.91,0.44
+"Policy, account, orders",2.69,11.69,9.0,3.92,14.8,10.88
+Customer service,0.24,0.0,-0.24,0.0,0.0,0.0
+Generic app complaint,0.86,0.72,-0.14,2.08,0.72,-1.36
+Generic praise,0.0,0.0,0.0,0.12,0.0,-0.12
+Other,0.0,0.48,0.48,0.0,0.48,0.48
+Total,5.75,15.27,9.52,8.57,19.33,10.76

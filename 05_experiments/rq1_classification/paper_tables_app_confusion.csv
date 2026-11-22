@@ -1,0 +1,41 @@
+﻿Configuration,Gold,Predicted BUG,Predicted FEATURE,Predicted UX,Predicted OTHER,Set
+Flat PhoBERT,BUG,38,0,6,45,Shopee hold-out
+Flat PhoBERT,FEATURE,2,14,2,6,Shopee hold-out
+Flat PhoBERT,UX,2,2,55,11,Shopee hold-out
+Flat PhoBERT,OTHER,22,6,7,782,Shopee hold-out
+Cascade PhoBERT,BUG,51,2,6,30,Shopee hold-out
+Cascade PhoBERT,FEATURE,8,11,2,3,Shopee hold-out
+Cascade PhoBERT,UX,6,0,57,7,Shopee hold-out
+Cascade PhoBERT,OTHER,66,28,15,708,Shopee hold-out
+Flat LLM,BUG,79,0,3,7,Shopee hold-out
+Flat LLM,FEATURE,3,19,0,2,Shopee hold-out
+Flat LLM,UX,2,2,58,8,Shopee hold-out
+Flat LLM,OTHER,60,10,0,747,Shopee hold-out
+Cascade LLM,BUG,73,0,1,15,Shopee hold-out
+Cascade LLM,FEATURE,3,19,0,2,Shopee hold-out
+Cascade LLM,UX,2,3,58,7,Shopee hold-out
+Cascade LLM,OTHER,36,9,2,770,Shopee hold-out
+PhoBERT ⇢ LLM (θmax),BUG,53,0,3,33,Shopee hold-out
+PhoBERT ⇢ LLM (θmax),FEATURE,2,18,0,4,Shopee hold-out
+PhoBERT ⇢ LLM (θmax),UX,1,1,58,10,Shopee hold-out
+PhoBERT ⇢ LLM (θmax),OTHER,25,5,2,785,Shopee hold-out
+Flat PhoBERT,BUG,24,2,2,11,Lazada
+Flat PhoBERT,FEATURE,2,8,2,5,Lazada
+Flat PhoBERT,UX,3,0,17,5,Lazada
+Flat PhoBERT,OTHER,28,1,4,386,Lazada
+Cascade PhoBERT,BUG,29,1,2,7,Lazada
+Cascade PhoBERT,FEATURE,6,9,0,2,Lazada
+Cascade PhoBERT,UX,6,1,16,2,Lazada
+Cascade PhoBERT,OTHER,64,23,8,324,Lazada
+Flat LLM,BUG,34,0,0,5,Lazada
+Flat LLM,FEATURE,3,5,4,5,Lazada
+Flat LLM,UX,3,0,17,5,Lazada
+Flat LLM,OTHER,72,7,2,338,Lazada
+Cascade LLM,BUG,31,0,0,8,Lazada
+Cascade LLM,FEATURE,3,6,4,4,Lazada
+Cascade LLM,UX,4,0,16,5,Lazada
+Cascade LLM,OTHER,52,9,3,355,Lazada
+PhoBERT ⇢ LLM (θmax),BUG,29,0,1,9,Lazada
+PhoBERT ⇢ LLM (θmax),FEATURE,3,7,2,5,Lazada
+PhoBERT ⇢ LLM (θmax),UX,3,0,17,5,Lazada
+PhoBERT ⇢ LLM (θmax),OTHER,42,2,2,373,Lazada

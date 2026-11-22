@@ -1,0 +1,10 @@
+﻿Configuration,"Macro-F1 (hold-out, %)",Hardware,Initial labels,Labels over 12 months,Tuning runs,Training seconds per run,"Inference seconds / 1,000 reviews","API USD / 1,000 reviews",Fixed USD over 12 months (batch),"Variable USD / 1,000 reviews (batch)",Fixed USD over 12 months (always-on endpoint)
+Flat TF-IDF,62.8,CPU,1550,2200,18,0.636,0.113,0.0,220.0,0.0,658.0
+Flat ViSoBERT,66.7,GPU,1550,2200,9,39.749,1.393,0.0,220.043,0.0,3286.043
+Flat PhoBERT,70.8,GPU,1550,2200,9,44.462,2.018,0.0,220.048,0.0,3286.048
+Cascade PhoBERT,61.7,GPU,1550,2200,9,46.274,2.352,0.0,220.049,0.0,3286.049
+Cascade LLM,81.3,none (API only),367,717,0,0.0,1103.455,0.206,71.844,0.206,71.844
+Flat LLM,80.0,none (API only),367,717,0,0.0,791.483,0.266,71.886,0.266,71.886
+LLM → PhoBERT,74.6,GPU,1550,2200,9,10.688,913.504,0.173,220.133,0.262,3286.133
+PhoBERT ⇢ LLM (θmax),79.9,GPU,1550,2200,9,44.462,98.579,0.032,220.07,0.042,3286.07
+PhoBERT ⇢ LLM (θ98),79.1,GPU,1550,2200,9,44.462,85.915,0.028,220.067,0.037,3286.067

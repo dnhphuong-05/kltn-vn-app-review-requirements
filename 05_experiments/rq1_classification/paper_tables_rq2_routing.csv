@@ -1,0 +1,27 @@
+﻿Set,Configuration,Macro-F1,CI low,CI high,F1 FEATURE,Precision ACT,Recall ACT,LLM share,LLM share (3-seed mean),"API USD / 1,000 reviews",Calls,Random routing mean,Random routing SD,Random P2.5,Random P97.5,Share random ≥ router
+Shopee hold-out,Flat PhoBERT,70.8,64.6,76.0,60.9,77.6,66.1,0.0,0.0,0.0,,,,,,
+Shopee hold-out,Flat LLM,80.0,75.1,84.2,69.1,70.3,90.7,100.0,100.0,0.266,,,,,,
+Shopee hold-out,Cascade LLM,81.3,76.3,85.5,69.1,77.2,86.9,100.0,100.0,0.206,,,,,,
+Shopee hold-out,LLM → PhoBERT,74.6,68.7,79.7,53.3,77.2,86.9,100.0,100.0,0.173,,,,,,
+Shopee hold-out,PhoBERT ⇢ LLM (θmax),79.9,74.8,84.2,75.0,81.0,74.3,12.2,17.4,0.032,122.0,72.2,1.0,70.2,74.3,0.0
+Shopee hold-out,PhoBERT ⇢ LLM (θ98),79.1,73.8,83.6,73.9,81.7,73.2,10.6,14.8,0.028,106.0,72.0,0.9,70.2,73.9,0.0
+Shopee hold-out,PhoBERT ⇢ LLM (disagreement),77.8,72.1,82.4,72.7,83.6,69.4,7.8,7.7,0.021,78.0,71.7,0.8,70.3,73.4,0.0
+Shopee hold-out,"PhoBERT ⇢ LLM (confidence, disagreement budget)",77.7,72.2,82.3,69.6,81.1,72.7,7.8,7.7,0.021,78.0,71.7,0.8,70.3,73.4,0.0
+Shopee hold-out,"PhoBERT ⇢ LLM (confidence, 5% budget)",74.8,68.9,79.6,68.1,79.2,68.9,5.0,5.0,0.013,50.0,71.4,0.7,70.2,72.8,0.0
+Shopee hold-out,"PhoBERT ⇢ LLM (confidence, 10% budget)",77.9,72.4,82.6,69.6,81.2,73.2,10.0,10.0,0.027,100.0,72.0,1.0,70.2,73.9,0.0
+Shopee hold-out,"PhoBERT ⇢ LLM (confidence, 15% budget)",81.0,75.9,85.2,75.0,80.9,76.5,15.0,15.0,0.04,150.0,72.5,1.1,70.6,74.6,0.0
+Shopee hold-out,"PhoBERT ⇢ LLM (confidence, 20% budget)",81.7,76.8,85.8,77.6,80.8,78.1,20.0,20.0,0.053,200.0,73.1,1.2,70.8,75.5,0.0
+Shopee hold-out,"PhoBERT ⇢ LLM (confidence, 30% budget)",81.5,76.6,85.6,76.0,76.8,83.1,30.0,30.0,0.08,300.0,74.0,1.3,71.5,76.5,0.0
+Lazada,Flat PhoBERT,67.2,58.4,74.5,57.1,64.5,74.1,0.0,0.0,0.0,,,,,,
+Lazada,Flat LLM,59.5,51.3,66.6,34.5,44.9,81.5,100.0,100.0,0.268,,,,,,
+Lazada,Cascade LLM,60.5,52.1,67.7,37.5,50.0,79.0,100.0,100.0,0.216,,,,,,
+Lazada,LLM → PhoBERT,59.0,50.2,66.6,42.9,50.0,79.0,100.0,100.0,0.175,,,,,,
+Lazada,PhoBERT ⇢ LLM (θmax),67.0,58.1,74.4,53.8,57.4,76.5,19.2,28.1,0.051,96.0,65.5,2.0,61.5,69.3,0.213
+Lazada,PhoBERT ⇢ LLM (θ98),69.8,61.1,77.0,59.3,61.0,79.0,16.8,23.4,0.045,84.0,65.7,1.9,61.5,69.3,0.01
+Lazada,PhoBERT ⇢ LLM (disagreement),72.8,64.6,79.5,64.3,63.8,74.1,8.2,9.7,0.022,41.0,66.4,1.4,63.6,69.0,0.0
+Lazada,"PhoBERT ⇢ LLM (confidence, disagreement budget)",70.9,62.5,77.9,62.1,63.9,76.5,8.2,9.7,0.022,41.0,66.4,1.4,63.6,69.0,0.002
+Lazada,"PhoBERT ⇢ LLM (confidence, 5% budget)",69.6,61.1,76.5,62.1,61.6,75.3,5.0,5.0,0.013,25.0,66.7,1.1,64.3,68.9,0.005
+Lazada,"PhoBERT ⇢ LLM (confidence, 10% budget)",69.1,60.5,76.4,57.1,62.0,76.5,10.0,10.0,0.027,50.0,66.2,1.6,62.8,69.3,0.031
+Lazada,"PhoBERT ⇢ LLM (confidence, 15% budget)",68.8,60.2,76.1,57.1,60.4,79.0,15.0,15.0,0.04,75.0,66.0,1.9,62.3,69.5,0.057
+Lazada,"PhoBERT ⇢ LLM (confidence, 20% budget)",67.0,58.1,74.4,53.8,57.4,76.5,20.0,20.0,0.054,100.0,65.5,2.1,61.4,69.3,0.23
+Lazada,"PhoBERT ⇢ LLM (confidence, 30% budget)",64.8,55.8,72.3,46.2,54.9,76.5,30.0,30.0,0.08,150.0,64.7,2.4,59.8,69.3,0.48

@@ -1,0 +1,757 @@
+﻿Family,A,B,Δ Macro-F1 (A − B),CI low,CI high,CI contains 0,"A right, B wrong","A wrong, B right",p (exact),p (Holm),Holm family size
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,Cascade Bi-LSTM,7.1,3.0,11.4,False,116,57,0.0,0.002,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,Cascade ViSoBERT,-1.6,-5.9,2.6,True,42,54,0.2615,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,Cascade PhoBERT,-0.3,-5.0,4.4,True,61,51,0.3952,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,Cascade LLM,-20.0,-25.1,-14.8,False,42,125,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,Flat TF-IDF,-1.4,-4.8,2.1,True,32,61,0.0035,0.5262,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,Flat Bi-LSTM,-1.6,-7.9,5.2,True,45,80,0.0022,0.3518,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,Flat ViSoBERT,-5.4,-11.2,0.8,True,38,90,0.0,0.0012,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,Flat PhoBERT,-9.5,-15.0,-3.5,False,36,88,0.0,0.0008,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,Flat LLM,-18.7,-23.7,-13.5,False,55,121,0.0,0.0002,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,TF-IDF → Bi-LSTM,2.5,-1.0,6.1,True,16,11,0.4421,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,TF-IDF → ViSoBERT,-2.8,-6.2,0.6,True,4,12,0.0768,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,TF-IDF → PhoBERT,-1.7,-5.9,2.6,True,9,15,0.3075,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,Bi-LSTM → TF-IDF,3.4,0.7,6.1,False,101,50,0.0,0.0085,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,Bi-LSTM → ViSoBERT,2.4,-2.0,6.7,True,105,60,0.0006,0.1019,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,Bi-LSTM → PhoBERT,3.1,-2.1,8.3,True,110,64,0.0006,0.1071,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,Bi-LSTM → LLM,-4.2,-9.3,0.8,True,104,72,0.0192,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,ViSoBERT → TF-IDF,0.5,-2.4,3.5,True,40,47,0.5203,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,ViSoBERT → Bi-LSTM,2.5,-1.9,6.9,True,51,54,0.8454,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,ViSoBERT → PhoBERT,-1.8,-6.9,3.4,True,46,58,0.2807,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,ViSoBERT → LLM,-8.2,-13.2,-3.2,False,44,63,0.0814,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,PhoBERT → TF-IDF,1.1,-1.4,3.5,True,53,38,0.1418,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,PhoBERT → Bi-LSTM,3.8,-0.4,8.1,True,68,47,0.0617,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,PhoBERT → ViSoBERT,-0.5,-4.4,3.5,True,56,47,0.4307,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,LLM → TF-IDF,-10.3,-14.2,-6.4,False,39,105,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,LLM → Bi-LSTM,-7.9,-13.2,-2.7,False,52,112,0.0,0.0008,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,LLM → ViSoBERT,-12.0,-16.9,-7.0,False,42,109,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade TF-IDF,LLM → PhoBERT,-13.3,-18.9,-7.3,False,46,116,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,Cascade ViSoBERT,-8.7,-13.4,-4.0,False,50,121,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,Cascade PhoBERT,-7.5,-12.5,-2.3,False,73,122,0.0006,0.099,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,Cascade LLM,-27.1,-32.4,-21.9,False,34,176,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,Flat TF-IDF,-8.6,-13.3,-3.9,False,39,127,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,Flat Bi-LSTM,-8.7,-14.2,-2.8,False,29,123,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,Flat ViSoBERT,-12.5,-18.2,-6.7,False,36,147,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,Flat PhoBERT,-16.6,-22.2,-10.6,False,36,147,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,Flat LLM,-25.8,-31.0,-20.6,False,47,172,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,TF-IDF → Bi-LSTM,-4.7,-7.5,-1.8,False,47,101,0.0,0.0025,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,TF-IDF → ViSoBERT,-9.9,-14.5,-5.4,False,54,121,0.0,0.0001,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,TF-IDF → PhoBERT,-8.8,-13.8,-3.8,False,57,122,0.0,0.0003,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,Bi-LSTM → TF-IDF,-3.8,-7.0,-0.7,False,10,18,0.1849,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,Bi-LSTM → ViSoBERT,-4.8,-8.4,-1.4,False,8,22,0.0161,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,Bi-LSTM → PhoBERT,-4.1,-8.3,0.1,True,10,23,0.0351,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,Bi-LSTM → LLM,-11.4,-15.9,-6.9,False,6,33,0.0,0.0032,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,ViSoBERT → TF-IDF,-6.6,-11.2,-2.0,False,53,119,0.0,0.0001,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,ViSoBERT → Bi-LSTM,-4.7,-8.1,-1.3,False,44,106,0.0,0.0001,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,ViSoBERT → PhoBERT,-8.9,-14.2,-3.5,False,52,123,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,ViSoBERT → LLM,-15.3,-20.7,-9.9,False,50,128,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,PhoBERT → TF-IDF,-6.1,-10.5,-1.7,False,74,118,0.0018,0.2979,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,PhoBERT → Bi-LSTM,-3.4,-6.5,-0.2,False,64,102,0.0039,0.592,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,PhoBERT → ViSoBERT,-7.6,-12.2,-3.1,False,71,121,0.0004,0.0689,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,LLM → TF-IDF,-17.4,-22.6,-12.4,False,36,161,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,LLM → Bi-LSTM,-15.1,-19.1,-11.1,False,29,148,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,LLM → ViSoBERT,-19.1,-24.2,-14.1,False,36,162,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade Bi-LSTM,LLM → PhoBERT,-20.4,-26.1,-14.5,False,37,166,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,Cascade PhoBERT,1.2,-3.4,5.8,True,64,42,0.0409,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,Cascade LLM,-18.4,-23.7,-13.1,False,44,115,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,Flat TF-IDF,0.2,-4.7,5.1,True,43,60,0.1145,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,Flat Bi-LSTM,-0.0,-6.3,6.5,True,43,66,0.0346,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,Flat ViSoBERT,-3.8,-8.6,1.2,True,17,57,0.0,0.0008,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,Flat PhoBERT,-7.9,-13.3,-2.2,False,28,68,0.0001,0.0114,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,Flat LLM,-17.1,-22.2,-11.8,False,59,113,0.0,0.0097,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,TF-IDF → Bi-LSTM,4.0,-0.4,8.5,True,59,42,0.1109,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,TF-IDF → ViSoBERT,-1.2,-4.0,1.6,True,44,40,0.7436,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,TF-IDF → PhoBERT,-0.1,-4.5,4.4,True,53,47,0.6173,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,Bi-LSTM → TF-IDF,5.0,0.3,9.5,False,116,53,0.0,0.0004,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,Bi-LSTM → ViSoBERT,4.0,0.5,7.3,False,106,49,0.0,0.0013,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,Bi-LSTM → PhoBERT,4.6,-0.1,9.5,True,115,57,0.0,0.0026,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,Bi-LSTM → LLM,-2.7,-7.9,2.5,True,110,66,0.0011,0.1897,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,ViSoBERT → TF-IDF,2.1,-1.8,6.0,True,10,5,0.3018,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,ViSoBERT → Bi-LSTM,4.0,0.1,8.3,False,16,7,0.0931,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,ViSoBERT → PhoBERT,-0.2,-4.2,3.9,True,9,9,1.0,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,ViSoBERT → LLM,-6.6,-10.6,-3.0,False,5,12,0.1435,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,PhoBERT → TF-IDF,2.6,-1.8,7.1,True,65,38,0.0101,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,PhoBERT → Bi-LSTM,5.3,0.8,10.0,False,70,37,0.0018,0.2979,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,PhoBERT → ViSoBERT,1.1,-1.6,3.8,True,55,34,0.0334,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,LLM → TF-IDF,-8.7,-14.4,-2.9,False,49,103,0.0,0.0032,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,LLM → Bi-LSTM,-6.4,-12.2,-0.3,False,56,104,0.0002,0.0352,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,LLM → ViSoBERT,-10.4,-14.5,-6.4,False,41,96,0.0,0.0007,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade ViSoBERT,LLM → PhoBERT,-11.7,-17.6,-5.8,False,49,107,0.0,0.001,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,Cascade LLM,-19.6,-25.4,-13.7,False,44,137,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,Flat TF-IDF,-1.1,-6.6,4.6,True,46,85,0.0008,0.1448,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,Flat Bi-LSTM,-1.2,-8.0,5.8,True,48,93,0.0002,0.0358,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,Flat ViSoBERT,-5.0,-11.1,1.2,True,38,100,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,Flat PhoBERT,-9.1,-14.5,-3.6,False,28,90,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,Flat LLM,-18.3,-23.8,-12.8,False,56,132,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,TF-IDF → Bi-LSTM,2.8,-2.1,7.8,True,57,62,0.714,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,TF-IDF → ViSoBERT,-2.4,-6.7,1.7,True,44,62,0.0982,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,TF-IDF → PhoBERT,-1.3,-4.1,1.6,True,38,54,0.1174,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,Bi-LSTM → TF-IDF,3.7,-1.4,8.6,True,115,74,0.0035,0.5297,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,Bi-LSTM → ViSoBERT,2.7,-2.1,7.4,True,110,75,0.0122,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,Bi-LSTM → PhoBERT,3.4,-0.1,7.1,True,102,66,0.0068,0.9654,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,Bi-LSTM → LLM,-3.9,-9.6,1.8,True,108,86,0.1314,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,ViSoBERT → TF-IDF,0.9,-4.0,5.6,True,44,61,0.118,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,ViSoBERT → Bi-LSTM,2.8,-2.1,7.8,True,49,62,0.2546,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,ViSoBERT → PhoBERT,-1.5,-4.2,1.2,True,33,55,0.0246,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,ViSoBERT → LLM,-7.9,-13.4,-2.6,False,41,70,0.0076,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,PhoBERT → TF-IDF,1.4,-2.5,5.2,True,13,8,0.3833,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,PhoBERT → Bi-LSTM,4.1,-0.1,8.4,True,21,10,0.0708,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,PhoBERT → ViSoBERT,-0.1,-3.7,3.3,True,9,10,1.0,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,LLM → TF-IDF,-10.0,-15.7,-4.1,False,48,124,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,LLM → Bi-LSTM,-7.6,-13.5,-1.7,False,56,126,0.0,0.0001,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,LLM → ViSoBERT,-11.6,-17.0,-6.2,False,47,124,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade PhoBERT,LLM → PhoBERT,-12.9,-17.1,-8.9,False,38,118,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,Flat TF-IDF,18.5,12.9,24.3,False,97,43,0.0,0.0014,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,Flat Bi-LSTM,18.4,11.8,25.3,False,88,40,0.0,0.0058,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,Flat ViSoBERT,14.6,8.6,21.0,False,81,50,0.0085,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,Flat PhoBERT,10.5,4.4,16.8,False,77,46,0.0066,0.9491,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,Flat LLM,1.3,-2.0,4.6,True,35,18,0.027,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,TF-IDF → Bi-LSTM,22.4,16.8,28.1,False,132,44,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,TF-IDF → ViSoBERT,17.2,12.0,22.4,False,120,45,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,TF-IDF → PhoBERT,18.3,12.6,24.0,False,123,46,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,Bi-LSTM → TF-IDF,23.3,18.4,28.2,False,166,32,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,Bi-LSTM → ViSoBERT,22.3,17.4,27.4,False,163,35,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,Bi-LSTM → PhoBERT,23.0,17.4,28.8,False,165,36,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,Bi-LSTM → LLM,15.7,11.5,20.1,False,148,33,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,ViSoBERT → TF-IDF,20.5,14.7,26.1,False,119,43,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,ViSoBERT → Bi-LSTM,22.4,16.3,28.5,False,126,46,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,ViSoBERT → PhoBERT,18.2,11.9,24.3,False,117,46,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,ViSoBERT → LLM,11.8,7.5,16.2,False,103,39,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,PhoBERT → TF-IDF,21.0,15.6,26.3,False,139,41,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,PhoBERT → Bi-LSTM,23.7,17.9,29.6,False,147,43,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,PhoBERT → ViSoBERT,19.5,14.3,24.6,False,135,43,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,LLM → TF-IDF,9.6,4.7,14.8,False,21,4,0.0009,0.1566,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,LLM → Bi-LSTM,12.0,6.5,17.8,False,29,6,0.0001,0.0227,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,LLM → ViSoBERT,8.0,3.8,12.6,False,19,3,0.0009,0.148,378
+"End-to-end, Shopee hold-out (378 pairs)",Cascade LLM,LLM → PhoBERT,6.7,1.2,12.3,False,19,6,0.0146,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,Flat Bi-LSTM,-0.2,-6.8,6.8,True,43,49,0.6024,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,Flat ViSoBERT,-3.9,-9.9,2.1,True,32,55,0.0178,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,Flat PhoBERT,-8.1,-13.8,-2.2,False,33,56,0.0192,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,Flat LLM,-17.2,-22.8,-11.7,False,61,98,0.0042,0.6196,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,TF-IDF → Bi-LSTM,3.9,-0.7,8.4,True,68,34,0.001,0.1681,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,TF-IDF → ViSoBERT,-1.4,-6.3,3.3,True,62,41,0.0482,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,TF-IDF → PhoBERT,-0.3,-5.8,5.2,True,64,41,0.0313,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,Bi-LSTM → TF-IDF,4.8,0.8,8.6,False,121,41,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,Bi-LSTM → ViSoBERT,3.8,-1.4,8.8,True,122,48,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,Bi-LSTM → PhoBERT,4.5,-1.3,10.4,True,124,49,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,Bi-LSTM → LLM,-2.8,-8.8,3.0,True,122,61,0.0,0.0018,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,ViSoBERT → TF-IDF,2.0,-2.0,5.7,True,60,38,0.0334,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,ViSoBERT → Bi-LSTM,3.9,-1.0,8.7,True,66,40,0.0148,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,ViSoBERT → PhoBERT,-0.4,-6.3,5.4,True,62,45,0.1215,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,ViSoBERT → LLM,-6.8,-12.5,-1.4,False,61,51,0.3952,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,PhoBERT → TF-IDF,2.5,-1.4,6.2,True,82,38,0.0001,0.0147,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,PhoBERT → Bi-LSTM,5.2,0.4,10.0,False,89,39,0.0,0.0026,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,PhoBERT → ViSoBERT,0.9,-4.0,5.8,True,83,45,0.001,0.1683,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,LLM → TF-IDF,-8.9,-13.6,-4.3,False,42,79,0.001,0.1681,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,LLM → Bi-LSTM,-6.5,-12.2,-0.9,False,49,80,0.008,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,LLM → ViSoBERT,-10.5,-16.1,-5.0,False,43,81,0.0008,0.1435,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat TF-IDF,LLM → PhoBERT,-11.9,-18.2,-5.3,False,45,86,0.0004,0.0775,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,Flat ViSoBERT,-3.8,-9.6,1.5,True,31,48,0.0712,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,Flat PhoBERT,-7.9,-14.2,-1.9,False,30,47,0.0675,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,Flat LLM,-17.1,-23.8,-10.6,False,59,90,0.0137,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,TF-IDF → Bi-LSTM,4.0,-2.2,9.9,True,78,38,0.0003,0.0483,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,TF-IDF → ViSoBERT,-1.2,-7.8,5.0,True,76,49,0.0197,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,TF-IDF → PhoBERT,-0.1,-7.0,6.4,True,78,49,0.0127,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,Bi-LSTM → TF-IDF,5.0,-1.6,11.0,True,125,39,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,Bi-LSTM → ViSoBERT,4.0,-2.4,9.9,True,121,41,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,Bi-LSTM → PhoBERT,4.7,-2.1,11.1,True,123,42,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,Bi-LSTM → LLM,-2.7,-9.4,3.8,True,122,55,0.0,0.0001,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,ViSoBERT → TF-IDF,2.1,-4.9,8.9,True,69,41,0.0097,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,ViSoBERT → Bi-LSTM,4.0,-2.3,10.3,True,68,36,0.0022,0.3513,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,ViSoBERT → PhoBERT,-0.2,-7.2,6.7,True,68,45,0.038,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,ViSoBERT → LLM,-6.6,-13.3,-0.2,False,67,51,0.1671,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,PhoBERT → TF-IDF,2.6,-4.3,9.2,True,95,45,0.0,0.0062,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,PhoBERT → Bi-LSTM,5.3,-1.1,11.4,True,93,37,0.0,0.0003,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,PhoBERT → ViSoBERT,1.1,-5.5,7.3,True,91,47,0.0002,0.0424,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,LLM → TF-IDF,-8.7,-16.2,-1.3,False,41,72,0.0046,0.6739,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,LLM → Bi-LSTM,-6.4,-13.3,0.3,True,41,66,0.0199,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,LLM → ViSoBERT,-10.4,-17.2,-3.8,False,39,71,0.0029,0.4533,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat Bi-LSTM,LLM → PhoBERT,-11.7,-19.2,-4.4,False,40,75,0.0014,0.2331,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,Flat PhoBERT,-4.1,-9.5,1.2,True,35,35,1.0,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,Flat LLM,-13.3,-19.5,-7.2,False,69,83,0.2917,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,TF-IDF → Bi-LSTM,7.8,1.7,13.8,False,92,35,0.0,0.0001,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,TF-IDF → ViSoBERT,2.6,-2.9,7.9,True,83,39,0.0001,0.0166,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,TF-IDF → PhoBERT,3.7,-2.5,9.6,True,87,41,0.0001,0.012,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,Bi-LSTM → TF-IDF,8.8,2.7,14.3,False,144,41,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,Bi-LSTM → ViSoBERT,7.8,2.4,12.8,False,137,40,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,Bi-LSTM → PhoBERT,8.4,2.5,14.3,False,141,43,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,Bi-LSTM → LLM,1.1,-5.1,7.1,True,138,54,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,ViSoBERT → TF-IDF,5.9,-0.3,11.7,True,64,19,0.0,0.0002,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,ViSoBERT → Bi-LSTM,7.8,1.7,13.8,False,67,18,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,ViSoBERT → PhoBERT,3.6,-2.5,9.5,True,61,21,0.0,0.0026,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,ViSoBERT → LLM,-2.8,-8.5,2.5,True,58,25,0.0004,0.0689,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,PhoBERT → TF-IDF,6.4,0.2,12.2,False,103,36,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,PhoBERT → Bi-LSTM,9.1,2.9,15.1,False,105,32,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,PhoBERT → ViSoBERT,4.9,-0.6,10.0,True,96,35,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,LLM → TF-IDF,-4.9,-12.1,1.9,True,55,69,0.2429,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,LLM → Bi-LSTM,-2.6,-9.8,4.5,True,60,68,0.5363,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,LLM → ViSoBERT,-6.6,-12.7,-0.8,False,50,65,0.1915,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat ViSoBERT,LLM → PhoBERT,-7.9,-14.9,-1.0,False,53,71,0.1265,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,Flat LLM,-9.2,-14.8,-3.8,False,59,73,0.2578,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,TF-IDF → Bi-LSTM,12.0,5.6,17.9,False,91,34,0.0,0.0001,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,TF-IDF → ViSoBERT,6.7,1.0,12.2,False,84,40,0.0001,0.019,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,TF-IDF → PhoBERT,7.8,1.7,13.5,False,84,38,0.0,0.008,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,Bi-LSTM → TF-IDF,12.9,7.0,18.2,False,143,40,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,Bi-LSTM → ViSoBERT,11.9,6.3,17.1,False,140,43,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,Bi-LSTM → PhoBERT,12.6,6.6,18.1,False,139,41,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,Bi-LSTM → LLM,5.2,-1.1,11.2,True,137,53,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,ViSoBERT → TF-IDF,10.0,4.1,15.6,False,71,26,0.0,0.0013,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,ViSoBERT → Bi-LSTM,11.9,5.7,17.8,False,73,24,0.0,0.0002,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,ViSoBERT → PhoBERT,7.7,1.9,13.3,False,66,26,0.0,0.0079,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,ViSoBERT → LLM,1.3,-4.9,7.1,True,66,33,0.0012,0.1979,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,PhoBERT → TF-IDF,10.5,4.9,15.8,False,94,27,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,PhoBERT → Bi-LSTM,13.3,7.3,18.9,False,97,24,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,PhoBERT → ViSoBERT,9.0,3.6,14.2,False,92,31,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,LLM → TF-IDF,-0.8,-7.3,5.5,True,52,66,0.2313,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,LLM → Bi-LSTM,1.5,-5.2,8.2,True,56,64,0.523,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,LLM → ViSoBERT,-2.5,-8.6,3.3,True,50,65,0.1915,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat PhoBERT,LLM → PhoBERT,-3.8,-10.1,2.3,True,48,66,0.1109,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,TF-IDF → Bi-LSTM,21.1,15.5,26.6,False,127,56,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,TF-IDF → ViSoBERT,15.9,10.8,20.8,False,115,57,0.0,0.0026,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,TF-IDF → PhoBERT,17.0,11.3,22.6,False,119,59,0.0,0.0019,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,Bi-LSTM → TF-IDF,22.0,17.2,26.7,False,162,45,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,Bi-LSTM → ViSoBERT,21.0,16.3,25.9,False,158,47,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,Bi-LSTM → PhoBERT,21.7,16.1,27.5,False,161,49,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,Bi-LSTM → LLM,14.4,9.6,19.3,False,147,49,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,ViSoBERT → TF-IDF,19.2,13.9,24.4,False,118,59,0.0,0.0025,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,ViSoBERT → Bi-LSTM,21.1,15.6,26.8,False,123,60,0.0,0.0009,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,ViSoBERT → PhoBERT,16.9,11.0,22.8,False,116,62,0.0001,0.0129,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,ViSoBERT → LLM,10.5,5.2,15.6,False,106,59,0.0003,0.0579,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,PhoBERT → TF-IDF,19.7,14.7,24.6,False,133,52,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,PhoBERT → Bi-LSTM,22.4,17.1,27.9,False,140,53,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,PhoBERT → ViSoBERT,18.2,13.1,23.0,False,129,54,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,LLM → TF-IDF,8.3,3.6,13.3,False,33,33,1.0,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,LLM → Bi-LSTM,10.7,5.4,16.3,False,41,35,0.5666,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,LLM → ViSoBERT,6.7,2.2,11.4,False,32,33,1.0,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Flat LLM,LLM → PhoBERT,5.4,0.1,10.9,False,32,36,0.7163,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,TF-IDF → ViSoBERT,-5.3,-9.2,-1.5,False,8,21,0.0241,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,TF-IDF → PhoBERT,-4.1,-8.6,0.3,True,10,21,0.0708,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,Bi-LSTM → TF-IDF,0.9,-3.5,5.2,True,111,65,0.0007,0.1146,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,Bi-LSTM → ViSoBERT,-0.1,-4.8,4.6,True,108,68,0.0032,0.4853,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,Bi-LSTM → PhoBERT,0.6,-4.6,6.0,True,111,70,0.0028,0.4408,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,Bi-LSTM → LLM,-6.7,-12.3,-1.1,False,107,80,0.057,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,ViSoBERT → TF-IDF,-1.9,-6.5,2.5,True,46,58,0.2807,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,ViSoBERT → Bi-LSTM,-0.0,-3.0,2.9,True,37,45,0.4397,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,ViSoBERT → PhoBERT,-4.3,-9.5,1.0,True,45,62,0.1215,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,ViSoBERT → LLM,-10.7,-16.1,-5.2,False,44,68,0.0293,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,PhoBERT → TF-IDF,-1.4,-5.7,2.8,True,63,53,0.4035,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,PhoBERT → Bi-LSTM,1.3,-1.3,3.9,True,53,37,0.1133,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,PhoBERT → ViSoBERT,-2.9,-7.4,1.3,True,59,55,0.7789,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,LLM → TF-IDF,-12.8,-18.1,-7.6,False,47,118,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,LLM → Bi-LSTM,-10.4,-14.3,-6.5,False,39,104,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,LLM → ViSoBERT,-14.4,-19.6,-9.2,False,46,118,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → Bi-LSTM,LLM → PhoBERT,-15.7,-21.5,-9.7,False,47,122,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → ViSoBERT,TF-IDF → PhoBERT,1.1,-2.2,4.6,True,10,8,0.8145,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → ViSoBERT,Bi-LSTM → TF-IDF,6.2,1.8,10.4,False,113,54,0.0,0.0014,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → ViSoBERT,Bi-LSTM → ViSoBERT,5.2,2.2,8.2,False,101,48,0.0,0.0037,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → ViSoBERT,Bi-LSTM → PhoBERT,5.9,1.3,10.4,False,111,57,0.0,0.008,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → ViSoBERT,Bi-LSTM → LLM,-1.5,-6.3,3.3,True,105,65,0.0027,0.417,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → ViSoBERT,ViSoBERT → TF-IDF,3.3,-1.2,7.8,True,50,49,1.0,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → ViSoBERT,ViSoBERT → Bi-LSTM,5.2,0.7,10.0,False,55,50,0.6965,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → ViSoBERT,ViSoBERT → PhoBERT,1.0,-3.7,5.7,True,49,53,0.7666,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → ViSoBERT,ViSoBERT → LLM,-5.4,-10.0,-0.9,False,45,56,0.3197,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → ViSoBERT,PhoBERT → TF-IDF,3.8,-0.2,8.0,True,64,41,0.0313,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → ViSoBERT,PhoBERT → Bi-LSTM,6.6,2.2,11.1,False,72,43,0.0087,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → ViSoBERT,PhoBERT → ViSoBERT,2.3,-0.1,4.8,True,52,35,0.0857,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → ViSoBERT,LLM → TF-IDF,-7.5,-12.9,-2.0,False,50,108,0.0,0.0011,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → ViSoBERT,LLM → Bi-LSTM,-5.2,-10.8,0.7,True,59,111,0.0001,0.0163,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → ViSoBERT,LLM → ViSoBERT,-9.2,-13.2,-5.2,False,42,101,0.0,0.0002,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → ViSoBERT,LLM → PhoBERT,-10.5,-16.1,-4.7,False,50,112,0.0,0.0003,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → PhoBERT,Bi-LSTM → TF-IDF,5.1,0.1,9.9,False,116,59,0.0,0.0043,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → PhoBERT,Bi-LSTM → ViSoBERT,4.1,-0.5,8.5,True,109,58,0.0001,0.0191,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → PhoBERT,Bi-LSTM → PhoBERT,4.8,1.5,8.1,False,102,50,0.0,0.0064,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → PhoBERT,Bi-LSTM → LLM,-2.6,-8.1,3.0,True,108,70,0.0054,0.7886,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → PhoBERT,ViSoBERT → TF-IDF,2.2,-3.0,7.4,True,52,53,1.0,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → PhoBERT,ViSoBERT → Bi-LSTM,4.1,-1.1,9.5,True,56,53,0.8482,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → PhoBERT,ViSoBERT → PhoBERT,-0.1,-3.4,3.1,True,41,47,0.5943,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → PhoBERT,ViSoBERT → LLM,-6.5,-11.9,-1.2,False,48,61,0.2503,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → PhoBERT,PhoBERT → TF-IDF,2.7,-2.0,7.6,True,67,46,0.0594,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → PhoBERT,PhoBERT → Bi-LSTM,5.5,0.6,10.6,False,73,46,0.0168,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → PhoBERT,PhoBERT → ViSoBERT,1.2,-2.9,5.2,True,60,45,0.1716,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → PhoBERT,LLM → TF-IDF,-8.6,-14.7,-2.5,False,52,112,0.0,0.0008,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → PhoBERT,LLM → Bi-LSTM,-6.3,-12.3,-0.1,False,58,112,0.0,0.0088,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → PhoBERT,LLM → ViSoBERT,-10.3,-15.5,-5.1,False,48,109,0.0,0.0003,378
+"End-to-end, Shopee hold-out (378 pairs)",TF-IDF → PhoBERT,LLM → PhoBERT,-11.6,-16.0,-7.3,False,41,105,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → TF-IDF,Bi-LSTM → ViSoBERT,-1.0,-4.3,2.2,True,6,12,0.2379,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → TF-IDF,Bi-LSTM → PhoBERT,-0.3,-4.4,3.9,True,9,14,0.4049,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → TF-IDF,Bi-LSTM → LLM,-7.6,-11.7,-3.5,False,3,22,0.0002,0.0302,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → TF-IDF,ViSoBERT → TF-IDF,-2.9,-6.1,0.4,True,49,107,0.0,0.001,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → TF-IDF,ViSoBERT → Bi-LSTM,-0.9,-5.5,3.8,True,61,115,0.0001,0.0118,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → TF-IDF,ViSoBERT → PhoBERT,-5.2,-10.3,0.1,True,55,118,0.0,0.0005,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → TF-IDF,ViSoBERT → LLM,-11.6,-16.5,-6.6,False,52,122,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → TF-IDF,PhoBERT → TF-IDF,-2.3,-5.2,0.7,True,66,102,0.0068,0.9654,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → TF-IDF,PhoBERT → Bi-LSTM,0.4,-4.1,5.0,True,82,112,0.0371,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → TF-IDF,PhoBERT → ViSoBERT,-3.9,-8.1,0.5,True,71,113,0.0024,0.379,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → TF-IDF,LLM → TF-IDF,-13.7,-17.5,-9.9,False,29,146,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → TF-IDF,LLM → Bi-LSTM,-11.3,-16.5,-6.0,False,44,155,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → TF-IDF,LLM → ViSoBERT,-15.3,-20.1,-10.4,False,34,152,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → TF-IDF,LLM → PhoBERT,-16.7,-22.1,-10.8,False,36,157,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → ViSoBERT,Bi-LSTM → PhoBERT,0.7,-2.4,4.1,True,10,9,1.0,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → ViSoBERT,Bi-LSTM → LLM,-6.6,-10.2,-3.2,False,4,17,0.0072,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → ViSoBERT,ViSoBERT → TF-IDF,-1.9,-6.6,3.0,True,59,111,0.0001,0.0163,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → ViSoBERT,ViSoBERT → Bi-LSTM,0.1,-4.7,5.1,True,64,112,0.0004,0.0672,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → ViSoBERT,ViSoBERT → PhoBERT,-4.2,-9.1,0.9,True,58,115,0.0,0.0039,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → ViSoBERT,ViSoBERT → LLM,-10.6,-15.5,-5.9,False,53,117,0.0,0.0003,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → ViSoBERT,PhoBERT → TF-IDF,-1.3,-5.9,3.2,True,77,107,0.0322,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → ViSoBERT,PhoBERT → Bi-LSTM,1.4,-3.4,6.3,True,85,109,0.0984,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → ViSoBERT,PhoBERT → ViSoBERT,-2.9,-6.1,0.3,True,65,101,0.0064,0.9313,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → ViSoBERT,LLM → TF-IDF,-12.7,-18.2,-7.1,False,40,151,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → ViSoBERT,LLM → Bi-LSTM,-10.3,-15.9,-4.5,False,50,155,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → ViSoBERT,LLM → ViSoBERT,-14.3,-18.3,-10.4,False,32,144,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → ViSoBERT,LLM → PhoBERT,-15.7,-21.2,-9.8,False,40,155,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → PhoBERT,Bi-LSTM → LLM,-7.3,-11.8,-3.0,False,6,20,0.0094,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → PhoBERT,ViSoBERT → TF-IDF,-2.5,-8.1,2.9,True,60,113,0.0001,0.0138,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → PhoBERT,ViSoBERT → Bi-LSTM,-0.6,-6.2,5.0,True,65,114,0.0003,0.0571,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → PhoBERT,ViSoBERT → PhoBERT,-4.9,-8.7,-1.1,False,49,107,0.0,0.001,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → PhoBERT,ViSoBERT → LLM,-11.3,-16.9,-5.8,False,55,120,0.0,0.0003,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → PhoBERT,PhoBERT → TF-IDF,-2.0,-7.3,3.1,True,79,110,0.0288,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → PhoBERT,PhoBERT → Bi-LSTM,0.7,-4.8,6.2,True,86,111,0.087,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → PhoBERT,PhoBERT → ViSoBERT,-3.6,-8.2,1.0,True,74,111,0.008,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → PhoBERT,LLM → TF-IDF,-13.4,-19.5,-7.1,False,41,153,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → PhoBERT,LLM → Bi-LSTM,-11.0,-17.2,-4.7,False,50,156,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → PhoBERT,LLM → ViSoBERT,-15.0,-20.3,-9.9,False,39,152,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → PhoBERT,LLM → PhoBERT,-16.4,-20.9,-11.9,False,31,147,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → LLM,ViSoBERT → TF-IDF,4.8,-0.8,10.4,True,71,110,0.0046,0.6763,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → LLM,ViSoBERT → Bi-LSTM,6.7,0.6,12.8,False,77,112,0.0132,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → LLM,ViSoBERT → PhoBERT,2.4,-3.7,8.5,True,69,113,0.0014,0.2273,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → LLM,ViSoBERT → LLM,-4.0,-8.1,0.2,True,54,105,0.0001,0.013,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → LLM,PhoBERT → TF-IDF,5.3,-0.1,10.6,True,88,105,0.2494,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → LLM,PhoBERT → Bi-LSTM,8.0,2.2,14.0,False,97,108,0.485,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → LLM,PhoBERT → ViSoBERT,3.8,-1.2,8.7,True,82,105,0.1074,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → LLM,LLM → TF-IDF,-6.1,-12.4,0.5,True,51,149,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → LLM,LLM → Bi-LSTM,-3.7,-10.5,3.2,True,61,153,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → LLM,LLM → ViSoBERT,-7.7,-13.6,-1.8,False,48,147,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",Bi-LSTM → LLM,LLM → PhoBERT,-9.0,-15.9,-2.2,False,50,152,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → TF-IDF,ViSoBERT → Bi-LSTM,1.9,-1.8,5.7,True,13,9,0.5235,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → TF-IDF,ViSoBERT → PhoBERT,-2.3,-6.7,2.1,True,6,11,0.3323,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → TF-IDF,ViSoBERT → LLM,-8.7,-13.4,-4.1,False,5,17,0.0169,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → TF-IDF,PhoBERT → TF-IDF,0.5,-2.1,3.1,True,55,33,0.0246,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → TF-IDF,PhoBERT → Bi-LSTM,3.2,-1.0,7.6,True,67,39,0.0084,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → TF-IDF,PhoBERT → ViSoBERT,-1.0,-5.4,3.5,True,60,44,0.141,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → TF-IDF,LLM → TF-IDF,-10.8,-14.6,-7.1,False,39,98,0.0,0.0001,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → TF-IDF,LLM → Bi-LSTM,-8.5,-13.8,-3.1,False,51,104,0.0,0.0054,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → TF-IDF,LLM → ViSoBERT,-12.5,-17.9,-7.0,False,44,104,0.0,0.0002,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → TF-IDF,LLM → PhoBERT,-13.8,-19.7,-7.7,False,45,108,0.0,0.0001,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → Bi-LSTM,ViSoBERT → PhoBERT,-4.3,-8.9,0.3,True,8,17,0.1078,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → Bi-LSTM,ViSoBERT → LLM,-10.7,-15.9,-5.5,False,8,24,0.007,0.9871,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → Bi-LSTM,PhoBERT → TF-IDF,-1.4,-5.7,2.8,True,63,45,0.1014,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → Bi-LSTM,PhoBERT → Bi-LSTM,1.3,-1.2,3.8,True,54,30,0.0116,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → Bi-LSTM,PhoBERT → ViSoBERT,-2.9,-7.7,1.5,True,61,49,0.2942,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → Bi-LSTM,LLM → TF-IDF,-12.8,-18.0,-7.7,False,47,110,0.0,0.0001,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → Bi-LSTM,LLM → Bi-LSTM,-10.4,-14.2,-6.6,False,40,97,0.0,0.0003,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → Bi-LSTM,LLM → ViSoBERT,-14.4,-20.0,-8.9,False,47,111,0.0,0.0001,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → Bi-LSTM,LLM → PhoBERT,-15.7,-21.6,-9.7,False,47,114,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → PhoBERT,ViSoBERT → LLM,-6.4,-11.5,-1.4,False,8,15,0.21,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → PhoBERT,PhoBERT → TF-IDF,2.9,-2.0,7.6,True,66,39,0.0108,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → PhoBERT,PhoBERT → Bi-LSTM,5.6,0.7,10.5,False,71,38,0.002,0.3253,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → PhoBERT,PhoBERT → ViSoBERT,1.3,-3.3,5.9,True,64,43,0.0527,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → PhoBERT,LLM → TF-IDF,-8.5,-14.4,-2.4,False,50,104,0.0,0.0036,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → PhoBERT,LLM → Bi-LSTM,-6.1,-12.3,0.1,True,56,104,0.0002,0.0352,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → PhoBERT,LLM → ViSoBERT,-10.1,-16.0,-4.5,False,49,104,0.0,0.0024,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → PhoBERT,LLM → PhoBERT,-11.5,-15.8,-7.3,False,40,98,0.0,0.0002,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → LLM,PhoBERT → TF-IDF,9.3,4.2,14.2,False,72,38,0.0015,0.2514,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → LLM,PhoBERT → Bi-LSTM,12.0,6.5,17.5,False,78,38,0.0003,0.0483,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → LLM,PhoBERT → ViSoBERT,7.7,3.4,12.4,False,67,39,0.0084,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → LLM,LLM → TF-IDF,-2.1,-8.3,4.3,True,55,102,0.0002,0.0413,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → LLM,LLM → Bi-LSTM,0.3,-6.4,7.2,True,62,103,0.0018,0.2869,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → LLM,LLM → ViSoBERT,-3.7,-9.2,1.9,True,51,99,0.0001,0.0214,378
+"End-to-end, Shopee hold-out (378 pairs)",ViSoBERT → LLM,LLM → PhoBERT,-5.1,-11.7,1.5,True,53,104,0.0001,0.0118,378
+"End-to-end, Shopee hold-out (378 pairs)",PhoBERT → TF-IDF,PhoBERT → Bi-LSTM,2.7,-0.7,6.3,True,17,11,0.3449,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",PhoBERT → TF-IDF,PhoBERT → ViSoBERT,-1.5,-5.0,1.9,True,6,12,0.2379,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",PhoBERT → TF-IDF,LLM → TF-IDF,-11.4,-15.2,-7.5,False,37,118,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",PhoBERT → TF-IDF,LLM → Bi-LSTM,-9.0,-14.2,-3.7,False,51,126,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",PhoBERT → TF-IDF,LLM → ViSoBERT,-13.0,-18.1,-7.8,False,42,124,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",PhoBERT → TF-IDF,LLM → PhoBERT,-14.3,-19.9,-8.6,False,43,128,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",PhoBERT → Bi-LSTM,PhoBERT → ViSoBERT,-4.2,-8.3,-0.4,False,9,21,0.0428,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",PhoBERT → Bi-LSTM,LLM → TF-IDF,-14.1,-19.3,-9.0,False,45,132,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",PhoBERT → Bi-LSTM,LLM → Bi-LSTM,-11.7,-15.6,-8.0,False,37,118,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",PhoBERT → Bi-LSTM,LLM → ViSoBERT,-15.7,-21.3,-10.3,False,45,133,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",PhoBERT → Bi-LSTM,LLM → PhoBERT,-17.0,-22.7,-11.3,False,45,136,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",PhoBERT → ViSoBERT,LLM → TF-IDF,-9.8,-15.3,-4.3,False,48,123,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",PhoBERT → ViSoBERT,LLM → Bi-LSTM,-7.5,-13.2,-1.7,False,57,126,0.0,0.0001,378
+"End-to-end, Shopee hold-out (378 pairs)",PhoBERT → ViSoBERT,LLM → ViSoBERT,-11.5,-15.5,-7.5,False,40,116,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",PhoBERT → ViSoBERT,LLM → PhoBERT,-12.8,-18.4,-7.1,False,48,127,0.0,0.0,378
+"End-to-end, Shopee hold-out (378 pairs)",LLM → TF-IDF,LLM → Bi-LSTM,2.4,-1.9,6.7,True,15,9,0.3075,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",LLM → TF-IDF,LLM → ViSoBERT,-1.6,-6.0,2.8,True,7,8,1.0,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",LLM → TF-IDF,LLM → PhoBERT,-3.0,-7.8,2.1,True,7,11,0.4807,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",LLM → Bi-LSTM,LLM → ViSoBERT,-4.0,-9.0,0.8,True,11,18,0.2649,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",LLM → Bi-LSTM,LLM → PhoBERT,-5.3,-10.5,-0.2,False,9,19,0.0872,1.0,378
+"End-to-end, Shopee hold-out (378 pairs)",LLM → ViSoBERT,LLM → PhoBERT,-1.3,-5.7,3.3,True,8,11,0.6476,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,Cascade Bi-LSTM,7.4,2.1,12.8,False,46,30,0.0846,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,Cascade ViSoBERT,0.7,-4.8,6.5,True,33,56,0.0192,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,Cascade PhoBERT,0.6,-5.2,6.6,True,47,52,0.6879,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,Cascade LLM,-3.8,-12.6,5.0,True,39,74,0.0013,0.3283,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,Flat TF-IDF,0.5,-4.2,5.7,True,19,51,0.0002,0.049,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,Flat Bi-LSTM,2.1,-4.4,8.8,True,30,65,0.0004,0.1189,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,Flat ViSoBERT,-9.0,-15.4,-2.3,False,19,79,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,Flat PhoBERT,-10.5,-17.4,-3.1,False,15,77,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,Flat LLM,-2.8,-11.4,6.0,True,49,70,0.0663,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,TF-IDF → Bi-LSTM,8.3,3.9,12.9,False,12,2,0.0129,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,TF-IDF → ViSoBERT,5.2,0.9,9.7,False,8,4,0.3877,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,TF-IDF → PhoBERT,2.0,-3.0,7.1,True,6,7,1.0,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,Bi-LSTM → TF-IDF,-0.1,-3.2,2.8,True,36,28,0.3817,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,Bi-LSTM → ViSoBERT,6.0,1.1,11.0,False,42,30,0.1945,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,Bi-LSTM → PhoBERT,1.8,-3.8,7.6,True,41,34,0.4887,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,Bi-LSTM → LLM,1.7,-6.4,10.2,True,45,40,0.6646,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,ViSoBERT → TF-IDF,-3.2,-7.1,1.0,True,28,53,0.0073,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,ViSoBERT → Bi-LSTM,3.8,-2.1,9.7,True,37,55,0.0758,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,ViSoBERT → PhoBERT,-1.4,-7.9,5.4,True,33,58,0.0115,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,ViSoBERT → LLM,-1.2,-9.6,7.5,True,36,63,0.0086,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,PhoBERT → TF-IDF,-0.9,-4.7,3.0,True,42,47,0.6718,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,PhoBERT → Bi-LSTM,6.1,0.4,12.0,False,53,49,0.7666,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,PhoBERT → ViSoBERT,4.1,-1.1,9.3,True,48,49,1.0,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,LLM → TF-IDF,-6.0,-11.0,-0.9,False,32,66,0.0008,0.2071,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,LLM → Bi-LSTM,2.0,-4.9,8.9,True,41,68,0.0124,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,LLM → ViSoBERT,0.1,-6.2,6.8,True,38,66,0.0078,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade TF-IDF,LLM → PhoBERT,-2.4,-9.4,5.2,True,38,68,0.0046,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,Cascade ViSoBERT,-6.7,-12.0,-1.3,False,25,64,0.0,0.0137,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,Cascade PhoBERT,-6.8,-12.3,-1.3,False,42,63,0.0504,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,Cascade LLM,-11.2,-19.5,-3.0,False,31,82,0.0,0.0006,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,Flat TF-IDF,-6.9,-13.2,-0.3,False,27,75,0.0,0.0007,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,Flat Bi-LSTM,-5.3,-12.2,1.6,True,14,65,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,Flat ViSoBERT,-16.4,-23.3,-9.0,False,19,95,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,Flat PhoBERT,-17.9,-24.8,-10.6,False,14,92,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,Flat LLM,-10.2,-18.5,-1.8,False,41,78,0.0009,0.2345,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,TF-IDF → Bi-LSTM,0.9,-2.0,4.1,True,28,34,0.5258,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,TF-IDF → ViSoBERT,-2.2,-7.4,3.0,True,32,44,0.2067,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,TF-IDF → PhoBERT,-5.4,-11.1,0.3,True,31,48,0.0712,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,Bi-LSTM → TF-IDF,-7.5,-11.9,-3.4,False,2,10,0.0386,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,Bi-LSTM → ViSoBERT,-1.4,-5.2,2.4,True,4,8,0.3877,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,Bi-LSTM → PhoBERT,-5.5,-9.9,-1.1,False,3,12,0.0352,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,Bi-LSTM → LLM,-5.7,-12.5,1.5,True,7,18,0.0433,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,ViSoBERT → TF-IDF,-10.6,-16.3,-4.7,False,25,66,0.0,0.0067,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,ViSoBERT → Bi-LSTM,-3.6,-7.4,0.2,True,23,57,0.0002,0.0537,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,ViSoBERT → PhoBERT,-8.8,-14.6,-2.6,False,26,67,0.0,0.0082,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,ViSoBERT → LLM,-8.6,-16.8,0.1,True,30,73,0.0,0.0088,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,PhoBERT → TF-IDF,-8.3,-13.8,-2.9,False,41,62,0.0482,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,PhoBERT → Bi-LSTM,-1.3,-4.4,2.0,True,39,51,0.2461,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,PhoBERT → ViSoBERT,-3.3,-8.2,1.5,True,42,59,0.1109,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,LLM → TF-IDF,-13.4,-20.1,-6.5,False,29,79,0.0,0.0005,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,LLM → Bi-LSTM,-5.4,-10.1,-0.6,False,27,70,0.0,0.0049,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,LLM → ViSoBERT,-7.3,-13.5,-0.9,False,30,74,0.0,0.0062,378
+"End-to-end, Lazada (378 pairs)",Cascade Bi-LSTM,LLM → PhoBERT,-9.8,-16.5,-2.6,False,30,76,0.0,0.003,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,Cascade PhoBERT,-0.2,-5.8,5.4,True,57,39,0.0822,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,Cascade LLM,-4.6,-13.7,4.5,True,39,51,0.2461,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,Flat TF-IDF,-0.2,-5.6,5.5,True,32,41,0.3492,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,Flat Bi-LSTM,1.3,-5.2,8.3,True,30,42,0.1945,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,Flat ViSoBERT,-9.7,-14.8,-4.5,False,6,43,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,Flat PhoBERT,-11.2,-17.5,-4.9,False,9,48,0.0,0.0001,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,Flat LLM,-3.6,-12.9,5.8,True,50,48,0.9196,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,TF-IDF → Bi-LSTM,7.6,2.2,12.9,False,60,27,0.0005,0.1426,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,TF-IDF → ViSoBERT,4.4,0.8,8.0,False,53,26,0.0032,0.7448,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,TF-IDF → PhoBERT,1.3,-4.3,6.9,True,55,33,0.0246,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,Bi-LSTM → TF-IDF,-0.9,-6.3,4.2,True,60,29,0.0013,0.3405,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,Bi-LSTM → ViSoBERT,5.2,1.4,9.0,False,58,23,0.0001,0.0382,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,Bi-LSTM → PhoBERT,1.1,-4.5,6.7,True,60,30,0.0021,0.5068,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,Bi-LSTM → LLM,1.0,-7.5,9.5,True,66,38,0.0078,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,ViSoBERT → TF-IDF,-3.9,-8.4,0.4,True,3,5,0.7266,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,ViSoBERT → Bi-LSTM,3.1,-1.1,7.5,True,7,2,0.1797,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,ViSoBERT → PhoBERT,-2.2,-6.0,1.9,True,2,4,0.6875,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,ViSoBERT → LLM,-2.0,-9.8,6.3,True,8,12,0.5034,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,PhoBERT → TF-IDF,-1.6,-7.1,3.5,True,57,39,0.0822,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,PhoBERT → Bi-LSTM,5.4,0.2,10.7,False,61,34,0.0073,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,PhoBERT → ViSoBERT,3.4,-0.7,7.3,True,55,33,0.0246,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,LLM → TF-IDF,-6.8,-13.4,-0.0,False,34,45,0.2604,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,LLM → Bi-LSTM,1.3,-5.2,7.8,True,38,42,0.7376,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,LLM → ViSoBERT,-0.7,-6.0,4.8,True,34,39,0.64,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade ViSoBERT,LLM → PhoBERT,-3.1,-9.7,3.9,True,36,43,0.4999,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,Cascade LLM,-4.4,-13.1,4.4,True,47,77,0.0089,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,Flat TF-IDF,-0.0,-5.9,5.9,True,33,60,0.0067,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,Flat Bi-LSTM,1.5,-5.4,8.6,True,34,64,0.0032,0.7448,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,Flat ViSoBERT,-9.5,-16.5,-2.3,False,23,78,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,Flat PhoBERT,-11.1,-17.5,-4.5,False,16,73,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,Flat LLM,-3.4,-12.1,5.3,True,55,71,0.1812,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,TF-IDF → Bi-LSTM,7.7,1.9,13.5,False,59,44,0.1674,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,TF-IDF → ViSoBERT,4.6,-1.0,10.1,True,53,44,0.4168,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,TF-IDF → PhoBERT,1.4,-3.1,6.0,True,47,43,0.752,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,Bi-LSTM → TF-IDF,-0.7,-6.2,4.7,True,57,44,0.2323,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,Bi-LSTM → ViSoBERT,5.4,0.5,10.2,False,57,40,0.1038,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,Bi-LSTM → PhoBERT,1.3,-2.5,5.0,True,52,40,0.2513,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,Bi-LSTM → LLM,1.1,-6.3,8.8,True,60,50,0.3909,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,ViSoBERT → TF-IDF,-3.7,-9.6,2.2,True,39,59,0.0544,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,ViSoBERT → Bi-LSTM,3.2,-2.6,9.1,True,44,57,0.2323,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,ViSoBERT → PhoBERT,-2.0,-6.8,3.0,True,35,55,0.0446,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,ViSoBERT → LLM,-1.8,-10.5,7.1,True,43,65,0.0428,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,PhoBERT → TF-IDF,-1.5,-5.9,2.8,True,5,5,1.0,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,PhoBERT → Bi-LSTM,5.6,1.0,10.1,False,12,3,0.0352,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,PhoBERT → ViSoBERT,3.5,-0.4,7.5,True,6,2,0.2891,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,LLM → TF-IDF,-6.6,-13.6,0.4,True,44,73,0.0093,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,LLM → Bi-LSTM,1.4,-5.0,8.0,True,48,70,0.0527,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,LLM → ViSoBERT,-0.5,-6.9,6.0,True,46,69,0.0398,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade PhoBERT,LLM → PhoBERT,-2.9,-8.9,3.4,True,43,68,0.0223,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,Flat TF-IDF,4.4,-5.0,13.2,True,50,47,0.8392,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,Flat Bi-LSTM,5.9,-3.0,14.6,True,41,41,1.0,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,Flat ViSoBERT,-5.1,-14.9,4.5,True,27,52,0.0066,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,Flat PhoBERT,-6.7,-16.0,2.9,True,26,53,0.0032,0.7448,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,Flat LLM,1.0,-3.4,6.0,True,24,10,0.0243,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,TF-IDF → Bi-LSTM,12.2,3.6,20.4,False,78,33,0.0,0.0076,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,TF-IDF → ViSoBERT,9.0,0.3,17.6,False,78,39,0.0004,0.1113,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,TF-IDF → PhoBERT,5.9,-3.3,14.9,True,76,42,0.0022,0.5439,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,Bi-LSTM → TF-IDF,3.7,-5.1,12.5,True,80,37,0.0001,0.027,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,Bi-LSTM → ViSoBERT,9.8,1.4,18.1,False,82,35,0.0,0.0054,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,Bi-LSTM → PhoBERT,5.7,-3.2,14.4,True,80,38,0.0001,0.0412,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,Bi-LSTM → LLM,5.6,-1.1,11.9,True,72,32,0.0001,0.0333,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,ViSoBERT → TF-IDF,0.7,-8.3,9.5,True,48,38,0.3318,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,ViSoBERT → Bi-LSTM,7.7,-1.5,16.6,True,52,35,0.0857,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,ViSoBERT → PhoBERT,2.4,-6.9,11.7,True,50,40,0.3428,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,ViSoBERT → LLM,2.6,-3.1,8.5,True,41,33,0.416,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,PhoBERT → TF-IDF,3.0,-6.0,11.8,True,76,46,0.0084,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,PhoBERT → Bi-LSTM,10.0,1.6,18.3,False,79,40,0.0004,0.1233,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,PhoBERT → ViSoBERT,7.9,-0.7,16.3,True,79,45,0.0029,0.6903,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,LLM → TF-IDF,-2.2,-10.6,5.8,True,8,7,1.0,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,LLM → Bi-LSTM,5.9,-2.2,13.5,True,12,4,0.0768,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,LLM → ViSoBERT,3.9,-4.5,12.1,True,12,5,0.1435,1.0,378
+"End-to-end, Lazada (378 pairs)",Cascade LLM,LLM → PhoBERT,1.5,-6.5,9.4,True,9,4,0.2668,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,Flat Bi-LSTM,1.5,-4.2,7.5,True,32,35,0.8072,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,Flat ViSoBERT,-9.5,-15.2,-4.0,False,12,40,0.0001,0.0384,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,Flat PhoBERT,-11.0,-17.3,-4.6,False,15,45,0.0001,0.0402,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,Flat LLM,-3.4,-11.6,5.0,True,60,49,0.3382,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,TF-IDF → Bi-LSTM,7.8,1.6,13.7,False,58,16,0.0,0.0003,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,TF-IDF → ViSoBERT,4.6,-0.6,9.5,True,52,16,0.0,0.0047,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,TF-IDF → PhoBERT,1.5,-4.6,7.3,True,51,20,0.0003,0.0867,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,Bi-LSTM → TF-IDF,-0.7,-6.1,4.4,True,68,28,0.0001,0.0172,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,Bi-LSTM → ViSoBERT,5.4,-0.1,10.7,True,69,25,0.0,0.0021,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,Bi-LSTM → PhoBERT,1.3,-5.0,7.5,True,68,29,0.0001,0.0287,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,Bi-LSTM → LLM,1.2,-7.1,9.6,True,72,35,0.0004,0.1233,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,ViSoBERT → TF-IDF,-3.7,-9.0,1.5,True,41,34,0.4887,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,ViSoBERT → Bi-LSTM,3.3,-3.3,9.7,True,46,32,0.1405,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,ViSoBERT → PhoBERT,-2.0,-8.3,4.5,True,41,34,0.4887,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,ViSoBERT → LLM,-1.8,-10.2,7.1,True,45,40,0.6646,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,PhoBERT → TF-IDF,-1.4,-6.7,3.4,True,60,33,0.0067,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,PhoBERT → Bi-LSTM,5.6,-0.9,12.0,True,67,31,0.0004,0.1003,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,PhoBERT → ViSoBERT,3.5,-1.9,8.8,True,61,30,0.0015,0.3837,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,LLM → TF-IDF,-6.6,-12.7,-0.3,False,43,45,0.9152,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,LLM → Bi-LSTM,1.5,-5.8,8.4,True,47,42,0.6718,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,LLM → ViSoBERT,-0.5,-6.8,5.7,True,44,40,0.7436,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat TF-IDF,LLM → PhoBERT,-2.9,-9.8,4.3,True,44,42,0.9142,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,Flat ViSoBERT,-11.0,-18.3,-4.1,False,17,42,0.0015,0.3899,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,Flat PhoBERT,-12.6,-20.3,-4.8,False,18,45,0.0009,0.2362,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,Flat LLM,-4.9,-13.1,3.3,True,54,40,0.1797,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,TF-IDF → Bi-LSTM,6.2,-0.5,12.8,True,66,21,0.0,0.0005,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,TF-IDF → ViSoBERT,3.1,-3.6,9.5,True,65,26,0.0001,0.0168,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,TF-IDF → PhoBERT,-0.1,-7.0,6.3,True,62,28,0.0004,0.1222,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,Bi-LSTM → TF-IDF,-2.2,-8.8,4.4,True,64,21,0.0,0.0011,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,Bi-LSTM → ViSoBERT,3.9,-2.8,10.4,True,64,17,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,Bi-LSTM → PhoBERT,-0.2,-7.0,6.4,True,61,19,0.0,0.0009,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,Bi-LSTM → LLM,-0.3,-8.2,7.4,True,64,24,0.0,0.0077,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,ViSoBERT → TF-IDF,-5.2,-12.4,1.9,True,44,34,0.3082,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,ViSoBERT → Bi-LSTM,1.7,-5.8,9.0,True,45,28,0.0604,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,ViSoBERT → PhoBERT,-3.5,-10.6,3.3,True,41,31,0.2888,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,ViSoBERT → LLM,-3.3,-11.4,4.7,True,44,36,0.434,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,PhoBERT → TF-IDF,-3.0,-10.1,4.0,True,67,37,0.0042,0.9593,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,PhoBERT → Bi-LSTM,4.1,-3.2,11.3,True,68,29,0.0001,0.0287,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,PhoBERT → ViSoBERT,2.0,-4.9,8.7,True,66,32,0.0008,0.2071,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,LLM → TF-IDF,-8.1,-16.3,0.3,True,41,40,1.0,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,LLM → Bi-LSTM,-0.1,-8.5,8.2,True,42,34,0.4222,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,LLM → ViSoBERT,-2.0,-10.1,6.2,True,42,35,0.4944,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat Bi-LSTM,LLM → PhoBERT,-4.4,-12.4,3.9,True,40,35,0.6445,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,Flat PhoBERT,-1.5,-7.3,4.0,True,15,17,0.8601,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,Flat LLM,6.1,-3.9,16.2,True,65,26,0.0001,0.0168,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,TF-IDF → Bi-LSTM,17.3,10.7,23.8,False,83,13,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,TF-IDF → ViSoBERT,14.1,8.9,19.3,False,77,13,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,TF-IDF → PhoBERT,11.0,4.2,17.7,False,78,19,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,Bi-LSTM → TF-IDF,8.8,1.9,15.5,False,91,23,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,Bi-LSTM → ViSoBERT,14.9,8.8,20.7,False,89,17,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,Bi-LSTM → PhoBERT,10.8,3.4,18.1,False,90,23,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,Bi-LSTM → LLM,10.7,1.5,19.7,False,94,29,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,ViSoBERT → TF-IDF,5.8,-0.4,11.7,True,45,10,0.0,0.0007,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,ViSoBERT → Bi-LSTM,12.8,6.2,19.1,False,49,7,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,ViSoBERT → PhoBERT,7.5,1.3,13.9,False,44,9,0.0,0.0004,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,ViSoBERT → LLM,7.7,-1.0,16.6,True,48,15,0.0,0.012,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,PhoBERT → TF-IDF,8.1,1.3,14.5,False,79,24,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,PhoBERT → Bi-LSTM,15.1,8.0,21.9,False,83,19,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,PhoBERT → ViSoBERT,13.0,7.0,18.7,False,77,18,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,LLM → TF-IDF,2.9,-4.3,10.2,True,49,23,0.0029,0.6969,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,LLM → Bi-LSTM,11.0,3.5,18.4,False,53,20,0.0001,0.0421,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,LLM → ViSoBERT,9.0,2.8,15.2,False,49,17,0.0001,0.031,378
+"End-to-end, Lazada (378 pairs)",Flat ViSoBERT,LLM → PhoBERT,6.6,-0.2,13.7,True,50,20,0.0004,0.1224,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,Flat LLM,7.7,-2.3,17.5,True,67,26,0.0,0.0082,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,TF-IDF → Bi-LSTM,18.8,11.7,25.5,False,83,11,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,TF-IDF → ViSoBERT,15.7,9.5,21.6,False,79,13,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,TF-IDF → PhoBERT,12.5,5.6,19.1,False,77,16,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,Bi-LSTM → TF-IDF,10.4,3.3,16.9,False,86,16,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,Bi-LSTM → ViSoBERT,16.5,10.3,22.4,False,88,14,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,Bi-LSTM → PhoBERT,12.4,5.6,19.0,False,86,17,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,Bi-LSTM → LLM,12.2,3.0,21.2,False,91,24,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,ViSoBERT → TF-IDF,7.3,0.2,14.0,False,47,10,0.0,0.0003,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,ViSoBERT → Bi-LSTM,14.3,7.1,21.3,False,52,8,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,ViSoBERT → PhoBERT,9.1,2.5,15.6,False,47,10,0.0,0.0003,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,ViSoBERT → LLM,9.3,-0.3,19.0,True,52,17,0.0,0.0094,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,PhoBERT → TF-IDF,9.6,2.6,16.2,False,73,16,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,PhoBERT → Bi-LSTM,16.6,9.6,23.5,False,79,13,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,PhoBERT → ViSoBERT,14.6,8.4,20.6,False,75,14,0.0,0.0,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,LLM → TF-IDF,4.5,-3.1,11.7,True,50,22,0.0013,0.3312,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,LLM → Bi-LSTM,12.5,5.2,19.5,False,55,20,0.0001,0.0203,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,LLM → ViSoBERT,10.6,4.7,16.6,False,52,18,0.0001,0.0183,378
+"End-to-end, Lazada (378 pairs)",Flat PhoBERT,LLM → PhoBERT,8.1,2.1,14.5,False,51,19,0.0002,0.049,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,TF-IDF → Bi-LSTM,11.1,2.5,19.5,False,76,45,0.0062,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,TF-IDF → ViSoBERT,8.0,-1.0,16.6,True,74,49,0.03,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,TF-IDF → PhoBERT,4.8,-4.5,14.0,True,71,51,0.085,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,Bi-LSTM → TF-IDF,2.7,-6.0,11.2,True,74,45,0.01,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,Bi-LSTM → ViSoBERT,8.8,0.3,17.1,False,76,43,0.0032,0.7448,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,Bi-LSTM → PhoBERT,4.7,-4.1,13.5,True,73,45,0.0126,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,Bi-LSTM → LLM,4.6,-3.1,11.7,True,68,42,0.0167,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,ViSoBERT → TF-IDF,-0.3,-9.3,8.8,True,45,49,0.7572,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,ViSoBERT → Bi-LSTM,6.6,-2.7,15.8,True,50,47,0.8392,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,ViSoBERT → PhoBERT,1.4,-8.2,11.1,True,46,50,0.7596,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,ViSoBERT → LLM,1.6,-5.5,8.7,True,40,46,0.59,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,PhoBERT → TF-IDF,1.9,-6.7,10.5,True,71,55,0.1812,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,PhoBERT → Bi-LSTM,9.0,0.5,17.4,False,76,51,0.0328,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,PhoBERT → ViSoBERT,6.9,-1.6,15.3,True,74,54,0.0927,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,LLM → TF-IDF,-3.2,-11.7,4.9,True,15,28,0.066,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,LLM → Bi-LSTM,4.8,-3.5,12.8,True,19,25,0.4514,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,LLM → ViSoBERT,2.9,-5.8,11.2,True,19,26,0.3713,1.0,378
+"End-to-end, Lazada (378 pairs)",Flat LLM,LLM → PhoBERT,0.5,-7.8,8.8,True,16,25,0.211,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,TF-IDF → ViSoBERT,-3.1,-7.5,1.1,True,4,10,0.1796,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,TF-IDF → PhoBERT,-6.3,-11.1,-1.5,False,3,14,0.0127,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,Bi-LSTM → TF-IDF,-8.4,-13.5,-3.6,False,36,38,0.9076,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,Bi-LSTM → ViSoBERT,-2.3,-7.1,2.5,True,38,36,0.9076,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,Bi-LSTM → PhoBERT,-6.5,-11.7,-1.1,False,37,40,0.8199,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,Bi-LSTM → LLM,-6.6,-13.7,1.1,True,40,45,0.6646,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,ViSoBERT → TF-IDF,-11.5,-17.2,-5.7,False,27,62,0.0003,0.0765,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,ViSoBERT → Bi-LSTM,-4.5,-8.4,-0.8,False,25,53,0.002,0.5017,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,ViSoBERT → PhoBERT,-9.7,-15.6,-3.4,False,28,63,0.0003,0.0892,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,ViSoBERT → LLM,-9.5,-17.4,-1.4,False,31,68,0.0003,0.0738,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,PhoBERT → TF-IDF,-9.2,-14.7,-3.7,False,43,58,0.1633,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,PhoBERT → Bi-LSTM,-2.2,-5.9,1.5,True,41,47,0.5943,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,PhoBERT → ViSoBERT,-4.2,-9.3,0.9,True,44,55,0.3149,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,LLM → TF-IDF,-14.3,-21.1,-7.4,False,31,75,0.0,0.0075,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,LLM → Bi-LSTM,-6.3,-11.3,-1.3,False,29,66,0.0002,0.0544,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,LLM → ViSoBERT,-8.2,-14.5,-1.8,False,32,70,0.0002,0.0619,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → Bi-LSTM,LLM → PhoBERT,-10.7,-17.3,-3.5,False,32,72,0.0001,0.0333,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → ViSoBERT,TF-IDF → PhoBERT,-3.2,-7.5,1.1,True,2,7,0.1797,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → ViSoBERT,Bi-LSTM → TF-IDF,-5.3,-10.4,-0.6,False,38,34,0.7239,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → ViSoBERT,Bi-LSTM → ViSoBERT,0.8,-2.7,4.3,True,36,28,0.3817,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → ViSoBERT,Bi-LSTM → PhoBERT,-3.3,-8.7,2.2,True,38,35,0.8151,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → ViSoBERT,Bi-LSTM → LLM,-3.4,-11.2,4.5,True,43,42,1.0,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → ViSoBERT,ViSoBERT → TF-IDF,-8.3,-13.5,-3.2,False,29,58,0.0025,0.5951,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → ViSoBERT,ViSoBERT → Bi-LSTM,-1.4,-6.6,3.9,True,33,55,0.0246,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → ViSoBERT,ViSoBERT → PhoBERT,-6.6,-11.8,-1.2,False,28,57,0.0022,0.5356,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → ViSoBERT,ViSoBERT → LLM,-6.4,-14.2,1.9,True,33,64,0.0022,0.5271,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → ViSoBERT,PhoBERT → TF-IDF,-6.1,-11.2,-1.1,False,44,53,0.4168,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → ViSoBERT,PhoBERT → Bi-LSTM,1.0,-4.3,6.3,True,50,50,1.0,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → ViSoBERT,PhoBERT → ViSoBERT,-1.1,-5.0,2.7,True,42,47,0.6718,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → ViSoBERT,LLM → TF-IDF,-11.2,-17.3,-4.8,False,34,72,0.0003,0.0817,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → ViSoBERT,LLM → Bi-LSTM,-3.2,-9.2,3.1,True,38,69,0.0035,0.8117,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → ViSoBERT,LLM → ViSoBERT,-5.1,-10.2,0.3,True,34,66,0.0018,0.4457,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → ViSoBERT,LLM → PhoBERT,-7.5,-13.8,-0.7,False,36,70,0.0012,0.3212,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → PhoBERT,Bi-LSTM → TF-IDF,-2.1,-7.9,3.4,True,42,33,0.3557,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → PhoBERT,Bi-LSTM → ViSoBERT,4.0,-1.6,9.4,True,43,30,0.1597,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → PhoBERT,Bi-LSTM → PhoBERT,-0.2,-4.3,3.7,True,37,29,0.3891,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → PhoBERT,Bi-LSTM → LLM,-0.3,-7.6,7.2,True,44,38,0.5811,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → PhoBERT,ViSoBERT → TF-IDF,-5.2,-11.5,1.2,True,34,58,0.016,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → PhoBERT,ViSoBERT → Bi-LSTM,1.8,-4.4,7.9,True,39,56,0.1002,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → PhoBERT,ViSoBERT → PhoBERT,-3.4,-8.1,1.6,True,29,53,0.0106,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → PhoBERT,ViSoBERT → LLM,-3.2,-11.4,5.3,True,36,62,0.0112,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → PhoBERT,PhoBERT → TF-IDF,-2.9,-9.1,3.3,True,48,52,0.7644,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → PhoBERT,PhoBERT → Bi-LSTM,4.1,-2.1,10.3,True,55,50,0.6965,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → PhoBERT,PhoBERT → ViSoBERT,2.1,-3.8,8.0,True,49,49,1.0,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → PhoBERT,LLM → TF-IDF,-8.0,-15.4,-0.5,False,39,72,0.0022,0.5439,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → PhoBERT,LLM → Bi-LSTM,0.0,-7.0,6.9,True,43,69,0.0178,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → PhoBERT,LLM → ViSoBERT,-1.9,-8.8,5.1,True,41,68,0.0124,1.0,378
+"End-to-end, Lazada (378 pairs)",TF-IDF → PhoBERT,LLM → PhoBERT,-4.4,-10.8,2.5,True,38,67,0.006,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → TF-IDF,Bi-LSTM → ViSoBERT,6.1,2.6,10.1,False,6,2,0.2891,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → TF-IDF,Bi-LSTM → PhoBERT,2.0,-2.4,6.7,True,5,6,1.0,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → TF-IDF,Bi-LSTM → LLM,1.9,-5.8,9.7,True,10,13,0.6776,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → TF-IDF,ViSoBERT → TF-IDF,-3.0,-7.1,1.5,True,26,59,0.0004,0.1233,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → TF-IDF,ViSoBERT → Bi-LSTM,4.0,-1.7,9.7,True,33,59,0.0088,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → TF-IDF,ViSoBERT → PhoBERT,-1.3,-7.4,5.3,True,30,63,0.0008,0.2163,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → TF-IDF,ViSoBERT → LLM,-1.1,-10.0,8.2,True,35,70,0.0008,0.2185,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → TF-IDF,PhoBERT → TF-IDF,-0.8,-4.0,2.7,True,39,52,0.2082,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → TF-IDF,PhoBERT → Bi-LSTM,6.3,1.1,11.6,False,49,53,0.7666,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → TF-IDF,PhoBERT → ViSoBERT,4.2,-0.3,9.0,True,44,53,0.4168,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → TF-IDF,LLM → TF-IDF,-5.9,-10.9,-0.6,False,30,72,0.0,0.0124,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → TF-IDF,LLM → Bi-LSTM,2.1,-4.1,8.7,True,37,72,0.001,0.2706,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → TF-IDF,LLM → ViSoBERT,0.2,-5.6,6.4,True,34,70,0.0005,0.1448,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → TF-IDF,LLM → PhoBERT,-2.2,-9.0,4.9,True,35,73,0.0003,0.0925,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → ViSoBERT,Bi-LSTM → PhoBERT,-4.1,-8.2,-0.1,False,2,7,0.1797,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → ViSoBERT,Bi-LSTM → LLM,-4.3,-11.4,3.1,True,8,15,0.21,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → ViSoBERT,ViSoBERT → TF-IDF,-9.1,-14.1,-4.2,False,25,62,0.0001,0.028,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → ViSoBERT,ViSoBERT → Bi-LSTM,-2.2,-7.2,2.9,True,29,59,0.0018,0.4524,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → ViSoBERT,ViSoBERT → PhoBERT,-7.4,-12.5,-1.9,False,25,62,0.0001,0.028,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → ViSoBERT,ViSoBERT → LLM,-7.2,-15.4,1.5,True,31,70,0.0001,0.0392,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → ViSoBERT,PhoBERT → TF-IDF,-6.9,-11.5,-2.4,False,40,57,0.1038,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → ViSoBERT,PhoBERT → Bi-LSTM,0.2,-4.5,4.8,True,46,54,0.4841,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → ViSoBERT,PhoBERT → ViSoBERT,-1.9,-5.0,1.2,True,38,51,0.2031,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → ViSoBERT,LLM → TF-IDF,-12.0,-17.9,-5.9,False,30,76,0.0,0.003,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → ViSoBERT,LLM → Bi-LSTM,-4.0,-9.8,1.9,True,34,73,0.0002,0.0601,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → ViSoBERT,LLM → ViSoBERT,-5.9,-10.8,-0.9,False,30,70,0.0001,0.0244,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → ViSoBERT,LLM → PhoBERT,-8.3,-14.4,-1.8,False,32,74,0.0001,0.0174,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → PhoBERT,Bi-LSTM → LLM,-0.1,-6.8,6.8,True,8,10,0.8145,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → PhoBERT,ViSoBERT → TF-IDF,-5.0,-11.3,1.1,True,31,63,0.0013,0.3254,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → PhoBERT,ViSoBERT → Bi-LSTM,2.0,-3.9,7.7,True,35,60,0.0134,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → PhoBERT,ViSoBERT → PhoBERT,-3.3,-8.1,2.0,True,27,59,0.0007,0.1976,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → PhoBERT,ViSoBERT → LLM,-3.1,-11.8,6.0,True,35,69,0.0011,0.2882,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → PhoBERT,PhoBERT → TF-IDF,-2.7,-8.6,2.9,True,45,57,0.276,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → PhoBERT,PhoBERT → Bi-LSTM,4.3,-1.2,9.8,True,51,54,0.8454,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → PhoBERT,PhoBERT → ViSoBERT,2.2,-3.0,7.4,True,45,53,0.4797,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → PhoBERT,LLM → TF-IDF,-7.9,-15.2,-0.6,False,36,77,0.0001,0.0426,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → PhoBERT,LLM → Bi-LSTM,0.2,-6.5,6.8,True,39,73,0.0017,0.4254,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → PhoBERT,LLM → ViSoBERT,-1.8,-8.3,4.8,True,37,72,0.001,0.2706,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → PhoBERT,LLM → PhoBERT,-4.2,-10.4,2.3,True,34,71,0.0004,0.1102,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → LLM,ViSoBERT → TF-IDF,-4.9,-14.0,4.1,True,38,68,0.0046,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → LLM,ViSoBERT → Bi-LSTM,2.1,-6.6,10.4,True,41,64,0.0313,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → LLM,ViSoBERT → PhoBERT,-3.1,-11.8,5.7,True,37,67,0.0042,0.9593,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → LLM,ViSoBERT → LLM,-3.0,-8.9,3.5,True,28,60,0.0008,0.2243,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → LLM,PhoBERT → TF-IDF,-2.6,-11.1,5.6,True,52,62,0.3994,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → LLM,PhoBERT → Bi-LSTM,4.4,-3.5,12.0,True,57,58,1.0,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → LLM,PhoBERT → ViSoBERT,2.4,-5.7,10.0,True,53,59,0.6368,1.0,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → LLM,LLM → TF-IDF,-7.8,-17.1,1.7,True,40,79,0.0004,0.1233,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → LLM,LLM → Bi-LSTM,0.3,-8.3,8.6,True,42,74,0.0038,0.8718,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → LLM,LLM → ViSoBERT,-1.6,-10.4,7.1,True,42,75,0.0029,0.6969,378
+"End-to-end, Lazada (378 pairs)",Bi-LSTM → LLM,LLM → PhoBERT,-4.1,-12.9,5.0,True,40,75,0.0014,0.3589,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → TF-IDF,ViSoBERT → Bi-LSTM,7.0,2.2,12.1,False,9,2,0.0654,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → TF-IDF,ViSoBERT → PhoBERT,1.7,-3.4,7.2,True,5,5,1.0,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → TF-IDF,ViSoBERT → LLM,1.9,-6.3,10.4,True,9,11,0.8238,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → TF-IDF,PhoBERT → TF-IDF,2.3,-1.8,6.3,True,55,35,0.0446,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → TF-IDF,PhoBERT → Bi-LSTM,9.3,3.7,15.0,False,63,34,0.0042,0.9593,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → TF-IDF,PhoBERT → ViSoBERT,7.2,2.1,12.2,False,59,35,0.0172,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → TF-IDF,LLM → TF-IDF,-2.9,-8.2,2.5,True,32,41,0.3492,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → TF-IDF,LLM → Bi-LSTM,5.2,-1.9,12.2,True,40,42,0.9122,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → TF-IDF,LLM → ViSoBERT,3.2,-3.0,9.6,True,36,39,0.8176,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → TF-IDF,LLM → PhoBERT,0.8,-6.4,8.2,True,37,42,0.653,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → Bi-LSTM,ViSoBERT → PhoBERT,-5.2,-10.1,-0.4,False,3,10,0.0923,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → Bi-LSTM,ViSoBERT → LLM,-5.0,-13.2,3.4,True,7,16,0.0931,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → Bi-LSTM,PhoBERT → TF-IDF,-4.7,-10.4,1.0,True,56,43,0.2276,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → Bi-LSTM,PhoBERT → Bi-LSTM,2.3,-1.2,5.8,True,54,32,0.023,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → Bi-LSTM,PhoBERT → ViSoBERT,0.3,-4.8,5.3,True,56,39,0.1002,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → Bi-LSTM,LLM → TF-IDF,-9.8,-17.0,-2.3,False,33,49,0.097,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → Bi-LSTM,LLM → Bi-LSTM,-1.8,-7.0,3.4,True,31,40,0.3425,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → Bi-LSTM,LLM → ViSoBERT,-3.7,-10.2,2.9,True,33,43,0.3019,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → Bi-LSTM,LLM → PhoBERT,-6.2,-13.2,1.2,True,34,46,0.2185,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → PhoBERT,ViSoBERT → LLM,0.2,-7.7,8.5,True,8,10,0.8145,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → PhoBERT,PhoBERT → TF-IDF,0.5,-5.9,6.8,True,59,39,0.0544,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → PhoBERT,PhoBERT → Bi-LSTM,7.6,1.4,13.5,False,64,35,0.0046,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → PhoBERT,PhoBERT → ViSoBERT,5.5,-0.1,11.0,True,59,35,0.0172,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → PhoBERT,LLM → TF-IDF,-4.6,-12.5,3.0,True,37,46,0.38,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → PhoBERT,LLM → Bi-LSTM,3.4,-4.0,10.4,True,41,43,0.9132,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → PhoBERT,LLM → ViSoBERT,1.5,-5.5,8.3,True,38,41,0.8221,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → PhoBERT,LLM → PhoBERT,-0.9,-7.3,5.7,True,36,41,0.6488,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → LLM,PhoBERT → TF-IDF,0.3,-8.8,9.2,True,66,44,0.0448,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → LLM,PhoBERT → Bi-LSTM,7.4,-1.4,15.8,True,70,39,0.0039,0.8787,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → LLM,PhoBERT → ViSoBERT,5.3,-3.4,13.7,True,67,41,0.0157,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → LLM,LLM → TF-IDF,-4.8,-14.4,4.7,True,40,47,0.5203,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → LLM,LLM → Bi-LSTM,3.2,-6.4,12.3,True,44,44,1.0,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → LLM,LLM → ViSoBERT,1.3,-8.4,10.8,True,43,44,1.0,1.0,378
+"End-to-end, Lazada (378 pairs)",ViSoBERT → LLM,LLM → PhoBERT,-1.1,-10.9,8.5,True,42,45,0.8304,1.0,378
+"End-to-end, Lazada (378 pairs)",PhoBERT → TF-IDF,PhoBERT → Bi-LSTM,7.0,2.6,11.7,False,11,2,0.0225,1.0,378
+"End-to-end, Lazada (378 pairs)",PhoBERT → TF-IDF,PhoBERT → ViSoBERT,5.0,1.6,8.8,False,6,2,0.2891,1.0,378
+"End-to-end, Lazada (378 pairs)",PhoBERT → TF-IDF,LLM → TF-IDF,-5.1,-10.0,0.1,True,39,68,0.0065,1.0,378
+"End-to-end, Lazada (378 pairs)",PhoBERT → TF-IDF,LLM → Bi-LSTM,2.9,-3.4,9.4,True,47,69,0.0507,1.0,378
+"End-to-end, Lazada (378 pairs)",PhoBERT → TF-IDF,LLM → ViSoBERT,1.0,-5.0,7.2,True,44,67,0.0363,1.0,378
+"End-to-end, Lazada (378 pairs)",PhoBERT → TF-IDF,LLM → PhoBERT,-1.5,-8.1,5.7,True,44,69,0.0235,1.0,378
+"End-to-end, Lazada (378 pairs)",PhoBERT → Bi-LSTM,PhoBERT → ViSoBERT,-2.1,-6.0,1.7,True,3,8,0.2266,1.0,378
+"End-to-end, Lazada (378 pairs)",PhoBERT → Bi-LSTM,LLM → TF-IDF,-12.2,-18.9,-5.2,False,38,76,0.0005,0.1297,378
+"End-to-end, Lazada (378 pairs)",PhoBERT → Bi-LSTM,LLM → Bi-LSTM,-4.1,-8.8,0.6,True,36,67,0.0029,0.6969,378
+"End-to-end, Lazada (378 pairs)",PhoBERT → Bi-LSTM,LLM → ViSoBERT,-6.1,-12.4,0.3,True,39,71,0.0029,0.6969,378
+"End-to-end, Lazada (378 pairs)",PhoBERT → Bi-LSTM,LLM → PhoBERT,-8.5,-15.1,-1.6,False,39,73,0.0017,0.4254,378
+"End-to-end, Lazada (378 pairs)",PhoBERT → ViSoBERT,LLM → TF-IDF,-10.1,-16.2,-3.8,False,40,73,0.0025,0.5919,378
+"End-to-end, Lazada (378 pairs)",PhoBERT → ViSoBERT,LLM → Bi-LSTM,-2.1,-8.0,3.9,True,44,70,0.0188,1.0,378
+"End-to-end, Lazada (378 pairs)",PhoBERT → ViSoBERT,LLM → ViSoBERT,-4.0,-9.0,1.2,True,40,67,0.0116,1.0,378
+"End-to-end, Lazada (378 pairs)",PhoBERT → ViSoBERT,LLM → PhoBERT,-6.4,-12.6,0.1,True,42,71,0.0081,1.0,378
+"End-to-end, Lazada (378 pairs)",LLM → TF-IDF,LLM → Bi-LSTM,8.0,2.6,13.7,False,9,2,0.0654,1.0,378
+"End-to-end, Lazada (378 pairs)",LLM → TF-IDF,LLM → ViSoBERT,6.1,1.8,10.9,False,6,0,0.0312,1.0,378
+"End-to-end, Lazada (378 pairs)",LLM → TF-IDF,LLM → PhoBERT,3.7,-1.7,9.6,True,6,2,0.2891,1.0,378
+"End-to-end, Lazada (378 pairs)",LLM → Bi-LSTM,LLM → ViSoBERT,-1.9,-6.5,2.3,True,3,4,1.0,1.0,378
+"End-to-end, Lazada (378 pairs)",LLM → Bi-LSTM,LLM → PhoBERT,-4.4,-9.2,0.5,True,3,6,0.5078,1.0,378
+"End-to-end, Lazada (378 pairs)",LLM → ViSoBERT,LLM → PhoBERT,-2.4,-6.4,1.9,True,2,4,0.6875,1.0,378

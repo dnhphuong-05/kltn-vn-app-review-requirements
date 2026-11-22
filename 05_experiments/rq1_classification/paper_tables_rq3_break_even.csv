@@ -1,0 +1,361 @@
+﻿Deployment,GPU USD per hour,USD per label,A (trained or routed),B (LLM),Break-even reviews per month,Reading
+batch,0.35,0.02,Flat TF-IDF,Cascade LLM,11916.037,A cheaper above this volume
+batch,0.35,0.02,Flat TF-IDF,Flat LLM,9230.631,A cheaper above this volume
+batch,0.35,0.02,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.02,Flat ViSoBERT,Cascade LLM,11940.871,A cheaper above this volume
+batch,0.35,0.02,Flat ViSoBERT,Flat LLM,9248.542,A cheaper above this volume
+batch,0.35,0.02,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.02,Flat PhoBERT,Cascade LLM,11946.427,A cheaper above this volume
+batch,0.35,0.02,Flat PhoBERT,Flat LLM,9252.235,A cheaper above this volume
+batch,0.35,0.02,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.02,Cascade PhoBERT,Cascade LLM,11949.092,A cheaper above this volume
+batch,0.35,0.02,Cascade PhoBERT,Flat LLM,9253.973,A cheaper above this volume
+batch,0.35,0.02,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.02,PhoBERT ⇢ LLM (θmax),Cascade LLM,14999.688,A cheaper above this volume
+batch,0.35,0.02,PhoBERT ⇢ LLM (θmax),Flat LLM,10988.991,A cheaper above this volume
+batch,0.35,0.02,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.02,PhoBERT ⇢ LLM (θ98),Cascade LLM,14513.539,A cheaper above this volume
+batch,0.35,0.02,PhoBERT ⇢ LLM (θ98),Flat LLM,10725.136,A cheaper above this volume
+batch,0.35,0.02,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.05,Flat TF-IDF,Cascade LLM,29877.485,A cheaper above this volume
+batch,0.35,0.05,Flat TF-IDF,Flat LLM,23163.995,A cheaper above this volume
+batch,0.35,0.05,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.05,Flat ViSoBERT,Cascade LLM,29913.976,A cheaper above this volume
+batch,0.35,0.05,Flat ViSoBERT,Flat LLM,23188.919,A cheaper above this volume
+batch,0.35,0.05,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.05,Flat PhoBERT,Cascade LLM,29924.829,A cheaper above this volume
+batch,0.35,0.05,Flat PhoBERT,Flat LLM,23195.799,A cheaper above this volume
+batch,0.35,0.05,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.05,Cascade PhoBERT,Cascade LLM,29930.324,A cheaper above this volume
+batch,0.35,0.05,Cascade PhoBERT,Flat LLM,23199.239,A cheaper above this volume
+batch,0.35,0.05,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.05,PhoBERT ⇢ LLM (θmax),Cascade LLM,37555.662,A cheaper above this volume
+batch,0.35,0.05,PhoBERT ⇢ LLM (θmax),Flat LLM,27537.19,A cheaper above this volume
+batch,0.35,0.05,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.05,PhoBERT ⇢ LLM (θ98),Cascade LLM,36340.658,A cheaper above this volume
+batch,0.35,0.05,PhoBERT ⇢ LLM (θ98),Flat LLM,26877.629,A cheaper above this volume
+batch,0.35,0.05,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.1,Flat TF-IDF,Cascade LLM,59813.233,A cheaper above this volume
+batch,0.35,0.1,Flat TF-IDF,Flat LLM,46386.269,A cheaper above this volume
+batch,0.35,0.1,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.1,Flat ViSoBERT,Cascade LLM,59869.152,A cheaper above this volume
+batch,0.35,0.1,Flat ViSoBERT,Flat LLM,46422.882,A cheaper above this volume
+batch,0.35,0.1,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.1,Flat PhoBERT,Cascade LLM,59888.832,A cheaper above this volume
+batch,0.35,0.1,Flat PhoBERT,Flat LLM,46435.072,A cheaper above this volume
+batch,0.35,0.1,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.1,Cascade PhoBERT,Cascade LLM,59899.046,A cheaper above this volume
+batch,0.35,0.1,Cascade PhoBERT,Flat LLM,46441.35,A cheaper above this volume
+batch,0.35,0.1,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.1,PhoBERT ⇢ LLM (θmax),Cascade LLM,75148.951,A cheaper above this volume
+batch,0.35,0.1,PhoBERT ⇢ LLM (θmax),Flat LLM,55117.523,A cheaper above this volume
+batch,0.35,0.1,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.1,PhoBERT ⇢ LLM (θ98),Cascade LLM,72719.191,A cheaper above this volume
+batch,0.35,0.1,PhoBERT ⇢ LLM (θ98),Flat LLM,53798.452,A cheaper above this volume
+batch,0.35,0.1,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.2,Flat TF-IDF,Cascade LLM,119684.729,A cheaper above this volume
+batch,0.35,0.2,Flat TF-IDF,Flat LLM,92830.816,A cheaper above this volume
+batch,0.35,0.2,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.2,Flat ViSoBERT,Cascade LLM,119779.502,A cheaper above this volume
+batch,0.35,0.2,Flat ViSoBERT,Flat LLM,92890.807,A cheaper above this volume
+batch,0.35,0.2,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.2,Flat PhoBERT,Cascade LLM,119816.838,A cheaper above this volume
+batch,0.35,0.2,Flat PhoBERT,Flat LLM,92913.618,A cheaper above this volume
+batch,0.35,0.2,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.2,Cascade PhoBERT,Cascade LLM,119836.489,A cheaper above this volume
+batch,0.35,0.2,Cascade PhoBERT,Flat LLM,92925.572,A cheaper above this volume
+batch,0.35,0.2,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.2,PhoBERT ⇢ LLM (θmax),Cascade LLM,150335.529,A cheaper above this volume
+batch,0.35,0.2,PhoBERT ⇢ LLM (θmax),Flat LLM,110278.189,A cheaper above this volume
+batch,0.35,0.2,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.2,PhoBERT ⇢ LLM (θ98),Cascade LLM,145476.255,A cheaper above this volume
+batch,0.35,0.2,PhoBERT ⇢ LLM (θ98),Flat LLM,107640.097,A cheaper above this volume
+batch,0.35,0.2,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.5,Flat TF-IDF,Cascade LLM,299299.217,A cheaper above this volume
+batch,0.35,0.5,Flat TF-IDF,Flat LLM,232164.456,A cheaper above this volume
+batch,0.35,0.5,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.5,Flat ViSoBERT,Cascade LLM,299510.555,A cheaper above this volume
+batch,0.35,0.5,Flat ViSoBERT,Flat LLM,232294.582,A cheaper above this volume
+batch,0.35,0.5,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.5,Flat PhoBERT,Cascade LLM,299600.857,A cheaper above this volume
+batch,0.35,0.5,Flat PhoBERT,Flat LLM,232349.256,A cheaper above this volume
+batch,0.35,0.5,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.5,Cascade PhoBERT,Cascade LLM,299648.817,A cheaper above this volume
+batch,0.35,0.5,Cascade PhoBERT,Flat LLM,232378.238,A cheaper above this volume
+batch,0.35,0.5,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.5,PhoBERT ⇢ LLM (θmax),Cascade LLM,375895.265,A cheaper above this volume
+batch,0.35,0.5,PhoBERT ⇢ LLM (θmax),Flat LLM,275760.187,A cheaper above this volume
+batch,0.35,0.5,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,0.0,A always cheaper
+batch,0.35,0.5,PhoBERT ⇢ LLM (θ98),Cascade LLM,363747.449,A cheaper above this volume
+batch,0.35,0.5,PhoBERT ⇢ LLM (θ98),Flat LLM,269165.031,A cheaper above this volume
+batch,0.35,0.5,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.02,Flat TF-IDF,Cascade LLM,11916.037,A cheaper above this volume
+batch,1.0,0.02,Flat TF-IDF,Flat LLM,9230.631,A cheaper above this volume
+batch,1.0,0.02,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.02,Flat ViSoBERT,Cascade LLM,11987.381,A cheaper above this volume
+batch,1.0,0.02,Flat ViSoBERT,Flat LLM,9282.057,A cheaper above this volume
+batch,1.0,0.02,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.02,Flat PhoBERT,Cascade LLM,12003.322,A cheaper above this volume
+batch,1.0,0.02,Flat PhoBERT,Flat LLM,9292.646,A cheaper above this volume
+batch,1.0,0.02,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.02,Cascade PhoBERT,Cascade LLM,12010.976,A cheaper above this volume
+batch,1.0,0.02,Cascade PhoBERT,Flat LLM,9297.632,A cheaper above this volume
+batch,1.0,0.02,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.02,PhoBERT ⇢ LLM (θmax),Cascade LLM,16871.413,A cheaper above this volume
+batch,1.0,0.02,PhoBERT ⇢ LLM (θmax),Flat LLM,11973.031,A cheaper above this volume
+batch,1.0,0.02,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,1.052,A cheaper above this volume
+batch,1.0,0.02,PhoBERT ⇢ LLM (θ98),Cascade LLM,16019.906,A cheaper above this volume
+batch,1.0,0.02,PhoBERT ⇢ LLM (θ98),Flat LLM,11536.9,A cheaper above this volume
+batch,1.0,0.02,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.368,A cheaper above this volume
+batch,1.0,0.05,Flat TF-IDF,Cascade LLM,29877.485,A cheaper above this volume
+batch,1.0,0.05,Flat TF-IDF,Flat LLM,23163.995,A cheaper above this volume
+batch,1.0,0.05,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.05,Flat ViSoBERT,Cascade LLM,29982.428,A cheaper above this volume
+batch,1.0,0.05,Flat ViSoBERT,Flat LLM,23235.631,A cheaper above this volume
+batch,1.0,0.05,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.05,Flat PhoBERT,Cascade LLM,30013.548,A cheaper above this volume
+batch,1.0,0.05,Flat PhoBERT,Flat LLM,23255.345,A cheaper above this volume
+batch,1.0,0.05,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.05,Cascade PhoBERT,Cascade LLM,30029.322,A cheaper above this volume
+batch,1.0,0.05,Cascade PhoBERT,Flat LLM,23265.211,A cheaper above this volume
+batch,1.0,0.05,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.05,PhoBERT ⇢ LLM (θmax),Cascade LLM,42166.518,A cheaper above this volume
+batch,1.0,0.05,PhoBERT ⇢ LLM (θmax),Flat LLM,29949.357,A cheaper above this volume
+batch,1.0,0.05,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,1.052,A cheaper above this volume
+batch,1.0,0.05,PhoBERT ⇢ LLM (θ98),Cascade LLM,40040.769,A cheaper above this volume
+batch,1.0,0.05,PhoBERT ⇢ LLM (θ98),Flat LLM,28860.159,A cheaper above this volume
+batch,1.0,0.05,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.368,A cheaper above this volume
+batch,1.0,0.1,Flat TF-IDF,Cascade LLM,59813.233,A cheaper above this volume
+batch,1.0,0.1,Flat TF-IDF,Flat LLM,46386.269,A cheaper above this volume
+batch,1.0,0.1,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.1,Flat ViSoBERT,Cascade LLM,59974.175,A cheaper above this volume
+batch,1.0,0.1,Flat ViSoBERT,Flat LLM,46491.589,A cheaper above this volume
+batch,1.0,0.1,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.1,Flat PhoBERT,Cascade LLM,60030.592,A cheaper above this volume
+batch,1.0,0.1,Flat PhoBERT,Flat LLM,46526.511,A cheaper above this volume
+batch,1.0,0.1,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.1,Cascade PhoBERT,Cascade LLM,60059.898,A cheaper above this volume
+batch,1.0,0.1,Cascade PhoBERT,Flat LLM,46544.509,A cheaper above this volume
+batch,1.0,0.1,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.1,PhoBERT ⇢ LLM (θmax),Cascade LLM,84325.025,A cheaper above this volume
+batch,1.0,0.1,PhoBERT ⇢ LLM (θmax),Flat LLM,59909.899,A cheaper above this volume
+batch,1.0,0.1,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,1.052,A cheaper above this volume
+batch,1.0,0.1,PhoBERT ⇢ LLM (θ98),Cascade LLM,80075.54,A cheaper above this volume
+batch,1.0,0.1,PhoBERT ⇢ LLM (θ98),Flat LLM,57732.257,A cheaper above this volume
+batch,1.0,0.1,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.368,A cheaper above this volume
+batch,1.0,0.2,Flat TF-IDF,Cascade LLM,119684.729,A cheaper above this volume
+batch,1.0,0.2,Flat TF-IDF,Flat LLM,92830.816,A cheaper above this volume
+batch,1.0,0.2,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.2,Flat ViSoBERT,Cascade LLM,119957.668,A cheaper above this volume
+batch,1.0,0.2,Flat ViSoBERT,Flat LLM,93003.504,A cheaper above this volume
+batch,1.0,0.2,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.2,Flat PhoBERT,Cascade LLM,120064.681,A cheaper above this volume
+batch,1.0,0.2,Flat PhoBERT,Flat LLM,93068.841,A cheaper above this volume
+batch,1.0,0.2,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.2,Cascade PhoBERT,Cascade LLM,120121.052,A cheaper above this volume
+batch,1.0,0.2,Cascade PhoBERT,Flat LLM,93103.105,A cheaper above this volume
+batch,1.0,0.2,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.2,PhoBERT ⇢ LLM (θmax),Cascade LLM,168642.041,A cheaper above this volume
+batch,1.0,0.2,PhoBERT ⇢ LLM (θmax),Flat LLM,119830.984,A cheaper above this volume
+batch,1.0,0.2,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,1.052,A cheaper above this volume
+batch,1.0,0.2,PhoBERT ⇢ LLM (θ98),Cascade LLM,160145.082,A cheaper above this volume
+batch,1.0,0.2,PhoBERT ⇢ LLM (θ98),Flat LLM,115476.454,A cheaper above this volume
+batch,1.0,0.2,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.368,A cheaper above this volume
+batch,1.0,0.5,Flat TF-IDF,Cascade LLM,299299.217,A cheaper above this volume
+batch,1.0,0.5,Flat TF-IDF,Flat LLM,232164.456,A cheaper above this volume
+batch,1.0,0.5,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.5,Flat ViSoBERT,Cascade LLM,299908.146,A cheaper above this volume
+batch,1.0,0.5,Flat ViSoBERT,Flat LLM,232539.248,A cheaper above this volume
+batch,1.0,0.5,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.5,Flat PhoBERT,Cascade LLM,300166.945,A cheaper above this volume
+batch,1.0,0.5,Flat PhoBERT,Flat LLM,232695.832,A cheaper above this volume
+batch,1.0,0.5,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.5,Cascade PhoBERT,Cascade LLM,300304.512,A cheaper above this volume
+batch,1.0,0.5,Cascade PhoBERT,Flat LLM,232778.892,A cheaper above this volume
+batch,1.0,0.5,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+batch,1.0,0.5,PhoBERT ⇢ LLM (θmax),Cascade LLM,421593.087,A cheaper above this volume
+batch,1.0,0.5,PhoBERT ⇢ LLM (θmax),Flat LLM,299594.239,A cheaper above this volume
+batch,1.0,0.5,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,1.052,A cheaper above this volume
+batch,1.0,0.5,PhoBERT ⇢ LLM (θ98),Cascade LLM,400353.71,A cheaper above this volume
+batch,1.0,0.5,PhoBERT ⇢ LLM (θ98),Flat LLM,288709.045,A cheaper above this volume
+batch,1.0,0.5,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.368,A cheaper above this volume
+endpoint,0.35,0.02,Flat TF-IDF,Cascade LLM,188743.428,A cheaper above this volume
+endpoint,0.35,0.02,Flat TF-IDF,Flat LLM,146402.468,A cheaper above this volume
+endpoint,0.35,0.02,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.02,Flat ViSoBERT,Cascade LLM,1249725.413,A cheaper above this volume
+endpoint,0.35,0.02,Flat ViSoBERT,Flat LLM,969447.074,A cheaper above this volume
+endpoint,0.35,0.02,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.02,Flat PhoBERT,Cascade LLM,1249727.448,A cheaper above this volume
+endpoint,0.35,0.02,Flat PhoBERT,Flat LLM,969448.653,A cheaper above this volume
+endpoint,0.35,0.02,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.02,Cascade PhoBERT,Cascade LLM,1249728.231,A cheaper above this volume
+endpoint,0.35,0.02,Cascade PhoBERT,Flat LLM,969449.259,A cheaper above this volume
+endpoint,0.35,0.02,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.02,PhoBERT ⇢ LLM (θmax),Cascade LLM,1482961.162,A cheaper above this volume
+endpoint,0.35,0.02,PhoBERT ⇢ LLM (θmax),Flat LLM,1104163.746,A cheaper above this volume
+endpoint,0.35,0.02,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.02,PhoBERT ⇢ LLM (θ98),Cascade LLM,1447531.945,A cheaper above this volume
+endpoint,0.35,0.02,PhoBERT ⇢ LLM (θ98),Flat LLM,1084401.382,A cheaper above this volume
+endpoint,0.35,0.02,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.05,Flat TF-IDF,Cascade LLM,206704.741,A cheaper above this volume
+endpoint,0.35,0.05,Flat TF-IDF,Flat LLM,160335.75,A cheaper above this volume
+endpoint,0.35,0.05,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.05,Flat ViSoBERT,Cascade LLM,1267686.725,A cheaper above this volume
+endpoint,0.35,0.05,Flat ViSoBERT,Flat LLM,983380.356,A cheaper above this volume
+endpoint,0.35,0.05,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.05,Flat PhoBERT,Cascade LLM,1267688.76,A cheaper above this volume
+endpoint,0.35,0.05,Flat PhoBERT,Flat LLM,983381.934,A cheaper above this volume
+endpoint,0.35,0.05,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.05,Cascade PhoBERT,Cascade LLM,1267689.543,A cheaper above this volume
+endpoint,0.35,0.05,Cascade PhoBERT,Flat LLM,983382.541,A cheaper above this volume
+endpoint,0.35,0.05,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.05,PhoBERT ⇢ LLM (θmax),Cascade LLM,1504274.395,A cheaper above this volume
+endpoint,0.35,0.05,PhoBERT ⇢ LLM (θmax),Flat LLM,1120033.088,A cheaper above this volume
+endpoint,0.35,0.05,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.05,PhoBERT ⇢ LLM (θ98),Cascade LLM,1468336.006,A cheaper above this volume
+endpoint,0.35,0.05,PhoBERT ⇢ LLM (θ98),Flat LLM,1099986.709,A cheaper above this volume
+endpoint,0.35,0.05,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.1,Flat TF-IDF,Cascade LLM,236640.261,A cheaper above this volume
+endpoint,0.35,0.1,Flat TF-IDF,Flat LLM,183557.886,A cheaper above this volume
+endpoint,0.35,0.1,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.1,Flat ViSoBERT,Cascade LLM,1297622.245,A cheaper above this volume
+endpoint,0.35,0.1,Flat ViSoBERT,Flat LLM,1006602.492,A cheaper above this volume
+endpoint,0.35,0.1,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.1,Flat PhoBERT,Cascade LLM,1297624.28,A cheaper above this volume
+endpoint,0.35,0.1,Flat PhoBERT,Flat LLM,1006604.071,A cheaper above this volume
+endpoint,0.35,0.1,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.1,Cascade PhoBERT,Cascade LLM,1297625.063,A cheaper above this volume
+endpoint,0.35,0.1,Cascade PhoBERT,Flat LLM,1006604.678,A cheaper above this volume
+endpoint,0.35,0.1,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.1,PhoBERT ⇢ LLM (θmax),Cascade LLM,1539796.451,A cheaper above this volume
+endpoint,0.35,0.1,PhoBERT ⇢ LLM (θmax),Flat LLM,1146481.99,A cheaper above this volume
+endpoint,0.35,0.1,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.1,PhoBERT ⇢ LLM (θ98),Cascade LLM,1503009.443,A cheaper above this volume
+endpoint,0.35,0.1,PhoBERT ⇢ LLM (θ98),Flat LLM,1125962.253,A cheaper above this volume
+endpoint,0.35,0.1,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.2,Flat TF-IDF,Cascade LLM,296511.301,A cheaper above this volume
+endpoint,0.35,0.2,Flat TF-IDF,Flat LLM,230002.159,A cheaper above this volume
+endpoint,0.35,0.2,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.2,Flat ViSoBERT,Cascade LLM,1357493.286,A cheaper above this volume
+endpoint,0.35,0.2,Flat ViSoBERT,Flat LLM,1053046.765,A cheaper above this volume
+endpoint,0.35,0.2,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.2,Flat PhoBERT,Cascade LLM,1357495.321,A cheaper above this volume
+endpoint,0.35,0.2,Flat PhoBERT,Flat LLM,1053048.344,A cheaper above this volume
+endpoint,0.35,0.2,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.2,Cascade PhoBERT,Cascade LLM,1357496.103,A cheaper above this volume
+endpoint,0.35,0.2,Cascade PhoBERT,Flat LLM,1053048.951,A cheaper above this volume
+endpoint,0.35,0.2,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.2,PhoBERT ⇢ LLM (θmax),Cascade LLM,1610840.562,A cheaper above this volume
+endpoint,0.35,0.2,PhoBERT ⇢ LLM (θmax),Flat LLM,1199379.795,A cheaper above this volume
+endpoint,0.35,0.2,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.2,PhoBERT ⇢ LLM (θ98),Cascade LLM,1572356.316,A cheaper above this volume
+endpoint,0.35,0.2,PhoBERT ⇢ LLM (θ98),Flat LLM,1177913.341,A cheaper above this volume
+endpoint,0.35,0.2,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.5,Flat TF-IDF,Cascade LLM,476124.422,A cheaper above this volume
+endpoint,0.35,0.5,Flat TF-IDF,Flat LLM,369334.978,A cheaper above this volume
+endpoint,0.35,0.5,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.5,Flat ViSoBERT,Cascade LLM,1537106.407,A cheaper above this volume
+endpoint,0.35,0.5,Flat ViSoBERT,Flat LLM,1192379.583,A cheaper above this volume
+endpoint,0.35,0.5,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.5,Flat PhoBERT,Cascade LLM,1537108.441,A cheaper above this volume
+endpoint,0.35,0.5,Flat PhoBERT,Flat LLM,1192381.162,A cheaper above this volume
+endpoint,0.35,0.5,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.5,Cascade PhoBERT,Cascade LLM,1537109.224,A cheaper above this volume
+endpoint,0.35,0.5,Cascade PhoBERT,Flat LLM,1192381.769,A cheaper above this volume
+endpoint,0.35,0.5,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.5,PhoBERT ⇢ LLM (θmax),Cascade LLM,1823972.895,A cheaper above this volume
+endpoint,0.35,0.5,PhoBERT ⇢ LLM (θmax),Flat LLM,1358073.21,A cheaper above this volume
+endpoint,0.35,0.5,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,0.0,A always cheaper
+endpoint,0.35,0.5,PhoBERT ⇢ LLM (θ98),Cascade LLM,1780396.935,A cheaper above this volume
+endpoint,0.35,0.5,PhoBERT ⇢ LLM (θ98),Flat LLM,1333766.606,A cheaper above this volume
+endpoint,0.35,0.5,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.02,Flat TF-IDF,Cascade LLM,188743.428,A cheaper above this volume
+endpoint,1.0,0.02,Flat TF-IDF,Flat LLM,146402.468,A cheaper above this volume
+endpoint,1.0,0.02,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.02,Flat ViSoBERT,Cascade LLM,3548514.556,A cheaper above this volume
+endpoint,1.0,0.02,Flat ViSoBERT,Flat LLM,2752706.386,A cheaper above this volume
+endpoint,1.0,0.02,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.02,Flat PhoBERT,Cascade LLM,3548520.37,A cheaper above this volume
+endpoint,1.0,0.02,Flat PhoBERT,Flat LLM,2752710.896,A cheaper above this volume
+endpoint,1.0,0.02,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.02,Cascade PhoBERT,Cascade LLM,3548522.606,A cheaper above this volume
+endpoint,1.0,0.02,Cascade PhoBERT,Flat LLM,2752712.63,A cheaper above this volume
+endpoint,1.0,0.02,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.02,PhoBERT ⇢ LLM (θmax),Cascade LLM,4210752.412,A cheaper above this volume
+endpoint,1.0,0.02,PhoBERT ⇢ LLM (θmax),Flat LLM,3135214.138,A cheaper above this volume
+endpoint,1.0,0.02,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,2.744,A cheaper above this volume
+endpoint,1.0,0.02,PhoBERT ⇢ LLM (θ98),Cascade LLM,4110156.479,A cheaper above this volume
+endpoint,1.0,0.02,PhoBERT ⇢ LLM (θ98),Flat LLM,3079101.879,A cheaper above this volume
+endpoint,1.0,0.02,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.952,A cheaper above this volume
+endpoint,1.0,0.05,Flat TF-IDF,Cascade LLM,206704.741,A cheaper above this volume
+endpoint,1.0,0.05,Flat TF-IDF,Flat LLM,160335.75,A cheaper above this volume
+endpoint,1.0,0.05,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.05,Flat ViSoBERT,Cascade LLM,3566475.868,A cheaper above this volume
+endpoint,1.0,0.05,Flat ViSoBERT,Flat LLM,2766639.668,A cheaper above this volume
+endpoint,1.0,0.05,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.05,Flat PhoBERT,Cascade LLM,3566481.682,A cheaper above this volume
+endpoint,1.0,0.05,Flat PhoBERT,Flat LLM,2766644.178,A cheaper above this volume
+endpoint,1.0,0.05,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.05,Cascade PhoBERT,Cascade LLM,3566483.918,A cheaper above this volume
+endpoint,1.0,0.05,Cascade PhoBERT,Flat LLM,2766645.912,A cheaper above this volume
+endpoint,1.0,0.05,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.05,PhoBERT ⇢ LLM (θmax),Cascade LLM,4232065.645,A cheaper above this volume
+endpoint,1.0,0.05,PhoBERT ⇢ LLM (θmax),Flat LLM,3151083.479,A cheaper above this volume
+endpoint,1.0,0.05,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,2.744,A cheaper above this volume
+endpoint,1.0,0.05,PhoBERT ⇢ LLM (θ98),Cascade LLM,4130960.541,A cheaper above this volume
+endpoint,1.0,0.05,PhoBERT ⇢ LLM (θ98),Flat LLM,3094687.205,A cheaper above this volume
+endpoint,1.0,0.05,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.952,A cheaper above this volume
+endpoint,1.0,0.1,Flat TF-IDF,Cascade LLM,236640.261,A cheaper above this volume
+endpoint,1.0,0.1,Flat TF-IDF,Flat LLM,183557.886,A cheaper above this volume
+endpoint,1.0,0.1,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.1,Flat ViSoBERT,Cascade LLM,3596411.388,A cheaper above this volume
+endpoint,1.0,0.1,Flat ViSoBERT,Flat LLM,2789861.804,A cheaper above this volume
+endpoint,1.0,0.1,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.1,Flat PhoBERT,Cascade LLM,3596417.202,A cheaper above this volume
+endpoint,1.0,0.1,Flat PhoBERT,Flat LLM,2789866.315,A cheaper above this volume
+endpoint,1.0,0.1,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.1,Cascade PhoBERT,Cascade LLM,3596419.438,A cheaper above this volume
+endpoint,1.0,0.1,Cascade PhoBERT,Flat LLM,2789868.049,A cheaper above this volume
+endpoint,1.0,0.1,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.1,PhoBERT ⇢ LLM (θmax),Cascade LLM,4267587.701,A cheaper above this volume
+endpoint,1.0,0.1,PhoBERT ⇢ LLM (θmax),Flat LLM,3177532.382,A cheaper above this volume
+endpoint,1.0,0.1,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,2.744,A cheaper above this volume
+endpoint,1.0,0.1,PhoBERT ⇢ LLM (θ98),Cascade LLM,4165633.978,A cheaper above this volume
+endpoint,1.0,0.1,PhoBERT ⇢ LLM (θ98),Flat LLM,3120662.749,A cheaper above this volume
+endpoint,1.0,0.1,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.952,A cheaper above this volume
+endpoint,1.0,0.2,Flat TF-IDF,Cascade LLM,296511.301,A cheaper above this volume
+endpoint,1.0,0.2,Flat TF-IDF,Flat LLM,230002.159,A cheaper above this volume
+endpoint,1.0,0.2,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.2,Flat ViSoBERT,Cascade LLM,3656282.429,A cheaper above this volume
+endpoint,1.0,0.2,Flat ViSoBERT,Flat LLM,2836306.077,A cheaper above this volume
+endpoint,1.0,0.2,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.2,Flat PhoBERT,Cascade LLM,3656288.243,A cheaper above this volume
+endpoint,1.0,0.2,Flat PhoBERT,Flat LLM,2836310.587,A cheaper above this volume
+endpoint,1.0,0.2,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.2,Cascade PhoBERT,Cascade LLM,3656290.478,A cheaper above this volume
+endpoint,1.0,0.2,Cascade PhoBERT,Flat LLM,2836312.322,A cheaper above this volume
+endpoint,1.0,0.2,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.2,PhoBERT ⇢ LLM (θmax),Cascade LLM,4338631.812,A cheaper above this volume
+endpoint,1.0,0.2,PhoBERT ⇢ LLM (θmax),Flat LLM,3230430.187,A cheaper above this volume
+endpoint,1.0,0.2,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,2.744,A cheaper above this volume
+endpoint,1.0,0.2,PhoBERT ⇢ LLM (θ98),Cascade LLM,4234980.851,A cheaper above this volume
+endpoint,1.0,0.2,PhoBERT ⇢ LLM (θ98),Flat LLM,3172613.838,A cheaper above this volume
+endpoint,1.0,0.2,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.952,A cheaper above this volume
+endpoint,1.0,0.5,Flat TF-IDF,Cascade LLM,476124.422,A cheaper above this volume
+endpoint,1.0,0.5,Flat TF-IDF,Flat LLM,369334.978,A cheaper above this volume
+endpoint,1.0,0.5,Flat TF-IDF,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.5,Flat ViSoBERT,Cascade LLM,3835895.549,A cheaper above this volume
+endpoint,1.0,0.5,Flat ViSoBERT,Flat LLM,2975638.896,A cheaper above this volume
+endpoint,1.0,0.5,Flat ViSoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.5,Flat PhoBERT,Cascade LLM,3835901.363,A cheaper above this volume
+endpoint,1.0,0.5,Flat PhoBERT,Flat LLM,2975643.406,A cheaper above this volume
+endpoint,1.0,0.5,Flat PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.5,Cascade PhoBERT,Cascade LLM,3835903.599,A cheaper above this volume
+endpoint,1.0,0.5,Cascade PhoBERT,Flat LLM,2975645.14,A cheaper above this volume
+endpoint,1.0,0.5,Cascade PhoBERT,LLM → PhoBERT,0.0,A always cheaper
+endpoint,1.0,0.5,PhoBERT ⇢ LLM (θmax),Cascade LLM,4551764.145,A cheaper above this volume
+endpoint,1.0,0.5,PhoBERT ⇢ LLM (θmax),Flat LLM,3389123.602,A cheaper above this volume
+endpoint,1.0,0.5,PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,2.744,A cheaper above this volume
+endpoint,1.0,0.5,PhoBERT ⇢ LLM (θ98),Cascade LLM,4443021.47,A cheaper above this volume
+endpoint,1.0,0.5,PhoBERT ⇢ LLM (θ98),Flat LLM,3328467.102,A cheaper above this volume
+endpoint,1.0,0.5,PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,0.952,A cheaper above this volume

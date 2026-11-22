@@ -1,0 +1,9 @@
+﻿triển khai,A (cố định),B (biến đổi),hòa vốn gốc (review/tháng),hòa vốn khi đã có nhãn (review/tháng),ghi chú
+batch,Phẳng PhoBERT,Cascade LLM few-shot,59888.83208214635,12083.821034308849,
+batch,Phẳng PhoBERT,Phẳng LLM few-shot,46435.07193578591,9358.794231287431,
+batch,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,75148.95092151496,15172.064589487374,
+batch,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0,0.0,A luôn rẻ hơn
+endpoint,Phẳng PhoBERT,Cascade LLM few-shot,1297624.2803364098,1249864.7114530979,
+endpoint,Phẳng PhoBERT,Phẳng LLM few-shot,1006604.0707735579,969555.1329788044,
+endpoint,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,1539796.4507396973,1483124.0411261786,
+endpoint,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0,0.0,A luôn rẻ hơn

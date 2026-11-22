@@ -1,0 +1,12 @@
+{
+ "run_date": "21/11/2026",
+ "commit": "b436fad136189c47383eb98f13dfdf1539e9c940",
+ "python": "3.13.1",
+ "amendment": "v4.2",
+ "selection_sha256": "4c19fb8f2227c73b49ad08ded6b7da8de6c7571de8df36483f2664b4865f2bb8",
+ "n_boot": 10000,
+ "bootstrap_seed": 42,
+ "random_draws": 1000,
+ "random_seed": 20261121,
+ "holdout_use": 4
+}

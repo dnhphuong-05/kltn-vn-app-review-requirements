@@ -1,0 +1,7 @@
+﻿Prompt version,Prompt,Exemplars,Distinct IDs,Gold BUG,Gold FEATURE,Gold UX,Gold OTHER,All in Train,In another split,Selection seed,Selection rule,Source file
+v1,tier1,8,8,2,1,1,4,True,0,42,"Train only; non-ambiguous; 15 <= len(text) <= 250 chars; per gold class, rows sorted by review_id then permuted with numpy default_rng(seed); taken in PLAN order.",shopee_train.csv
+v1,tier2,9,9,3,3,3,0,True,0,42,"Train only; non-ambiguous; 15 <= len(text) <= 250 chars; per gold class, rows sorted by review_id then permuted with numpy default_rng(seed); taken in PLAN order.",shopee_train.csv
+v1,flat,14,14,3,3,4,4,True,0,42,"Union of the locked tier1_exemplars_v1 and tier2_exemplars_v1 (Train only, no new draw); label = 4-class gold; classes interleaved BUG, FEATURE, UX, OTHER, each class in order of first appearance (tier 1 then tier 2).",shopee_train.csv
+v1n,tier1,8,8,2,1,1,4,True,0,42,"Train only; non-ambiguous; 15 <= len(text) <= 250 chars; per gold class, rows sorted by review_id then permuted with numpy default_rng(seed); taken in PLAN order.",shopee_train.csv
+v1n,tier2,9,9,3,3,3,0,True,0,42,"Train only; non-ambiguous; 15 <= len(text) <= 250 chars; per gold class, rows sorted by review_id then permuted with numpy default_rng(seed); taken in PLAN order.",shopee_train.csv
+v1n,flat,14,14,3,3,4,4,True,0,42,"Union of the locked tier1_exemplars_v1 and tier2_exemplars_v1 (Train only, no new draw); label = 4-class gold; classes interleaved BUG, FEATURE, UX, OTHER, each class in order of first appearance (tier 1 then tier 2).",shopee_train.csv

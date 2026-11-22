@@ -1,0 +1,11 @@
+﻿Set A,Set B,Shared review IDs
+Train,Validation,0
+Train,Shopee hold-out,0
+Train,Shopee focused,0
+Train,Lazada,0
+Validation,Shopee hold-out,0
+Validation,Shopee focused,0
+Validation,Lazada,0
+Shopee hold-out,Shopee focused,0
+Shopee hold-out,Lazada,0
+Shopee focused,Lazada,0

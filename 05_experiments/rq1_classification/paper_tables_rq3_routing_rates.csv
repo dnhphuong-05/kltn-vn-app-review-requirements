@@ -1,0 +1,7 @@
+﻿Deployment,Reviews per month,"Flat PhoBERT, total USD over 12 months","PhoBERT ⇢ LLM (θmax), total USD over 12 months","PhoBERT ⇢ LLM (θmax) [Lazada rate], total USD over 12 months","Cascade LLM, total USD over 12 months","Flat LLM, total USD over 12 months"
+batch,5000,220.059,222.593,224.063,84.229,87.852
+batch,50000,220.165,245.298,259.883,195.694,231.54
+batch,500000,221.225,472.352,618.078,1310.34,1668.423
+endpoint,5000,3286.048,3288.018,3289.165,84.229,87.852
+endpoint,50000,3286.048,3305.548,3316.901,195.694,231.54
+endpoint,500000,3286.048,3480.848,3594.254,1310.34,1668.423

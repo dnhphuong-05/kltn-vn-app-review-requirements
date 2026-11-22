@@ -1,0 +1,10 @@
+﻿Set,Configuration,Architecture,n,Macro-F1,CI low,CI high,F1 BUG,F1 FEATURE,F1 UX,F1 OTHER,Precision ACT,Recall ACT,Forwarded
+Shopee focused,Flat TF-IDF,flat,150,61.4,51.7,70.2,30.0,75.6,72.0,68.0,77.4,90.1,70.7
+Shopee focused,Cascade TF-IDF,cascade,150,53.2,44.4,61.6,19.0,68.9,72.3,52.4,70.4,96.7,83.3
+Shopee focused,Flat Bi-LSTM,flat,150,61.2,52.5,69.2,32.4,64.4,71.4,76.3,88.5,75.8,52.0
+Shopee focused,Cascade Bi-LSTM,cascade,150,59.7,50.8,67.8,32.3,74.8,70.6,61.1,73.7,92.3,76.0
+Shopee focused,Flat ViSoBERT,flat,150,63.8,54.3,72.5,31.6,79.7,75.0,69.1,78.8,85.7,66.0
+Shopee focused,Cascade ViSoBERT,cascade,150,65.7,55.5,74.1,52.2,74.1,75.0,61.7,73.9,93.4,76.7
+Shopee focused,Flat PhoBERT,flat,150,77.4,68.6,84.9,59.3,88.9,80.8,80.8,83.8,96.7,70.0
+Shopee focused,Cascade PhoBERT,cascade,150,60.5,51.6,68.6,41.2,76.0,74.1,50.6,69.8,96.7,84.0
+Shopee focused,Flat LLM,flat,150,67.2,58.2,75.6,34.8,81.4,79.3,73.3,79.6,94.5,72.0

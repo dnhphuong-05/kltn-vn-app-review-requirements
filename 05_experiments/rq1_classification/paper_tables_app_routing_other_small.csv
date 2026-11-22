@@ -1,0 +1,13 @@
+﻿Set,Configuration,Macro-F1,CI low,CI high,Precision ACT,Recall ACT,LLM share,LLM share (3-seed mean),"API USD / 1,000 reviews"
+Shopee hold-out,Flat TF-IDF,62.8,57.5,67.6,68.6,65.6,0.0,0.0,0.0
+Shopee hold-out,Flat ViSoBERT,66.7,60.3,72.1,82.1,60.1,0.0,0.0,0.0
+Shopee hold-out,TF-IDF ⇢ LLM (θmax),76.8,71.1,81.6,77.3,82.0,21.5,21.5,0.057
+Shopee hold-out,TF-IDF ⇢ LLM (θ98),73.6,67.8,78.5,74.6,78.7,16.9,16.9,0.045
+Shopee hold-out,ViSoBERT ⇢ LLM (θmax),79.7,74.4,84.1,81.0,77.0,17.5,15.5,0.047
+Shopee hold-out,ViSoBERT ⇢ LLM (θ98),75.6,69.7,80.6,81.6,70.5,10.4,9.3,0.028
+Lazada,Flat TF-IDF,56.1,48.9,62.6,50.0,70.4,0.0,0.0,0.0
+Lazada,Flat ViSoBERT,65.6,57.2,72.9,62.4,65.4,0.0,0.0,0.0
+Lazada,TF-IDF ⇢ LLM (θmax),61.7,53.7,68.7,51.2,81.5,30.6,30.6,0.082
+Lazada,TF-IDF ⇢ LLM (θ98),61.0,53.2,68.0,51.6,79.0,25.2,25.2,0.067
+Lazada,ViSoBERT ⇢ LLM (θmax),66.0,57.3,73.3,53.0,75.3,21.0,21.1,0.056
+Lazada,ViSoBERT ⇢ LLM (θ98),67.7,58.9,74.9,56.3,71.6,12.2,12.6,0.033

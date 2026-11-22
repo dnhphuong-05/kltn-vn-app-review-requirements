@@ -1,0 +1,10 @@
+﻿tập,loại,số review,tỷ lệ (%),actionable,số từ trung vị
+holdout,trùng y hệt,217,21.7,2,1.0
+holdout,"gần trùng ≥ 0,90",17,1.7,3,3.0
+holdout,"gần trùng ≥ 0,80",48,4.8,7,3.0
+lazada,trùng y hệt,79,15.8,1,1.0
+lazada,"gần trùng ≥ 0,90",3,0.6,1,3.0
+lazada,"gần trùng ≥ 0,80",11,2.2,3,3.0
+focused,trùng y hệt,1,0.7,0,2.0
+focused,"gần trùng ≥ 0,90",2,1.3,1,3.0
+focused,"gần trùng ≥ 0,80",5,3.3,2,3.0

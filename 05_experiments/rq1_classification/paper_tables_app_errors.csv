@@ -1,0 +1,25 @@
+﻿Configuration,n,Errors,Missed actionable,Kept OTHER,Wrong type,Missed actionable (% of errors),Kept OTHER (% of errors),Wrong type (% of errors),Set
+Flat TF-IDF,1000,134,63,55,16,47.0,41.0,11.9,Shopee hold-out
+Cascade TF-IDF,1000,163,39,96,28,23.9,58.9,17.2,Shopee hold-out
+Flat Bi-LSTM,1000,128,70,41,17,54.7,32.0,13.3,Shopee hold-out
+Cascade Bi-LSTM,1000,222,31,154,37,14.0,69.4,16.7,Shopee hold-out
+Flat ViSoBERT,1000,111,73,24,14,65.8,21.6,12.6,Shopee hold-out
+Cascade ViSoBERT,1000,151,59,75,17,39.1,49.7,11.3,Shopee hold-out
+Flat PhoBERT,1000,111,62,35,14,55.9,31.5,12.6,Shopee hold-out
+Cascade PhoBERT,1000,173,40,109,24,23.1,63.0,13.9,Shopee hold-out
+Flat LLM,1000,97,17,70,10,17.5,72.2,10.3,Shopee hold-out
+Cascade LLM,1000,80,24,47,9,30.0,58.8,11.2,Shopee hold-out
+PhoBERT ⇢ LLM (θmax),1000,86,47,32,7,54.7,37.2,8.1,Shopee hold-out
+PhoBERT ⇢ LLM (disagreement),1000,89,56,25,8,62.9,28.1,9.0,Shopee hold-out
+Flat TF-IDF,500,95,24,57,14,25.3,60.0,14.7,Lazada
+Cascade TF-IDF,500,127,9,100,18,7.1,78.7,14.2,Lazada
+Flat Bi-LSTM,500,92,25,54,13,27.2,58.7,14.1,Lazada
+Cascade Bi-LSTM,500,143,7,110,26,4.9,76.9,18.2,Lazada
+Flat ViSoBERT,500,67,28,32,7,41.8,47.8,10.4,Lazada
+Cascade ViSoBERT,500,104,15,71,18,14.4,68.3,17.3,Lazada
+Flat PhoBERT,500,65,21,33,11,32.3,50.8,16.9,Lazada
+Cascade PhoBERT,500,122,11,95,16,9.0,77.9,13.1,Lazada
+Flat LLM,500,106,15,81,10,14.2,76.4,9.4,Lazada
+Cascade LLM,500,92,17,64,11,18.5,69.6,12.0,Lazada
+PhoBERT ⇢ LLM (θmax),500,74,19,46,9,25.7,62.2,12.2,Lazada
+PhoBERT ⇢ LLM (disagreement),500,60,21,34,5,35.0,56.7,8.3,Lazada

@@ -1,0 +1,6 @@
+﻿Configuration,"Macro-F1 (hold-out, %)",API USD per month,Total USD over 12 months (batch),of which fixed (labels and training)
+Flat TF-IDF,62.8,0.0,220.0,220.0
+Flat PhoBERT,70.8,0.0,220.059,220.048
+PhoBERT ⇢ LLM (θmax),79.9,0.155,222.475,220.07
+Cascade LLM,81.3,0.984,83.651,71.844
+Flat LLM,80.0,1.268,87.107,71.886

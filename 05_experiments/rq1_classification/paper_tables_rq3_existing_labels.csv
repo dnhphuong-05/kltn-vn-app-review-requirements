@@ -1,0 +1,9 @@
+﻿Deployment,A (trained or routed),B (LLM),"Break-even, labels purchased (reviews per month)","Break-even, initial labels already available (reviews per month)",Reading
+batch,Flat PhoBERT,Cascade LLM,59888.832,12083.821,A cheaper above this volume
+batch,Flat PhoBERT,Flat LLM,46435.072,9358.794,A cheaper above this volume
+batch,PhoBERT ⇢ LLM (θmax),Cascade LLM,75148.951,15172.065,A cheaper above this volume
+batch,Flat PhoBERT,PhoBERT ⇢ LLM (θmax),0.0,0.0,A always cheaper
+endpoint,Flat PhoBERT,Cascade LLM,1297624.28,1249864.711,A cheaper above this volume
+endpoint,Flat PhoBERT,Flat LLM,1006604.071,969555.133,A cheaper above this volume
+endpoint,PhoBERT ⇢ LLM (θmax),Cascade LLM,1539796.451,1483124.041,A cheaper above this volume
+endpoint,Flat PhoBERT,PhoBERT ⇢ LLM (θmax),0.0,0.0,A always cheaper

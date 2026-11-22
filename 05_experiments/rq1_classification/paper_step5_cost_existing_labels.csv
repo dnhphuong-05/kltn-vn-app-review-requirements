@@ -1,0 +1,49 @@
+﻿triển khai,review / tháng,ngưỡng,được gọi API,cấu hình (gốc),cấu hình (đã có nhãn)
+batch,1000,60,True,L→L,L→L
+batch,1000,60,False,P phẳng,P phẳng
+batch,1000,70,True,L→L,L→L
+batch,1000,70,False,P phẳng,P phẳng
+batch,1000,80,True,L→L,L→L
+batch,1000,80,False,—,—
+batch,10000,60,True,L→L,L→L
+batch,10000,60,False,P phẳng,P phẳng
+batch,10000,70,True,L→L,L→L
+batch,10000,70,False,P phẳng,P phẳng
+batch,10000,80,True,L→L,L→L
+batch,10000,80,False,—,—
+batch,100000,60,True,P phẳng,P phẳng
+batch,100000,60,False,P phẳng,P phẳng
+batch,100000,70,True,P phẳng,P phẳng
+batch,100000,70,False,P phẳng,P phẳng
+batch,100000,80,True,L→L,L→L
+batch,100000,80,False,—,—
+batch,1000000,60,True,P phẳng,P phẳng
+batch,1000000,60,False,P phẳng,P phẳng
+batch,1000000,70,True,P phẳng,P phẳng
+batch,1000000,70,False,P phẳng,P phẳng
+batch,1000000,80,True,L→L,L→L
+batch,1000000,80,False,—,—
+endpoint,1000,60,True,L→L,L→L
+endpoint,1000,60,False,T phẳng,T phẳng
+endpoint,1000,70,True,L→L,L→L
+endpoint,1000,70,False,P phẳng,P phẳng
+endpoint,1000,80,True,L→L,L→L
+endpoint,1000,80,False,—,—
+endpoint,10000,60,True,L→L,L→L
+endpoint,10000,60,False,T phẳng,T phẳng
+endpoint,10000,70,True,L→L,L→L
+endpoint,10000,70,False,P phẳng,P phẳng
+endpoint,10000,80,True,L→L,L→L
+endpoint,10000,80,False,—,—
+endpoint,100000,60,True,L→L,L→L
+endpoint,100000,60,False,T phẳng,T phẳng
+endpoint,100000,70,True,L→L,L→L
+endpoint,100000,70,False,P phẳng,P phẳng
+endpoint,100000,80,True,L→L,L→L
+endpoint,100000,80,False,—,—
+endpoint,1000000,60,True,T phẳng,T phẳng
+endpoint,1000000,60,False,T phẳng,T phẳng
+endpoint,1000000,70,True,T⇢L θ_98,T⇢L θ_98
+endpoint,1000000,70,False,P phẳng,P phẳng
+endpoint,1000000,80,True,L→L,L→L
+endpoint,1000000,80,False,—,—

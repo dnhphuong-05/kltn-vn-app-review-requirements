@@ -1,0 +1,410 @@
+﻿table,column,definition
+paper_tables_m1_data_splits.csv,Set,"Evaluation set: Shopee hold-out (random sample, 1,000), Lazada (external app, 500) or Shopee focused (FEATURE/UX-enriched, 150)."
+paper_tables_m1_data_splits.csv,n,Number of reviews scored.
+paper_tables_m1_data_splits.csv,BUG,Reviews with gold label BUG.
+paper_tables_m1_data_splits.csv,FEATURE,Reviews with gold label FEATURE.
+paper_tables_m1_data_splits.csv,UX,Reviews with gold label UX.
+paper_tables_m1_data_splits.csv,OTHER,Reviews with gold label OTHER.
+paper_tables_m1_data_splits.csv,Actionable,"Reviews with gold label BUG, FEATURE or UX."
+paper_tables_m1_data_splits.csv,Actionable (%),"Share of actionable reviews, %."
+paper_tables_m1_data_splits.csv,Exact duplicates of Train ∪ Validation,Reviews whose normalised text occurs in Train or Validation.
+paper_tables_m1_data_splits.csv,Near duplicates (cosine ≥ 0.90),Reviews without an exact match whose closest Train ∪ Validation text has character 3–5-gram TF-IDF cosine ≥ 0.90.
+paper_tables_m1_data_splits.csv,Near duplicates (cosine ≥ 0.80),Same with cosine ≥ 0.80 (sensitivity).
+paper_tables_m2_split_id_overlaps.csv,Set A,First split of the pair.
+paper_tables_m2_split_id_overlaps.csv,Set B,Second split of the pair.
+paper_tables_m2_split_id_overlaps.csv,Shared review IDs,Number of review IDs present in both splits.
+paper_tables_m3_fewshot_exemplars.csv,Prompt version,v1 = locked prompt; v1n = app-neutral variant (Lazada only).
+paper_tables_m3_fewshot_exemplars.csv,Prompt,"tier1, tier2 or flat (four-class) prompt."
+paper_tables_m3_fewshot_exemplars.csv,Exemplars,Few-shot exemplars in the prompt.
+paper_tables_m3_fewshot_exemplars.csv,Distinct IDs,Distinct review IDs among the exemplars.
+paper_tables_m3_fewshot_exemplars.csv,Gold BUG,Exemplars with gold label BUG.
+paper_tables_m3_fewshot_exemplars.csv,Gold FEATURE,Exemplars with gold label FEATURE.
+paper_tables_m3_fewshot_exemplars.csv,Gold UX,Exemplars with gold label UX.
+paper_tables_m3_fewshot_exemplars.csv,Gold OTHER,Exemplars with gold label OTHER.
+paper_tables_m3_fewshot_exemplars.csv,All in Train,Every exemplar belongs to Train.
+paper_tables_m3_fewshot_exemplars.csv,In another split,Exemplars found in any other split (must be 0).
+paper_tables_m3_fewshot_exemplars.csv,Selection seed,Seed of the exemplar draw.
+paper_tables_m3_fewshot_exemplars.csv,Selection rule,Rule used to draw the exemplars.
+paper_tables_m3_fewshot_exemplars.csv,Source file,Split the exemplars were drawn from.
+paper_tables_m3b_fewshot_summary.csv,Prompt version,v1 = locked prompt; v1n = app-neutral variant (Lazada only).
+paper_tables_m3b_fewshot_summary.csv,Distinct tier-1 + tier-2 exemplars,Distinct reviews over the tier-1 and tier-2 prompts.
+paper_tables_m3b_fewshot_summary.csv,Flat exemplars reused from tiers,Flat-prompt exemplars that also appear in a tier prompt.
+paper_tables_m3b_fewshot_summary.csv,Flat exemplars not in tier prompts,Flat-prompt exemplars absent from both tier prompts.
+paper_tables_m3b_fewshot_summary.csv,"Distinct exemplars, all prompts",Distinct reviews over all three prompts.
+paper_tables_m4_configurations.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_m4_configurations.csv,Architecture,"flat, cascade, hybrid (tier-1 and tier-2 models differ), routing, thresholded flat or calibrated cascade."
+paper_tables_m4_configurations.csv,Tier 1 or flat model,"Model of tier 1 (cascade, hybrid), of the flat model, or the small model of a router."
+paper_tables_m4_configurations.csv,Tier 2 model,"Model of tier 2, or the model that relabels routed reviews."
+paper_tables_m4_configurations.csv,Runs,"Number of runs available (3 seeds for trained models, 1 for the LLM and for hybrids). Only the canonical run enters the main tables."
+paper_tables_m4_configurations.csv,Amendment,Protocol amendment that registered the configuration.
+paper_tables_m4_configurations.csv,Status,"scored, scored as exploratory analysis, or not scored (with the reason)."
+paper_tables_rq1_e2e.csv,Set,"Evaluation set: Shopee hold-out (random sample, 1,000), Lazada (external app, 500) or Shopee focused (FEATURE/UX-enriched, 150)."
+paper_tables_rq1_e2e.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_rq1_e2e.csv,Architecture,"flat, cascade, hybrid (tier-1 and tier-2 models differ), routing, thresholded flat or calibrated cascade."
+paper_tables_rq1_e2e.csv,n,Number of reviews scored.
+paper_tables_rq1_e2e.csv,Macro-F1,"Unweighted mean of the per-class F1 of the canonical run (seed 42; single LLM run), %. Four classes end to end, three classes (BUG, FEATURE, UX on gold-actionable reviews) at tier 2."
+paper_tables_rq1_e2e.csv,CI low,"Lower bound of the 95% paired percentile bootstrap interval (10,000 resamples of reviews, seed 42), %."
+paper_tables_rq1_e2e.csv,CI high,"Upper bound of the 95% paired percentile bootstrap interval, %."
+paper_tables_rq1_e2e.csv,F1 BUG,"F1 of class BUG on the canonical run, %."
+paper_tables_rq1_e2e.csv,F1 FEATURE,"F1 of class FEATURE on the canonical run, %."
+paper_tables_rq1_e2e.csv,F1 UX,"F1 of class UX on the canonical run, %."
+paper_tables_rq1_e2e.csv,F1 OTHER,"F1 of class OTHER on the canonical run, %."
+paper_tables_rq1_e2e.csv,Precision ACT,"Share of reviews predicted BUG, FEATURE or UX whose gold label is actionable, canonical run, %."
+paper_tables_rq1_e2e.csv,Recall ACT,"Share of gold-actionable reviews predicted BUG, FEATURE or UX (any of the three), canonical run, %."
+paper_tables_rq1_e2e.csv,Forwarded,"Share of reviews predicted actionable, i.e. forwarded to the development team, canonical run, %."
+paper_tables_rq1_focused_e2e.csv,Set,"Evaluation set: Shopee hold-out (random sample, 1,000), Lazada (external app, 500) or Shopee focused (FEATURE/UX-enriched, 150)."
+paper_tables_rq1_focused_e2e.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_rq1_focused_e2e.csv,Architecture,"flat, cascade, hybrid (tier-1 and tier-2 models differ), routing, thresholded flat or calibrated cascade."
+paper_tables_rq1_focused_e2e.csv,n,Number of reviews scored.
+paper_tables_rq1_focused_e2e.csv,Macro-F1,"Unweighted mean of the per-class F1 of the canonical run (seed 42; single LLM run), %. Four classes end to end, three classes (BUG, FEATURE, UX on gold-actionable reviews) at tier 2."
+paper_tables_rq1_focused_e2e.csv,CI low,"Lower bound of the 95% paired percentile bootstrap interval (10,000 resamples of reviews, seed 42), %."
+paper_tables_rq1_focused_e2e.csv,CI high,"Upper bound of the 95% paired percentile bootstrap interval, %."
+paper_tables_rq1_focused_e2e.csv,F1 BUG,"F1 of class BUG on the canonical run, %."
+paper_tables_rq1_focused_e2e.csv,F1 FEATURE,"F1 of class FEATURE on the canonical run, %."
+paper_tables_rq1_focused_e2e.csv,F1 UX,"F1 of class UX on the canonical run, %."
+paper_tables_rq1_focused_e2e.csv,F1 OTHER,"F1 of class OTHER on the canonical run, %."
+paper_tables_rq1_focused_e2e.csv,Precision ACT,"Share of reviews predicted BUG, FEATURE or UX whose gold label is actionable, canonical run, %."
+paper_tables_rq1_focused_e2e.csv,Recall ACT,"Share of gold-actionable reviews predicted BUG, FEATURE or UX (any of the three), canonical run, %."
+paper_tables_rq1_focused_e2e.csv,Forwarded,"Share of reviews predicted actionable, i.e. forwarded to the development team, canonical run, %."
+paper_tables_rq1_tier1.csv,Strategy,"Classifier family: TF-IDF + linear model, Bi-LSTM with pretrained fastText, ViSoBERT, PhoBERT, LLM (GPT-4o-mini few-shot, temperature 0)."
+paper_tables_rq1_tier1.csv,n,Number of reviews scored.
+paper_tables_rq1_tier1.csv,F1 ACT,"Harmonic mean of Precision ACT and Recall ACT, %."
+paper_tables_rq1_tier1.csv,F1 ACT CI low,"Lower 95% CI bound of F1 ACT, %."
+paper_tables_rq1_tier1.csv,F1 ACT CI high,"Upper 95% CI bound of F1 ACT, %."
+paper_tables_rq1_tier1.csv,Recall ACT,"Share of gold-actionable reviews predicted BUG, FEATURE or UX (any of the three), canonical run, %."
+paper_tables_rq1_tier1.csv,Recall ACT CI low,"Lower 95% CI bound of Recall ACT, %."
+paper_tables_rq1_tier1.csv,Recall ACT CI high,"Upper 95% CI bound of Recall ACT, %."
+paper_tables_rq1_tier1.csv,Precision ACT,"Share of reviews predicted BUG, FEATURE or UX whose gold label is actionable, canonical run, %."
+paper_tables_rq1_tier1.csv,Precision ACT CI low,"Lower 95% CI bound of Precision ACT, %."
+paper_tables_rq1_tier1.csv,Precision ACT CI high,"Upper 95% CI bound of Precision ACT, %."
+paper_tables_rq1_tier1.csv,Macro-F1 (2 classes),"Mean F1 of ACTIONABLE and NOT_ACTIONABLE at tier 1, canonical run, %."
+paper_tables_rq1_tier1.csv,Forwarded,"Share of reviews predicted actionable, i.e. forwarded to the development team, canonical run, %."
+paper_tables_rq1_tier1.csv,Set,"Evaluation set: Shopee hold-out (random sample, 1,000), Lazada (external app, 500) or Shopee focused (FEATURE/UX-enriched, 150)."
+paper_tables_rq1_tier2.csv,Strategy,"Classifier family: TF-IDF + linear model, Bi-LSTM with pretrained fastText, ViSoBERT, PhoBERT, LLM (GPT-4o-mini few-shot, temperature 0)."
+paper_tables_rq1_tier2.csv,n,Number of reviews scored.
+paper_tables_rq1_tier2.csv,Macro-F1,"Unweighted mean of the per-class F1 of the canonical run (seed 42; single LLM run), %. Four classes end to end, three classes (BUG, FEATURE, UX on gold-actionable reviews) at tier 2."
+paper_tables_rq1_tier2.csv,CI low,"Lower bound of the 95% paired percentile bootstrap interval (10,000 resamples of reviews, seed 42), %."
+paper_tables_rq1_tier2.csv,CI high,"Upper bound of the 95% paired percentile bootstrap interval, %."
+paper_tables_rq1_tier2.csv,F1 BUG,"F1 of class BUG on the canonical run, %."
+paper_tables_rq1_tier2.csv,F1 FEATURE,"F1 of class FEATURE on the canonical run, %."
+paper_tables_rq1_tier2.csv,F1 UX,"F1 of class UX on the canonical run, %."
+paper_tables_rq1_tier2.csv,Set,"Evaluation set: Shopee hold-out (random sample, 1,000), Lazada (external app, 500) or Shopee focused (FEATURE/UX-enriched, 150)."
+paper_tables_rq1_tier_mcnemar.csv,Family,Holm family registered before scoring; p (Holm) is adjusted over every pair of that family.
+paper_tables_rq1_tier_mcnemar.csv,A,First configuration of the pair.
+paper_tables_rq1_tier_mcnemar.csv,B,Second configuration of the pair.
+paper_tables_rq1_tier_mcnemar.csv,"A right, B wrong",Reviews labelled correctly by A and wrongly by B (McNemar discordant count).
+paper_tables_rq1_tier_mcnemar.csv,"A wrong, B right",Reviews labelled wrongly by A and correctly by B (McNemar discordant count).
+paper_tables_rq1_tier_mcnemar.csv,p (exact),Two-sided exact McNemar test on per-review correctness (not on Macro-F1).
+paper_tables_rq1_tier_mcnemar.csv,p (Holm),Holm-adjusted p within the family.
+paper_tables_rq1_pairs.csv,Family,Holm family registered before scoring; p (Holm) is adjusted over every pair of that family.
+paper_tables_rq1_pairs.csv,A,First configuration of the pair.
+paper_tables_rq1_pairs.csv,B,Second configuration of the pair.
+paper_tables_rq1_pairs.csv,Δ Macro-F1 (A − B),"Macro-F1 of A minus Macro-F1 of B on the canonical runs, percentage points."
+paper_tables_rq1_pairs.csv,CI low,"Lower bound of the 95% paired percentile bootstrap interval (10,000 resamples of reviews, seed 42), %."
+paper_tables_rq1_pairs.csv,CI high,"Upper bound of the 95% paired percentile bootstrap interval, %."
+paper_tables_rq1_pairs.csv,CI contains 0,True when the 95% bootstrap interval of the difference contains zero (no difference detected; this does not establish equivalence).
+paper_tables_rq1_pairs.csv,"A right, B wrong",Reviews labelled correctly by A and wrongly by B (McNemar discordant count).
+paper_tables_rq1_pairs.csv,"A wrong, B right",Reviews labelled wrongly by A and correctly by B (McNemar discordant count).
+paper_tables_rq1_pairs.csv,p (exact),Two-sided exact McNemar test on per-review correctness (not on Macro-F1).
+paper_tables_rq1_pairs.csv,p (Holm),Holm-adjusted p within the family.
+paper_tables_rq1_pairs.csv,Holm family size,Number of pairs in the Holm family.
+paper_tables_app_pairs_all.csv,Family,Holm family registered before scoring; p (Holm) is adjusted over every pair of that family.
+paper_tables_app_pairs_all.csv,A,First configuration of the pair.
+paper_tables_app_pairs_all.csv,B,Second configuration of the pair.
+paper_tables_app_pairs_all.csv,Δ Macro-F1 (A − B),"Macro-F1 of A minus Macro-F1 of B on the canonical runs, percentage points."
+paper_tables_app_pairs_all.csv,CI low,"Lower bound of the 95% paired percentile bootstrap interval (10,000 resamples of reviews, seed 42), %."
+paper_tables_app_pairs_all.csv,CI high,"Upper bound of the 95% paired percentile bootstrap interval, %."
+paper_tables_app_pairs_all.csv,CI contains 0,True when the 95% bootstrap interval of the difference contains zero (no difference detected; this does not establish equivalence).
+paper_tables_app_pairs_all.csv,"A right, B wrong",Reviews labelled correctly by A and wrongly by B (McNemar discordant count).
+paper_tables_app_pairs_all.csv,"A wrong, B right",Reviews labelled wrongly by A and correctly by B (McNemar discordant count).
+paper_tables_app_pairs_all.csv,p (exact),Two-sided exact McNemar test on per-review correctness (not on Macro-F1).
+paper_tables_app_pairs_all.csv,p (Holm),Holm-adjusted p within the family.
+paper_tables_app_pairs_all.csv,Holm family size,Number of pairs in the Holm family.
+paper_tables_rq1_dedup.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_rq1_dedup.csv,"Macro-F1, full hold-out (n = 1,000)","Macro-F1 of the canonical run on the full hold-out, %."
+paper_tables_rq1_dedup.csv,Macro-F1 without exact duplicates (n = 783),"Macro-F1 on the hold-out without the 217 exact duplicates of Train ∪ Validation, %."
+paper_tables_rq1_dedup.csv,CI low (without exact),"95% bootstrap CI lower bound on the 783 reviews, %."
+paper_tables_rq1_dedup.csv,CI high (without exact),"95% bootstrap CI upper bound on the 783 reviews, %."
+paper_tables_rq1_dedup.csv,Macro-F1 without exact and near duplicates (n = 766),"Macro-F1 on the hold-out without exact and near (cosine ≥ 0.90) duplicates, %."
+paper_tables_rq1_dedup.csv,CI low (without exact and near),"95% bootstrap CI lower bound on the 766 reviews, %."
+paper_tables_rq1_dedup.csv,CI high (without exact and near),"95% bootstrap CI upper bound on the 766 reviews, %."
+paper_tables_rq1_dedup.csv,Δ without exact,"Macro-F1 without exact duplicates minus full hold-out, points."
+paper_tables_rq1_dedup.csv,Δ without exact and near,"Macro-F1 without exact and near duplicates minus full hold-out, points."
+paper_tables_rq1_prompt_variant.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_rq1_prompt_variant.csv,Macro-F1 (%),"Four-class Macro-F1 of the single LLM run, %."
+paper_tables_rq1_prompt_variant.csv,F1 BUG (%),"F1 of BUG, %."
+paper_tables_rq1_prompt_variant.csv,F1 FEATURE (%),"F1 of FEATURE, %."
+paper_tables_rq1_prompt_variant.csv,F1 UX (%),"F1 of UX, %."
+paper_tables_rq1_prompt_variant.csv,F1 OTHER (%),"F1 of OTHER, %."
+paper_tables_rq1_prompt_variant.csv,Recall ACT (%),"ACTIONABLE recall, %."
+paper_tables_rq1_prompt_variant.csv,Precision ACT (%),"ACTIONABLE precision, %."
+paper_tables_rq1_prompt_variant_pairs.csv,Comparison,"Prompt variant comparison, v1n minus v1."
+paper_tables_rq1_prompt_variant_pairs.csv,Δ Macro-F1 (points),"Macro-F1 difference, percentage points."
+paper_tables_rq1_prompt_variant_pairs.csv,CI low (points),"95% paired bootstrap CI lower bound of the difference, points."
+paper_tables_rq1_prompt_variant_pairs.csv,CI high (points),"95% paired bootstrap CI upper bound of the difference, points."
+paper_tables_rq1_prompt_variant_pairs.csv,CI contains 0,True when the 95% bootstrap interval of the difference contains zero (no difference detected; this does not establish equivalence).
+paper_tables_rq1_prompt_variant_pairs.csv,p (Holm),Holm-adjusted p within the family.
+paper_tables_rq1_error_coding.csv,Main category,Manually coded main topic of a gold-OTHER review labelled actionable by the LLM.
+paper_tables_rq1_error_coding.csv,"Cascade LLM, hold-out (% of coded errors)","Share of the coded false-actionable errors (gold OTHER predicted actionable) of that model and set in the category, %."
+paper_tables_rq1_error_coding.csv,"Cascade LLM, Lazada (% of coded errors)","Share of the coded false-actionable errors (gold OTHER predicted actionable) of that model and set in the category, %."
+paper_tables_rq1_error_coding.csv,"Flat LLM, hold-out (% of coded errors)","Share of the coded false-actionable errors (gold OTHER predicted actionable) of that model and set in the category, %."
+paper_tables_rq1_error_coding.csv,"Flat LLM, Lazada (% of coded errors)","Share of the coded false-actionable errors (gold OTHER predicted actionable) of that model and set in the category, %."
+paper_tables_rq1_error_contribution.csv,Main category,Manually coded main topic of a gold-OTHER review labelled actionable by the LLM.
+paper_tables_rq1_error_contribution.csv,"Cascade LLM, hold-out (% of OTHER reviews)","False-actionable errors of the category divided by the gold-OTHER reviews of the set, %; the Total row is the false-actionable rate."
+paper_tables_rq1_error_contribution.csv,"Cascade LLM, Lazada (% of OTHER reviews)","False-actionable errors of the category divided by the gold-OTHER reviews of the set, %; the Total row is the false-actionable rate."
+paper_tables_rq1_error_contribution.csv,"Cascade LLM, Lazada − hold-out (points of OTHER reviews)","Lazada minus hold-out contribution of the category to the false-actionable rate, percentage points."
+paper_tables_rq1_error_contribution.csv,"Flat LLM, hold-out (% of OTHER reviews)","False-actionable errors of the category divided by the gold-OTHER reviews of the set, %; the Total row is the false-actionable rate."
+paper_tables_rq1_error_contribution.csv,"Flat LLM, Lazada (% of OTHER reviews)","False-actionable errors of the category divided by the gold-OTHER reviews of the set, %; the Total row is the false-actionable rate."
+paper_tables_rq1_error_contribution.csv,"Flat LLM, Lazada − hold-out (points of OTHER reviews)","Lazada minus hold-out contribution of the category to the false-actionable rate, percentage points."
+paper_tables_rq2_architecture.csv,Set,"Evaluation set: Shopee hold-out (random sample, 1,000), Lazada (external app, 500) or Shopee focused (FEATURE/UX-enriched, 150)."
+paper_tables_rq2_architecture.csv,Strategy,"Classifier family: TF-IDF + linear model, Bi-LSTM with pretrained fastText, ViSoBERT, PhoBERT, LLM (GPT-4o-mini few-shot, temperature 0)."
+paper_tables_rq2_architecture.csv,Flat Macro-F1,"Macro-F1 of the flat configuration of the strategy, canonical run, %."
+paper_tables_rq2_architecture.csv,Flat F1 FEATURE,"F1 FEATURE of the flat configuration of the strategy, canonical run, %."
+paper_tables_rq2_architecture.csv,Flat Recall ACT,"Recall ACT of the flat configuration of the strategy, canonical run, %."
+paper_tables_rq2_architecture.csv,Flat Precision ACT,"Precision ACT of the flat configuration of the strategy, canonical run, %."
+paper_tables_rq2_architecture.csv,Flat Forwarded,"Forwarded of the flat configuration of the strategy, canonical run, %."
+paper_tables_rq2_architecture.csv,Thresholded flat Macro-F1,"Macro-F1 of the thresholded flat configuration of the strategy, canonical run, %."
+paper_tables_rq2_architecture.csv,Thresholded flat F1 FEATURE,"F1 FEATURE of the thresholded flat configuration of the strategy, canonical run, %."
+paper_tables_rq2_architecture.csv,Thresholded flat Recall ACT,"Recall ACT of the thresholded flat configuration of the strategy, canonical run, %."
+paper_tables_rq2_architecture.csv,Thresholded flat Precision ACT,"Precision ACT of the thresholded flat configuration of the strategy, canonical run, %."
+paper_tables_rq2_architecture.csv,Thresholded flat Forwarded,"Forwarded of the thresholded flat configuration of the strategy, canonical run, %."
+paper_tables_rq2_architecture.csv,Cascade Macro-F1,"Macro-F1 of the cascade configuration of the strategy, canonical run, %."
+paper_tables_rq2_architecture.csv,Cascade F1 FEATURE,"F1 FEATURE of the cascade configuration of the strategy, canonical run, %."
+paper_tables_rq2_architecture.csv,Cascade Recall ACT,"Recall ACT of the cascade configuration of the strategy, canonical run, %."
+paper_tables_rq2_architecture.csv,Cascade Precision ACT,"Precision ACT of the cascade configuration of the strategy, canonical run, %."
+paper_tables_rq2_architecture.csv,Cascade Forwarded,"Forwarded of the cascade configuration of the strategy, canonical run, %."
+paper_tables_rq2_architecture.csv,Δ cascade − flat,"Macro-F1 difference cascade − flat, canonical runs, points."
+paper_tables_rq2_architecture.csv,Δ cascade − flat CI low,"Lower 95% paired bootstrap bound of Δ cascade − flat, points."
+paper_tables_rq2_architecture.csv,Δ cascade − flat CI high,"Upper 95% paired bootstrap bound of Δ cascade − flat, points."
+paper_tables_rq2_architecture.csv,"p (Holm), cascade − flat [378-pair family]",Holm-adjusted exact McNemar p of cascade − flat within the 378-pair family.
+paper_tables_rq2_architecture.csv,Δ thresholded − flat,"Macro-F1 difference thresholded − flat, canonical runs, points."
+paper_tables_rq2_architecture.csv,Δ thresholded − flat CI low,"Lower 95% paired bootstrap bound of Δ thresholded − flat, points."
+paper_tables_rq2_architecture.csv,Δ thresholded − flat CI high,"Upper 95% paired bootstrap bound of Δ thresholded − flat, points."
+paper_tables_rq2_architecture.csv,"p (Holm), thresholded − flat [B1 family]",Holm-adjusted exact McNemar p of thresholded − flat within the B1 family.
+paper_tables_rq2_architecture.csv,Δ cascade − thresholded,"Macro-F1 difference cascade − thresholded, canonical runs, points."
+paper_tables_rq2_architecture.csv,Δ cascade − thresholded CI low,"Lower 95% paired bootstrap bound of Δ cascade − thresholded, points."
+paper_tables_rq2_architecture.csv,Δ cascade − thresholded CI high,"Upper 95% paired bootstrap bound of Δ cascade − thresholded, points."
+paper_tables_rq2_architecture.csv,"p (Holm), cascade − thresholded [B1 family]",Holm-adjusted exact McNemar p of cascade − thresholded within the B1 family.
+paper_tables_rq2_b1_configurations.csv,Set,"Evaluation set: Shopee hold-out (random sample, 1,000), Lazada (external app, 500) or Shopee focused (FEATURE/UX-enriched, 150)."
+paper_tables_rq2_b1_configurations.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_rq2_b1_configurations.csv,Architecture,"flat, cascade, hybrid (tier-1 and tier-2 models differ), routing, thresholded flat or calibrated cascade."
+paper_tables_rq2_b1_configurations.csv,n,Number of reviews scored.
+paper_tables_rq2_b1_configurations.csv,Macro-F1,"Unweighted mean of the per-class F1 of the canonical run (seed 42; single LLM run), %. Four classes end to end, three classes (BUG, FEATURE, UX on gold-actionable reviews) at tier 2."
+paper_tables_rq2_b1_configurations.csv,CI low,"Lower bound of the 95% paired percentile bootstrap interval (10,000 resamples of reviews, seed 42), %."
+paper_tables_rq2_b1_configurations.csv,CI high,"Upper bound of the 95% paired percentile bootstrap interval, %."
+paper_tables_rq2_b1_configurations.csv,F1 BUG,"F1 of class BUG on the canonical run, %."
+paper_tables_rq2_b1_configurations.csv,F1 FEATURE,"F1 of class FEATURE on the canonical run, %."
+paper_tables_rq2_b1_configurations.csv,F1 UX,"F1 of class UX on the canonical run, %."
+paper_tables_rq2_b1_configurations.csv,F1 OTHER,"F1 of class OTHER on the canonical run, %."
+paper_tables_rq2_b1_configurations.csv,Precision ACT,"Share of reviews predicted BUG, FEATURE or UX whose gold label is actionable, canonical run, %."
+paper_tables_rq2_b1_configurations.csv,Recall ACT,"Share of gold-actionable reviews predicted BUG, FEATURE or UX (any of the three), canonical run, %."
+paper_tables_rq2_b1_configurations.csv,Forwarded,"Share of reviews predicted actionable, i.e. forwarded to the development team, canonical run, %."
+paper_tables_rq2_b1_thresholds.csv,Strategy,"Classifier family: TF-IDF + linear model, Bi-LSTM with pretrained fastText, ViSoBERT, PhoBERT, LLM (GPT-4o-mini few-shot, temperature 0)."
+paper_tables_rq2_b1_thresholds.csv,Threshold t,"ACTIONABLE threshold on P(ACT) = 1 − P(OTHER) chosen on validation (seed 42) with the guarded tier-1 rule: recall ≥ 0.80, then the highest two-class Macro-F1."
+paper_tables_rq2_b1_thresholds.csv,Recall floor met on validation,Whether the chosen threshold reached ACTIONABLE recall ≥ 0.80 on validation.
+paper_tables_rq2_b1_thresholds.csv,Validation Recall ACT,"ACTIONABLE recall of the thresholded flat model on validation, seed 42, %."
+paper_tables_rq2_b1_thresholds.csv,Validation Precision ACT,"ACTIONABLE precision on validation, seed 42, %."
+paper_tables_rq2_b1_thresholds.csv,Validation Macro-F1 (argmax),"Four-class Macro-F1 on validation, flat argmax, seed 42, %."
+paper_tables_rq2_b1_thresholds.csv,Validation Macro-F1 (thresholded),"Four-class Macro-F1 on validation, thresholded flat, seed 42, %."
+paper_tables_rq2_b1_pairs.csv,Family,Holm family registered before scoring; p (Holm) is adjusted over every pair of that family.
+paper_tables_rq2_b1_pairs.csv,A,First configuration of the pair.
+paper_tables_rq2_b1_pairs.csv,B,Second configuration of the pair.
+paper_tables_rq2_b1_pairs.csv,Δ Macro-F1 (A − B),"Macro-F1 of A minus Macro-F1 of B on the canonical runs, percentage points."
+paper_tables_rq2_b1_pairs.csv,CI low,"Lower bound of the 95% paired percentile bootstrap interval (10,000 resamples of reviews, seed 42), %."
+paper_tables_rq2_b1_pairs.csv,CI high,"Upper bound of the 95% paired percentile bootstrap interval, %."
+paper_tables_rq2_b1_pairs.csv,CI contains 0,True when the 95% bootstrap interval of the difference contains zero (no difference detected; this does not establish equivalence).
+paper_tables_rq2_b1_pairs.csv,"A right, B wrong",Reviews labelled correctly by A and wrongly by B (McNemar discordant count).
+paper_tables_rq2_b1_pairs.csv,"A wrong, B right",Reviews labelled wrongly by A and correctly by B (McNemar discordant count).
+paper_tables_rq2_b1_pairs.csv,p (exact),Two-sided exact McNemar test on per-review correctness (not on Macro-F1).
+paper_tables_rq2_b1_pairs.csv,p (Holm),Holm-adjusted p within the family.
+paper_tables_rq2_b1_pairs.csv,Holm family size,Number of pairs in the Holm family.
+paper_tables_rq2_routing.csv,Set,"Evaluation set: Shopee hold-out (random sample, 1,000), Lazada (external app, 500) or Shopee focused (FEATURE/UX-enriched, 150)."
+paper_tables_rq2_routing.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_rq2_routing.csv,Macro-F1,"Unweighted mean of the per-class F1 of the canonical run (seed 42; single LLM run), %. Four classes end to end, three classes (BUG, FEATURE, UX on gold-actionable reviews) at tier 2."
+paper_tables_rq2_routing.csv,CI low,"Lower bound of the 95% paired percentile bootstrap interval (10,000 resamples of reviews, seed 42), %."
+paper_tables_rq2_routing.csv,CI high,"Upper bound of the 95% paired percentile bootstrap interval, %."
+paper_tables_rq2_routing.csv,F1 FEATURE,"F1 of class FEATURE on the canonical run, %."
+paper_tables_rq2_routing.csv,Precision ACT,"Share of reviews predicted BUG, FEATURE or UX whose gold label is actionable, canonical run, %."
+paper_tables_rq2_routing.csv,Recall ACT,"Share of gold-actionable reviews predicted BUG, FEATURE or UX (any of the three), canonical run, %."
+paper_tables_rq2_routing.csv,LLM share,"Share of reviews sent to the LLM by the routing policy, canonical run, %."
+paper_tables_rq2_routing.csv,LLM share (3-seed mean),"Mean over the three seeds of the share sent to the LLM, %; reported because it varies by seed."
+paper_tables_rq2_routing.csv,"API USD / 1,000 reviews","Measured API cost per 1,000 reviews of the LLM part (calls × measured tokens × price), USD."
+paper_tables_rq2_routing.csv,Calls,Number of reviews sent to the LLM.
+paper_tables_rq2_routing.csv,Random routing mean,"Mean Macro-F1 of 1,000 random routings with the same number of LLM calls (numpy default_rng 20261121), %."
+paper_tables_rq2_routing.csv,Random routing SD,"Standard deviation of Macro-F1 over the 1,000 random routings, percentage points."
+paper_tables_rq2_routing.csv,Random P2.5,"2.5th percentile of Macro-F1 over the random routings, %."
+paper_tables_rq2_routing.csv,Random P97.5,"97.5th percentile, %."
+paper_tables_rq2_routing.csv,Share random ≥ router,Share of random routings whose Macro-F1 is at least that of the router (empirical one-sided p).
+paper_tables_rq2_routing_pairs.csv,Family,Holm family registered before scoring; p (Holm) is adjusted over every pair of that family.
+paper_tables_rq2_routing_pairs.csv,A,First configuration of the pair.
+paper_tables_rq2_routing_pairs.csv,B,Second configuration of the pair.
+paper_tables_rq2_routing_pairs.csv,Δ Macro-F1 (A − B),"Macro-F1 of A minus Macro-F1 of B on the canonical runs, percentage points."
+paper_tables_rq2_routing_pairs.csv,CI low,"Lower bound of the 95% paired percentile bootstrap interval (10,000 resamples of reviews, seed 42), %."
+paper_tables_rq2_routing_pairs.csv,CI high,"Upper bound of the 95% paired percentile bootstrap interval, %."
+paper_tables_rq2_routing_pairs.csv,CI contains 0,True when the 95% bootstrap interval of the difference contains zero (no difference detected; this does not establish equivalence).
+paper_tables_rq2_routing_pairs.csv,"A right, B wrong",Reviews labelled correctly by A and wrongly by B (McNemar discordant count).
+paper_tables_rq2_routing_pairs.csv,"A wrong, B right",Reviews labelled wrongly by A and correctly by B (McNemar discordant count).
+paper_tables_rq2_routing_pairs.csv,p (exact),Two-sided exact McNemar test on per-review correctness (not on Macro-F1).
+paper_tables_rq2_routing_pairs.csv,p (Holm),Holm-adjusted p within the family.
+paper_tables_rq2_routing_pairs.csv,Holm family size,Number of pairs in the Holm family.
+paper_tables_app_routing_other_small.csv,Set,"Evaluation set: Shopee hold-out (random sample, 1,000), Lazada (external app, 500) or Shopee focused (FEATURE/UX-enriched, 150)."
+paper_tables_app_routing_other_small.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_app_routing_other_small.csv,Macro-F1,"Unweighted mean of the per-class F1 of the canonical run (seed 42; single LLM run), %. Four classes end to end, three classes (BUG, FEATURE, UX on gold-actionable reviews) at tier 2."
+paper_tables_app_routing_other_small.csv,CI low,"Lower bound of the 95% paired percentile bootstrap interval (10,000 resamples of reviews, seed 42), %."
+paper_tables_app_routing_other_small.csv,CI high,"Upper bound of the 95% paired percentile bootstrap interval, %."
+paper_tables_app_routing_other_small.csv,Precision ACT,"Share of reviews predicted BUG, FEATURE or UX whose gold label is actionable, canonical run, %."
+paper_tables_app_routing_other_small.csv,Recall ACT,"Share of gold-actionable reviews predicted BUG, FEATURE or UX (any of the three), canonical run, %."
+paper_tables_app_routing_other_small.csv,LLM share,"Share of reviews sent to the LLM by the routing policy, canonical run, %."
+paper_tables_app_routing_other_small.csv,LLM share (3-seed mean),"Mean over the three seeds of the share sent to the LLM, %; reported because it varies by seed."
+paper_tables_app_routing_other_small.csv,"API USD / 1,000 reviews","Measured API cost per 1,000 reviews of the LLM part (calls × measured tokens × price), USD."
+paper_tables_rq1_transfer.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_rq1_transfer.csv,Hold-out Macro-F1,"Canonical-run Macro-F1 on the Shopee hold-out, %."
+paper_tables_rq1_transfer.csv,Hold-out CI low,"95% CI lower bound on the hold-out, %."
+paper_tables_rq1_transfer.csv,Hold-out CI high,"95% CI upper bound on the hold-out, %."
+paper_tables_rq1_transfer.csv,Lazada Macro-F1,"Canonical-run Macro-F1 on Lazada, %."
+paper_tables_rq1_transfer.csv,Lazada CI low,"95% CI lower bound on Lazada, %."
+paper_tables_rq1_transfer.csv,Lazada CI high,"95% CI upper bound on Lazada, %."
+paper_tables_rq1_transfer.csv,Δ Lazada − hold-out,"Macro-F1 on Lazada minus Macro-F1 on the Shopee hold-out (canonical runs), percentage points."
+paper_tables_rq1_transfer.csv,Hold-out LLM share,"Share of hold-out reviews sent to the LLM (routers only), %."
+paper_tables_rq1_transfer.csv,Lazada LLM share,"Share of Lazada reviews sent to the LLM (routers only), %."
+paper_tables_app_calibration.csv,Set,"Evaluation set: Shopee hold-out (random sample, 1,000), Lazada (external app, 500) or Shopee focused (FEATURE/UX-enriched, 150)."
+paper_tables_app_calibration.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_app_calibration.csv,Architecture,"flat, cascade, hybrid (tier-1 and tier-2 models differ), routing, thresholded flat or calibrated cascade."
+paper_tables_app_calibration.csv,n,Number of reviews scored.
+paper_tables_app_calibration.csv,Macro-F1,"Unweighted mean of the per-class F1 of the canonical run (seed 42; single LLM run), %. Four classes end to end, three classes (BUG, FEATURE, UX on gold-actionable reviews) at tier 2."
+paper_tables_app_calibration.csv,CI low,"Lower bound of the 95% paired percentile bootstrap interval (10,000 resamples of reviews, seed 42), %."
+paper_tables_app_calibration.csv,CI high,"Upper bound of the 95% paired percentile bootstrap interval, %."
+paper_tables_app_calibration.csv,F1 BUG,"F1 of class BUG on the canonical run, %."
+paper_tables_app_calibration.csv,F1 FEATURE,"F1 of class FEATURE on the canonical run, %."
+paper_tables_app_calibration.csv,F1 UX,"F1 of class UX on the canonical run, %."
+paper_tables_app_calibration.csv,F1 OTHER,"F1 of class OTHER on the canonical run, %."
+paper_tables_app_calibration.csv,Precision ACT,"Share of reviews predicted BUG, FEATURE or UX whose gold label is actionable, canonical run, %."
+paper_tables_app_calibration.csv,Recall ACT,"Share of gold-actionable reviews predicted BUG, FEATURE or UX (any of the three), canonical run, %."
+paper_tables_app_calibration.csv,Forwarded,"Share of reviews predicted actionable, i.e. forwarded to the development team, canonical run, %."
+paper_tables_app_calibration_pairs.csv,Family,Holm family registered before scoring; p (Holm) is adjusted over every pair of that family.
+paper_tables_app_calibration_pairs.csv,A,First configuration of the pair.
+paper_tables_app_calibration_pairs.csv,B,Second configuration of the pair.
+paper_tables_app_calibration_pairs.csv,Δ Macro-F1 (A − B),"Macro-F1 of A minus Macro-F1 of B on the canonical runs, percentage points."
+paper_tables_app_calibration_pairs.csv,CI low,"Lower bound of the 95% paired percentile bootstrap interval (10,000 resamples of reviews, seed 42), %."
+paper_tables_app_calibration_pairs.csv,CI high,"Upper bound of the 95% paired percentile bootstrap interval, %."
+paper_tables_app_calibration_pairs.csv,CI contains 0,True when the 95% bootstrap interval of the difference contains zero (no difference detected; this does not establish equivalence).
+paper_tables_app_calibration_pairs.csv,"A right, B wrong",Reviews labelled correctly by A and wrongly by B (McNemar discordant count).
+paper_tables_app_calibration_pairs.csv,"A wrong, B right",Reviews labelled wrongly by A and correctly by B (McNemar discordant count).
+paper_tables_app_calibration_pairs.csv,p (exact),Two-sided exact McNemar test on per-review correctness (not on Macro-F1).
+paper_tables_app_calibration_pairs.csv,p (Holm),Holm-adjusted p within the family.
+paper_tables_app_calibration_pairs.csv,Holm family size,Number of pairs in the Holm family.
+paper_tables_app_calibration_ece.csv,Set,"Evaluation set: Shopee hold-out (random sample, 1,000), Lazada (external app, 500) or Shopee focused (FEATURE/UX-enriched, 150)."
+paper_tables_app_calibration_ece.csv,Strategy,"Classifier family: TF-IDF + linear model, Bi-LSTM with pretrained fastText, ViSoBERT, PhoBERT, LLM (GPT-4o-mini few-shot, temperature 0)."
+paper_tables_app_calibration_ece.csv,ECE before calibration,Expected calibration error of the raw tier-1 probability.
+paper_tables_app_calibration_ece.csv,ECE after calibration,Expected calibration error after temperature scaling.
+paper_tables_rq3_cost_drivers.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_rq3_cost_drivers.csv,"Macro-F1 (hold-out, %)","Canonical-run Macro-F1 on the Shopee hold-out used by the cost model, %."
+paper_tables_rq3_cost_drivers.csv,Hardware,Hardware that trains and serves the configuration.
+paper_tables_rq3_cost_drivers.csv,Initial labels,Labels needed before deployment.
+paper_tables_rq3_cost_drivers.csv,Labels over 12 months,Initial labels plus the labels of the drift checks over the horizon.
+paper_tables_rq3_cost_drivers.csv,Tuning runs,Grid-search runs whose training time is paid.
+paper_tables_rq3_cost_drivers.csv,Training seconds per run,"Measured training time of one run, seconds."
+paper_tables_rq3_cost_drivers.csv,"Inference seconds / 1,000 reviews","Measured inference time per 1,000 reviews, seconds."
+paper_tables_rq3_cost_drivers.csv,"API USD / 1,000 reviews","Measured API cost per 1,000 reviews of the LLM part (calls × measured tokens × price), USD."
+paper_tables_rq3_cost_drivers.csv,Fixed USD over 12 months (batch),"Labels, training and validation API passes over 12 months, batch deployment, USD."
+paper_tables_rq3_cost_drivers.csv,"Variable USD / 1,000 reviews (batch)","API and compute per 1,000 classified reviews, batch deployment, USD."
+paper_tables_rq3_cost_drivers.csv,Fixed USD over 12 months (always-on endpoint),"Fixed cost when the model is hosted on an always-on endpoint, USD."
+paper_tables_rq3_break_even.csv,Deployment,batch (pay compute per review) or endpoint (always-on host).
+paper_tables_rq3_break_even.csv,GPU USD per hour,"Assumed GPU price, USD per hour."
+paper_tables_rq3_break_even.csv,USD per label,"Assumed price of one label, USD."
+paper_tables_rq3_break_even.csv,A (trained or routed),Configuration with the higher fixed cost.
+paper_tables_rq3_break_even.csv,B (LLM),LLM configuration with the higher variable cost.
+paper_tables_rq3_break_even.csv,Break-even reviews per month,Monthly volume above which A is cheaper than B over 12 months (0: A always cheaper; inf: never).
+paper_tables_rq3_break_even.csv,Reading,Plain reading of the break-even value.
+paper_tables_rq3_cheapest.csv,Macro-F1 target (%),"Quality target on the hold-out Macro-F1 (canonical run), %."
+paper_tables_rq3_cheapest.csv,API allowed,Whether configurations that call the API may be chosen.
+paper_tables_rq3_cheapest.csv,Deployment,batch (pay compute per review) or endpoint (always-on host).
+paper_tables_rq3_cheapest.csv,GPU USD per hour,"Assumed GPU price, USD per hour."
+paper_tables_rq3_cheapest.csv,USD per label,"Assumed price of one label, USD."
+paper_tables_rq3_cheapest.csv,Reviews per month,Monthly review volume.
+paper_tables_rq3_cheapest.csv,Code,"Short code: T = TF-IDF, B = Bi-LSTM, V = ViSoBERT, P = PhoBERT, L = LLM; X→Y tier 1 X and tier 2 Y; P⇢L routing."
+paper_tables_rq3_cheapest.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_rq3_cheapest.csv,"Macro-F1 (hold-out, %)","Canonical-run Macro-F1 on the Shopee hold-out used by the cost model, %."
+paper_tables_rq3_cheapest.csv,Total USD over 12 months,"Total cost over 12 months, USD."
+paper_tables_rq3_target_sensitivity.csv,Deployment,batch (pay compute per review) or endpoint (always-on host).
+paper_tables_rq3_target_sensitivity.csv,Reviews per month,Monthly review volume.
+paper_tables_rq3_target_sensitivity.csv,Macro-F1 target (%),"Quality target on the hold-out Macro-F1 (canonical run), %."
+paper_tables_rq3_target_sensitivity.csv,API allowed,Whether configurations that call the API may be chosen.
+paper_tables_rq3_target_sensitivity.csv,"Cheapest, canonical-run Macro-F1",Cheapest configuration when the target is checked on the canonical-run Macro-F1.
+paper_tables_rq3_target_sensitivity.csv,"Cheapest, three-seed mean Macro-F1",Cheapest configuration when the target is checked on the three-seed mean.
+paper_tables_rq3_target_sensitivity.csv,Choice differs,True when the two choices differ.
+paper_tables_rq3_existing_labels.csv,Deployment,batch (pay compute per review) or endpoint (always-on host).
+paper_tables_rq3_existing_labels.csv,A (trained or routed),Configuration with the higher fixed cost.
+paper_tables_rq3_existing_labels.csv,B (LLM),LLM configuration with the higher variable cost.
+paper_tables_rq3_existing_labels.csv,"Break-even, labels purchased (reviews per month)",Break-even volume when every label is paid.
+paper_tables_rq3_existing_labels.csv,"Break-even, initial labels already available (reviews per month)",Break-even volume when the initial labels are already owned.
+paper_tables_rq3_existing_labels.csv,Reading,Plain reading of the break-even value.
+paper_tables_rq3_llm_price.csv,LLM price multiplier,Multiplier on the measured API price.
+paper_tables_rq3_llm_price.csv,Deployment,batch (pay compute per review) or endpoint (always-on host).
+paper_tables_rq3_llm_price.csv,A (trained or routed),Configuration with the higher fixed cost.
+paper_tables_rq3_llm_price.csv,B (LLM),LLM configuration with the higher variable cost.
+paper_tables_rq3_llm_price.csv,Break-even reviews per month,Monthly volume above which A is cheaper than B over 12 months (0: A always cheaper; inf: never).
+paper_tables_rq3_llm_price.csv,Reading,Plain reading of the break-even value.
+paper_tables_rq3_routing_rates.csv,Deployment,batch (pay compute per review) or endpoint (always-on host).
+paper_tables_rq3_routing_rates.csv,Reviews per month,Monthly review volume.
+paper_tables_rq3_routing_rates.csv,"Flat PhoBERT, total USD over 12 months","Total cost over 12 months at USD 0.10 per label and USD 0.35 per GPU hour, USD."
+paper_tables_rq3_routing_rates.csv,"PhoBERT ⇢ LLM (θmax), total USD over 12 months","Total cost over 12 months at USD 0.10 per label and USD 0.35 per GPU hour, USD."
+paper_tables_rq3_routing_rates.csv,"PhoBERT ⇢ LLM (θmax) [Lazada rate], total USD over 12 months","Total cost over 12 months at USD 0.10 per label and USD 0.35 per GPU hour, USD."
+paper_tables_rq3_routing_rates.csv,"Cascade LLM, total USD over 12 months","Total cost over 12 months at USD 0.10 per label and USD 0.35 per GPU hour, USD."
+paper_tables_rq3_routing_rates.csv,"Flat LLM, total USD over 12 months","Total cost over 12 months at USD 0.10 per label and USD 0.35 per GPU hour, USD."
+paper_tables_rq3_observed_scale.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_rq3_observed_scale.csv,"Macro-F1 (hold-out, %)","Canonical-run Macro-F1 on the Shopee hold-out used by the cost model, %."
+paper_tables_rq3_observed_scale.csv,API USD per month,"API cost per month at the observed volume, USD."
+paper_tables_rq3_observed_scale.csv,Total USD over 12 months (batch),"Total cost over 12 months at the observed volume, batch deployment, USD."
+paper_tables_rq3_observed_scale.csv,of which fixed (labels and training),"Fixed part of the total, USD."
+paper_tables_rq3_parameters.csv,Symbol,Symbol of the parameter.
+paper_tables_rq3_parameters.csv,Quantity,Quantity the parameter stands for.
+paper_tables_rq3_parameters.csv,Unit,Unit.
+paper_tables_rq3_parameters.csv,Value,Value or grid of values.
+paper_tables_rq3_parameters.csv,Status (measured or assumed),"measured from the runs, assumed scenario value, or limitation."
+paper_tables_rq3_parameters.csv,Source or note,Source of the value and remarks.
+paper_tables_app_per_seed.csv,Set,"Evaluation set: Shopee hold-out (random sample, 1,000), Lazada (external app, 500) or Shopee focused (FEATURE/UX-enriched, 150)."
+paper_tables_app_per_seed.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_app_per_seed.csv,Seed 42,"Macro-F1 of the run with seed 42 (canonical), %."
+paper_tables_app_per_seed.csv,Seed 1337,"Macro-F1 of the run with seed 1337, %."
+paper_tables_app_per_seed.csv,Seed 2024,"Macro-F1 of the run with seed 2024, %."
+paper_tables_app_per_seed.csv,Mean,"Mean Macro-F1 over the three seeds, %."
+paper_tables_app_per_seed.csv,SD,"Sample standard deviation over the three seeds, percentage points."
+paper_tables_app_per_seed.csv,Mean − seed 42,"Three-seed mean minus the canonical run, percentage points."
+paper_tables_app_per_seed.csv,Flag (|gap| > 2 points),True when the three-seed mean and the canonical run differ by more than 2 points.
+paper_tables_app_all_configurations.csv,Set,"Evaluation set: Shopee hold-out (random sample, 1,000), Lazada (external app, 500) or Shopee focused (FEATURE/UX-enriched, 150)."
+paper_tables_app_all_configurations.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_app_all_configurations.csv,Architecture,"flat, cascade, hybrid (tier-1 and tier-2 models differ), routing, thresholded flat or calibrated cascade."
+paper_tables_app_all_configurations.csv,n,Number of reviews scored.
+paper_tables_app_all_configurations.csv,Macro-F1,"Unweighted mean of the per-class F1 of the canonical run (seed 42; single LLM run), %. Four classes end to end, three classes (BUG, FEATURE, UX on gold-actionable reviews) at tier 2."
+paper_tables_app_all_configurations.csv,CI low,"Lower bound of the 95% paired percentile bootstrap interval (10,000 resamples of reviews, seed 42), %."
+paper_tables_app_all_configurations.csv,CI high,"Upper bound of the 95% paired percentile bootstrap interval, %."
+paper_tables_app_all_configurations.csv,F1 BUG,"F1 of class BUG on the canonical run, %."
+paper_tables_app_all_configurations.csv,F1 FEATURE,"F1 of class FEATURE on the canonical run, %."
+paper_tables_app_all_configurations.csv,F1 UX,"F1 of class UX on the canonical run, %."
+paper_tables_app_all_configurations.csv,F1 OTHER,"F1 of class OTHER on the canonical run, %."
+paper_tables_app_all_configurations.csv,Precision ACT,"Share of reviews predicted BUG, FEATURE or UX whose gold label is actionable, canonical run, %."
+paper_tables_app_all_configurations.csv,Recall ACT,"Share of gold-actionable reviews predicted BUG, FEATURE or UX (any of the three), canonical run, %."
+paper_tables_app_all_configurations.csv,Forwarded,"Share of reviews predicted actionable, i.e. forwarded to the development team, canonical run, %."
+paper_tables_app_all_configurations.csv,Accuracy,"Share of reviews with the correct four-class label, canonical run, %."
+paper_tables_app_all_configurations.csv,"API USD / 1,000 reviews (hold-out)","Measured API cost per 1,000 hold-out reviews, USD."
+paper_tables_app_all_configurations.csv,"Inference seconds / 1,000 reviews","Measured inference time per 1,000 reviews, seconds."
+paper_tables_app_all_configurations.csv,"Pareto-optimal (API USD, hold-out)",On the Pareto front of Macro-F1 against API cost.
+paper_tables_app_all_configurations.csv,"Pareto-optimal (inference time, hold-out)",On the Pareto front of Macro-F1 against inference time.
+paper_tables_app_errors.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_app_errors.csv,n,Number of reviews scored.
+paper_tables_app_errors.csv,Errors,Number of wrongly labelled reviews of the canonical run.
+paper_tables_app_errors.csv,Missed actionable,Gold BUG/FEATURE/UX predicted OTHER.
+paper_tables_app_errors.csv,Kept OTHER,"Gold OTHER predicted BUG, FEATURE or UX."
+paper_tables_app_errors.csv,Wrong type,Gold and prediction both actionable but different classes.
+paper_tables_app_errors.csv,Missed actionable (% of errors),"Missed actionable as a share of all errors, %."
+paper_tables_app_errors.csv,Kept OTHER (% of errors),"Kept OTHER as a share of all errors, %."
+paper_tables_app_errors.csv,Wrong type (% of errors),"Wrong type as a share of all errors, %."
+paper_tables_app_errors.csv,Set,"Evaluation set: Shopee hold-out (random sample, 1,000), Lazada (external app, 500) or Shopee focused (FEATURE/UX-enriched, 150)."
+paper_tables_app_confusion.csv,Configuration,"Flat X = one four-class model; Cascade X = tier 1 X then tier 2 X; X → Y = tier 1 X, tier 2 Y; X ⇢ LLM = routing: X labels every review and the LLM relabels the reviews selected by the policy in brackets; (thresholded) = flat model with the recall-oriented ACTIONABLE threshold; (calibrated) = temperature-scaled tier 1."
+paper_tables_app_confusion.csv,Gold,Gold class (row of the confusion matrix).
+paper_tables_app_confusion.csv,Predicted BUG,Reviews predicted BUG.
+paper_tables_app_confusion.csv,Predicted FEATURE,Reviews predicted FEATURE.
+paper_tables_app_confusion.csv,Predicted UX,Reviews predicted UX.
+paper_tables_app_confusion.csv,Predicted OTHER,Reviews predicted OTHER.
+paper_tables_app_confusion.csv,Set,"Evaluation set: Shopee hold-out (random sample, 1,000), Lazada (external app, 500) or Shopee focused (FEATURE/UX-enriched, 150)."

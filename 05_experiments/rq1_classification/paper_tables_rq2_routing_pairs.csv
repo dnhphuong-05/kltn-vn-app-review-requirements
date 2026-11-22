@@ -1,0 +1,63 @@
+﻿Family,A,B,Δ Macro-F1 (A − B),CI low,CI high,CI contains 0,"A right, B wrong","A wrong, B right",p (exact),p (Holm),Holm family size
+"Routing v4.1, Shopee hold-out (24 pairs)",PhoBERT ⇢ LLM (θmax),Flat PhoBERT,9.1,4.9,14.0,False,36,11,0.0003,0.0073,24
+"Routing v4.1, Shopee hold-out (24 pairs)",PhoBERT ⇢ LLM (θmax),Flat LLM,-0.0,-3.8,3.7,True,48,37,0.278,1.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",PhoBERT ⇢ LLM (θmax),Cascade LLM,-1.3,-6.0,3.2,True,41,47,0.5943,1.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,5.3,-0.0,10.8,True,48,41,0.525,1.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",PhoBERT ⇢ LLM (θ98),Flat PhoBERT,8.3,4.4,12.7,False,32,8,0.0002,0.004,24
+"Routing v4.1, Shopee hold-out (24 pairs)",PhoBERT ⇢ LLM (θ98),Flat LLM,-0.9,-5.1,3.2,True,51,41,0.3481,1.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",PhoBERT ⇢ LLM (θ98),Cascade LLM,-2.2,-7.2,2.8,True,44,51,0.5384,1.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,4.5,-0.7,9.9,True,50,44,0.6063,1.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",TF-IDF ⇢ LLM (θmax),Flat TF-IDF,14.0,9.3,18.9,False,66,21,0.0,0.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",TF-IDF ⇢ LLM (θmax),Flat LLM,-3.2,-7.6,0.9,True,40,32,0.4096,1.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",TF-IDF ⇢ LLM (θmax),Cascade LLM,-4.5,-9.5,0.1,True,39,48,0.3912,1.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",TF-IDF ⇢ LLM (θmax),LLM → PhoBERT,2.2,-4.0,8.4,True,49,45,0.7572,1.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",TF-IDF ⇢ LLM (θ98),Flat TF-IDF,10.8,6.6,15.2,False,53,19,0.0001,0.0017,24
+"Routing v4.1, Shopee hold-out (24 pairs)",TF-IDF ⇢ LLM (θ98),Flat LLM,-6.4,-11.2,-1.9,False,42,45,0.8304,1.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",TF-IDF ⇢ LLM (θ98),Cascade LLM,-7.7,-13.0,-2.8,False,39,59,0.0544,0.979,24
+"Routing v4.1, Shopee hold-out (24 pairs)",TF-IDF ⇢ LLM (θ98),LLM → PhoBERT,-1.0,-7.0,5.0,True,47,54,0.5507,1.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",ViSoBERT ⇢ LLM (θmax),Flat ViSoBERT,13.0,7.7,18.5,False,51,22,0.0009,0.0183,24
+"Routing v4.1, Shopee hold-out (24 pairs)",ViSoBERT ⇢ LLM (θmax),Flat LLM,-0.3,-4.0,3.3,True,47,32,0.1147,1.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",ViSoBERT ⇢ LLM (θmax),Cascade LLM,-1.6,-6.0,2.8,True,41,43,0.9132,1.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",ViSoBERT ⇢ LLM (θmax),LLM → PhoBERT,5.1,-0.2,10.6,True,49,38,0.2836,1.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",ViSoBERT ⇢ LLM (θ98),Flat ViSoBERT,8.9,4.6,13.6,False,37,16,0.0055,0.1042,24
+"Routing v4.1, Shopee hold-out (24 pairs)",ViSoBERT ⇢ LLM (θ98),Flat LLM,-4.3,-9.4,0.3,True,53,46,0.5467,1.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",ViSoBERT ⇢ LLM (θ98),Cascade LLM,-5.6,-10.9,-0.8,False,45,55,0.3682,1.0,24
+"Routing v4.1, Shopee hold-out (24 pairs)",ViSoBERT ⇢ LLM (θ98),LLM → PhoBERT,1.0,-4.8,6.8,True,52,49,0.8424,1.0,24
+"Routing v4.1, Lazada (24 pairs)",PhoBERT ⇢ LLM (θmax),Flat PhoBERT,-0.1,-8.0,7.6,True,17,26,0.2221,1.0,24
+"Routing v4.1, Lazada (24 pairs)",PhoBERT ⇢ LLM (θmax),Flat LLM,7.6,0.5,14.5,False,41,9,0.0,0.0001,24
+"Routing v4.1, Lazada (24 pairs)",PhoBERT ⇢ LLM (θmax),Cascade LLM,6.5,-0.1,13.4,True,37,19,0.0222,0.3559,24
+"Routing v4.1, Lazada (24 pairs)",PhoBERT ⇢ LLM (θmax),LLM → PhoBERT,8.0,1.2,15.0,False,40,17,0.0032,0.0544,24
+"Routing v4.1, Lazada (24 pairs)",PhoBERT ⇢ LLM (θ98),Flat PhoBERT,2.7,-4.3,9.6,True,17,19,0.8679,1.0,24
+"Routing v4.1, Lazada (24 pairs)",PhoBERT ⇢ LLM (θ98),Flat LLM,10.4,3.0,17.5,False,48,9,0.0,0.0,24
+"Routing v4.1, Lazada (24 pairs)",PhoBERT ⇢ LLM (θ98),Cascade LLM,9.3,2.1,16.7,False,41,16,0.0013,0.024,24
+"Routing v4.1, Lazada (24 pairs)",PhoBERT ⇢ LLM (θ98),LLM → PhoBERT,10.8,4.9,17.6,False,43,13,0.0001,0.0015,24
+"Routing v4.1, Lazada (24 pairs)",TF-IDF ⇢ LLM (θmax),Flat TF-IDF,5.6,-1.0,12.0,True,34,29,0.6147,1.0,24
+"Routing v4.1, Lazada (24 pairs)",TF-IDF ⇢ LLM (θmax),Flat LLM,2.2,-2.5,7.3,True,31,15,0.0259,0.3625,24
+"Routing v4.1, Lazada (24 pairs)",TF-IDF ⇢ LLM (θmax),Cascade LLM,1.2,-5.5,8.0,True,27,25,0.8899,1.0,24
+"Routing v4.1, Lazada (24 pairs)",TF-IDF ⇢ LLM (θmax),LLM → PhoBERT,2.7,-5.2,10.9,True,31,24,0.4188,1.0,24
+"Routing v4.1, Lazada (24 pairs)",TF-IDF ⇢ LLM (θ98),Flat TF-IDF,4.9,-1.4,11.1,True,30,24,0.4966,1.0,24
+"Routing v4.1, Lazada (24 pairs)",TF-IDF ⇢ LLM (θ98),Flat LLM,1.6,-3.2,6.8,True,36,19,0.03,0.3904,24
+"Routing v4.1, Lazada (24 pairs)",TF-IDF ⇢ LLM (θ98),Cascade LLM,0.5,-6.2,7.4,True,31,28,0.7948,1.0,24
+"Routing v4.1, Lazada (24 pairs)",TF-IDF ⇢ LLM (θ98),LLM → PhoBERT,2.0,-5.9,10.2,True,35,27,0.3742,1.0,24
+"Routing v4.1, Lazada (24 pairs)",ViSoBERT ⇢ LLM (θmax),Flat ViSoBERT,0.4,-6.4,7.3,True,15,29,0.0488,0.5364,24
+"Routing v4.1, Lazada (24 pairs)",ViSoBERT ⇢ LLM (θmax),Flat LLM,6.6,-1.4,14.6,True,36,11,0.0003,0.0069,24
+"Routing v4.1, Lazada (24 pairs)",ViSoBERT ⇢ LLM (θmax),Cascade LLM,5.5,-3.5,14.6,True,31,20,0.1608,1.0,24
+"Routing v4.1, Lazada (24 pairs)",ViSoBERT ⇢ LLM (θmax),LLM → PhoBERT,7.0,-1.2,15.5,True,34,18,0.0365,0.4378,24
+"Routing v4.1, Lazada (24 pairs)",ViSoBERT ⇢ LLM (θ98),Flat ViSoBERT,2.1,-2.9,7.5,True,11,17,0.3449,1.0,24
+"Routing v4.1, Lazada (24 pairs)",ViSoBERT ⇢ LLM (θ98),Flat LLM,8.2,-0.5,16.8,True,48,15,0.0,0.0008,24
+"Routing v4.1, Lazada (24 pairs)",ViSoBERT ⇢ LLM (θ98),Cascade LLM,7.2,-1.4,15.7,True,41,22,0.0226,0.3559,24
+"Routing v4.1, Lazada (24 pairs)",ViSoBERT ⇢ LLM (θ98),LLM → PhoBERT,8.7,1.7,16.0,False,42,18,0.0027,0.0481,24
+"B2, Shopee hold-out (7 pairs)","PhoBERT ⇢ LLM (confidence, disagreement budget)",PhoBERT ⇢ LLM (disagreement),-0.1,-4.3,4.2,True,12,13,1.0,1.0,7
+"B2, Shopee hold-out (7 pairs)",PhoBERT ⇢ LLM (θmax),Flat PhoBERT,9.1,4.9,14.0,False,36,11,0.0003,0.0017,7
+"B2, Shopee hold-out (7 pairs)",PhoBERT ⇢ LLM (θmax),Flat LLM,-0.0,-3.8,3.7,True,48,37,0.278,1.0,7
+"B2, Shopee hold-out (7 pairs)",PhoBERT ⇢ LLM (θ98),Flat PhoBERT,8.3,4.4,12.7,False,32,8,0.0002,0.0011,7
+"B2, Shopee hold-out (7 pairs)",PhoBERT ⇢ LLM (θ98),Flat LLM,-0.9,-5.1,3.2,True,51,41,0.3481,1.0,7
+"B2, Shopee hold-out (7 pairs)",PhoBERT ⇢ LLM (disagreement),Flat PhoBERT,7.0,3.3,11.1,False,26,4,0.0001,0.0004,7
+"B2, Shopee hold-out (7 pairs)",PhoBERT ⇢ LLM (disagreement),Flat LLM,-2.2,-6.8,2.2,True,55,47,0.4884,1.0,7
+"B2, Lazada (7 pairs)","PhoBERT ⇢ LLM (confidence, disagreement budget)",PhoBERT ⇢ LLM (disagreement),-1.9,-5.8,1.8,True,10,12,0.8318,1.0,7
+"B2, Lazada (7 pairs)",PhoBERT ⇢ LLM (θmax),Flat PhoBERT,-0.1,-8.0,7.6,True,17,26,0.2221,0.8882,7
+"B2, Lazada (7 pairs)",PhoBERT ⇢ LLM (θmax),Flat LLM,7.6,0.5,14.5,False,41,9,0.0,0.0,7
+"B2, Lazada (7 pairs)",PhoBERT ⇢ LLM (θ98),Flat PhoBERT,2.7,-4.3,9.6,True,17,19,0.8679,1.0,7
+"B2, Lazada (7 pairs)",PhoBERT ⇢ LLM (θ98),Flat LLM,10.4,3.0,17.5,False,48,9,0.0,0.0,7
+"B2, Lazada (7 pairs)",PhoBERT ⇢ LLM (disagreement),Flat PhoBERT,5.7,0.6,11.4,False,13,8,0.3833,1.0,7
+"B2, Lazada (7 pairs)",PhoBERT ⇢ LLM (disagreement),Flat LLM,13.4,5.3,21.5,False,59,13,0.0,0.0,7

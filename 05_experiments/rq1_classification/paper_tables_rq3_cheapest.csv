@@ -1,0 +1,401 @@
+﻿Macro-F1 target (%),API allowed,Deployment,GPU USD per hour,USD per label,Reviews per month,Code,Configuration,"Macro-F1 (hold-out, %)",Total USD over 12 months
+60,True,batch,0.35,0.02,1000,L→L,Cascade LLM,81.289,16.961
+60,True,batch,0.35,0.02,10000,L→L,Cascade LLM,81.289,39.254
+60,True,batch,0.35,0.02,100000,P flat,Flat PhoBERT,70.819,44.283
+60,True,batch,0.35,0.02,1000000,P flat,Flat PhoBERT,70.819,46.402
+60,True,batch,0.35,0.05,1000,L→L,Cascade LLM,81.289,38.471
+60,True,batch,0.35,0.05,10000,L→L,Cascade LLM,81.289,60.764
+60,True,batch,0.35,0.05,100000,P flat,Flat PhoBERT,70.819,110.283
+60,True,batch,0.35,0.05,1000000,P flat,Flat PhoBERT,70.819,112.402
+60,True,batch,0.35,0.1,1000,L→L,Cascade LLM,81.289,74.321
+60,True,batch,0.35,0.1,10000,L→L,Cascade LLM,81.289,96.614
+60,True,batch,0.35,0.1,100000,P flat,Flat PhoBERT,70.819,220.283
+60,True,batch,0.35,0.1,1000000,P flat,Flat PhoBERT,70.819,222.402
+60,True,batch,0.35,0.2,1000,L→L,Cascade LLM,81.289,146.021
+60,True,batch,0.35,0.2,10000,L→L,Cascade LLM,81.289,168.314
+60,True,batch,0.35,0.2,100000,L→L,Cascade LLM,81.289,391.244
+60,True,batch,0.35,0.2,1000000,P flat,Flat PhoBERT,70.819,442.402
+60,True,batch,0.35,0.5,1000,L→L,Cascade LLM,81.289,361.121
+60,True,batch,0.35,0.5,10000,L→L,Cascade LLM,81.289,383.414
+60,True,batch,0.35,0.5,100000,L→L,Cascade LLM,81.289,606.344
+60,True,batch,0.35,0.5,1000000,P flat,Flat PhoBERT,70.819,1102.402
+60,True,batch,1.0,0.02,1000,L→L,Cascade LLM,81.289,16.961
+60,True,batch,1.0,0.02,10000,L→L,Cascade LLM,81.289,39.254
+60,True,batch,1.0,0.02,100000,P flat,Flat PhoBERT,70.819,44.809
+60,True,batch,1.0,0.02,1000000,P flat,Flat PhoBERT,70.819,50.863
+60,True,batch,1.0,0.05,1000,L→L,Cascade LLM,81.289,38.471
+60,True,batch,1.0,0.05,10000,L→L,Cascade LLM,81.289,60.764
+60,True,batch,1.0,0.05,100000,P flat,Flat PhoBERT,70.819,110.809
+60,True,batch,1.0,0.05,1000000,P flat,Flat PhoBERT,70.819,116.863
+60,True,batch,1.0,0.1,1000,L→L,Cascade LLM,81.289,74.321
+60,True,batch,1.0,0.1,10000,L→L,Cascade LLM,81.289,96.614
+60,True,batch,1.0,0.1,100000,P flat,Flat PhoBERT,70.819,220.809
+60,True,batch,1.0,0.1,1000000,P flat,Flat PhoBERT,70.819,226.863
+60,True,batch,1.0,0.2,1000,L→L,Cascade LLM,81.289,146.021
+60,True,batch,1.0,0.2,10000,L→L,Cascade LLM,81.289,168.314
+60,True,batch,1.0,0.2,100000,L→L,Cascade LLM,81.289,391.244
+60,True,batch,1.0,0.2,1000000,P flat,Flat PhoBERT,70.819,446.863
+60,True,batch,1.0,0.5,1000,L→L,Cascade LLM,81.289,361.121
+60,True,batch,1.0,0.5,10000,L→L,Cascade LLM,81.289,383.414
+60,True,batch,1.0,0.5,100000,L→L,Cascade LLM,81.289,606.344
+60,True,batch,1.0,0.5,1000000,P flat,Flat PhoBERT,70.819,1106.863
+60,True,endpoint,0.35,0.02,1000,L→L,Cascade LLM,81.289,16.961
+60,True,endpoint,0.35,0.02,10000,L→L,Cascade LLM,81.289,39.254
+60,True,endpoint,0.35,0.02,100000,L→L,Cascade LLM,81.289,262.184
+60,True,endpoint,0.35,0.02,1000000,T flat,Flat TF-IDF,62.753,482.0
+60,True,endpoint,0.35,0.05,1000,L→L,Cascade LLM,81.289,38.471
+60,True,endpoint,0.35,0.05,10000,L→L,Cascade LLM,81.289,60.764
+60,True,endpoint,0.35,0.05,100000,L→L,Cascade LLM,81.289,283.694
+60,True,endpoint,0.35,0.05,1000000,T flat,Flat TF-IDF,62.753,548.0
+60,True,endpoint,0.35,0.1,1000,L→L,Cascade LLM,81.289,74.321
+60,True,endpoint,0.35,0.1,10000,L→L,Cascade LLM,81.289,96.614
+60,True,endpoint,0.35,0.1,100000,L→L,Cascade LLM,81.289,319.544
+60,True,endpoint,0.35,0.1,1000000,T flat,Flat TF-IDF,62.753,658.0
+60,True,endpoint,0.35,0.2,1000,L→L,Cascade LLM,81.289,146.021
+60,True,endpoint,0.35,0.2,10000,L→L,Cascade LLM,81.289,168.314
+60,True,endpoint,0.35,0.2,100000,L→L,Cascade LLM,81.289,391.244
+60,True,endpoint,0.35,0.2,1000000,T flat,Flat TF-IDF,62.753,878.0
+60,True,endpoint,0.35,0.5,1000,L→L,Cascade LLM,81.289,361.121
+60,True,endpoint,0.35,0.5,10000,L→L,Cascade LLM,81.289,383.414
+60,True,endpoint,0.35,0.5,100000,L→L,Cascade LLM,81.289,606.344
+60,True,endpoint,0.35,0.5,1000000,T flat,Flat TF-IDF,62.753,1538.0
+60,True,endpoint,1.0,0.02,1000,L→L,Cascade LLM,81.289,16.961
+60,True,endpoint,1.0,0.02,10000,L→L,Cascade LLM,81.289,39.254
+60,True,endpoint,1.0,0.02,100000,L→L,Cascade LLM,81.289,262.184
+60,True,endpoint,1.0,0.02,1000000,T flat,Flat TF-IDF,62.753,482.0
+60,True,endpoint,1.0,0.05,1000,L→L,Cascade LLM,81.289,38.471
+60,True,endpoint,1.0,0.05,10000,L→L,Cascade LLM,81.289,60.764
+60,True,endpoint,1.0,0.05,100000,L→L,Cascade LLM,81.289,283.694
+60,True,endpoint,1.0,0.05,1000000,T flat,Flat TF-IDF,62.753,548.0
+60,True,endpoint,1.0,0.1,1000,L→L,Cascade LLM,81.289,74.321
+60,True,endpoint,1.0,0.1,10000,L→L,Cascade LLM,81.289,96.614
+60,True,endpoint,1.0,0.1,100000,L→L,Cascade LLM,81.289,319.544
+60,True,endpoint,1.0,0.1,1000000,T flat,Flat TF-IDF,62.753,658.0
+60,True,endpoint,1.0,0.2,1000,L→L,Cascade LLM,81.289,146.021
+60,True,endpoint,1.0,0.2,10000,L→L,Cascade LLM,81.289,168.314
+60,True,endpoint,1.0,0.2,100000,L→L,Cascade LLM,81.289,391.244
+60,True,endpoint,1.0,0.2,1000000,T flat,Flat TF-IDF,62.753,878.0
+60,True,endpoint,1.0,0.5,1000,L→L,Cascade LLM,81.289,361.121
+60,True,endpoint,1.0,0.5,10000,L→L,Cascade LLM,81.289,383.414
+60,True,endpoint,1.0,0.5,100000,L→L,Cascade LLM,81.289,606.344
+60,True,endpoint,1.0,0.5,1000000,T flat,Flat TF-IDF,62.753,1538.0
+60,False,batch,0.35,0.02,1000,P flat,Flat PhoBERT,70.819,44.05
+60,False,batch,0.35,0.02,10000,P flat,Flat PhoBERT,70.819,44.071
+60,False,batch,0.35,0.02,100000,P flat,Flat PhoBERT,70.819,44.283
+60,False,batch,0.35,0.02,1000000,P flat,Flat PhoBERT,70.819,46.402
+60,False,batch,0.35,0.05,1000,P flat,Flat PhoBERT,70.819,110.05
+60,False,batch,0.35,0.05,10000,P flat,Flat PhoBERT,70.819,110.071
+60,False,batch,0.35,0.05,100000,P flat,Flat PhoBERT,70.819,110.283
+60,False,batch,0.35,0.05,1000000,P flat,Flat PhoBERT,70.819,112.402
+60,False,batch,0.35,0.1,1000,P flat,Flat PhoBERT,70.819,220.05
+60,False,batch,0.35,0.1,10000,P flat,Flat PhoBERT,70.819,220.071
+60,False,batch,0.35,0.1,100000,P flat,Flat PhoBERT,70.819,220.283
+60,False,batch,0.35,0.1,1000000,P flat,Flat PhoBERT,70.819,222.402
+60,False,batch,0.35,0.2,1000,P flat,Flat PhoBERT,70.819,440.05
+60,False,batch,0.35,0.2,10000,P flat,Flat PhoBERT,70.819,440.071
+60,False,batch,0.35,0.2,100000,P flat,Flat PhoBERT,70.819,440.283
+60,False,batch,0.35,0.2,1000000,P flat,Flat PhoBERT,70.819,442.402
+60,False,batch,0.35,0.5,1000,P flat,Flat PhoBERT,70.819,1100.05
+60,False,batch,0.35,0.5,10000,P flat,Flat PhoBERT,70.819,1100.071
+60,False,batch,0.35,0.5,100000,P flat,Flat PhoBERT,70.819,1100.283
+60,False,batch,0.35,0.5,1000000,P flat,Flat PhoBERT,70.819,1102.402
+60,False,batch,1.0,0.02,1000,P flat,Flat PhoBERT,70.819,44.143
+60,False,batch,1.0,0.02,10000,P flat,Flat PhoBERT,70.819,44.203
+60,False,batch,1.0,0.02,100000,P flat,Flat PhoBERT,70.819,44.809
+60,False,batch,1.0,0.02,1000000,P flat,Flat PhoBERT,70.819,50.863
+60,False,batch,1.0,0.05,1000,P flat,Flat PhoBERT,70.819,110.143
+60,False,batch,1.0,0.05,10000,P flat,Flat PhoBERT,70.819,110.203
+60,False,batch,1.0,0.05,100000,P flat,Flat PhoBERT,70.819,110.809
+60,False,batch,1.0,0.05,1000000,P flat,Flat PhoBERT,70.819,116.863
+60,False,batch,1.0,0.1,1000,P flat,Flat PhoBERT,70.819,220.143
+60,False,batch,1.0,0.1,10000,P flat,Flat PhoBERT,70.819,220.203
+60,False,batch,1.0,0.1,100000,P flat,Flat PhoBERT,70.819,220.809
+60,False,batch,1.0,0.1,1000000,P flat,Flat PhoBERT,70.819,226.863
+60,False,batch,1.0,0.2,1000,P flat,Flat PhoBERT,70.819,440.143
+60,False,batch,1.0,0.2,10000,P flat,Flat PhoBERT,70.819,440.203
+60,False,batch,1.0,0.2,100000,P flat,Flat PhoBERT,70.819,440.809
+60,False,batch,1.0,0.2,1000000,P flat,Flat PhoBERT,70.819,446.863
+60,False,batch,1.0,0.5,1000,P flat,Flat PhoBERT,70.819,1100.143
+60,False,batch,1.0,0.5,10000,P flat,Flat PhoBERT,70.819,1100.203
+60,False,batch,1.0,0.5,100000,P flat,Flat PhoBERT,70.819,1100.809
+60,False,batch,1.0,0.5,1000000,P flat,Flat PhoBERT,70.819,1106.863
+60,False,endpoint,0.35,0.02,1000,T flat,Flat TF-IDF,62.753,482.0
+60,False,endpoint,0.35,0.02,10000,T flat,Flat TF-IDF,62.753,482.0
+60,False,endpoint,0.35,0.02,100000,T flat,Flat TF-IDF,62.753,482.0
+60,False,endpoint,0.35,0.02,1000000,T flat,Flat TF-IDF,62.753,482.0
+60,False,endpoint,0.35,0.05,1000,T flat,Flat TF-IDF,62.753,548.0
+60,False,endpoint,0.35,0.05,10000,T flat,Flat TF-IDF,62.753,548.0
+60,False,endpoint,0.35,0.05,100000,T flat,Flat TF-IDF,62.753,548.0
+60,False,endpoint,0.35,0.05,1000000,T flat,Flat TF-IDF,62.753,548.0
+60,False,endpoint,0.35,0.1,1000,T flat,Flat TF-IDF,62.753,658.0
+60,False,endpoint,0.35,0.1,10000,T flat,Flat TF-IDF,62.753,658.0
+60,False,endpoint,0.35,0.1,100000,T flat,Flat TF-IDF,62.753,658.0
+60,False,endpoint,0.35,0.1,1000000,T flat,Flat TF-IDF,62.753,658.0
+60,False,endpoint,0.35,0.2,1000,T flat,Flat TF-IDF,62.753,878.0
+60,False,endpoint,0.35,0.2,10000,T flat,Flat TF-IDF,62.753,878.0
+60,False,endpoint,0.35,0.2,100000,T flat,Flat TF-IDF,62.753,878.0
+60,False,endpoint,0.35,0.2,1000000,T flat,Flat TF-IDF,62.753,878.0
+60,False,endpoint,0.35,0.5,1000,T flat,Flat TF-IDF,62.753,1538.0
+60,False,endpoint,0.35,0.5,10000,T flat,Flat TF-IDF,62.753,1538.0
+60,False,endpoint,0.35,0.5,100000,T flat,Flat TF-IDF,62.753,1538.0
+60,False,endpoint,0.35,0.5,1000000,T flat,Flat TF-IDF,62.753,1538.0
+60,False,endpoint,1.0,0.02,1000,T flat,Flat TF-IDF,62.753,482.0
+60,False,endpoint,1.0,0.02,10000,T flat,Flat TF-IDF,62.753,482.0
+60,False,endpoint,1.0,0.02,100000,T flat,Flat TF-IDF,62.753,482.0
+60,False,endpoint,1.0,0.02,1000000,T flat,Flat TF-IDF,62.753,482.0
+60,False,endpoint,1.0,0.05,1000,T flat,Flat TF-IDF,62.753,548.0
+60,False,endpoint,1.0,0.05,10000,T flat,Flat TF-IDF,62.753,548.0
+60,False,endpoint,1.0,0.05,100000,T flat,Flat TF-IDF,62.753,548.0
+60,False,endpoint,1.0,0.05,1000000,T flat,Flat TF-IDF,62.753,548.0
+60,False,endpoint,1.0,0.1,1000,T flat,Flat TF-IDF,62.753,658.0
+60,False,endpoint,1.0,0.1,10000,T flat,Flat TF-IDF,62.753,658.0
+60,False,endpoint,1.0,0.1,100000,T flat,Flat TF-IDF,62.753,658.0
+60,False,endpoint,1.0,0.1,1000000,T flat,Flat TF-IDF,62.753,658.0
+60,False,endpoint,1.0,0.2,1000,T flat,Flat TF-IDF,62.753,878.0
+60,False,endpoint,1.0,0.2,10000,T flat,Flat TF-IDF,62.753,878.0
+60,False,endpoint,1.0,0.2,100000,T flat,Flat TF-IDF,62.753,878.0
+60,False,endpoint,1.0,0.2,1000000,T flat,Flat TF-IDF,62.753,878.0
+60,False,endpoint,1.0,0.5,1000,T flat,Flat TF-IDF,62.753,1538.0
+60,False,endpoint,1.0,0.5,10000,T flat,Flat TF-IDF,62.753,1538.0
+60,False,endpoint,1.0,0.5,100000,T flat,Flat TF-IDF,62.753,1538.0
+60,False,endpoint,1.0,0.5,1000000,T flat,Flat TF-IDF,62.753,1538.0
+70,True,batch,0.35,0.02,1000,L→L,Cascade LLM,81.289,16.961
+70,True,batch,0.35,0.02,10000,L→L,Cascade LLM,81.289,39.254
+70,True,batch,0.35,0.02,100000,P flat,Flat PhoBERT,70.819,44.283
+70,True,batch,0.35,0.02,1000000,P flat,Flat PhoBERT,70.819,46.402
+70,True,batch,0.35,0.05,1000,L→L,Cascade LLM,81.289,38.471
+70,True,batch,0.35,0.05,10000,L→L,Cascade LLM,81.289,60.764
+70,True,batch,0.35,0.05,100000,P flat,Flat PhoBERT,70.819,110.283
+70,True,batch,0.35,0.05,1000000,P flat,Flat PhoBERT,70.819,112.402
+70,True,batch,0.35,0.1,1000,L→L,Cascade LLM,81.289,74.321
+70,True,batch,0.35,0.1,10000,L→L,Cascade LLM,81.289,96.614
+70,True,batch,0.35,0.1,100000,P flat,Flat PhoBERT,70.819,220.283
+70,True,batch,0.35,0.1,1000000,P flat,Flat PhoBERT,70.819,222.402
+70,True,batch,0.35,0.2,1000,L→L,Cascade LLM,81.289,146.021
+70,True,batch,0.35,0.2,10000,L→L,Cascade LLM,81.289,168.314
+70,True,batch,0.35,0.2,100000,L→L,Cascade LLM,81.289,391.244
+70,True,batch,0.35,0.2,1000000,P flat,Flat PhoBERT,70.819,442.402
+70,True,batch,0.35,0.5,1000,L→L,Cascade LLM,81.289,361.121
+70,True,batch,0.35,0.5,10000,L→L,Cascade LLM,81.289,383.414
+70,True,batch,0.35,0.5,100000,L→L,Cascade LLM,81.289,606.344
+70,True,batch,0.35,0.5,1000000,P flat,Flat PhoBERT,70.819,1102.402
+70,True,batch,1.0,0.02,1000,L→L,Cascade LLM,81.289,16.961
+70,True,batch,1.0,0.02,10000,L→L,Cascade LLM,81.289,39.254
+70,True,batch,1.0,0.02,100000,P flat,Flat PhoBERT,70.819,44.809
+70,True,batch,1.0,0.02,1000000,P flat,Flat PhoBERT,70.819,50.863
+70,True,batch,1.0,0.05,1000,L→L,Cascade LLM,81.289,38.471
+70,True,batch,1.0,0.05,10000,L→L,Cascade LLM,81.289,60.764
+70,True,batch,1.0,0.05,100000,P flat,Flat PhoBERT,70.819,110.809
+70,True,batch,1.0,0.05,1000000,P flat,Flat PhoBERT,70.819,116.863
+70,True,batch,1.0,0.1,1000,L→L,Cascade LLM,81.289,74.321
+70,True,batch,1.0,0.1,10000,L→L,Cascade LLM,81.289,96.614
+70,True,batch,1.0,0.1,100000,P flat,Flat PhoBERT,70.819,220.809
+70,True,batch,1.0,0.1,1000000,P flat,Flat PhoBERT,70.819,226.863
+70,True,batch,1.0,0.2,1000,L→L,Cascade LLM,81.289,146.021
+70,True,batch,1.0,0.2,10000,L→L,Cascade LLM,81.289,168.314
+70,True,batch,1.0,0.2,100000,L→L,Cascade LLM,81.289,391.244
+70,True,batch,1.0,0.2,1000000,P flat,Flat PhoBERT,70.819,446.863
+70,True,batch,1.0,0.5,1000,L→L,Cascade LLM,81.289,361.121
+70,True,batch,1.0,0.5,10000,L→L,Cascade LLM,81.289,383.414
+70,True,batch,1.0,0.5,100000,L→L,Cascade LLM,81.289,606.344
+70,True,batch,1.0,0.5,1000000,P flat,Flat PhoBERT,70.819,1106.863
+70,True,endpoint,0.35,0.02,1000,L→L,Cascade LLM,81.289,16.961
+70,True,endpoint,0.35,0.02,10000,L→L,Cascade LLM,81.289,39.254
+70,True,endpoint,0.35,0.02,100000,L→L,Cascade LLM,81.289,262.184
+70,True,endpoint,0.35,0.02,1000000,T⇢L θ98,TF-IDF ⇢ LLM (θ98),73.585,1021.661
+70,True,endpoint,0.35,0.05,1000,L→L,Cascade LLM,81.289,38.471
+70,True,endpoint,0.35,0.05,10000,L→L,Cascade LLM,81.289,60.764
+70,True,endpoint,0.35,0.05,100000,L→L,Cascade LLM,81.289,283.694
+70,True,endpoint,0.35,0.05,1000000,T⇢L θ98,TF-IDF ⇢ LLM (θ98),73.585,1087.661
+70,True,endpoint,0.35,0.1,1000,L→L,Cascade LLM,81.289,74.321
+70,True,endpoint,0.35,0.1,10000,L→L,Cascade LLM,81.289,96.614
+70,True,endpoint,0.35,0.1,100000,L→L,Cascade LLM,81.289,319.544
+70,True,endpoint,0.35,0.1,1000000,T⇢L θ98,TF-IDF ⇢ LLM (θ98),73.585,1197.661
+70,True,endpoint,0.35,0.2,1000,L→L,Cascade LLM,81.289,146.021
+70,True,endpoint,0.35,0.2,10000,L→L,Cascade LLM,81.289,168.314
+70,True,endpoint,0.35,0.2,100000,L→L,Cascade LLM,81.289,391.244
+70,True,endpoint,0.35,0.2,1000000,T⇢L θ98,TF-IDF ⇢ LLM (θ98),73.585,1417.661
+70,True,endpoint,0.35,0.5,1000,L→L,Cascade LLM,81.289,361.121
+70,True,endpoint,0.35,0.5,10000,L→L,Cascade LLM,81.289,383.414
+70,True,endpoint,0.35,0.5,100000,L→L,Cascade LLM,81.289,606.344
+70,True,endpoint,0.35,0.5,1000000,T⇢L θ98,TF-IDF ⇢ LLM (θ98),73.585,2077.661
+70,True,endpoint,1.0,0.02,1000,L→L,Cascade LLM,81.289,16.961
+70,True,endpoint,1.0,0.02,10000,L→L,Cascade LLM,81.289,39.254
+70,True,endpoint,1.0,0.02,100000,L→L,Cascade LLM,81.289,262.184
+70,True,endpoint,1.0,0.02,1000000,T⇢L θ98,TF-IDF ⇢ LLM (θ98),73.585,1021.661
+70,True,endpoint,1.0,0.05,1000,L→L,Cascade LLM,81.289,38.471
+70,True,endpoint,1.0,0.05,10000,L→L,Cascade LLM,81.289,60.764
+70,True,endpoint,1.0,0.05,100000,L→L,Cascade LLM,81.289,283.694
+70,True,endpoint,1.0,0.05,1000000,T⇢L θ98,TF-IDF ⇢ LLM (θ98),73.585,1087.661
+70,True,endpoint,1.0,0.1,1000,L→L,Cascade LLM,81.289,74.321
+70,True,endpoint,1.0,0.1,10000,L→L,Cascade LLM,81.289,96.614
+70,True,endpoint,1.0,0.1,100000,L→L,Cascade LLM,81.289,319.544
+70,True,endpoint,1.0,0.1,1000000,T⇢L θ98,TF-IDF ⇢ LLM (θ98),73.585,1197.661
+70,True,endpoint,1.0,0.2,1000,L→L,Cascade LLM,81.289,146.021
+70,True,endpoint,1.0,0.2,10000,L→L,Cascade LLM,81.289,168.314
+70,True,endpoint,1.0,0.2,100000,L→L,Cascade LLM,81.289,391.244
+70,True,endpoint,1.0,0.2,1000000,T⇢L θ98,TF-IDF ⇢ LLM (θ98),73.585,1417.661
+70,True,endpoint,1.0,0.5,1000,L→L,Cascade LLM,81.289,361.121
+70,True,endpoint,1.0,0.5,10000,L→L,Cascade LLM,81.289,383.414
+70,True,endpoint,1.0,0.5,100000,L→L,Cascade LLM,81.289,606.344
+70,True,endpoint,1.0,0.5,1000000,T⇢L θ98,TF-IDF ⇢ LLM (θ98),73.585,2077.661
+70,False,batch,0.35,0.02,1000,P flat,Flat PhoBERT,70.819,44.05
+70,False,batch,0.35,0.02,10000,P flat,Flat PhoBERT,70.819,44.071
+70,False,batch,0.35,0.02,100000,P flat,Flat PhoBERT,70.819,44.283
+70,False,batch,0.35,0.02,1000000,P flat,Flat PhoBERT,70.819,46.402
+70,False,batch,0.35,0.05,1000,P flat,Flat PhoBERT,70.819,110.05
+70,False,batch,0.35,0.05,10000,P flat,Flat PhoBERT,70.819,110.071
+70,False,batch,0.35,0.05,100000,P flat,Flat PhoBERT,70.819,110.283
+70,False,batch,0.35,0.05,1000000,P flat,Flat PhoBERT,70.819,112.402
+70,False,batch,0.35,0.1,1000,P flat,Flat PhoBERT,70.819,220.05
+70,False,batch,0.35,0.1,10000,P flat,Flat PhoBERT,70.819,220.071
+70,False,batch,0.35,0.1,100000,P flat,Flat PhoBERT,70.819,220.283
+70,False,batch,0.35,0.1,1000000,P flat,Flat PhoBERT,70.819,222.402
+70,False,batch,0.35,0.2,1000,P flat,Flat PhoBERT,70.819,440.05
+70,False,batch,0.35,0.2,10000,P flat,Flat PhoBERT,70.819,440.071
+70,False,batch,0.35,0.2,100000,P flat,Flat PhoBERT,70.819,440.283
+70,False,batch,0.35,0.2,1000000,P flat,Flat PhoBERT,70.819,442.402
+70,False,batch,0.35,0.5,1000,P flat,Flat PhoBERT,70.819,1100.05
+70,False,batch,0.35,0.5,10000,P flat,Flat PhoBERT,70.819,1100.071
+70,False,batch,0.35,0.5,100000,P flat,Flat PhoBERT,70.819,1100.283
+70,False,batch,0.35,0.5,1000000,P flat,Flat PhoBERT,70.819,1102.402
+70,False,batch,1.0,0.02,1000,P flat,Flat PhoBERT,70.819,44.143
+70,False,batch,1.0,0.02,10000,P flat,Flat PhoBERT,70.819,44.203
+70,False,batch,1.0,0.02,100000,P flat,Flat PhoBERT,70.819,44.809
+70,False,batch,1.0,0.02,1000000,P flat,Flat PhoBERT,70.819,50.863
+70,False,batch,1.0,0.05,1000,P flat,Flat PhoBERT,70.819,110.143
+70,False,batch,1.0,0.05,10000,P flat,Flat PhoBERT,70.819,110.203
+70,False,batch,1.0,0.05,100000,P flat,Flat PhoBERT,70.819,110.809
+70,False,batch,1.0,0.05,1000000,P flat,Flat PhoBERT,70.819,116.863
+70,False,batch,1.0,0.1,1000,P flat,Flat PhoBERT,70.819,220.143
+70,False,batch,1.0,0.1,10000,P flat,Flat PhoBERT,70.819,220.203
+70,False,batch,1.0,0.1,100000,P flat,Flat PhoBERT,70.819,220.809
+70,False,batch,1.0,0.1,1000000,P flat,Flat PhoBERT,70.819,226.863
+70,False,batch,1.0,0.2,1000,P flat,Flat PhoBERT,70.819,440.143
+70,False,batch,1.0,0.2,10000,P flat,Flat PhoBERT,70.819,440.203
+70,False,batch,1.0,0.2,100000,P flat,Flat PhoBERT,70.819,440.809
+70,False,batch,1.0,0.2,1000000,P flat,Flat PhoBERT,70.819,446.863
+70,False,batch,1.0,0.5,1000,P flat,Flat PhoBERT,70.819,1100.143
+70,False,batch,1.0,0.5,10000,P flat,Flat PhoBERT,70.819,1100.203
+70,False,batch,1.0,0.5,100000,P flat,Flat PhoBERT,70.819,1100.809
+70,False,batch,1.0,0.5,1000000,P flat,Flat PhoBERT,70.819,1106.863
+70,False,endpoint,0.35,0.02,1000,P flat,Flat PhoBERT,70.819,3110.048
+70,False,endpoint,0.35,0.02,10000,P flat,Flat PhoBERT,70.819,3110.048
+70,False,endpoint,0.35,0.02,100000,P flat,Flat PhoBERT,70.819,3110.048
+70,False,endpoint,0.35,0.02,1000000,P flat,Flat PhoBERT,70.819,3110.048
+70,False,endpoint,0.35,0.05,1000,P flat,Flat PhoBERT,70.819,3176.048
+70,False,endpoint,0.35,0.05,10000,P flat,Flat PhoBERT,70.819,3176.048
+70,False,endpoint,0.35,0.05,100000,P flat,Flat PhoBERT,70.819,3176.048
+70,False,endpoint,0.35,0.05,1000000,P flat,Flat PhoBERT,70.819,3176.048
+70,False,endpoint,0.35,0.1,1000,P flat,Flat PhoBERT,70.819,3286.048
+70,False,endpoint,0.35,0.1,10000,P flat,Flat PhoBERT,70.819,3286.048
+70,False,endpoint,0.35,0.1,100000,P flat,Flat PhoBERT,70.819,3286.048
+70,False,endpoint,0.35,0.1,1000000,P flat,Flat PhoBERT,70.819,3286.048
+70,False,endpoint,0.35,0.2,1000,P flat,Flat PhoBERT,70.819,3506.048
+70,False,endpoint,0.35,0.2,10000,P flat,Flat PhoBERT,70.819,3506.048
+70,False,endpoint,0.35,0.2,100000,P flat,Flat PhoBERT,70.819,3506.048
+70,False,endpoint,0.35,0.2,1000000,P flat,Flat PhoBERT,70.819,3506.048
+70,False,endpoint,0.35,0.5,1000,P flat,Flat PhoBERT,70.819,4166.048
+70,False,endpoint,0.35,0.5,10000,P flat,Flat PhoBERT,70.819,4166.048
+70,False,endpoint,0.35,0.5,100000,P flat,Flat PhoBERT,70.819,4166.048
+70,False,endpoint,0.35,0.5,1000000,P flat,Flat PhoBERT,70.819,4166.048
+70,False,endpoint,1.0,0.02,1000,P flat,Flat PhoBERT,70.819,8804.136
+70,False,endpoint,1.0,0.02,10000,P flat,Flat PhoBERT,70.819,8804.136
+70,False,endpoint,1.0,0.02,100000,P flat,Flat PhoBERT,70.819,8804.136
+70,False,endpoint,1.0,0.02,1000000,P flat,Flat PhoBERT,70.819,8804.136
+70,False,endpoint,1.0,0.05,1000,P flat,Flat PhoBERT,70.819,8870.136
+70,False,endpoint,1.0,0.05,10000,P flat,Flat PhoBERT,70.819,8870.136
+70,False,endpoint,1.0,0.05,100000,P flat,Flat PhoBERT,70.819,8870.136
+70,False,endpoint,1.0,0.05,1000000,P flat,Flat PhoBERT,70.819,8870.136
+70,False,endpoint,1.0,0.1,1000,P flat,Flat PhoBERT,70.819,8980.136
+70,False,endpoint,1.0,0.1,10000,P flat,Flat PhoBERT,70.819,8980.136
+70,False,endpoint,1.0,0.1,100000,P flat,Flat PhoBERT,70.819,8980.136
+70,False,endpoint,1.0,0.1,1000000,P flat,Flat PhoBERT,70.819,8980.136
+70,False,endpoint,1.0,0.2,1000,P flat,Flat PhoBERT,70.819,9200.136
+70,False,endpoint,1.0,0.2,10000,P flat,Flat PhoBERT,70.819,9200.136
+70,False,endpoint,1.0,0.2,100000,P flat,Flat PhoBERT,70.819,9200.136
+70,False,endpoint,1.0,0.2,1000000,P flat,Flat PhoBERT,70.819,9200.136
+70,False,endpoint,1.0,0.5,1000,P flat,Flat PhoBERT,70.819,9860.136
+70,False,endpoint,1.0,0.5,10000,P flat,Flat PhoBERT,70.819,9860.136
+70,False,endpoint,1.0,0.5,100000,P flat,Flat PhoBERT,70.819,9860.136
+70,False,endpoint,1.0,0.5,1000000,P flat,Flat PhoBERT,70.819,9860.136
+80,True,batch,0.35,0.02,1000,L→L,Cascade LLM,81.289,16.961
+80,True,batch,0.35,0.02,10000,L→L,Cascade LLM,81.289,39.254
+80,True,batch,0.35,0.02,100000,L→L,Cascade LLM,81.289,262.184
+80,True,batch,0.35,0.02,1000000,L→L,Cascade LLM,81.289,2491.475
+80,True,batch,0.35,0.05,1000,L→L,Cascade LLM,81.289,38.471
+80,True,batch,0.35,0.05,10000,L→L,Cascade LLM,81.289,60.764
+80,True,batch,0.35,0.05,100000,L→L,Cascade LLM,81.289,283.694
+80,True,batch,0.35,0.05,1000000,L→L,Cascade LLM,81.289,2512.985
+80,True,batch,0.35,0.1,1000,L→L,Cascade LLM,81.289,74.321
+80,True,batch,0.35,0.1,10000,L→L,Cascade LLM,81.289,96.614
+80,True,batch,0.35,0.1,100000,L→L,Cascade LLM,81.289,319.544
+80,True,batch,0.35,0.1,1000000,L→L,Cascade LLM,81.289,2548.835
+80,True,batch,0.35,0.2,1000,L→L,Cascade LLM,81.289,146.021
+80,True,batch,0.35,0.2,10000,L→L,Cascade LLM,81.289,168.314
+80,True,batch,0.35,0.2,100000,L→L,Cascade LLM,81.289,391.244
+80,True,batch,0.35,0.2,1000000,L→L,Cascade LLM,81.289,2620.535
+80,True,batch,0.35,0.5,1000,L→L,Cascade LLM,81.289,361.121
+80,True,batch,0.35,0.5,10000,L→L,Cascade LLM,81.289,383.414
+80,True,batch,0.35,0.5,100000,L→L,Cascade LLM,81.289,606.344
+80,True,batch,0.35,0.5,1000000,L→L,Cascade LLM,81.289,2835.635
+80,True,batch,1.0,0.02,1000,L→L,Cascade LLM,81.289,16.961
+80,True,batch,1.0,0.02,10000,L→L,Cascade LLM,81.289,39.254
+80,True,batch,1.0,0.02,100000,L→L,Cascade LLM,81.289,262.184
+80,True,batch,1.0,0.02,1000000,L→L,Cascade LLM,81.289,2491.475
+80,True,batch,1.0,0.05,1000,L→L,Cascade LLM,81.289,38.471
+80,True,batch,1.0,0.05,10000,L→L,Cascade LLM,81.289,60.764
+80,True,batch,1.0,0.05,100000,L→L,Cascade LLM,81.289,283.694
+80,True,batch,1.0,0.05,1000000,L→L,Cascade LLM,81.289,2512.985
+80,True,batch,1.0,0.1,1000,L→L,Cascade LLM,81.289,74.321
+80,True,batch,1.0,0.1,10000,L→L,Cascade LLM,81.289,96.614
+80,True,batch,1.0,0.1,100000,L→L,Cascade LLM,81.289,319.544
+80,True,batch,1.0,0.1,1000000,L→L,Cascade LLM,81.289,2548.835
+80,True,batch,1.0,0.2,1000,L→L,Cascade LLM,81.289,146.021
+80,True,batch,1.0,0.2,10000,L→L,Cascade LLM,81.289,168.314
+80,True,batch,1.0,0.2,100000,L→L,Cascade LLM,81.289,391.244
+80,True,batch,1.0,0.2,1000000,L→L,Cascade LLM,81.289,2620.535
+80,True,batch,1.0,0.5,1000,L→L,Cascade LLM,81.289,361.121
+80,True,batch,1.0,0.5,10000,L→L,Cascade LLM,81.289,383.414
+80,True,batch,1.0,0.5,100000,L→L,Cascade LLM,81.289,606.344
+80,True,batch,1.0,0.5,1000000,L→L,Cascade LLM,81.289,2835.635
+80,True,endpoint,0.35,0.02,1000,L→L,Cascade LLM,81.289,16.961
+80,True,endpoint,0.35,0.02,10000,L→L,Cascade LLM,81.289,39.254
+80,True,endpoint,0.35,0.02,100000,L→L,Cascade LLM,81.289,262.184
+80,True,endpoint,0.35,0.02,1000000,L→L,Cascade LLM,81.289,2491.475
+80,True,endpoint,0.35,0.05,1000,L→L,Cascade LLM,81.289,38.471
+80,True,endpoint,0.35,0.05,10000,L→L,Cascade LLM,81.289,60.764
+80,True,endpoint,0.35,0.05,100000,L→L,Cascade LLM,81.289,283.694
+80,True,endpoint,0.35,0.05,1000000,L→L,Cascade LLM,81.289,2512.985
+80,True,endpoint,0.35,0.1,1000,L→L,Cascade LLM,81.289,74.321
+80,True,endpoint,0.35,0.1,10000,L→L,Cascade LLM,81.289,96.614
+80,True,endpoint,0.35,0.1,100000,L→L,Cascade LLM,81.289,319.544
+80,True,endpoint,0.35,0.1,1000000,L→L,Cascade LLM,81.289,2548.835
+80,True,endpoint,0.35,0.2,1000,L→L,Cascade LLM,81.289,146.021
+80,True,endpoint,0.35,0.2,10000,L→L,Cascade LLM,81.289,168.314
+80,True,endpoint,0.35,0.2,100000,L→L,Cascade LLM,81.289,391.244
+80,True,endpoint,0.35,0.2,1000000,L→L,Cascade LLM,81.289,2620.535
+80,True,endpoint,0.35,0.5,1000,L→L,Cascade LLM,81.289,361.121
+80,True,endpoint,0.35,0.5,10000,L→L,Cascade LLM,81.289,383.414
+80,True,endpoint,0.35,0.5,100000,L→L,Cascade LLM,81.289,606.344
+80,True,endpoint,0.35,0.5,1000000,L→L,Cascade LLM,81.289,2835.635
+80,True,endpoint,1.0,0.02,1000,L→L,Cascade LLM,81.289,16.961
+80,True,endpoint,1.0,0.02,10000,L→L,Cascade LLM,81.289,39.254
+80,True,endpoint,1.0,0.02,100000,L→L,Cascade LLM,81.289,262.184
+80,True,endpoint,1.0,0.02,1000000,L→L,Cascade LLM,81.289,2491.475
+80,True,endpoint,1.0,0.05,1000,L→L,Cascade LLM,81.289,38.471
+80,True,endpoint,1.0,0.05,10000,L→L,Cascade LLM,81.289,60.764
+80,True,endpoint,1.0,0.05,100000,L→L,Cascade LLM,81.289,283.694
+80,True,endpoint,1.0,0.05,1000000,L→L,Cascade LLM,81.289,2512.985
+80,True,endpoint,1.0,0.1,1000,L→L,Cascade LLM,81.289,74.321
+80,True,endpoint,1.0,0.1,10000,L→L,Cascade LLM,81.289,96.614
+80,True,endpoint,1.0,0.1,100000,L→L,Cascade LLM,81.289,319.544
+80,True,endpoint,1.0,0.1,1000000,L→L,Cascade LLM,81.289,2548.835
+80,True,endpoint,1.0,0.2,1000,L→L,Cascade LLM,81.289,146.021
+80,True,endpoint,1.0,0.2,10000,L→L,Cascade LLM,81.289,168.314
+80,True,endpoint,1.0,0.2,100000,L→L,Cascade LLM,81.289,391.244
+80,True,endpoint,1.0,0.2,1000000,L→L,Cascade LLM,81.289,2620.535
+80,True,endpoint,1.0,0.5,1000,L→L,Cascade LLM,81.289,361.121
+80,True,endpoint,1.0,0.5,10000,L→L,Cascade LLM,81.289,383.414
+80,True,endpoint,1.0,0.5,100000,L→L,Cascade LLM,81.289,606.344
+80,True,endpoint,1.0,0.5,1000000,L→L,Cascade LLM,81.289,2835.635

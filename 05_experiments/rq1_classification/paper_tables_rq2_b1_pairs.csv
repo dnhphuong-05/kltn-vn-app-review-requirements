@@ -1,0 +1,17 @@
+﻿Family,A,B,Δ Macro-F1 (A − B),CI low,CI high,CI contains 0,"A right, B wrong","A wrong, B right",p (exact),p (Holm),Holm family size
+"B1, Shopee hold-out (8 pairs)",Flat TF-IDF (thresholded),Flat TF-IDF,-2.0,-4.8,0.9,True,22,69,0.0,0.0,8
+"B1, Shopee hold-out (8 pairs)",Cascade TF-IDF,Flat TF-IDF (thresholded),0.6,-2.0,3.2,True,43,25,0.0385,0.0769,8
+"B1, Shopee hold-out (8 pairs)",Flat Bi-LSTM (thresholded),Flat Bi-LSTM,-1.2,-3.7,1.5,True,28,68,0.0001,0.0003,8
+"B1, Shopee hold-out (8 pairs)",Cascade Bi-LSTM,Flat Bi-LSTM (thresholded),-7.5,-12.6,-2.3,False,33,87,0.0,0.0,8
+"B1, Shopee hold-out (8 pairs)",Flat ViSoBERT (thresholded),Flat ViSoBERT,-1.8,-5.8,2.4,True,22,57,0.0001,0.0004,8
+"B1, Shopee hold-out (8 pairs)",Cascade ViSoBERT,Flat ViSoBERT (thresholded),-2.0,-6.1,2.3,True,36,41,0.6488,0.6488,8
+"B1, Shopee hold-out (8 pairs)",Flat PhoBERT (thresholded),Flat PhoBERT,-0.8,-3.9,2.4,True,19,41,0.0062,0.0187,8
+"B1, Shopee hold-out (8 pairs)",Cascade PhoBERT,Flat PhoBERT (thresholded),-8.3,-13.0,-3.5,False,26,66,0.0,0.0002,8
+"B1, Lazada (8 pairs)",Flat TF-IDF (thresholded),Flat TF-IDF,-0.4,-5.3,4.9,True,13,63,0.0,0.0,8
+"B1, Lazada (8 pairs)",Cascade TF-IDF,Flat TF-IDF (thresholded),0.9,-3.4,5.2,True,32,14,0.0114,0.0341,8
+"B1, Lazada (8 pairs)",Flat Bi-LSTM (thresholded),Flat Bi-LSTM,-4.5,-8.0,-0.5,False,9,62,0.0,0.0,8
+"B1, Lazada (8 pairs)",Cascade Bi-LSTM,Flat Bi-LSTM (thresholded),-0.8,-7.1,5.3,True,33,31,0.9007,1.0,8
+"B1, Lazada (8 pairs)",Flat ViSoBERT (thresholded),Flat ViSoBERT,-6.5,-10.0,-3.0,False,5,40,0.0,0.0,8
+"B1, Lazada (8 pairs)",Cascade ViSoBERT,Flat ViSoBERT (thresholded),-3.2,-8.2,1.7,True,24,26,0.8877,1.0,8
+"B1, Lazada (8 pairs)",Flat PhoBERT (thresholded),Flat PhoBERT,-2.8,-7.0,1.9,True,8,38,0.0,0.0,8
+"B1, Lazada (8 pairs)",Cascade PhoBERT,Flat PhoBERT (thresholded),-8.3,-14.0,-2.4,False,25,52,0.0028,0.0112,8

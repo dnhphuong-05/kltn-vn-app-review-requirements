@@ -10,4 +10,6 @@ Thực nghiệm phân loại: learning curve, metrics hai tầng, flat / cascade
 | Giai đoạn 2 (TF-IDF, PhoBERT, flat Bi-LSTM, flat LLM, chấm chung, prompt trung tính, phân tích lỗi Lazada, tổng chi phí) | `05_experiments/rq1_classification/paper_*` |
 | Phiếu mã hóa thủ công lỗi giữ nhầm OTHER | `07_human_eval/paper_lazada_errors/` (phiếu có văn bản review: không commit) |
 | Config/prompt đã khóa | `03_configs/frozen/{tier1,tier2,flat}_config.yaml`, `classification.yaml`, `paper_*.yaml`; `04_prompts/classification_fewshot/` |
-| Notebook | `notebooks/05`–`20` |
+| Định tuyến theo độ tin cậy, hiệu chỉnh (v4.1); đối chứng công bằng, chính sách định tuyến, gần trùng, kịch bản chi phí (v4.2) | `05_experiments/rq1_classification/paper_step4_*`, `paper_step5_*` |
+| Bảng của bài báo sinh từ một nguồn (v4.3), định nghĩa cột, manifest, cổng nhất quán | `05_experiments/rq1_classification/paper_tables_*`; hướng dẫn tái lập: `README_paper_tables_MJCS.md` |
+| Notebook | `notebooks/05`–`20`, `23`, `25`, `26` |

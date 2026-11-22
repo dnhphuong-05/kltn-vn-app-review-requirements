@@ -1,0 +1,572 @@
+{
+ "run_date": "21/11/2026",
+ "commit": "b436fad136189c47383eb98f13dfdf1539e9c940",
+ "uncommitted_changes_in_src_or_configs": true,
+ "python": "3.13.1",
+ "amendment": "v4.3",
+ "notebook": "notebooks/26_paper_tables.ipynb",
+ "module": "02_src/src/classification/paper_tables.py",
+ "primary_estimate": "canonical run (seed 42 for trained models, single LLM run); 95% paired percentile bootstrap, 10,000 resamples, seed 42",
+ "gates_passed": 42,
+ "tables": {
+  "paper_tables_m1_data_splits.csv": {
+   "description": "Class distribution of every split and duplicates of Train ∪ Validation.",
+   "rows": 5,
+   "sources": [
+    "01_data/processed/*.csv",
+    "paper_step5_near_duplicates_summary.csv"
+   ],
+   "percent_columns": [
+    "Actionable (%)"
+   ]
+  },
+  "paper_tables_m2_split_id_overlaps.csv": {
+   "description": "Shared review IDs between splits (all zero).",
+   "rows": 10,
+   "sources": [
+    "01_data/processed/*.csv"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_m3_fewshot_exemplars.csv": {
+   "description": "Few-shot exemplars of every prompt: count, classes, membership in Train, selection rule.",
+   "rows": 6,
+   "sources": [
+    "04_prompts/classification_fewshot/*_exemplars_*.json"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_m3b_fewshot_summary.csv": {
+   "description": "Distinct few-shot exemplars across prompts.",
+   "rows": 2,
+   "sources": [
+    "04_prompts/classification_fewshot/*_exemplars_*.json"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_m4_configurations.csv": {
+   "description": "Every configuration: 28 of the joint scoring (5 cascades, 5 flat, 18 hybrids), 2 hybrids not scored and the exploratory additions of v4.1 and v4.2.",
+   "rows": 51,
+   "sources": [
+    "paper_step2_*",
+    "paper_step4_*",
+    "paper_step5_*"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_rq1_e2e.csv": {
+   "description": "End-to-end four-class results of the ten pure configurations on the Shopee hold-out and Lazada (canonical run).",
+   "rows": 20,
+   "sources": [
+    "paper_pred_*",
+    "gd10_pred_*",
+    "paper_flat_llm_*",
+    "gd10_llm_*"
+   ],
+   "percent_columns": [
+    "Macro-F1",
+    "CI low",
+    "CI high",
+    "F1 BUG",
+    "F1 FEATURE",
+    "F1 UX",
+    "F1 OTHER",
+    "Precision ACT",
+    "Recall ACT",
+    "Forwarded"
+   ]
+  },
+  "paper_tables_rq1_focused_e2e.csv": {
+   "description": "End-to-end results on the FEATURE/UX-enriched Shopee focused set (descriptive; LLM tier 1 was not run on this set).",
+   "rows": 9,
+   "sources": [
+    "paper_pred_*",
+    "gd10_pred_*",
+    "paper_flat_llm_focused.csv"
+   ],
+   "percent_columns": [
+    "Macro-F1",
+    "CI low",
+    "CI high",
+    "F1 BUG",
+    "F1 FEATURE",
+    "F1 UX",
+    "F1 OTHER",
+    "Precision ACT",
+    "Recall ACT",
+    "Forwarded"
+   ]
+  },
+  "paper_tables_rq1_tier1.csv": {
+   "description": "Tier 1 (ACTIONABLE vs NOT_ACTIONABLE) on the Shopee hold-out and Lazada, canonical run with 95% CIs.",
+   "rows": 10,
+   "sources": [
+    "paper_pred_*",
+    "gd10_pred_*",
+    "gd10_llm_*"
+   ],
+   "percent_columns": [
+    "F1 ACT",
+    "F1 ACT CI low",
+    "F1 ACT CI high",
+    "Recall ACT",
+    "Recall ACT CI low",
+    "Recall ACT CI high",
+    "Precision ACT",
+    "Precision ACT CI low",
+    "Precision ACT CI high",
+    "Macro-F1 (2 classes)",
+    "Forwarded"
+   ]
+  },
+  "paper_tables_rq1_tier2.csv": {
+   "description": "Tier 2 (BUG/FEATURE/UX) on gold-actionable reviews of the Shopee hold-out (183) and the focused set, canonical run with 95% CI.",
+   "rows": 10,
+   "sources": [
+    "paper_pred_*",
+    "gd10_pred_*",
+    "gd10_llm_*"
+   ],
+   "percent_columns": [
+    "Macro-F1",
+    "CI low",
+    "CI high",
+    "F1 BUG",
+    "F1 FEATURE",
+    "F1 UX"
+   ]
+  },
+  "paper_tables_rq1_tier_mcnemar.csv": {
+   "description": "Exact McNemar tests between strategies at tier 1 and tier 2 (Holm within each tier family).",
+   "rows": 20,
+   "sources": [
+    "paper_step2_mcnemar.csv"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_rq1_pairs.csv": {
+   "description": "Main pairwise comparisons of RQ1: paired bootstrap difference of Macro-F1 with 95% CI and exact McNemar, Holm over the registered 378-pair family.",
+   "rows": 18,
+   "sources": [
+    "paper_step2_e2e_*_diff.csv",
+    "paper_step2_mcnemar.csv"
+   ],
+   "percent_columns": [
+    "Δ Macro-F1 (A − B)",
+    "CI low",
+    "CI high"
+   ]
+  },
+  "paper_tables_app_pairs_all.csv": {
+   "description": "Supplement: all 378 pairwise comparisons of the 28 configurations on each set.",
+   "rows": 756,
+   "sources": [
+    "paper_step2_e2e_*_diff.csv",
+    "paper_step2_mcnemar.csv"
+   ],
+   "percent_columns": [
+    "Δ Macro-F1 (A − B)",
+    "CI low",
+    "CI high"
+   ]
+  },
+  "paper_tables_rq1_dedup.csv": {
+   "description": "Shopee hold-out after removing reviews whose normalised text occurs in Train ∪ Validation (217) and near duplicates (cosine ≥ 0.90, 17); Spearman rank correlation with the full hold-out 0.979 and 0.979.",
+   "rows": 12,
+   "sources": [
+    "paper_step2_dedup_holdout.csv",
+    "paper_step5_near_duplicates_holdout_e2e.csv"
+   ],
+   "percent_columns": [
+    "Macro-F1, full hold-out (n = 1,000)",
+    "Macro-F1 without exact duplicates (n = 783)",
+    "CI low (without exact)",
+    "CI high (without exact)",
+    "Macro-F1 without exact and near duplicates (n = 766)",
+    "CI low (without exact and near)",
+    "CI high (without exact and near)",
+    "Δ without exact",
+    "Δ without exact and near"
+   ]
+  },
+  "paper_tables_rq1_prompt_variant.csv": {
+   "description": "Original prompt v1 against the app-neutral prompt v1n on Lazada (single LLM runs, GPT-4o-mini).",
+   "rows": 4,
+   "sources": [
+    "paper_neutral_lazada_e2e_scores.csv"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_rq1_prompt_variant_pairs.csv": {
+   "description": "Differences v1n − v1 with paired bootstrap 95% CI and McNemar p (Holm over the six pairs of the variant family).",
+   "rows": 2,
+   "sources": [
+    "paper_neutral_lazada_diff_scores.csv",
+    "paper_neutral_lazada_mcnemar_scores.csv"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_rq1_error_coding.csv": {
+   "description": "Manual coding of OTHER reviews that the LLM labelled actionable (share of each model’s coded errors).",
+   "rows": 8,
+   "sources": [
+    "paper_lazada_errors_human_coding.csv",
+    "07_human_eval/paper_lazada_errors/"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_rq1_error_contribution.csv": {
+   "description": "Contribution of each category to the false-actionable rate on gold-OTHER reviews; policy, account and order complaints explain 9.0 of the 9.5 points (cascade) of the Lazada − hold-out gap.",
+   "rows": 9,
+   "sources": [
+    "paper_lazada_errors_contribution.csv"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_rq2_architecture.csv": {
+   "description": "Architecture under the same decision policy: flat (argmax), thresholded flat and cascade of every strategy, with paired differences (95% CI) and Holm-adjusted McNemar p within the registered families.",
+   "rows": 10,
+   "sources": [
+    "paper_step2_*",
+    "paper_step5_b1_*"
+   ],
+   "percent_columns": [
+    "Flat Macro-F1",
+    "Flat F1 FEATURE",
+    "Flat Recall ACT",
+    "Flat Precision ACT",
+    "Flat Forwarded",
+    "Thresholded flat Macro-F1",
+    "Thresholded flat F1 FEATURE",
+    "Thresholded flat Recall ACT",
+    "Thresholded flat Precision ACT",
+    "Thresholded flat Forwarded",
+    "Cascade Macro-F1",
+    "Cascade F1 FEATURE",
+    "Cascade Recall ACT",
+    "Cascade Precision ACT",
+    "Cascade Forwarded",
+    "Δ cascade − flat",
+    "Δ cascade − flat CI low",
+    "Δ cascade − flat CI high",
+    "Δ thresholded − flat",
+    "Δ thresholded − flat CI low",
+    "Δ thresholded − flat CI high",
+    "Δ cascade − thresholded",
+    "Δ cascade − thresholded CI low",
+    "Δ cascade − thresholded CI high"
+   ]
+  },
+  "paper_tables_rq2_b1_configurations.csv": {
+   "description": "Full results of the flat, thresholded flat and cascade configurations of the four trained strategies (focused set descriptive).",
+   "rows": 36,
+   "sources": [
+    "paper_step5_b1_results.csv"
+   ],
+   "percent_columns": [
+    "Macro-F1",
+    "CI low",
+    "CI high",
+    "F1 BUG",
+    "F1 FEATURE",
+    "F1 UX",
+    "F1 OTHER",
+    "Precision ACT",
+    "Recall ACT",
+    "Forwarded"
+   ]
+  },
+  "paper_tables_rq2_b1_thresholds.csv": {
+   "description": "Thresholds of the thresholded flat models chosen on validation (seed 42) with the guarded tier-1 rule.",
+   "rows": 4,
+   "sources": [
+    "paper_step5_b1_validation.csv",
+    "paper_step5_selection.json"
+   ],
+   "percent_columns": [
+    "Validation Recall ACT",
+    "Validation Precision ACT",
+    "Validation Macro-F1 (argmax)",
+    "Validation Macro-F1 (thresholded)"
+   ]
+  },
+  "paper_tables_rq2_b1_pairs.csv": {
+   "description": "B1 pairwise comparisons (thresholded − flat; cascade − thresholded) with Holm within each set.",
+   "rows": 16,
+   "sources": [
+    "paper_step5_b1_comparisons.csv"
+   ],
+   "percent_columns": [
+    "Δ Macro-F1 (A − B)",
+    "CI low",
+    "CI high"
+   ]
+  },
+  "paper_tables_rq2_routing.csv": {
+   "description": "Routing policies to the flat LLM with PhoBERT as the small model, against the flat references and random routing with the same number of LLM calls (canonical run; random routing: 1,000 draws).",
+   "rows": 26,
+   "sources": [
+    "paper_step4_routing_*",
+    "paper_step5_b2_*",
+    "gd10_llm_costs.csv",
+    "paper_flat_llm_*"
+   ],
+   "percent_columns": [
+    "Macro-F1",
+    "CI low",
+    "CI high",
+    "F1 FEATURE",
+    "Precision ACT",
+    "Recall ACT",
+    "LLM share",
+    "LLM share (3-seed mean)",
+    "Random routing mean",
+    "Random routing SD",
+    "Random P2.5",
+    "Random P97.5"
+   ]
+  },
+  "paper_tables_rq2_routing_pairs.csv": {
+   "description": "Pairwise comparisons of the routing policies; Holm within the registered v4.1 routing family (24 pairs per set) and B2 family (7 pairs per set).",
+   "rows": 62,
+   "sources": [
+    "paper_step4_routing_comparisons.csv",
+    "paper_step5_b2_comparisons.csv"
+   ],
+   "percent_columns": [
+    "Δ Macro-F1 (A − B)",
+    "CI low",
+    "CI high"
+   ]
+  },
+  "paper_tables_app_routing_other_small.csv": {
+   "description": "Supplement: confidence routing with TF-IDF and ViSoBERT as the small model.",
+   "rows": 12,
+   "sources": [
+    "paper_step4_routing_*"
+   ],
+   "percent_columns": [
+    "Macro-F1",
+    "CI low",
+    "CI high",
+    "Precision ACT",
+    "Recall ACT",
+    "LLM share",
+    "LLM share (3-seed mean)"
+   ]
+  },
+  "paper_tables_rq1_transfer.csv": {
+   "description": "Transfer from the Shopee hold-out to Lazada: canonical-run Macro-F1 of the pure configurations, the best class-routed hybrid and the PhoBERT routers.",
+   "rows": 14,
+   "sources": [
+    "paper_step2_*",
+    "paper_step4_routing_*",
+    "paper_step5_b2_*"
+   ],
+   "percent_columns": [
+    "Hold-out Macro-F1",
+    "Hold-out CI low",
+    "Hold-out CI high",
+    "Lazada Macro-F1",
+    "Lazada CI low",
+    "Lazada CI high",
+    "Δ Lazada − hold-out",
+    "Hold-out LLM share",
+    "Lazada LLM share"
+   ]
+  },
+  "paper_tables_app_calibration.csv": {
+   "description": "Supplement: cascades with a temperature-scaled tier 1 against the locked cascades.",
+   "rows": 16,
+   "sources": [
+    "paper_step4_calibration_*"
+   ],
+   "percent_columns": [
+    "Macro-F1",
+    "CI low",
+    "CI high",
+    "F1 BUG",
+    "F1 FEATURE",
+    "F1 UX",
+    "F1 OTHER",
+    "Precision ACT",
+    "Recall ACT",
+    "Forwarded"
+   ]
+  },
+  "paper_tables_app_calibration_pairs.csv": {
+   "description": "Supplement: calibrated − locked cascade, Holm within each set.",
+   "rows": 8,
+   "sources": [
+    "paper_step4_calibration_comparisons.csv"
+   ],
+   "percent_columns": [
+    "Δ Macro-F1 (A − B)",
+    "CI low",
+    "CI high"
+   ]
+  },
+  "paper_tables_app_calibration_ece.csv": {
+   "description": "Supplement: expected calibration error of the tier-1 ACTIONABLE probability (15 equal-width bins).",
+   "rows": 12,
+   "sources": [
+    "paper_step4_calibration_ece.csv"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_rq3_cost_drivers.csv": {
+   "description": "Measured cost drivers of representative configurations and their fixed and variable cost at USD 0.10 per label and USD 0.35 per GPU hour.",
+   "rows": 9,
+   "sources": [
+    "paper_cost_components.csv",
+    "paper_step4_routing_cost_components.csv",
+    "paper_cost_model.yaml"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_rq3_break_even.csv": {
+   "description": "Monthly volume above which configuration A becomes cheaper than the LLM configuration B over 12 months.",
+   "rows": 360,
+   "sources": [
+    "paper_cost_break_even.csv",
+    "paper_step4_routing_break_even.csv"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_rq3_cheapest.csv": {
+   "description": "Cheapest configuration reaching a Macro-F1 target over 12 months in every scenario (costs within 1% or USD 10 count as equal; the higher Macro-F1 wins).",
+   "rows": 400,
+   "sources": [
+    "paper_step4_cost_decision_with_routing.csv"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_rq3_target_sensitivity.csv": {
+   "description": "Cheapest configuration for Macro-F1 targets of 78, 79 and 80 with the canonical-run Macro-F1 (main) and with the three-seed mean (sensitivity), USD 0.10 per label, USD 0.35 per GPU hour.",
+   "rows": 24,
+   "sources": [
+    "paper_step5_cost_target_sensitivity.csv"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_rq3_existing_labels.csv": {
+   "description": "Organisation that already owns the initial labels (initial labels free, drift-check labels still paid); no cheapest-configuration cell of the base grid changes (0 of 48).",
+   "rows": 8,
+   "sources": [
+    "paper_step5_cost_existing_labels_break_even.csv",
+    "paper_step5_cost_existing_labels.csv"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_rq3_llm_price.csv": {
+   "description": "Break-even volumes when the LLM price is multiplied by 1, 5 and 20 (USD 0.10 per label, USD 0.35 per GPU hour).",
+   "rows": 24,
+   "sources": [
+    "paper_step5_cost_llm_price_break_even.csv"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_rq3_routing_rates.csv": {
+   "description": "PhoBERT ⇢ LLM (θmax) costed with the LLM share of each test set (hold-out 12.2%, Lazada 19.2%, canonical run), PhoBERT inference included.",
+   "rows": 6,
+   "sources": [
+    "paper_step5_cost_routing_rates.csv"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_rq3_observed_scale.csv": {
+   "description": "Observed collection scale: 57,200 reviews per year (about 4,767 per month), USD 0.10 per label, batch deployment; labelling and computation only, specialist labour and the cost of missed reviews are not included.",
+   "rows": 5,
+   "sources": [
+    "paper_step5_cost_observed_scale.csv"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_rq3_parameters.csv": {
+   "description": "Parameters of the cost model with unit, value, status (measured or assumed) and source.",
+   "rows": 15,
+   "sources": [
+    "paper_cost_model.yaml",
+    "paper_cost_components.csv",
+    "04_prompts/classification_fewshot/"
+   ],
+   "percent_columns": []
+  },
+  "paper_tables_app_per_seed.csv": {
+   "description": "Macro-F1 of every seed of the multi-run configurations, three-seed mean ± SD and the gap to the canonical run.",
+   "rows": 50,
+   "sources": [
+    "paper_pred_*",
+    "gd10_pred_*",
+    "paper_step4_routing_*",
+    "paper_step5_*"
+   ],
+   "percent_columns": [
+    "Seed 42",
+    "Seed 1337",
+    "Seed 2024",
+    "Mean",
+    "SD",
+    "Mean − seed 42"
+   ]
+  },
+  "paper_tables_app_all_configurations.csv": {
+   "description": "Supplement: all 28 configurations on both sets with measured cost and Pareto membership (Figure of quality against cost).",
+   "rows": 56,
+   "sources": [
+    "paper_step2_*",
+    "paper_cost_components.csv"
+   ],
+   "percent_columns": [
+    "Macro-F1",
+    "CI low",
+    "CI high",
+    "F1 BUG",
+    "F1 FEATURE",
+    "F1 UX",
+    "F1 OTHER",
+    "Precision ACT",
+    "Recall ACT",
+    "Forwarded",
+    "Accuracy"
+   ]
+  },
+  "paper_tables_app_errors.csv": {
+   "description": "Supplement: end-to-end errors of the canonical run split by stage.",
+   "rows": 24,
+   "sources": [
+    "paper_step2_errors_*"
+   ],
+   "percent_columns": [
+    "Missed actionable (% of errors)",
+    "Kept OTHER (% of errors)",
+    "Wrong type (% of errors)"
+   ]
+  },
+  "paper_tables_app_confusion.csv": {
+   "description": "Supplement: confusion matrices (gold × predicted) of the canonical runs of key configurations.",
+   "rows": 40,
+   "sources": [
+    "paper_step2_confusion_holdout.csv"
+   ],
+   "percent_columns": []
+  }
+ },
+ "figures": {
+  "paper_tables_fig_routing_en.png": {
+   "description": "Hold-out macro-F1 of PhoBERT ⇢ LLM against the share of reviews sent to the LLM, random routing with the same number of calls and the registered routers (canonical run).",
+   "sources": [
+    "paper_step4_routing_curve_holdout.csv",
+    "paper_step5_b2_random_baseline.csv"
+   ]
+  },
+  "paper_tables_fig_cost_tco_en.png": {
+   "description": "Total cost over 12 months against monthly volume at USD 0.10 per label and USD 0.35 per GPU hour, batch and always-on deployment.",
+   "sources": [
+    "paper_cost_components.csv",
+    "paper_step4_routing_cost_components.csv",
+    "paper_cost_model.yaml"
+   ]
+  }
+ }
+}

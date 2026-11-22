@@ -1,0 +1,25 @@
+﻿LLM price multiplier,Deployment,A (trained or routed),B (LLM),Break-even reviews per month,Reading
+1,batch,Flat PhoBERT,Cascade LLM,59888.832,A cheaper above this volume
+1,batch,Flat PhoBERT,Flat LLM,46435.072,A cheaper above this volume
+1,batch,PhoBERT ⇢ LLM (θmax),Cascade LLM,75148.951,A cheaper above this volume
+1,batch,Flat PhoBERT,PhoBERT ⇢ LLM (θmax),0.0,A always cheaper
+1,endpoint,Flat PhoBERT,Cascade LLM,1297624.28,A cheaper above this volume
+1,endpoint,Flat PhoBERT,Flat LLM,1006604.071,A cheaper above this volume
+1,endpoint,PhoBERT ⇢ LLM (θmax),Cascade LLM,1539796.451,A cheaper above this volume
+1,endpoint,Flat PhoBERT,PhoBERT ⇢ LLM (θmax),0.0,A always cheaper
+5,batch,Flat PhoBERT,Cascade LLM,11921.981,A cheaper above this volume
+5,batch,Flat PhoBERT,Flat LLM,9234.861,A cheaper above this volume
+5,batch,PhoBERT ⇢ LLM (θmax),Cascade LLM,14312.759,A cheaper above this volume
+5,batch,Flat PhoBERT,PhoBERT ⇢ LLM (θmax),0.0,A always cheaper
+5,endpoint,Flat PhoBERT,Cascade LLM,259478.189,A cheaper above this volume
+5,endpoint,Flat PhoBERT,Flat LLM,201274.147,A cheaper above this volume
+5,endpoint,PhoBERT ⇢ LLM (θmax),Cascade LLM,307912.623,A cheaper above this volume
+5,endpoint,Flat PhoBERT,PhoBERT ⇢ LLM (θmax),0.0,A always cheaper
+20,batch,Flat PhoBERT,Cascade LLM,2936.318,A cheaper above this volume
+20,batch,Flat PhoBERT,Flat LLM,2264.708,A cheaper above this volume
+20,batch,PhoBERT ⇢ LLM (θmax),Cascade LLM,3504.666,A cheaper above this volume
+20,batch,Flat PhoBERT,PhoBERT ⇢ LLM (θmax),0.0,A always cheaper
+20,endpoint,Flat PhoBERT,Cascade LLM,64825.797,A cheaper above this volume
+20,endpoint,Flat PhoBERT,Flat LLM,50274.787,A cheaper above this volume
+20,endpoint,PhoBERT ⇢ LLM (θmax),Cascade LLM,76934.406,A cheaper above this volume
+20,endpoint,Flat PhoBERT,PhoBERT ⇢ LLM (θmax),0.0,A always cheaper

@@ -52,6 +52,8 @@ Mỗi notebook là một bước chạy độc lập (máy local hoặc Kaggle k
 | 19 | `19_lazada_error_analysis` — lỗi giữ nhầm OTHER, phiếu mã hóa thủ công (v3.7) | local | 24 |
 | 20 | `20_cost_model` — mô hình tổng chi phí, hòa vốn, cấu hình rẻ nhất theo ngưỡng (v3.8) | local | 25 |
 | 23 | `23_paper_routing_calibration` — định tuyến theo độ tin cậy, hiệu chỉnh xác suất tầng 1, chỉ dùng dự đoán đã lưu (v4.1) | local | — |
+| 25 | `25_paper_fair_controls` — phẳng có ngưỡng so với cascade, chính sách định tuyến, gần trùng, kịch bản chi phí; chỉ dùng dự đoán đã lưu (v4.2) | local | — |
+| 26 | `26_paper_tables` — sinh mọi bảng chính của bài báo từ một nguồn, lần chạy chuẩn làm đại lượng chính, kiểm toán dữ liệu và cấu hình, 42 cổng nhất quán (v4.3) | local | — |
 
 **Ví dụ hướng phát triển (ngoài phạm vi nghiên cứu phân loại)**
 
@@ -59,6 +61,12 @@ Mỗi notebook là một bước chạy độc lập (máy local hoặc Kaggle k
 |---|---|---|---|
 | 21 | `21_future_full_inference` — chọn cấu hình, phân loại toàn corpus | Kaggle GPU | 11 |
 | 22 | `22_future_bertopic_clustering` — gom cụm BERTopic, loại chủ đạo, purity | Kaggle hoặc local (API khi đặt tên cụm) | 12 |
+
+**Demo bảo vệ (không tạo kết quả đánh giá)**
+
+| # | Notebook | Chạy ở | Số cũ |
+|---|---|---|---|
+| 24 | `24_demo_phobert_kaggle` — huấn luyện lại PhoBERT phẳng (cấu hình đã khóa, seed 42, chỉ Train) và xuất trọng số cho `demo/app.py` | Kaggle GPU | — |
 
 ## Đổi số notebook (16/11/2026, amendment v4.0)
 

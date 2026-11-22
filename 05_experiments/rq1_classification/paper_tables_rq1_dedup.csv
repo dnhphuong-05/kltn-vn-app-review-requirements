@@ -1,0 +1,13 @@
+﻿Configuration,"Macro-F1, full hold-out (n = 1,000)",Macro-F1 without exact duplicates (n = 783),CI low (without exact),CI high (without exact),Macro-F1 without exact and near duplicates (n = 766),CI low (without exact and near),CI high (without exact and near),Δ without exact,Δ without exact and near
+Flat TF-IDF,62.8,62.3,57.0,67.3,62.0,56.7,67.1,-0.5,-0.7
+Cascade TF-IDF,61.3,60.4,55.9,64.6,60.1,55.5,64.4,-1.0,-1.3
+Flat Bi-LSTM,62.9,62.2,55.6,68.1,61.8,55.3,67.8,-0.8,-1.1
+Cascade Bi-LSTM,54.2,53.1,48.6,57.3,52.6,48.1,57.1,-1.1,-1.5
+Flat ViSoBERT,66.7,66.1,59.7,71.7,65.8,59.5,71.3,-0.6,-0.9
+Cascade ViSoBERT,62.9,62.0,56.5,67.0,61.6,56.1,66.8,-0.9,-1.3
+Flat PhoBERT,70.8,70.2,64.1,75.4,69.9,63.7,75.2,-0.7,-1.0
+Cascade PhoBERT,61.7,60.6,55.4,65.4,60.3,55.1,65.1,-1.1,-1.4
+Flat LLM,80.0,79.5,74.4,83.7,79.3,74.2,83.7,-0.5,-0.7
+Cascade LLM,81.3,80.9,75.7,85.2,80.7,75.5,85.1,-0.4,-0.6
+PhoBERT ⇢ LLM (θmax),79.9,79.4,74.1,83.7,79.2,73.9,83.6,-0.5,-0.7
+PhoBERT ⇢ LLM (θ98),79.1,78.6,73.0,83.2,78.4,72.9,82.9,-0.5,-0.7

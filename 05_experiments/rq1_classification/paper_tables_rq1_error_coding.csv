@@ -1,0 +1,9 @@
+﻿Main category,"Cascade LLM, hold-out (% of coded errors)","Cascade LLM, Lazada (% of coded errors)","Flat LLM, hold-out (% of coded errors)","Flat LLM, Lazada (% of coded errors)"
+Delivery,0.0,1.6,0.0,4.9
+"Seller, product",10.6,0.0,11.4,2.5
+"Price, fees, vouchers",23.4,14.1,17.1,9.9
+"Policy, account, orders",46.8,76.6,45.7,76.5
+Customer service,4.3,0.0,0.0,0.0
+Generic app complaint,14.9,4.7,24.3,3.7
+Generic praise,0.0,0.0,1.4,0.0
+Other,0.0,3.1,0.0,2.5

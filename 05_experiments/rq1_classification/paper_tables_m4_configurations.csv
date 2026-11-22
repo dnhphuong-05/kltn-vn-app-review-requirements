@@ -1,0 +1,52 @@
+﻿Configuration,Architecture,Tier 1 or flat model,Tier 2 model,Runs,Amendment,Status
+Cascade TF-IDF,cascade,TF-IDF,TF-IDF,3,v3.2–v3.5 (joint scoring),scored
+Cascade Bi-LSTM,cascade,Bi-LSTM,Bi-LSTM,3,v3.2–v3.5 (joint scoring),scored
+Cascade ViSoBERT,cascade,ViSoBERT,ViSoBERT,3,v3.2–v3.5 (joint scoring),scored
+Cascade PhoBERT,cascade,PhoBERT,PhoBERT,3,v3.2–v3.5 (joint scoring),scored
+Cascade LLM,cascade,LLM,LLM,1,v3.2–v3.5 (joint scoring),scored
+Flat TF-IDF,flat,TF-IDF,—,3,v3.2–v3.5 (joint scoring),scored
+Flat Bi-LSTM,flat,Bi-LSTM,—,3,v3.2–v3.5 (joint scoring),scored
+Flat ViSoBERT,flat,ViSoBERT,—,3,v3.2–v3.5 (joint scoring),scored
+Flat PhoBERT,flat,PhoBERT,—,3,v3.2–v3.5 (joint scoring),scored
+Flat LLM,flat,LLM,—,1,v3.2–v3.5 (joint scoring),scored
+TF-IDF → Bi-LSTM,hybrid,TF-IDF,Bi-LSTM,1,v3.2–v3.5 (joint scoring),scored
+TF-IDF → ViSoBERT,hybrid,TF-IDF,ViSoBERT,1,v3.2–v3.5 (joint scoring),scored
+TF-IDF → PhoBERT,hybrid,TF-IDF,PhoBERT,1,v3.2–v3.5 (joint scoring),scored
+Bi-LSTM → TF-IDF,hybrid,Bi-LSTM,TF-IDF,1,v3.2–v3.5 (joint scoring),scored
+Bi-LSTM → ViSoBERT,hybrid,Bi-LSTM,ViSoBERT,1,v3.2–v3.5 (joint scoring),scored
+Bi-LSTM → PhoBERT,hybrid,Bi-LSTM,PhoBERT,1,v3.2–v3.5 (joint scoring),scored
+Bi-LSTM → LLM,hybrid,Bi-LSTM,LLM,1,v3.2–v3.5 (joint scoring),scored
+ViSoBERT → TF-IDF,hybrid,ViSoBERT,TF-IDF,1,v3.2–v3.5 (joint scoring),scored
+ViSoBERT → Bi-LSTM,hybrid,ViSoBERT,Bi-LSTM,1,v3.2–v3.5 (joint scoring),scored
+ViSoBERT → PhoBERT,hybrid,ViSoBERT,PhoBERT,1,v3.2–v3.5 (joint scoring),scored
+ViSoBERT → LLM,hybrid,ViSoBERT,LLM,1,v3.2–v3.5 (joint scoring),scored
+PhoBERT → TF-IDF,hybrid,PhoBERT,TF-IDF,1,v3.2–v3.5 (joint scoring),scored
+PhoBERT → Bi-LSTM,hybrid,PhoBERT,Bi-LSTM,1,v3.2–v3.5 (joint scoring),scored
+PhoBERT → ViSoBERT,hybrid,PhoBERT,ViSoBERT,1,v3.2–v3.5 (joint scoring),scored
+LLM → TF-IDF,hybrid,LLM,TF-IDF,1,v3.2–v3.5 (joint scoring),scored
+LLM → Bi-LSTM,hybrid,LLM,Bi-LSTM,1,v3.2–v3.5 (joint scoring),scored
+LLM → ViSoBERT,hybrid,LLM,ViSoBERT,1,v3.2–v3.5 (joint scoring),scored
+LLM → PhoBERT,hybrid,LLM,PhoBERT,1,v3.2–v3.5 (joint scoring),scored
+TF-IDF → LLM,hybrid,TF-IDF,LLM,0,v3.2–v3.5 (joint scoring),"not scored: the LLM tier 2 was run only on reviews kept by the ViSoBERT, Bi-LSTM or LLM tier 1, so 17 hold-out and 15 Lazada reviews kept by the TF-IDF tier 1 have no tier-2 label"
+PhoBERT → LLM,hybrid,PhoBERT,LLM,0,v3.2–v3.5 (joint scoring),"not scored: the LLM tier 2 was run only on reviews kept by the ViSoBERT, Bi-LSTM or LLM tier 1, so 28 hold-out and 26 Lazada reviews kept by the PhoBERT tier 1 have no tier-2 label"
+Flat TF-IDF (thresholded),flat (thresholded),TF-IDF,—,3,v4.2 (B1),"scored, exploratory"
+Flat Bi-LSTM (thresholded),flat (thresholded),Bi-LSTM,—,3,v4.2 (B1),"scored, exploratory"
+Flat ViSoBERT (thresholded),flat (thresholded),ViSoBERT,—,3,v4.2 (B1),"scored, exploratory"
+Flat PhoBERT (thresholded),flat (thresholded),PhoBERT,—,3,v4.2 (B1),"scored, exploratory"
+PhoBERT ⇢ LLM (θmax),routing,PhoBERT,Flat LLM,3,v4.1,"scored, exploratory"
+PhoBERT ⇢ LLM (θ98),routing,PhoBERT,Flat LLM,3,v4.1,"scored, exploratory"
+TF-IDF ⇢ LLM (θmax),routing,TF-IDF,Flat LLM,3,v4.1,"scored, exploratory"
+TF-IDF ⇢ LLM (θ98),routing,TF-IDF,Flat LLM,3,v4.1,"scored, exploratory"
+ViSoBERT ⇢ LLM (θmax),routing,ViSoBERT,Flat LLM,3,v4.1,"scored, exploratory"
+ViSoBERT ⇢ LLM (θ98),routing,ViSoBERT,Flat LLM,3,v4.1,"scored, exploratory"
+PhoBERT ⇢ LLM (disagreement),routing,PhoBERT,Flat LLM,3,v4.2 (B2),"scored, exploratory"
+"PhoBERT ⇢ LLM (confidence, disagreement budget)",routing,PhoBERT,Flat LLM,3,v4.2 (B2),"scored, exploratory"
+"PhoBERT ⇢ LLM (confidence, 5% budget)",routing,PhoBERT,Flat LLM,3,v4.2 (B2),"scored, exploratory"
+"PhoBERT ⇢ LLM (confidence, 10% budget)",routing,PhoBERT,Flat LLM,3,v4.2 (B2),"scored, exploratory"
+"PhoBERT ⇢ LLM (confidence, 15% budget)",routing,PhoBERT,Flat LLM,3,v4.2 (B2),"scored, exploratory"
+"PhoBERT ⇢ LLM (confidence, 20% budget)",routing,PhoBERT,Flat LLM,3,v4.2 (B2),"scored, exploratory"
+"PhoBERT ⇢ LLM (confidence, 30% budget)",routing,PhoBERT,Flat LLM,3,v4.2 (B2),"scored, exploratory"
+Cascade TF-IDF (calibrated),cascade (calibrated),TF-IDF,TF-IDF,3,v4.1,"scored, exploratory"
+Cascade Bi-LSTM (calibrated),cascade (calibrated),Bi-LSTM,Bi-LSTM,3,v4.1,"scored, exploratory"
+Cascade ViSoBERT (calibrated),cascade (calibrated),ViSoBERT,ViSoBERT,3,v4.1,"scored, exploratory"
+Cascade PhoBERT (calibrated),cascade (calibrated),PhoBERT,PhoBERT,3,v4.1,"scored, exploratory"

@@ -1,0 +1,25 @@
+﻿triển khai,review / tháng,ngưỡng,được gọi API,cấu hình (seed 42),cấu hình (TB 3 seed)
+batch,1000,78,True,L→L,L→L
+batch,1000,79,True,L→L,L→L
+batch,1000,80,True,L→L,L→L
+batch,10000,78,True,L→L,L→L
+batch,10000,79,True,L→L,L→L
+batch,10000,80,True,L→L,L→L
+batch,100000,78,True,P⇢L θ_max,P⇢L θ_max
+batch,100000,79,True,P⇢L θ_max,P⇢L θ_max
+batch,100000,80,True,L→L,P⇢L θ_max
+batch,1000000,78,True,P⇢L θ_98,P⇢L θ_98
+batch,1000000,79,True,P⇢L θ_98,P⇢L θ_98
+batch,1000000,80,True,L→L,P⇢L θ_max
+endpoint,1000,78,True,L→L,L→L
+endpoint,1000,79,True,L→L,L→L
+endpoint,1000,80,True,L→L,L→L
+endpoint,10000,78,True,L→L,L→L
+endpoint,10000,79,True,L→L,L→L
+endpoint,10000,80,True,L→L,L→L
+endpoint,100000,78,True,L→L,L→L
+endpoint,100000,79,True,L→L,L→L
+endpoint,100000,80,True,L→L,L→L
+endpoint,1000000,78,True,L→L,L→L
+endpoint,1000000,79,True,L→L,L→L
+endpoint,1000000,80,True,L→L,L→L

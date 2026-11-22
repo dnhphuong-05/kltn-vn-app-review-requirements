@@ -47,3 +47,9 @@ env/
 09_thesis/tables/
 # Hướng dẫn riêng cho Claude Code — giữ trên máy, không commit.
 CLAUDE.md
+# Mô hình của demo (huấn luyện lại cục bộ, nặng) — không commit
+demo/models/
+# Toàn bộ thư mục khóa luận và demo — giữ trên máy, không đưa lên GitHub (22/11/2026).
+09_thesis/
+demo/
+02_src/src/demo/

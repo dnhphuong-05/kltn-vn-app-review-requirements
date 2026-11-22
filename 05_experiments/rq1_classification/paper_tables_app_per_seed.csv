@@ -1,0 +1,51 @@
+﻿Set,Configuration,Seed 42,Seed 1337,Seed 2024,Mean,SD,Mean − seed 42,Flag (|gap| > 2 points)
+Shopee hold-out,Flat TF-IDF,62.8,62.8,62.8,62.8,0.0,0.0,False
+Shopee hold-out,Cascade TF-IDF,61.3,61.3,61.3,61.3,0.0,0.0,False
+Shopee hold-out,Flat Bi-LSTM,62.9,60.9,55.2,59.7,4.0,-3.3,True
+Shopee hold-out,Cascade Bi-LSTM,54.2,49.4,56.8,53.5,3.7,-0.7,False
+Shopee hold-out,Flat ViSoBERT,66.7,65.4,68.3,66.8,1.5,0.1,False
+Shopee hold-out,Cascade ViSoBERT,62.9,61.5,61.8,62.1,0.7,-0.8,False
+Shopee hold-out,Flat PhoBERT,70.8,72.0,69.9,70.9,1.0,0.1,False
+Shopee hold-out,Cascade PhoBERT,61.7,62.9,57.7,60.8,2.7,-0.9,False
+Shopee hold-out,Flat TF-IDF (thresholded),60.8,60.8,60.8,60.8,0.0,0.0,False
+Shopee hold-out,Flat Bi-LSTM (thresholded),61.7,51.2,43.2,52.0,9.3,-9.7,True
+Shopee hold-out,Flat ViSoBERT (thresholded),64.9,63.8,64.5,64.4,0.5,-0.5,False
+Shopee hold-out,Flat PhoBERT (thresholded),70.0,66.7,68.9,68.5,1.7,-1.5,False
+Shopee hold-out,PhoBERT ⇢ LLM (θmax),79.9,79.8,80.5,80.1,0.3,0.1,False
+Shopee hold-out,PhoBERT ⇢ LLM (θ98),79.1,79.7,80.3,79.7,0.6,0.6,False
+Shopee hold-out,TF-IDF ⇢ LLM (θmax),76.8,76.8,76.8,76.8,0.0,0.0,False
+Shopee hold-out,TF-IDF ⇢ LLM (θ98),73.6,73.6,73.6,73.6,0.0,0.0,False
+Shopee hold-out,ViSoBERT ⇢ LLM (θmax),79.7,77.8,78.8,78.8,1.0,-1.0,False
+Shopee hold-out,ViSoBERT ⇢ LLM (θ98),75.6,75.4,76.7,75.9,0.7,0.3,False
+Shopee hold-out,PhoBERT ⇢ LLM (disagreement),77.8,79.1,77.9,78.2,0.7,0.5,False
+Shopee hold-out,"PhoBERT ⇢ LLM (confidence, disagreement budget)",77.7,79.0,78.3,78.3,0.6,0.6,False
+Shopee hold-out,"PhoBERT ⇢ LLM (confidence, 5% budget)",74.8,74.9,77.3,75.7,1.4,0.9,False
+Shopee hold-out,"PhoBERT ⇢ LLM (confidence, 10% budget)",77.9,79.7,79.6,79.1,1.0,1.1,False
+Shopee hold-out,"PhoBERT ⇢ LLM (confidence, 15% budget)",81.0,79.7,80.3,80.3,0.6,-0.6,False
+Shopee hold-out,"PhoBERT ⇢ LLM (confidence, 20% budget)",81.7,79.4,80.3,80.5,1.1,-1.2,False
+Shopee hold-out,"PhoBERT ⇢ LLM (confidence, 30% budget)",81.5,81.6,80.3,81.2,0.7,-0.3,False
+Lazada,Flat TF-IDF,56.1,56.1,56.1,56.1,0.0,0.0,False
+Lazada,Cascade TF-IDF,56.6,56.6,56.6,56.6,0.0,0.0,False
+Lazada,Flat Bi-LSTM,54.6,51.1,46.4,50.7,4.1,-3.9,True
+Lazada,Cascade Bi-LSTM,49.3,40.0,52.2,47.1,6.4,-2.1,True
+Lazada,Flat ViSoBERT,65.6,62.7,67.7,65.3,2.5,-0.3,False
+Lazada,Cascade ViSoBERT,55.9,56.5,55.6,56.0,0.4,0.1,False
+Lazada,Flat PhoBERT,67.2,65.4,69.6,67.4,2.1,0.2,False
+Lazada,Cascade PhoBERT,56.1,53.3,48.8,52.7,3.6,-3.3,True
+Lazada,Flat TF-IDF (thresholded),55.7,55.7,55.7,55.7,0.0,0.0,False
+Lazada,Flat Bi-LSTM (thresholded),50.1,42.8,35.8,42.9,7.2,-7.2,True
+Lazada,Flat ViSoBERT (thresholded),59.1,58.9,61.3,59.8,1.3,0.6,False
+Lazada,Flat PhoBERT (thresholded),64.3,57.6,59.8,60.6,3.4,-3.8,True
+Lazada,PhoBERT ⇢ LLM (θmax),67.0,62.3,63.0,64.1,2.6,-2.9,True
+Lazada,PhoBERT ⇢ LLM (θ98),69.8,64.3,65.7,66.6,2.9,-3.2,True
+Lazada,TF-IDF ⇢ LLM (θmax),61.7,61.7,61.7,61.7,0.0,0.0,False
+Lazada,TF-IDF ⇢ LLM (θ98),61.0,61.0,61.0,61.0,0.0,0.0,False
+Lazada,ViSoBERT ⇢ LLM (θmax),66.0,66.2,67.8,66.7,1.0,0.6,False
+Lazada,ViSoBERT ⇢ LLM (θ98),67.7,65.8,69.0,67.5,1.6,-0.2,False
+Lazada,PhoBERT ⇢ LLM (disagreement),72.8,65.2,69.0,69.0,3.8,-3.8,True
+Lazada,"PhoBERT ⇢ LLM (confidence, disagreement budget)",70.9,67.2,67.8,68.7,2.0,-2.3,True
+Lazada,"PhoBERT ⇢ LLM (confidence, 5% budget)",69.6,67.9,67.7,68.4,1.0,-1.2,False
+Lazada,"PhoBERT ⇢ LLM (confidence, 10% budget)",69.1,68.3,67.8,68.4,0.7,-0.7,False
+Lazada,"PhoBERT ⇢ LLM (confidence, 15% budget)",68.8,65.9,68.0,67.6,1.5,-1.3,False
+Lazada,"PhoBERT ⇢ LLM (confidence, 20% budget)",67.0,65.2,67.1,66.5,1.1,-0.6,False
+Lazada,"PhoBERT ⇢ LLM (confidence, 30% budget)",64.8,64.3,62.9,64.0,1.0,-0.8,False

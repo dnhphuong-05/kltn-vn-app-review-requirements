@@ -1,0 +1,25 @@
+﻿giá LLM ×,triển khai,A (cố định),B (biến đổi),hòa vốn (review/tháng),ghi chú
+1,batch,Phẳng PhoBERT,Cascade LLM few-shot,59888.83208214635,
+1,batch,Phẳng PhoBERT,Phẳng LLM few-shot,46435.07193578591,
+1,batch,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,75148.95092151496,
+1,batch,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0,A luôn rẻ hơn
+1,endpoint,Phẳng PhoBERT,Cascade LLM few-shot,1297624.2803364098,
+1,endpoint,Phẳng PhoBERT,Phẳng LLM few-shot,1006604.0707735579,
+1,endpoint,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,1539796.4507396973,
+1,endpoint,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0,A luôn rẻ hơn
+5,batch,Phẳng PhoBERT,Cascade LLM few-shot,11921.9805486103,
+5,batch,Phẳng PhoBERT,Phẳng LLM few-shot,9234.861461028422,
+5,batch,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,14312.759345704757,
+5,batch,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0,A luôn rẻ hơn
+5,endpoint,Phẳng PhoBERT,Cascade LLM few-shot,259478.1894006153,
+5,endpoint,Phẳng PhoBERT,Phẳng LLM few-shot,201274.14748804492,
+5,endpoint,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,307912.6234812727,
+5,endpoint,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0,A luôn rẻ hơn
+20,batch,Phẳng PhoBERT,Cascade LLM few-shot,2936.3180606346523,
+20,batch,Phẳng PhoBERT,Phẳng LLM few-shot,2264.7083770047443,
+20,batch,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,3504.665788693122,
+20,batch,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0,A luôn rẻ hơn
+20,endpoint,Phẳng PhoBERT,Cascade LLM few-shot,64825.79735015382,
+20,endpoint,Phẳng PhoBERT,Phẳng LLM few-shot,50274.78687201123,
+20,endpoint,PhoBERT ⇢ LLM (θ_max),Cascade LLM few-shot,76934.40587031818,
+20,endpoint,Phẳng PhoBERT,PhoBERT ⇢ LLM (θ_max),0.0,A luôn rẻ hơn

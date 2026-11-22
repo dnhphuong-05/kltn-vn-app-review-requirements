@@ -1,0 +1,76 @@
+review_id,text,label,ambiguous,note
+75db5c2c-46f8-4339-afaf-2f5ae33ba3f5,tốt,OTHER,0,"Khen chung, không actionable"
+93d24e85-3896-4e63-97db-d8be6af3967f,trả lại cái lựa chọn đơn vị vận chuyển đi tại đơn vị vận chuyển GHN giao rất lâu nếu so với các đơn vị khác trễ tận 2 3 ngày có lúc trễ tận 7 ngày cho 1 đơn hàng rồi còn gọi để mai giao vì sợ trễ mặc dù mới 3h chiều rồi shipper bên GHN rất bố láo và md,OTHER,0,"Phàn nàn logistics và shipper, không chỉ ra lỗi app"
+3966135b-6b5c-4722-a125-469f65a18d40,tìm kiếm trên shoppee bị cái gì mà ko ra v cứ ra mấy cái nhảm gì đâu ko,BUG,0,"Tìm kiếm trả kết quả sai hoặc không liên quan, là malfunction"
+45484b4a-c5eb-4bda-8547-7d2185b247de,ngon,OTHER,0,Khen chung
+b6d4b63e-9169-4f1c-935f-1ad4cb2cca10,"cho voucher rồi lúc mua thì bảo là voucher ảo xong khóa sđt ,tốn sđt thật đúng là shoppe😐",BUG,0,"Voucher bị lỗi không áp dụng được và khóa số điện thoại, là malfunction"
+4958811e-744a-4a0c-aa06-edc68b6fc1bc,chính sách trả hàng cực kỳ tệ. người bán gửi sai hàng quay video mở hàng nói giả mạo ngụy tạo bằng chứng không cho trả hàng. quá tệ,OTHER,0,"Phàn nàn chính sách trả hàng và người bán, không chỉ ra lỗi app"
+fb0c4bbc-4705-402a-b569-25afa2dc25c7,"mỗi lần vào là vào thẳng Live & video , tôi không có nhu cầu thì có tắt được không ? với nút back của điện thoại trong rất nhiều trường hợp không có tác dụng , toàn phải bấm mũi tên quay lại bên trên. video khi đang phát qua tai nghe bluetooth muốn bấm dừng qua tai nghe cũng không thể dừng được , cứ phải tương tác trực tiếp trên màn hình . Đừng nói cảm ơn , hãy tìm cách khắc phục đi rồi nói gì thì nói .",UX,1,"Nhiều intent: tự mở Live và Video, nút back không tác dụng, điều khiển bluetooth không dừng được, không xác định intent chính"
+67b0d008-530c-4681-8001-a253c98f4548,nó cứ bị dính m02 đồ,BUG,0,"Lỗi cụ thể dính m02 đồ, là malfunction"
+081d345c-5e63-408e-ae70-0e2fb3e9e02a,mua hàng ok giao nhanh,OTHER,0,Khen chung về mua hàng và giao hàng
+162b8850-fa31-42c1-8a37-8f5ab336f133,Không đáp ứng đúng nhu cầu của người dùng,OTHER,0,"Chê chung, không chỉ ra chức năng hoặc điểm cụ thể"
+1739ef41-1e95-4421-9dc2-a633fefb1a8b,ok good,OTHER,0,Khen chung
+52c858df-d916-47ee-8e88-22e0098e547c,ok,OTHER,0,Khen chung
+39b09f8e-0202-470a-9634-7d09b31bf912,"rất tốt,dễ đổi trả,hỗ trợ khách hàng tốt",OTHER,0,Khen chung
+f8fce12e-15d2-4480-b6e1-15a187d467e2,èo ơi tôi có tài khoản mới chưa mua đơn nào có mã giảm cho đơn từ 0 đồng lên đến 40k mà tôi áp mã mua hàng thì shopee tự ý hủy đơn của tôi khó chịu vô cùng tốt nhất ko nên tin nha giao hàng rất là lâu quá ngày dự kiến mà vẫn chưa thấy giao còn hay tự ý hủy đơn hàng của tôi khi tôi có mã giảm giá và săn đc đồ rẻ là tự ý hủy của tôi mất bao lâu mua đồ để có mã giảm giá mà khi đặt rẻ thì lại tự ý hủy khó chịu vcl,BUG,0,"Áp mã giảm giá rồi bị tự hủy đơn, là malfunction liên quan app và voucher"
+744275aa-a5c0-4a1d-b43c-7a559ac3ee96,rất tốt,OTHER,0,Khen chung
+5ca18983-f944-4376-9683-3ec4ba6dde77,sp ok tuy theo chủ xop,OTHER,0,Nhận xét chung về sản phẩm và người bán
+7f134191-ffd3-4ced-89ff-e8c76e706870,kg thích,OTHER,0,Chê chung
+79bd9683-ad3c-444b-b5a7-8354d58a408e,quảng cáo nhiều vcl,OTHER,0,"Phàn nàn quảng cáo chung, không chỉ ra lỗi app cụ thể"
+8e0c8551-737b-4e75-a007-bb9e1beaf89a,"đang mua thì bị hết pin, bị thu dth, mong nhà phát hành sửa lỗi",BUG,0,"Lỗi trong quá trình mua như hết pin hoặc bị thu điện thoại, là malfunction"
+cce5f87f-9433-4fb3-b5b3-d3366a94fb60,k mua được,BUG,0,"Không mua được, là malfunction"
+7515a405-5700-437d-8fde-7fac63c7ae70,"shipper tự ý hủy đơn hàng của khách,",OTHER,0,"Phàn nàn shipper, không do app"
+15ad0884-5da6-4f25-8274-022f0e1980c4,giao hàng nhanh tróng tiện lợi,OTHER,0,Khen giao hàng
+c1b1b4c7-08ca-479b-aed3-7467faa13738,giao hàng tận nơi miễn phí mà còn được giao hàng nhanh chóng.,OTHER,0,Khen giao hàng
+10c07bd8-37b0-4c23-a52c-7e4b925c380d,tệ,OTHER,0,Chê chung
+29248bd9-77c5-4991-9025-0ae7ef226094,mong thêm nhiều giảm giá,FEATURE,0,"Đề xuất thêm hoặc mở rộng giảm giá, là feature request"
+2ee5177e-8653-4fa1-bdaf-91ada94114ec,khó mua hàng,OTHER,0,"Chê chung, không chỉ ra điểm cụ thể"
+a8d6b536-fd8f-4fc9-bd5d-f25e9b2301dc,very good,OTHER,0,Khen chung
+223437b3-db0c-49f3-aa17-1912a5cb097a,tuyệt vời!,OTHER,0,Khen chung
+7e5d5096-15c5-43e9-979f-f41d7c61448a,5 sao r hãy cho tôi mp ship ok,OTHER,0,"Khen và xin mã ship, không actionable rõ"
+ef27b2cc-bf4d-46b0-b680-a8e8e5f4034b,Tôi muốn mua hàng Shopee,OTHER,0,Không phải review vấn đề app
+15066d0d-704f-4d29-88ee-270dc8694c02,hàng bán giá rất rẻ nhân một số lúc lại do nhầm địa chỉ,OTHER,0,"Nhận xét chung về giá và địa chỉ, không do app"
+87de4734-daac-4dc6-b94a-c42fae90da1c,ko cho hoàn hàng,OTHER,0,"Phàn nàn chính sách hoàn hàng, không chỉ ra lỗi app"
+b4d2c0b5-61b0-414a-9672-e9f1bebba82d,"Hoạt đông thế này hay đấy,",OTHER,0,Khen chung
+20580887-2c7c-42b2-b168-91bc01e3d21c,tốt,OTHER,0,Khen chung
+05a679a1-0457-4899-a25c-ae7b780beffb,ko làm j mà bị vi phạm chính sách shoppe là sao?,OTHER,0,"Thắc mắc chính sách, không chỉ ra lỗi app cụ thể"
+c8a1b374-36ec-4a1f-8f7f-3dac5358dca4,tốt,OTHER,0,Khen chung
+362f1361-0acd-4139-9a58-c831a56fc3a6,"THÁI ĐỘ LÀM VIỆC CỰ KÌ TỆ. MÌNH RA RA LUẬT MÀ KHÁCH HỎI TỚI THÌ KHÔNG BIẾT. CHẲNG KHÁC NÀO THIỂU NĂNG TRÍ TUỆ. ĐÃ VẬY CÒN ÉP KHÁCH TIẾP TỤC THAO TÁC. TÍNH LỪA ĐẢO, NUỐT TIỀN NGƯỜI KHÁC HAY GÌ.",OTHER,0,"Phàn nàn thái độ và hỗ trợ, không chỉ ra lỗi app"
+ffeaab56-e482-48c4-86a8-8c6e1926351b,rất ok,OTHER,0,Khen chung
+dec963da-f9eb-4ce2-8691-1016d7f3d26c,đẹp,OTHER,0,Khen chung
+e2c84764-7100-4404-a69d-e9cd49362384,"toàn hàng giả, hàng nhái trôi nổi tràn lan trên shopee, mong cơ quan chức năng vào cuộc ngăn chặn",OTHER,0,"Phàn nàn hàng giả hàng nhái, không do app"
+92ab598a-31e0-4380-ad22-8ca12468b52c,ok á,OTHER,0,Khen chung
+1fa09c30-02c9-4317-92dd-2d23973ab468,4 sao vì ko thể đánh giá 6 sao,OTHER,0,Khen chung
+3f839403-2c2b-42e8-84d4-d69d11b6ceba,app rác,OTHER,0,Chê chung
+7af14850-dcab-4353-b0aa-59a87af126e5,ứng dụng siêu tệ,OTHER,0,Chê chung
+27895d4d-0097-4979-a99b-f56782c29fc2,xấu,OTHER,0,Chê chung
+2161fc14-e12e-4a84-a799-06c8a62d4df7,ttoan spaylater thì lại chuyển qua TK shopee rồi không rút về được. quá bực mình,BUG,0,"Lỗi chuyển hoặc rút tiền SpayLater về tài khoản Shopee, là malfunction"
+28882499-a50a-49ea-b03b-96bdfb43ca42,OK,OTHER,0,Khen chung
+da1855df-d55f-407e-98b8-279cd45ce9cd,app qq t đặt hàng bth đc vài lần thì báo lỗi nên khoá tk,BUG,0,"Báo lỗi rồi khóa tài khoản, là malfunction"
+dad71cb2-67a8-4ac2-b142-0b61693c1bd0,"Tắt chức năng vào app là nhảy vô video với live dùm cái. Mất thời gian, phiền, chậm, lag đặc biệt máy yếu.",UX,0,"Tự nhảy vào video và live gây friction, chức năng đã có nên là UX"
+42a8462c-c133-4629-ab68-2892e0afaffb,mk vừa lập acc lưu đc viu chờ 80k xg e nó ghi là 3/8 hết hạn r mk để đấy chx đc 3 ngày viu chờ ko còn nó lại cho mk viu chờ 60k thôi bực ghê,BUG,0,"Voucher bị mất hoặc hết hạn sai, là lỗi voucher"
+7408098a-dbf7-4cdb-a328-07b1482c8e3f,Ok,OTHER,0,Khen chung
+d093c4f1-9ed1-46e0-aea1-3940b8b171b2,"khó chịu cái quảng cáo hết lần này đến lần khác =) đọc truyện trên web, chơi game bên ngoài xem quảng cáo lúc ko tải shoppe thì ko có việc gì Tải shoppe xong, mỗi lần đổi web nó nổi quảng cáo thì ko nói, nhưng nó tự chuyển sang app shoppe luôn =) làm nhiều lần lên web có quảng cáo là lại nhảy sang app shoppe xong phải bấm về web. Về phần chơi game có quảng cáo, tải shoppe xong, quảng cáo có shoppe là nó văng game qua app shoppe luôn? ĐÃ KO CÓ NHU CẦU MÀ CỨ HIỆN LÊN HOÀI, khó chịu riết xóa app",BUG,0,"Quảng cáo tự chuyển hoặc văng sang app ngoài ý muốn, là malfunction"
+8db58663-fb07-4285-af77-b406d3b119ef,Skin murad ms ko ấn tượng về hiệu ứng lắm nhg mà free nên cx ok tạm 3sao trừ 1 vì bao lì xì quá ít,OTHER,0,"Nhận xét chung về event, không actionable với app"
+d44e6471-cad2-465a-882d-d619f7bf23db,ít bị lỗi và nhiều votcher lắm,OTHER,0,Khen chung
+70b45598-ffc1-45ea-b58e-37a8faf57767,có mã mà nó ko cho đặt,BUG,0,"Voucher không áp dụng được, là malfunction"
+b84594af-d5da-4c46-946f-f40e3f690be5,"Trải nghiệm của mình trên shopee đa số là trải nghiệm tốt , nên 5 sao nha .",OTHER,0,Khen chung
+42acd7bc-2e7f-4852-a4a5-14b0a3972f82,đi đâu cũng thấy quảng cáo,OTHER,0,Phàn nàn quảng cáo chung
+ab99d5eb-c015-4b0c-97da-6903b3c1e5b0,Very nice,OTHER,0,Khen chung
+03f1c809-c2da-4dc5-9c45-675a59a69a79,giao lâu,OTHER,0,"Phàn nàn giao hàng lâu, không do app"
+642fe92f-75b4-489c-b108-f60532866edc,ok,OTHER,0,Khen chung
+0c9685e3-d372-480d-b964-dff62f209db6,tốt đc,OTHER,0,Khen chung
+f781c7e6-1cae-4e88-93bf-e306b73fec6e,quá ok,OTHER,0,Khen chung
+8466ce83-4634-42a9-8fcf-127c9ee45605,"như ngây á . đang coi phim hấn cứ nhảy sang shopee , vừa bấm lại phim thì hấn lại nhảy , tức ghê á",BUG,0,"Tự nhảy sang Shopee khi đang xem phim, là malfunction"
+e07c1b0f-3dea-4a1c-8112-2567c54f6f90,"xu điểm danh ngày càng ít , acc mới đc giảm nhiều hơn , cho dù là hạng kim cương cx kh đc mã giảm nhiều",OTHER,0,"Phàn nàn chính sách ưu đãi, không chỉ ra lỗi app"
+8c18dedb-bed0-4960-bb42-f6b867025b61,mua cái áo sơ mi nhưng mà người ta đưa cho cái quần còn không cho đổi,OTHER,0,"Người bán gửi sai và không cho đổi, không do app"
+85d74ddb-6804-4181-b085-30482fd4fa14,Iu Tép,OTHER,0,Khen chung
+9d695fac-aaaa-494c-aadf-20422d237a32,hàng gần đến nơi rồi mà cứ quanh đi quẩn lại mãi ko thấy giao làm ăn chán thật:)),OTHER,0,"Phàn nàn giao hàng, không do app"
+1d6cd1e7-eb08-4bec-b90a-83e29bd6cc38,tốt 10 điểm không có nhưnh,OTHER,0,Khen chung
+bf17da8f-ff8d-4bb0-b356-b88ab3a7092d,tốt,OTHER,0,Khen chung
+8965a3f8-9c23-4d84-9a2c-727bbb3cc861,quá tuyệt vời!,OTHER,0,Khen chung
+9edbc2dd-2ab9-443b-857a-de1245b7c23e,cũng đc nhưng bom hàng hơi nhiều!!!.,OTHER,0,"Phàn nàn bom hàng, thuộc logistics hoặc người bán"
+c4619243-0857-431f-af80-4d0b7eae6f4f,Rất tốt,OTHER,0,Khen chung
+9e89d23d-caca-44c5-a8f1-0a68e3e46df8,"bỏ thêm tủ đồ đi nhé, không đặt hàng dc",FEATURE,0,"Đề xuất bỏ hoặc thêm tủ đồ để đặt hàng được, là feature request"
+c5621df7-4ecb-4632-a3d0-46ddeec8c5c7,tốt,OTHER,0,Khen chung
+93c18679-4d78-4ff4-818e-f55b0c34c752,app ngày càng giảm chất lượng tự động hủy đơn đã đặt đã thế còn không thể trả hàng,BUG,0,"Tự động hủy đơn đã đặt và không thể trả hàng, là malfunction"

@@ -18,14 +18,16 @@ saved in this repository. No model is retrained and no API is called.
 | Prompts and few-shot examples | `04_prompts/classification_fewshot/` (system prompts verbatim; examples as review IDs, labels and SHA-256 of the text); hashes in `04_prompts/prompts_registry.md` | yes, without example texts |
 | Results of earlier rounds used by the consistency checks | `05_experiments/rq1_classification/paper_step2_*`, `paper_step4_*`, `paper_step5_*`, `paper_cost_*` | yes |
 | Split identifiers | `01_data/manifests/splits_manifest_T0_2026-10-06.json`, `validation_rebalance_v1.8_T0_2026-10-06.json` | yes |
-| Labelled split files with review texts | `01_data/processed/{shopee_train, shopee_validation, shopee_holdout, shopee_focused_feature_ux, lazada_external_test}.csv` | **no** (privacy); available from the corresponding author on request |
+| Labelled split files with review texts (names and e-mail addresses masked) | `01_data/processed/{shopee_train, shopee_validation, shopee_holdout, shopee_focused_feature_ux, lazada_external_test}.csv` | yes (private repository) |
+| Annotation sheets, adjudicated labels and label provenance | `01_data/gold/`, `07_human_eval/` | yes (private repository) |
+| Crawled raw data | `01_data/raw/`, `01_data/interim/` | **no**: shop replies still contain unmasked names; not needed to regenerate the tables |
 
 Environment: Python 3.13, `pip install -r requirements.txt`, plus `pip install jupyter matplotlib` for running the notebooks and
 drawing the figures (SciPy is installed with scikit-learn). A laptop CPU is enough; the table notebook runs in a few minutes.
 
 ## 2. Steps
 
-1. Place the five labelled split files in `01_data/processed/`.
+1. Check that the five labelled split files are in `01_data/processed/` (they are part of the private repository).
 2. Optional: re-run `notebooks/25_paper_fair_controls.ipynb` to regenerate the Round 4 files `paper_step5_*`; otherwise the saved
    files are used. The notebook verifies the SHA-256 of `paper_step5_selection.json` before it reads any test label.
 3. Run the table notebook from the `notebooks/` folder:
@@ -108,10 +110,10 @@ Every reading of test labels is logged in `01_data/HOLDOUT_LOCK.md`, and the dat
 
 ## 6. Known limits
 
-- Without the labelled split files the tables cannot be regenerated, although every saved prediction and table can be inspected.
-- The few-shot example files store review IDs, labels and SHA-256 hashes, not texts. Thirteen of the 14 example texts are
-  available only in the training file; the remaining one is also quoted as an illustration in the annotation guideline
-  (`00_protocol/annotation_guideline_v1.md`). The complete few-shot prompts can therefore be rebuilt only together with the
-  training file.
+- The crawled raw data (`01_data/raw/`, `01_data/interim/`) are not in the repository because shop replies still contain
+  unmasked names; the tables are regenerated from the masked, labelled split files, so the raw data are not needed.
+- The few-shot example files store review IDs, labels and SHA-256 hashes, not texts. All 14 example texts are in the
+  training file, and one of them is also quoted as an illustration in the annotation guideline
+  (`00_protocol/annotation_guideline_v1.md`). The complete few-shot prompts can therefore be rebuilt from the training file.
 - GPT-4o-mini was called at temperature 0 with a fixed seed, but the provider served several system fingerprints, so repeated API
   calls may not return the same labels; reproduction relies on the saved outputs.

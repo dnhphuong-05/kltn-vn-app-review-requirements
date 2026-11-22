@@ -21,19 +21,15 @@ env/
 .env
 # Calibration sheets chứa text review (blank, _A, _B mọi batch) — không commit.
 # README.md trong thư mục và calibration_manifest_*.json (chỉ review_id + checksum) vẫn commit được.
-07_human_eval/calibration/*.csv
 # Gold chứa text review (đã ẩn danh) — không commit. Manifest (*.json, chỉ review_id + checksum) vẫn commit được.
 # Pilot (thuộc Hold-out) chứa text review — không commit. README vẫn commit được.
-07_human_eval/pilot/*.csv
 # Ví dụ hướng phát triển (notebook 21–22, gom cụm): file có văn bản review và embedding đệm — không commit.
 # topics.csv, review_topic_map.csv, gd1x_* vẫn commit được.
 05_experiments/rq2_topics/actionable_reviews.csv
 05_experiments/rq2_topics/gd12_topic_examples.csv
 05_experiments/rq2_topics/cache/
 # Phiếu chấm manual topic purity (ví dụ gom cụm) có văn bản review — không commit. README.md vẫn commit được.
-07_human_eval/topic_purity/*.csv
 # Phiếu mã hóa thủ công lỗi giữ nhầm OTHER (notebook 19) có văn bản review — không commit. coding_key.csv (không có văn bản) và README.md vẫn commit được.
-07_human_eval/paper_lazada_errors/coding_sheet.csv
 # Bài báo tham khảo (PDF của nhà xuất bản/tác giả) — bản quyền bên thứ ba, không commit. tong_quan_tai_lieu.md vẫn commit được.
 09_thesis/references/*.pdf
 # Tài liệu hướng dẫn của Khoa + khóa luận mẫu (bản quyền bên thứ ba) — không commit.
@@ -50,3 +46,5 @@ demo/models/
 09_thesis/
 demo/
 02_src/src/demo/
+
+# 22/11/2026: các phiếu 07_human_eval (văn bản đã che, đã kiểm tra thông tin cá nhân) được đưa lên repo riêng tư.

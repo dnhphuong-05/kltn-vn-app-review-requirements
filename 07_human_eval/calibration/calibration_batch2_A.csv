@@ -1,0 +1,76 @@
+review_id,text,label,ambiguous,note
+c205578b-6ec1-4aad-b2bf-4587f235ebbe,"ứng dụng càng ngày càng tệ, ko bảo vệ khách hàng. Cùng với shop bán hàng lừa dối khách hàng.",OTHER,0,"Chê chung và phàn nàn shop lừa đảo, không chỉ ra lỗi hoặc chức năng cụ thể của app."
+92d759b2-d24a-4cc9-b1f9-e4045a9ec5b1,đù víppp,OTHER,0,Nội dung không đủ nghĩa để xác định vấn đề actionable.
+d6a527c2-c744-4352-b656-9a6e77fcd82a,eo App đắt điên,OTHER,0,"Than phiền giá, thuộc nhóm giá hoặc chính sách chứ không phải lỗi app."
+b898ed3d-9cc2-4392-a9bc-b0ceddd306a1,"Uy tín, tốt",OTHER,0,"Khen chung, không nêu vấn đề cần xử lý."
+4316ea7d-17ce-42c8-96d8-ef2aa37aec01,quảng cáo lừa người td dấu x để mở app,UX,0,"Quảng cáo và nút đóng gây tương tác gây hiểu lầm, là friction của thành phần UI cụ thể."
+5da2611b-ce83-4624-84c4-6153da584e0f,"quả ví trả sau shoppe hạn trả sớm vãi ít thì thì cũng phải 10-15 hàng tháng chứ nhỉ nếu ai có lương thì cuối tháng cũng tiêu gần hết r nên làm gì có tiền đâu trả , nói chung là tệ đã thế còn tăng hạn mức lên nữa nhưng hạn trả còn tệ gấp 1000 lần",OTHER,0,"Phàn nàn hạn trả và hạn mức của ví trả sau, thuộc điều kiện hoặc chính sách dịch vụ."
+3851f20a-b003-40e7-9816-9ad9615a8d9f,"thông báo thì nhiều, đang ở bên gg thì bị chuyển sang shoppe liên tục",UX,0,"Thông báo và việc tự chuyển vào app gây phiền, nhưng không cho thấy chức năng bị hỏng."
+8cac906e-1847-47b3-90d0-37160687c0ff,"đặt có cái balo thôi mà bắt xác nhận hoài, lag, tóm lại cập nhật xong như củ ca.c",BUG,0,Bắt xác nhận lặp lại và bị lag khiến thao tác đặt hàng không hoàn thành bình thường.
+5e69bd03-dab4-446d-af2d-dcec2ecb52d7,ok,OTHER,0,"Khen hoặc phản hồi chung, không có yêu cầu cụ thể."
+296f3681-a94d-4ff1-a5a2-57a4b7c03f95,đặt toàn tự bị hủy,BUG,0,"Đơn hàng tự bị hủy, là lỗi khiến quy trình đặt hàng không hoàn thành."
+b4aedd61-6ac2-4208-b439-e72e5f834f4c,"shoppe với nhiều ưu đãi, tôi luôn tin tưởng và mua hàng ở Shopee",OTHER,0,"Khen ưu đãi và mức độ tin tưởng, không nêu vấn đề actionable."
+f943217a-ab22-4ac7-99e0-197e89ec5c8e,Good,OTHER,0,Khen chung.
+bd2986da-6140-4c0c-8e7e-9b00076081d4,very very good!,OTHER,0,Khen chung.
+b4882cc5-1401-406d-993a-0c9fc52ea0d3,Không đăng nhập đc,BUG,0,"Không đăng nhập được, thuộc lỗi truy cập tài khoản."
+ea9bac97-9bb5-42fb-9bf4-ec8afb836024,lag,BUG,0,"Nêu lỗi hiệu năng của app, dù review rất ngắn."
+61a70d09-b2df-4bbb-8864-4bd0d8c83873,be,OTHER,0,Nội dung không đủ nghĩa để xác định vấn đề.
+63848f1a-2205-4000-9c25-0821d59e2692,"có nhiều tin nhắn quà tặng Shopee lừa đảo,dù bị Shopee khóa nhưng ngày vẫn 2-3 tin🤨,rùi xây dựng cho lắm trò chơi,video để app nặng,lúc mua sắm thì lang lòi ra",UX,1,Có hai ý khác lớp: tin nhắn gây phiền thuộc UX và app nặng hoặc lag thuộc BUG; chọn ý actionable xuất hiện trước là UX.
+1512d59c-3a3f-4e4b-bbd7-9d3d62503285,"Shop chịu. Tôi cũng chịu. Shipper giao sai địa chỉ, shoppe tự hoàn đơn cho shop(???). Mới ra tết thôi á🙃",OTHER,0,"Vấn đề giao sai địa chỉ và hoàn đơn do shipper, không chỉ ra lỗi của app."
+833e1508-f0e5-4efd-9719-87702629244a,"nhiều mã giảm giá, sàn trợ giá rất mạnh, mua được hàng rẻ, chất lượng tốt",OTHER,0,"Khen mã giảm giá và chất lượng mua hàng, không có yêu cầu cụ thể."
+5dd43325-dfe0-45d1-aada-cc9311a6f1ef,mẹ nó tối ngày dẫn vô live rồi giảm âm lượng,UX,0,Hành vi tự dẫn vào Live và giảm âm lượng gây phiền; chưa có đề xuất thay đổi cụ thể.
+68b3b798-b128-46d4-b72f-f53e5d52734c,hay,OTHER,0,Khen chung.
+66dd6b0a-5ac6-4752-a276-3319a4843545,"thong tin san pham ro rang, shipper than thien, rat hai long, cam on shopee",OTHER,0,Khen thông tin sản phẩm và dịch vụ giao hàng.
+8d43c025-4d9e-42b5-9ba7-a55ad6fe1c15,freeship là ok,OTHER,0,"Nhận xét về freeship, không nêu lỗi hoặc yêu cầu cụ thể."
+e9b1d12e-d6d7-4ed2-8438-a2d978868156,Cảnh báo: Không nên sử dụng ShopeePay !!,OTHER,0,"Cảnh báo chung về ShopeePay, không nêu sự cố hoặc yêu cầu dev xử lý."
+ab4b83d5-8a7d-48b7-ba46-39186dc1e0fd,ok,OTHER,0,"Nội dung chung, không có vấn đề actionable."
+63f42d6d-d865-44cf-bb2d-450733466dc8,hay,OTHER,0,Khen chung.
+e4336ef8-d2c6-4b34-9ad1-b7a221c4a885,ê chề đw,OTHER,0,"Nội dung cảm thán, không xác định được vấn đề."
+11f70863-2aa0-4b93-98cc-36371ab6ff92,đc,OTHER,0,"Nội dung quá ngắn, không chỉ ra vấn đề cụ thể."
+65189408-d898-4fa0-902a-8cea60714630,sản phẩm táo đỏ chuẩn Hàn Quốc mẫu mã đẹp ok shop 5 sao,OTHER,0,"Khen sản phẩm hoặc shop, không phải phản hồi actionable về app."
+99aa591f-f890-4be8-841c-7cfadcc6e2a0,Ứng dụng SV mé nó đặt hàng méo về,OTHER,0,"Đơn không về, thuộc vấn đề giao hàng và không chỉ ra lỗi trong app."
+481654e7-78c6-47f2-95e7-f01ccee5c155,trừ tiền bạn t t ko thích t đánh giá 1 sao,OTHER,0,"Nội dung không rõ nghĩa, không xác định được yêu cầu hoặc lỗi cụ thể."
+94a6b8b0-0550-466f-957a-961318e7b1e6,lựa chọn sản phẩm dễ dàng. mua hàng nhanh chóng,OTHER,0,"Khen thao tác chọn sản phẩm và mua hàng, không có yêu cầu cụ thể."
+fde373b1-c463-4a55-829f-72ea614780a8,"Làm Affiliate Marketing (Tiếp thị liên kết): Bạn gắn link các sản phẩm từ Zalo Mini App, Shopee, Lazada,... vào video hoặc phần bình luận. Khi khách hàng bấm vào link và mua hàng, bạn sẽ nhận được hoa hồng 🌹",OTHER,0,"Nội dung mô tả affiliate, không phải phản hồi actionable về app."
+49f16212-71eb-4235-9011-096529616994,ship ko gọi điện r tự hoàn hàng về đổi ạc khác đặt thì ship giữ hàng ko giao mà để đã nhận trg khi hai 3ngày r chx nhận đc j hết?,OTHER,0,"Các vấn đề do shipper giao hoặc cập nhật nhận hàng, không chỉ ra lỗi app."
+83dc46fe-e864-4856-b30f-d76a35a09e3e,trải nghiệm thú vị,OTHER,0,"Nhận xét chung về trải nghiệm, không chỉ ra vấn đề cụ thể."
+981fd050-495f-4cc3-808c-a8e5ac4c08e7,rất tin tưởng shoppy,OTHER,0,"Khen mức độ tin tưởng, không có yêu cầu cụ thể."
+208c05b6-0fb2-4c64-b55a-157d3ef47361,ok,OTHER,0,"Nội dung chung, không có vấn đề actionable."
+b55fae39-97ef-4629-a8c8-b86ac7c2bd14,app nên để số điện thoại và tên shipper lên tiến độ giao hàng để người dùng còn liên hệ chứ đơn hàng đến chạm giao hàng mà 1 tuần lễ ko thấy shipper giao hàng,FEATURE,0,"Yêu cầu thêm tên và số điện thoại shipper vào tiến độ giao hàng, là chức năng mới cụ thể."
+1fdf9c26-049d-4c56-9739-f0074c306838,Tuyệt Vời.,OTHER,0,Khen chung.
+75be2c08-4467-4a04-b4df-e58bbad79869,"yêu cầu trả hàng để hoàn tiền hoặc đổi hàng, có ghi SPX và đưa hàng cho shipper rồi nhưng đến khi liên hệ lại shop thì lại kêu chưa nhận đơn trả. Rõ ràng đã đưa hàng rồi mà, cùng đợt đó cũng có 1 đơn mình gửi chung với đơn này cũng hoàn đc nhưng đơn này thì ko vừa mất tiền vừa mất công chẳng bt app xử lý kiểu gì",OTHER,0,"Vấn đề chính nằm ở vận chuyển đơn trả và shop chưa nhận hàng, chưa chỉ ra lỗi cụ thể của app."
+5172e39b-b37d-4643-a49a-5f9a7caae638,ok,OTHER,0,"Nội dung chung, không có vấn đề actionable."
+7c16dc9d-f74c-4633-b1be-c8ac704245a1,hàng đẹp,OTHER,0,"Khen sản phẩm, không phải phản hồi về app."
+3236cfaf-911f-4799-922e-0965b82f875e,quá tốt không còn j hơn,OTHER,0,Khen chung.
+5d4a9ae9-29f3-401e-a120-0f2c572ad7b7,QC nhiều quá,UX,0,Quảng cáo quá nhiều là phàn nàn về thành phần UI cụ thể.
+62690671-2d06-4ced-8bed-46f41adb0b48,"""ko thể nhân xu do shoppe ghi nhận một số hoạt động bất thường trên tk"" ủa mình chỉ mua hàng làm nhiệm vụ và xem like kiếm xu chứ có làm gì đâu mà vi phạm hay là thấy t lấy xu nhiều quá nên tiếc ko cho nhận,làm ăn kỳ cục ko phải 1 lần mà rất nhiều lần, ứng dụng mua hàng lớn mà làm ăn tệ hại, nhân viên ko bik cách quản lí, tệ quá tệ.",BUG,0,"Không nhận được xu do hệ thống gắn cờ bất thường, khiến thao tác trong app không hoàn thành."
+f9f26e92-2bb9-4f1c-8c64-5b5ec4bd9cc6,ok,OTHER,0,Khen hoặc phản hồi chung.
+c42ebf79-9bba-4a23-8435-962d3deb5f89,toàn bị gd bất thường trong khi mik chẳng làm j đặt hàng éo đc,BUG,0,"Bị hệ thống nhận diện giao dịch bất thường và không đặt hàng được, là lỗi cản trở thao tác."
+e90b04f0-1788-4945-8a4d-86e7213ccc45,"Tiện lợi giá rẻ, tìm mua những shop uy tín, lượt mua hàng cao hoặc các thương hiệu nổi tiếng thì yên tâm mua hàng chất lượng giá rẻ. Shiper phục vụ tận tình, đổi trả hàng dễ nhanh chóng.",OTHER,0,"Khen giá, shop, shipper và đổi trả, không nêu vấn đề cần xử lý."
+8e9ea2d4-833d-4fda-b13f-b7edff740c66,bớt quản cáo lại đang kiểm tra 15p tự nhiên hiện rồi xong luôn,UX,0,Yêu cầu giảm quảng cáo vì quảng cáo xuất hiện khi đang kiểm tra nội dung và gây gián đoạn.
+bee7251b-8d7d-4eb5-a42d-2d5778380efb,tốt,OTHER,0,Khen chung.
+cf7471aa-cd8f-40d1-8c8b-657c473c7d90,"hoàn tiền trả hàng thì làm ơn trả tiền mặt giùm, nói là app lẫn người bán làm việc quá chậm chạp quá tệ",OTHER,0,"Yêu cầu phương thức hoàn tiền và phàn nàn tốc độ xử lý, thuộc chính sách hoặc dịch vụ."
+d076ab22-714e-4466-a35a-b518dd59b47d,tự dưng hủy đơn mà acc t có làm gì đâu mà bất thường chịu luôn càng ngày xấu đi,BUG,0,"Đơn tự bị hủy dù tài khoản không làm gì bất thường, là lỗi của quy trình đặt hàng."
+29f95921-ec8c-4ea6-9afd-b7faa8c81a5e,th sự là cho vocher xong đặt thì hủy ?????,BUG,0,"Đặt hàng sau khi dùng voucher nhưng đơn tự bị hủy, là lỗi làm giao dịch không hoàn thành."
+8ff96497-f07f-4f64-8802-ef1afa8d341b,tôi thích,OTHER,0,Khen hoặc cảm nhận chung.
+dced2ffe-3b11-41ea-86fb-dc7141f40337,quá thích,OTHER,0,Khen hoặc cảm nhận chung.
+682e8322-ef72-4bcc-a626-5191d0b5757f,ko cho trả hàng,BUG,0,Không thực hiện được thao tác trả hàng trong app.
+c1feab98-5d06-4231-8fcf-d49c415b27b9,k tải shoppe dc,BUG,0,"Không tải được app, là lỗi cản trở việc sử dụng."
+af55eab9-818c-4763-b9e3-78c55239c376,giá rẻ dùng siêu nhiều vouchers,OTHER,0,"Khen giá và voucher, không có yêu cầu cụ thể."
+497984f1-3ca0-4be7-b512-042900bca3c8,mua rẻ được hơn so với cửa hàng. mua cũng nhiều trên đây rồi. trước mua toàn trên Lazada giờ chuyển hẳn qua đây. giá rẻ hơn mặc dù cùng 1 shop,OTHER,0,"Khen giá và trải nghiệm mua hàng, không nêu vấn đề actionable."
+986554df-c3dd-4d2b-a4b4-8f1ab29f3158,muốn xoá sản phẩm trong giỏ hàng cứ bị lỗi vài xoá ko đc chỉ cần cạp nhật vấn đề về lỗi giỏ hàng nữa là quá OK luôn,BUG,0,Không xóa được sản phẩm khỏi giỏ hàng và yêu cầu sửa lỗi giỏ hàng.
+73f0cd9c-a2e1-4640-98e7-cb090ffd6b5b,"nên dùng app này nha trải nghiệm khách quan mua hàng nhanh chóng,trả hàng hoàn tiền 100%,...",OTHER,0,"Khen app và quy trình mua hoặc trả hàng, không nêu vấn đề cụ thể."
+65ce44a2-3f0c-48a5-8114-b971e7dafa1b,khá là nhiều đơn 0k,OTHER,0,"Nhận xét về số lượng đơn 0 đồng, không phải yêu cầu hoặc lỗi cụ thể."
+92402354-effa-463f-a0a5-092fd18fd342,t lỡ tay nhấn đặt shopee food và không được chủ động hủy đơn đặt lại. 1 sao không nói nhiều,FEATURE,0,"Yêu cầu khả năng chủ động hủy đơn sau khi đặt nhầm, là chức năng cụ thể."
+0f8c12ea-bb9b-4a2e-94bc-a3bc1f2ef154,app như hạch sale cho mã giảm giá đặt cái j cũng hủy quần áo cũng hủy kêu bất thường mua cái đt cũng hủy cùng lý do,BUG,0,"Nhiều đơn bị hủy vì hệ thống báo bất thường, khiến chức năng đặt hàng không hoàn thành."
+6659d673-178d-4210-8f2a-163215321c2c,tệ hại nhất trong tất cả các loại,OTHER,0,"Chê chung, không chỉ ra chức năng hoặc thành phần cụ thể."
+e63ed42d-d072-4a33-a527-9c3afc925e4d,không hỗ trợ đổi sđt,FEATURE,0,"Nêu khả năng còn thiếu là đổi số điện thoại, có thể xử lý bằng chức năng tài khoản."
+06ec5ac8-f652-48e9-8fd8-f5e485f27f06,rẻ,OTHER,0,"Nhận xét về giá, không phải vấn đề app."
+972076a2-fbab-4499-aeac-bbd3a4314ac5,rất hài lòng,OTHER,0,Khen chung.
+a76d20da-8d4b-48ef-8a07-de2ec27f439d,okii tốt,OTHER,0,Khen chung.
+aa4bf2af-db4e-43e9-8190-fbaaea7b8d1d,tôi thực sự hỏi chấm shopee tôi đã làm bị khóa tài khoản trong khi tui đã đăng ký shopee vip rồi mà vẫn bị khóa là sau .tui có chứng cứ đoành hoàng,OTHER,0,"Tài khoản bị khóa theo chính sách, không nêu lỗi kỹ thuật hoặc yêu cầu chức năng cụ thể."
+69355933-5236-4a7f-8702-d9551abc4aa7,ok,OTHER,0,"Nội dung chung, không có vấn đề actionable."
+df2bacf5-253c-48c9-85d4-061dc382d0df,ok,OTHER,0,"Nội dung chung, không có vấn đề actionable."
+2114cea4-5cec-4d99-b472-b0e3c7695938,amazing,OTHER,0,Khen chung.
+6f6799e5-3b48-4649-9f37-139ff9bc9df5,ok,OTHER,0,"Nội dung chung, không có vấn đề actionable."
+ff90f91f-1bcc-4903-ae2b-efa7e0ecdccf,Rất tệ mk đã áp mã thời hạn sử sụng đến 25/10 ms hết mà h mk áp thì ko đc liên tục bảo là đã hết lượt sử dụng ko những vậy lại còn hay lắc đơ,BUG,0,Voucher không áp được theo thông tin hiển thị và app còn bị lag; các ý đều thuộc nhóm lỗi kỹ thuật.

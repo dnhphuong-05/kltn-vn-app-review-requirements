@@ -20,7 +20,7 @@ saved in this repository. No model is retrained and no API is called.
 | Split identifiers | `01_data/manifests/splits_manifest_T0_2026-10-06.json`, `validation_rebalance_v1.8_T0_2026-10-06.json` | yes |
 | Labelled split files with review texts (names and e-mail addresses masked) | `01_data/processed/{shopee_train, shopee_validation, shopee_holdout, shopee_focused_feature_ux, lazada_external_test}.csv` | yes (private repository) |
 | Annotation sheets, adjudicated labels and label provenance | `01_data/gold/`, `07_human_eval/` | yes (private repository) |
-| Crawled raw data | `01_data/raw/`, `01_data/interim/` | **no**: shop replies still contain unmasked names; not needed to regenerate the tables |
+| Crawled raw data (shop replies still contain unmasked names) | `01_data/raw/`, `01_data/interim/` | yes (private repository); not needed to regenerate the tables |
 
 Environment: Python 3.13, `pip install -r requirements.txt`, plus `pip install jupyter matplotlib` for running the notebooks and
 drawing the figures (SciPy is installed with scikit-learn). A laptop CPU is enough; the table notebook runs in a few minutes.
@@ -110,8 +110,9 @@ Every reading of test labels is logged in `01_data/HOLDOUT_LOCK.md`, and the dat
 
 ## 6. Known limits
 
-- The crawled raw data (`01_data/raw/`, `01_data/interim/`) are not in the repository because shop replies still contain
-  unmasked names; the tables are regenerated from the masked, labelled split files, so the raw data are not needed.
+- The crawled raw data (`01_data/raw/`, `01_data/interim/`) are in the private repository for completeness. Shop replies in
+  these files still contain unmasked names, so they must not be redistributed; the tables are regenerated from the masked,
+  labelled split files and do not need the raw data.
 - The few-shot example files store review IDs, labels and SHA-256 hashes, not texts. All 14 example texts are in the
   training file, and one of them is also quoted as an illustration in the annotation guideline
   (`00_protocol/annotation_guideline_v1.md`). The complete few-shot prompts can therefore be rebuilt from the training file.

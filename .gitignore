@@ -1,7 +1,5 @@
 # Dữ liệu thô & nhạy cảm (không commit)
-01_data/raw/
-01_data/interim/
-# 22/11/2026: processed/, gold/ (đã che tên và email, đã kiểm tra) được đưa lên repo riêng tư; raw/ và interim/ (còn tên chưa che) KHÔNG bao giờ đưa lên.
+# 22/11/2026: toàn bộ 01_data (kể cả raw/ và interim/ còn tên người dùng chưa che) được đưa lên repo riêng tư theo ý kiến của thầy hướng dẫn. Repo phải luôn để riêng tư.
 *.pii.*
 # Kết quả nặng / checkpoint
 05_experiments/**/checkpoints/

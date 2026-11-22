@@ -1,0 +1,16 @@
+{
+  "app_id": "com.shopee.vn",
+  "filter_score_with": 1,
+  "out_path": "C:\\Workspace\\kltn-vn-app-review-requirements\\01_data\\raw\\shopee\\shopee_stratified_T0_2026-10-06_score1.jsonl",
+  "n_reviews": 22600,
+  "n_batches": 113,
+  "n_pii_replacements": 128,
+  "n_excluded_after_t0": 0,
+  "t0_end": "2026-10-06T23:59:59+07:00",
+  "stop_reason": "reached_cutoff",
+  "started_utc": "2026-10-07T00:33:10.290008+00:00",
+  "finished_utc": "2026-10-07T00:35:59.814366+00:00",
+  "cutoff": "2025-10-06T00:00:00+07:00",
+  "cap": 120000,
+  "batch": 200
+}

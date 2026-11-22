@@ -1,0 +1,1201 @@
+﻿review_id,text,gold_label,ambiguous_flag,split
+03f1c809-c2da-4dc5-9c45-675a59a69a79,giao lâu,OTHER,0,train
+05a679a1-0457-4899-a25c-ae7b780beffb,ko làm j mà bị vi phạm chính sách shoppe là sao?,OTHER,0,train
+081d345c-5e63-408e-ae70-0e2fb3e9e02a,mua hàng ok giao nhanh,OTHER,0,train
+0c9685e3-d372-480d-b964-dff62f209db6,tốt đc,OTHER,0,train
+10c07bd8-37b0-4c23-a52c-7e4b925c380d,tệ,OTHER,0,train
+15066d0d-704f-4d29-88ee-270dc8694c02,hàng bán giá rất rẻ nhân một số lúc lại do nhầm địa chỉ,OTHER,0,train
+15ad0884-5da6-4f25-8274-022f0e1980c4,giao hàng nhanh tróng tiện lợi,OTHER,0,train
+162b8850-fa31-42c1-8a37-8f5ab336f133,Không đáp ứng đúng nhu cầu của người dùng,OTHER,0,train
+1739ef41-1e95-4421-9dc2-a633fefb1a8b,ok good,OTHER,0,train
+1d6cd1e7-eb08-4bec-b90a-83e29bd6cc38,tốt 10 điểm không có nhưnh,OTHER,0,train
+1fa09c30-02c9-4317-92dd-2d23973ab468,4 sao vì ko thể đánh giá 6 sao,OTHER,0,train
+20580887-2c7c-42b2-b168-91bc01e3d21c,tốt,OTHER,0,train
+2161fc14-e12e-4a84-a799-06c8a62d4df7,ttoan spaylater thì lại chuyển qua TK shopee rồi không rút về được. quá bực mình,OTHER,0,train
+223437b3-db0c-49f3-aa17-1912a5cb097a,tuyệt vời!,OTHER,0,train
+27895d4d-0097-4979-a99b-f56782c29fc2,xấu,OTHER,0,train
+28882499-a50a-49ea-b03b-96bdfb43ca42,OK,OTHER,0,train
+29248bd9-77c5-4991-9025-0ae7ef226094,mong thêm nhiều giảm giá,OTHER,0,train
+2ee5177e-8653-4fa1-bdaf-91ada94114ec,khó mua hàng,OTHER,0,train
+362f1361-0acd-4139-9a58-c831a56fc3a6,"THÁI ĐỘ LÀM VIỆC CỰ KÌ TỆ. MÌNH RA RA LUẬT MÀ KHÁCH HỎI TỚI THÌ KHÔNG BIẾT. CHẲNG KHÁC NÀO THIỂU NĂNG TRÍ TUỆ. ĐÃ VẬY CÒN ÉP KHÁCH TIẾP TỤC THAO TÁC. TÍNH LỪA ĐẢO, NUỐT TIỀN NGƯỜI KHÁC HAY GÌ.",OTHER,0,train
+3966135b-6b5c-4722-a125-469f65a18d40,tìm kiếm trên shoppee bị cái gì mà ko ra v cứ ra mấy cái nhảm gì đâu ko,BUG,0,train
+39b09f8e-0202-470a-9634-7d09b31bf912,"rất tốt,dễ đổi trả,hỗ trợ khách hàng tốt",OTHER,0,train
+3f839403-2c2b-42e8-84d4-d69d11b6ceba,app rác,OTHER,0,train
+42a8462c-c133-4629-ab68-2892e0afaffb,mk vừa lập acc lưu đc viu chờ 80k xg e nó ghi là 3/8 hết hạn r mk để đấy chx đc 3 ngày viu chờ ko còn nó lại cho mk viu chờ 60k thôi bực ghê,OTHER,0,train
+42acd7bc-2e7f-4852-a4a5-14b0a3972f82,đi đâu cũng thấy quảng cáo,UX,0,train
+45484b4a-c5eb-4bda-8547-7d2185b247de,ngon,OTHER,0,train
+4958811e-744a-4a0c-aa06-edc68b6fc1bc,chính sách trả hàng cực kỳ tệ. người bán gửi sai hàng quay video mở hàng nói giả mạo ngụy tạo bằng chứng không cho trả hàng. quá tệ,OTHER,0,train
+52c858df-d916-47ee-8e88-22e0098e547c,ok,OTHER,0,train
+5ca18983-f944-4376-9683-3ec4ba6dde77,sp ok tuy theo chủ xop,OTHER,0,train
+642fe92f-75b4-489c-b108-f60532866edc,ok,OTHER,0,train
+67b0d008-530c-4681-8001-a253c98f4548,nó cứ bị dính m02 đồ,OTHER,0,train
+70b45598-ffc1-45ea-b58e-37a8faf57767,có mã mà nó ko cho đặt,BUG,0,train
+7408098a-dbf7-4cdb-a328-07b1482c8e3f,Ok,OTHER,0,train
+744275aa-a5c0-4a1d-b43c-7a559ac3ee96,rất tốt,OTHER,0,train
+7515a405-5700-437d-8fde-7fac63c7ae70,"shipper tự ý hủy đơn hàng của khách,",OTHER,0,train
+75db5c2c-46f8-4339-afaf-2f5ae33ba3f5,tốt,OTHER,0,train
+79bd9683-ad3c-444b-b5a7-8354d58a408e,quảng cáo nhiều vcl,UX,0,train
+7af14850-dcab-4353-b0aa-59a87af126e5,ứng dụng siêu tệ,OTHER,0,train
+7e5d5096-15c5-43e9-979f-f41d7c61448a,5 sao r hãy cho tôi mp ship ok,OTHER,0,train
+7f134191-ffd3-4ced-89ff-e8c76e706870,kg thích,OTHER,0,train
+8466ce83-4634-42a9-8fcf-127c9ee45605,"như ngây á . đang coi phim hấn cứ nhảy sang shopee , vừa bấm lại phim thì hấn lại nhảy , tức ghê á",UX,0,train
+85d74ddb-6804-4181-b085-30482fd4fa14,Iu Tép,OTHER,0,train
+87de4734-daac-4dc6-b94a-c42fae90da1c,ko cho hoàn hàng,OTHER,0,train
+8965a3f8-9c23-4d84-9a2c-727bbb3cc861,quá tuyệt vời!,OTHER,0,train
+8c18dedb-bed0-4960-bb42-f6b867025b61,mua cái áo sơ mi nhưng mà người ta đưa cho cái quần còn không cho đổi,OTHER,0,train
+8db58663-fb07-4285-af77-b406d3b119ef,Skin murad ms ko ấn tượng về hiệu ứng lắm nhg mà free nên cx ok tạm 3sao trừ 1 vì bao lì xì quá ít,OTHER,0,train
+8e0c8551-737b-4e75-a007-bb9e1beaf89a,"đang mua thì bị hết pin, bị thu dth, mong nhà phát hành sửa lỗi",OTHER,0,train
+92ab598a-31e0-4380-ad22-8ca12468b52c,ok á,OTHER,0,train
+93c18679-4d78-4ff4-818e-f55b0c34c752,app ngày càng giảm chất lượng tự động hủy đơn đã đặt đã thế còn không thể trả hàng,OTHER,0,train
+93d24e85-3896-4e63-97db-d8be6af3967f,trả lại cái lựa chọn đơn vị vận chuyển đi tại đơn vị vận chuyển GHN giao rất lâu nếu so với các đơn vị khác trễ tận 2 3 ngày có lúc trễ tận 7 ngày cho 1 đơn hàng rồi còn gọi để mai giao vì sợ trễ mặc dù mới 3h chiều rồi shipper bên GHN rất bố láo và md,FEATURE,0,train
+9d695fac-aaaa-494c-aadf-20422d237a32,hàng gần đến nơi rồi mà cứ quanh đi quẩn lại mãi ko thấy giao làm ăn chán thật:)),OTHER,0,train
+9e89d23d-caca-44c5-a8f1-0a68e3e46df8,"bỏ thêm tủ đồ đi nhé, không đặt hàng dc",OTHER,0,train
+9edbc2dd-2ab9-443b-857a-de1245b7c23e,cũng đc nhưng bom hàng hơi nhiều!!!.,OTHER,0,train
+a8d6b536-fd8f-4fc9-bd5d-f25e9b2301dc,very good,OTHER,0,train
+ab99d5eb-c015-4b0c-97da-6903b3c1e5b0,Very nice,OTHER,0,train
+b4d2c0b5-61b0-414a-9672-e9f1bebba82d,"Hoạt đông thế này hay đấy,",OTHER,0,train
+b6d4b63e-9169-4f1c-935f-1ad4cb2cca10,"cho voucher rồi lúc mua thì bảo là voucher ảo xong khóa sđt ,tốn sđt thật đúng là shoppe😐",OTHER,0,train
+b84594af-d5da-4c46-946f-f40e3f690be5,"Trải nghiệm của mình trên shopee đa số là trải nghiệm tốt , nên 5 sao nha .",OTHER,0,train
+bf17da8f-ff8d-4bb0-b356-b88ab3a7092d,tốt,OTHER,0,train
+c1b1b4c7-08ca-479b-aed3-7467faa13738,giao hàng tận nơi miễn phí mà còn được giao hàng nhanh chóng.,OTHER,0,train
+c4619243-0857-431f-af80-4d0b7eae6f4f,Rất tốt,OTHER,0,train
+c5621df7-4ecb-4632-a3d0-46ddeec8c5c7,tốt,OTHER,0,train
+c8a1b374-36ec-4a1f-8f7f-3dac5358dca4,tốt,OTHER,0,train
+cce5f87f-9433-4fb3-b5b3-d3366a94fb60,k mua được,OTHER,0,train
+d093c4f1-9ed1-46e0-aea1-3940b8b171b2,"khó chịu cái quảng cáo hết lần này đến lần khác =) đọc truyện trên web, chơi game bên ngoài xem quảng cáo lúc ko tải shoppe thì ko có việc gì Tải shoppe xong, mỗi lần đổi web nó nổi quảng cáo thì ko nói, nhưng nó tự chuyển sang app shoppe luôn =) làm nhiều lần lên web có quảng cáo là lại nhảy sang app shoppe xong phải bấm về web. Về phần chơi game có quảng cáo, tải shoppe xong, quảng cáo có shoppe là nó văng game qua app shoppe luôn? ĐÃ KO CÓ NHU CẦU MÀ CỨ HIỆN LÊN HOÀI, khó chịu riết xóa app",UX,0,train
+d44e6471-cad2-465a-882d-d619f7bf23db,ít bị lỗi và nhiều votcher lắm,OTHER,0,train
+da1855df-d55f-407e-98b8-279cd45ce9cd,app qq t đặt hàng bth đc vài lần thì báo lỗi nên khoá tk,OTHER,0,train
+dad71cb2-67a8-4ac2-b142-0b61693c1bd0,"Tắt chức năng vào app là nhảy vô video với live dùm cái. Mất thời gian, phiền, chậm, lag đặc biệt máy yếu.",FEATURE,0,train
+dec963da-f9eb-4ce2-8691-1016d7f3d26c,đẹp,OTHER,0,train
+e07c1b0f-3dea-4a1c-8112-2567c54f6f90,"xu điểm danh ngày càng ít , acc mới đc giảm nhiều hơn , cho dù là hạng kim cương cx kh đc mã giảm nhiều",OTHER,0,train
+e2c84764-7100-4404-a69d-e9cd49362384,"toàn hàng giả, hàng nhái trôi nổi tràn lan trên shopee, mong cơ quan chức năng vào cuộc ngăn chặn",OTHER,0,train
+ef27b2cc-bf4d-46b0-b680-a8e8e5f4034b,Tôi muốn mua hàng Shopee,OTHER,0,train
+f781c7e6-1cae-4e88-93bf-e306b73fec6e,quá ok,OTHER,0,train
+f8fce12e-15d2-4480-b6e1-15a187d467e2,èo ơi tôi có tài khoản mới chưa mua đơn nào có mã giảm cho đơn từ 0 đồng lên đến 40k mà tôi áp mã mua hàng thì shopee tự ý hủy đơn của tôi khó chịu vô cùng tốt nhất ko nên tin nha giao hàng rất là lâu quá ngày dự kiến mà vẫn chưa thấy giao còn hay tự ý hủy đơn hàng của tôi khi tôi có mã giảm giá và săn đc đồ rẻ là tự ý hủy của tôi mất bao lâu mua đồ để có mã giảm giá mà khi đặt rẻ thì lại tự ý hủy khó chịu vcl,OTHER,0,train
+fb0c4bbc-4705-402a-b569-25afa2dc25c7,"mỗi lần vào là vào thẳng Live & video , tôi không có nhu cầu thì có tắt được không ? với nút back của điện thoại trong rất nhiều trường hợp không có tác dụng , toàn phải bấm mũi tên quay lại bên trên. video khi đang phát qua tai nghe bluetooth muốn bấm dừng qua tai nghe cũng không thể dừng được , cứ phải tương tác trực tiếp trên màn hình . Đừng nói cảm ơn , hãy tìm cách khắc phục đi rồi nói gì thì nói .",FEATURE,1,train
+ffeaab56-e482-48c4-86a8-8c6e1926351b,rất ok,OTHER,0,train
+06ec5ac8-f652-48e9-8fd8-f5e485f27f06,rẻ,OTHER,0,train
+0f8c12ea-bb9b-4a2e-94bc-a3bc1f2ef154,app như hạch sale cho mã giảm giá đặt cái j cũng hủy quần áo cũng hủy kêu bất thường mua cái đt cũng hủy cùng lý do,OTHER,0,train
+11f70863-2aa0-4b93-98cc-36371ab6ff92,đc,OTHER,0,train
+1512d59c-3a3f-4e4b-bbd7-9d3d62503285,"Shop chịu. Tôi cũng chịu. Shipper giao sai địa chỉ, shoppe tự hoàn đơn cho shop(???). Mới ra tết thôi á🙃",OTHER,0,train
+1fdf9c26-049d-4c56-9739-f0074c306838,Tuyệt Vời.,OTHER,0,train
+208c05b6-0fb2-4c64-b55a-157d3ef47361,ok,OTHER,0,train
+2114cea4-5cec-4d99-b472-b0e3c7695938,amazing,OTHER,0,train
+296f3681-a94d-4ff1-a5a2-57a4b7c03f95,đặt toàn tự bị hủy,OTHER,0,train
+29f95921-ec8c-4ea6-9afd-b7faa8c81a5e,th sự là cho vocher xong đặt thì hủy ?????,OTHER,0,train
+3236cfaf-911f-4799-922e-0965b82f875e,quá tốt không còn j hơn,OTHER,0,train
+3851f20a-b003-40e7-9816-9ad9615a8d9f,"thông báo thì nhiều, đang ở bên gg thì bị chuyển sang shoppe liên tục",UX,0,train
+4316ea7d-17ce-42c8-96d8-ef2aa37aec01,quảng cáo lừa người td dấu x để mở app,UX,0,train
+481654e7-78c6-47f2-95e7-f01ccee5c155,trừ tiền bạn t t ko thích t đánh giá 1 sao,OTHER,0,train
+497984f1-3ca0-4be7-b512-042900bca3c8,mua rẻ được hơn so với cửa hàng. mua cũng nhiều trên đây rồi. trước mua toàn trên Lazada giờ chuyển hẳn qua đây. giá rẻ hơn mặc dù cùng 1 shop,OTHER,0,train
+49f16212-71eb-4235-9011-096529616994,ship ko gọi điện r tự hoàn hàng về đổi ạc khác đặt thì ship giữ hàng ko giao mà để đã nhận trg khi hai 3ngày r chx nhận đc j hết?,OTHER,0,train
+5172e39b-b37d-4643-a49a-5f9a7caae638,ok,OTHER,0,train
+5d4a9ae9-29f3-401e-a120-0f2c572ad7b7,QC nhiều quá,UX,0,train
+5da2611b-ce83-4624-84c4-6153da584e0f,"quả ví trả sau shoppe hạn trả sớm vãi ít thì thì cũng phải 10-15 hàng tháng chứ nhỉ nếu ai có lương thì cuối tháng cũng tiêu gần hết r nên làm gì có tiền đâu trả , nói chung là tệ đã thế còn tăng hạn mức lên nữa nhưng hạn trả còn tệ gấp 1000 lần",OTHER,0,train
+5dd43325-dfe0-45d1-aada-cc9311a6f1ef,mẹ nó tối ngày dẫn vô live rồi giảm âm lượng,UX,0,train
+5e69bd03-dab4-446d-af2d-dcec2ecb52d7,ok,OTHER,0,train
+61a70d09-b2df-4bbb-8864-4bd0d8c83873,be,OTHER,0,train
+62690671-2d06-4ced-8bed-46f41adb0b48,"""ko thể nhân xu do shoppe ghi nhận một số hoạt động bất thường trên tk"" ủa mình chỉ mua hàng làm nhiệm vụ và xem like kiếm xu chứ có làm gì đâu mà vi phạm hay là thấy t lấy xu nhiều quá nên tiếc ko cho nhận,làm ăn kỳ cục ko phải 1 lần mà rất nhiều lần, ứng dụng mua hàng lớn mà làm ăn tệ hại, nhân viên ko bik cách quản lí, tệ quá tệ.",OTHER,0,train
+63848f1a-2205-4000-9c25-0821d59e2692,"có nhiều tin nhắn quà tặng Shopee lừa đảo,dù bị Shopee khóa nhưng ngày vẫn 2-3 tin🤨,rùi xây dựng cho lắm trò chơi,video để app nặng,lúc mua sắm thì lang lòi ra",UX,1,train
+63f42d6d-d865-44cf-bb2d-450733466dc8,hay,OTHER,0,train
+65189408-d898-4fa0-902a-8cea60714630,sản phẩm táo đỏ chuẩn Hàn Quốc mẫu mã đẹp ok shop 5 sao,OTHER,0,train
+65ce44a2-3f0c-48a5-8114-b971e7dafa1b,khá là nhiều đơn 0k,OTHER,0,train
+6659d673-178d-4210-8f2a-163215321c2c,tệ hại nhất trong tất cả các loại,OTHER,0,train
+66dd6b0a-5ac6-4752-a276-3319a4843545,"thong tin san pham ro rang, shipper than thien, rat hai long, cam on shopee",OTHER,0,train
+682e8322-ef72-4bcc-a626-5191d0b5757f,ko cho trả hàng,OTHER,0,train
+68b3b798-b128-46d4-b72f-f53e5d52734c,hay,OTHER,0,train
+69355933-5236-4a7f-8702-d9551abc4aa7,ok,OTHER,0,train
+6f6799e5-3b48-4649-9f37-139ff9bc9df5,ok,OTHER,0,train
+73f0cd9c-a2e1-4640-98e7-cb090ffd6b5b,"nên dùng app này nha trải nghiệm khách quan mua hàng nhanh chóng,trả hàng hoàn tiền 100%,...",OTHER,0,train
+75be2c08-4467-4a04-b4df-e58bbad79869,"yêu cầu trả hàng để hoàn tiền hoặc đổi hàng, có ghi SPX và đưa hàng cho shipper rồi nhưng đến khi liên hệ lại shop thì lại kêu chưa nhận đơn trả. Rõ ràng đã đưa hàng rồi mà, cùng đợt đó cũng có 1 đơn mình gửi chung với đơn này cũng hoàn đc nhưng đơn này thì ko vừa mất tiền vừa mất công chẳng bt app xử lý kiểu gì",OTHER,0,train
+7c16dc9d-f74c-4633-b1be-c8ac704245a1,hàng đẹp,OTHER,0,train
+833e1508-f0e5-4efd-9719-87702629244a,"nhiều mã giảm giá, sàn trợ giá rất mạnh, mua được hàng rẻ, chất lượng tốt",OTHER,0,train
+83dc46fe-e864-4856-b30f-d76a35a09e3e,trải nghiệm thú vị,OTHER,0,train
+8cac906e-1847-47b3-90d0-37160687c0ff,"đặt có cái balo thôi mà bắt xác nhận hoài, lag, tóm lại cập nhật xong như củ ca.c",BUG,0,train
+8d43c025-4d9e-42b5-9ba7-a55ad6fe1c15,freeship là ok,OTHER,0,train
+8e9ea2d4-833d-4fda-b13f-b7edff740c66,bớt quản cáo lại đang kiểm tra 15p tự nhiên hiện rồi xong luôn,UX,0,train
+8ff96497-f07f-4f64-8802-ef1afa8d341b,tôi thích,OTHER,0,train
+92402354-effa-463f-a0a5-092fd18fd342,t lỡ tay nhấn đặt shopee food và không được chủ động hủy đơn đặt lại. 1 sao không nói nhiều,FEATURE,0,train
+92d759b2-d24a-4cc9-b1f9-e4045a9ec5b1,đù víppp,OTHER,0,train
+94a6b8b0-0550-466f-957a-961318e7b1e6,lựa chọn sản phẩm dễ dàng. mua hàng nhanh chóng,OTHER,0,train
+972076a2-fbab-4499-aeac-bbd3a4314ac5,rất hài lòng,OTHER,0,train
+981fd050-495f-4cc3-808c-a8e5ac4c08e7,rất tin tưởng shoppy,OTHER,0,train
+986554df-c3dd-4d2b-a4b4-8f1ab29f3158,muốn xoá sản phẩm trong giỏ hàng cứ bị lỗi vài xoá ko đc chỉ cần cạp nhật vấn đề về lỗi giỏ hàng nữa là quá OK luôn,BUG,0,train
+99aa591f-f890-4be8-841c-7cfadcc6e2a0,Ứng dụng SV mé nó đặt hàng méo về,OTHER,0,train
+a76d20da-8d4b-48ef-8a07-de2ec27f439d,okii tốt,OTHER,0,train
+aa4bf2af-db4e-43e9-8190-fbaaea7b8d1d,tôi thực sự hỏi chấm shopee tôi đã làm bị khóa tài khoản trong khi tui đã đăng ký shopee vip rồi mà vẫn bị khóa là sau .tui có chứng cứ đoành hoàng,OTHER,0,train
+ab4b83d5-8a7d-48b7-ba46-39186dc1e0fd,ok,OTHER,0,train
+af55eab9-818c-4763-b9e3-78c55239c376,giá rẻ dùng siêu nhiều vouchers,OTHER,0,train
+b4882cc5-1401-406d-993a-0c9fc52ea0d3,Không đăng nhập đc,BUG,0,train
+b4aedd61-6ac2-4208-b439-e72e5f834f4c,"shoppe với nhiều ưu đãi, tôi luôn tin tưởng và mua hàng ở Shopee",OTHER,0,train
+b55fae39-97ef-4629-a8c8-b86ac7c2bd14,app nên để số điện thoại và tên shipper lên tiến độ giao hàng để người dùng còn liên hệ chứ đơn hàng đến chạm giao hàng mà 1 tuần lễ ko thấy shipper giao hàng,FEATURE,0,train
+b898ed3d-9cc2-4392-a9bc-b0ceddd306a1,"Uy tín, tốt",OTHER,0,train
+bd2986da-6140-4c0c-8e7e-9b00076081d4,very very good!,OTHER,0,train
+bee7251b-8d7d-4eb5-a42d-2d5778380efb,tốt,OTHER,0,train
+c1feab98-5d06-4231-8fcf-d49c415b27b9,k tải shoppe dc,BUG,0,train
+c205578b-6ec1-4aad-b2bf-4587f235ebbe,"ứng dụng càng ngày càng tệ, ko bảo vệ khách hàng. Cùng với shop bán hàng lừa dối khách hàng.",OTHER,0,train
+c42ebf79-9bba-4a23-8435-962d3deb5f89,toàn bị gd bất thường trong khi mik chẳng làm j đặt hàng éo đc,OTHER,0,train
+cf7471aa-cd8f-40d1-8c8b-657c473c7d90,"hoàn tiền trả hàng thì làm ơn trả tiền mặt giùm, nói là app lẫn người bán làm việc quá chậm chạp quá tệ",FEATURE,0,train
+d076ab22-714e-4466-a35a-b518dd59b47d,tự dưng hủy đơn mà acc t có làm gì đâu mà bất thường chịu luôn càng ngày xấu đi,OTHER,0,train
+d6a527c2-c744-4352-b656-9a6e77fcd82a,eo App đắt điên,OTHER,0,train
+dced2ffe-3b11-41ea-86fb-dc7141f40337,quá thích,OTHER,0,train
+df2bacf5-253c-48c9-85d4-061dc382d0df,ok,OTHER,0,train
+e4336ef8-d2c6-4b34-9ad1-b7a221c4a885,ê chề đw,OTHER,0,train
+e63ed42d-d072-4a33-a527-9c3afc925e4d,không hỗ trợ đổi sđt,FEATURE,0,train
+e90b04f0-1788-4945-8a4d-86e7213ccc45,"Tiện lợi giá rẻ, tìm mua những shop uy tín, lượt mua hàng cao hoặc các thương hiệu nổi tiếng thì yên tâm mua hàng chất lượng giá rẻ. Shiper phục vụ tận tình, đổi trả hàng dễ nhanh chóng.",OTHER,0,train
+e9b1d12e-d6d7-4ed2-8438-a2d978868156,Cảnh báo: Không nên sử dụng ShopeePay !!,OTHER,0,train
+ea9bac97-9bb5-42fb-9bf4-ec8afb836024,lag,BUG,0,train
+f943217a-ab22-4ac7-99e0-197e89ec5c8e,Good,OTHER,0,train
+f9f26e92-2bb9-4f1c-8c64-5b5ec4bd9cc6,ok,OTHER,0,train
+fde373b1-c463-4a55-829f-72ea614780a8,"Làm Affiliate Marketing (Tiếp thị liên kết): Bạn gắn link các sản phẩm từ Zalo Mini App, Shopee, Lazada,... vào video hoặc phần bình luận. Khi khách hàng bấm vào link và mua hàng, bạn sẽ nhận được hoa hồng 🌹",OTHER,0,train
+ff90f91f-1bcc-4903-ae2b-efa7e0ecdccf,Rất tệ mk đã áp mã thời hạn sử sụng đến 25/10 ms hết mà h mk áp thì ko đc liên tục bảo là đã hết lượt sử dụng ko những vậy lại còn hay lắc đơ,BUG,0,train
+093b366a-edbc-4ea9-806a-5c35827c5f07,"mua hàng nhưng bắt nhận hàng ở tủ hoặc nhận chủ động khó tìm chỗ nhận và còn xa nx khu vực tôi ko có , khó chịu khi đặt hàng rồi lại bị tự động hủy ở phần nhận hàng chủ động. lên cho giao hàng tận nơi! .",FEATURE,1,train
+0ac8cd5c-5e8b-4af9-a37f-d06b7ad5d6d5,"mấy ông ship ở food rất nhiều người khó hiểu nha , mình đặt rõ địa chỉ vào tận cổng nhà rồi , mấy ông đấy ko hiểu sao cứ thích lấy cớ là ""phải lên dốc , xe điện khó lên , nhà khó tìm rồi sợ app phạt bla bla"" mấy lần chứ chả phải 1 lần , mỗi lần 1 ông khác nhau để mà xin thêm tí tiền "" hỗ trợ"" , đùa chứ ;))))) t nói lại thì lườm t mong shoppe training lại nhân viên giùm cái , đi làm mà thái độ như sắp nhảy lên đầu khách",OTHER,0,train
+166cf0de-879c-4265-8c5b-6a01ca513409,tủ nhận hàng và điểm nhận hàng là gì vậy nhập địa chỉ rồi nhưng mà không đặt hàng được cứ bảo không tìm thấy dù có đổi tài khoản hay điện thoại vẫn không được chỉ cần kêu shipper đến giao hàng theo địa chỉ nhà là được rồi mà thêm mấy cái này mất công vậy ://///,BUG,1,train
+2c1ee7ca-5962-41a5-b26c-b5196a078f75,Shoppe nên thêm chức năng lọc các nhận xét mới nhất và nên bỏ cái vừa vào shoppe là vô phần video/livestream (Rất bất tiện!),FEATURE,0,train
+332b3389-7848-4381-91a0-731c45396378,"app có thể bổ sung darkmode hình nền màu đen được không, màu trắng chói mắt quá",FEATURE,0,train
+37fc81ae-9d2b-4511-b583-940b22879e13,app nhiều khi bất ổn quá cứ thay đổi miết làm cx thấy khó dùng quá:*),OTHER,0,train
+45484d4e-e775-4003-a3e1-ae111e13875f,"Chào đội ngũ hỗ trợ, mk muốn phản ánh vấn đề về quảng cáo trong game. Gần đây mình gặp quảng cáo Shopee khá thường xuyên. Sau khi xem xong, quảng cáo đôi khi tự động chuyển sang app Shopee dù mk ko hề bấm vào, khiến mk phải thoát ra và quay lại game, khá bất tiện vì mk vẫn ko nhận được phần thưởng. Mong đội ngũ kiểm tra và hạn chế tình trạng quảng cáo tự động chuyển hướng như vậy. Mk vẫn sẵn sàng xem quảng cáo để nhận thưởng, chỉ mong có thể quay lại game bình thường sau khi xem xong. Cảm ơn!",UX,0,train
+46ae9a34-668c-4b32-b4c8-4d37a6711d89,quá phiền phức,OTHER,0,train
+4a3564d7-7023-4ed6-a5ee-655b6d617336,"một sao vẫn là hơi nhiều đấy, mỗi cái trả hàng hoàn tiền th mà ko lấy hàng, phiền t vllllll",OTHER,0,train
+60535a1a-88e0-47cb-b7fc-61105ac43783,"đặt đơn 10 món, shop giao đúng 1 món, 9 món sai mẫu mã, màu sắc, thế mà không cho trả hàng hoàn tiền, đòi bổ sung bằng chứng rất nhiều lần nhưng không hề giải quyết!!",OTHER,0,train
+6de1c16c-e8f5-49d7-8b6f-041384e38f48,shop tiện ích. có nhưng thứ khó tìm trên đây có hết à,OTHER,0,train
+6f0b537c-5c96-4a88-8aee-37a4ad84006f,đang dùng app khác tự nhiên quảng cáo shoppee một phát là y như rằng nó thoát app đang dùng luôn làm phải đăng nhập lại để vào. Rất bực mình 😡😡😡.Nhưng mà vẫn tốt mình mong có thể khắc chế được việc này 🥺🥺🥺,UX,0,train
+7447906e-79ec-4437-b5e2-56d510e3867b,không cài face id mà thanh toán bắt dùng face id. cũng không cho tắt😡,FEATURE,0,train
+7786d2b5-68da-4ecf-ae23-71b9d5b59180,"hiển thị voucher lum la, cả voucher sinh nhật của ngta cũng tính là giá sản phẩm làm khách hàng tưởng nhầm, chưa kể giá áp dụng ở trang chủ là của shopee pay later dành cho ví trả sau và không có tùy chọn tắt cái qq này đi, giá giảm toàn bị giới hạn không như sàn L",UX,1,train
+7825c8f5-cd3f-4d51-96cc-cb165c47de90,"bắt ép coi live và video khi mở app, lướt mua hàng tới đâu cũng hiện video gây khó chịu. không cho tắt và không có cách liên hệ hỗ trợ. cực kỳ phiền",FEATURE,0,train
+7abddae8-f72e-41aa-a88e-cd5959253a96,"Đủ mặc hàng thiết yếu,hàng hóa phong phú,giá hợp lý tùy chọn,thuận lợi mua sắm.",OTHER,0,train
+81cef14d-4317-4f57-a514-2c70987abbab,cập nhật shopee càng nhìn càng rối khó dùng.,OTHER,0,train
+8ebf8a04-02d8-41b0-a122-deef0bee4d3e,quảng cáo shope cứ nhấp bỏ qua qc lại vô trang tải shope. phiền!,UX,0,train
+954843cf-f537-4727-85e8-06953f165a02,quá tuyệt vời mong có nhiều voucher,OTHER,0,train
+9d8a3972-d433-4ddd-88a5-5a5491b29c48,"cập nhật cái củ cac gì giờ tìm cái địa chỉ giao hàng để chỉnh sửa éo có, làm khó dùng thêm. mã giảm thì lỗi tùm lum, làm được không được nghĩ mẹ đi.",UX,1,train
+a455751b-c1e9-49be-aa2b-d8f0cb150b36,"Nói thật thì mik rất là thích shopee gia đình mik ko khá giả đâu mà mik cx chx đủ lớn để đi làm rất là bt ơn shopee đã tạo công ăn vc làm cho mik và những ng muốn tạo thu nhập mà ko có đủ điều kiện khác Chỉ là nếu được thì mik góp ý là shopee nên có 1 bộ phận riêng để xử lí mấy cái report ngta gửi 😤 cmt dạo này nhiều kid với lũ nhóc ko đc dạy dỗ (ko bt có mồ côi ko) cmt phản cảm vô cùng, ngại để mấy host đọc đc luôn á Nên thêm vào hình phạt là cấm chat mấy tuần mấy tháng đồ đó",FEATURE,0,train
+b2467038-e3d4-4cfd-9c69-6be4c72c9305,"mong shopee thêm chế độ giao diện tối, đặc biệt cho các ôg sử dụng trong bóng rối",FEATURE,0,train
+b509d88b-e6fb-4b4c-b541-1e90669b01f6,"App nên thêm tên, số liên lạc của shipper để khách hàng có thể liên hệ khi cần",FEATURE,0,train
+b6ccc51b-6de8-4127-9edb-e8c7c23ecd43,Trải nghiệm mua hàng cực kì tệ hại sàn k bảo vệ quyền lợi người mua yêu cầu hoàn hàng rắc rối bắt bẻ gây khó khăn. Không hỗ trợ khách hàng khi sản phẩm bị lỗi không sử dụng được. Shop bênh vực người bán bất chấp dù mua ở shope mail nhưng vẫn nhận dc hàng giả hàng nhái khi yêu cầu hoàn hàng thì lại bị hủy khiếu nại. Thái độ của nhân viên CSKH rất trịch thượng yêu cầu shop xem xét lại. H nên mua qua tiktok shop ít nhất quyền lợi người mua được đảm bảo,OTHER,0,train
+c6662107-b5fd-465b-a03b-81f96ebb9075,mong shoppee đừng làm rối địa chỉ vì bị ngta dao lộn chỗ khác rồi trả lại đơn cho tôi đi,OTHER,0,train
+c7626350-0ef0-41da-9c98-ced0d5eeec23,"qc bên app khác cực kì khó chịu, bắt ấn vào chuyển sang app mới chịu cho tắt qc, nói chung shoppe qc ncc",UX,0,train
+ebdf6afe-a221-4fbe-a66a-4a126ad22d90,"chăm sóc khách hàng của bạn trả lời chậm , cái gì cũng ko biết , không đáp ứng được nhu cầu của khách , không hỗ trỡ cũng như không giải quyết được gì hết . chỉ làm khách bực mình thêm thôi . phần shoppe live không nêu rõ lý do vi phạm trong khi họ không làm gì sai mà bắt tự nhiên họ vi phạm nếu vi phạm phải đưa ra lý do chính đáng app cần bổ sung và sửa đổi , thay đổi cách làm việc mong app có thể trả lời sớm nhất còn ko cứ 1 sao",FEATURE,0,train
+f9a5c603-e0a9-4b96-a674-fdaa699ef112,không tìm thấy mặt hàng mong muốn ở ngoài họ bán đầy lười đi mua lên đây kiến không thấy sau quảng cáo vớn vẩn vứt đi nhé mặt hàng tôi muốn thì không có toàn đồ linh tinh mua về chả làm được mẹ gì,OTHER,0,train
+fb74d347-ea72-4d98-85b4-5667e6e860b6,"Đề nghị Shopee nên có nút báo cáo video bởi vì có rất nhiều video cắt ghép mang nội dung độc hại, nhảm nhí; quảng cáo thì quá trớn, quá tâng bốc sản phẩm mặc dù không có nguồn xác nhận đáng tin cậy. Trong mục Nơi bán của phần Tùy chọn tìm kiếm, vui lòng bổ sung thêm địa điểm như Nước ngoài; cụ thể Quảng Đông, Philippines, Thái Lan... thì hay hơn.",FEATURE,0,train
+fcfd1b2e-0aef-4fd3-88a7-6d31fde4fa2f,"app siêu tệ, đang nói chuyện với cskh tự dưng bị văng ra rồi không tìm thấy mục trò chuyện đó nữa, vào lại phần cskh thì màn hình trắng xóa",BUG,0,train
+03b24ba2-e325-4e04-871a-2ce9d0edf213,ứng dụng shoppe là ứng dụng bán hàng trực tuyến và online,OTHER,0,train
+0cb9adc8-13db-46d6-9f91-5105d701599a,nhàm,OTHER,0,train
+40220af3-182b-4a18-9629-a29df869085e,ok,OTHER,0,train
+50a87368-277d-4a7b-b59f-e44197e820b7,eupjyl e xn b xid r,OTHER,0,train
+5940e0c3-27ea-427d-b9a6-76ac98962d2a,rất tốt,OTHER,0,train
+59948e08-11de-4f1a-b967-1070dedc7aa0,tốt,OTHER,0,train
+608ab9d9-a156-4375-a841-03b2da1064c4,bán đồ mắc,OTHER,0,train
+7294dc9d-1f10-48d2-98eb-91639d179743,lấy xu,OTHER,0,train
+9436886c-43e9-4f0f-8439-b787ef031923,Good Appp,OTHER,0,train
+bdc0332d-5519-405e-8d5b-5f12be8c20bd,sao đã hoàn tiền rồi mà tiền vẫn chưa về ví,OTHER,0,train
+bf397e72-68e6-4734-a404-0920f64e1756,ứng dụng hay. nên tải sài cho thuận tiện mua sắm.,OTHER,0,train
+c984c9ab-39b3-4b88-8681-42b880a74d68,"giao hàng đúng hạn, hàng chất lượng",OTHER,0,train
+e055151c-ef6a-4449-a83e-bcbdf8bc25b1,chính sách ngu,OTHER,0,train
+f1115fb8-8d1b-47f3-922a-921b00fb5b49,mình rất thích phủ hợp để lựa chọn đồ phù hợp,OTHER,0,train
+fb9248fb-86dd-41ff-89e0-f4064fd2a703,tot 10đ,OTHER,0,train
+8aebfa7b-c6a4-4ebb-ae1b-4f2c8d064843,Mong Shopee thêm chức năng thanh toán khoản vay sớm trước hạn,FEATURE,0,train
+e7e9a507-5d87-4289-a955-933ab8e767c6,mong shopee có thêm chức năng có thể tìm và xem được bình luận đánh giá sản phẩm có tương tác hữu ích nhiều nhất ạ 🤧,FEATURE,0,train
+e2822f46-67ab-48ba-8d98-0cafd40d068d,mong có nhiều vocher hơn,OTHER,0,train
+bbe286fa-0976-4d2c-a277-eff18098e7f2,mong có nhiều vochuer,OTHER,0,train
+290eb15c-2a1b-4afc-a00b-59fe1ee2beb9,Nên thêm bộ lọc những sản phẩm có xuất hóa đơn điện tử,FEATURE,0,train
+a6e7d734-6b3f-444f-8f1c-4611046e0e7a,"Mua sắm tốt, hi vọng đội ngũ phát triển sẽ cho thêm tính năng report link clickbait affiliate. Tin tai nạn, bệnh tật, cái gì cũng có bọn vào rải link. Kiếm vài đồng mà bất chấp thật sự, đăng tin tai nạn, chia sẻ thông tin nạn nhân để nhanh tìm được người nhà mà cũng vào rải. Mình hi vọng sẽ có cách xử lý và hình phạt thích đáng cho việc rải link clickbait này.",FEATURE,0,train
+680b638d-64f7-41df-93b0-872e844c3bf7,tại sao không thêm tính năng xóa lịch sử đã mua,FEATURE,0,train
+3def0326-f44d-4e82-b697-31ee2c5097da,"sd app 2 năm cx phải xóa vì sự thiếu tôn trọng ng dùng trong việc quản bá app. nghe lén cuộc gọi lấy thông tin để đề cập sản phẩm khi chưa cho phép, quảng cáo ấn vào là chuyển qua app mà coi hết bấm bỏ qua cũng chuyển sang giao diện app rất phiền. xóa app r thì chuyển sang web. có thể nào tôn trọng ng dùng trong việc quản bá app không? thiếu lượt truy cập lắm hả???",UX,0,train
+ea67c648-8888-42c0-9b70-5c8f134d2726,"Vì làm đêm,ban ngày ngủ ko muốn nghe máy nên nhiều lần ghi chú ""cứ giao tới nhà có mẹ nhận dùm"" mà shiper cứ gọi xác nhận phiền vl... app nên thêm mục ghi chú cho shiper nhìn thấy để đỡ làm phiền khách hàng làm đêm ngủ ngày như mình... nào làm dc mình đánh giá lại 5 ☆",FEATURE,0,train
+26e70580-0de9-40c7-8588-9f22fd17b609,"Tôi xin phép đánh giá lại Lần này cho 5 sao vì có định vị của xe nên có thể nắm đc thông tin hàng của bản thân , phần đăng nhập google có lỗi , ko thể đăng nhập đc",BUG,0,train
+7a3e55e3-ea8d-4542-be4d-6c811d1c72ea,Muốn Shope có thêm tính năng xóa lịch sử mua hàng.,FEATURE,0,train
+7226a17b-a00c-4e7d-bcbe-06a4ce242c7e,"Mọi người nên nghiên cứu kỹ lưỡng sản phẩm trước khi mua, Shopee cũng nên đầu tư cập nhật sớm, bổ sung thêm về các sản phẩm thời trang theo xu hướng và hỗ trợ thêm về các vấn đề đổi trả hàng",OTHER,0,train
+3edcee90-7ed2-4703-bb49-1c9aa12817bd,thêm tính năng thanh toán tiền mua hàng bằng số dư tài khoản shopee nữa đỡ phải chuyển qua tài khoản ngân hàng,FEATURE,0,train
+4177f839-dcc1-47e5-beed-92179fadc57e,Mong Shopeeo bổ sung Dark Mode để thuận tiện sử dụng vào ban đêm.,FEATURE,0,train
+35b7409d-119a-4bf7-b722-1a307e71fdd3,"cho phép đồ lỗi, đồ giả, đồ đủ thứ bán. hàng không dùng được, không trả được",OTHER,0,train
+c7ceda45-8e24-4812-9818-d74b8cfcf8c8,nên bổ sung tính năng tìm kiếm sản phẩm trong giỏ hàng.,FEATURE,0,train
+dae15441-8b28-438c-b5fe-d41f6c52eb2b,"Shopee cho phép kiểm tra tra hàng,hợp lý với người sử dụng",FEATURE,0,train
+b68ef216-f474-4ebe-bc9a-5a975bc76057,chính sách mới hoàn hàng 1 cách dễ dàng dù người mua đã mở gói hàng ra và tráo đi sản phẩm của shop. Khách hàng không cung cấp được video cũng như bằng chứng hàng giao tới không đúng mô tả nhưng shoppe vẫn cho phép hoàn hàng và trừ phí... chính sách kém,OTHER,0,train
+9ce6d2ba-4513-46e2-9dab-b505997dea8f,tự đi hủy hàng của tao và chưa có sự cho phép làm ăn như này có ngày phá sản,OTHER,0,train
+77572ab8-18c3-4473-837f-67619bfa82f9,Nên có phần chọn thể loại hàng phù hợp để khách dễ dàng thao tác trước khi bấm cho vào giỏ hàng hoặc bấm mua..,FEATURE,0,train
+b926a88d-ec1b-4697-8853-487afafd7c43,shopee không có nữa và không thể đặt hàng nữa rất là tệ mong có thể chỉnh sửa lại một chút!!!,OTHER,0,train
+e526ad47-7ffa-412f-ada9-7d5db9597588,"Mình càng thăng hạng thì phải có nhiều ưu đãi hơn chứ ạ, tại sau hạng càng cao thì các voucher càng không áp dụng được vậy, tài khoản mình lên hạng vàng rồi giờ mình áp voucher ko được nữa, hiện tại mình không mua hàng trên shopee nữa vì giá có khi cao hơn bên ngoài nữa. Mua hàng ở Shopee ko đảm bảo chất lượng sản phẩm. Mình biết là tùy người bán nhưng khi khách hàng phản hồi tệ về 1 shop nào đó thì shopee nên có hình thức xử phạt để shop đó rút kinh nghiệm.... Mua hàng ở shopee thật tệ.",OTHER,0,train
+9fd0653c-5986-46c5-9a07-a76082631649,"shope nên giảm lag đi, các mục tìm kiếm sp nên thêm vào",BUG,1,train
+f066e123-29e4-43de-a251-89a90d5710cc,"Shop nên cho phép tắt tính năng mở video khi mở app, dm vừa mở áp lên tự động mở ngay video quảng cáo giật hết cả mình, ảnh hưởng đến không gian xung quanh.",FEATURE,0,train
+a1731d26-53fb-414d-ac17-540b0b6abe27,app nên có thêm phần đánh giá shipper,FEATURE,0,train
+9c706bae-06e9-4c9d-9b20-4f011b93eb13,"vào nhập địa chỉ thì nó bắt chọn mấy cái cho phép, đã chọn song rồi mà nó vẫn bắt chọn tiếp thế là ko nhập đc địa chỉ luôn",BUG,0,train
+e4d12200-28f1-441e-998b-9e43bcc865b3,nhà phát triển nên cho phép ứng dụng xoay được ngang thay vì chỉ dọc ( để tương thích với các ứng dụng sẵn có khi đang sử dụng thì sẽ thuận lợi hơn ) xin cảm ơn,FEATURE,0,train
+f5a51a6b-a9cd-471a-857f-51b916015281,cập nhật thêm tính năng tất toán khoản vay SEasy đi ạ,FEATURE,0,train
+0f500d8d-d7f3-466a-a683-5b64a79d4443,thêm tính năng thanh toán bằng momo nữa là ngon ngay,FEATURE,0,train
+0909ed2b-4586-4779-b379-4c7a8d1918c5,"App rất okie. Tuy nhiên, load hơi chậm. Cố gắng cải thiện để app chạy mượt mà hơn. Cần rà soát các gian hàng bán hàng kém chất lượng làm ảnh hưởng uy tín sàn thương mại Shopee. Mình xin đề xuất là app nên bổ sung thêm chức năng lọc đánh giá theo thời gian (năm) để khách hàng biết được Shop có cải thiện chất lượng sản phẩm hoặc thái độ phục vụ hay không? Thanks all!",BUG,1,train
+e56d98d3-e0f6-4898-b91b-93bf8e3135b1,"good , nên thêm thông tin sđt, tên shiper giao từng đơn hàng. , để chống cuộc gọi lừa đảo. cảm ơn",FEATURE,0,train
+e2e09749-6a80-487a-9fe7-e686cdaaa102,"Quảng cáo app lừa dối người dùng, cố tình thiết kế cái dấu X nằm ngay chỗ đóng quảng cáo để người dùng bấm nhầm vào đó rồi đi đến trang tải app. Vote 1 sao luôn App chạy chậm, lag rất mạnh, đứng rất lâu, không mượt một chút nào. Bản web trên di động không cho phép theo dõi đơn hàng. Ngoài ra, khi đăng nhập tài khoản bằng mật khẩu (cả trên web và trên app) đều yêu cầu phải xác minh bằng link sms rất phiền. Mong app cải thiện.",UX,1,train
+489b650b-9a32-49d3-8225-465a4c6f69b6,"Nên có thêm tính năng xem lại lịch sử sản phẩm đã truy cập. Đôi khi app bị đơ, lỗi hoặc vô tình thoát ra thì dễ bị mất nếu đang xem đồ trên trang chính mà chưa kịp thêm vào giỏ hàng. Với lại đừng có tự ý reload nữa",FEATURE,1,train
+218e3c8f-3a47-4858-ab49-55e914c3c7ef,cho phép dùng video AI để giới thiệu sản phẩm thì chịu app luôn đấy.,OTHER,0,train
+704812fc-53c5-4bdf-99fd-ea03fe76afb4,"Mỗi lần vào là bắt xem live rất không hài lòng, cài đặt không thấy tùy chọn lúc vào.",FEATURE,0,train
+7cc4be9b-6846-45d7-b9f4-b890f815a4f1,"Có thể thêm chức năng không tự động phát video hoặc tắt hẳn shopee video được không? nặng máy quá, lag mà nóng máy.",FEATURE,0,train
+eba6fd42-5609-4814-8bcd-4965c8f30fab,Mong nph cho phần khung giờ hàng giao đến(tùy chọn giờ hàng giao đến nhà) chứ nhiều lúc đag đi hc mà shipper giao hàng tới mình kh nhận đc shipper lại tưởng mình bom hàng,FEATURE,0,train
+7b1b0b3a-af08-4d15-b2ed-6a8d8dcc323a,đơn hàng của tôi mua bằng voucher giảm giá 60k dành cho người mới bị shopee tự hủy khi chưa có sự cho phép của tôi với lý do rằng đơn hàng có hành vi giao dịch bất hợp pháp,OTHER,0,train
+d3e1925c-2e74-4de8-90ec-f25dc7b4f2bb,"ok, trãi nghiệm ok, có 15 ngày trả hàng, tuy nhiên nếu cho phép đánh giá shop sau 15 ngày có hình ảnh chứng minh là tốt hơn nữa, bởi có nhiều trường hợp mua về 1 thời gian sau mới dùng và cách xử lý của shop quá yệ",FEATURE,0,train
+9b1193f0-db6d-471e-8d8e-9a71d6c21911,nên có thêm phần thông tin bên van chuyển và thông tin số điện thoại của nhân viên giao hàng như của bên tik tok,FEATURE,0,train
+c3a2e6cd-be30-4fc9-bb53-185843115a03,app dùng ok. giao hàng đúng hẹn nhưng mình góp ý cái tính năng shopee latter nên có tín năng cho phép trả trước phân nữa tiền hàng hoặc trả dứt điểm các tháng còn lại khi ng mua hàng có đủ money.,FEATURE,0,train
+8d4d9590-1175-4652-9b9f-ed36cbb2710b,Đang mua thì hết tiền mong shop cho thêm tính năng nợ =)),FEATURE,0,train
+c583d6f5-1ed6-47c1-ae74-8af2fdd8cfdb,"chính sách hoàn tiền nhanh gọn rõ ràng. cho phép hoàn về thẳng tài khoản ngân hàng. không như sàn nào đó. bắt người dùng phải hoàn về tài khoản của sàn, không rút về đc",FEATURE,0,train
+9e96295c-4321-4b35-a865-ee5bab1f4045,Đề nghị shopee không cho phép các video clip quảng cáo hàng hóa tự động điều chỉnh âm lượng trong điện thoại của khách hàng . Điều này làm ảnh hưởng đến thông tin liên lạc của khách hàng.,FEATURE,0,train
+b923b5e9-b270-4517-b970-43270cae1a1c,update thêm tính năng bình luận shiper,FEATURE,0,train
+9f17a29f-8be8-4ea1-bcb3-fb1f013be722,"chăm sóc khách hàng tốt. hi hi. nhưng hàng giải hơi nhiều. :))) nên có nhãn dán phân loại shop giải , shop thật. người có du cầu mua giả thì mua. người có du cầu mua đồ thật thì không bị mua nhầm.",FEATURE,0,train
+024fafc9-aec8-4722-a79f-1e60c6de3b6a,Shopee nên thêm nhiều ma hơn nữa nhé,OTHER,0,train
+f790d109-27c0-40a0-8287-43eee5d30bd1,voucher cho phép cod mà cứ bắt phải thanh toán qua pay là sao vậy!!?,OTHER,0,train
+6742dc14-ba08-4394-b8e5-60cbf0446fa2,"riêng mình thấy quá tệ, khiếu nại trả có 1 món hàng mà làm 10 lần là 10 lần bị từ chối, lấy đủ lý do đến hết 15 ngày cho phép đổi trả thì thôi, không hiểu nổi làm ăn kiểu hig",OTHER,0,train
+b53946ac-391a-4e00-9599-4a0f5b7d3171,đang khai thác mã người mới thì bị f02 monh nhà phát triển cho phép khai thác mã người mới,OTHER,0,train
+bcf2032c-65c9-45b6-8298-819e2f2392f0,tìm.kiếm bằng hình ảnh nhưng bắt tùy chọn định dạng file,UX,0,train
+c3d4b023-6484-4018-88a2-5d19142281ce,"đáng thất vọng. ngày càng khó khăn với người bán hàng, từ việc tăng phí quảng cáo trên sàn lên gấp 10 lần, cho đến việc tăng phí sàn, thu thêm phí cố định, cho phép người mua dùng hàng rồi trả về trong tình trạng hư hỏng, thực sự là bóp chết người bán hàng. Giá hàng hoá bị đội lên quá cao so với giá trị thực, người mua tưởng mua được deal hời, nhưng thực tế hàng đã bị đội giá quá cao, chất lượng cũng không đảm bảo.",OTHER,0,train
+b9ca1a8c-dccb-4e47-a02f-cfc6d0436210,shopee tao nói với mày đó chủ của shopee tao cần mày phải không cho phép cái shop này bán nữa vì tao mua 2 con đồ chơi mà nó giao hàng cho tao có 1 con hà tao đọc tên shop đó cho mày gấu bông bili mày có nghe. 😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡mày mà không Cho cái shop đó nghỉ bán thì mày chết với tao,OTHER,0,train
+f6ad5a88-62ad-4cc6-924e-09f34399b725,"Là một sàn TMDT lâu năm mà không quan tâm tới trải nghiệm người dùng. Shipper làm việc tùy hứng, thích thì giao không thì tự ý trả hàng cho người bán mặc dù chưa liên hệ để nhận hàng, ứng dụng thì không cho phép đánh giá shipper thì chịu",FEATURE,0,train
+d7069477-6912-459d-a6b4-bd237d849065,tải thì ko đc j hết nói chung là tính tui hẳn hắn nên có s tui ns v và nói chug lun là 1s,OTHER,0,train
+70619e67-8626-4e4f-bfc6-3d1f9b021038,"Phải thêm tính năng trừ bao nhiêu xu tùy ý khách hàng trọn, như trừ 1000 xu, 3000 xu, chứ mỗi lần muốn trừ cái trừ hết số xu, rất bất tiện ạ. mong shopee cập nhật sớm ạ.",FEATURE,0,train
+8c4e4bca-b609-4c3c-b77a-539cef052702,"mua sắm trên shhopee rất tiện lợi tuy nhiên vẫn có vài shop giao hàng không đúng với mẫu mã, số lượng đặt hàng gây phiền toái cho khách mua. shopee nên có 2 options cho khách hàng : hoàn trả vào tài khoản của người mua or a voucher để khách hàng sử dụng mua hàng trên site.",FEATURE,0,train
+c53aef3e-f779-42ce-aebf-97d3ad4ead6a,"Chính sách duyệt khoản vay mua trước trả sau của shopeepay rất có vấn đề. cho phép bên vay thêm số điện thoại tham chiếu người thân nhưng không liên hệ cho bên thứ 3 xác minh có đồng ý không. đến khi không tìm được người vay và không thu hồi được khoản vay thì làm phiền bên thứ 3 liên tục bằng các cuộc gọi trong khi người ta không hay biết chuyện gì. yêu cầu tháo gỡ số điện thoại thì vòng vo, đùng đẩy trách nhiệm. sàn thương mại điện tử mà làm ăn vô trách nhiệm.",OTHER,0,train
+63db9fc6-4eb9-46de-83b7-9711fb0f7ee6,Shopee nên có biện pháp kiểm soát kỹ hơn (một vài lần hàng bị đánh tráo),OTHER,0,train
+211151ed-f91a-4ccc-aa3a-2c5899b1a27a,"app tốt sài ok dễ, nên thêm tính năng chỉnh chế độ form chữ để người lớn dễ đọc chữ. với lại mấy cái quảng cáo trên những ứng dụng khác quá dài và khó chịu?? bấm x thoát thì vô app, xong ra phải đợi 5-10 để thoát 1 lần hiển thị mà hiển thị 3-4 lần",FEATURE,1,train
+26efc80d-d39b-4118-87e1-09446c6921ac,"cần có chế độ tối, hay lướt đêm mà nó sáng quá💔 mong shoppe thêm chức năng",FEATURE,0,train
+f51d7272-6a34-4eea-b862-143c21643097,đề nghị app thêm tính năng KO QUAN TÂM SẢN PHẨM vào chứ mấy cái ko muốn coi hiện lên hoài mệt,FEATURE,0,train
+d3bd7783-1dbc-4e01-99fc-41db3325dba6,"Rất tệ trong vòng 1 tháng trở lại đây. Hơn 10 đơn hàng thông báo sẽ sớm giao nhưng không hề có bất cứ cuộc gọi từ shipper nào, xong đùng một cái 2 ngày sau thông báo trả hàng. Đơn hàng nào có cho phép gửi qua tủ đồ thì nhận được, còn không thì phải chịu thiệt. Đã hơn 10 lần bị shoppe bom hàng, tôi đã cạn kiệt kiên nhẫn với shoppe và sẽ quyết định rời sang app khác.Mong rằng những ai gặp phải tình huống tương tự sẽ làm theo để tránh bị phụ thuộc vào sàn cảm, tiết kiệm thời gian cho bản thân",OTHER,0,train
+8ec00fc9-ad88-488f-b0a6-6470175575f8,cần thêm chức năng hạn chế hoặc chặn ních ảo đặt hàng phá đám,FEATURE,0,train
+cdafff9c-3cbe-4a7f-aaa1-e831736d8e76,"shopee nên thay đổi chính sách về thông tin tài khoản,mình mua 2sim mới để đki đổi sđt cũ (do mất sim và k làm lại được sim) rồi nhưng cả 2 số mới đều có tk bị khóa và nhân viên cskh gợi ý mình đổi số mới vậy mình phải mua bao nhiêu cái sim nữa mới đổi được số đây ạ? shopee nên có chính sách thay đổi cho những tài khoản đã khóa này đi chứ ạ? hiện tại tôi k thể tt online vì sđt ngân hàng và sđt shopee k trùng nhau. tôi k đổi được sđt mới, tài khoản shopee của tôi có khả năng bị mất bất cứ lúc nào",OTHER,0,train
+eb64152d-693b-474d-a4a2-e088f4d9aed6,"mua hàng trên shopee, shopee phong phú về các mặt hàng vận chuyển nhanh hàng đóng gói cẩn thận. xin góp ý một chút: mỗi sản phẩm không phải ai cũng hiểu tỏ tường chi tiết nhất là cách sử dụng, nên có một mục giới thiệu chi tiết về sản phẩm mở shop muốn bán để người dùng thuận tiện hơn. xin cảm ơn shopee shopee là nơi mua hàng rất tin cậy và tuyệt vời cảm ơn nhiều nhé!. Ồ, tất nhiên là rất yêu thích. ưu điểm vẫn là chính. mong rằng shopee hãy vì người tiêu dùng mỗi ngày càng tốt thêm lên.",FEATURE,0,train
+af21d428-3e89-442e-b3f0-f24d0542c569,đề nghị shopee thêm tính năng chặn người lạ gửi tin nhắn cho tài khoản người mua hàng. Dạo này toàn bọn lừa đảo spam tin nhắn rất phiền. Tài khoản nào bị khoá thì xoá luôn khỏi mục tin nhắn đi,FEATURE,0,train
+a93f6bdb-2306-4b6e-9745-a630f3e93c05,Shopee dạo này bị cái gì á đặt đơn chỉ Áp mã freeship thôi bấm đặt cái khóa liền là sao khó khăn quá sao mua hàng được . Nếu shopee video có thêm tính năng lên lịch đăng nữa thì quá ổn,OTHER,0,train
+b1f2dd05-8dd6-4066-943e-42c9dc327601,"nên ra thêm chức năng tái chế cho mèo trưởng thành, mèo đã trưởng thành thường không dùng đến, ví dụ nhập bao nhiêu con để random lại con mèo khác",FEATURE,0,train
+e4877c3f-ce9d-480d-9252-83bac5cc7f9b,Sàn quét sản phẩm theo kiểu tự tay bóp cổ...Sàn quét sản phẩm hàng giả hàng nhái rất vớ vẩn... Đầy đủ những quy định đăng bán thì chỉ có nhà sản xuất mới có...Bán tạp hoá thì moi làm sao được giấy kiểm nghiệm chứng nhận sản phẩm...Sản phẩm có hoá đơn giá trị gia tăng chứng mình nguồn gốc mà chỉnh sửa bổ sung thì không được vẫn cho là hàng giả hàng nhái..,OTHER,0,train
+ef036597-f91a-468e-8fac-40adfff82cd2,shopee mới thêm chức năng đánh giá đúng yêu cầu được 400 xu. quay chụp đủ kiểu theo yêu cầu vẫn có thêm xu đâu. lừa đảo,BUG,0,train
+f6174d1b-1c7f-43a2-8c5f-533701eda09e,"láo toét, tự í hủy đơn hàng khi chx cho phép",OTHER,0,train
+a478ca76-ee9d-451b-8df4-cf35f673a16d,nhiều sp giá rẻ ok. tuy nhiên đợt này hơi nhiều lừa đảo. shoppe nên lọc kĩ hơn. nên có mục cho đổi phương thức thanh toán linh hoạt nữa là ok,FEATURE,0,train
+fcf01175-9006-4703-b31d-41ee0c8309fc,"Không lấy được Xu từ Live stream do báo vi phạm điều khoản ( Đang yên đang lành báo vi phạm không lấy được Xu dù không làm gì sai, mọi lần tương tác vẫn bình thường, liên hệ chuyên viên ko giải quyết được) Hay giật, lag. Nên thêm tính năng giao diện ""màn hình tối""",OTHER,0,train
+0995142b-0784-47d5-a4dd-55d8d0f59ffb,Nên có phần lọc shop có xuất hóa đơn điện tử để khách đỡ mất thời gian check,FEATURE,0,train
+40dfd364-e146-4b39-b4de-c1e91d2d48e8,"dịch vụ tốt, nhưng nên có số tổng đài hỗ trợ nhanh",FEATURE,0,train
+8a1829c8-d7de-4376-90a8-6233dfbc5669,mong có voucher cho khách hàng TV vàng nhiều tí,OTHER,0,train
+9a205067-a3ad-4073-99ec-8d39f6d5701f,"tệ, tệ. nên đẹp sớm, hàng hóa trôi nổi kém chất lượng. đã đành. về giao hàng thì mỗi khu vực mỗi chất lượng. TP.thì ưu tiên thể hiện tốt, ra vùng ven thì thái độ làm việc, hành xử xử lý không đảm bảo. hàng hóa không móp, cũng méo mó có khi vỡ. hệ thống app và máy chủ lag lòi ra, có dùng cả pc cũng văng lag dùng mạng 3g. không cho phép thông tin shipper để đảm bảo nhưng cho phép shipper lưu giữ địa chỉ sđt rồi thông tin các kiểu. người bình thường không sao, kẻ xấu cắp thông tin thì sao!!?",OTHER,0,train
+6f84fb69-0bd4-4ea2-9550-f18d10d13cb2,"1.Cần duy trì bài đánh giá dịch vụ, sản phẩm. 2. Cho phép sửa đánh giá khi trải nghiệm sản phẩm. 3. Cần có bộ phận kiểm tra mẫu mã chủng loại sản phẩm khi có phản hồi của khách hàng khi sản phẩm không đúng quảng cáo của shop. 4. Cho khách hàng đồng kiểm cùng người vận chuyển, không đúng cam kết, giới thiệu quay đầu sản phẩm.",FEATURE,0,train
+07e841c6-0953-4666-8585-572f2d0c03a9,lần nào mở shopee để check thông tin đơn hàng cũng vô phần shopee videos thật sự rất là phiền.Shopee lúc trước có chất riêng mà giờ làm như ăn theo tik tok hay gì ấy.Nếu mà như tik tok thì chắc bỏ app xài tik tok luôn cho rồi. shoppe là chợ online không phải mạng xã hội.Hy vọng shopee sửa lại mở vô thẳng trang chủ như trước hoặc thêm chức năng tắt luôn tiếng chứ mình phiền lắm rồi.,UX,0,train
+6d0e8777-b36a-470d-8294-47bec16ff84b,"Góp ý shopee nên có tính năng không tự bật video. Giờ click vào món hàng nào cũng tự chạy video, rất là khó chịu luôn. đứng máy liên tục",FEATURE,0,train
+a4a8d1e3-35f9-4c0a-ab4d-61233d2b1d32,"mua hàng trên shopeefood lỡ ấn lộn thánh 2 đơn, trong khi chưa đc 1p lẫn việc chưa có tài xế nhận đơn mà ko cho phép hủy",FEATURE,0,train
+2f6e503d-44e6-479a-8b90-4a924b295a98,Mặc dù 0 sài nhiều cho lắm nhưng cứ ki gặp quảng cáo liên quan đến app nhà bạn cứ kết thúc là tự động vào app mặc đu không bấm j cả. Mong có thể loại bỏ/cải thiện ạ,FEATURE,0,train
+194103ce-1bcf-4153-940e-a490ba2fc35c,"Dùng thì đc nhưng có vấn đề là lúc kiện shop thư viện bên shopee lại ko cho phép tải ảnh chụp bằng chứng của shop bán sai sự thật. Lừa gạt người mua, đây không phải lần đầu mà nhiều lần. Ngay cả chụp rất nhiều bức nhưng ko hiểu lúc trên thư viện Shopee ảnh đều biến mất cái này là vấn đề trách nhiệm đấy",BUG,0,train
+2ae52f03-6ce8-48ba-8bf4-58e48de3406c,cũng được mà không có mặt trong TOP này là do người ta không có gì là lạ đâu mà phải đi làm thuê cho các bạn ý cứ như là một trong các bài viết của mình là người lớn tuổi hơn mình thì mình cũng nên có cái gì cũng,OTHER,0,train
+8e362a88-c74c-44b7-8939-987bc2ae8238,Bộ phận CSKH cứng nhắc. Shopee nên có quy định hỗ trợ người đứng tên hợp pháp sđt có thể tái dùng trên hệ thống chứ không phải chủ cũ số làm khóa xong chủ mới gánh hết. chat support thì bảo tìm số khác mà dùng thì chịu rồi,OTHER,0,train
+f4fa3ff6-2140-4603-ab74-74627ba987a0,"tại sao Shopee không cho phép đặt đơn số lượng lớn mà không giới hạn tự động để người dùng không tự ý đặt? toàn đợi lúc người dùng đặt đơn số lượng lớn rồi khóa tài khoản đột ngột, Shopee rất là thiếu chuyên nghiệp, thua xa Tiktok Shop, Shopee chỉ giỏi khóa tài khoản vĩnh viễn thôi",OTHER,0,train
+8961a335-bd7e-48d1-aa96-5565819eb30f,"Ngay sau khi đặt hàng phát hiện lỗi sđt cũ k sd được nên đã thay đổi ngay sau đó, hệ thống báo thành công nhưng khi đơn hàng vận chuyển vẫn sđt cũ đề nghị SP thêm tính năng cho biết số điện thoại của shipper để có vấn đề còn biết",FEATURE,0,train
+47732ec0-0da5-4cba-9364-810a62e3a992,"Đã vip còn cho free cho nhão cái mã giảm giá, đề nghị shopee xem lại, phân biệt tụi ăn bám với người chấp nhận bỏ tiền mua VIP , YÊU CẦU KHÔNG ĐƯỢC FREE GÓI VIP * Cập nhật, đề nghị bổ sung đánh giá vận chuyển bên khác như GHN chứ j mà nó muốn bao lâu giao mặc kệ, nhằm đơn bố láo cập nhật sai, muốn cho 1* mà ko có chỗ đánh giá vận chuyển, dính shop tội shop.",OTHER,0,train
+5bf6df68-eb13-4fbb-82a5-9926df7cd426,dạo này có người đánh cắt thông tin của tôi tôi đề nghị kh cho phép cái sđt của toi cho cho bất cứ ai trừ cái nich này,FEATURE,0,train
+d8c4b2e7-426b-4dd3-8593-d4d8bc9026a2,"Cung cấp đủ bằng chứng hoàn hàng mà cứ bảo không hợp lệ, hỏi không hợp lệ ở đâu thì nín không trả lời. Cho phép lừa đảo khách hàng công khai à?",OTHER,0,train
+b59db6c2-ce72-4022-8938-dfda24cf2804,Hi vọng là update thêm tính năng cho phép chon giá trả trước khi dùng shopee later thay vì phải trả full,FEATURE,0,train
+609e4643-0ac3-4d41-946f-edf22464f1c4,"đa dạng ngân hàng, giá cả. Tuy cũng vài lần thất vọng vì trải nghiệm tệ, shopee nên có chế tài mạnh hơn với các shop để bảo vệ khách hàng của mình",OTHER,0,train
+b83d1fb8-7afa-481d-8d22-6229aa69262a,"mọi người lưu ý shopee food nhé. cực bố láo, dụ mua deal hời thanh toán ko hoàn tiền. tới lúc đặt hàng thì tính thêm đống tiền ship + dịch vụ. Thành ra tiền ship + dịch vụ lên gần gấp đôi so với giá đồ ăn. Ko có voucher giảm gì, chuyển sang voucher 12% cũng ko thấy giảm. Lưu ý tránh vào bẫy deal. tốt nhất ko nên đặt. Nhảy sang app khác dùng tốt hơn. đã thế ứng dụng còn ko cho phép chụp màn hình. Mất tiền vì cái ngu lần này, ko có lần sau.",OTHER,0,train
+3bcaeb0a-9ca3-48e0-95be-bd76259eca7f,có nhg shop rất vô ý thức mik dc nhận vocher free ship và k mất tiền 100% khi đặt đôi dép crocs ở 1 shop thì lại k cho mua và mik có xem tbao thì shop này ns là đã nhận dc hàng và k cho phép mik mua lại mik rất thất vọng về cách làm ăn của shop cx như của shoppe,OTHER,0,train
+d0ae7191-f0b8-423f-a76c-b59bcc1a11cc,yêu cầu shopee nên thêm số điện thoại của shipper giao hàng giống như những đơn 0đ thì shipper tự ý nhận hàng ko giao cho khách có phải khi nào cũng được voucher đau khách thì khó san Selena shipper thì tha hồ lấy hàng của khách hàng rồi chụp vài tấm hình đang lên toi thấy chẳng uy tín tý nào cả mong shopee nên thay đổi,FEATURE,0,train
+a3ae851b-a3bb-45e7-80d2-c8132abc7382,nên thêm giao diện chế độ tối cho app. nửa đêm săn sale chói cả mắt,FEATURE,0,train
+6d9bae4d-1ee1-477f-90a3-868aef7650ef,"hàng hoàn về vô cớ , Đề nghị shope cập nhật thêm tính năng cho xem sdt của shipper chứ tôi mất biết bao lâu để chờ hàng mà lại đến nơi thì shipper ko chịu giao , bên cạnh đó thì còn gây lỗ vốn cho shop , Mong bên shoppe cải tiến thêm . rất gây khó chịu cho người mua và người bán",FEATURE,0,train
+f5707e68-353b-4f82-b619-0fda106dcb5c,"nhìn chung cách thức phục vụ của shoppi cũng thể hiện được sự tôn trọng lịch sự đến khách hàng, chỉnh chu chuyên nghiệp, nhanh gọn trong CV , sản phẩm đa dạng các gian hàng và chủ bán , nên giá cả sẽ hợp lý cạnh tranh tuy nhiên để được tốt hơn: shopi cần xem xét các đối tác giao hàng có sự lịch sự, tôn trọng đến khách hàng nhiều hơn , so với sự thể hiện thiếu tôn trọng lịch sự đến khách hàng như thời gian qua nên xem xét lại cho phép khách hàng được đồng kiểm rõ ràng yên tâm hơn nhé",FEATURE,0,train
+95f79280-bd6f-47c9-84b7-f95a96b3f9fa,app tốt nhưng mong app thêm chức năng điều chỉnh chất lượng video vs live chứ toàn xem tự động lag quá,FEATURE,0,train
+00038d70-6e47-4604-9f31-ad5eeeec3d81,mong có nhiều mã giảm giá hơn,OTHER,0,train
+763b3f66-83d5-4ae2-92b2-3b96b60a6c32,"Quảng cáo chất lượng công dụng của sản phẩm nào không đúng thực tế, mà đã bị khách hàng phản hồi nhiều. Để giữ uy tín, Shopee nên có chế tài xử phạt, hơn nữa thì đóng ngay trang, không để cho lừa khách hàng thêm nữa.",OTHER,0,train
+3c579e71-a9f8-438d-bfed-45696b7e5c39,Shopee có thể cập nhật thêm tính năng hiện tên + sdt của shipper nhận và sắp giao đơn cho khách được không ạ? Có nhiều trường hợp cần mà không biết chủ động liên hệ thế nào ạ.,FEATURE,0,train
+ed44fa13-88be-4123-98ab-476533dc20e0,"Mua Lazada, rồi mua Shopee, trải nghiệm là khi chờ đợi giao hàng, muốn liên lạc với shipper trong quá trình chờ giao hàng nhưng không có, Lazada có mục đó. Mong Shopee sớm bổ sung. Ngoài ra tất cả đều hoàn hảo.",FEATURE,0,train
+d2abb342-1ffc-4632-91ea-992e4ffe28cb,mình nghĩ shopee nên thêm cái giao diện nền tối.,FEATURE,0,train
+8d531bb9-d829-49ae-a61e-49470544bc2b,app càng ngày càng giựt. nhiều khi vào muốn xem và đặt hàng nhưng cứ đơ đơ. bực vcc. nên có phần tắt video tự phát,FEATURE,0,train
+55e0072a-c46f-4ab8-9f02-787f7c238ef1,"Thanh lọc trong mục sản phẩm yêu thích tự dưng update xong về toàn bằng tiếng anh khó hiểu,biết tiếng anh thì không sao nhưng không biết lại là vấn đề lớn mong sớm khắc phục nên có thể tắt tiếng livetream để giảm ồn từ live khi làm các việc khác phải thu nhỏ cửa sổ,toàn bị át tiếng gây phiền toái.",UX,1,train
+4fbc7ce4-e4b6-49e2-be7d-8bc872159d7e,Shopee nên bổ xung thêm tính năng chọn nhiều loại sản phẩm trong 1 đơn hàng của 1 shop để giảm thủ tục và chi phí vận chuyển. Ví dụ mua 1 công tắc còi và 1 công tắc đèn của cùng 1 gian hàng lại phải chia ra làm 2 đơn hàng trong khi đó có thể gộp lại làm 1.,FEATURE,0,train
+d4abbb71-51bb-4e1a-b117-be6ce1bde2f7,Đề nghị Shopee thêm tính năng nhập số xu muốn dùng thay vì chỉ có thể dùng hết xu tất cả số xu trong một lần. Đôi khi tôi chỉ có nhu cầu dùng xu để giảm số tiền bị lẻ trong thanh toán đơn hàng và số xu còn lại để dành cho những đơn hàng tiếp theo.,FEATURE,0,train
+85707ca3-ff6e-4692-97a8-65921a342783,shoppe nên cập nhật thêm tính năng xóa đánh giá,FEATURE,0,train
+4a3f450c-f8d8-49ab-ae2d-1a16d36f7767,nên có công cụ để tìm nhiều món hàng trong 1 shop mà ko cần dò từng shop,FEATURE,0,train
+9ea0f9ba-2f09-49a7-b6f9-408fa0e64afb,🐉tự í hủy đơn khi chưa có sự cho phép của tôi🐉,OTHER,0,train
+b97d3038-68ff-40da-93f3-3a2909b88329,"mình mong shopping sẽ phát triển thêm tính năng hiển thị số điện thoại của shipper và họ tên của shipper để thuận tiện cho việc gọi và hối giao, chứ không có Sdt mà chờ hàng rồi không thấy hàng luôn, mong shopping phát triển tính năng nếu không thì có thể điểm đánh giá sẽ thay đổi ạ. không thể cho 5 sao như vậy được nha",FEATURE,0,train
+56d6a8db-2efe-4e92-9afd-22be7bc33e75,nên có dịch vụ giao hỏa tốc vào ngày chủ nhật....,FEATURE,0,train
+da8da292-8768-4e07-bde1-761dcf9ac3a8,nên có thêm nút quay về trang chủ chính,FEATURE,0,train
+6a8f75da-ef1b-43c2-9a9c-467b848fda22,"nên tắt quảng cáo từ nhảy vào trang chính ,rất chướng nha Shopee nên có chế độ cho những ai ko thích điều này",FEATURE,0,train
+9f5e2d90-e653-4b72-bb1b-ba0fbea46365,"Đề xuất thêm tính năng ẩn hoặc xoá lịch sử mua hàng. Tôi mua rất nhiều đơn hàng nhạy cảm như bcs, xilip,...nên không muốn để người khác vô tình nhìn thấy",FEATURE,0,train
+af53d49f-eb99-433a-9721-abc9b7f129be,Shopee cần thêm tính năng phương thức thanh toán Zalopay để dễ dàng mua sắm,FEATURE,0,train
+091bebc3-508c-4ad8-8028-9e7abeadaf0a,"Shoppe không có bakr vệ quyền lợi của người tiêu dùng. đâu... Shoppe cho phép 1 shop tạo đơn hàng, nhưng khi người tiêu dùng đặt hàng thì shop nhắn và bảo rằng quá xa, không giao.. Mình dùng voucher để mua hàng, shop bảo xa không giao, hủy đơn hàng, treo đơn hàng đến khi bị hủy, còn voucher thì mất không được hoàn lại ?? Tại sao ?? Shoppe là người cho phép shop tạo đơn hàng, vậy tại sao không báo trước là những nơi nào giao được, những nơi nào không giao được ?? Còn voucher của khách hàng m",OTHER,0,train
+3f9f973b-650c-4dfb-b60e-cede77987db0,"Đơn hàng nào mua mà 'xử lý bởi shopee' là thể nào cũng đổ, cũng hư, hoặc lộ sản phẩm bên trong, khâu đóng gói quá tệ. Cái button Đã nhận hàng nên có confirmation chứ, lỡ nhấn nhầm là khỏi hoàn tác luôn. Không chú ý trải nghiệm người dùng",FEATURE,0,train
+5c27115b-059f-4933-afab-ab178243f007,app quá nặng máy nhiều lúc Shoppe nên kiến nghị đội ngũ IT làm app nhẹ lại giúp những người dùng có cấu hình máy yếu vào app nhanh và nhẹ nhàng hơn không bị đơ một hồi mới vào được app hay nên có phiên bản Shoppe lite cho những dòng máy yếu,FEATURE,1,train
+e3bd6042-f7f0-4b40-83b6-944573dd5a87,"Hàng hóa đa dạng. Giá hợp lý, chất lượng hàng tương đối, cho phép theo dõi đơn hàng tốt. Các đánh giá của khách hàng rất bổ ích, cần khuyến khích. Các đánh giá cần sắp xếp theo thời gian từ mới đến cũ, vì các đánh giá quá cũ không còn nhiều giá trị để tham khảo. Cần loại bỏ bớt các gian hàng không trung thực, gian dối, quảng cáo không đúng thậm chí không biết rõ về mặt hàng mình bán, sao chép nội dung ... Để tăng uy tín cho sàn shopee.",FEATURE,0,train
+126af8fe-528d-4c80-9325-bd50136d548d,"đã nhập đúng SĐT mà không chịu mà bảo định dạng SĐT không hợp lệ còn không giải thích chi tiết cách nhập, nếu mà người ta ko biết nhập sao cho đúng thì nên có hướng dẫn đi chứ đã không giải thích rõ còn cái xu áp dụng vào votre thì thấy không có tác dụng j thà là khỏi tải về còn hơn mua trên mấy sàng khác có bao giờ bị đâu tải về để đặt đồ mà không đặt được đã v còn mang cục tức trong người đề nghị nên có thêm cái hướng dẫn khi người ta nhập đi chất lượng ngày càng xuống thấp.",BUG,0,train
+03783c6a-1f07-4d46-81b2-243a4038fabc,"Xử lý khiếu nại trả hàng hoàn tiền của tôi quá lâu! Một mặt hàng nhạy cảm, tôi đã xóa bớt video, một trong những bằng chứng là hàng giả hàng nhái! Sau đó tôi mới nhận được là..Bạn cần bổ sung hình ảnh,video để khẳng định đó là hàng giả hàng nhái! Chính vì sự chậm trễ đó dẫn đến tôi không trả lại được loại hàng giả hàng nhái độc hại đó! Quá thất vọng luôn! Tôi sẽ xóa shoppe, và dùng app khác. Shippee Đã có cải thiện tốt hơn! và tạm thời đánh giá 5*",OTHER,0,train
+b4d9c070-b165-4852-a9ba-4803f90a41bd,"bị ghép đơn giao đồ ăn nhiều dẫn đến quá lâu đơn mới tới, shopee nên có chính sách ưu tiên giao hàng với chi phí nhiều hơn để lựa chọn.",FEATURE,0,train
+cf550391-68b8-4751-888a-fda38d591849,"Tôi nghĩ nên có chức năn ""report"" cho khách hàng phản ánh về gian hàng để Shopee có thể quản lý việc bán hàng của người bán. Đã mấy lần tôi đặt hàng mà người bán không chuẩn bị hàng, đơn hàng luôn để ở trạng thái ""người bán đáng chuẩn bị hàng"", sau đó 2-3 ngày phải tự hủy để đặt chỗ khác. Thực sự rất khó chịu với kiểu buôn bán vô trách nhiệm như vậy.",FEATURE,0,train
+7fbcc63c-c238-41d1-88a5-e579e3ea24df,đề nghị làm cách nào đó thay đổi về hình thức thanh toán online đi rất là phiền mỗi tài khoản chỉ được dùng 1 lần thanh toán online nên thêm thanh toán bằng momo hoặc zalopay như tiktok và có thể tự hủy liên kết để sang tài khoản khác liên kết lại..nhiều người không biết dùng hủy cách thanh toán đó đổi sang tài khoản mới đâu có dùng được nữa và mỗi lần hủy phải liên hệ rất là phức tạp mua online thôi mà có cần kĩ vậy không.,FEATURE,0,train
+902a02b8-705b-4eec-91dc-57a5df54af6b,"chưa được tôi cho phép,nhưng ứng dụng này vẫn tự chạy và cài đặt trên thiết bị của tôi",FEATURE,0,train
+184fee2e-ff2d-4b2d-b619-e882a47bf6be,"vui lòng gỡ bỏ tính năng live&video trên thanh công cụ và lúc khởi động app. thực sự rất rất thừa và phiền, vào đây để mua sắm không phải xem review phim, video từ tiktok đăng lên, đang nghe nhạc bên nền tảng khác mở app cái âm lượng giảm về 20%. hoặc có thể cho phép bật tắt các tính năng có trong app một cách chủ động để bọn tôi có thể đỡ phiền hơn khi vào app. giờ app nhìn rác chả khác gì tiktok cả",FEATURE,0,train
+66563e4b-e195-4e20-ab55-72cf509a8845,"Nếu có thêm tính năng ẩn, nhóm các món hàng trong giỏ hàng lại để gọn hơn nữa thì sẽ tốt hơn, mong nhà phát triển lắng nghe và cập nhật!",FEATURE,0,train
+60d48b16-f74e-4ad4-bb38-a87553e9ee3d,"lần đầu mình thanh toán bằng ví Shopee Pay nên có voucher ưu đãi người mới, rồi Shopee tự động hủy đơn hàng làm mất voucher của mình mà không hoàn lại.",OTHER,0,train
+f03bfb55-2223-467d-8c6c-9bbcd029dd7d,shopeepay tự chuyển tiền thanh toán giao dịch ko đc mình cho phép qua liên kết ngân hàng nha mọi ng ko nên tải ứng dụng để bị mất tiền oan ạ liên kết ngân hàng mà shopeepay thanh toán qua thông báo mà lúc đó tui chx vô ứng dụng ngân hàng để xác nhận chỉ thấy tài khoản tự nhiên bị chừ tiền mặc dù mình ko xác minh giao dịch để chuyển tiền t sẽ đánh giá 1 sao đến khi đc hoàn tiền và đc giải thích tại sao lại bị mất tiền mặc dù t chx đồng ý,BUG,0,train
+f240e8bd-70c9-47fd-935b-172e4dbb7a55,Chưa đảm bảo quyền lợi của người mua hàng . . hàng đổi trả không được rất nhiều . các bạn nên thêm 1 danh mục sane phẩm đã qua sử dụng thì wuas tuyệt . nhieefu người muốn mua mà ko có phải sử dụng qua app khác,FEATURE,0,train
+a2d4d1dd-a9e9-43b1-a1aa-1516efff7d16,shopee nên có chế độ tắt tự động phát live và video khi vào ứng dụng vì tính năng này rất phiền và gây lag máy.,FEATURE,0,train
+dbcde605-bbfa-4a30-9e2d-253144829c1b,"Cần có thêm tính năng :Sắp xếp ,lọc các đánh giá ngày mới nhất lên đầu. Tôi là 1 người mua hàng ,cần xem qua đánh giá, và cũng rất cần tính năng này!",FEATURE,0,train
+585845ea-a984-441b-8200-58c5429df7db,"nên có chức năng report video sản phẩm cái thì dùng AI tào lao, cái thì dùng clip của sản phẩm khác, treo đầu dê bán thịt chó",FEATURE,0,train
+1d8ef23b-f068-416a-8b89-b6240c0000a1,Mong shop thêm tính năng người giao hàng + Số điện thoại nhé,FEATURE,0,train
+da3b641f-0bc6-48c5-a441-891ab0d2230a,"Tôi muốn trong app có thêm chức năng xóa một số đơn (đã mua) và xóa tin nhắn, điều nầy giúp bảo đảm hơn về tính bảo mật cho khách hàng. Các bạn biết đấy, có một số đơn hàng, vợ tôi mà biết là lại nhức đầu với cô ta. Và tôi nghĩ, có điều tiện lợi nầy thì rất nhiều người cũng sẽ thích, tôi cũng thoải mái mua sắm hơn. Cảm ơn.",FEATURE,0,train
+192f8676-f5ad-46ac-9c74-cac4f8309452,nên thêm tính năng chặn shop. người mua có khi không thít cái shop đó hoặt shop đó làm ăn tàu lau chặn cho khỏi hiện khi tìm sản phẩm,FEATURE,0,train
+4ef4d0c9-5ee2-43d7-8f0c-74e446c0edec,trải nghiệm quá tệ. cho phép trả hàng nhưng không có shiper đến lấy đơn hàng. khiếu nại cả 10 ngày không giải quyết,OTHER,0,train
+77da71a9-df47-486f-be15-204a7cb80f23,cứ bấm vào sp là nhảy video. bị phiền á,UX,0,train
+32de4a2f-7ede-48fb-9aba-ba198af88fd2,"mình không thích cách Shopee trình bày trạng thái đơn hàng, rất nhiều đơn liên tục được ghi là chuẩn bị giao, vui lòng chú ý điện thoại nhưng rồi lại cập nhật đã về trạm và không giao nữa dù vẫn trong ca giao hàng, mình vô cùng khó chịu và khiến đơn của mình giao trễ lịch, khiến nó rất bất tiện mình mong shopee minh bạch trong việc giao hàng cho khách",BUG,0,train
+01d3651f-8f87-4047-b073-9272d319f002,1 ( Hoàn trả đơn hàng hoàn tiền còn phiền phức Tiền hoàn về còn trừ vận chuyển và thuế Đơn hàng xa còn chậm ) 2 (lần đâu lỗi đia chỉ nhận hàng có liên hệ hỗ trợ . điền theo biểu mẫu từ lúc đơn hàng về hud bưu cục đầu tiên rồi . vẫy không đổi địa chỉ nhận được . sử lý SPX khá chậm . nhân viên bộ máy vận hàng không cân thiệp vào mã qr code đơn hàng để cập nhật địa chỉ mới . giao hàng nhân viên shopper không gọi xác nhận có nhận lại luôn . ) khách hàng ĐK VIP .,OTHER,0,train
+bb38e40b-a498-4959-8ee4-1167be17b0ec,rất phiền phức,OTHER,0,train
+b466c7bc-e31c-41f6-9301-1d9fad1c673f,"app tệ. ai lấy số điện thoại mình mua hàng trên app. nó không trả cứ đt mình. mình cũng thông báo rồi báo đã xử lý không đt nữa, mà hiện tại cứ làm phiền. sao lúc cho nó vay không điện thoại hỏi mình giờ đi đòi thì liên hệ. app lol",OTHER,0,train
+8cf3e2b5-61bf-4746-9cec-c769232ec36d,"tôi muốn xoá tài khoản của chính mình, nhưng không xoá được làm ơn khắc phục lại để tôi xoá tài khoản làm khó cảm thấy khá phiền",FEATURE,0,train
+e357f1d5-91eb-4fb8-be6a-251d877c0173,Quảng cáo rất phiền chơi game còn giả vờ nút bấm thoát có tình vào app,UX,0,train
+b8e67800-da87-4969-8974-ea8284e32672,bỏ cái vô app là nhảy vào video dc ko thấy phiền lắm luôn cứ vô là vào video cực kỳ phiền,FEATURE,0,train
+8c06ac19-75ba-4ba3-8bb3-8e0be71a6888,"qc,phiền",UX,0,train
+89782e1b-07d3-491d-8480-fea3fe1d6498,phiền,OTHER,0,train
+40cfe919-d21b-4a9f-8179-59fc5ab4559d,ứng dụng phiền phức nhất,OTHER,0,train
+a737fda0-a0bd-4d42-a940-a5f89962bfb5,quản cáo nhiều phiền,UX,0,train
+5ddfa8b9-0f5a-4158-9f23-e03c6685b1c0,"Shoppe rất là phiền, chơi cũng ko yên ổn nữa là sao, nên cho miitj sao",OTHER,0,train
+ad3b2c4b-7ce2-4758-9883-9daf030d5087,"phiền, cứ cập nhật lên là shopee mà còn lớn nữa",OTHER,0,train
+59147786-b30d-4ceb-be17-c706d47e5ef7,phiền vl t chỉ muốn vô xem giá mà cứ để 0₫ đến lúc ấn mua thì lại giá gốc ? del hiểu làm ăn chán vl,OTHER,0,train
+87d76735-691b-4ee1-9c48-c493790eeecf,Tự load quảng cáo khi nghe cuộc gọi điện thoại hoài. Rất làm phiền,UX,0,train
+3ded385c-67cf-45d1-adbd-9d0e7589a4ce,"đặt đơn không có tài xế nhận 1 tiếng 3pp không tự động hủy đơn, quá phiền",FEATURE,0,train
+ca98af86-3ca2-41e6-84e0-1773ef303b1a,"quảng cáo lắm, phiền quá",UX,0,train
+7c053141-dbcd-4e44-a4e5-8946f922172a,shop thì treo chờ lấy hàng app thì ko thông báo có đặt hàng thành công hay không khá bất tiện,BUG,0,train
+bbf9b661-bde4-483e-894b-610f1f1a049e,"quảng cáo trong chỗ khác (game, web, v.v) phiền vc, nhiều đến nỗi tao phải xoá app",UX,0,train
+34a70674-c4ea-47ad-9c8d-3200c93c6174,"Quảng cáo quá nhiều, rất phiền. Trả hàng gây khó dễ",UX,0,train
+3580a936-3d24-469f-8926-513d8b45f9fa,chạy quảng cáo nhiều v phiền,UX,0,train
+49695440-cbab-4f78-b779-208e17195183,"làm ăn lằng nhằng , shipper mà tưởng bố đời , rắc rối phức tạp, giao chậm hơn sự đoán , hoàn hàng thì kh thèm đến lấy không biết app làm ăn kiểu gì",OTHER,0,train
+915a33e6-5b2d-4f68-aec7-6a8dab6eff3a,yêu cầu bỏ chức năng tự động giảm âm lượng khi đăng nhập rất phiền,FEATURE,0,train
+161f84a5-9ae6-41fa-be18-39f572a5e630,đơn vị giao hàng nhanh mà cứ để cho đơn của tôi treo ở bưu cục cả tháng chưa thấy giao 1 sao cho vừa cái nư đơn khách hàng mới nên tôi mua dc vs giá 0d nên nó treo vậy mất mệt ghê còn thêm mấy con nhân viên làm ăn như đầu bùi đéch giải quyết đc gì từ đơn hàng bị treo cả shopee nên đọc và coi lại cái đơn vị giao hàng nhanh nha vs cái voucher 15k kh làm đc gì cả tôi đây chỉ mua đơn dưới 100k thôi nhé voucher đó mà cho đơn từ 0đ thì tôi còn chấp nhận đc đằng này giảm 15 cho đơn 100k phiền thực sự,OTHER,0,train
+06f2a6ee-1c5f-486b-98dd-0d4879a69e5d,phiền,OTHER,0,train
+5b7e48dd-f58e-448d-9887-9f15f658e36b,"Dịch vụ giao hàng càng ngày càng yếu kém và thiếu chuyên nghiệp! Đơn hàng trễ hẹn liên tục quá hạn dự kiến, shipper thì làm việc không có tâm, toàn đưa ra lý do bao biện xàm xí. Đã vậy quy trình xử lý phiền phức, không tôn trọng thời gian của khách hàng. Trải nghiệm mua sắm vô cùng tồi tệ và tiêu cực. Sẽ xóa ứng dụng và chuyển sang nền tảng khác! 1 sao!😾",OTHER,0,train
+d23cf76c-2206-4874-8680-23b747182eec,quảng cáo đúng phiền .,UX,0,train
+4775a0fc-84fc-42c4-83a0-b5cd858a4442,quảng cáo quá nhiều quảng cáo khắp nơi chúng mày cứ làm như k ai biết đến chúng mày ấy. rất là phiền,UX,0,train
+23a04102-7b49-488b-8ca9-f80306c1a509,"gần đây mình bắt đầu chuyển qua mua sp thấy vì tik tik, vì hầu hết các mặt hàng đều giao ok, ít phải đổi trả rất phiền phức, cái thứ 2 là săn xu đc áp trực tiếp khi thanh toán có thể mua đc món đồ mình thích với giá rẻ hơn bình thường, đó là đặc điểm k có ở nền tảng trước đây mình từng mua",OTHER,0,train
+5d3269c8-2622-4c84-920e-70e798d40c2c,"Rất ổn, cho đến khi tài khoản mình bị khóa và không thể dùng lại số đt kia nữa. Thật sự khá phiền về vấn đề này",OTHER,0,train
+0243204c-081c-4fb8-9296-58eb04eedced,giờ shoppe video bị sao vậy hồi trước xem video có thể đến 6 phút giờ xem chưa tới một phút nữa đang xem video mặc dù chưa hết phải lướt vậy rất là phiền luôn í ko biết có phải là tính năng mới hay không mà rất là bực đã là video shoppe thì phải cho họ coi chớ chưa coi hết mà bắt lướt làm vậy để chi dễ khắc phục đi ạ,FEATURE,0,train
+e05ca6c2-c6f0-43e6-9c8e-8616711c705f,"cho người dùng thay đổi ngày tháng năm sinh khi ng dùng lỡ set cái ngày tháng năm sai, ròi cần mua đồ gì nó tính k đủ tuổi và k mua dc rất bất tiện",FEATURE,0,train
+4b534d6c-4815-4ce7-bd01-ba3e01182491,Quá phiền,OTHER,0,train
+c2ede264-62d9-43f7-8b95-ee00e98def7b,"Shopee làm việc cẩu thả khâu giao hàng, gây phiền hà shipper và người mua. Cho chọn loại địa chỉ giao hàng là Cơ Quan Công Ty nhưng vẫn để shipper giao vào thứ 7 chủ nhật, không có người nhận ở địa chỉ. Nếu cho chọn loại địa chỉ mà không phân phối được giờ giao hàng thì dẹp cái loại địa chỉ Công Ty đi. Làm không được thì cút.",FEATURE,0,train
+4d54c362-6aba-4d74-b373-23a28ff7ba4b,"Trong phần giỏ hàng, cái mục shopee xử lý rất phiền và gây khoá chịu, thêm vào giỏ hàng một sản phẩm mà cứ lặp đi lặp lại tới 3 4 lần",BUG,0,train
+6614b1f3-b761-42cb-b972-0ca2ec0f4bbd,phiền,OTHER,0,train
+a8955599-de2b-47d9-8bac-a094c815e891,"quảng cáo rác, rất nhiều, đi đâu cũng thấy, phiền, không có chỗ nào để tôi quan tâm ngoài việc phiền",UX,0,train
+491e1809-5346-40e8-b727-7df17da8686b,"xem quảng cáo hiện lên đã ko muốn vô mà cứ bị đẩy vô shoppe phiền vãi, mãi 1 sao vô thời hạn:)",UX,0,train
+947a48a8-8705-41c7-8217-b317461d3433,quảng cáo quá nhiều gây phiền toái,UX,0,train
+2ec18dea-373b-408a-a25a-9d295a92a1c1,"khó chịu vô cùng, quảng cáo nhiều, sản phẩm không giống với quảng cáo, nút tắt quảng cáo không đúng sự thật, nhạc lớn, ấn nhầm toàn bị truy cập phiên live. phiền thực sự",FEATURE,0,train
+dfd044c6-2a1d-47c2-9f9b-e9cd0a676740,rất loằng ngoằng bất tiện. ứng dụng thì đơ lác,BUG,0,train
+f5f80638-ada9-4e7c-bce6-4a202bae735a,"đi đâu cũng gặp ,phiền vl",OTHER,0,train
+15bf405f-ef7c-4156-93c5-c41d48d5a9ef,đâu cx có quảng cáo phiền vc,UX,0,train
+dd38df3b-235d-407d-ab8a-8b0b130c8e4a,phiền phức,OTHER,0,train
+d6b48d92-ac36-4c64-a779-bc4f798a02bc,quảng cáo ngoại giao thấy phiền là,UX,0,train
+d752e89f-b4f5-4f0d-aac3-3eb75d3f72d2,"Quảng cáo lắm, 1 clip 3 tiếng thôi nhưng 23 quảng cáo shopper nhảy vào, quảng cáo thì bắt chờ 7s 8s vô tình ấn vào là chuyển thẳng sang ứng dụng phiền vl, chặn hết quảng cáo này thì quảng cáo khác lại nhảy vào. cái shopper mất dạy",UX,0,train
+28bf85ca-a314-4592-b79d-186b516dbe88,"giao diện mới sau khi cập nhật nhìn quá rối, so với giao diện cũ",UX,0,train
+e23d2d98-2ff5-4b12-ab35-e3840f46847b,"Mua hàng tốt, tuy nhiên vào app quảng cáo quá nhiều, hiện các popup che hết sản phẩm mà bấm tắt thì khó khăn, rất là phiền. Đề nghị bỏ mấy cái popup này đi",FEATURE,0,train
+09acba4e-bd60-4b85-88ea-e12a18cf5b81,"Vừa vào app đã nhảy vô tab Video, thực sự rất phiền, tôi đã chuyển sang tab Home nhưng tiếng Video vẫn phát mc",UX,0,train
+284e8546-767c-49cf-8646-201a03b77b6e,phiền vaiz đang chơi tự nhiên quảng cáo shopee nữa bị kick ra thế là thua luôn mà khi mua shop ko uy tín gì toàn đào lửa thôi mất mấy k bạc bực hết cả mình,UX,0,train
+75aa85cc-0c56-4821-b496-ecb1d53d7e85,"ko thấy qc của mình phiền hả bấm x ko xong thoát ra cũng ko được , có nhu cầu muốn vào shoppe đâu mà cứ lm khó ngk v?",UX,0,train
+0d37639a-e62f-444c-b9d0-0a36b7053af5,làm quảng cáo ở mấy ứng dụng khác nhiều đến phiền,UX,0,train
+7110d07b-dead-4596-bcba-addd933cb6ef,Quang cáo quá nhiều gây phiền toái,UX,0,train
+2e643122-bad3-44e3-af59-e6483a1266cd,"quá nhiều phiền phức, quá nhàm chán",OTHER,0,train
+470eff46-4e87-440c-ac00-3cbbd61664aa,"app gì mà gửi thông báo giả quài vậy, phiền người dùng lắm luôn.",UX,0,train
+631cc978-b8ce-4a1d-8ed8-dd66ad09d08f,quá phiền,OTHER,0,train
+9423a831-252c-463a-8067-5f6e3ade37e8,"Phần địa chỉ shop shopee chỉ nên hiển thị mỗi tên tp thôi. Ví dụ hà nội hay hcm thôi vì ghi thành phố hà nội thì rất dài, nhìn ở ngoài thì chỉ hiện mỗi chữ thành phố h. Kể cả ấn vào ship cũng chỉ hiện giá ship chứ k hiện địa chỉ. Tôi đã vừa mua nhầm phô mai bò cười đặt từ hcm ra hà nội trong thời tiết nóng bức thế này thì k biết có ăn đc k vì phô mai bảo quản 25*. Cái này rất bất tiện cho khách hàng. Mong shopee cập nhật",UX,0,train
+a0730bd0-b84b-424f-83e2-d500212a8361,phiền.!,OTHER,0,train
+4312a767-9b83-4a6e-a2bb-ea62c4de0307,"shippo thái độ giao tệ, còn nói t đặt hàg khi cần thoi, làm phiền ổg quá, mà t đặt j là quyền của t mà😡😡",OTHER,0,train
+64cdf5d3-75ac-42c2-939f-7192a2be4cf2,"nhảy app mọi lúc, phiền",UX,0,train
+6aea4507-7381-4022-8ce2-41ac83b072de,shop phiền vcl,OTHER,0,train
+3885cc49-d3da-4695-8822-08ea2c8f34b8,học theo tik tok vừa vào lại quảng cáo sản phẩm nào đấy mà lặp lại nhiều lần thực sự rất phiền tôi cần nút tắt tính năng này,FEATURE,0,train
+ff61686d-6135-46cb-a0bb-f6572524cdbb,"quảng cáo phiền khinh khủng , cứ tự vô CH mặc dù k ấn gì, k đáng để 1 sao nữa",UX,0,train
+fe6b62af-9b11-44c0-afe4-b425b6f065b2,"IT của shope k nén ứng dụng, để khi vô nó đơ đơ k trở lại gì được hết, đơ đơ chỉ thoát ra vô lại thật phiền",BUG,0,train
+2d7e3654-9e93-4a9e-92b4-dcfb9b4ab8ab,phiền,OTHER,0,train
+eb243726-1681-4158-a49e-2dc22ba5643f,quảng cáo phiền phức,UX,0,train
+b989b67c-facd-4fd0-a6de-40717cb1048f,"Quảng cáo nhiều, thấy phiền",UX,0,train
+458c5c18-6a20-4d88-b9a2-77ea219718e8,quảng cáo quá nhiều. làm phiền,UX,0,train
+1f4fd757-8fb6-4948-93f3-d9b8cd8d71b1,"Quảng cáo khắp nơi là 1 chuyện nhưng cách quảng cáo rất làm phiền người khác, mong sao có ứng dụng mua hàng khác tốt hơn để xóa shopee",UX,0,train
+3cb9ee59-9833-4e01-9607-81d77f9e50cc,"Khi bấm vào ảnh sản phẩm, app không dẫn thẳng sang trang shop, mà tự mở video. Rất phiền",BUG,0,train
+46d367e3-a79c-4f82-82d4-ea27dae7db1f,phiền vl đặt hàng xong nó tự hủy chán tht,OTHER,0,train
+f002c13c-e9b4-4275-8817-5cb505d44115,ứng dụng này mỗi lần đăng nhập vào hay thay đổi điện khác rất khó đăng nhập.rất phức tạp đăng nhập. bên tiki hay các sàn khác rất dễ đăng ký hay đăng nhập rất dễ dàng.với lại khi trả hàng hoàn tiền không hoàn thẳng vào ngân hàng như các sàn khác đi.mà phải vào ví Shopee như thế rất là lâu mới vào tài khoản ngân hàng được quá bất tiện. mong sao Shopee thay đổi các chức năng như trên sẽ tốt nhất.,BUG,0,train
+14b3c12f-0f31-412a-a900-8f4a33feaace,"không hỗ trợ người dùng, không giúp ích được gì, quy trình xác nhận tài khoản, liên kết ngân hàng phiền phức dài dòng. Nói chung là rất vô dụng",BUG,0,train
+4d0facad-1717-43ea-ab5c-ba36567ab660,"sao cứ vào shopee là vào shopee live, phiền thật sự",UX,0,train
+86137df7-b84c-498c-a01d-e161b6f738b1,"vừa bật thông báo cho là báo từ sáng đến tối, 😠. phiền phức! hạn chế đề xuất bật thông báo nhé.",UX,0,train
+4af5c02e-6c23-4b92-9c86-9d0142ce938c,quảng cáo phiền quá,UX,0,train
+e0df01ad-0bb4-4b6a-a4ce-199a6cad18d5,"dạo gần đây Shoppe lỗi nhiều quá. mở app cái là cả đống cái thông báo, xem hết rồi thì một hồi thông báo y vậy nữa, phiền cực. cho voucher xong không cho sử dụng, tự ý hủy bỏ đơn người ta xứng đáng 1* nhé Shoppe L👎",UX,0,train
+88ba0abc-f554-4ec9-af3a-fed3ce368265,"App quá tệ, dùng spaylater mà k thanh toán kịp thì bị gọi làm phiền thậm chí còn gọi liên tục đe dọa. Voucher nói giảm sâu cuối cùng giảm mấy chục ngàn. Quảng cáo thì cứ nổi lềnh đềnh trên app. Nói chung app càng ngày càng tệ đi. Khi nào không làm phiền và mở lại cái spaylater xóa đánh giá.",OTHER,0,train
+2e0a5e67-7bfc-4c1a-b2e8-f84701cd2447,Qua việc mua hàng online mà bị lộ sđt của khách hàng và từ đó bị làm phiền cùng với các cuộc gọi lừa đảo thì xứng đáng 0 sao nhé,OTHER,0,train
+5018ec0a-0bb4-4923-86e2-72f1ecbc2180,"m bây giờ nắm đầu ngành app đặt đồ r book qcao phiền vãi m có biết phiền k, máy thì lag chơi game gặp qcao của m ép qua app, m điên thì nói 1 tiếng",UX,0,train
+d3040d96-5756-43a3-a09b-4f055f8e349d,"thông báo nhiều, phiền",UX,0,train
+a6cf2de4-a679-4711-a884-ae3df4ea66d1,tao ghét nhất là chúng mày cài quảng cáo vào các ứng dụng . làm phiền tao,UX,0,train
+f401c085-d481-4992-bd27-9dace865442a,"Có thể đừng auto navigate vào video live mỗi lần mở app không? Nó phiền cực kỳ ấy, nhất là đối với người đang phát nhạc nền",FEATURE,0,train
+e5b23bd9-4a3f-4c59-8f63-d7afe37bb889,"muốn trả hàng hoàn tiền mà gần chục ngày chưa xong, rắc rối",OTHER,0,train
+89dbabe6-25db-4ca1-a3df-ee9de652b14d,"ship giao chậm , hỏi thì thái độ , giao ko nhanh bằng tiktok shop nữa . khách hàng bận ko nghe máy đc , ship tự động hủy đơn hàng. đi đâu cũng gặp quảng cáo của app , bị phiền",OTHER,0,train
+3de9b0f4-3155-442e-b4fb-7ec16ce452b8,tôi chát và hỏi về sản phẩm sao rắc rối vậy?hỏi thì shop trả lời? để vô thú y mua cho chắc mệt ghê,OTHER,0,train
+c17a0e28-74cc-4cc1-8396-1125d4ae8ab5,mỗi lần vào shopee cứ hiện cái video shopee hoặc live rất phiền mình muốn mua và kiểm tra đơn mua cứ mình chứ không muốn săn sale những sản phẩm mình không hứng thú hay những video vô bổ lan tràn mỗi lần vào shopee là điện thoại mình bị lag do cái video shopee hiện lên xong lúc thoát hết app rồi vẫn còn âm thanh của video shopee khiến mình khó chịu,UX,0,train
+fd690bd9-3720-41e8-a33c-d39d976d625c,khách mua hàng rất lâu nhưng đổi trả hàng. không ai đến lấy . xong thông báo bảo là lấy hàng không thành công. kiu khách đợi sẽ có người đến lấy hàng . rốt cuộc lại nói phiền khách lấu ra bưu cục. lấy ra bưu cục thì ko nhận. shope tệ rất tệ. có bao nhiêu ưng dụng mua hàng. shope chăm sóc rất tệ hại,OTHER,0,train
+a6ac7506-dd99-4505-a1ff-f9afa1797bd2,"Tối thiểu chuyển shopee pay quá cao, gây bất tiện Ứng dụng thường xuyên giật lag",OTHER,0,train
+6ec24ba5-0b2c-441b-add8-f222a651743a,"bộ bà mắc quảng cáo lắm hả?💔 ừ thì t công nhận việc quảng cáo là không có gì xấu nhưng mà làm ơn người ta đã bấm dấu x để skip rồi mà còn cố bắt ngta vào app cho bằng được. Vào app rồi là lag chtme luôn, muốn nổ cả máy. Xin luôn ấy tr, phiền thì phiền vừa thôi chứ.",UX,0,train
+c53374aa-341e-4d87-8eb9-2f4aa3566894,hoàn tiền rất rối,OTHER,0,train
+d18a46db-0ba1-40a7-a5b1-1d87b6415e3b,phiền,OTHER,0,train
+00f68225-a9f8-4e6f-97d3-2c0e63b8d21a,phiền,OTHER,0,train
+2d1aa0bb-527d-484f-9f37-72bc833a4461,"đặt 1 đơn mà tự động nhẩy ra ship rất nhiều đơn, đăng nhập tài khoản và cập nhật địa chỉ rất rắc rối",BUG,0,train
+97cdab70-5a41-4fc9-87ab-0b872ec60da2,cứ bắt vào live shopee rồi còn phải chỉnh lại âm lượng phiền vl,UX,0,train
+760f17dc-8774-4680-b739-476360954aa3,"vô đâu cũng thấy quảng cáo của shopee , nút thoát không ấn được phiền",UX,0,train
+336df711-65a8-4af7-9d2e-bfdeec0d03cd,quá nhiều quảng cảo và làm phiền những ứng dụng khác chỉ vì quảng cáo khiến ứng dụng đã bị văng ra ngoài KHÔNG HÀI LÒNG VÌ QUẢNG CÁO QUÁ NHIỀU!!!,UX,0,train
+79ad846b-3a00-42a0-919c-1c9e9b122b11,phiền,OTHER,0,train
+577cb5a0-6945-44b2-a31f-3a96c5856bca,"dùng thuận tiện. một số món rẻ hơn tiktok. tuy nhiên một số chức năng quá cứng nhắc. ví dụ paylater, không sửa được tài khoản nh đã gắn với 1 tài khoản không dùng nữa. bất tiện quá!",FEATURE,0,train
+0bb907f2-7960-4783-a551-18cdc5d85cf5,"đề nghị bỏ tính năng tự giảm âm lượng khi mở app shopee , máy tôi bị hư nút âm lượng nên mỗi lần thoát app vào app khác rất bất tiện chỉnh lại âm lượng, với lại mở đi mở lại nhiều lần sẽ làm hư nút âm lượng.",FEATURE,0,train
+54064838-4cc8-4596-ba51-16e42dc86df3,"app làm quảng cáo quâ đáng yêu 🥰, coi mà ấn thoát cứ vào trình duyệt, 1 sao k nói nhiều, phiền",UX,0,train
+b61d8bb0-17e2-4959-a397-386bb89563c5,tốt nhưng khâu hoàn tiền hơi rắc rối,OTHER,0,train
+aa8e6e93-63bf-4721-a097-e5e49e4be767,"quảng cáo mọi nơi, phiền",UX,0,train
+43a661f2-d1fc-4b07-bdaf-d624eae5c4b9,"làm ơn update bỏ cái vụ ấn vào shopee là phát shopee video được không vậy, đang nghe nhạc tính vào shopee lướt mà nó phát video dừng nhạc CỰC KỲ KHÓ CHỊU update quả tính năng phiền điên",FEATURE,0,train
+fb33cc4d-a55b-4db9-8ab8-1ab7cbff91f0,"bớt quảng cáo hộ , phiền vccccccccccccccccccc",UX,0,train
+a0ff4277-c0a8-41e4-840a-920932ac7543,"Tính năng tự phát video quảng cáo khi mở ứng dụng gây rất phiền toái và khó chịu. vừa mở ra là tiếng oang oang quảng cáo, chuyển sang mục khác vẫn còn tiếng quảng cáo, phải thoát ứng dụng mới hết. đề nghị shopee tắt ngay tính năng này",FEATURE,0,train
+67fdf1bc-a874-49a0-b07f-faf06b23d7fb,app nào cũng thấy bị quảng cáo. quá phiền,UX,0,train
+aa8efc79-bbb0-4c91-aab1-65b47d3051af,"Tệ, hồi trước mình hạnh Thành viên thì cứ khoảng 3-4 đc 10 cái mã giảm 65k + 30 cái mã giảm 30k ( phí ship ). Hớn hở cày lên Bạc nghĩ đc nhiều hơn thì 10 ngày nó mới cho 30 cái mã giảm 20k ( phí ship ), với lại mấy cái mã giảm cũng ít với ko ngon như bên Thành viên. Với lại quy trình hoàn hàng rắc rối, AI CCKH thì không giải quyết được vấn đề.",OTHER,0,train
+8232436f-b430-43b3-acda-b42d21222d0a,phiền vcl,OTHER,0,train
+52fea70c-892d-4110-a3f4-2bdaeac9d891,Chưa mua lần nào . Muốn mua mà rắc rối quá nên không muốn mua nữa .,OTHER,0,train
+83b5f7ad-d131-4d39-a9ef-2fd109cd49d3,"Ứng dụng thông báo bẩn, không tắt được video, video còn di chuyển rối mắt, không có tùy chỉnh tắt live, nút tắt các icon quá bé, các icon xuất hiện góc màn hình quá nổi bật che hết các mặt hàng, tìm kiếm hàng ra nhiều kết quả không trọng tâm và khác nhau trên các thiết bị/các lần tìm kiếm, đề xuất tìm kiếm dở hơi, ứng dụng tốn dung lượng quá nhanh và hoạt động kém đi sau mỗi lần cập nhật",FEATURE,1,train
+c3f14d86-0c7b-4b10-8cda-449d3f66c8ff,"hồi này shopee không trả được hàng rất bất tiện, mua hàng online sao chính xác được, ra cửa hàng mua, người ta còn cho trả hàng, shopee không hỗ trợ trả hàng làm tôi lo lắng, không dám mua thoải mái nữa, giờ phải cân nhắc thật kỹ, mấy đồ mua gần đây bỏ không dùng được uổng phí rồi",OTHER,0,train
+f0419820-9e7d-438b-929c-cb0d131c38cd,"giao diện chán, bố cục rối, ứng dụng chạy cực tệ",UX,0,train
+2bec046a-771c-42b5-8d39-01845bc75783,làm phiền chêt mẹ,OTHER,0,train
+4852b69d-d931-447f-afc3-0803dfaa5019,luôn bị làm phiền,OTHER,0,train
+6240c166-e85a-4b7c-af3a-de1e6f7ec26d,"Ứng dụng lạm dụng thu thập sinh trắc học. Bắt buộc chụp ảnh khuôn mặt trên mọi đơn hàng khi dùng thiết bị mới mà không lưu xác thực, cưỡng ép quét camera liên tục gây phiền hà và vi phạm quyền riêng tư. CSKH thiếu trách nhiệm: Gọi tổng đài trình bày khá lâu và đầy đủ nhưng nhân viên không lập phiếu ghi nhận lỗi mà chỉ lặp lại kịch bản ""hãy làm theo yêu cầu"", đùn đẩy trách nhiệm.",FEATURE,0,train
+a0ddafd6-a160-475a-8da0-8091a964d46b,làm việc cứ nhắn hoài phiền lắm,OTHER,0,train
+3f9f05cd-6893-4a66-a440-bc8a28387ef8,Shopee cố tình gây phiền phức cho khách hàng khi hoàn trả sản phẩm !!!! 1* cho Shopee.,OTHER,0,train
+1ea1cf7a-c2ef-4baf-be37-7159c98512d2,video cứ làm phiền ý mỗi đang chơi game mà quảng cáo hay hiện (điên),UX,0,train
+a2b0d364-4f1e-48b0-8032-ac15e7bb79a3,quá phiền phức,OTHER,0,train
+9e0630f5-d4d1-487d-8b02-7028e8cd57a7,"cứ nhảy vô app ngk lm gì vậy. Tắt cái tính năng đó dùm cái , cứ chèn vô app r web site ngk . Bt phiền không?",FEATURE,0,train
+d3f5d542-bd40-4e90-ac4a-bc95022054c0,"app dùng vẫn ổn. vấn đề ở đây là quảng cáo của app rất là phiền luôn, còn ko đc đẹp nx, dù nhấn thoát nhưng vẫn sẽ chuyển trang trước rồi mới quay lại thoát đc. nchung là phiền và phèn",UX,0,train
+e708c5ae-8310-4134-b09f-6fbdb5f12b44,k phải vì nó không hay vì nó quảng cáo khá nhiều và dài nên đề nghị cho quảng cáo nhanh hơn đi chứ phiền vãi,FEATURE,0,train
+26749e49-adaa-487d-9b60-4402ec2d5210,"khi một trang mua bán để cho nhân viên viện lý do nghi ngờ tự ý đóng khoá tài khoảng người mua dù khách mua rất nhiều đơn mà không có bằng chứng xác đáng nào. địa chỉ nhà có, số điện thoại có. nhận hàng đàng hoàng. nghi ngờ cái gì.?. rồi ai bảo hành cho sản phẩm.?. Cư xử với người mua hàng quá tệ và rắc rối.",OTHER,0,train
+234e001b-7da5-4857-a624-c2276792a56e,"lạy mấy bố quảng cáo cố liêm sỉ giúp t, đ má lướt ngang qua trên mấy nền tảng mxh th cái tự nhảy qua ẹ app, phiền dcd, đói lắm hay s mà qc kiểu đấy????????",UX,0,train
+4e33d8eb-49cc-48a1-ac70-bb44b10e389a,"mò đến cả trường t để marketing luôn, phiền vili",UX,0,train
+90a475a4-3158-4442-adee-ea407fc7837d,phiền phức,OTHER,0,train
+3bc45206-3044-4d36-ab95-df75ca165579,thông báo nhiều phiền vl đang trên lớp cứ kêu,UX,0,train
+5bba577d-c010-4f27-8029-8b08375ee804,tui lúc trước có xài.. từ lúc mở đt lên là thấy quảng cáo về nó.. bấm vô đâu cũng gặp.. khó chịu vô cùng. giờ GĐ chuyển qua các sàn khác mua.. quấy rối mất lịch sự,UX,0,train
+c5186cc1-a11c-4e98-a390-013a1b4915e1,Mỗi lần vào là nhảy vô live với video rất nhức đầu và phiền phức. T mua hàng hay lướt tiktok mà làm thế? 1 sao,UX,0,train
+4446a9fc-a5db-4297-9cd4-a311b4a66e3a,"Liên kết ngân hàng ko được, rắc rối mất thời gian, shope cứ bảo lỗi",BUG,0,train
+538e2065-d4eb-4f89-b508-4497bef640e5,"làm phiền người khác trên mọi nền tảng , app bẩn",OTHER,0,train
+72a35c79-930a-4794-997e-b670934125a9,vừa tệ vừa phiền,OTHER,0,train
+a0ce4797-317c-4bfd-8ab6-50f76db7a592,Danh sách sản phẩm trong live tự đóng khi quay lại từ trang chi tiết sản phẩm/thanh toán gây bất tiện khi phải lướt lại danh sách để xem các sản phẩm tiếp theo,BUG,0,train
+313cbd92-d8e8-41c8-a7d6-4bd7a6ef96a1,làm phiền,OTHER,0,train
+579d0c00-e2ea-4ae5-adfa-9c6d647ce6c4,Giao diện vẫn hơi rối hơn khi so với Tiki,UX,0,train
+50ad58e3-8d6d-41ad-9365-561c1fc25f15,"Rắc rối, và phiền phức cho khách hàng",OTHER,0,train
+cc3f32d3-5420-40cc-bde6-52e8a2adbd21,quảng cáo của shopee trên những ứng dụng khác cực kỳ phiền và khó tắt,UX,0,train
+1ec8771a-5d77-4cbc-b286-12b11b60e229,quản cáo quá phiền,UX,0,train
+7e4b9d11-3f89-4787-a7ce-fbcda4c0e372,ứng dụng nào cũng có shope rất phiền,UX,0,train
+f07937b9-2a22-4ed5-a68d-489cb5ee2fcc,"Gọi spam quá nhiều, ngày gọi 15 cuộc quá phiền:)",OTHER,0,train
+65ac6c3a-6066-493f-a930-57fcd9206333,"chuyên gia gửi thông báo linh tinh ko liên quan, rất phiền",UX,0,train
+4fc50c95-b286-4050-bb14-145037111ab0,"1. Bảo mật thông tin kém (đell đặt hàng cũng nhận mấy cuộc gọi lạ là thế nào đến lúc cho vào danh sách chặn thì đùng cái là số shipper) 2. Shipper đặc biệt là bên shipper shoppe food (Thái độ kém văn hoá, số điện thoại không gọi được là do t chặn đấy, lý do chặn xem lại điều 1, gọi gọi phát phiền trong khi người ta đell đặt hàng cũng gọi) 3. Tuyển dụng không xem xét đạo đức (đọc lại điều 2, nhờ bạn ra nhận nước hộ đến lúc quay lại nó vừa khóc vừa kể bị shipper mắng ra nhận hàng muộn)",OTHER,0,train
+960e87fc-0a6f-4558-a7d7-cb9856a97286,tiếng báo shopee giờ giới nghiêm làm phiền giấc ngủ!,UX,0,train
+e693137d-5508-43b7-9eb4-8be9550ae5cf,"Bớt chạy quảng cáo đk, đi đâu cũng thấy quảng cáo của shopee rất là phiền, vào gg tra bài để hc cũng bị chèn quảng cáo, rất mất thời gian, thứ j ít nh có nội dung sẽ khiến ngta nhớ, còn làm nhiều là lố, càng ngày càng hk thik sử dụng shopee. làm ơn bớt chạy quảng cáo giúp với. ứng dụng như qq hk lo cải thiện chất lượng. cái j cx thấy có shoppe làm riết thấy ghéc vs rất khó chịu. nhắm hk tiếp thu ý kiến khách hàng đc thì cút luôn đi. nếu thật sự ứng dụng tốt ngta ko cần qc cx bt đến.",UX,0,train
+91ecbfb3-9e2f-4e0f-a6cb-8f968ee83352,phiền vl,OTHER,0,train
+e954c8de-9d03-40c2-b3fa-3910ff29a745,quảng cáo quá nhiều rất phiền,UX,0,train
+95894dde-5565-4d13-87e0-0de79c50802c,làm phiền,UX,0,train
+1a293455-c8fa-41e4-bd9d-ec98fff640b6,"Đừng có mới vào app là nhảy qua live stream nữa, rất phiền",FEATURE,0,train
+8162d8b1-d4ba-4402-b907-56516dcd0391,"tụi bây quảng cáo càng nhiều gắng link càng nhiều t càng k mua, phiền vãi l",UX,0,train
+c7ddb94f-3a7e-4090-86df-09749309cbc7,"Trước đây mỗi khi hoàn trả hàng thì phải chụp ảnh kiểu này kiểu khác,thủ tục rắc rối.Nhưng tg gần đây đã ko phải làm vậy nữa,đơn giản hơn nhiều nên thấy dễ chịu.Hàng hoàn trả đc duyệt và trả nhận tiền hoàn nhanh chóng.",OTHER,0,train
+d7025065-77c6-47f0-89c0-9ec52f427e90,=)) đèo mẹ chứ t ít khi quỵt tiền ship nhưng nhiều khi mik đã giải thích là mik muốn tiền mặt bảo ship cầm nào mik ở nhà thì ship thì đ nghe ship xog giục như cháy nhà... mik nói dõ là lấy tiền mặt ko thì kêu ko tiện thế thì phải đợi chứ ít nhất mik sẽ trả trong 2 ngày mà cứ giục gọi liên tục quá phiền,OTHER,0,train
+4abd4b65-7a10-4638-8acd-ba04866d6e57,"Mở app là tự động vào tab live, quá phiền phức",UX,0,train
+9df8dde6-63ba-458d-a0fa-138beabdccc9,"quảng cáo nhiều, quảng cáo trên mọi mặt trận game đâu cũng thấy bấm nhẹ vào là cứ vào shoppe rất phiền, chơi game cũng rất ức chế",UX,0,train
+80377402-68ef-4677-8ff6-9ae400a05234,không làm gì cũng báo vi phạm vi phạm j thì k nói lm theo cách con Tép bảo thid k đc nchung là k nên dùng. Trả hàng thì rắc rối chán,OTHER,0,train
+2df2713c-b4fe-43bf-a123-ca6e21fe497f,"Mấy quảng cáo phiền quá shoppe. Quảng cáo phải chuyển qua trang này trang kia , ít mua độ nhận diện thương hiệu đi .",UX,0,train
+6beaac1c-fb9b-4ad0-acc3-eb17b7f139fc,ko có gì để than phiền,OTHER,0,train
+4f27336c-f460-4f27-b68b-d104b6a84e5c,đang chơi cứ thông báo ( ngắn ko nói mà thông báo che gần hết màng hình ) phiền,UX,0,train
+b9bc5694-97fb-4ba9-a032-3ee4666a4421,làm phiền,UX,0,train
+7677265f-f39f-4689-9a32-a8221c9d60cb,"Không biết là do lỗi hay sao, cho dù đã cài tắt tất cả thông báo trong app nhưng shopee vẫn nổ thông báo rác thường xuyên, rất phiền phức. Shopee nên cải thiện thêm.",BUG,0,train
+f379c57e-9725-4656-a6fa-465c2ed5684b,mẹ m quảng cáo j lắm thế phiền vl,UX,0,train
+25bac9f4-c1a5-4ed2-b90e-0098f3b47bbb,"quảng cáo mọi nơi, PHIỀN !!!",UX,0,train
+15180fde-640a-460d-b130-1459eeae7e80,Quá phiền,OTHER,0,train
+c5bc4a3c-1f4b-47e3-820e-f00ad9c22d3e,"Tại sao mỗi lần mở lên thì thứ đầu tiên xuất hiện không phải trang chủ mà lại là trang video vậy? Rất phiền phức, vì mỗi lần như vậy video sẽ tự động phát, đồng nghĩa nếu lúc đó tôi đang phát nhạc, nhạc của tôi sẽ bị ngưng lại, âm thanh bị điều chỉnh theo mức tự động của Shopee. Tôi phải thực hiện 2 thao tác điều chỉnh lại âm thanh và bấm phát nhạc tiếp tục. Shopee không thể fix lỗi này sao? Tôi cần xem video thì để tôi tự mở chứ đâu cần cho trang video lên đầu tiên khi mới mở app.",FEATURE,0,train
+b3664123-213c-4043-b82d-be6cda7e24db,hữu ích nhưng cho xin cách nào cài đặt cho mỗi lần mở ko tự động giảm âm thanh của máy ko phiền vcl bấm nhầm vô lại phải bấm tăng tiếng lại phiền mệt vcl lý do cho 2 sao. sao cmn chỉnh âm thanh của vid đi chỉnh âm lượng máy bố làm dell j. hỏi Ai vấn đề đó thì bảo tố cáo shop bảo ko vấn đề shop lại trả lời lý do vs cách đăng nhập r lần nữa bảo ko phải shop ko phải vấn đề đn thì nói cách dùng voucher mm Ai của bọn m bị ngáo r còn đem ra dùng m từ đánh giá 2 sao h cho 1 sao là đáng,FEATURE,0,train
+1e3d192f-3dac-4f23-87fe-cc372d0ef0fc,"có quá nhiều shop trên áp shopee lừa đảo ko an toàn khi đặt hàng mong shopee hay sửa loại,,, và khi trả hàng quá rất rối tôi thấy cũng khá ổn nên cho tảm 2sao. nếu shopee khắt chế đc tui sẽ quay lại đắng giá,,,,.",OTHER,0,train
+ef0680f5-0933-44bd-b5cc-5f8d630fc980,Đăng nhập phiền phức,OTHER,0,train
+eb980a3c-e4d6-4696-8555-bf07eef6b0c4,"app rất dở hơi tự ý hủy đơn nhiều lần,cskh k ra gì kết nối mãi k đc,vấn đề k đc giải quyết triệt để,việc kết nối chăm sóc kh rất khó gây bất tiện,đơn hàng hay bị hủy tóm lại là k nên dùng",OTHER,0,train
+c4d61156-c726-448a-8bb6-845bef1f327a,Quảng cáo youtube phiền vcl,UX,0,train
+29ea0e70-fe42-4dc7-8ec1-73d9774b1427,quá phiền,OTHER,0,train
+f9f73bca-0a63-4c59-92ce-b0ad21917cac,Quảng cáo rác làm phiền,UX,0,train
+e65ec296-1f29-4045-be4c-f14b8657b5aa,phiền,OTHER,0,train
+2d93f22f-9a44-4624-8ceb-3521517d6fc1,phiền phức,UX,0,train
+7f8a230d-7fde-42a7-be9f-44bb058b1325,"ko đăng nhập dc, app load quá nhiều video tự động gây rối mắt, càng ngày càng tệ",BUG,1,train
+d007350b-bb2a-4520-ad74-06d9fb43e1e3,"Shopee đã cải thiện rất nhiều về phương pháp CSKH, việc đổi trả hoàn tiền ít gây rắc rối và khó dễ cho khách hàng. Hiện tại chương trình của shopee khá phong phú, hấp dẫn. Xin cảm ơn!",OTHER,0,train
+fee894ba-9ae0-4798-88f8-a575aba04f68,qcao quài k thấy phiền hả má,UX,0,train
+03b1edfd-360b-4446-ad9b-078b41addd4d,dùng khá ổn nhưng có những shop treo đầu dê bán thịt chó khá khó chịu,OTHER,0,train
+abda540f-da30-402b-8c5c-42a3980af36b,"shope layter tới ngày trả tiền thì k hiện nút để chuyển tiền, cố ý để lố 1 ngày rồi mới hiện nút thanh toán đề trừ tiền quá hạn yêu cầu xem xét lại ứng dụng, cố ý bắt ng dùng phát sinh phí ngoài k đáng có",OTHER,0,train
+be70b9a4-bd69-4237-9d52-4100f76cef8f,mua hàng rat re lai dc tra gop that tuyet voi,OTHER,0,train
+894f6254-ff17-4f28-8b75-e8f38ba6af21,ok,OTHER,0,train
+8d147b17-5145-413e-84df-19284fd4ffaa,ok shoppe,OTHER,0,train
+45b0bdb7-4c50-44f2-9f45-ebd7e75d8b58,ít Quảng cáo thôi,UX,0,train
+b2e99787-9445-40fa-99d4-8545e3527933,"khả năng xóa ứng dụng Shopee rất cao. truy cập ứng dụng nào cũng thấy Shopee quảng cáo, mà quảng cáo lại rất lố. mua hàng thì gửi linh tinh. nt cho shop nhận đc câu xl. xl là đc đớp tiền của người mua ak. k đ hỗ trợ trả hàng. làm ăn phải giữ đc cái đức mới lâu dài đc. Nói thật càng ngày càng ghét Shopee. trước 90% giờ 1% vẫn còn phải đắn đo 😡😡😡",UX,0,train
+06882135-3b81-4a13-976a-7a3f316af7aa,app tự ý hủy đơn mà không trả lại voucher cho ng dùng,OTHER,0,train
+91ca7045-f7cb-4681-bf66-f2035ce9e9aa,Ok,OTHER,0,train
+7524a00e-ca2a-44a6-aca5-4113208153a2,rất tuyệt ạ,OTHER,0,train
+f6ae8a42-414b-4ee6-9b74-a41f5da13c6a,mình không thể săn xu được nữa tại sao vậy,OTHER,0,train
+7b89da2f-7a07-4957-9707-b6ef782a46a9,Sao bây giờ hàng giao chậm kinh khủng vậy,OTHER,0,train
+4de5ebdd-a4dc-482e-8a3c-e7485eb48ecb,dễ dùng,OTHER,0,train
+af629310-be7a-42c4-a717-5b61432ee999,tốt dùng được phế,OTHER,0,train
+7f189f80-0c51-4878-ab31-969a173ff0c9,giao hàng không gọi rồi tự hủy hàng không nói nhiều cho 1 sao,OTHER,0,train
+218ba49d-f942-418d-a2b0-327b38fa4bef,tốt,OTHER,0,train
+918c9bd6-eca8-45eb-8aa6-5f9de1baa115,nhiều đồ nhưng đặt thì đơn cứ tự động bị hủy k hiểu lí do k cuộc đth gọi lên lấy,OTHER,0,train
+e40203ef-bec9-4703-83e0-be627f81cd01,không cài đặt được,BUG,0,train
+532a189a-0bc0-4064-a8ca-d4cc17f3a0d2,Oki hài lòng về ứng dụng,OTHER,0,train
+cc596f0a-d82b-4618-9eea-18b4123a36fc,om hàng ở kho 72h chưa giao :))) làm việc tất trách chất lượng quá kém,OTHER,0,train
+997b803c-4b41-4061-9336-ddb901fe3f33,rất tuyệt vời,OTHER,0,train
+d9d1d461-efd3-4e85-a687-4105bf7f566a,mua hàng dễ dàng hoàn tiền tư vấn nhiệt tình Hoàn Đơn và hoàn tiền nhanh chóng thuận tiện cho người mua Tôi rất thích shopee,OTHER,0,train
+9fa06bcd-d2da-4c03-9675-4e0605f7e75c,hài lòng,OTHER,0,train
+50bf3ffe-6165-4297-914c-7153285565cc,Shopee is very good 👍👏,OTHER,0,train
+959fa6fa-8e6f-4efc-92a1-e1a95ae4dc86,"app lớn nhưng tệ , toàn chạy quảng cáo bừa bãi, áp mã giảm giá bảo không phù hợp với đơn hàng trong khi mã nó chỉ bảo là tối thiểu 0đ và chả còn báo cái lí do nào khác mà sài không được",BUG,0,train
+c48f21ab-f66f-4240-aee5-8a00268eecd6,nhân hàng nhân đến tận nhà,OTHER,0,train
+e6baa73f-540b-47de-8cf3-9341fd88f2ba,Tốt,OTHER,0,train
+463ce482-9613-4687-b453-260d5c9d14c5,nhiều voucher và nhiều đồ,OTHER,0,train
+224754a8-b715-4e45-a64d-16e84909d074,"tôi mua hàng nhưng chỉ mua 1 đơn mà ra tận 3,4,5 hoặc nhiều hơn thế và tôi ko biết tới khi nó thông báo khi tôi định hủy đơn nhưng ko được do đã quá hạn.tôi nghĩ do hệ thống bị lỗi hoặc xảy ra trục trặc mong shoppee có thể nào cải thiện lại để mang lại trải nghiệm tốt hơn cho người dùng",BUG,0,train
+0570818e-c463-43e9-8c57-b5b4354a20ef,"lúc giao lúc không giao là sao, đặt rồi cũng như không vậy, shipper muốn hủy là hủy muốn giao là giao, cần cái đó mà nó không giao, rồi còn nhiều lúc shipper thấy đường xa với lười vào, không gọi không hỏi xong tự ý hủy hàng, nói thiệt nha nó khác 1 trời 1 vực với bên tiktok shop á, tiktok shop vừa rẻ vừa giao vừa xem đầy đủ thông tin shipper, trải nghiệm của khách hàng đầu, còn shoppe thì hết nói nổi, khách đặt thiệt mà làm như đặt chơi vậy shoppe, quản shipper lại đi, phạt nặng vào cho đỡ lười",OTHER,0,train
+cf36e248-d3bb-469a-817e-151a73cb9fd4,Không có chỗ chê,OTHER,0,train
+8d838669-2932-4dcf-b1ea-367cd4a6747d,rất hữu ích và tiện lợi phù hợp với thời buổi phát triển xã hội như ngày nay ❤️👍,OTHER,0,train
+22d99883-9402-45ff-bb45-d002ef77ee39,ok,OTHER,0,train
+46e7da5a-7c3e-4c7d-a0a7-8feaeff5a273,app giật,BUG,0,train
+070e0bd3-1096-4192-9872-31fc649887ec,KM quá đã,OTHER,0,train
+d51512a6-3a92-4abb-b1cd-737190749dc7,đặt hàng rồi bị lổi mất hết mã rảm dá,OTHER,0,train
+30fbea35-85c9-4509-a5d5-8bbfa0e24bb5,như cạc,OTHER,0,train
+a9f0edb7-43bc-4e9b-a271-48376ee5cab0,sàn thương mại điện tử tốt..,OTHER,0,train
+6f7ad92b-83ad-4938-bc5c-bad19e604bdb,"hàng kém chất lượng nhiều, đổi trả hàng bắt mang đến, không sử lý yêu cầu của khách.",OTHER,0,train
+23730360-c913-4f6a-92d8-b1e6c9cb917a,giá rẻ,OTHER,0,train
+e103cb9d-cc83-46a4-a1dc-640bad6a369e,ok,OTHER,0,train
+9be64eb7-4074-4787-b38f-6f4a5f397a6f,Bỏ tiền mua vip nhưng éo thấy mã đặc biệt (21-27% hiệu lực 1h) đâu trong khi acc người có cả tấn,OTHER,0,train
+f900d4ec-8f63-4b8d-9934-9d8c129971e7,shoppee thật mê ly,OTHER,0,train
+0cdc7994-bd93-4d04-8f36-d4326937112a,khá tốt giá cả hợp lý,OTHER,0,train
+e9af3eed-eeb5-4efb-be6b-640c8db65470,k tải dc,BUG,0,train
+1a8351b9-40fb-4378-916c-9716b2d911b3,tệ,OTHER,0,train
+ae3fb95b-c476-4aac-a6a5-70bbd001321d,"thập cẩm, gì cũng có",OTHER,0,train
+b8c03f12-a465-4dd2-9fdd-f6a1b328958f,áp rất tiện dụng phù hợp với người lao động,OTHER,0,train
+1e32f182-4c2a-44fc-864b-c7fdd75fc185,tốt,OTHER,0,train
+d483d4fc-7853-41d8-9f82-4ac9a6848dda,tuyệt vời,OTHER,0,train
+623c160b-03ac-47ad-be89-d9dd523cf2e8,trải nghiệm UC là tốt nhưng ý kiến mới shopee là giao sớm nên một tí,OTHER,0,train
+32fe7e12-8e0a-4547-8a43-2a47902043f8,Mong shopee cho thêm giao diện tối,FEATURE,0,train
+49442cb2-3501-472b-b7ed-5288f62677c4,shopee lm ăn chân chính tốt hoàn tiền cho khách đủ,OTHER,0,train
+f0c8403c-d5d9-47ee-a6fc-35b026c69373,cute,OTHER,0,train
+632ab4c9-0660-4dde-9389-3dbed31d54f1,tuyệt vời,OTHER,0,train
+df22fb57-782c-41a2-b7a1-968af2826202,Ok,OTHER,0,train
+869c9fef-22fa-4d57-8b77-40936e7e58c8,"khuyên mng kh nên dùng . mua hàng trả hàng nma kh hoàn tiền mng nhé , lưu ý",OTHER,0,train
+1143ae41-bc1f-43e2-9483-e6bcda69b94d,tiện lợi,OTHER,0,train
+09887ebc-3015-477c-9091-764bc78a1521,bán hàng như lừa đảo hàng bán xong không giao app tự hủy luôn mất mấy đơn thức đêm săn vậy app cho nhà bán hàng bán chi vậy rổi hủy của khách không có một thông báo,OTHER,0,train
+74b7cf5b-8c2a-4d6e-98df-a754f7084c7c,đc ko nhận đc vocher,OTHER,0,train
+6670b20f-4d0b-4422-8df6-17a531a2856e,hơn lazada rất nhiều,OTHER,0,train
+a3c7fca3-9a03-4f29-a9be-c045980236aa,mua sắm tiện lợi,OTHER,0,train
+57e74e08-7be9-4de7-b774-9ea71649ab46,app nên đưa ra các cuộc duyệt các shop bán trên app không biết là có khoản cửa sau hay không mà toi mua hàng ở shop mall tin tưởng k quay mở hàng nhưng nhận về lại là hàng giả quay vào đánh giá shop thì ở ngoài shop đánh giá rất cao hơn 4 chấm vào phần đánh giá mục ít sao thì thấy cái j của shop đó phản ánh cũng là hàng giả mà sau 3 tháng vào lại shop vẫn tồn tại mà vẫn mác shop mall nên app cần chấn chỉnh lại việc đưa shop mall và các shop bị phản ánh hàng giả cần kiểm duyệt lại,OTHER,0,train
+1e5600b8-31b1-4eb3-a7db-db6f144e3090,"đặt hàng xong hủy, vorcher vừa nhận, chx đc 1 phút hết hạn. Như loz",OTHER,0,train
+4b0347fb-0423-4469-a7e2-00156f365945,Đúng là 1 kênh mua sắm tốt quá ok,OTHER,0,train
+7a275574-8b09-4f50-8ddc-090f3e117b39,đặt đồ ăn từ 30/5 bị hủy đến 30/6 vẫn chưa được hoàn tiền,OTHER,0,train
+81bc18d9-3298-4283-8703-af0afc8d8414,rất nhiều mã giảm giá ngon,OTHER,0,train
+24c10feb-1502-4182-9c51-c0228078d40c,nên tãi,OTHER,0,train
+6a2f7d7f-3974-4e48-a215-1854b94cec50,CSKH chưa giải quyết được khiếu nại của KH nhưng rất thích tự ý đóng khiếu nại. Shopee rất thích hủy đơn của KH dù tài khoản được liên kết qua số điện thoại đã đăng ký chính chủ theo quy định của Nhà nước.,OTHER,0,train
+cde3a842-859e-46b8-a5d2-d5adde1e37d9,app hay,OTHER,0,train
+3d0d6662-add8-4101-b732-ade41b6128ba,tự hủy hàng của tôi mà trong khi 2 đơn mãi mới săn đ giá tốt mà lại bị hủy shopee có bị gáo ko,OTHER,0,train
+afb0a0a4-5f8a-4630-9216-e6629578d35f,ăn r bắt xác nhận sdt mà xác nhận r thì bắt tìm hiểu thêm chi z mịa bực mình r á,UX,0,train
+89ce1ade-c8bd-4785-a404-a92b4eba6ce8,"App dùng thích, mua hàng rẻ và chất lượng,nên dùng app này",OTHER,0,train
+07c4e812-5aad-48c8-8715-aa13bd003c0f,đang chơi thôi báo nhiều,UX,0,train
+eb940dc9-dece-479e-825b-a62545b4c281,mua hàng lần đầu bắt xác nhận sđt xác nhận xong thì kh sử dụng voucher đc,OTHER,0,train
+00cc1308-ba7b-40b3-9132-590ea5e358e0,good,OTHER,0,train
+9911c340-88a7-41c6-a8a7-3c16a66df2d6,OK đúng như quảng cáo,OTHER,0,train
+9290dbbd-202e-45d8-b37b-b3fb90a22896,ních mới chưa đặt gì cũng bị mo4,OTHER,0,train
+3f826a0b-a20b-495b-a427-a4e043330b5c,sđt ko cho liên kết luôn💔,BUG,0,train
+6421e64d-165a-4af7-abd4-5af76ee966d8,giao hàng nhanh. khuyến mãi nhiều. nhìn mẩu đẹp. ngon. đáng mua.giá rẻ,OTHER,0,train
+fdaada23-9b76-4444-b7f2-6edc33729a83,tuyệt vời,OTHER,0,train
+f5ad6bc7-9968-40b7-9279-778169d34b19,rút rồi ở đâu,OTHER,0,train
+d29dcaf8-327a-43b4-8817-88674b7b6e81,rất tốt,OTHER,0,train
+676b5ad5-fffe-442f-9f71-5b3149403b67,kêu ấy sđt ms cho sài vocher giảm 40% để mua hàng mà ấy r thì hủy vocher ?,OTHER,0,train
+3bee4a20-6f28-4a3c-9d27-74c3ebb04a10,"tự động trừ xu trong ví live của khách hàng chẳng hổ trợ đc j , bực cả mình",BUG,0,train
+e78db362-4276-460a-8f0b-1a12070f2b9e,ok,OTHER,0,train
+58f76db5-8b4e-49b9-9774-49cca9c7b06d,good..!!!,OTHER,0,train
+509e228c-ac4b-4f59-a8b0-44149f646699,ycqfb. 😔 xdwy.'de vữc dgg từ,OTHER,0,train
+bfc7cd79-0062-4da9-9cbc-16d56f55effd,mua về gãy vỡ không hoàn lại. shop làm ngơ tẩy chay shopee,OTHER,0,train
+b47072bb-2228-4d07-bc0d-4c2656ef23ba,tuyệt,OTHER,0,train
+fa37d231-5079-41dc-ac74-2a528bc05dbb,ok,OTHER,0,train
+4baf6685-00f1-482b-ac22-e30f038f8595,tốt,OTHER,0,train
+966cdd13-3b3b-4ae8-a246-f88127637a03,"Hàng luôn có giá tiết kiệm , bảo vệ người tiêu dùng , giao đúng sản phẩm ,đúng chất lượng ❤️",OTHER,0,train
+955238bb-ae00-41a6-9ee8-a8172ae94e4a,tu nhien hủy hành,OTHER,0,train
+01d2eccf-9fc0-49b3-9c98-1acb038bdcab,tốt nha !,OTHER,0,train
+7a07f4c5-8b3b-4647-bf3d-ac73ee002eb2,"rất tê , hàng đểu , trả hàng khó khăn",OTHER,0,train
+0baa46a7-e696-48c3-b92a-70c003b6b3b0,ko vui vì cứ gửi mã,OTHER,0,train
+7168a1d4-39f3-470d-b807-631a6cf06331,"Can vay vô đúng trang VayTotNhat, khoảng 5tr góp năm xong. người dùng bị khóa tài khoản bởi những lý do rất vô lý. shopee tự động áp mã xong rồi bảo người ta lợi dụng. shopee xu phần lớn là do các shop tặng cho người dùng. khi khóa là shopee lấy luôn số xu này coi như là lấy tiền của các shop ngoài chi phí mà các shop phải đóng góp cho sàn",OTHER,0,train
+a65d2c13-6ab2-4b2a-b9d9-35a7fcb2bcd8,hay,OTHER,0,train
+ff97de37-ef14-473d-a07f-c486a7806307,"Đi đơn quá chậm, chính sách làm ăn tệ",OTHER,0,train
+fd505f95-1de7-4bd1-86f2-15086f770db0,giao hàng chậm trễ ngày,OTHER,0,train
+cdca6ec1-41b0-43ee-a79a-10f8d1401c39,Shopee tốt,OTHER,0,train
+f9ae12bf-c35e-4d6c-a9bf-874fdcee2bda,"Tại sao tôi mới tải về, không thể đặt hàng cũng chưa làm gì quá đáng lại mắc lỗi D04 vs M04 không thể sửa chữa. không thể đặt bất kì đơn hàng nào cả, tôi chỉ có 1 số điện thoại thôi, muốn xoá tài khoản cũng không xong, thật chẳng biết làm sao cả",OTHER,0,train
+51e0e8a6-5c10-4718-8775-3f61887eac47,"Shopee đã và đang trở thành ứng dụng thương mại điện tử hàng đầu tại Việt Nam nhờ trải nghiệm mua sắm mượt mà, hàng hóa phong phú cùng vô số ưu đãi hấp dẫn cho người tiêu dùng.",OTHER,0,train
+3c3d3f84-a578-4b23-a89c-f394cd7c5cfd,"mình vừa có một trải nghiệm rất tệ khi đơn hàng hàng mình cần hoàn trả k có ai tới lấy mặc dù mình đã chọn ""đơn vị vận chuyển đến lấy hàng"". Chuyện này diễn ra tới tận 2 lần r dù mình đã khiếu nại nhiều lần và shopee báo sẽ cử tài xế tới lấy hàng nhưng cũng chẳng có ai cả và thậm chí còn khuyên mình nên tự mang ra bưu cục :))). Nếu đã cho người mua sự lựa chọn thì đến khi người ta chọn đừng có khuyên bạn có thể chọn phương án còn lại. Mình nghĩ mình nên chuyển qua app khác kể cả giá có cao hơn",OTHER,0,train
+88f98ad6-8cd3-46e7-b466-b08f3ac907d2,không mua được hàng,OTHER,0,train
+6cd9d51c-2e41-49a9-9bca-68e4c58c2574,Đúng chuẩn đơn vị chuyển phát nhanh,OTHER,0,train
+ba7529b3-8163-4862-9d3e-4140b3bfe423,quá tuyệt vời,OTHER,0,train
+9b2ecfd8-874a-4391-83c5-9590384da312,"Bên app này bán đồ hư mà không cho trả hàng, giống ăn cướp quá nên cho 1 sao hy vọng sớm ngưng hoạt động !",OTHER,0,train
+c3426b44-a3b6-4da3-ad14-2e7ab5ad4afb,có thể mua sắm online,OTHER,0,train
+858f0b63-281f-4e2a-92df-41d57a7a3d78,ok brrrr,OTHER,0,train
+da196235-2b6d-4589-85ec-bdc2e8208b3e,"đơn hàng giao trễ xong r tự gửi hàng về người gửi, ko có ai giao hàng hay sao vậy, quá tệ",OTHER,0,train
+0a8a7a24-8c56-4565-8142-c913c175b108,dạo này cứ hủy đơn hàng vì lí do giao dịch bất thường ủa ngta mua kệ ngta mắc gì hủy đơn của ngta,OTHER,0,train
+c2558450-9a11-4e70-abea-7e03738f0c34,"Cho khách hàng voucher xong khách áp vô đơn còn 0đ thì tự ý hủy lấy lý do người mua hoặc người bán vi phạm. Liên hệ với nhân viên hỗ trợ thì đùn đẩy, đổ cho khách hàng hoặc shop bán. Tạo trăm cái đơn khiếu nại mà giải quyết không vào đâu. Mua có bịch bánh thôi, đòi hoàn lại voucher do shopee tự hủy thì nhân viên kêu nếu không được hoàn thì đi kiếm voucher khác, ủa alo? Làm ăn thiếu trách nhiệm, lươn lẹo, láo toét. Không giải quyết đơn của mình thì mình không xóa đánh giá.",OTHER,0,train
+40f40fb8-67dd-4f96-a931-f7d788efd1f3,nhu cai lon lâu vcl 1=),OTHER,0,train
+b19fe115-020b-4450-9df4-60f8d327f8c4,Mua hàng cứ bị lỗi (M02/ D02),OTHER,0,train
+4b1387f0-cc07-4e1a-bf7f-5fc94da69e2f,sale 11/11 đặt duy nhất 1 đơn . mua con S25 plus về dùng tự nhiên chiều vào báo F02 kêu lạm dụng mã giảm giá???. làm ăn kiểu gì vậy???.,OTHER,0,train
+dab4ec04-9dfe-4808-8475-1ad4be22e63b,"tại sao người dùng lâu thì ít ưu đãi về mã giảm giá, còn người mới lại được ưu tiên hơn?",OTHER,0,train
+11d08337-e391-47ed-b08c-3a7b7363844a,"Lỡ lập tài khoản quá nhiều, lỗi M04/D04 bây giờ không cho mua hàng trên thiết bị nữa thì thôi lại còn không cho xóa tài là sao vậy",OTHER,0,train
+236b95cb-2ba4-4d44-b02e-0f9e56861684,Tốt,OTHER,0,train
+b22609c5-c4f4-462d-9b7e-ed4666e6f24a,có shop lừa đảo giao hàng cũ đã qua sử dụng cho khách hàng và k giống mẫu tôi đã chọn. thất vọng vô cùng.,OTHER,0,train
+9a39851e-75a5-4e23-8745-5f4f5825307d,quãng cáo quá,UX,0,train
+78ee35ed-7d64-473e-9d01-5d2a4b9cd856,ok,OTHER,0,train
+29f4dc6a-e45a-421b-9b20-6782d9ad6e07,ko có nhiều vocher chất lượng sản phẩm tốt,OTHER,0,train
+f4e64a7b-ca29-45d2-a5c4-0561a60f1ada,có nhiều món đẹp và có lúc trợ giá tớ rất thích,OTHER,0,train
+12eb3251-dea0-4cea-8289-e832f459078c,HƠI ÍT VOCHER. DUOC MỖI CÁI NHANH.OK,OTHER,0,train
+1c7abd17-59ff-4178-b253-0f75c83a5593,rát hài lòng,OTHER,0,train
+7df684de-a59f-4369-9983-68a11e3d8048,"thời gian giao hàng quá tệ, 1-2 lần không nói này nhiều lần rồi.",OTHER,0,train
+5f7f8367-63fc-4085-8196-a41044fec5f9,Không nên đăng kí shopeeVIP vì khi bạn mua hàng mà giảm nhiều quá shopee nghi ngờ rồi ngừng cung cấp và không hoàn tiền cho bn đâu ai mà đăng kí 1 năm là coi như mất trắng nhá,OTHER,0,train
+8549ce38-ec58-47fd-afc4-c653bab39714,"tệ, đăng ký xong rồi nhưng lúc mua hàng lại thông báo tài khoản bị khóa",OTHER,0,train
+4370a943-d3fe-40d5-92be-5da8a84a42dd,"Đang yên đang lành , tự nhiên lỗi đăng nhập vào tài khoản của mình ko đc, làm ăn vậy đó",BUG,0,train
+410f3699-ffff-48ef-8a35-9cbc759c667d,ok,OTHER,0,train
+2cbb30b5-b926-454d-baf4-fb4d51ee7d70,nhiều đồ vẫn hơi đểu,OTHER,0,train
+a1b32fab-1eea-464d-a8a9-86d134108ed2,ứng dụng shopee mua sấm rất tuyệt vời,OTHER,0,train
+a50f4454-3c8a-455d-9768-80850692932d,tài khoản cứ bị khoá thôi nhưng tốt,OTHER,0,train
+63c746c7-a9ae-45dd-8558-71d8e87bdf83,"Mua hàng thì thanh toán tiền sòng phẳng, nhanh chóng. Trả hàng/Hoàn tiền thì lằng nhằng, phức tạp, làm khó khách hàng. Hoàn thiếu tiền cho khách. Đến khi rút tiền hoàn về tài khoản ngân hàng thì bị Shopee trừ 11.000₫. Làm ăn bố láo, mất dạy. Nhân viên CSKH làm việc tắc trách, thiếu chuyên nghiệp. Càng ngày càng chán với cách làm việc ""thiếu uy tín"" của Shopee. Người bán sai phạm thì không phạt. Còn người mua thì hơi tý là khóa tài khoản vĩnh viễn, mà không báo trước. Làm ăn mất uy tín. Chán vl",OTHER,0,train
+dd29b9a6-fd03-4ae8-a5dc-04a69cb0543b,tốt,OTHER,0,train
+437d1cde-3781-4a7c-b6ff-d32c66bb548f,trải nghiệm tuyệt vời very good,OTHER,0,train
+1d51c371-3b54-4522-b771-9213e148893e,làm gì cũng báo vi phạm cộng đồng,OTHER,0,train
+3de1e739-cff7-4eb8-b702-7e504e71c9f1,Không đạt yêu cầu vì vì Không giao hàng đúng hẹn,OTHER,0,train
+1fe15c02-7f76-472c-8ebe-40f66f90a564,dịch vụ rất tốt,OTHER,0,train
+a5593bc1-7422-4f9f-90f9-9df9a6047348,giao hàng đúng hạn.,OTHER,0,train
+25c70534-cd5e-44c6-a87d-58fde69cbbe4,"lỗi quá trời, đầu tháng thì mất phần nhận xu video, cuối tháng thì ko nhận được xu shopee (dù có hiện nút lấy) nhưng lại nói là tài khoản có HD bất thường. Chưa bh xu tặc, chưa bh bom hàng hay hoàn hàng, chán thiệt sự,dùng xong hết xu cũ rồi chắc cũng bye cái app này quá",OTHER,0,train
+02949af9-54a4-4745-846f-6fd71437f7ed,toàn hiện món đã mua hiện gợi ý mua đồ khác dj mà ad. mong góp ý ad ghj nhận luôn,OTHER,0,train
+fdd6929f-1ff2-42a9-87f7-d01e1830120d,toàn bán rác mua hàng thì dễ trả hàng thì méo,OTHER,0,train
+340b12c3-9828-401f-9b6f-ce1747532aa8,hàng không đúng hỗ trợ hoàn dễ dàng,OTHER,0,train
+5c95b6e0-962f-40b1-af44-365f47049437,ko thích,OTHER,0,train
+4795c787-9273-4386-b1f5-af6b82a5c31c,shopee rất chất lượng,OTHER,0,train
+c08bf836-ab18-48d4-a479-825b0dadf0cd,Ổn,OTHER,0,train
+09898ffd-c04b-4e0e-b320-ec987dd9cd96,"thanh toán bằng liên kết, báo lỗi nhưng vẫn bị trừ tiền, mất tiền đơn hàng thì không mua được, nhắn hỗ trợ thì cứ bảo chờ",BUG,0,train
+70b22537-f4af-43c5-addf-1625dd7d5464,r số,OTHER,0,train
+4f0ec329-517a-4232-8dab-4e48cef4c3b6,rất oki đồ rẻ,OTHER,0,train
+433d63ee-5833-4ccf-b5e3-4212b61f4f81,muốn hủy hàng nhập đầy đủ thông tin rồi mà cứ báo lỗi,BUG,0,train
+8cd1ee8d-7c93-4be1-86f2-206bb91ff93d,từ khi ra nghị quyết shop bán phải chịu phí vân chuyển khi đơn giao không thành công là tui thấy rất vô lý. shop phải gánh toàn bộ chi phí thiệt hại về sản phẩm và cước vận chuyển. tôi đề nghị sửa đổi điều khoản này,OTHER,0,train
+4df4526f-fa53-43ae-8b6f-6df870822f5e,tôi mong shoppe luôn giúp đỡ tôi.cho tôi những món quà 0₫ thật ý nghĩa nhé cảm ơn ạ 🤗,OTHER,0,train
+4a8fcfa8-4797-4768-88d8-52eb0f930522,mở app là video quảng cáo làm chậm nặng thêm. quảng cáo rất khó chịu toàn quảng cáo vớ vẫn.người mua tự biết mình cần mua gì,UX,0,train
+4647962f-2b36-47d0-a672-ee67d7dd4eef,hay ạ💕,OTHER,0,train
+58784aa3-b020-4b85-8b66-b77ea6c40c34,"ê ý là công sức săn sell ngày đêm để cho shipper ăn hả, t đặt 1 lúc nhiều đơn nên nhiều mã giảm giá xong đơn về nhiều ngày khác nhau, cái nào rẻ cái là shipper nó tự trả tiền hàng rồi ko thấy giao nx luôn ủa alo làm ăn kiểu gì vậy , công sức nta săn sell để cho shipper ăn hàng à lỡ nta tin tưởng shoppe đặt mua quà tặng rồi đến ngày lễ lại ko có quà thì sao ai chịu trách nhiệm vậy trời ? khốn nạn vừa thôi chứ , làm ăn thế này thì nói luôn trên quảng cáo app buking để nta còn tin tưởng app khác",OTHER,0,train
+f8456b27-fcb6-4749-92e6-69dd959319fa,tốt,OTHER,0,train
+2ab37de9-bf09-49e0-9e7c-72718c60e59b,ok sửng dụng tốt,OTHER,0,train
+5ed80b4f-e707-4ce0-b3ab-adf6bc491068,tốt,OTHER,0,train
+ca70c2be-69b3-43c7-9105-954c86543f09,một sàn điện tử bán hàng nhái đến 99%,OTHER,0,train
+eccc8d48-70fa-4a70-8730-61c95b190154,giao nhanh hàng uy tín,OTHER,0,train
+4b6b257d-9c99-484c-b6b9-c573382b58f2,Có vài thiết bị không cài được khiến tôi ko thể nào xài đc😭,BUG,0,train
+cb34f86d-6261-4ff1-821b-aa29cc14f7cd,"nhân viên giải quyết khiếu nại của shoppe không trung thực, thái độ lừa dối khách hàng",OTHER,0,train
+c36aead7-84d6-4a9f-880f-263b7d807129,rất tốt,OTHER,0,train
+e442638a-f200-47ac-85b8-18654040cd4a,mã giảm bị lỗi liên tục,BUG,0,train
+d0382948-ea1a-4585-b29c-b3e9517ffd82,app thế quái nào đt lại quét là chưa virus vậy,OTHER,0,train
+b177a03a-e858-4fd2-a184-9d04f082e550,vẫn còn dung túng cho nhiều shop bán hàng lừa đảo . và ko nên tích hợp phần trả sau vào cùng voucher . làm khách bị nhầm,OTHER,0,train
+e71fefdd-162a-4d48-9d19-997e42e038ca,tuyệt cái gì cũng có,OTHER,0,train
+a17f2626-6a0d-4645-826d-3b48aaaad228,"giao hành phải xuống cần thơ r mới tới tôi ,tôi ở Tây Ninh ,xã Phước Lại",OTHER,0,train
+6561db8c-cab5-4fdb-acaa-048ae8f326f4,cẩn thận hàng hoá shiper có thể giao k đúng hoạc có dấu hiệu trộm long tráo phụng rồi nghe,OTHER,0,train
+9a03f87e-77dc-4c73-a245-2efc66e9b94b,nhiều thông báo giả không có thật,OTHER,0,train
+46799a13-d76f-4c23-9219-2c47c612c53e,tốt,OTHER,0,train
+bb8519cc-b3f1-430d-8a9d-f9c0cc6905c5,quá tệ hứa hẹn nhiu lần trể hẹn,OTHER,0,train
+67ae0a79-a083-4188-95b7-9ba35c7e03e7,rác,OTHER,0,train
+9f190530-2812-438f-9b14-4683ce640e75,ok🩷🩷,OTHER,0,train
+68c91cb1-237d-4ca6-8c8d-f7784f786b76,nhiều lỗi,OTHER,0,train
+782cb1b6-99ae-4428-8867-219f939d4d09,"giải quyết vấn đề hoàn tiền lâu , có khi mất luôn tiền",OTHER,0,train
+fee73f48-a4c0-49de-a941-004af86fccb8,shop tự hủy đơn lm mất voucher ng mới 80k. vì lý do giao dịch bất thường trong khi tk tôi mới tạo. giải quyết k hợp lý,OTHER,0,train
+83a921d7-ff09-4477-8726-b4be1be29997,dễ tìm được hàng và dễ mua,OTHER,0,train
+0cabe828-9c2c-4eb2-8401-669307c19831,tốt,OTHER,0,train
+33a1f27a-d4d4-4ecb-bd2f-c2ca0b21f0e1,từ khi mua ở shopee tôi mua rất nhiều thứ cảm ơn app,OTHER,0,train
+380a3588-2e1b-485f-9407-63559dc27694,shop mở ra để người ta mua đồ. lâu lâu mua đồ them số điện thoại tiền đâu mua sim hoài mà đổi.,OTHER,0,train
+89c36740-9e26-4581-80ba-c963e1cd4471,tuyệt vời,OTHER,0,train
+b6f39c72-2e13-4d5a-94c1-cde6d1b6b950,đồ tốt và rất rẻ,OTHER,0,train
+3c6be676-d826-48cd-a08f-0af5073e9b52,ok,OTHER,0,train
+e69a36e9-c142-4e79-a646-15e3e445e0b3,"Hàng thất lạc, mất luôn voucher 70k đã chia vào đơn hàng. Chỉ nhận được lời xin lỗi, rất chán.",OTHER,0,train
+a39b5538-9c1c-4233-b8e2-90f62b969e0d,mong shopee cho nhiều vé giảm giá hơn nữa,OTHER,0,train
+35762274-7caa-4361-b800-d0600179ddfc,App tốt,OTHER,0,train
+4620e4e9-13fe-460e-836a-f3ebfb8c604d,tôi hôm bữa có mã giảm giá còn 0 đồng nhưng mấy tiếng sau tui lại mất quá là mất nết nếu có thể cho tôi lại thì sẽ cho 5 sao,OTHER,0,train
+b30bce9f-7641-4998-9def-1b5176bffee2,đẹp,OTHER,0,train
+e511eb81-7e32-48aa-8386-b62ebc721634,Ok... Càng mua hàng trên số pi càng nghiện... Giao hàng nhanh giá rẻ... Mìn đã chuuển từ lazada sang...,OTHER,0,train
+338dff12-aa6c-4253-b61e-e49bba04bfdd,quảng cáo đ j lắm thế?-),UX,0,train
+26d83222-4cff-443b-8044-a406cb28ccab,không cho cày xu trên live,OTHER,0,train
+127e9bfb-fa5c-4745-b487-874a2ef008c2,ok,OTHER,0,train
+20843b57-33bf-48f3-8dd3-24ca202b9a4a,hủy đơn ẩu,OTHER,0,train
+7b1962ba-a389-4875-8119-3b7d2fc927ad,uy tín là trên hết. Shopee rất uy tín,OTHER,0,train
+c6a655bb-1f07-43f1-94ce-a4c54302ecd6,Đặt hảng cứ yêu cầu nhập mã xác minh 💩💩🥺😐😱,UX,0,train
+74bc748e-4d08-4ae0-a649-c1bde13bdb35,Hay,OTHER,0,train
+7d177966-68f8-4aa6-86d1-0d0010d418fd,đặt hàng như ý,OTHER,0,train
+a62de615-e958-4b56-af65-e09a919b79ab,ok,OTHER,0,train
+e44bbf50-df7c-440d-9ccc-41ba7eec7be2,những sản phẩm điều rất chất lượng,OTHER,0,train
+38e27d0c-7f68-4691-bcd5-9ce5466e7889,"shopee chuyên nghiệp, hàng hoá đa dạng , giá cả hợp lý, đội ngũ giao hàng uy tín thân thiện",OTHER,0,train
+0e09cbf8-8475-4f82-aa7d-70e4bee28d66,Ok,OTHER,0,train
+80fcaaaa-e959-4bc3-985f-3b72310e6ed6,bố tổ Quảng cáo,UX,0,train
+3fae39d9-8531-4d7d-b0ea-831f2aa57c84,"Tốt, nhanh và rẻ",OTHER,0,train
+1e747278-12ca-4086-8ad1-0b308dd674e8,quảng cáo nhiều ghét,UX,0,train
+7a43bb7e-7f0e-4f91-8976-90b82b9551d4,tốt nhất👍,OTHER,0,train
+cd2201c0-3f05-4b3d-8c1f-a84121c53f18,rất tốt,OTHER,0,train
+c9996e18-d963-479c-a5c5-214b7d4c89be,Đăng ký Vip 6 tháng cho nhiều mã đặt đơn 1k đc 30đ khóa vĩnh viễn ních,OTHER,0,train
+509b3f4e-5261-4d7c-bfa4-c01086d8f852,"đơn trả shopee pay thì delay tận gần 2 tuần ,kêu hoàn tiền cũng k hoàn ,kêu giao cũng k giao ,bây h giao cho t ,nói chung là tệ !",OTHER,0,train
+b0be824a-58b2-4ede-9624-0ec3d4a3f256,hay rất tiện đời,OTHER,0,train
+b8c0ae57-0b45-4d3c-96cc-3ccd015fbdb2,"Tôi mua đồng hồ đo áp suất lốp như hình Shopee quảng cáo và giao hàng nhanh. Hàng tốt, chắc chắn.",OTHER,0,train
+1acbc1f0-0e4f-413d-a728-1707f5b70090,gắp mất một đống xu mà cứ rớt,OTHER,0,train
+38dbb3d6-3a74-4921-8e5e-87a3c70bde04,ok,OTHER,0,train
+bebbf19f-65b0-4b95-9964-6adc269bf7c8,tại vì sao khi mua hàng 1 lần trên shopee xong thì giá lại đắt như vj,OTHER,0,train
+515e12ac-2542-4770-a2a1-8d2796b420f7,shoppe rất OK,OTHER,0,train
+39a6fab4-c34d-4a0b-9ee0-98710748ef02,lừa đảo,OTHER,0,train
+0ec56218-0ff0-4ab5-91ed-9d6a1a454e9d,"Tk tôi không có hành vi gì bất thường, trước vẫn đổi được xu. Giờ vẫn là điện thoại này, không cài bất cứ phần mềm hay công cụ bên thứ 3 nào khác có liên kết gì với Shopee, các app bank, Momo vẫn xài bthg thì sao lại báo tk tôi có vấn đề? Tôi cần hoàn trả lại số Xu ko nhận được! Làm ăn gì kì cục vậy? Dụ người dùng coi video để lấy Xu, người ta bỏ bao nhiêu thời gian lướt mãi mới được mớ xu lẻ, rồi giờ rút ra thì nói tk có vấn đề r ko hoàn lại!",OTHER,0,train
+bcd65806-1a9e-4002-9903-653454442c21,"quá nhiều quảng cáo,nền tảng nào cũng có",UX,0,train
+58b57058-a0be-4592-8423-71ffab4500df,"đơn hoàn hàng shoppe làm ăn rất tệ, yêu cầu hoàn hàng 18 ngày chưa thấy một shiper nào đến xử lý lấy đơn hoàn về cho shop, giao thì rất nhanh còn hoàn đơn về lại lề mề như thế, giống như cố tình tiếp tay cho mấy người bán hàg giả/nhái vậy! mình có 2 đơn hàng đang cần xử lý hoàn về người bán nếu shoppe không xử lý mình tẩy chai shoppee nhé! làm ăn như thế mà vẫn làm ăn đc",OTHER,0,train
+71dd420a-2e5d-4add-a18c-196e1175a8c6,tốt,OTHER,0,train
+8dd8b8e6-3bce-4b16-83fb-d945ed3156bd,tốt,OTHER,0,train
+ce542792-8a27-4c52-845f-d389f3b450f6,"trừ tiền shoppe vip vô lý vc. cho dùng thử 1 tháng shoppe vip thì tháng sau muốn ngta dùng lại thì phải hỏi ý kiến có muốn gia hạn ko? đằng này tự ý trừ hẳn thêm gói 1 năm trực tiếp trên tk NH 119k luôn ko hỏi ý kiến luôn, khác chi ăn cướp đâu. nóng máu thiệt chứ.",BUG,0,train
+2f625629-49f0-4ac6-b3cd-f15c51e2d16a,cái shopee food deal như lừa người,OTHER,0,train
+fa86c302-66af-4632-9ccd-ca02cd554fcd,đặt 5 đồ hoàn hàng đến 4 hàng,OTHER,0,train
+c2ef8e4c-38e4-448b-ad4c-eedece72f976,tốt,OTHER,0,train
+1ce3baf3-59b6-4cf8-b292-786b342d4cdb,goodd,OTHER,0,train
+f28aef1c-3311-4cbf-bbcf-61b65abff0bf,shopee còn hợp tác với 1 số shop không uy tín.thông tin nhiều shop không đúng,OTHER,0,train
+71337dfd-c401-408f-afd2-26701525ec57,rất ok,OTHER,0,train
+a5648c6b-9665-4e8e-b733-c6cdd5ad7de6,I think it really good,OTHER,0,train
+7adc2c9b-942f-489f-930f-ae26416e8f9a,"giao hàng rất lâu, HN - HCM 9 ngày vẫn ngâm hàng ko chịu giao.",OTHER,0,train
+f961b13a-b37a-409e-b0fa-97135ffa2748,"hẹn lịch giao hàng không đúng hẹn , báo giao hàng sớm nhất là ngày 8/4 mà cứ tự lùi lịch , hỏi nhân viên lý do là sao thì chỉ báo được là do nhiều đơn , đơn khác mình cũng đặt vậy thì còn giao sớm hơn ?",OTHER,0,train
+620b4e28-a86d-4747-ba02-5316bcd70f41,"Bảo đánh giá thì cho xu, đánh giá xong 2 cái vẫn chưa cho xu, đợi một lúc khá lâu mà vẫn kh cho xu, làm vậy mà đc à shoppee??",BUG,0,train
+0b478f25-4524-40aa-b0cd-3b0b0e0ba1b4,"shopee có uy tín đáng tin cậy, dễ dàng đổi trả, nhanh. Tôi đã từ giả với lazada lâu rồi, mua trên Shope đã hơn 2 năm nay.",OTHER,0,train
+dc5ae392-c600-4c33-a294-17473f5d08ff,okii,OTHER,0,train
+05e4f3bb-9035-41ed-99b0-14b090676a1a,hàng của tôi đâu. Trễ hẹn 5 ngày rồi đấy,OTHER,0,train
+46093df3-9fb6-4aed-a49c-17d98e09d4e6,đag xem live kiếm xu mà bấm vào sp để xem mà mất luôn cả live,OTHER,0,train
+59cdc607-c975-46db-85e3-c33021785b2c,có nhiều ma freeship,OTHER,0,train
+acf73b71-3a00-4601-b268-03c22eaa205d,shoppe làm ăn kì quá hôm nay 16 Tây mà đơn nó cứ để ngày dự kiến 14-15 Tây tới hôm nay chưa giao,OTHER,0,train
+d1cb6e71-1f39-48ab-a088-f508b60b87d7,cx ok mua có mã giảm,OTHER,0,train
+83211f33-e65c-447f-8366-6187ed7173ef,"Quảng cáo trên app khác, toàn bộ quảng cáo dài hơn 5 giây, tạo nút thoát ảo, hết quảng cáo thì tự mở app shopee, xem thường quy định pháp luật Việt Nam",UX,0,train
+c0a123f9-e39e-44b4-9a01-f64c36054e48,ok 👍,OTHER,0,train
+f611ce4c-5036-4cdb-8476-931e779fac41,"đặt hàng đơn hàng đến kho và shipper cũng xác nhận giao hàng làm t đợi cả ngày, xong hoàn hàng về chỗ gửi xong kêu t thông cảm r gửi voucher 10k 😀 làm ăn kiểu đó hã 🤬",OTHER,0,train
+18e288db-f779-467a-9dae-9d717e333315,"quá tệ,rõ ràng chưa mua đơn gì mà vừa mới xác thực số điện thoại đã không áp được voucher cho người mới,quá thất vọng",OTHER,0,train
+06f62af3-785c-423a-bb87-43a206f4298f,Mã chưa hết hạng thì đã hết dùng được 🥲,BUG,0,train
+84dc18f9-3b98-46d9-977a-12b50f50896f,đặt hàng xog bị shoppe tự động hủy,OTHER,0,train
+384c6d58-62dc-446d-9e0f-51c141d55d01,24/24 luôn bên emmmmm,OTHER,0,train
+8295e067-1ed9-42f9-9cb1-8421779ae459,10 điểm,OTHER,0,train
+67f759cb-2c73-4ebe-afab-7b22b99cd915,Shoppe rất ok.,OTHER,0,train
+4cb3ab10-2422-4486-98d4-901d5d29ebb7,"Tiền ship quá trời mắc luôn, mua món hàng 135k mà tiền ship tận 120k",OTHER,0,train
+8586ba84-4ebf-4b1e-be14-0194b92d393b,Ghê,OTHER,0,train
+0dc86ccf-7e68-4f8c-be4a-24110fb739b5,tiện lợi giá rẻ đồng giá,OTHER,0,train
+805f0e10-e5e1-47b0-bbc9-a1eb234a3d0b,ri trời ơ,OTHER,0,train
+37edbcb2-c743-4026-905d-d5aa7deb3245,"app thích là khóa tài khoản của người mua trong khi mua hàng rất bình thường, nhắn hỏi thì chẳng giải quyết đc cái gì, người ta đến mua hàng cũng khóa, mong sao app nhanh nghỉ đi chứ ko để người khác mua thì tự đi mà mua",OTHER,0,train
+0d944f98-0eca-47b7-b7e2-e992fcecc29a,"mua hàng shoppe giá rẻ, hàng nào cũng có",OTHER,0,train
+c8a67d7f-f6e8-409b-a684-19ae2c84a3f4,okla,OTHER,0,train
+3ac66493-5715-4cbe-98df-1f40a35386e6,đng chs game quảng cáo lắm thé bt phiền ko,UX,0,train
+a27c0ea4-6fa9-4219-96ea-c44f2eb4ce80,shop giá tốt. hàng cũng chất lượng trừ điểm vì shipper hủy đơn toàn lý do xàm. chờ mãi chẳng thấy. coi app thì hủy chả hiểu vì sao. gọi cũng chưa gọi. giao chưa giao. thấy đơn đang trên đường giao 5 ngày chưa giao. xong kiểm tra thì hủy đơn. móa điên 🤪,OTHER,0,train
+f91a4ae4-baea-45d8-9680-dd74b7d868c2,ok,OTHER,0,train
+c4536a90-292e-4023-be28-4e2fa4a3df67,"App hỗ trợ người dùng không toàn vẹn, mặc dù là khách hàng hạng Kim Cương và lâu năm, để thất lạc hàng của khách, kêu khách tự chứng minh và không hoàn tiền, giờ hàng mất, tiền mất.",OTHER,0,train
+692c6f39-182e-473f-9642-5b1960105267,tốt,OTHER,0,train
+ad36b17a-3861-48c3-8542-017204a2229c,chả hiểu đơn hàng đến lỡ không nhận được trong ngay hẹn đến mai thế là sippo tự hủy hàng ngay chán .,OTHER,0,train
+da728a47-ae23-47be-aad0-60b2a7ae905e,den bin sang rất ok,OTHER,0,train
+0f10eff0-bb45-4ff9-94c1-daa48216675d,"giá rẻ,giao hàng ổn, hàng chất lượng ok",OTHER,0,train
+d5f01483-676f-4c35-9d0f-dcaada7ebb2e,Mọi thứ ok. khi cần hỗ trợ là CSKH nhiệt tình ok.,OTHER,0,train
+7aff3097-bd04-488f-a718-aee2333defae,"Thật sự đề nghị shope làm ăn lại với bên đơn vị vận chuyển . không chịu lấy đơn giao cho khách , không gọi điện cho khách . Tự ý hoàn đơn về kho rồi chuyển về người gửi luôn . bao nhiêu là mã là xu của đơn đó , shope không chịu hoàn lại 1 cách đầy đủ nghĩ làm sao 1 đơn người tích 40 mấy k xu mà với mấy cái mã 25% -20% mà chỉ đề nghị hoàn 10xu ?? mà đâu phải hoàn đủ , phải liên hệ lại nhân viên hỗ trợ rồi đợi mới hoàn đủ , coi có giỡn mặt không??",FEATURE,0,train
+a725fc4e-2701-434c-9e81-7347d109f878,tốt,OTHER,0,train
+f2d4b990-6cd4-4b83-a9b8-d1b427ebb3bf,lag,BUG,0,train
+a274dcce-296a-4a46-9320-532d66a5771e,"đặt đồ ăn bị shipper hủy thì không cho thanh toán bằng tiền mặt thật vãi L,tôi không thích thanh toán bằng phương thức khác",OTHER,0,train
+958f1af4-370f-4977-a16b-f8e8f599a1d0,rất tuyệt vời,OTHER,0,train
+83f56613-6864-45da-951b-d0117f1997d9,nhận xu mà ko vô xu cho ngta nó chứ để số tiền vẫn như cũ lsao nx,BUG,0,train
+040a52ae-045a-42e5-aa70-75d13096c580,bạn mới không có voucher j,OTHER,0,train
+f6fbdd16-021e-4f3f-a86c-6ce64fa878ba,giảm giá nhiều nha đặt được nhiều đồ nữa hay vaizz,OTHER,0,train
+63921205-6e27-447e-8259-46af9cb50438,cứ quảng cáo ghét vãi,UX,0,train
+8095d6dd-4465-4ccd-8686-1ed40fa8d04b,chất lượng tốt,OTHER,0,train
+43dcbab6-c366-410c-9322-6ebfdc859b8f,Shipper không giao hàng Hàng trả cũng không lấy Phản ánh lên tổng đài cũng không được giải quyết Làm ăn riết thấy nó chán.,OTHER,0,train
+a3541bdc-79c7-4e5a-8f12-64425acc94bf,ok,OTHER,0,train
+6504f4e2-2328-400a-8428-4457466af222,tiện lợi không mua đồ🤑,OTHER,0,train
+0ed2a6be-5331-4fd3-a7e6-42276d3ebbe0,đặt hàng về thì kh đúng hàng,OTHER,0,train
+e3f0b3fe-0918-4272-9a17-0feb59b8bb5a,đẹp quá,OTHER,0,train
+bc02de13-d328-4975-a662-bd4d5d189ef4,Cứ bị lỗi đăng nhập,BUG,0,train
+e0eb71f9-a261-4bb6-9347-41b91a423bb4,nên trải nghiệm 1 lần,OTHER,0,train
+d24cd89c-618a-471e-921a-f2ad275b35c8,tệ,OTHER,0,train
+711fc3fa-a90e-4020-8712-61d4f21acc20,mua quanh năm,OTHER,0,train
+4638d331-36cf-4e31-bd9f-8ccc4ef1048d,chu dao voi khach hang,OTHER,0,train
+31caf8ed-9c48-4a2f-8393-e4e8b3f9f8e9,"mặt hàng phong phú, nhiều tiện ích. Có cả game giải trí nữa, thật tuyệt vời",OTHER,0,train
+98b83bb2-e76a-4950-bd51-847ed05963e6,bán hàng gì mà rẻ quá mà chất lượng nữa,OTHER,0,train
+01368082-91e5-4e08-91ad-300063f82718,"thất vọng thật sự , săn đc 3 đơn 1k , thế là shipper báo trên áp là giao hàng thành công nhưng mình chưa nhận đc hàng , gửi khiếu nại để giao lại thì lại bị từ chối khiếu nại , ko từ chối thì lại hoàn mà hoàn 1k thì hoàn làm gì báo bên chăm sóc khách hàng thì chả giải quyết đc vấn đề, nói đi nói lại là báo ship giao lại vì chưa nhận đc hàng thì cứ làm ngơ , chả hiểu là làm sao , mỗi lần như vậy lại thất vọng 10 đơn như vậy rồi , chán thật hết niềm tin từ shoppe bộ phận hỗ trợ cứ như ngu",BUG,0,train
+9bb364f8-b19a-4c28-913e-b37c5a269ef3,"rất tốt,chuyên nghiệp",OTHER,0,train
+27e295c3-a991-496c-a9fd-93c405aa3c86,"giao nhanh, không trả lại được hàng",OTHER,0,train
+3b4270d9-ab53-4ced-8327-6f0cd64f516d,"shopper đào lửa, tạo nick mới mà ko đặt hàng được là sao rứa, chi mà lỗi là sẹo",OTHER,0,train
+994ae636-a7ba-43a3-b61b-8160f79679ba,"hủy vì giao dịch bất thường,à toàn là tự app nó áp dô rồi cũng app hủy, gọi thì thông tin nội bộ? ủa, vấn đề của khách đặt mà thông tin nội bộ gì, đang kiếm cách khều tiền àk ?",OTHER,0,train
+41a857e8-556d-436c-bbd9-e4f702679ace,xem cái j cũng hiện mệt người,OTHER,0,train
+26013cca-c075-4d8d-907b-1a8e91c14b2c,đăng giá 1 đằng bấm vô giá 1 nẽo lừa đảo à,BUG,0,train
+530a4d9c-93a3-4f9d-b241-acdfa155a37d,rút tiền ra không được trong khi mình đang cần,OTHER,0,train
+7db9a4ec-899e-4476-8b00-4395a51d92a2,khá tiện lợi,OTHER,0,train
+73363c36-c34a-4973-b120-51f5c52d62c4,"giao hàng rất chậm và trễ hẹn liên tục, phí ship thì kh giảm",OTHER,0,train
+af5910f4-cd4d-4179-9811-d5ce9d819cc0,"đặt hàng chưa bao giờ nhận được hàng cả, shipper lấy hết hàng của tôi.",OTHER,0,train
+42ba7fe9-664c-46b8-b391-b3992ad97688,làm gì mà bị ứng dụng độc hại thế không biết,OTHER,0,train
+c65db128-608f-4ea3-bae1-0c470c16d99c,có thể mua hàng rất tiện ích,OTHER,0,train
+57ce656a-0a48-48f8-9622-6898ea742fe9,ok,OTHER,0,train
+79dda99e-d8d6-4ad4-af9d-53a23c79f96e,tốt,OTHER,0,train
+d983fe52-4c15-4ddf-81d6-10dd108814a7,được nhaaaa,OTHER,0,train
+e9d59afd-761f-41fc-b343-205e9bf0c418,sử dụng dịch vụ thấy ok,OTHER,0,train
+89aa955e-6035-4f6f-8646-6db7377652c0,tốt,OTHER,0,train
+1d0984af-762b-4745-bd82-59e8170eea26,5 ⭐ vậy hoii:))),OTHER,0,train
+9709389a-d001-4829-96f4-968998c01fe5,"Rất hài lòng với Shopee nhưng để nhiều shop không đảm bảo chất lượng đăng tin bán hàng. tôi phải trả lại hàng khá nhiều, mất thời gian. Tuy nhiên Shopee hỗ trợ hoàn tiền tốt, bảo vệ người tiêu dùng 👍👍👍",OTHER,0,train
+d0939321-5fe3-4a24-a4c7-e727d86553f6,rất tốt,OTHER,0,train
+12e43e21-3277-4374-825c-bd3545101bd3,rất hài lòng,OTHER,0,train
+5f3274f2-c631-4938-8209-245bfd0b8822,oke,OTHER,0,train
+7d694b5c-dc9b-4493-8f23-696442c781d8,"đơn hàng thì đồng kiểm, sàn lại k cho đồng kiểm, hàng thì dễ vỡ, làm ăn vậy dẹp mẹ đi. trước xóa gỡ hết chưa xóa tk, lần này thì xóa mẹ tài khoản luôn",FEATURE,0,train
+7b78db4a-ba12-4274-bf56-ab6f0b346af7,quá được lun,OTHER,0,train
+97a4aa86-7f48-47c2-a438-7bacb58926cc,mã giảm giá trong mọi đơn k sử dụng dc,OTHER,0,train
+73219cfb-5acd-45fa-bce4-455ce7612595,hiện nhiều,OTHER,0,train
+19740c2a-8ca5-4d0e-9354-cd47329deadc,shopee mạnh thí,OTHER,0,train
+8e6059bf-43ee-429c-95d1-4bbb6dc83961,rất ok,OTHER,0,train
+5f924edb-4310-470c-b6ee-de505fe8b328,thật tuyệt vời shopee có nhiều ưu đãi giá cả hợp lý sẽ tiế p tục mua hàng trên Shopee cho 5 sao ủng hộ,OTHER,0,train
+50773b9b-456d-484d-815e-2276a807ec33,soppy quảng cáo k có ziên,UX,0,train
+bbd5bce6-aeeb-4025-b448-9fed8aa8e5fb,shipper không trả lại tiền thừa,OTHER,0,train
+8b462789-507b-4bd2-9f7a-55176e56d57d,ok,OTHER,0,train
+d4c94bbb-65e5-4cc3-88c9-f206f94feea8,"tự nhiên thóat tk, đăng nhập lại tk đó cách thức đó mà ra cái khác😡",BUG,0,train
+29331471-4405-4a8e-b67d-9945ce55c12c,shoppe lô`n,OTHER,0,train
+9a77555c-0547-4edc-bfe8-fad5d1650b35,"Nói chung là hài lòng. Rất mong nhẹ tay khi bóc dở để các hàng dễ bể không bị hỏng, các hàng đã hết thì đừng đăng. Cảm ơn.",OTHER,0,train
+b101629c-116a-4dd2-950d-7376981f2ba1,tuyệt với lắm nha,OTHER,0,train
+80a7e9c8-3fca-41ab-870f-528b0a18b0b5,"người ta vào là mua hàng rồi, cần gì thì tìm. mắc gì bay quảng cáo lên nữa. đã có khung live bán hàng còn gặp quảng cáo nổi. mất thời gian tắt và ko có nhu cầu cho sp đó.",UX,0,train
+7b22a451-a8cb-44c9-b918-498e24aff97c,tại sao tải và đnhap shoppee pay rồi mà vẫn ko cho nhận 30000 xu,OTHER,0,train
+ce8d7f0d-fb4a-4c9b-8da0-53c4ce444b21,"shoppe chơi QC dơ, game khác chơi cứ gặp QC shoppe là tự động vô app làm mất trải nghiệm game. Ai không muốn bị chuyển thì chỉnh thời gian sử dụng app thành 0p, khi nào cần dùng thì chỉnh lại",UX,0,train
+1095a72b-0117-48ec-a7e8-93d1c919b4f2,Good,OTHER,0,train
+e60c144e-3c67-4728-85ea-92c14946b882,quảng cáo shopee làm lag máy lỗi cả hệ thống chịuuuuuu,BUG,0,train
+173181e5-b704-4161-9892-0940d81e7767,"rất tiện ích,tiện dụng ,mang lại cảm giác dễ chịu khi lựa chọn sản phẩm....!!!.",OTHER,0,train
+792aca59-e0fa-445b-a839-ebbf684f01b5,"tuyệt vời, mình rất thích",OTHER,0,train
+1a70a132-b818-4108-a199-ec952eb094b4,tỷ lệ nhận đồ thật 70%,OTHER,0,train
+8025ae67-478a-4a83-9158-cac4abb4b983,tự ý mua hàng,BUG,0,train
+069eb7dd-ec13-4768-99bc-df714d1daea5,"rất OK, tiện lợi nhưng yêu cầu shoppe đừng online khi vừa mở ứng dụng.. hơi phiền .. và phải thao tác âm lượng.............. mới vào ứng dụng đã gặp video online ... và điều khiển âm lượng xuống luôn???????????",UX,0,train
+5d7642df-a1a2-4d8e-a5a1-42a03f7957b6,app bị ngáo à mới tải về đăng nhập xong mua được một đơn hàng tự nhiên lại bị quay về trạng thái không đăng nhập xong rồi đăng nhập lại thì bảo là vi phạm chính sách trong khi tôi không vi phạm cái gì hết còn mới tải về cơ mà đm app L ồ n,OTHER,0,train
+8ca52606-685c-4a05-a311-9d32fc72f09f,bị hủy mất 3 đơn,OTHER,0,train
+1388db23-505d-467c-814b-64ba9b82588b,"shoppee càng ngày càng tệ, hàng kém chất lượng nhiều, quá trình giao hàng cực kì tệ, càng ngày giao càng trễ hẹn, cần gấp đặt đơn trong ngày thì qua hôm sau mới giao ( bị quá nhiều lần nên bức xúc), bên cskh thì cứ kêu cải thiện mà cải thiện thì ko thấy thấy càng ngày càng tệ chỉ nói cho qua chuyện, chối bỏ trách nhiệm, thất vọng",OTHER,0,train
+6ad99001-2904-466c-85b5-10e379e38eca,tuyệt vời,OTHER,0,train
+42f7c977-e8f1-4ebe-a7b3-20151828bcb9,tốt,OTHER,0,train
+1ed0db52-fefd-4c1d-81b2-4d9bbfbd88c1,"lúc đăg nhập lag vãi ra,kh bị văng mà cứ đơ màn hình,rõ ràng là máy nhiều dung lượng,wifi mạng nhưng vẫn bị lag",BUG,0,train
+a62bdc5a-31fc-404d-8696-19324c04ee29,ok,OTHER,0,train
+288df6cb-1d35-47cb-ac71-8c06eeb14ef5,ko thich,OTHER,0,train
+d8e99b7b-5a0d-4c88-8ce8-3d1f1c1ebb4c,good,OTHER,0,train
+1b3ef1a9-f8c1-45e5-b899-1e67ecb36e74,Làm Ơn Đừng Quảng Cáo Nữa Nha Shopee t lạy m nhiều,UX,0,train
+1786b6d3-4de4-4807-89bf-1b1ed94644eb,"Shopee rất tuyệt vời. mình thường mua hàng trên shopee và rất an tâm, tin tưởng. cảm ơn shopee thật nhiều!",OTHER,0,train
+066f6464-284b-4f9c-b375-caf6d8350d79,làm ơn bỏ cái âm lượng an toàn giùm cứ vào app là nó vào shpee video mà vào thì lại giảm âm lượng nhỏ xíu đang nghe nhạc vào check cái lại phải bấm âm lượng lên phiền vc,UX,0,train
+301e6e1f-b6b7-4c2f-826a-f1e28f0a0db8,mua món đồ 7 ngày chưa tới .đợi đến chán.báo về đên khu vực giao trong 12h đợi dài cổ...trong khi món đặt sau thì lại có trước 2 ngày..,OTHER,0,train
+3461ca09-4d1b-4ec7-a57c-f3e58cbcb182,tôi rất thích mua.vi hàng chất lượng.co những món hàng không vừa ý tôi hoàn lại tiền trả ₫ẫy ₫ú nên tôi rất thích.,OTHER,0,train
+3fce8f94-dbb8-4f1c-9b56-6e9ab8b44be0,được cái trả hàng nhanh chóng thuận tiện thôi. chứ về thời gian vận chuyển hàng hóa nr phải thắp hương thờ cúng ông bà gia tiên nhà chúng nr mấy hôm rồi nr mới lấy xuống cho đơn vận chuyển đi,OTHER,0,train
+54d5b8c6-e8e4-4f83-9d2d-91977722b16b,như cc,OTHER,0,train
+20c59a52-c20c-4aa5-8d72-c0519bbb4b37,tui mua mà nó hủy của tui nó 0đ mà cũng huy nữa,OTHER,0,train
+885d5a65-8e5a-400e-b547-47c8c0ce440a,ok chưa,OTHER,0,train
+81ea5209-6177-4e6e-83c5-a5e43dd872e6,tốt,OTHER,0,train
+70b13705-53d5-4a0d-be15-7d11f27b2036,Kỳ thứ 7 8 gì đó kim cương nhưng thái độ coi thường KH của shopee làm mình vote 1 sao,OTHER,0,train
+7682e79a-f2d5-44d8-b93e-03b99335add5,tự nhiên hủy đơn??,OTHER,0,train
+c2091805-8fb8-4d72-a342-a562c8ad6daf,tốt,OTHER,0,train
+5efe3ea3-018b-4fbd-9fb7-6a97065dd21e,"rất tiện lợi, đa dạng sản phẩm",OTHER,0,train
+d993d35d-9b23-4dfa-bfb1-e8ad9adf7141,"Mua hàng đổi lấy cục tức, chính sách nát vụn, biện pháp giải quyết tệ hại, ngoài chữ chờ thì bắt khách thông cảm, t sắp tức điên r thông cảm bằng niềm tin",OTHER,0,train
+e3903f17-5b07-4247-b135-32e46f00f6e9,"ứng dụng được nha chỉ là có vài shop đăng ảnh ít quá,quá ít để biết thêm thông tin",OTHER,0,train
+86470295-9ffd-4ed9-8e4d-7ac4d30720d0,"khâu đặc địa chỉ và bản đồ của shopper quá tệ, mong nhà sản xuất khắc phục lỗi ở khâu đặc địa chỉ và bạ đồ ạ",UX,0,train
+fb303b7c-3a35-4092-a53f-29eb7bb79dd6,tốt,OTHER,0,train
+903917cb-d260-4d88-a29e-8b00a6d1583e,số điện thoại chính chủ thì không làm đi làm cho số điện thoại khác,OTHER,0,train
+5cfbb1ab-68a5-4d4b-b1bd-f48dbc46c45d,ok,OTHER,0,train
+69a28c6c-73df-452b-9972-e762d6439c2b,app phiền vãi ra,UX,0,train
+5118b594-4b81-4fc9-ba21-c5deb12f0993,"shopee quá tiện lợi, là người bạn thân thiết của tôi!",OTHER,0,train
+672a0ad5-8c74-4835-9fe8-18cf95083481,tuyệt vời,OTHER,0,train
+270f2533-4f33-4d5b-a575-dff602a31582,"có mỗi đơn hoàn hàng mà tận 2 ngày không có người đến lấy, tiền thì vẫn bị giam, đồ thì không sử dụng, thật sự khó hiểu khi tin tưởng đặt hàng tại shopee",OTHER,0,train
+9fd96a08-8ef5-4381-96aa-c8acbbe60241,đơn vị vận chuyển không đến nhận hàng cứ để hết tuần app tự hủy,OTHER,0,train
+9eb8a600-b4cd-4acf-8d2a-d1af77bd751b,Thật sự đấy? Mãi lỗi cứ lặp đi lặp lại t còn chả mua được hàng? Không hiểu làm ăn kiểu gì lỗi tháng nào t cũng bị đúng cái lỗi đấy ngày sale vào mua đồ mãi đ được out vào lại mua cái khác voucher khác cũng ko cho mua? Thật sự đội ngũ làm cái app này có làm đc việc ko? App mua bán mà đ cho mua thì làm đ gì dc hả? Khó chịu cả năm nay rồi giờ hết chịu đc t mới lên đánh giá vậy đấy. Rách. À đấy hết giờ sale thì mới cho đặt hàng đúng rẻ rách mà bỏ thời gian công sức thức đêm mà đối xử vậy với ngườitd,BUG,0,train
+978f1008-9163-4b61-89d1-3f26510904dd,lừa đảo,OTHER,0,train
+df77d20c-be6f-49b7-80e1-225b33c6f2d1,tốt,OTHER,0,train
+6a00abce-8cb3-46b1-a483-42b96185957a,"Service quá kém về vận chuyển. 2 đơn liên tục của em mình, không hề có 1 có cuộc gọi shipper nhưng 1 đơn bị hoàn về shop, 1 đơn thì mình check mới biết giao ko thành công (trạng thái thì không báo gì cả) Chỉ 1 lời xin lỗi kèm 10k xu.",OTHER,0,train
+d8200dc3-b45d-44fd-9736-03c688f0bd20,"cho tôi mã giảm nhiều lên, ki bo v",OTHER,0,train
+8135357f-4aae-4d0f-9f81-d0b22f508c97,ship bơ ko giao hàng,OTHER,0,train
+c8ed09a7-73bf-41b3-a938-1b954a2e448a,tệ,OTHER,0,train
+99c9209a-e052-4902-8957-bbceaf421756,rất tiện lợi,OTHER,0,train
+f41795d2-298b-4e84-ab03-401cee924c8f,bảo cho mã 80k cavs kiểu cho ng mới mà đặt xong nó hủy nó bảo giao dịch bất thường...💔 0sao mới đúg nói chug dạo nì shoppee rất tệ luon,OTHER,0,train
+c773e8c8-6d1d-4195-bc45-d288d1079674,shop quá vô duyên,OTHER,0,train
+f895f800-918b-477d-9b24-51c6c438f846,rác,OTHER,0,train
+7d8ceadb-5e8e-4e7c-b6ec-c60b18971356,"thấy t có xu r tăng giá sản phâme dùng xu cx như k dùng xu ( k dùng xu vd son giá 255, thấy có xu thì tăng lên 20-25k tùy xu đg có) hãm vừa th",OTHER,0,train
+14723390-3296-4fcf-88c1-6b664b7b5dea,good 🤤,OTHER,0,train
+7de6e146-a302-4d32-a82b-06bac1ede300,chuẩn,OTHER,0,train
+c474a7da-f172-45a9-90d3-e5148f8bc65b,"cho cái mã người mới giảm 60k, người ta áp vào thì đình chỉ acc mặc dù mới mua lần đầu, làm ăn vậy thì chịu",OTHER,0,train
+be109105-98c7-4be4-b7cd-a7b243ec63a2,hay,OTHER,0,train
+820068a3-8119-4cb0-83b5-db03d23b6294,tệ,OTHER,0,train
+6b932f3f-432a-4c53-a794-26e96deeda75,"cái trang Web như l, cs bt lm web ko z tr",OTHER,0,train
+e50e3a60-aef5-467a-9f19-cf645700ac8b,"mua hàng trên app shopee bằng tài khoản ngân hàng,shop ko giao mà app trả lại shopee pay",OTHER,0,train
+8663d2e7-d9b3-4e9b-b36d-86f1a18544c5,khi hoàn đơn là 47k nhưng khi shopee trả lại chỉ có 600 xu ví dụ mua một hộp màu 37 đổi 600 xu đấy ra cũng chỉ giảm có 1.000 thôi mà ở ngoài 47 đấy có thể mua được hộp màu đấy rồi hoàn tiền như vậy tôi không đồng ý tiền tôi mất luôn rồi không có dùng được nữa,OTHER,0,train
+6139d9f1-11fa-483c-b8db-5cfaffeca885,"quá hạn giao nhg vẫn k giao. đơn về chỗ mình 8 đời r mà lại mang lại ra Bắc Ninh, chịu chết.",OTHER,0,train
+1d5f5055-a156-484b-a55a-cf36b41bfac2,app như đb đặt địa chỉ thì cứ mất bắt đặt lại mười mấy lần,BUG,0,train
+d2e371ef-7b8d-4351-91c4-595264ed4e76,ok,OTHER,0,train
+1ec06091-a236-4024-ac77-ba4e3d84d7b3,"tốt, nhiều ưu đãi vài đợt sale, đa dạng mẫu mã nhưng cần khác phục lỗi lag khi vào trang trồng cây kím xuu",BUG,0,train
+e58620c2-fe35-463b-8808-3362cee0b4fa,dấp tốc,OTHER,0,train
+781fea6a-8fba-4787-9b37-2c315fc4d2a4,"lêm tik tok shop mà mua chứ shopee giờ là con rùa 🐢 rồi, giao hàng cực chậm. ko giống như qc",OTHER,0,train
+637586cb-0fac-4f37-86ad-f6334ad95ae8,ok,OTHER,0,train
+09897234-d91a-455d-af7d-bb7e813db92c,tốt,OTHER,0,train
+6857bac9-b00f-49de-ac1e-0f07898a2317,rất vui,OTHER,0,train
+06bb96c8-b20d-4193-80f6-e667bb06d9ea,thời điểm này tôi thấy shopee rất tốt. chăm sóc khách hàng tốt. mấy năm trước tệ hơn rất nhiều. quan điểm mình rõ ràng,OTHER,0,train
+6a72d736-2c22-4b63-8769-d0ddd250bc38,ok,OTHER,0,train
+292c789e-0bc2-4a16-9552-0e4c4b1d706b,tạm được,OTHER,0,train
+8d8b84fd-e9a0-4ff1-a3b5-67d72d4862a2,mình rất thích shopee!! !,OTHER,0,train
+35b3e557-d56d-4979-b700-39ad33f6833b,shopee rất tuyệt như 1 người bạn không thể thiếu trong cuộc sống hiện đại. Thankyou!,OTHER,0,train
+f0093a94-ca8f-45a3-a5da-34e4c20691e1,💯đ,OTHER,0,train
+9d99fa39-4e6f-445f-b227-cf62befc776a,tuyệt vời,OTHER,0,train
+24878fc3-6f53-4251-86e8-2771b0814e0e,súc vật nút tắt quảng cáo cho chó ấn,UX,0,train
+132f1a88-76f5-470a-8162-471a54fd3021,"tiện dụng, giao nhanh",OTHER,0,train
+beb373f5-b172-4905-9fb6-ca15f90f0a32,Vô trách nhiệm,OTHER,0,train
+26e2bd9e-1c23-43df-941c-f5f24ab39236,rất tốt yyyyyyyyyyyyyyyy,OTHER,0,train
+65ed329a-055c-44c6-8ab5-95186bb06988,rất OK và giao hàng rất nhanh,OTHER,0,train
+4f0f78bb-10b6-4ac7-a190-174bbbc31992,ok cậu,OTHER,0,train
+88285652-8544-4266-b0a9-ef040ee3b72e,tuyệt vời,OTHER,0,train
+f34b69a3-a703-4496-abd6-f86de1d34337,lỗi liên tục,OTHER,0,train
+b740f896-74c1-40ba-9412-8947bc1c395c,ee nhe đơn đầu tiên đc 0đ vậy mà toy khh bttt,OTHER,0,train
+5977cf36-3daf-4734-a00e-72df9fb82ceb,tốt,OTHER,0,train
+2de542c6-cdc2-486c-83b3-1ecd6df60cdb,đag lướt tt thì có vd hình lướt qua cái bật vô shoppe luôn,UX,0,train
+966de1f9-30a6-4888-aa84-21dcd4aaf0d8,đặt hàng thì lừa đảo bảo đặt áo mà ra quần????,OTHER,0,train
+cb47271f-090d-4cb8-9d33-068625b451ae,tốt,OTHER,0,train
+deb84960-03cc-4f72-b427-142c38db9c89,tôi bị,OTHER,0,train
+776b41da-4b86-4a03-80e4-cbd6dd948348,OK,OTHER,0,train
+4cb29f8f-470f-4bfb-af84-0dd2d18ae1ba,tốt,OTHER,0,train
+ef399852-44a1-44df-af63-5661c8063e29,ko đăng nhập tài khoản vào đk nữa,BUG,0,train
+369d4ff5-a7ea-446c-8e12-d385414614af,tốt,OTHER,0,train
+2d74af5b-4bb2-48b5-b958-7caf9fe092a2,ngon lắm lời nhiều cực,OTHER,0,train
+93cc0ef1-7b88-45d3-ad93-7d65d7abaa4b,rẻ và chất lượng nhưng shopee cho mik thạch dừa minh châu 1kg 0đ đi,OTHER,0,train
+216c4ce7-cecd-4de4-a349-307259c995fe,ko cho kiểm hàng,FEATURE,0,train
+bee4b920-af60-4838-a3a2-678dde8334a5,tự nhiên hủy đơn người ta=))?,OTHER,0,train
+8f685a25-895d-4603-9f59-abcc0d785925,đang mua hàng thì bảo tài khoản k sài được ngộ v,OTHER,0,train
+e5f199ef-eb5c-49a8-b9b0-95f551eeac03,ko vui,OTHER,0,train
+2107414d-54ad-4936-945f-576c563f52f2,"bị lỗi à,có voucher mà đeo cho ngt xài,vô lí vailon",OTHER,0,train
+ed2326f4-b6de-41d5-91d9-2ba2c96e120f,đơn giản vì nó 1 sao thôi k cần thắc mắc 😂😂😂,OTHER,0,train
+7cff51ff-5027-4585-ac0b-9393b13e2229,ứng dụng này sài rất ok lun,OTHER,0,train
+49df7e31-51cc-408f-8891-557c00f52b4e,Tốt,OTHER,0,train
+65db36da-4f6e-4c52-b728-18471d0f3071,app ni nguôn nầy,OTHER,0,train
+25ccf964-c32d-4d12-ab46-4d0a3aec2ca6,OK tốt,OTHER,0,train
+50c8ba88-e7fb-48ea-ac59-ad565a5c141c,ứng dụng tiện ích,OTHER,0,train
+3a53787b-82c7-4053-8249-98c5f4ff8b6c,dùng sđt khác vẫn bị m04,OTHER,0,train
+a8fcf491-c21a-4b1e-9237-3b5066a4462f,Trả hàng rất tệ. Không ai đến lấy hàng rồi tự hủy luôn.,OTHER,0,train
+80e26c49-2b5b-405a-9f78-59493f92a3b7,"tiện ích, hợp lý",OTHER,0,train
+ba58233d-8b3e-4c20-bbc5-46139d57f891,rẻ,OTHER,0,train
+cc9adb71-b4d6-4d46-9df9-e99683d258b3,giao hàng hay thái độ tự ý hủy đơn,OTHER,0,train
+f514ec33-51da-4cfb-a5d3-fd7df457de3a,tốt,OTHER,0,train
+0253e4eb-d938-4ce5-a264-04c648016725,rất hài lòng,OTHER,0,train
+52814cd2-34c6-45d6-9e0a-30e63f4500fc,ok,OTHER,0,train
+a9407bb3-5351-47fc-bab5-446be719dce7,ổn,OTHER,0,train
+b4f10d45-87cf-4614-973d-46d769ceadb9,"thật tuyệt vời khi có một nơi mình mua hàng rất tin cậy , uy tín vô cùng",OTHER,0,train
+34a6a26c-26e5-4003-860b-3b0f07586552,rất hữu ích và tiện lợi,OTHER,0,train
+4f7c4644-7f61-4935-96f9-299242658c18,"đùng đẩy trách nhiệm, giữ tiền đơn hoàn của khách ko trả. khách hỏi đến thì báo chờ liên hệ với các bên liên quan. vô trách nhiệm",OTHER,0,train
+2eb051db-1e3f-4cdc-add8-d99e935399f3,"dùng rất ổn, thỉnh thoảng lag nhma load lại thì vẫn dùng okla. tổng thể 9,5/10",BUG,0,train
+8e8d7d02-dc8a-4361-a585-12fa09e03b8b,ok,OTHER,0,train
+5ab80287-932d-4a7a-b554-5bf50b386a67,"Mình thích shoppe vì rất tiện lợi nhưng giờ có rất nhiều shop bán hàng nhái ,kém chất lượng",OTHER,0,train
+fb7e98f1-df6c-479d-bf27-da5198621227,ok,OTHER,0,train
+5db9a443-67db-4bde-8f12-e2a47b952eb6,OK. mua hàng nhanh gọn,OTHER,0,train
+600f08f2-f401-441c-8129-2689781abbc2,hủy đơn hoài!,OTHER,0,train
+9d7055ae-1154-4f8c-8320-6c717f34a99f,tuyệt vời,OTHER,0,train
+a15c3d31-be23-4c8d-ab13-0455584fb29b,ok,OTHER,0,train
+dca66796-2639-4faa-a42c-912b0c55172c,Quảng cáo quá nhiều,UX,0,train
+f45b0e7c-f08e-4511-9e1f-5684bf0c56d2,shoppee cũng đc nhưng tốn tiền quá,OTHER,0,train
+a39c8323-4a17-4f69-a1c8-54a610970340,tạo nick mới xong cho mã 80 nhưng ko dùng đc kể cả mã freeship không dùng được bực mình nên cho 2 sao,OTHER,0,train
+7248131a-c06a-4895-8b6d-737013a757c4,giao hàng nhanh và có nhiều khuyến mãi rất ok,OTHER,0,train
+4be5375e-d687-4f9d-8323-6df165218cf0,rất tốt,OTHER,0,train
+1d15fed3-3a15-42c9-a6f2-5efc63181ee0,ok,OTHER,0,train
+2d76e25f-219d-4a59-9315-e06b66df59f8,rất tuyệt vời,OTHER,0,train
+500ab9a4-667d-445e-8e5c-a6a02dbfed8c,rất tệ,OTHER,0,train
+a4b4bedb-958a-40bf-9051-837be0297743,giới hạn mức thu xu . ko cho thì nữa 😡,OTHER,0,train
+287f9fb8-68de-4078-bc96-519718902e8f,"Nhiều món giá ảo, nhưng mình vẫn tin dùng nhất",OTHER,0,train
+d3cc3b7a-2bf3-45fe-bca0-b7c6033d4cce,"Nên coi lại hết sự phế vật của bộ phận CSKH từ thằng trưởng đến lính trả lời ừ ừ cho qua chuyện rồi đùng đẩy trách nhiệm, không giải quyết được thì sủi trốn trách coi như chưa tồn tại",OTHER,0,train
+c9cd48d0-db9a-466a-951b-ac967fbc463c,ok,OTHER,0,train
+cd17f523-59f9-4da3-86f7-3c13354dd438,thuế cao quá tội shop thôi:(,OTHER,0,train
+87b04c3a-919a-40a3-8dea-779e70f1bef3,Giao hàng quá lâu,OTHER,0,train
+6bb669bb-bd1e-419a-847b-5c0cf0a845d3,thấp,OTHER,0,train
+f00eeb2f-2c15-4fc5-9708-54b0906e36cc,rất tốt,OTHER,0,train
+a185e5f5-56c0-4e12-b59d-7735741c7fbd,tuyệt vời,OTHER,0,train
+a458891e-67df-4e4e-b8b6-ee8bde244488,"mua hàng mà cứ bắt đợi hàng tới ,k mua liền được như tạp hóa",OTHER,0,train
+b930f338-7c3e-43ca-9ebe-42d322a2ceae,đơn hàng thông báo nhận hàng rồi mà người mua không nhận được. làm ăn vớ vẩn,BUG,0,train
+18258ad3-ab1c-444f-937a-8af2f7260d5f,"Shopee không cần khách hàng nữa, shipper không liên lạc, không giao hàng, tự hủy đơn, hoàn trả người bán. Ai mua hàng nếu thanh toán trước sẽ có nguy cơ bị kẹt tiền sẽ rất lâu để được hoàn lại.",OTHER,0,train
+d2fe1622-f301-4602-aec4-05d9abf4a7e2,"tự nhiên hủy hàng của ngt , đã cgang đặt hàng áp mã cao r mà thấy d hủy hàng luôn tức vl",OTHER,0,train
+1cec5956-a054-41e7-b482-863391acc8c5,cũng rất tốt nhưng chưa thấy hàng 0đ đâu!!:),OTHER,0,train
+25fd64d0-0644-479a-969e-dd31b1c93461,tuyệt,OTHER,0,train
+b9ae93e8-8a8b-4eb6-aad3-b7b063dd7d14,tốt tiện lợi,OTHER,0,train
+a76649d8-910a-49f4-bba4-18c41a731829,nhân viên giao hàng hoãn thời gian,OTHER,0,train
+c3a937a6-61ec-4770-b78f-81dae16815cc,ok,OTHER,0,train
+2353e6bf-573f-4917-b866-e73864ce9123,ae cẩn thận cái slayter nhé ăn quả gậy góp 6 kỳ thì lỗ lòi ch*m=)),OTHER,0,train
+b0e40c0e-f5fa-4cd3-b02b-9c89018635ba,"hữu dụng , có nhiều đồ hay",OTHER,0,train
+a800b1a3-3ca4-4779-99b4-4ee4d22110da,tự ý hủy đơn của khách,OTHER,0,train
+40ada89f-c282-4b33-af2a-f29460d67c31,hàng OK ae tự tin mua xoài nhép ae,OTHER,0,train
+a7876b22-8d3c-4b44-9a42-66b3dba5e86b,rất hài lòng,OTHER,0,train
+21348376-72dd-400e-9023-6a01afe9606c,ứng dụng tốt,OTHER,0,train
+900c2963-72b3-4020-be90-e8d62bb50206,"dùng voucher để mua hàng , người bán gửi hàng ko đúng hẹn , r j mà lý do này lý do kia , shoppe tự hủy đơn ,r báo lên trung tâm trợ giúp thì nói ko hoàn voucher đc , thành ra mất voucher ? khác j ko muốn cho ngta dùng voucher ko , cần có giải pháp giải quyết vấn đề này",OTHER,0,train
+0e700ce6-fb18-4f00-8f74-fee0123c132c,shoppee có ai tên tép á rep tin nhắn rất nhanh và nhiệt tình sứng đáng cho 5☆,OTHER,0,train
+48e85436-1c14-44e2-848c-375528d4a154,"DM cho người ta mã giảm giá xong r người ta đặt, DCM đặt xong tự nhiên hủy hàng vì lí do giao dịch bất thường, tôi bị hủy 3 lần rồi.Nếu cứ hủy như v thì đừng cho người ta mã nữa.DCM đặt có mấy cái đèn thôi mà cũng hủy, ngáo vãi",OTHER,0,train
+d2b7d67b-0004-49c4-81fc-2c009a1fdcbb,nhiều sop cố tình quảng cáo lai chim quá mức tính năng chất lượng của sản phẩm. mong người bán hàng nói thật nói đúng,OTHER,0,train
+7fe90b7d-8a12-40ba-bf8d-9d8a6c28d39d,"đặt hàng k đc, nó cứ bị lỗi mã M02 miết k đặt đc",OTHER,0,train
+d182385b-9c4b-4f49-b1ae-efe98b3193ae,"rất rẻ,tiện lợi",OTHER,0,train
+8ddc8f34-b132-4fec-8e0e-df7903bdb73f,với cấu hình đt hiện thoại app ok ạ,OTHER,0,train
+0d9d1c58-8405-499e-b19a-0d9fbae6f9ee,tốt ♥️♥️,OTHER,0,train
+5f44d018-6dbb-45ee-917b-d0e48a84cfe5,Ko tải đc hiệu ứng,BUG,0,train
+2a117201-1e96-4754-a243-0fde3f055627,không hiện đồ để mua,BUG,0,train
+752c65c8-56a7-499f-8db0-be7df2fe418d,tuyệt vời,OTHER,0,train
+3ad509a1-1f86-4514-a2d1-b5afc07bc744,Rác,OTHER,0,train
+206facd7-5b80-40bd-962f-2d04da858a7d,"quá nhiều quảng cáo, lướt wed đâu cũng gặp, động vào cái là lại mở ứng dụng lên, rất khó chịu",UX,0,train
+31b3a0ed-a1b1-4629-9c31-1b4978e5f42d,tự hủy đơn hàng,OTHER,0,train
+656ff178-6c7f-4f38-8e22-ce388fc31241,Rất hài lòng,OTHER,0,train
+deffa0d2-efe3-4ed0-b3bf-95dd9d1e4d19,Tốt,OTHER,0,train
+09d632db-149e-4798-8360-d3e01bfe4768,đặt mua trái đất 1 năm r chưa thấy,OTHER,0,train
+a8713062-20ba-4d22-84df-83d14b8bd50c,lấy xu live nhiều quá shopee khoá luôn không cho lấy?????,OTHER,0,train
+5d8aef82-9bfa-4a80-b162-fedeee43b6f2,oki,OTHER,0,train
+aaed5906-2763-4f83-98b1-37fd4cf1b25d,tốt,OTHER,0,train
+b3ce67ac-ca04-4af6-bd49-0008102b30c9,tại cái app này mà mẹ tao lúc nào cũng bắt cây shopee để kiếm tiền 1 ngày làm tận 5 nick tao khóc luôn đấy đm suốt ngày lướt với nhận xu chả có cái mẹ gì cả tốn thời gian vãi,OTHER,0,train
+a2b472d2-837b-4c40-9a5e-8143f2e8cbfb,mã giảm giá mới tạo không dùng được đến khi hết mã cũng không sửa lỗi nhanh,OTHER,0,train
+c8824247-381e-4ad5-b5cd-47276bb2fb6c,mua được hai đơn hàng kg biết vì sao lại bị khoá tài khoản kg mua được,OTHER,0,train
+729090e3-8ead-40ed-93c5-72783c2af07b,quá tốt,OTHER,0,train
+64507627-4f21-474d-baf1-4e9976f5c423,"Không có free ship , mua đồ gì cũng đắt",OTHER,0,train
+a5b67067-3dba-41c3-869c-8b58620a9d9d,"hàng không chất lượng, không sử dụng được, giá mắc mà chất lượng thì dỏm mà không cho đổi trả",OTHER,0,train
+84075775-c3c8-4464-a916-eb6d94458460,xịn xò,OTHER,0,train
+d08e763e-78c6-4b73-aa1b-797ab9fe4781,"mua mấy đớn 0đ hoặc 1 đến 2k thì chả thèm ship,đặt cái đơn 400đ mà báo đã đếm trạm khu vực 3 ngày r ko thèm giao, shipper gọi điện nói giao mà cũng chả thấy tăm hơi đâu,chắc là bị lấy luôn r,cho 1* là đúng",OTHER,0,train
+098ee1ac-a51d-4c01-92be-0b20cc5aa581,vài tốt thoáng mát nha mn nên mua sẽ mua thêm mặc mua hè,OTHER,0,train
+97241548-0121-4217-81de-e40edd51fbaf,đặt hàng cứ bắt sác mình sdt mất thời gian,OTHER,0,train
+6830efcd-2130-4ec0-bfcc-02ab175d1c50,dree,OTHER,0,train
+482fa2f2-b15b-405d-b93d-068024972de0,ok,OTHER,0,train
+3dd6fe6f-4d43-4358-b557-fb7354495432,"hàng giao nhanh, chất lượng",OTHER,0,train
+8595ed7f-07c9-4a77-bfd3-3f1c6477e54b,"người thật đánh giá ko phải robot nhà,app tốt",OTHER,0,train
+9e55f543-6e1b-44c6-aade-adb752787072,ok,OTHER,0,train
+010aca67-0e4e-409a-96e9-8ea034388ccc,ngon,OTHER,0,train
+595ed7f0-848b-4a0c-857a-dfe5a12863ff,Bình thường,OTHER,0,train
+20185e81-e230-4afc-ba16-9b41608f5652,hay tốt chất lượng,OTHER,0,train
+23648f20-118d-41b6-95a8-c38c025e1646,ứng dụng tiện lợi tốt,OTHER,0,train
+536fe03f-4dbd-4ccc-9f57-5ed9e3a81f40,tốt,OTHER,0,train
+9e58f4b4-28b5-4b56-be6e-bb897149e588,"Tao chịu ấy xác thực shoppe pay cả chục lần, lần nào tới bước xác thực sdt xong thì tb xác thực thất bại, do bảo mật????",OTHER,0,train
+2069ea5a-1c9b-43d0-99c1-9f3d92ccc126,giá tốt hàng rất đảm bảo và an toàn,OTHER,0,train
+56ed1c38-48b6-43e9-9f2f-bef65e19248b,OK,OTHER,0,train
+01cdbbff-e1a1-459c-b860-43dfecfc0476,hàng rẻ,OTHER,0,train
+80e32ffa-19cf-45f3-898e-df9c7c57cd61,rất tệ luôn á mua hàng cứ bắt xác mik sdt lm xog lại ghi là tại khoản bị cấm hay jjjj á,OTHER,0,train
+dd37264b-d7a0-420d-9046-bace4f236261,app nặng chậm. đã từng mua hàng rất nhiều ở đây. nhưng giờ thì tệ. Đổi điện thoại khác. nhập tài khoản vào thì bị khóa. dù sđt xác thực đầy đủ. tại sao không có 0☆,OTHER,0,train
+d80fae05-912a-46b2-a211-4b87b93fb7e1,đặt hàng chờ mòn mỏi ko thấy giao,OTHER,0,train
+4ed7e4c5-0524-4eeb-a930-c470f12ff380,Tôt,OTHER,0,train
+92dad560-3966-4c67-b729-7cc10e7e50c9,hàng về quá lâu chờ cở 2 tuần mới có hàng đồ thì lỏ0,OTHER,0,train
+f4da834d-da99-4321-8fb5-c61c0e7c4531,chán chả muốn mua,OTHER,0,train
+3ead33fa-1dbf-4bb2-a979-1e17fe5bc45b,đặt hàng xong bị hủy mất luôn voucher,OTHER,0,train
+08534652-c1c4-43ad-b3f5-826411ba8cca,hàng đểu,OTHER,0,train
+efc5ae46-a828-4562-b5dc-251bae2176d4,"trò lừa đảo là nút trả hàng(bắt buộc phải có tài khoản ngân hàng, lừa già lừa trẻ, lừa đảo) thứ hai là trò vòng quay free ship(ngày thứ 7 thì chúng mày giảm tỉ lệ, hay lắm ha?).",OTHER,0,train
+ee393868-4eb6-4624-bdc9-9820bc4271dd,"hoàn trả hàng nhưng k có ng đến lấy phải tự trao đổi với shippe để lấy, cuối cùng lại cập nhật trạng thái ""đơn hàng vận chuyển lấy hàng không thành công.."" muốn nuốt luôn tiền ngta à? cskh còn k thèm rep phiếu báo cáo ng dùng đệ lên:))) chx bao h tệ như nàu",OTHER,0,train
+cdcc9f94-ee0c-4c48-b46c-2f36b184e852,"3 đơn hàng liên tục đợi đến ngày giao mà ko thấy rồi mấy ngày sau bị hủy ko rõ lý do. Gọi tổng đài hỗ trợ 2 lần thì tài khoản vẫn đang hoạt động bình thường. Còn 1 đơn đang bị trễ 2 ngày giao, nếu tự hủy nữa thì chỉ xóa app thôi. Chắc Shopee ko cần khách hàng nữa.",OTHER,0,train
+f09af1e8-9ed5-469d-830f-3f4d1a4b29ef,ứng dụng này rất tốt,OTHER,0,train
+249138ca-a84f-49bf-9b71-e7baae2877b9,okkk,OTHER,0,train
+a24616b1-462f-44c6-bd3d-a6495c5c98c5,rất tốt nma đang chơi game có qc shoppe nhấn nhầm tức cho 4sao thôi(cho dấu × to lên coi),UX,0,train
+c534b9c0-6c9b-4f4b-932c-0b35ae61012a,"ngày thông báo ngàn lần,phiền",UX,0,train
+b899bb29-17c8-4f14-a702-b205c563e31c,"tài khoản mới nhưng ko sài đc mã giảm giá, lúc đầu thì được nhưng vừa văng ra vô lại(chưa đặt j ) thì kêu ko đủ điều kiện????",OTHER,0,train
+c2ecda40-5c77-41b4-b3d6-c02d0d4182ca,đặt hàng nhiều quá mà nó giựt giựt luôn,BUG,0,train
+78758932-15e5-4077-b4e4-210ef91839b1,sản phẩm bán trên shopee tốt,OTHER,0,train
+a42aef87-4e17-4572-89fc-dbc05c938edf,ko cho đặt hàng luôn nên xóa app thì hơn,OTHER,0,train
+8b951728-587f-480f-b17d-21870a297cef,tôi bấm vô nhận xu k dc k load lun,BUG,0,train
+e301e30a-53d4-4e1b-b172-0d4c9db58e7d,"tôi chưa dùng, chắc là được",OTHER,0,train
+1ce7cca0-2dc6-44e2-81fc-c1f2667295c8,rất nhiều hàng đẹp,OTHER,0,train
+c5914f63-8dbc-41b5-9b21-60f21f340bc0,ship ko thèm gọi đã tự hủy đơn :)),OTHER,0,train
+cb807aa6-ce11-4acc-bc1a-03c0db7fceed,ko hài lòng đặt hàng bao nhiêu lần tới khu vực mình thì tụ hoàn hàng ko ai giao hàng,OTHER,0,train
+75056e94-6b57-4018-a899-d7be344a666f,chấp nhận được,OTHER,0,train
+9c7e9251-c223-426e-b6f6-79d0e6a7b860,tuyệt vời,OTHER,0,train
+304e7e8d-4a11-47d8-96a6-ba26501ef84e,lag vãi lòn,BUG,0,train
+4d32e50b-c31f-4137-82ae-a13a2415f963,"Nó xứng đáng 0,5 sao thôi",OTHER,0,train
+20cdf5c3-a725-4475-a03b-1440a8fc7eeb,vì nó giao hàng kh chất lượng,OTHER,0,train
+a48d369a-e899-426a-9729-510bd23eb35c,bây giờ giao hàng siêu lâu mình đặt cả hơn 1 tuần chưa có hàng,OTHER,0,train
+05d8b6f7-ebe9-4531-8968-1b20f2540a4b,"các đơn hàng đều giao đúng hẹn, nhanh, tôi rất thích mua hàng trên shopee",OTHER,0,train
+77d6a889-b887-467d-99cc-3c4fe621c3a8,Tốt,OTHER,0,train
+83339f9f-2af1-4fe4-b980-5b39cfdb4fe8,đẹp ok,OTHER,0,train
+661e75f9-8af8-45fe-ba1e-56837d3e1549,ok,OTHER,0,train
+99aa562d-fc17-4523-b1f0-04279ee4c128,nên để hủy đơn hàng khi đến ngày giao hàng mà hàng chưa được giao đến tay người nhận. nếu quá ngày đến ngày hẹn giao mà hàng chưa tới hôm sau người nhận ko còn ở địa điểm đó thì tính sao. Đặt hàng xong với những món đồ không thiết yếu phải đợi giao hàng thì hứng thú đã giảm 1 nửa rồi quá ngày hẹn giao mà ko nhận đc hàng là hết muốn nhận hàng nữa luôn,FEATURE,0,train
+f271384f-f8fe-49c1-ab88-05d03b605697,quảng cáo vô duyên,UX,0,train
+d952ab96-5870-4298-ac0a-4daa98ea6785,Bớt quảng cáo lại là 5 sao rồi.,UX,0,train
+09e1e9c6-f030-4e1d-9f2d-ba84665b5089,hoàn hàng trả tiền thì năm lần bảy lượt không xử lý cho khách hàng,OTHER,0,train
+92d7a16b-3e23-4061-b82d-85e5f6b662d9,"áp khá tốt nhưng giá sp khá cao, k cho giảm giá nhiều, mấy lần sale cx toàn lừa dối.",OTHER,0,train
+fca303b2-b3ae-4b3c-9e6d-0f8f5a65d56f,rất rẻ,OTHER,0,train
+583c7e9b-cb12-4968-b538-ab74d276a689,kh đặt đc hàng cứ bắt đăng nhập sdt nhưng lại kh ghi đc mã vô,BUG,0,train
+ff4997d6-5248-4d08-9b8b-160fd06464af,shippe giáo hàng uy tính khách hàng được theo giỏi đơn mình đặt đi đến đâu tôi rất thích,OTHER,0,train
+4b9e0c67-2a73-47e6-9a9c-fc4870f8468e,lí do hủy đơn vô lý đặt đ đơn hàng giá trị thấp thì bị hủy,OTHER,0,train
+c6caf213-77b0-47af-a9a0-2bbfa748d103,tự nhiên mới đặt hàng xong lúc trưa cái tối vô xem thấy để tài khoản bị vi phạm hành vi bất thường gì đó mà trong khi ko có làm gì giờ ko bt đơn hàng có về hay ko chán hết muốn nói 😡😡😡 từ giờ hết dám dùng,OTHER,0,train
+c5f763e1-c602-46d1-ae83-008dc1a8de41,áp lỗi,OTHER,0,train
+8753af4a-4d89-4c70-aa52-7f0b7d37754c,rất tuyệt,OTHER,0,train
+d9fabeab-7529-42aa-bbd4-e053242268da,dùng ok . nhiều ưu đãi,OTHER,0,train
+419d46ed-b149-4e41-a014-86a21d2fa4cb,tốt,OTHER,0,train
+26d663eb-2e6a-474c-9f90-67c91e8a409c,Mong la tai đuoc,OTHER,0,train
+b96bfa4a-9fc7-4da5-9b9e-7e6dde2aec07,được,OTHER,0,train
+341a8382-fee4-477e-8fe7-554606c1136f,"lúc trước dùng rất ok, nhưng dạo gần đây đồ đã tới trạm giao hàng mà ship không đi giao,còn hàng lỗi ib cho shop đã đồng ý trả hàng nay vào kt thì bị hủy yêu cầu trả hàng?",OTHER,0,train
+62cb9bd9-ad28-424b-8a3e-37ecff1aa307,"tệ,muốn hoàn hàng mà ko cho hoàn",OTHER,0,train
+6e96ffe7-1a10-440b-b9c0-53a415578502,mua hàng trên shopee rất đáng tin cậy,OTHER,0,train
+ce2c7adf-164a-42cd-a968-0434c8a25077,p hư p,OTHER,0,train
+7349cd0c-21bb-420d-a3ce-57b4da10a88c,tại sao lại nói tài khoản của tôi bất thường không được đăng nhập thật sự tệ,OTHER,0,train
+e5b9852e-13fa-417b-abd5-5dd04fe8ebca,hồi sáng tôi mới tạo 1 ác để mua hàng sdt quại tôi mà thoát ra vô lại cái bị khía tài khoản t t thêm cái nx bị đánh F 02 cái số 3 cx bị F02 luôn mà tôi chx làm j thất vọng,OTHER,0,train
+f3a4c829-70e4-47da-b448-3c89eaa7a384,tốt mua sắm tiệt lợi,OTHER,0,train
+88703911-83fe-4673-ae27-02cf321a2705,"không cho khách mua hàng ,tự ý hủy đơn",OTHER,0,train
+5cf3b876-a428-428a-869d-d0a78fa48f78,giao lâu vl,OTHER,0,train
+0f13559d-05e0-4325-94cd-293ac2eda16c,tot,OTHER,0,train
+ea6080a0-0ee6-4872-9817-ae728bc12e8b,ngon ok,OTHER,0,train
+547d5746-d470-4914-97dd-8b450f9f9caa,Rất tuyệt vời.luôn cập nhật thay đổi nội dung.,OTHER,0,train
+e7ab68ab-c0a4-4c7e-81c7-83fc5788be58,rất tuyệt,OTHER,0,train
+b5f4ef7f-4326-4d4a-a7c7-75ab52ad24c9,dùng tốt,OTHER,0,train
+aa994e19-0953-4d3a-a86d-594f0700e171,ok,OTHER,0,train
+beff91a6-7a53-4af1-8ede-6b11e00e0d98,giao hàng chậm,OTHER,0,train
+42be77da-cea2-4458-b0fa-8be1f03fbe69,"acc xài bao nhiêu năm, nay bị cắt hết mã, cắt hết khuyến mãi 1 giờ, xem live cũng không nhận được xu",OTHER,0,train
+0f27cef9-8299-4523-870e-b990ef33113f,Hối thúc shiper quá chán...bị hoàn đơn hàng đến mấy lần,OTHER,0,train
+c28d825f-be1d-4072-8e5c-fae4c1cc5b99,ok trả hàng hoàn tiền lâu,OTHER,0,train
+0236c501-2da7-4ccc-a0f8-8abb9e195514,thích cái xem được đơn hàng vận chuyển tới đâu để còn biết làm việc thanks Shoppe,OTHER,0,train
+75b40133-77d9-4387-a783-b7856c5a14d4,"ko tôn trọng khách hàng,mất đạy.đăng nhập thì cứ ui lỗi thấy bực mik t sẽ bốc phốt ko bao h sử dụng nữa😡😡😡😡.Phải cho t 1 lời giải thích nếu ko thì đợi lãnh hậu quả",BUG,0,train
+3a326cc8-1403-470c-a41b-5509206b8483,"chính sách trả hàng hoàn tiền không tốt, mua hàng chất lượng kém còn bắt khách phải chịu, dù đã cung cấp bằng chứng hàng lỗi",OTHER,0,train
+21cd13e7-a415-4baf-a420-54e454bc6508,"Mỗi lần tui mở Shopee lên là tui muốn tìm kiếm món hàng tui cần mua, chớ tui không muốn xem video livestream xàm xàm không liên quan tí nào tới nhu cầu của tui.",UX,0,train
+7506a820-aea1-4d80-af26-945d2abead20,lừa đảo,OTHER,0,train
+5ba21a68-a835-46b9-9416-741dd6fd667f,"vào máy gắp thú, dùng 9800 xu để gắp mà gắp được rồi thì lại cho 500 xu còn đồ gắp được thì shoppee nó nuốt luôn tỉ lệ ăn 1 đống nhả 1 ít à",OTHER,0,train
+24300dc1-d929-4469-9aca-5d1f87f4bb82,ok,OTHER,0,train
+3b7832d3-8dd5-4fca-9980-194648635d49,chuyên khoá acc,OTHER,0,train
+6e1ed0ab-a3be-4afa-ab65-0cf97d65d55c,wowww,OTHER,0,train
+20f00961-96ae-40de-b8e5-bb8d48c655be,xem live không nhận được xu,OTHER,0,train
+672c6757-5667-42de-827d-8d922ce59fd3,mua hqngf xong áp mã lại bị khóa tqif khoản,OTHER,0,train
+e62c1823-48f5-4d6b-8211-2e2df191c83c,đang xem bị quoảng cáo shopee tắt đi chưa đầy 1 phút thì lại quoảng cáo,UX,0,train
+27c358a2-bcd8-4fb4-9779-773113b83e14,quá mấy zại,OTHER,0,train
+f9cfaaca-7f3e-4b78-9ed2-2aa8640f70d0,đồ tồi,OTHER,0,train
+3d4e7fbf-5b92-4b46-a3d7-68b7bc5d6383,rất tuyệt vời,OTHER,0,train
+e74b9ae3-efae-451b-943e-9330a82a6d6d,Ok,OTHER,0,train
+0d71355f-fc18-4828-807a-5afdc6886ac4,"mua hàng nhanh chóng, thanh toán bằng nhiều cách. quyền lợi người tiêu dùng được đảm bảo. cho 5 sao",OTHER,0,train
+e0194dfb-b3c4-43ec-aea1-423c4111c8e3,app thua cc tao,OTHER,0,train
+cd31c452-34a5-4888-a1d8-eb57b77d2487,khoá tk vô cỡ,OTHER,0,train
+8b545d87-5619-43bf-80aa-32a9abdef123,"app chạy chậm so với vài nền tảng khác, đôi khi bị treo",BUG,0,train
+9fad828a-1c10-4664-970a-bc1507c75911,dùng được,OTHER,0,train
+d059f5ff-9660-4e01-90a8-24538e00a5f6,ok,OTHER,0,train
+ac6ab42a-7917-46f4-be07-3ce3a5ec484f,như l,OTHER,0,train
+8895df76-9997-4f96-bf1f-2e16625f818b,hay,OTHER,0,train
+ddb053be-cc85-4734-a8da-90e206c16c86,giá ca họp ly sân pham tốt,OTHER,0,train
+e1577111-dd04-4296-a5bf-203c3bf3a79e,uy tín,OTHER,0,train
+8be8fa88-dc38-4b0a-961a-56dedb896b1d,Shopee ngày ko ngừng hoang thiện về chất lượng phục vụ .. động hành bao vệ người mua ..very good,OTHER,0,train
+c62d9410-fca4-40e4-8082-f13db4c575b8,"wifi mạnh, điện thoại ok nhưng không cho đăng nhập:))",BUG,0,train
+a4c6dbaa-3bdf-4cae-8537-353faa616e51,bài đánh giá của tôi đâu rồi? bị xóa à? shopee bây giờ do tencent nắm quyền kiểm soát nên không chơi nữa rồi. chuyển qua tiktok shop rồi :),OTHER,0,train
+1e3e954a-6a17-4dc0-b700-f892f45930f1,Good shopping,OTHER,0,train
+6adc5fba-dc09-47df-90a4-67dddf615015,OK lắm,OTHER,0,train
+2aec1a37-b6dd-4a0b-bfe6-3f0c7c05d451,bán hay hàng giả mà giao lâu,OTHER,0,train
+7be58c42-51e1-4159-a0bc-ddbc3fc1f9ee,OK,OTHER,0,train
+fd141286-441f-486e-b002-43cce1c5ac72,nhiều lúc đặt hàng mà lần nào cx kh thành công trong khi đó kh nghe thấy ai gọi cả,OTHER,0,train
+334cd8a8-a952-4a52-98cf-552752fbab28,rrrrrrrat ttttttttot,OTHER,0,train
+6fa29d7f-3fe7-42ba-ba9f-d663555e03c4,"hạng kim cương hôm nay nó cũng mất tài khoản...chắc là nghỉ bán kinh doanh thì phải...đã xoá xác minh gì mà sdt xong còn xác minh mật khẩu, lúc tài khoản có mật khẩu đâu giờ đòi mật khẩu",BUG,0,train
+bba260b0-ddef-4e49-a9af-d436376d053c,đặt rất OK nhưng mỗi khi ko đặt đc j chịu shopee,OTHER,0,train
+1f38e29f-d4a1-4106-bdc5-607243ea897d,OK,OTHER,0,train
+773c6a35-1eb4-4a06-8a2e-5cc193e721d7,"đã mua hàng nhiều lần , khá hài lòng về cách bán hàng vs giá cả khá hợp lý",OTHER,0,train
+ef212b6a-efa3-4e0c-ae81-eac199b1cfac,tốt,OTHER,0,train
+854da3dc-4849-4790-acc2-d30576ced2e1,ok,OTHER,0,train
+51462c2b-ba70-4648-ac50-95d3d83d4509,Tôi rất hài lòng với shopee,OTHER,0,train
+ce1f2905-08ef-4279-990b-14d415ab9bcb,hay,OTHER,0,train
+84a59f8e-455c-4da6-b64c-b98b0c70b318,vẫn bị lừa cho 4 sao thôi,OTHER,0,train
+35c45ab7-a6ba-4bc3-a85a-bea4d5298df1,"- hiển thị ko đúng giá. lúc search là giá khác, vào xem là giá khác, bỏ và giỏ hàng là giá khác đến lúc thanh toán là giá khác nhưng theo chiều hướng tăng , giá lúc thanh toán luôn cao hơn giá lúc chọn sản phẩm. rất khó chịu để lựa hàng - luôn giao hàng trễ, trên app có để nếu đơn giao đến trễ sẽ được voucher nhưng ngày trên cái thông báo này luôn cập nhật theo số ngày trễ. tức là luôn luôn ko nhận đc voucher mặc dù đơn đã giao trễ hơn dự kiến ban đầu.",BUG,0,train
+78d58984-d1c3-45e0-a446-965d4ee654a6,"Cho mã đã rồi áp mã vô đặt xong báo hủy vì thấy hành vi bất thường, đúng xàm luôn. Ăn 1* sao nhá 😡",OTHER,0,train
+2df923ff-7358-41ad-ba6a-cd7eac7e5097,hàng hơi nhiều lừa đảo í,OTHER,0,train
+fb7c2531-6c30-4054-95b3-7a6eb19d4499,"lm tí gane rác mà toàn qc về app, bố m tải r qc qq",UX,0,train
+34466d72-16f1-4f0d-94ff-0c495b0656ff,coi trang nào cũng quảng cáo shopee hết giờ kì thị luôn.đánh giá 1 sao à,UX,0,train
+f577c3ea-d1dc-4328-95cf-e982c2b64708,"mua hàng đến ngày giao thì ko có hàng,nhắn shop thì ko trả lời,gửi ý kiến phản hồi cho trung tâm thì cx ko ai nhắn lại,quá thất vọng",OTHER,0,train
+179c40e2-d7a9-4bfa-9870-090d0fb47684,ok,OTHER,0,train
+f5f2511b-56d6-41cf-b130-b7a86149213e,ok đấy,OTHER,0,train
+838afa59-d647-4a00-8b27-7c17369ca643,Chà B z 4,OTHER,0,train
+116cca22-114d-403f-8854-1e974c5a0a9c,trải nhiệm tốt,OTHER,0,train
+1bdf2207-04cc-4483-9599-abd4abd17eaa,Giao hàng chậm kinh khủng,OTHER,0,train
+33aa2070-1780-4fc4-a8da-35ce02f8800b,"Shipper SPX quá tệ, tự ý hủy đơn. Gọi điện với chưa đầy 1 giât thì tắt, gọi lại 10 cuộc thì không bắt máy cuộc nào.",OTHER,0,train
+25301a35-5d8b-4069-a82a-10fb3cb87df6,",10₫ không có nhưng i love shoppe",OTHER,0,train
+79457b98-e074-4b43-80dd-06b4bad0765b,"ghép đơn quá lâu, vì lòng tham mà ảnh hưởng đến KH",OTHER,0,train
+ae28c6cd-d7c0-40a6-8fd7-0f411fe12757,shopee lừa đảo giao hàng thùng rỗng ko chịu hoàn tiền,OTHER,0,train
+902bcf42-e079-4497-9fb8-0d6143634879,ứng dụng ok,OTHER,0,train
+81760102-7058-4c31-8c14-d062d2bc4201,ok,OTHER,0,train
+53f61432-33b8-4bdd-8f12-2360506f6995,ok,OTHER,0,train
+1104083d-1bf9-41bf-8a83-e0ef9df40ca0,tót,OTHER,0,train
+74828999-db2c-4ce5-b08f-65c57b0d0eb9,đăng nhập ko được,BUG,0,train
+a8401630-f2ed-4420-a8e5-e99897dde4c7,ok,OTHER,0,train
+3d73b5cd-b062-4360-b7bb-fecc4ad2a48d,"giới hạn tài khoản của khách hàng, không cho khách hàng nhận xu😏",OTHER,0,train
+0f85c29f-6001-4b29-a32b-3d3ea9898f8d,trải nghiệm mua hàng cộng với chơi trò chơi rất vui,OTHER,0,train
+ca869e5f-589a-4b52-8e3a-f0e62309db6d,đan chơi game mà nó cứ hiện lên,UX,0,train
+9779405c-4a0c-42b6-a4b0-336261ab0f60,k nhận diện đc khuôn mặt,BUG,0,train
+de575b5a-8f57-49fe-bf46-a78a4fe865b5,"ko đặt hàng được,có mã giảm 60k cho đơn hàng đầu tiên mà đặt hàng thì tài khoản lỗi",OTHER,0,train
+2678060f-cb34-4a07-a9c5-79406075a7bb,tốt,OTHER,0,train
+9c610d07-6261-403f-9b69-54ac1ad5ccc7,nhucac đăng nhập ko đc f01 cái thg cha bây t ms tải lần đầu đã ko cho vô,OTHER,0,train
+4722f5f9-8b42-419f-8cb8-6880776d8864,tôi rất thích mua hàng trên shopee,OTHER,0,train
+fe2222fa-ddb7-41cb-8ba8-d48840f415d7,tốt,OTHER,0,train
+fc85a562-d265-481c-a023-bbb84a8ca449,sửa thành đ chỉ mời r đến lúc shipper cầm đơn r mới bt hàng ở địa chỉ cũ,BUG,0,train
+6cf7c215-849c-40ea-9979-d284d8d7549a,mình mua hàng bên shop bị . giá rẻ vừa đẹp vừa túi tiền của người tiêu dùng nên mua hàng rất OK mình sẽ mua hàng tiếp tục ủng hộ shop 5sao chất lượng của sản phẩm này,OTHER,0,train
+e2a98c04-05c3-4bec-8802-f1165560733e,Rất thu vi va vui nhộn,OTHER,0,train
+8814583d-5745-4139-90cb-4b8187917714,quá tệ người ta săn xu mà không cho nhận xu báo tài khoản vi phạm trong khi chỉ coi video săn xu bình thường có làm gì mà vi phạm,OTHER,0,train
+6b9a4aa8-ea9b-440c-8548-2acb813a95fb,shopee là một lựa chọn đúng cho người tiêu dùng.,OTHER,0,train
+d89fe598-5bc7-4502-9c21-496f7ad339ee,cần cải thiện chính sách trong giao hàng đảm bảo đúng và đủ số lượng. đợt này đặt hàng trên shopee rất hay bị giao thiếu số lượng khi mua. nhắn tin với đơn vị cung cấp cũng kh dc phản hồi lại. cần thay đổi lại chính sách với các đơn vị cung cấp đảm bảo uy tín trung thực và đảm bảo đúng đủ số lượng trong đơn,OTHER,0,train
+72856b06-acb3-4801-a9c6-3b08b1fe7de2,"sao càng ngày tìm mọi cách giảm không cho săn xu như hòi lâu giờ, là sao ta:)?",OTHER,0,train
+e9822c58-e956-4faa-9e9c-fa4b56153040,đồ đặt về giống y như trong hình luôn ýyyyyy,OTHER,0,train
+fff7aaad-ceee-49af-bfc7-ef32a908d1c9,Làm việc nhiều page cùng lúc mà vẫn nhẹ mượt,OTHER,0,train
+f420f129-eafc-42b0-a173-0063307a2140,tốt,OTHER,0,train
+d1d84864-cc4a-4b00-80e0-a29cc77db661,thích vì hay có mã giảm giá giảm ship,OTHER,0,train
+0afd59e1-8b46-4c2a-9aee-714c6dc0d167,kém toàn thời gian,OTHER,0,train

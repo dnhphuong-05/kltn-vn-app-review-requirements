@@ -43,7 +43,9 @@ Outputs, all in `05_experiments/rq1_classification/`:
 
 - `paper_tables_*.csv`: 41 tables with English column names and percentages rounded to one decimal;
 - `paper_tables_columns.csv`: the definition of every column;
-- `paper_tables_manifest.json`: the source files of every table, the commit and the run date;
+- `paper_tables_manifest.json`: the source files of every table, the commit and the run date. The run of 21/11/2026
+  recorded commit `b436fad` with uncommitted changes; the table code (`paper_tables.py`, notebook 26) was committed
+  unchanged in `d6b9628` on 22/11/2026;
 - `paper_tables_gates.csv`: the consistency checks;
 - `paper_tables_fig_routing_en.png` and `paper_tables_fig_cost_tco_en.png`: Figures 3 and 4.
 
@@ -66,7 +68,7 @@ Outputs, all in `05_experiments/rq1_classification/`:
 | Cost scenarios in Section 4.4 | `paper_tables_rq3_existing_labels.csv`, `paper_tables_rq3_llm_price.csv`, `paper_tables_rq3_routing_rates.csv`, `paper_tables_rq3_observed_scale.csv` |
 | Prompt variant and calibration (Sections 4.2 and 4.3) | `paper_tables_rq1_prompt_variant*.csv`, `paper_tables_app_calibration*.csv` |
 | Tables A2, A3, A4 | `paper_tables_app_per_seed.csv`, `paper_tables_rq1_dedup.csv`, `paper_tables_app_errors.csv` |
-| Figure 1 | `09_thesis/figures/Fig_1_workflow_MJCS_academic.png` (drawing) |
+| Figure 1 | Workflow diagram drawn by the authors; it is part of the manuscript and is not generated from result files |
 | Figure 2 | `paper_step2_pareto_en.png` (notebook 17) |
 | Figures 3 and 4 | `paper_tables_fig_routing_en.png`, `paper_tables_fig_cost_tco_en.png` |
 

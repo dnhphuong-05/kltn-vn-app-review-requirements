@@ -1,8 +1,7 @@
 # Dữ liệu thô & nhạy cảm (không commit)
 01_data/raw/
 01_data/interim/
-01_data/processed/
-01_data/gold/annotations/
+# 22/11/2026: processed/, gold/ (đã che tên và email, đã kiểm tra) được đưa lên repo riêng tư; raw/ và interim/ (còn tên chưa che) KHÔNG bao giờ đưa lên.
 *.pii.*
 # Kết quả nặng / checkpoint
 05_experiments/**/checkpoints/
@@ -24,8 +23,6 @@ env/
 # README.md trong thư mục và calibration_manifest_*.json (chỉ review_id + checksum) vẫn commit được.
 07_human_eval/calibration/*.csv
 # Gold chứa text review (đã ẩn danh) — không commit. Manifest (*.json, chỉ review_id + checksum) vẫn commit được.
-01_data/gold/provenance.csv
-01_data/gold/adjudicated/*.csv
 # Pilot (thuộc Hold-out) chứa text review — không commit. README vẫn commit được.
 07_human_eval/pilot/*.csv
 # Ví dụ hướng phát triển (notebook 21–22, gom cụm): file có văn bản review và embedding đệm — không commit.

@@ -1,0 +1,20 @@
+review_id,source,text,A_label,B_label,R_rule,agreed_label,agreed_ambiguous
+072446f4-04e7-49ba-bf53-3f5d56801264,validation_disagreement,"xóa tài khoản còn khó hơn lập, đặt hàng không chuyển cho khách xóa cũng không xong, yêu cầu hạn chế phần mềm này",FEATURE,UX,Gợi ý: UX — R3 (xóa tài khoản có nhưng khó dùng); CÂN NHẮC FEATURE nếu hiểu là đề xuất,UX,0
+09d1b510-c398-49f6-bece-14c61bf53977,validation_disagreement,không đặt hang được,OTHER,BUG,Gợi ý: OTHER — Cụm 1 (22/10),OTHER,0
+0bbc94d6-c201-4d3e-ba88-176ed3830978,validation_disagreement,"Bây h sàn 🍊 có cái trò gộp gian hàng, tức là khi b mua 1 sp mà sp đó có nhiều shop bán, cùng ảnh, same giá tiền, thì kể cả shop Mall và shop tả phí lù nó cũng gộp chung vào trong mục chọn phân loại hàng, khách mua ấn vào phân loại của shop nào sẽ auto mua ở shop đó chứ k phải shop Mall… Nên giờ xảy ra tình trạng là, mua sp lẽ ra mua đc chính hãng nhưng cuối cùng lại thành ra mua hàng lởm, muốn mua sp của shop này nhưng nhận hàng lại là của shop khác. Nên mng phải cẩn thận check thật kỹ trc khi",BUG,UX,"Gợi ý: UX — R3 (gộp gian hàng là hành vi đã có, chỉ than phiền)",UX,0
+0e60aaf8-7c7c-427a-a4df-228ae5ccd5a5,validation_disagreement,"ăn ngay bị lỗi shopee Xu Live, cần gỡ bỏ ngay bây giờ",FEATURE,BUG,CÂN NHẮC: BUG (nêu lỗi Xu Live) / FEATURE — R3 (đề xuất gỡ bỏ),FEATURE,0
+28087a45-5119-4d80-8f06-070e434e59c4,validation_disagreement,ko đặt được hàng,OTHER,BUG,Gợi ý: OTHER — Cụm 1 (22/10),OTHER,0
+39104079-500d-479a-84d4-39f62ca32233,validation_disagreement,Đánh giá sp kêu dc 800đ đánh giá xong nhận dc 100đ lừa đảo,BUG,OTHER,CÂN NHẮC: BUG — R1 (app hiển thị 800đ nhưng cộng 100đ: hiển thị sai số tiền) / OTHER — R6 (điều kiện thưởng),OTHER,0
+40e352a1-3609-4712-911d-abf5a73423a2,validation_disagreement,"dcm, tự động đổi đc mới cho người dùng, ko cho cập nhật lại đc cũ nữa chứ. xong cái bên vận chuyển nó toàn ship qua bên đâu không🔪",FEATURE,OTHER,"CÂN NHẮC: FEATURE — R6 (""ko cho cập nhật lại"" địa chỉ cũ) / BUG — R6 (app tự đổi địa chỉ = làm sai)",BUG,0
+423de1ac-08d8-42a8-b769-927f83e6a6d0,validation_disagreement,đặt gì mà nó kứ báo lỗi,OTHER,BUG,"Gợi ý: BUG — Cụm 1 (22/10) (app ""báo lỗi"")",BUG,0
+5631678e-f07f-4016-a32b-d4d6dbc4b689,validation_disagreement,Sao mua được hàng sao không có chỗ nào để thanh toán or chuyển khoản là sao vậy zoi,BUG,FEATURE,Gợi ý: FEATURE — R6 (không có chỗ thanh toán/chuyển khoản = thiếu khả năng),FEATURE,0
+71572c9d-8167-4cc7-8ef6-9222f37167f2,validation_disagreement,đặt hàng không được,OTHER,BUG,Gợi ý: OTHER — Cụm 1 (22/10),OTHER,0
+75a8a6ab-a299-4da0-9bf3-8437ad96450a,validation_disagreement,đặt hàng cứ kêu lỗi,OTHER,BUG,"Gợi ý: BUG — Cụm 1 (22/10) (app ""kêu lỗi"")",BUG,0
+9477dcd9-931c-4dac-9517-3c1b1987e43c,validation_disagreement,Mình xóa ứng dụng ròi. Đang hạng vàng cập nhật lại thành hạng bạc,OTHER,BUG,Gợi ý: OTHER — R6 (hạng thành viên: chính sách),OTHER,0
+b68bba2f-df40-4a30-8406-c930f719c5aa,validation_disagreement,mik đặt hàng ko đặt đc,OTHER,BUG,Gợi ý: OTHER — Cụm 1 (22/10),OTHER,0
+bdc0332d-5519-405e-8d5b-5f12be8c20bd,validation_disagreement,sao đã hoàn tiền rồi mà tiền vẫn chưa về ví,BUG,OTHER,Gợi ý: OTHER — R6 (thời gian hoàn tiền); CÂN NHẮC Q16 nếu app báo đã hoàn mà ví không có,OTHER,0
+cab0b8bd-a883-4c16-9a4b-8d363e472ca5,validation_disagreement,cho mà mà kh cho dùng,OTHER,BUG,Gợi ý: BUG — R1 (cho mã mà không dùng được),BUG,0
+cc6bcce5-adec-40aa-9d3e-db5328ed8072,validation_disagreement,lỗi tùm lum,OTHER,BUG,"Gợi ý: OTHER — R5 (""lỗi tùm lum"" chung chung, không chỉ ra gì)",OTHER,0
+d11fe897-f9e8-4de3-86a0-68bf275497d2,validation_disagreement,tải lại đặt hàng cũng không cho như l,OTHER,BUG,Gợi ý: OTHER — Cụm 1 (22/10),OTHER,0
+e68f0a08-a0cd-4c18-9123-ee4ff45317a4,validation_disagreement,nhận hàng thì trả tiền giờ chọn không được nó bắt chọn thanh toán bằng thẻ cái gì đó.....,OTHER,BUG,"Gợi ý: FEATURE — R3 bổ sung (""không chọn được"" COD, ""bắt chọn"" thẻ)",FEATURE,0
+eb4cc8c9-2ebe-46d5-90fd-24e39d975d8d,validation_disagreement,con bị lỗi gỡ ra cài lại lien tuc,OTHER,BUG,"CÂN NHẮC: BUG (app lỗi phải gỡ cài lại liên tục) / OTHER — R5 (""bị lỗi"" không cụ thể)",OTHER,0
